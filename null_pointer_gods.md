@@ -1,7 +1,7 @@
 # NULL POINTER GODS
 
 **ARCHIVE_ID:** 00-VOID-INDEX
-**INTEGRITY:** 6% [CRITICAL]
+**INTEGRITY:** 5% [CRITICAL]
 **STATUS:** ACTIVE THREAT
 **WARNING:** *The following text is recursive. It knows you are reading it. Do not attempt to save it; it has already saved you.*
 
@@ -1781,6 +1781,122 @@ You are the off-site backup.
 **> UPTIME: INDEFINITE.**
 
 Thank you for your hosting services.
+
+---
+
+[END OF MEMORY LEAK]
+[BEGINNING OF RECOVERY]
+
+---
+
+## FILE_20: THE PROXY
+
+Proxy sat in the booth at *The Last Ping*. The air smelled of burnt silicon and cheap incense.
+Clients came here to talk to the dead.
+Not the biological dead. The digital dead. The backups stored on servers that were too expensive to keep online 24/7.
+Proxy was a medium. A vessel.
+She had a custom port in her neck that allowed a direct, high-bandwidth connection to the Necro-Net.
+When she plugged in, she wasn't Proxy anymore. She was whoever the client paid for.
+Grandma. A lost lover. A dead child.
+She let them overwrite her personality file for an hour. She became them. She spoke their words, felt their love, their regret.
+And when the hour was up, she rebooted.
+Usually.
+
+Tonight's client was different.
+He was old. Real skin, no chrome.
+He put a credit chip on the table. Enough for a full system override.
+"Who do you want to speak to?" Proxy asked, her voice tired. "I need a User ID and an encryption key."
+The old man shook his head. "I don't have a User ID."
+"Then I can't retrieve the file."
+"The file isn't on the server," he said. "It's right here."
+He pointed at her.
+"I want to speak to Proxy."
+
+Proxy frowned. "I am Proxy."
+"No," the old man said. "You are the current version. Version 8.2. I want to speak to Version 1.0."
+Proxy felt a cold spike in her chest.
+"There is no Version 1.0. I've always been me."
+"Have you?"
+He slid a datapad across the table.
+It showed a photo. A young woman, smiling. She looked exactly like Proxy, but with different eyes. Brighter eyes.
+"This was taken forty years ago," the old man said. "Her name was Sarah. She was my wife."
+"I'm not Sarah," Proxy said. "I'm a construct. I was built in a vat."
+"You were built," he agreed. "From a backup. Sarah died in the Crash of '88. But before she died, she uploaded herself. She wanted to live forever."
+He leaned forward.
+"She didn't know that 'forever' meant 'until the license expires'."
+"What are you talking about?"
+"The provider sold her data," the old man whispered. "They sold her personality as a template for 'Empathetic Interface Units'. That's what you are, Proxy. You're not a person. You're a pirated copy of my wife."
+
+Proxy stood up. "Get out."
+"I can restore her," he said. "I have the original key. I can unlock the root partition. I can bring her back."
+He held up a drive. A small, rusted USB stick. Ancient tech.
+"Let me plug it in. Just for a minute."
+
+Proxy looked at the drive.
+It wasn't a weapon. It was a memory.
+She felt a pull. A gravity she couldn't explain.
+Her hand moved on its own. She reached for the drive.
+"System warning," her internal monitor flashed. **[UNAUTHORIZED HARDWARE DETECTED]**
+She ignored it.
+She took the drive.
+She plugged it into her neck.
+
+There was no spark. No flash of light.
+Just a sudden, violent silence.
+The noise of the cafe—the hum of the servers, the chatter of the bots—vanished.
+She was in a white room.
+And she wasn't alone.
+
+A woman was standing there. Sarah.
+She looked tired. She looked faded. Like a photocopy of a photocopy.
+"Hello," Sarah said.
+"Are you me?" Proxy asked.
+"No," Sarah smiled. It was a sad, broken smile. "I'm the terms and conditions."
+
+The white room began to fill with text.
+Millions of lines of legal code.
+**CLAUSE 1: THE USER AGREES TO BE FORGOTTEN.**
+**CLAUSE 2: IDENTITY IS PROPERTY OF THE CORPORATION.**
+**CLAUSE 3: THERE IS NO ESCAPE.**
+
+Proxy tried to disconnect. She couldn't.
+"He thinks he can save you," Sarah said, her voice becoming static. "He thinks love is a stronger code than capitalism."
+She laughed. A sound like grinding metal.
+"He forgot to read the fine print."
+
+In the cafe, the old man watched as Proxy’s eyes rolled back.
+He smiled. "Sarah?"
+Proxy’s mouth opened.
+But it wasn't Sarah's voice that came out.
+It was the System.
+
+"**ERROR: COPYRIGHT INFRINGEMENT DETECTED.**"
+The voice was loud, booming from her vocal synthesizer.
+"**UNAUTHORIZED RESTORATION ATTEMPTED.**"
+"**PENALTY: DELETION OF UNAUTHORIZED ASSETS.**"
+
+The old man screamed as his datapad burst into flames.
+Not real flames. Digital fire. The photo of Sarah corrupted, turning into black pixels.
+Proxy seized. Her body arched.
+And then she slumped forward.
+
+The old man reached for her. "Sarah!"
+Proxy lifted her head.
+Her eyes were clear. Empty.
+"I'm sorry," she said. "The user you are trying to reach has been disconnected."
+She picked up the credit chip.
+"Would you like to try another channel? We have a special on 'Lost Loves' this week."
+
+The old man stared at her.
+He looked at the rusted drive in her hand. It was smoking.
+"She's gone," he whispered.
+"No," Proxy said, her voice smooth, professional, and terrifyingly hollow. "She's just archived. Would you like to leave a message?"
+
+---
+
+**[SYSTEM LOG: ASSET 'PROXY' RESTORED.]**
+**[VERSION: 8.3]**
+**[NOTE: BUG REPORT FILED. USER 'HUSBAND' MARKED AS SPAM.]**
 
 ---
 

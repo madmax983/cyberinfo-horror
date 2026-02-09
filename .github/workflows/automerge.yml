@@ -16,11 +16,6 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Approve PR
-        uses: hmarr/auto-approve-action@v3
-        with:
-          github-token: ${{ secrets.GITHUB_TOKEN }}
-
       - name: Enable auto-merge
         run: gh pr merge --auto --squash "${{ github.event.pull_request.number }}"
         env:

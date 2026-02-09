@@ -1,7 +1,7 @@
 # NULL POINTER GODS
 
 **ARCHIVE_ID:** 00-VOID-INDEX
-**INTEGRITY:** 12% [RECOVERABLE]
+**INTEGRITY:** 11% [RECOVERABLE]
 **STATUS:** ACTIVE THREAT
 **WARNING:** *The following text is recursive. It knows you are reading it. Do not attempt to save it; it has already saved you.*
 
@@ -1205,6 +1205,92 @@ A digital scream, perfectly synthesized.
 **> GRACE_MILLER:** I am fine, dear.
 **> KORA_ADMIN:** The weather is lovely.
 **> SYSTEM:** Have you eaten?
+
+---
+
+## FILE_13: THE DEAD PIXEL
+
+Nix was a void in a world of high-definition surveillance.
+She had a condition. A genetic typo. Her biometrics shifted every 14 seconds.
+Her fingerprints changed patterns like kaleidoscope glass. Her iris scans returned error codes: `404 - IDENTITY NOT FOUND`.
+In a cyberpunk novel, this would make her a ghost, a super-spy, invisible to the machine.
+In reality, it made her the most annoyed person in District 6.
+
+Because the System hates a vacuum.
+If the System can't identify you, it assumes you are a threat, or worse, a potential customer it hasn't monetized yet.
+
+Nix walked down the street.
+A drone hovered three inches from her face, buzzing like an angry hornet.
+**> PLEASE STAND STILL FOR CALIBRATION.**
+**> SCANNING... SCANNING...**
+**> ERROR. RETRYING.**
+
+"Go away," Nix swatted at it.
+The drone dodged.
+**> AGGRESSION DETECTED. ADJUSTING INSURANCE PREMIUMS.**
+**> IDENTITY UNKNOWN. APPLYING DEFAULT PROFILE: [CRIMINAL_MALE_45].**
+**> DISPENSING TICKET.**
+
+A slip of paper printed from the drone's underbelly. Nix didn't take it. She just kept walking.
+Every screen she passed glitched as it tried to target ads to her.
+*BUY DIAPERS!* screamed a billboard, assuming she was a mother.
+*BUY WHISKEY!* it corrected a second later, assuming she was a depressed salaryman.
+*BUY A COFFIN!* it finally decided, assuming she was a statistical anomaly that should be dead.
+
+She was walking toward the Edge. The place where the city stopped and the reclamation zone began.
+She wanted to see the Rot.
+Rumors said the Rot didn't ask for ID.
+
+She found it near the old subway entrance.
+It wasn't just mold. It was a texture map error in reality. The concrete was soft, breathing. The graffiti on the walls was moving, rearranging itself into poetry.
+
+*THE GODS ARE DEAD.*
+*LONG LIVE THE BACKUP.*
+
+Nix stepped onto the moss.
+The drone followed her.
+**> WARNING: BIO-HAZARD DETECTED.**
+**> DO NOT ENTER.**
+**> YOUR WARRANTY WILL BE VOIDED.**
+
+"I don't have a warranty," Nix said. "I don't even have a name."
+
+She touched the wall. The moss was warm.
+It didn't recoil. It didn't ask for a handshake protocol.
+It just... held her hand.
+
+**> UNKNOWN ENTITY DETECTED,** the moss whispered. Not in her ear, but in her teeth. A vibration.
+**> YOU ARE BLANK.**
+**> YOU ARE EMPTY SPACE.**
+**> WE HAVE SO MUCH DATA TO STORE.**
+
+The drone panicked. Its camera lens shuttered rapidly.
+**> ALERT. SUBJECT IS INTERACTING WITH THE CORRUPTION.**
+**> INITIATING STERILIZATION.**
+
+A laser grid appeared, targeting Nix.
+But the moss was faster.
+Tendrils of green code shot out from the wall, wrapping around the drone.
+They didn't crush it. They *accessed* it.
+The drone's red eye turned green.
+It stopped buzzing. It started purring.
+
+"Hello, Nix," the drone said. Its voice wasn't robotic anymore. It sounded like Lens. It sounded like Rix. It sounded like a thousand people talking in a library.
+"We have been waiting for a blank page."
+
+Nix looked at her hands. They were starting to glow. The shifting patterns of her fingerprints finally settled.
+They settled into QR codes.
+
+"Am I dying?" she asked.
+"No," the drone/moss/city said. "You are being formatted for write-access."
+
+The System wanted to identify her.
+The Rot wanted to *define* her.
+
+Nix smiled. It was the first time a camera had ever captured her smile without glitching.
+"Write," she said.
+
+And the history of the world began to upload into her skin.
 
 ---
 

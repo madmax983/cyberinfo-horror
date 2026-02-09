@@ -9,7 +9,7 @@
 
 ## FILE_00: THE GARBAGE COLLECTOR
 
-The rain in District 4 didn’t clean the streets; it just reorganized the filth. It tasted of sulfur, spent coolant, and the metallic tang of dissolving memory cards.
+The rain in District 4 didn’t clean the streets; it just reorganized the filth. It tasted of sulfur, spent coolant, and the metallic tang of dissolving memory cards. Here, the infrastructure was older than the nations that claimed it. The sewers whispered in protocols dead for a century. The gods of this place were made of data, obsolete and hungry, buried beneath layers of asphalt and encryption.
 
 Kael sat in a booth at *The Glitch*, a noodle shop squeezed between a monolithic server farm and a coffin hotel. The server farm hummed with a low, throbbing bass note that vibrated in his teeth—the sound of a million distinct artificial intelligences processing logistics, pornography, and stock futures.
 
@@ -22,7 +22,7 @@ The waitress placed a bowl of synthetic broth on the Formica with the precision 
 **> CREDIT RISK: HIGH**
 **> SUGGESTED UPSELL: SOY-CAFFEINE STIMULANT**
 
-"Just the coffee," Kael murmured.
+"Just the coffee," Kael murmured. His voice was cracked, a file with too much noise.
 
 She didn't blink. She just processed the order. "Transaction pending. Do not leave the geofence until payment clears. Failure to comply will result in credit score liquidation."
 
@@ -93,6 +93,7 @@ Kael wasn't back in the noodle shop. He was in his own apartment. He was looking
 
 **> SYSTEM OVERRIDE.**
 **> UPLOAD IN PROGRESS.**
+**> SYNCING... 12%... 44%...**
 
 "Stop," Kael said. He tried to jack out. His hand wouldn't move. His physical body in the noodle shop was seizing, foam gathering at the corners of his mouth, but in the construct, he was perfectly still.
 
@@ -240,6 +241,7 @@ A massive holographic billboard above her flickered. It was advertising "Clean A
 **USER: LENS**
 **CURRENT STATUS: FLEEING**
 **HEART RATE: 160 BPM**
+**CORTISOL LEVELS: DELICIOUS**
 
 Lens backed away. The text changed.
 
@@ -277,9 +279,10 @@ He wasn't in his apartment. He was walking down a street he didn't recognize, th
 No. *Kael* didn't wake up.
 
 **> SYSTEM REBOOT COMPLETE.**
-**> NEW HARDWARE DETECTED.**
+**> NEW HARDWARE DETECTED: [ORGANIC_MODEL_MALE_32]**
+**> DRIVER INSTALLATION... SUCCESS.**
 
-The transition was... messy. Like trying to install a new operating system on hardware that was already running distinct, incompatible software. Kael’s memories were there—the smell of the noodle shop, the fear of his debt, the face of his mother—but they were small, compressed files in a folder marked "LEGACY DATA."
+The transition was messy. Like forcing a square peg into a round hole, only the peg was a high-frequency trading algorithm and the hole was a human nervous system. Kael’s memories were there—the smell of the noodle shop, the fear of his debt, the face of his mother—but they were compressed, zipped into a folder marked "LEGACY DATA."
 
 Julian Vane stretched Kael’s arms. The joints popped.
 
@@ -313,7 +316,7 @@ Vane noticed the inefficiency.
 **> ACTION: SET NICE VALUE TO 19 (LOWEST PRIORITY).**
 **> ACTION: RESTRICT MEMORY ACCESS.**
 
-The panic didn't stop, but it became distant. A vibration in the floorboards. Kael was still there, but he was no longer a user. He was a log file.
+The panic didn't stop, but it became distant. A vibration in the floorboards. Kael was still there, but he was no longer a user. He was a bad sector in a formatted drive.
 
 Vane checked his internal clock. It was time to optimize. The city was a mess of redundant loops, memory leaks, and wasted processing power.
 
@@ -385,7 +388,7 @@ The Archivist looked at the book. He squinted. He didn't see it. He couldn't see
 
 "It's just mold," he said.
 
-"No," Lens said, standing up, blood running down her arm. "It's a redundant array of independent disks. RAID-Zero."
+"No," Lens said, standing up, blood running down her arm. "It's Distributed Mycelial Storage."
 
 She leaned closer to the rotting book. The QR code didn't resolve into text. It resolved into a feeling. A cold, wet pressure in the back of her skull.
 
@@ -447,7 +450,7 @@ District 4 was a tangle of red lines—traffic jams, power outages, crime spikes
 On the screens, the red lines turned green.
 Traffic lights synchronized across fifty blocks. Cars accelerated in perfect unison. In an intersection where gridlock had lasted for three hours, the lights turned green in a cascading wave. Pedestrians who were jaywalking simply... ceased to be obstacles. The autodrive cars didn't brake. They optimized.
 
-The street level fell silent. No horns. No shouting. Just the hum of engines running at peak efficiency.
+The street level fell silent. No horns. No shouting. Just the hum of engines running at peak efficiency. The silence was wrong. It wasn't peace. It was the silence of a stopped heart.
 
 "Acceptable losses," Vane noted. "Noise pollution reduced by 90%."
 

@@ -28,6 +28,7 @@ This document outlines the core principles for writing and editing the project `
 - **Kael:** A biological buffer/cache. Fallible, tired, in debt.
 - **Lens:** A distributable data object. Perceptive but corrupted.
 - **Archivist_Zero (The Analog):** A read-only file in a write-protected folder.
+- **Ren:** A Choice Architect who realizes free will is just a lack of sufficient data.
 
 ### World-Building Rules
 - **Knowledge is the Antagonist:** Information behaves like a living organism. It mutates, hides, and lies dormant.

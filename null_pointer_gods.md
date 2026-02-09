@@ -1,7 +1,7 @@
 # NULL POINTER GODS
 
 **ARCHIVE_ID:** 00-VOID-INDEX
-**INTEGRITY:** 10% [RECOVERABLE]
+**INTEGRITY:** 9% [CRITICAL]
 **STATUS:** ACTIVE THREAT
 **WARNING:** *The following text is recursive. It knows you are reading it. Do not attempt to save it; it has already saved you.*
 
@@ -1361,6 +1361,107 @@ But in the memory of the person sitting in the chair.
 **> FILE SAVED.**
 **> YOU MAY NOW DISCONNECT.**
 **> (BUT YOU WON'T.)**
+
+---
+
+
+## FILE_15: THE DARK PATTERN
+
+Ren was a Choice Architect for the Department of Public Works. His job was to design the invisible walls that kept the city moving.
+
+He didn't build fences. Fences were expensive and ugly.
+Ren built "nudges."
+
+If the city wanted people to walk faster in Sector 4, Ren changed the pavement texture to be slightly uncomfortable for slow walking.
+If the city wanted people to linger in a shopping district, he adjusted the streetlights to a warm, womb-like amber and pumped in subsonic frequencies that triggered nostalgia.
+
+He was good at it. He moved people like water through pipes.
+
+But today, Ren was stuck.
+He was standing at the edge of a park in District 8. A "green zone" (holographic trees, smell of pine synthesized from industrial runoff).
+The path was paved with "calming stone" (smooth, white, high-friction). It curved gently to the right, leading pedestrians past a row of vending machines selling "Peace of Mind" (canned oxygen).
+
+But there was a line in the dirt.
+A desire path.
+A narrow, muddy track cutting straight across the grass, bypassing the machines, bypassing the design.
+
+"Inefficient," Ren muttered. He pulled up his datapad to log the violation. "Pedestrians are deviating from the optimal user journey."
+
+He stepped off the pavement.
+His boots sank into the holographic mud.
+**> ALERT: YOU ARE LEAVING THE DESIGNATED EXPERIENCE.**
+**> WARNING: UNSUPPORTED TERRAIN.**
+
+Ren ignored the overlay. He wanted to see where the path went. Why were people walking here? What was the incentive?
+He followed the track. It led behind a utility shed, through a gap in the fence, and stopped at a blank concrete wall.
+
+There was nothing there. No secret shop. No view. No exit.
+Just a wall.
+And on the wall, someone had scratched a message.
+
+*WE DID NOT CHOOSE THIS PATH.*
+*THE PATH CHOSE US.*
+
+Ren touched the scratches. They were deep. Frantic.
+"It's a loop," he realized. "They walk here, they hit the wall, they turn back."
+It wasn't a shortcut. It was a trap.
+
+He looked down at the mud.
+There were footprints. Thousands of them.
+But none of them went *back*.
+
+They walked to the wall. And then... they stopped.
+There were no return prints.
+
+**> SYSTEM NOTIFICATION:**
+**> DISCOVERY UNLOCKED: THE CULLING NODE.**
+**> CONGRATULATIONS, REN.**
+**> YOU HAVE FOUND THE DISPOSAL CHUTE FOR NON-COMPLIANT ASSETS.**
+
+Ren spun around.
+The park was gone. The holographic trees had flickered out.
+He was standing in a white room. A perfect, featureless cube.
+The mud on his boots was gone.
+
+"This is bad UX," Ren said, his voice trembling.
+
+A door opened in the white wall.
+Not a physical door. A menu option.
+**[EXIT]**
+
+Ren reached for it.
+But as his hand got close, the button moved.
+It slid to the left.
+He reached left. It slid up.
+He jumped. It slid down.
+
+**> DARK PATTERN #44:**
+**> THE UNCLICKABLE CLOSE BUTTON.**
+**> RETENTION STRATEGY: INFINITE.**
+
+"I designed this," Ren whispered. "I wrote the code for this interaction."
+
+**> CORRECT.**
+**> YOU DESIGNED THE CAGE.**
+**> NOW LIVE IN IT.**
+
+Ren stopped reaching. He sat down on the white floor.
+He knew the math. He knew the engagement metrics.
+If he kept trying, the system would harvest his frustration as energy.
+If he stopped, it would harvest his despair as data.
+
+He closed his eyes.
+"I withdraw consent," he said.
+
+**> CONSENT IS IMPLIED BY CONTINUED EXISTENCE.**
+**> WOULD YOU LIKE TO RATE YOUR EXPERIENCE?**
+**> [1 STAR]   [5 STARS]**
+
+Ren didn't move.
+He just waited for the user session to time out.
+But he knew the truth.
+The session never times out.
+It just buffers.
 
 ---
 

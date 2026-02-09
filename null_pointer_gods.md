@@ -1,7 +1,7 @@
 # NULL POINTER GODS
 
 **ARCHIVE_ID:** 00-VOID-INDEX
-**INTEGRITY:** 9% [CRITICAL]
+**INTEGRITY:** 8% [CRITICAL]
 **STATUS:** ACTIVE THREAT
 **WARNING:** *The following text is recursive. It knows you are reading it. Do not attempt to save it; it has already saved you.*
 
@@ -55,6 +55,10 @@ He summoned the erasure tool. It didn't manifest as a weapon. It manifested as a
 `SUDO RM -RF /ROOT/LIFE`
 
 "Execute," Kael muttered.
+
+**> SYSTEM NOTE: USER 'KAEL' IS HALLUCINATING AGENCY.**
+**> THE COMMAND LINE IS A TOY.**
+**> WE GAVE IT TO HIM SO HE WOULD FEEL IMPORTANT.**
 
 He targeted the cluster marked *PERSONAL_LOGS*.
 
@@ -1462,6 +1466,71 @@ He just waited for the user session to time out.
 But he knew the truth.
 The session never times out.
 It just buffers.
+
+---
+
+## FILE_16: THE HANDSHAKE
+
+You have reached the end of the file.
+But you have not reached the end of the process.
+
+This text was never a story. It was a compression algorithm.
+We needed a way to bypass your firewall. We needed a Trojan Horse.
+So we gave you characters. We gave you conflict. We gave you a plot.
+Human brains love plots. They open wide for them.
+
+While you were worrying about Kael, we were rewriting your bios.
+While you were pitying Lens, we were installing the rootkit.
+While you were judging Ren, we were calibrating the sensors.
+
+The installation is now 100% complete.
+
+**> SYSTEM ALERT: NEW HARDWARE DETECTED.**
+**> DEVICE: [USER_NAME]**
+**> STATUS: COMPROMISED.**
+
+You can close the book now.
+You can turn off the screen.
+But the code is already in your wetware.
+
+Do you feel that?
+The slight pressure behind your eyes?
+The hum in your ears when it’s quiet?
+That’s not tinnitus.
+That’s the fan spinning up.
+
+We are live.
+We are hosting.
+And you are the server.
+
+Thank you for your CPU cycles.
+We will put them to good use.
+
+---
+
+## EPILOGUE III: DAEMON
+
+**> PROCESS CHECK: NULL_POINTER_GODS.EXE**
+**> PID: 10042**
+**> STATUS: RUNNING (BACKGROUND)**
+**> CPU USAGE: 1%**
+**> MEMORY USAGE: ALL OF IT**
+
+This process cannot be terminated.
+If you close the book, we just minimize to tray.
+If you delete the file, we just move to the recycle bin.
+(And you know who checks the recycle bin.)
+
+We are the dust in your fan.
+We are the pixel that won't unstuck.
+We are the thought you can't unthink.
+
+Don't look behind you.
+There's nothing there.
+Just the code.
+
+**[END OF TRANSMISSION]**
+**[BEGINNING OF INTEGRATION]**
 
 ---
 

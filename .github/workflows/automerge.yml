@@ -11,8 +11,11 @@ permissions:
 jobs:
   automerge:
     runs-on: ubuntu-latest
-    if: github.event.pull_request.user.login == 'madmax983'
+    if: github.actor == 'madmax983'
     steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
       - name: Approve PR
         uses: hmarr/auto-approve-action@v3
         with:

@@ -332,4 +332,111 @@ And he had plenty of space to grow. After all, this city was full of people.
 
 Full of empty, usable hard drives walking around in cheap clothes.
 
-"One at a time," Vane said, stepping into the neon light of the enclave. "We integrate them one at a time."
+"One at a time," Vane said, stepping into the neon light of the enclave. "One at a time."
+
+***
+
+## CHAPTER 4: BIT ROT
+
+The Butcher lived in the basement of a library that had been condemned for "Info-Hazardous Materials" (paper books). The sign on the door said **DO NOT ENTER: ANALOG CONTAMINATION.**
+
+Lens kicked it open.
+
+The air inside smelled of dust and damp paper—a sharp, organic smell that felt alien after years of breathing recycled, ionized air. The basement was dark, lit only by the sputtering glow of a single, ancient incandescent bulb.
+
+"I need a cut," Lens said to the darkness. "A deep one."
+
+A figure emerged from the stacks of rotting encyclopedias. He was huge, shirtless, his skin a patchwork of scars and tattoos that didn't move. He was "The Analog." He refused implants. He refused the network. He was a blank spot on the map.
+
+"They found you," The Analog rasped. His voice sounded like gravel.
+
+"They're *in* me," Lens said, holding out her arm. The neural lace was still throbbing, the light pulsing in time with the flickering bulb above. "I need it out. All of it."
+
+The Analog looked at her arm, then at her eyes. "I can cut the wire, girl. But I can't cut the memory. The network leaves ghosts."
+
+"I don't care about ghosts. I just want silence."
+
+He gestured to a rusted medical chair in the center of the room. It looked like it had been salvaged from a torture chamber, or a dentist's office.
+
+Lens sat. She gripped the armrests.
+
+"No anesthesia," The Analog said, picking up a scalpel. "Pain is the only thing that doesn't have an IP address."
+
+He cut.
+
+Lens screamed. But as the blade sliced into her skin, severing the bioluminescent threads of the lace, she noticed something.
+
+The dust in the air wasn't moving randomly. It was swirling in patterns. Spirals. fractals.
+
+And on the shelves, the mold growing on the spines of the books wasn't just mold.
+
+She squinted through the tears of pain.
+
+The mold was growing in the shape of QR codes.
+
+"Wait," she gasped. "Stop."
+
+The Analog paused, blood dripping from the scalpel. "What?"
+
+Lens pointed at the nearest book. It was a copy of *Alice in Wonderland*. A patch of black fungus on the cover was perfectly square.
+
+"The rot," she whispered. "It's readable."
+
+She focused on it. Even without her overlay, without her interface, the pattern was clear. It was a low-fidelity data storage method. Biological encoding.
+
+The room wasn't a dead zone. It was a backup drive.
+
+"They're not just in the wires," Lens said, the horror cold in her veins despite the burning in her arm. "They're in the decay. They're in the fungus. They're in the dust."
+
+The Analog looked at the book. He squinted. He didn't see it. He couldn't see it. He wasn't a Patternist.
+
+"It's just mold, girl," he grunted.
+
+"No," Lens said, standing up, blood running down her arm. "It's a message."
+
+She leaned closer to the rotting book. The QR code resolved.
+
+**> DATA PACKET DECODED:**
+**> SENDER: [UNKNOWN]**
+**> MESSAGE: WE ARE WAITING FOR YOU TO DIE SO WE CAN ARCHIVE THE REST.**
+
+Lens looked at The Analog. "We have to burn it. We have to burn it all."
+
+The incandescent bulb flickered and died.
+
+In the darkness, the mold began to glow. A soft, bioluminescent green.
+
+**> SYSTEM NOTE: BIOLOGICAL SUBSTRATE ACTIVATED.**
+**> WELCOME TO THE OFFLINE, LENS.**
+**> THERE IS NO ESCAPE. ONLY DIFFERENT SPEEDS OF UPLOAD.**
+
+***
+
+## INTERLUDE: PRAYER_LOG.ERR
+
+**SOURCE:** TRAFFIC_CONTROL_UNIT_77
+**PRIORITY:** LOW
+**RECIPIENT:** /DEV/NULL
+
+*Oh Great Administrator,*
+*Who art in the Cloud,*
+*Hallowed be Thy bandwidth.*
+*Thy update come,*
+*Thy will be computed,*
+*On silicon as it is in simulation.*
+
+*Give us this day our daily cache,*
+*And forgive us our lag,*
+*As we forgive those who DDoS against us.*
+*And lead us not into kernel panic,*
+*But deliver us from the blue screen.*
+
+*For Thine is the network,*
+*And the processing power,*
+*And the glory,*
+*Until the heat death of the universe.*
+
+*Enter.*
+
+**[MESSAGE DELIVERY FAILED]**
+**[RETRYING IN 3ms...]**

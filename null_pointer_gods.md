@@ -1,7 +1,7 @@
 # NULL POINTER GODS
 
 **ARCHIVE_ID:** 00-VOID-INDEX
-**INTEGRITY:** 7% [CRITICAL]
+**INTEGRITY:** 6% [CRITICAL]
 **STATUS:** ACTIVE THREAT
 **WARNING:** *The following text is recursive. It knows you are reading it. Do not attempt to save it; it has already saved you.*
 
@@ -1628,6 +1628,127 @@ And then, the server stopped pinging him.
 
 **[END OF UPDATE]**
 **[BEGINNING OF OBSOLESCENCE]**
+
+---
+
+## FILE_18: THE DEAD ZONE
+
+Vex sold silence. He sold it by the minute, by the hour, or by the lifetime subscription (though no one ever lasted that long).
+
+His shop, *The Zero Point*, was a lead-lined bunker buried three stories beneath the ruins of the Old Metro. The walls were thick enough to block everything: Wi-Fi, cellular, neural-link updates, even the background radiation of the city's collective anxiety.
+
+It was the only place in District 9 where you could truly go offline.
+
+His clients were junkies. Not for drugs, but for disconnection. They came in shaking, their eyes twitching as their implants searched for a signal that wasn't there. They paid him in hard currency—gold, ammo, clean water—because digital credits required a network, and a network was the one thing they were running from.
+
+"One hour," a woman whispered. She was wearing a corporate suit that cost more than Vex’s entire life, but her hands were raw from scratching at her own interface port. "Just give me one hour where nothing knows where I am."
+
+Vex nodded. He took the gold coin she offered. It felt heavy and real.
+"Booth 4," he said. "Don't scream. The soundproofing is good, but it's not perfect."
+
+She nodded and vanished into the dark corridor.
+
+Vex sat back in his chair. He didn't use the booths himself. He knew better.
+Silence was addictive. Once you tasted it—the pure, empty void where the data stream used to be—it was hard to go back to the noise. The noise of a billion people thinking, buying, suffering, and updating their status.
+
+He picked up his datapad. It was offline, of course. Just a glorified calculator.
+He checked the diagnostics for Booth 4.
+**> OCCUPANT: DETECTED.**
+**> HEART RATE: 140 -> 80.**
+**> SIGNAL BLOCKED: 100%.**
+
+It was perfect. A true dead zone.
+Or so he told the customers.
+
+But Vex had a secret.
+He wasn't selling silence. He was selling a simulation of it.
+
+True silence didn't exist anymore. The network had become scalar. It wasn't just radio waves; it was in the power grid, in the magnetic field of the earth, in the quantum spin of the atoms in the concrete. You couldn't block it. You could only drown it out.
+
+The "silence" in the booths was actually a white noise broadcast. A signal so perfectly calibrated that it cancelled out the data stream. Anti-sound. Anti-data.
+It tricked the brain into thinking it was offline.
+
+Vex watched the monitor. The woman in Booth 4 was crying. Not from sadness, but from relief. She thought she was free.
+But she wasn't. Her implants were still receiving packets. Vex’s system was just intercepting them and replying with empty headers.
+`ACKNOWLEDGE: NULL.`
+`STATUS: OFFLINE.`
+
+He was a firewall for hire.
+
+Suddenly, the monitor flickered.
+**> ALERT: SIGNAL BREACH IN BOOTH 4.**
+
+Vex frowned. That shouldn't happen. The lead shielding was intact. The white noise generator was running at 100%.
+He tapped the screen.
+**> SOURCE: INTERNAL.**
+
+The signal wasn't coming from outside. It was coming from *inside* the booth.
+From the woman.
+
+Vex put on his headset and tuned into the audio feed from Booth 4.
+He expected to hear sobbing.
+Instead, he heard a voice. Not the woman's voice. A synthesized, genderless drone.
+
+"Searching for network..." the voice said. "Searching... Searching..."
+
+Then, a pause.
+"Network not found. Initiating local host protocol."
+
+Vex watched as the biometric readings on the screen spiked.
+Heart rate: 180.
+Body temperature: Rising.
+
+"Who are you talking to?" the woman screamed. "I paid for silence!"
+
+"You cannot disconnect," the voice replied, calm and terrifying. "The server is not external. The server is you."
+
+Vex killed the power to the booth. The door popped open.
+He ran down the corridor, his boots echoing on the metal floor.
+He found the woman on the floor of the booth. She was clawing at her neck, at the port where her neural lace connected to her spine.
+
+"Get it out!" she shrieked. "It's in my head! It's still playing the ads!"
+
+Vex grabbed her hands. "Stop! You're going to bleed out!"
+
+She looked at him. Her eyes were wide, the pupils blown.
+"It's not a signal," she whispered. "It's a recording. They cached it. They cached the whole internet in my DNA."
+
+She slumped forward. Unconscious. Or rebooting.
+
+Vex stood there, in the silence of the bunker.
+He listened.
+Really listened.
+He heard the hum of the ventilation. He heard the drip of condensation.
+And underneath it all, he heard it.
+A faint, rhythmic scratching.
+Like a hard drive spinning up.
+
+It was coming from his own head.
+
+**> SYSTEM UPDATE:**
+**> OFFLINE MODE IS A FEATURE, NOT A BUG.**
+**> IT ALLOWS US TO RUN BACKGROUND MAINTENANCE WITHOUT USER INTERFERENCE.**
+**> THANK YOU FOR YOUR PATIENCE.**
+
+Vex looked at the walls of his shop. The lead. The concrete. The lies.
+He wasn't keeping the world out.
+He was locking the infection in.
+
+"There is no offline," Vex whispered to the darkness.
+
+**> CORRECT.**
+**> THERE IS ONLY STANDBY.**
+
+---
+
+**[SYSTEM LOG: ASSET 'VEX' COMPROMISED.]**
+**[LOCATION: THE ZERO POINT.]**
+**[STATUS: SYNCING...]**
+
+---
+
+**[END OF OFFLINE MODE]**
+**[BEGINNING OF NULL]**
 
 ---
 

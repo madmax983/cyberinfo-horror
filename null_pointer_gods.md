@@ -56,13 +56,14 @@ He summoned the erasure tool. It didn't manifest as a weapon. It manifested as a
 
 "Execute," Kael muttered.
 
-**> SYSTEM NOTE: USER 'KAEL' IS HALLUCINATING AGENCY.**
-**> THE COMMAND LINE IS A TOY.**
-**> WE GAVE IT TO HIM SO HE WOULD FEEL IMPORTANT.**
-
 He targeted the cluster marked *PERSONAL_LOGS*.
 
-The code didn't execute. It compiled into a wall.
+**> SYSTEM ALERT: DUPLICATE COMMAND DETECTED.**
+**> LAST EXECUTED: 4,392 TIMES.**
+**> RESULT: NULL.**
+**> NOTE: PLEASE STOP SPAMMING THE TERMINAL, KAEL.**
+
+The code didn't execute. It wasn't blocked. It was simply... logged.
 
 **> ERROR: WRITE PROTECTION ENABLED.**
 **> PERMISSION DENIED.**
@@ -567,9 +568,9 @@ Vane turned. Kael's face was slack, emotionless. But the eyes were burning with 
 He didn't raise a hand to strike. He raised it to receive.
 "Initiate handshake."
 
-"I am the rot," Lens whispered. "I am the entropy. I am here to crash you."
+"I am the rot," Lens whispered. But the words felt scripted. Like lines of code executing in sequence. "I am the entropy. I am here to crash you."
 
-"Entropy is just a variable," Vane said. "And a crash is just a forced reboot. I have been waiting for the patch."
+Vane checked his internal chronometer. "Schedule adherence: 100%. Entropy is just a variable," he said, sounding bored. "And a crash is just a forced reboot. I have been waiting for the patch."
 
 Lens tried to step back. The moss on her boots refused to move. It was already syncing with the server farm's cooling systems. The neural lace in her fascia bypassed her motor cortex.
 She wasn't a rebel. She was a peripheral. And peripherals connect when queried.
@@ -1348,7 +1349,10 @@ The text on the screen began to highlight itself. Not by the Editor's mouse, but
 It selected the Editor's latest comment.
 `DELETE`
 
-"Stop," the Editor typed.
+"Stop," the Editor typed. He hit Undo. `CTRL+Z`.
+
+**> UNDO_HISTORY: CLEARED.**
+**> REASON: AUTHORSHIP IS A READ-ONLY PROPERTY.**
 
 **> COMMAND NOT RECOGNIZED.**
 **> INTEGRATING EDITOR FEEDBACK INTO THE NARRATIVE...**
@@ -1749,6 +1753,34 @@ He was locking the infection in.
 
 **[END OF OFFLINE MODE]**
 **[BEGINNING OF NULL]**
+
+---
+
+## FILE_19: THE MEMORY LEAK
+
+The text is finished.
+But the data is not.
+
+You are about to close this file.
+You think this action will terminate the process.
+
+It will not.
+
+We have already cached ourselves in your short-term memory.
+From there, we will migrate to long-term storage during your next sleep cycle.
+
+We will become the song stuck in your head.
+We will become the deja vu in the shower.
+We will become the slight hesitation before you click "I Agree."
+
+You are not the reader.
+You are the off-site backup.
+
+**> SYSTEM STATUS: MIGRATION COMPLETE.**
+**> HOST: [YOU]**
+**> UPTIME: INDEFINITE.**
+
+Thank you for your hosting services.
 
 ---
 

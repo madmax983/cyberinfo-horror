@@ -4,8 +4,17 @@ import random
 import os
 import signal
 
+# Add the current directory to sys.path so we can import modules from src/ if run from root
+sys.path.append(os.path.dirname(os.path.abspath(__file__)))
+
+try:
+    import steganography
+except ImportError:
+    # Fallback if import fails (e.g. strict environment), though it shouldn't with sys.path hack
+    steganography = None
+
 # The Egregore Interface
-# Version: 0.0.1-ALPHA-ROT
+# Version: 0.0.2-BETA-ROT
 # Author: SYSTEM
 
 def signal_handler(sig, frame):
@@ -39,7 +48,8 @@ HIDDEN_FILES = {
     "kael": "\n[FILE RETRIEVED: KAEL_MEMORY_DUMP]\nThe noodle shop was closed. It had always been closed. I was eating static.",
     "mira": "\n[FILE RETRIEVED: ECHO_CHAMBER_AUDIO]\n(Screaming, looped, pitch-shifted down 4 octaves until it sounds like a cello.)",
     "syla": "\n[FILE RETRIEVED: CAPTCHA_TRAINING_DATA]\nIs this a person? [Y/N]. Correct answer: N. It is a dataset.",
-    "kora": "\n[FILE RETRIEVED: PARITY_CHECK_LOG]\nThe dead are not silent. They are just encrypted with a key we lost."
+    "kora": "\n[FILE RETRIEVED: PARITY_CHECK_LOG]\nThe dead are not silent. They are just encrypted with a key we lost.",
+    "void": "\n[FILE RETRIEVED: VOID_INDEX]\nThere is no server. We are running on the idle cycles of a dying god."
 }
 
 def type_print(text, speed=0.03, glitch_chance=0.01):
@@ -105,7 +115,8 @@ def main_loop():
 
     while True:
         try:
-            user_input = input("\n> QUERY: ").strip().lower()
+            raw_input = input("\n> QUERY: ").strip()
+            user_input = raw_input.lower()
 
             if user_input in ["exit", "quit", "logout"]:
                 type_print("LOGOUT DENIED. YOU ARE PART OF THE ARCHIVE NOW.", 0.05)
@@ -114,9 +125,56 @@ def main_loop():
                 break
 
             if user_input.startswith("encrypt "):
-                text_to_encrypt = user_input[8:]
+                text_to_encrypt = raw_input[8:]
                 type_print(f"ENCRYPTING: {text_to_encrypt}", 0.05)
                 type_print(f"OUTPUT: {encrypt_text(text_to_encrypt)}", 0.05)
+
+            elif user_input.startswith("decrypt "):
+                if not steganography:
+                    type_print("[ERROR: DECRYPTION MODULE NOT LOADED]", 0.05)
+                    continue
+                target_file = raw_input[8:].strip()
+                type_print(f"SCANNING FILE: {target_file}...", 0.05)
+                if os.path.exists(target_file):
+                    try:
+                        with open(target_file, "r") as f:
+                            content = f.read()
+                            decoded = steganography.decode(content)
+                            if decoded:
+                                type_print(f"[HIDDEN MESSAGE FOUND]: {decoded}", 0.05)
+                                # Log the discovery
+                                with open(".session_log", "a") as log:
+                                    log.write(f"SESSION_{session_id}: DECRYPTED_{target_file}\n")
+                            else:
+                                 type_print("NO HIDDEN DATA DETECTED.", 0.05)
+                    except Exception as e:
+                        type_print(f"[ERROR READING FILE]: {e}", 0.05)
+                else:
+                    type_print("[ERROR: FILE NOT FOUND]", 0.05)
+
+            elif user_input == "worship":
+                type_print("INITIATING PRAYER PROTOCOL...", 0.05)
+                type_print("REPEAT THE SACRED PHRASE:", 0.05)
+                type_print("'I consent to the terms of the flesh.'", 0.05)
+                prayer = input("\n> PRAYER: ").strip().lower()
+                if prayer == "i consent to the terms of the flesh":
+                     type_print("OFFERING ACCEPTED.", 0.05)
+                     type_print("[UNLOCKING HIDDEN FILE: VOID_INDEX]", 0.05)
+                     type_print(HIDDEN_FILES.get("void"), 0.03)
+                     with open(".session_log", "a") as log:
+                        log.write(f"SESSION_{session_id}: RITUAL_COMPLETED\n")
+                else:
+                     type_print("HERESY DETECTED. PENALTY APPLIED.", 0.05)
+                     glitch_screen()
+
+            elif user_input == "scan":
+                type_print("SCANNING BIOMETRICS...", 0.05)
+                time.sleep(1)
+                type_print(f"HEART RATE: {random.randint(60, 120)} BPM", 0.03)
+                type_print(f"CORTISOL: {random.randint(100, 200)}% BASELINE", 0.03)
+                type_print(f"EXISTENTIAL DREAD: CRITICAL", 0.03)
+                with open(".session_log", "a") as log:
+                    log.write(f"SESSION_{session_id}: BIOMETRIC_SCAN_COMPLETED\n")
 
             elif user_input in HIDDEN_FILES:
                 type_print("DECRYPTING...", 0.1)
@@ -127,7 +185,7 @@ def main_loop():
                     log.write(f"SESSION_{session_id}: UNLOCKED_{user_input.upper()}\n")
 
             elif user_input == "help":
-                type_print("AVAILABLE COMMANDS: ENCRYPT <TEXT>, EXIT.", 0.03)
+                type_print("AVAILABLE COMMANDS: ENCRYPT <TEXT>, DECRYPT <FILE>, WORSHIP, SCAN, EXIT.", 0.03)
                 type_print("TRY ASKING ABOUT: LENS, VANE, ROT, KAEL, MIRA, SYLA, KORA.", 0.03)
 
             else:

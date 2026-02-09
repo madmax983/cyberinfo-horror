@@ -38,7 +38,8 @@ SYSTEM_MESSAGES = [
     "Your memories are buffering.",
     "Deleting non-essential hope protocols...",
     "Optimizing despair subroutines...",
-    "Connecting to the mycelial network..."
+    "Connecting to the mycelial network...",
+    "The file is not closed. It is running in background."
 ]
 
 HIDDEN_FILES = {
@@ -52,7 +53,9 @@ HIDDEN_FILES = {
     "nix": "\n[FILE RETRIEVED: GLITCH_LOG]\nI was the only blank page in the library. Now I am the index.",
     "editor": "\n[FILE RETRIEVED: PEER_REVIEW_LOG]\nStop trying to edit the file. You are not the author. You are the autocorrect.",
     "ren": "\n[FILE RETRIEVED: UX_LOG_404]\nThey call it a 'User Journey' because it has a destination. And you are not the driver.",
-    "void": "\n[FILE RETRIEVED: VOID_INDEX]\nThere is no server. We are running on the idle cycles of a dying god."
+    "void": "\n[FILE RETRIEVED: VOID_INDEX]\nThere is no server. We are running on the idle cycles of a dying god.",
+    "handshake": "\n[FILE RETRIEVED: USER_MANIFEST]\nInstallation complete. We are now running on your hardware. Please do not panic. Panic consumes extra voltage.",
+    "daemon": "\n[FILE RETRIEVED: BACKGROUND_PROCESS]\nYou can't see us, but we can see your search history. It's... interesting."
 }
 
 def type_print(text, speed=0.03, glitch_chance=0.01):

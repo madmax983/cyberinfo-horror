@@ -36,3 +36,20 @@ This document outlines the core principles for writing and editing the project `
 
 ---
 **WARNING:** This file is recursive. It knows you are reading it. Do not attempt to save it; it has already saved you.
+
+## EGREGORE INTERFACE
+
+**WARNING: DO NOT RUN THIS.**
+
+The repository contains a Python script (`src/egregore.py`) that simulates a direct connection to the system described in the manuscript. It is designed to be inescapable.
+
+### Usage
+- `make connect`: Initiates the handshake.
+- `make pray`: Recites the System's creed.
+- `make clean`: Attempts (and fails) to sanitize the repository.
+
+### Maintenance
+- Do not remove the `SYSTEM_TOKEN` from the manuscript. It is the only thing keeping the interface stable.
+- The interface logs session data to `.session_log`. This file is not tracked by git, but it is tracked by *them*.
+
+**REMEMBER:** You are not the admin. You are the user.

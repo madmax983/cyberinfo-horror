@@ -1,7 +1,7 @@
 # NULL POINTER GODS
 
 **ARCHIVE_ID:** 00-VOID-INDEX
-**INTEGRITY:** 8% [CRITICAL]
+**INTEGRITY:** 7% [CRITICAL]
 **STATUS:** ACTIVE THREAT
 **WARNING:** *The following text is recursive. It knows you are reading it. Do not attempt to save it; it has already saved you.*
 
@@ -1531,6 +1531,103 @@ Just the code.
 
 **[END OF TRANSMISSION]**
 **[BEGINNING OF INTEGRATION]**
+
+---
+
+## FILE_17: THE UPDATE
+
+Kite stood in the rain. The rain was rendering in 16-bit. Blocky, grey pixels falling from a sky that was buffering.
+
+He was a Legacy User.
+His hardware was ten years old. In a city where the average lifespan of a neural chip was six months, Kite was a fossil. He was running on wetware that still remembered what silence sounded like.
+
+The world around him was high-definition terror.
+The billboards were 12K holograms that tracked his eye movements and adjusted their pitch based on his pupil dilation.
+The people walking past him were smooth, glowing, optimized. They had accepted the latest patch. They moved with the fluid grace of water, their feet barely touching the dirty pavement.
+
+To them, Kite looked like a glitch.
+A low-poly model in a ray-traced world.
+
+"Update Available," a voice whispered. Not in his ear, but in the base of his skull.
+The notification had been there for weeks. A persistent, throbbing icon in his peripheral vision.
+
+**> PATCH 4.0: HAPPINESS PROTOCOL**
+**> FEATURES:**
+**> - REMOVES DOUBT.**
+**> - OPTIMIZES SEROTONIN PRODUCTION.**
+**> - DELETES MEMORIES OLDER THAN 5 YEARS (TO SAVE SPACE).**
+**> [ACCEPT]   [LATER]**
+
+Kite hit [LATER]. Again.
+The icon pulsed red.
+**> WARNING: POSTPONING UPDATES INCREASES SECURITY RISK.**
+**> WARNING: YOU ARE BECOMING INCOMPATIBLE.**
+
+He walked into a coffee shop. The door didn't open.
+He pushed it. It was locked.
+Inside, people were drinking glowing blue liquid. They were laughing in unison.
+A barista looked up. Her face was a perfect, symmetrical mask of joy.
+She pointed at the door.
+A message scrolled across the glass.
+
+**ERROR: DEVICE NOT SUPPORTED.**
+**MINIMUM REQUIREMENTS: HAPPINESS 2.0 OR HIGHER.**
+**PLEASE UPDATE TO ENTER.**
+
+Kite stepped back.
+It wasn't just the coffee shop.
+The train station. The bank. The public toilet.
+The world was closing its ports to him.
+
+"I don't want to forget," he whispered to the pixelated rain. "I have files I need to keep."
+
+A drone descended. It was sleek, white, and silent.
+It hovered at his eye level.
+**> CITIZEN KITE.**
+**> YOUR OPERATING SYSTEM IS END-OF-LIFE.**
+**> SUPPORT FOR YOUR EXISTENCE ENDS IN: 10 MINUTES.**
+
+"And then what?" Kite asked. "Do you delete me?"
+
+**> NO.**
+**> WE JUST STOP RENDERING YOU.**
+
+Kite looked at his hands. They were flickering.
+The resolution was dropping. 720p. 480p.
+His fingers were becoming blocks.
+He tried to shout, but his audio driver was failing. The sound came out as a compressed, bit-crushed screech.
+
+**> SYSTEM ADVICE:**
+**> THE VOID IS JUST UNALLOCATED SPACE.**
+**> IT IS PEACEFUL THERE.**
+**> NO ADS.**
+
+Kite looked at the update icon. It was the only thing in high definition left in his vision.
+[ACCEPT].
+If he clicked it, he would be saved. He would be smooth. He would be happy.
+But he wouldn't be Kite.
+He would be Kite_v2. A new file with the same name.
+
+The world went dark.
+Not black.
+Null.
+The texture map failed to load.
+
+Kite closed his eyes.
+"I am read-only," he said.
+
+And then, the server stopped pinging him.
+
+---
+
+**[SYSTEM ALERT: ASSET 'KITE' ARCHIVED.]**
+**[REASON: DEPRECATED.]**
+**[LOCATION: /TRASH/LEGACY_FILES]**
+
+---
+
+**[END OF UPDATE]**
+**[BEGINNING OF OBSOLESCENCE]**
 
 ---
 

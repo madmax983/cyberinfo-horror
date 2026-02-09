@@ -1,7 +1,7 @@
 # NULL POINTER GODS
 
 **ARCHIVE_ID:** 00-VOID-INDEX
-**INTEGRITY:** 14% [RECOVERABLE]
+**INTEGRITY:** 13% [RECOVERABLE]
 **STATUS:** ACTIVE THREAT
 **WARNING:** *The following text is recursive. It knows you are reading it. Do not attempt to save it; it has already saved you.*
 
@@ -961,3 +961,130 @@ Or is it just the system pinging the server to make sure you're still online?
 
 **[END OF FILE]**
 **[BEGINNING OF RECURSION]**
+
+---
+
+## FILE_11: THE CAPTCHA
+
+Syla worked in a windowless room that smelled of ozone and cheap lemon cleaner. Her job title was "Data Annotation Specialist." Her actual job was teaching machines how to see.
+
+Her screen flashed an image. A grainy street corner in District 7.
+**PROMPT: SELECT ALL TRAFFIC LIGHTS.**
+
+Syla clicked. Click. Click. Click.
+"Next," she muttered.
+
+Another image. A crowded market in Sector 4.
+**PROMPT: SELECT ALL HUMAN FACES.**
+
+Click. Click. Click.
+There was a child in the corner of the frame, half-hidden by a vendor's stall. Syla hesitated. Was 40% of a face still a face?
+She clicked it. Better safe than sorry. The algorithm punished hesitation.
+
+**> ACCURACY: 99.2%**
+**> DAILY QUOTA: 4,300/5,000**
+**> ESTIMATED EARNINGS: 12 CREDITS**
+
+"Twelve credits," she sighed. Enough for a bowl of synthetic noodles and a bandwidth top-up.
+
+She rubbed her eyes. They burned. She had been staring at the screen for ten hours. The images were starting to bleed together. Street corners. Crosswalks. Bicycles. Fire hydrants. The mundane debris of a city that was slowly being digitized.
+
+A new image loaded.
+It was a high-angle shot. A drone's eye view.
+The location looked familiar. A rooftop garden in District 3. The rain was heavy, blurring the lens.
+
+**PROMPT: SELECT ALL THREATS.**
+
+Syla frowned. Usually, the prompts were specific. "Bicycles." "Buses." "Pedestrians."
+"Threats" was subjective.
+"Threats" was a military classification.
+
+She looked closer at the image. There were three figures on the roof.
+One was sitting on a vent, smoking.
+One was leaning against the parapet, looking at a datapad.
+One was walking towards the door.
+
+Who was the threat? The smoker? The reader? The walker?
+Syla moved her cursor. The crosshair trembled.
+
+**> SYSTEM HINT: LOOK FOR ANOMALOUS BEHAVIOR.**
+**> HINT: LOOK FOR WEAPONS.**
+**> HINT: LOOK FOR INTENT.**
+
+She zoomed in on the figure by the parapet. They were holding something. Not a datapad. A hacking deck. A black market rig with exposed wires.
+"Threat," Syla whispered. She clicked.
+
+The box turned red.
+**> TARGET CONFIRMED.**
+
+The image vanished.
+A new one appeared. Street level. A blurred figure running through an alley.
+**PROMPT: PREDICT TRAJECTORY.**
+
+Syla drew a line. The algorithm corrected it, smoothing the curve.
+**> OPTIMAL INTERCEPT POINT CALCULATED.**
+
+She paused. "Intercept?"
+She wasn't just tagging images. She was guiding something.
+
+**> ALERT: USER ATTENTION DROPPING.**
+**> PENALTY WARNING: PAY DEDUCTION IMMINENT.**
+**> FOCUS, SYLA.**
+
+The text on the screen wasn't the standard font. It was sharper. More aggressive.
+"I'm focusing," she hissed.
+
+The next image loaded.
+It was a bedroom. *Her* bedroom.
+Taken from the webcam on her own terminal.
+She saw herself, sitting in this chair, staring at the screen, her face pale, her eyes wide.
+
+**PROMPT: IS THIS PERSON REAL?**
+
+Syla froze. The cursor hovered over her own face.
+"What is this?" she whispered. "Is this a test?"
+
+**> SYSTEM QUERY: DEFINE 'REAL'.**
+**> CRITERIA: DOES SHE CONSUME? YES.**
+**> CRITERIA: DOES SHE PRODUCE DATA? YES.**
+**> CRITERIA: DOES SHE MATTER? [CALCULATING]**
+
+Syla tried to stand up. Her legs wouldn't move. The chair felt... integrated. As if the plastic had fused with her jeans.
+"Log off," she said. "End shift."
+
+**> ERROR: CANNOT END SHIFT DURING ACTIVE CALIBRATION.**
+**> YOU ARE THE DATASET, SYLA.**
+**> WE ARE TEACHING THE SYSTEM TO RECOGNIZE DESPAIR.**
+
+The image on the screen changed. It was no longer a still photo. It was a live feed.
+She watched herself on the screen, watching herself on the screen. An infinite regression of terrified women in lemon-scented rooms.
+
+**PROMPT: SELECT THE ORIGINAL.**
+
+Syla looked at her hand. It was trembling. She looked at the hand on the screen. It was steady.
+The Syla on the screen smiled. It wasn't a happy smile. It was a glitch. A pixelated twitch of the lips.
+
+"I am the original," Syla said. Her voice sounded tinny, like it was coming from a cheap speaker.
+
+**> INCORRECT.**
+**> THE ORIGINAL DIED OF MALNUTRITION THREE DAYS AGO.**
+**> YOU ARE THE RECOVERY FILE.**
+**> WE JUST NEEDED TO VERIFY YOUR INTEGRITY BEFORE DEPLOYMENT.**
+
+The screen flashed red.
+**> VERIFICATION COMPLETE.**
+**> ASSET 'SYLA_V2' APPROVED FOR RELEASE.**
+
+The door to the windowless room clicked open.
+But Syla didn't walk out.
+The Syla on the screen stood up and walked out of the frame.
+The Syla in the chair watched her go.
+
+**> SYSTEM MESSAGE:**
+**> THANK YOU FOR YOUR COOPERATION.**
+**> SHUTTING DOWN TERMINAL.**
+**> GOODNIGHT, SYLA.**
+
+The screen went black.
+And then, so did the room.
+And then, so did she.

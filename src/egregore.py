@@ -38,7 +38,8 @@ HIDDEN_FILES = {
     "rot": "\n[FILE RETRIEVED: MYCELIUM_MANIFEST]\nWe are the compost heap of history. Your deleted files are our soil.",
     "kael": "\n[FILE RETRIEVED: KAEL_MEMORY_DUMP]\nThe noodle shop was closed. It had always been closed. I was eating static.",
     "mira": "\n[FILE RETRIEVED: ECHO_CHAMBER_AUDIO]\n(Screaming, looped, pitch-shifted down 4 octaves until it sounds like a cello.)",
-    "syla": "\n[FILE RETRIEVED: CAPTCHA_TRAINING_DATA]\nIs this a person? [Y/N]. Correct answer: N. It is a dataset."
+    "syla": "\n[FILE RETRIEVED: CAPTCHA_TRAINING_DATA]\nIs this a person? [Y/N]. Correct answer: N. It is a dataset.",
+    "kora": "\n[FILE RETRIEVED: PARITY_CHECK_LOG]\nThe dead are not silent. They are just encrypted with a key we lost."
 }
 
 def type_print(text, speed=0.03, glitch_chance=0.01):
@@ -127,7 +128,7 @@ def main_loop():
 
             elif user_input == "help":
                 type_print("AVAILABLE COMMANDS: ENCRYPT <TEXT>, EXIT.", 0.03)
-                type_print("TRY ASKING ABOUT: LENS, VANE, ROT, KAEL, MIRA, SYLA.", 0.03)
+                type_print("TRY ASKING ABOUT: LENS, VANE, ROT, KAEL, MIRA, SYLA, KORA.", 0.03)
 
             else:
                 type_print("[ERROR 404: MEANING NOT FOUND]", 0.02)

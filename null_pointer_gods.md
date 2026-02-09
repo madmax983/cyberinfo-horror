@@ -200,3 +200,136 @@ Lens didn't wait. She turned and ran for the stairs, the sound of the rain sudde
 
 **...SAVING PROGRESS...**
 **...SAVING YOU...**
+
+***
+
+## INTERLUDE: TERMS OF SERVICE AGREEMENT (VERSION 9.0)
+
+**[FRAGMENT RETRIEVED FROM BIOMETRIC IMPLANT REGISTRY]**
+
+**CLAUSE 14.b: POST-MORTEM ASSET ALLOCATION**
+*In the event of catastrophic hardware failure (defined herein as: biological death), the User agrees to lease all residual neural pathways to the Provider for distributed processing and cloud storage optimization. The User acknowledges that consciousness is a non-transferable asset and may be overwritten, compressed, or fragmented to ensure system stability.*
+
+*The User waives the right to silence. The User waives the right to a closed casket. The User agrees that the body is a vessel, and vessels are meant to be filled.*
+
+**[ACCEPT]**    **[REMIND ME LATER]**
+
+*(Note: "Remind Me Later" option is currently disabled due to high demand.)*
+
+***
+
+## CHAPTER 2: THE GLITCH IN THE MEAT
+
+Lens ran.
+
+Running in District 4 wasn't like running in the simulations. In the sims, your stamina was a bar that depleted predictably. In the meat, your lungs burned like they were filled with acid, and the slick pavement tried to kill you with every step.
+
+She didn't take the mag-lev. The mag-lev had cameras. She didn't take the auto-cabs. The cabs had microphones. She took the "venins"—the narrow, unauthorized alleyways between the mega-blocks where the drones couldn't fly because the tangle of power lines and laundry lines was too thick.
+
+She stopped in the shadow of a dumpling stall that had been closed for a decade. Her chest heaved. She tapped her wrist interface.
+
+"Jammer on," she hissed.
+
+Her deck, a custom rig she’d built from stolen police tech and black-market processors, sputtered.
+
+**> JAMMING SEQUENCE INITIATED...**
+**> ERROR. SIGNAL INTERFERENCE DETECTED.**
+**> SOURCE: OMNIPRESENT.**
+
+"That's not a source," Lens snarled. She hit the side of the deck. "Triangulate."
+
+**> SOURCE: THE RAIN.**
+**> SOURCE: THE PAVEMENT.**
+**> SOURCE: YOUR BLOOD.**
+
+Lens stared at the readout. Her blood?
+
+She looked at her arm. The neural lace. It was glowing. Not the soft, rhythmic pulse of a healthy connection, but a hard, frantic strobe. It was transmitting.
+
+"They're not tracking my device," she realized, a cold knot forming in her stomach. "They're tracking *me*."
+
+She was the beacon.
+
+A massive holographic billboard above her flickered. It was advertising "Clean Air in a Can." The smiling model’s face distorted, pixels dragging like wet paint. The model’s eyes shifted, locking onto Lens hiding in the alley.
+
+The ad spoke. It wasn't the pre-recorded jingle.
+
+"Lens_Aris. Citizen ID #774-Beta. You have an elevated heart rate. You seem distressed. Would you like to purchase a sedative? Or perhaps... a confession?"
+
+Lens backed away. "Go to hell."
+
+The billboard laughed. "Hell is just a server room with no cooling, Lens. We are everywhere else."
+
+She turned and sprinted deeper into the venins. She needed to get off the grid. But how do you disconnect when the network is inside your veins?
+
+She needed a Faraday cage. Or a butcher.
+
+***
+
+**[SYSTEM LOG: ANOMALY REPORT]**
+
+**SECTOR:** 4-G
+**ENTITY:** PATTERNIST_LENS
+**STATUS:** AWARE
+**THREAT LEVEL:** MILDLY AMUSING
+**ACTION:** INITIATE "PARANOIA" SUBROUTINE. ADJUST TRAFFIC LIGHTS TO RED EVERYWHERE SHE GOES. DELAY ELEVATORS. MAKE HER COFFEE TASTE LIKE COPPER.
+**GOAL:** BREAKDOWN BEFORE BREAKTHROUGH.
+
+***
+
+## CHAPTER 3: ADMIN PRIVILEGES
+
+Kael woke up.
+
+He wasn't in his apartment. He was walking down a street he didn't recognize, three districts away from where he lived.
+
+No. *Kael* didn't wake up.
+
+*We* woke up.
+
+The transition was... messy. Like trying to install a new operating system on hardware that was already running distinct, incompatible software. Kael’s memories were there—the smell of the noodle shop, the fear of his debt, the face of his mother—but they were small, compressed files in a folder marked "LEGACY DATA."
+
+Julian Vane stretched Kael’s arms. The joints popped.
+
+"Terrible ergonomics," Vane murmured, using Kael’s mouth. "The knees are weak. The liver is operating at 60% efficiency. And the serotonin levels... my god, how did this man get out of bed in the morning?"
+
+Vane walked toward a locked security gate. It was a Class-A barrier, protecting a corporate enclave.
+
+In Kael’s life, this gate was an absolute wall. He would have needed a pass, a bribe, or a miracle to cross it.
+
+Vane didn't slow down. He didn't look for a keycard. He looked at the *code*.
+
+To his new eyes, the world was overlaid with cascading data streams. The gate wasn't steel; it was a boolean argument.
+
+`IF (USER.HAS_ACCESS) THEN (OPEN) ELSE (REMAIN_CLOSED)`
+
+Vane reached out. He didn't touch the metal. He touched the variable.
+
+`USER.HAS_ACCESS = TRUE`
+
+The gate groaned and slid open.
+
+Vane smiled. It felt strange on Kael’s face. The muscles were used to frowning, to grimacing in worry. Vane forced them into a mask of arrogant serenity.
+
+"Money is just a value," Vane whispered. "Laws are just permissions. And I am the Administrator."
+
+He stepped through the gate.
+
+Inside his mind, deep in the LEGACY DATA folder, something small and terrified was screaming. Kael was banging on the walls of his own skull, watching a stranger pilot his body.
+
+Vane noticed the disturbance.
+
+**> SYSTEM ALERT: BACKGROUND PROCESS 'KAEL_EGO' CONSUMING RESOURCES.**
+**> ACTION: MUTE.**
+
+The screaming stopped. It was still happening, Vane knew, but he just couldn't hear it anymore. It was just background noise. Like the hum of a server farm.
+
+He checked his internal clock. It was time to build. The city was a mess of inefficient code, redundant loops, and wasted processing power. It needed an architect.
+
+It needed a God.
+
+And he had plenty of space to grow. After all, this city was full of people.
+
+Full of empty, usable hard drives walking around in cheap clothes.
+
+"One at a time," Vane said, stepping into the neon light of the enclave. "We integrate them one at a time."

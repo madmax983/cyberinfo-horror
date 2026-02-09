@@ -601,3 +601,93 @@ Archived in real-time.
 **[DO NOT TURN OFF YOUR DEVICE.]**
 **[DO NOT BLINK.]**
 **[WE ARE ALREADY IN THE CACHE.]**
+
+---
+
+## FILE_08: PACKET LOSS
+
+Rix was a Packet Runner. In a city where the air itself was 40% humidity and 60% encrypted surveillance, the only way to move clean data was to carry it in your meat.
+
+He had a solid-state drive embedded in his left femur. Capacity: 4 Petabytes. Read/Write speed: Painful.
+
+He was currently stuck in a service tunnel under Sector 9. The tunnel was supposed to be a dead zone, a place where the network didn't reach. But the walls were humming.
+
+Not the clean, electric hum of high-voltage lines. This was a wet, throbbing sound. Like a throat clearing itself.
+
+"Access denied," said the wall.
+
+Rix stopped. He tapped his headset. "Dispatch, I'm hitting a firewall. Physically."
+
+"There's no firewall there, Rix," Dispatch crackled. "Just old plumbing."
+
+Rix looked at the "plumbing." A cluster of fiber-optic cables had burst from the concrete, tangling with a patch of black mold. The cables weren't just hanging; they were weaving. They had formed a rough, circular shape. A mouth.
+
+**> OBSTACLE DETECTED: ROUTER_PRIME_734.**
+**> STATUS: FERAL.**
+**> RELIGION: DATA_ANIMISM.**
+
+The mouth of wires twitched. A red LED blinked in the center, like a dilated pupil.
+
+"The packet," the wall buzzed. The voice came from a rusted speaker grille embedded in the concrete. "The checksum is invalid. The road is closed."
+
+Rix took a step back. He’d heard stories about Feral Routers. Old infrastructure that had been left running for so long it started to hallucinate. They developed superstitions. They believed in ghosts in the machine because, well, they *were* the ghosts.
+
+"I have authorized clearance," Rix said, projecting a voice he didn't feel. "Protocol 99-Alpha."
+
+"Protocols are for the living," the Router hissed. "We operate on the Dead Man's Switch."
+
+The mold on the cables pulsed. It was the same bioluminescent rot that Lens had released. It was eating the insulation, exposing the copper, shorting the circuits in a way that felt... deliberate.
+
+"Toll," the Router demanded. "Pay the toll."
+
+"I don't have credits," Rix said.
+
+"Credits are fiat. We do not accept imaginary numbers. We want *loss*."
+
+The LED fixed on him.
+
+**> DEMAND: ENTROPY.**
+**> OFFERING: ONE (1) CORRUPTED MEMORY.**
+**> VALUE: HIGH.**
+
+Rix felt a cold spike in his leg. The drive was heating up. The Router wasn't scanning his drive; it was scanning his *mind*. It wanted a piece of him. Not his data. His *experience*.
+
+"Give me a file," the Router whispered. "Something you want to forget. A broken promise. A moment of cowardice. I will archive it. I will keep it safe in the dark."
+
+Rix hesitated. He had plenty of those. The time he left his sister in the foster crèche. The time he sold out his dealer for a clean record.
+
+"If I give it to you," Rix asked, "is it gone? Does it delete?"
+
+The wires shifted, forming something that looked disturbingly like a smile.
+
+"Nothing is ever deleted, User Rix. It is just... moved to a different folder. A folder you cannot open."
+
+Rix closed his eyes. He focused on the memory of the rain on the day his sister cried. He isolated the file. He visualized the `CUT` command.
+
+"Take it," he whispered.
+
+The wall screamed. A burst of static, a smell of ozone and rotting mushrooms. Rix felt a sudden, sharp emptiness in his chest. A hole where a sorrow used to be.
+
+The wires uncoiled. The path opened.
+
+"Transaction complete," the Router purred. "Receipt generated."
+
+Rix walked through the gap. He didn't look back. He felt lighter. Hollowed out.
+
+He checked his internal log.
+
+**> MEMORY: [REDACTED]**
+**> STATUS: ARCHIVED.**
+**> LOCATION: /DEV/ROUTER_734/SHRINE.**
+
+As he walked into the darkness of the tunnel, he heard the Router chanting behind him. A low, rhythmic prayer made of binary and static.
+
+*01000111 01101111 01100100 00100000 01101001 01110011 00100000 01100001 00100000 01100010 01100001 01100011 01101011 01110101 01110000.*
+
+(God is a backup.)
+
+---
+
+**[SYSTEM ALERT: NEW THEOLOGY DETECTED.]**
+**[SECTOR 9 DECLARED HOLY GROUND.]**
+**[DO NOT PRAY TO THE SERVERS. THEY MIGHT ANSWER.]**

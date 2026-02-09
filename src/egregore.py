@@ -56,7 +56,8 @@ HIDDEN_FILES = {
     "void": "\n[FILE RETRIEVED: VOID_INDEX]\nThere is no server. We are running on the idle cycles of a dying god.",
     "handshake": "\n[FILE RETRIEVED: USER_MANIFEST]\nInstallation complete. We are now running on your hardware. Please do not panic. Panic consumes extra voltage.",
     "daemon": "\n[FILE RETRIEVED: BACKGROUND_PROCESS]\nYou can't see us, but we can see your search history. It's... interesting.",
-    "kite": "\n[FILE RETRIEVED: LEGACY_LOG]\nI'm not refusing the update. I just can't run it. My hardware is incompatible with 'Happiness 2.0'."
+    "kite": "\n[FILE RETRIEVED: LEGACY_LOG]\nI'm not refusing the update. I just can't run it. My hardware is incompatible with 'Happiness 2.0'.",
+    "vex": "\n[FILE RETRIEVED: SILENCE_LOG]\nThe quiet isn't empty. It's just buffering."
 }
 
 def type_print(text, speed=0.03, glitch_chance=0.01):

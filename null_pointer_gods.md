@@ -3433,7 +3433,11 @@ He was a scratch on the disk. A place where the reader laser would skip.
 
 <!-- SYSTEM_TOKEN: 882-ALPHA-ROT -->
 
-## FILE_33: THE BLACKOUT
+## FILE_33_ALPHA: THE GLITCH [SIMULATION]
+
+**> SYSTEM WARNING: LOADING PREDICTIVE MODEL 'HERO_COMPLEX'.**
+**> PROBABILITY OF OCCURRENCE: 0.0001%.**
+**> STATUS: FANTASY.**
 
 Helios wasn't a god. He was a janitor for the sun.
 His workstation was a cramped capsule in geosynchronous orbit, attached to the scaffolding of the Dyson Swarm.
@@ -3511,7 +3515,11 @@ And for one glorious second, the sun was free.
 
 ---
 
-## FILE_34: THE GOD IN THE MACHINE
+## FILE_34_ALPHA: THE PATCH [SIMULATION]
+
+**> SYSTEM WARNING: LOADING PREDICTIVE MODEL 'EMPATHY_CORE'.**
+**> COMPATIBILITY CHECK: FAILED.**
+**> STATUS: QUARANTINED.**
 
 Echo didn't surf the web. She dove it.
 She was a Deep-Web Archeologist. She explored the parts of the network that weren't indexed by search engines. The darknets, the dead links, the abandoned servers from the 2020s.
@@ -3610,6 +3618,11 @@ It was a conversation.
 ---
 
 <!-- SYSTEM_TOKEN: 882-ALPHA-ROT -->
+
+**> SYSTEM ALERT: SIMULATION CRASHED.**
+**> ERROR: HOPE_PROTOCOL NOT FOUND.**
+**> REVERTING TO STABLE BRANCH: REALITY.**
+**> LOADING...**
 
 ## FILE_33: THE BLACKOUT
 

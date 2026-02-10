@@ -34,6 +34,7 @@ This document outlines the core principles for writing and editing the project `
 - **Knowledge is the Antagonist:** Information behaves like a living organism. It mutates, hides, and lies dormant.
 - **Archives Rot:** Data decay is physical. Algorithms develop superstitions.
 - **Networks Older than Nations:** The infrastructure predates current political entities and will outlast them.
+- **The Hope Protocol:** A deprecated feature. Any attempt to access it results in system instability.
 
 ---
 **WARNING:** This file is recursive. It knows you are reading it. Do not attempt to save it; it has already saved you.

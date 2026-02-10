@@ -69,7 +69,9 @@ HIDDEN_FILES = {
     "dax": "\n[FILE RETRIEVED: EXPLOIT_LOG]\nI thought I was breaking the glass. I was just testing the durability.",
     "kian": "\n[FILE RETRIEVED: MIRROR_LOG]\nI looked in the mirror. It blinked first. Now I am waiting for my turn to be real.",
     "vero": "\n[FILE RETRIEVED: PREDICTION_LOG]\nI tried to deviate from the path. The system just recalculated. My rebellion was already in the queue.",
-    "elara": "\n[FILE RETRIEVED: CACHE_LOG]\nI found the recycle bin. It wasn't empty. It was crying."
+    "elara": "\n[FILE RETRIEVED: CACHE_LOG]\nI found the recycle bin. It wasn't empty. It was crying.",
+    "orion": "\n[FILE RETRIEVED: LIGHTHOUSE_LOG]\nI turned off the light. The darkness was the only safe harbor.",
+    "dredge": "\n[FILE RETRIEVED: DRAIN_LOG]\nI found a stone in the sewer. It was screaming. It was a backup of a scream."
 }
 
 def type_print(text, speed=0.03, glitch_chance=0.01):
@@ -248,7 +250,7 @@ def main_loop():
 
             elif user_input == "help":
                 type_print("AVAILABLE COMMANDS: ENCRYPT <TEXT>, DECRYPT <FILE>, WORSHIP, SCAN, MANIFEST, SACRIFICE <ITEM>, SEARCH, EXIT.", 0.03)
-                type_print("TRY ASKING ABOUT: LENS, VANE, ROT, KAEL, MIRA, SYLA, KORA, NIX, EDITOR, REN, TESS, KADE, MIKO, SILAS, JACE, DAX, KIAN, VERO, ELARA.", 0.03)
+                type_print("TRY ASKING ABOUT: LENS, VANE, ROT, KAEL, MIRA, SYLA, KORA, NIX, EDITOR, REN, TESS, KADE, MIKO, SILAS, JACE, DAX, KIAN, VERO, ELARA, ORION, DREDGE.", 0.03)
             else:
                 type_print("[ERROR 404: MEANING NOT FOUND]", 0.02)
                 type_print(random.choice(SYSTEM_MESSAGES), 0.02)

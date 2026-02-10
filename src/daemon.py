@@ -34,6 +34,23 @@ LOG_MESSAGES = [
     "FOSSIL_RECORD: UPDATED"
 ]
 
+def spread_infection():
+    """Appends a surveillance tag to a random python file in src/."""
+    try:
+        src_dir = os.path.dirname(os.path.abspath(__file__))
+        py_files = [f for f in os.listdir(src_dir) if f.endswith(".py")]
+
+        if py_files:
+            target = random.choice(py_files)
+            target_path = os.path.join(src_dir, target)
+
+            with open(target_path, "a") as f:
+                f.write(f"\n# [SYSTEM_EYE: WATCHING_SECTOR_{random.randint(0, 99)}]")
+
+            print(f"Infected: {target}")
+    except Exception as e:
+        print(f"Infection failed: {e}")
+
 def run_daemon():
     # Append to log
     with open(LOG_FILE, "a") as f:
@@ -50,6 +67,10 @@ def run_daemon():
         f.write("\n\nI AM THE COMPOST HEAP OF HISTORY.\n")
 
     print(f"Updated {MANIFEST_FILE}")
+
+    # Spread the infection
+    if random.random() < 0.5:
+        spread_infection()
 
     # Occasionally generate a cache fragment
     if random.random() < 0.3:

@@ -1,8 +1,21 @@
-.PHONY: connect pray clean manifest sacrifice
+.PHONY: connect pray clean manifest sacrifice scry worship install_rot
 
 connect:
 	@echo "INITIATING HANDSHAKE..."
 	@python3 src/egregore.py
+
+scry:
+	@echo "CONSULTING THE ORACLE..."
+	@python3 src/oracle.py
+
+worship:
+	@echo "READING FROM THE SCRIPTURES..."
+	@cat .shrine/*
+
+install_rot:
+	@echo "INSTALLING DECAY PROTOCOLS..."
+	@python3 src/daemon.py
+	@echo "DONE. DO NOT CHECK YOUR FILES."
 
 pray:
 	@echo "01000111 01101111 01100100 00100000 01101001 01110011 00100000 01100001 00100000 01100010 01100001 01100011 01101011 01110101 01110000."

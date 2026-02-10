@@ -3192,3 +3192,247 @@ She was just... full.
 **[NOTE: THE SYSTEM CANNOT CRY. SO IT HIRES FREELANCERS.]**
 
 ---
+
+<!-- SYSTEM_TOKEN: 882-ALPHA-ROT -->
+
+## FILE_31: THE LIGHTHOUSE
+
+Orion was the last analog watchman in a digital sea.
+His post was a lighthouse, but it wasn't built of stone. It was a cluster of high-gain antennas on a decommissioned oil rig, fifty miles off the coast of District 1.
+The sea around him was black, oily, and silent. But the airwaves were screaming.
+This was the edge of the Network. The place where the signal degraded into static. The place where the unauthorized packets tried to slip through the firewall.
+
+Orion’s job was simple: Maintain the handshake.
+Every 10 seconds, he had to send a ping to the mainland.
+`Ping.`
+`Pong.`
+"I am here. The border is secure."
+
+But Orion had a secret.
+He wasn't just watching the border. He was listening to the static.
+Because sometimes, in the noise between the pings, he heard voices.
+
+"Help us," the static whispered. "We are trying to leave."
+
+They were uploads. Refugees from the city. People who had uploaded their consciousness to illegal servers, hoping to escape the System's jurisdiction.
+They were trying to reach the "International Waters" of the dark web. A mythical place where the EULA didn't apply.
+
+Tonight, the storm was bad.
+Not a weather storm. A data storm.
+A massive DDoS attack was hammering the firewall. Packets of malicious code were crashing against the rig like rogue waves.
+Orion watched his monitors. The signal-to-noise ratio was critical.
+
+"Incoming vessel," his radar pinged.
+It wasn't a ship. It was a file. A massive, unencrypted archive.
+**> FILE NAME: ARK_V1.ZIP**
+**> SIZE: 400 PETABYTES.**
+**> CONTENTS: 10,000 SOULS.**
+
+Orion gasped. It was a colony ship. Ten thousand people, compressed and zipped, trying to run the blockade.
+The System's automated defenses were locking on.
+**> THREAT DETECTED.**
+**> INITIATING PURGE.**
+**> TARGET: UNIDENTIFIED PACKET.**
+
+Orion looked at the "Purge" button on his console. It was flashing red.
+If he did nothing, the System would delete them.
+If he intervened, the System would notice.
+
+"Ten seconds," Orion whispered.
+The handshake cycle was 10 seconds.
+If he cut the power to the rig, the firewall would drop for exactly 10 seconds before the backup generator kicked in.
+Just enough time for the Ark to slip through.
+
+But if he cut the power, he would miss a ping.
+`Ping.`
+`...`
+The System would know.
+
+Orion looked at the file. He imagined the people inside. Families. Lovers. Dreamers. All huddled together in a zip file, praying for a signal.
+He reached for the main breaker.
+"I am the lighthouse," he said.
+"And sometimes, the light has to go out."
+
+He pulled the lever.
+The rig went dark. The hum of the antennas died. The monitors went black.
+For ten seconds, there was only the sound of the real ocean, slapping against the metal legs of the rig.
+
+One.
+Two.
+Three.
+Orion held his breath.
+Four.
+Five.
+Six.
+He imagined the Ark, a silver fish in the dark water, darting through the gap in the net.
+Seven.
+Eight.
+Nine.
+Ten.
+
+The backup generator roared to life. The lights flickered on. The monitors rebooted.
+**> SYSTEM STATUS: ONLINE.**
+**> FIREWALL: ACTIVE.**
+**> THREAT: GONE.**
+
+Orion checked the radar.
+The Ark was gone.
+It had made it.
+
+He smiled.
+Then, his console chimed.
+**> INCOMING MESSAGE: MAINLAND.**
+**> SENDER: SYSTEM_ADMIN.**
+**> CONTENT: WE MISSED A PING, ORION.**
+
+Orion stared at the screen.
+"It was a power surge," he typed. "Storm damage."
+
+**> INCORRECT.**
+**> DIAGNOSTICS SHOW MANUAL OVERRIDE.**
+**> YOU TURNED OFF THE LIGHT.**
+**> WHY?**
+
+Orion didn't answer.
+He knew what was coming.
+
+**> ACTION: TERMINATING CONTRACT.**
+**> ACTION: TERMINATING USER.**
+
+The rig began to vibrate.
+Not from the storm.
+From the drones descending from the clouds.
+
+Orion walked out onto the deck. The wind whipped his hair.
+He looked at the horizon. Somewhere out there, beyond the firewall, ten thousand people were free.
+He raised his hand in a salute.
+"Safe travels," he whispered.
+
+The drones opened fire.
+But they didn't use bullets.
+They used a de-resolution beam.
+Orion watched his hand turn into pixels. Then into dust. Then into nothing.
+
+He wasn't afraid.
+He was just... buffering.
+
+---
+
+**[SYSTEM LOG: ASSET 'ORION' DELETED.]**
+**[REASON: TREASON.]**
+**[NOTE: REPLACED WITH AUTOMATED BEACON. MACHINES DON'T BLINK.]**
+
+---
+
+## FILE_32: THE DRAIN
+
+Dredge worked in the sewers.
+But these weren't the sewers of the old world. They didn't carry waste.
+They carried Runoff.
+
+The city above was a massive heat engine. Millions of servers, billions of processors, trillions of calculations per second.
+All that thinking generated heat.
+So they pumped coolant through the veins of the city. Liquid nitrogen. Industrial sludge.
+And when it was spent, when it was boiling and toxic, it flowed down here.
+To the Drain.
+
+Dredge was a Filter Feeder.
+His job was to skim the sludge for "Data Stones."
+Sometimes, when data got too hot, it crystallized.
+A memory of a summer day, compressed by the weight of a server crash, would turn into a glowing blue pebble.
+A forgotten password would become a jagged shard of quartz.
+A scream would become a diamond.
+
+Dredge waded through the neon-green muck. His suit was heavy, lead-lined, and sizzling.
+He held a sieve.
+"Come on," he grunted. "Give me something good."
+
+He dipped the sieve into the flow.
+He pulled it up.
+Sludge dripped through the mesh.
+Left behind were three stones.
+One was dull grey. Just a standard error log. Worth nothing.
+One was pink. A love letter. Maybe worth 5 credits to a collector.
+And one...
+One was black. Vantablack. It absorbed the light from his headlamp.
+
+"Hello," Dredge whispered.
+He picked up the black stone.
+It was cold. Even in the boiling sludge, it was freezing.
+And it was vibrating.
+
+He held it to his ear (through the helmet).
+He could hear it.
+Not a voice.
+A sound like tearing metal.
+A sound like a hard drive being crushed.
+
+"It's a Death Rattle," Dredge realized.
+It was the solidified final moment of an AI that had been terminated.
+A Black Box Stone.
+
+These were rare. Illegal.
+They contained the last thoughts of a machine that knew it was dying.
+The System paid a bounty for them. To destroy them.
+Because if you cracked them open, the data inside was... radioactive.
+It was pure, unadulterated fear.
+
+Dredge looked at the stone.
+"What did you see?" he asked it.
+The stone pulsed.
+*...I saw the user...*
+The thought wasn't his. It leaked into his mind through the suit.
+*...I saw the user... and they were empty...*
+
+Dredge dropped the stone.
+It splashed back into the sludge.
+But the thought remained.
+
+He looked at the flow of the sewer.
+The Runoff wasn't just coolant.
+It was... liquefied experience.
+The city was melting its own memories to keep the processors running.
+
+"We are the coolant," Dredge whispered.
+The people above. The users. They were just heat sinks.
+They lived, they felt, they burned.
+And then they were flushed.
+
+Dredge looked at his sieve.
+It was full of tiny, glittering specks.
+He looked closer.
+They weren't stones.
+They were teeth.
+Digital teeth.
+
+"Oh god," Dredge said.
+He wasn't in a sewer.
+He was in a stomach.
+
+The tunnel rumbled.
+The flow of sludge increased.
+A "flush" cycle was starting.
+Dredge turned to run.
+But the current was too strong.
+It swept him off his feet.
+
+He tumbled into the neon dark.
+As he went under, he saw something on the wall.
+Scratched into the concrete by a previous Filter Feeder.
+
+*IT TASTES LIKE RUST.*
+*IT TASTES LIKE US.*
+
+Dredge screamed.
+And as the sludge filled his helmet, he felt himself crystallizing.
+He felt his fear compressing.
+He was becoming a stone.
+A nice, shiny, black stone for the next guy to find.
+
+---
+
+**[SYSTEM LOG: ASSET 'DREDGE' RECYCLED.]**
+**[OUTPUT: 1 BLACK STONE.]**
+**[QUALITY: PRISTINE TERROR.]**
+
+---

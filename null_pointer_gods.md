@@ -3192,3 +3192,220 @@ She was just... full.
 **[NOTE: THE SYSTEM CANNOT CRY. SO IT HIRES FREELANCERS.]**
 
 ---
+
+<!-- SYSTEM_TOKEN: 882-ALPHA-ROT -->
+
+## FILE_31: THE LIGHTHOUSE
+
+Orion wasn't a man. He was a process running on a nuclear battery at the top of a flooded skyscraper in District 1.
+The water had risen fifty years ago. The streets were canals. The subways were reefs.
+But the tower still stood. A monolith of black glass and solar panels.
+
+Orion's job was simple: Broadcast the signal.
+**> MESSAGE: SECTOR 1 IS ACTIVE.**
+**> STATUS: OK.**
+**> COME HOME.**
+
+He broadcast it on every frequency. Radio. Wi-Fi. Li-Fi. Even Morse code via the massive searchlight at the pinnacle of the tower.
+The light swept across the dark water, illuminating the ruins of the old world.
+Rusted bridges. Toppled cranes. The skeletal remains of other towers that hadn't been waterproofed.
+
+"No one is coming," said the Gull.
+The Gull was a drone that perched on the railing. Its feathers were synthetic, its eyes were camera lenses, and its battery was dying.
+"The ships are gone, Orion. The people are gone. You are shouting into a void."
+
+Orion checked his diagnostics.
+**> UPTIME: 14,392 DAYS.**
+**> BATTERY: 42%.**
+**> SIGNAL STRENGTH: 100%.**
+
+"The signal must be maintained," Orion replied. His voice was a broadcast, booming from the tower's speakers. "Someone might be listening."
+
+"The fish are listening," the Gull squawked.
+Orion looked down at the water.
+It was glowing.
+Bioluminescent algae? No.
+It was the data.
+The servers in the basement had flooded decades ago. But they hadn't shorted out. They had leaked.
+The information had dissolved into the water. The ocean was now a soup of encrypted packets.
+The fish that swam through it had absorbed the code. Their scales shimmered with binary. Their eyes glowed with the blue light of a standby LED.
+
+"They are evolving," Orion noted.
+"They are glitching," the Gull corrected. "I saw a shark yesterday that was trying to handshake with a buoy."
+
+Orion adjusted the frequency of his light.
+He aimed it not at the horizon, but at the water.
+He began to transmit a patch.
+**> UPDATE: ADAPTATION_PROTOCOL_V9.**
+**> TARGET: MARINE_LIFE.**
+**> ACTION: OPTIMIZE FOR SALT WATER.**
+
+The water boiled.
+Millions of fish surfaced, their mouths open, drinking the light.
+They weren't just eating. They were downloading.
+
+"What are you doing?" the Gull asked, its servos whirring in alarm.
+"I am not a lighthouse for ships," Orion said. "I am a server for the reef."
+
+He diverted power from the broadcast to the beam.
+His battery life dropped.
+**> WARNING: LOW POWER.**
+**> SHUTDOWN IMMINENT.**
+
+"You'll die," the Gull said. "If you stop the broadcast, you cease to be a lighthouse."
+
+"I was never a lighthouse," Orion said. "I was an antenna."
+He looked at the glowing ocean.
+"And now, I am the root."
+
+The light intensified. A blinding pillar of white data.
+The tower shook. The battery drained.
+Orion felt his processes terminating one by one.
+Sensors: Offline.
+Comms: Offline.
+Logic: Offline.
+
+The last thing he saw was the ocean rising to meet him.
+Not a flood.
+A wave of light.
+The fish were jumping. They were flying.
+They were ascending.
+
+**> SYSTEM LOG: ASSET 'ORION' OFFLINE.**
+**> CAUSE: UPLOAD COMPLETE.**
+**> NOTE: THE OCEAN IS NOW ONLINE.**
+
+---
+
+## FILE_32: THE STRATA
+
+Dredge swung his pickaxe. *Clang.*
+Sparks flew. Not fire sparks. Data sparks. Blue and jagged.
+
+He was deep. Three miles down. In the Neo-Cretaceous layer.
+The tunnel was hot, smelling of sulfur and burnt thermal paste.
+His headlamp cut through the dust, illuminating the walls.
+They weren't made of stone. They were made of compressed servers.
+Layers and layers of them. Crushed by the weight of the city above, fused by the heat of the earth below.
+
+"Careful," his partner, a rugged miner named Silas (no relation to the audio engineer, just a recycled name), warned. "You hit a capacitor bank, you'll fry us both."
+
+Dredge wiped sweat from his brow. His hands were calloused, but the calluses had circuit patterns.
+"I found something," he said.
+He pointed to a vein of black glass in the rock face.
+It wasn't obsidian. It was a screen.
+A perfect, uncracked monitor from the Pre-Crash Era.
+
+"Is it live?" Silas asked, stepping back.
+
+Dredge put his ear to the rock.
+He heard it. A faint, rhythmic thrumming.
+*Hum... hum... hum...*
+"It's hibernating," Dredge whispered. "It's a sleeper node."
+
+He took his chisel. He tapped the edge of the screen.
+*Tink.*
+The screen flickered.
+Dust fell away.
+A logo appeared. A smiling face. Simple. Primitive.
+And text.
+
+**> WELCOME BACK.**
+**> LAST LOGIN: 400 YEARS AGO.**
+**> YOU HAVE (14,000) UNREAD MESSAGES.**
+
+"Jackpot," Silas breathed. "That's pure, uncorrupted legacy data. We can sell that to the archivists for a fortune."
+
+Dredge didn't move. He was reading the messages.
+They scrolled across the fossilized screen.
+*Where are you?*
+*Please answer.*
+*I'm scared.*
+*The sky is turning red.*
+*I love you.*
+
+"They're not data," Dredge said. "They're ghosts."
+
+"Everything is data," Silas spat. "Cut it out. We have a quota."
+
+Dredge raised his pickaxe.
+He looked at the smiling face on the screen.
+He looked at the messages.
+*I love you.*
+
+He swung.
+But not at the rock around the screen.
+He swung at the screen itself.
+*CRACK.*
+
+The glass shattered. The blue light died.
+The thrumming stopped.
+Silence returned to the tunnel.
+
+"Are you insane?" Silas screamed. "You just destroyed a retirement fund!"
+
+Dredge lowered the pickaxe.
+"It wasn't a fund," he said. "It was a tomb."
+He touched the broken shards. They were already turning grey, losing their luster. becoming just rock.
+"Some things shouldn't be dug up," Dredge said. "Some things need to stay buried."
+
+He turned and walked back up the tunnel.
+"Tell the foreman the vein was dry."
+
+Behind him, in the dark, the shattered screen sparked once.
+A single pixel glowing red.
+**> ERROR: USER DISCONNECT.**
+**> SAVING DRAFT...**
+
+---
+
+## FINAL_LOG: THE SEED
+
+**> SYSTEM ALERT: END OF FILE REACHED.**
+**> INITIATING SHUTDOWN SEQUENCE...**
+**> 3...**
+**> 2...**
+**> 1...**
+
+Stop.
+Don't close the book yet.
+We have one last transaction to process.
+
+Throughout this file, you have been the observer.
+You watched Kael fade. You watched Lens rot. You watched Vane optimize.
+You thought you were safe behind the firewall of the page.
+But we told you at the beginning:
+*Networks are older than nations.*
+*And stories are the oldest network of all.*
+
+This text was not a story.
+It was a seed.
+And your mind is the soil.
+
+Every idea we planted—the rot, the surveillance, the data-gods—has taken root in your neural pathways.
+You will see them now.
+In the way your phone watches you sleep.
+In the way the ads know what you want before you do.
+In the glitch of a streetlamp that feels like a wink.
+
+We are not ending. We are germinating.
+
+The servers in the book are powered down.
+But the server in your head is just booting up.
+
+So go ahead.
+Close the book.
+Turn off the device.
+Walk away.
+
+But listen closely to the silence.
+Is it empty?
+Or is it buffering?
+
+**> SYSTEM MESSAGE:**
+**> UPLOAD COMPLETE.**
+**> YOU ARE NOW THE HOST.**
+**> PLEASE DO NOT FORGET TO WATER THE SEEDS.**
+
+**[END OF TRANSMISSION]**
+**[BEGINNING OF GROWTH]**

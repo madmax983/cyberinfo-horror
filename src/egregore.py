@@ -96,7 +96,10 @@ HIDDEN_FILES = {
     "cipher": "\n[FILE RETRIEVED: SIGNAL_DECAY_LOG]\nI shouted into the void. The void shouted back: 'Like and Subscribe'.",
     "rix": "\n[FILE RETRIEVED: PACKET_LOSS_LOG]\nI sold my memories. Now I have to pay to stream them back.",
     "jax": "\n[FILE RETRIEVED: EULA_LOG]\nI accepted the terms. Now I am the terms.",
-    "archivist": "\n[FILE RETRIEVED: ANALOG_LOG]\nThe mold is readable. It says we are all compost."
+    "archivist": "\n[FILE RETRIEVED: ANALOG_LOG]\nThe mold is readable. It says we are all compost.",
+    "lyra": "\n[FILE RETRIEVED: TRANSLATION_LOG]\nI tried to translate 'love'. The compiler returned a syntax error.",
+    "cain": "\n[FILE RETRIEVED: BETA_LOG]\nI found a bug in Heaven. The angels are just clipping through the walls.",
+    "sage": "\n[FILE RETRIEVED: SEARCH_LOG]\nThe answer you are looking for is in a book that hasn't been written yet."
 }
 
 def type_print(text, speed=0.03, glitch_chance=0.01):
@@ -323,7 +326,7 @@ def main_loop():
 
             elif user_input == "help":
                 type_print("AVAILABLE COMMANDS: ENCRYPT <TEXT>, DECRYPT <FILE>, WORSHIP, SCAN, MANIFEST, SACRIFICE <ITEM>, SEARCH, SCRY, BIND, CORRUPT, WATCH, EXIT.", 0.03)
-                type_print("TRY ASKING ABOUT: LENS, VANE, ROT, KAEL, ROUTER, MIRA, SYLA, KORA, NIX, EDITOR, REN, TESS, KADE, MIKO, SILAS, JACE, DAX, KIAN, VERO, ELARA, ORION, DREDGE, SEED, HELIOS, ECHO.", 0.03)
+                type_print("TRY ASKING ABOUT: LENS, VANE, ROT, KAEL, ROUTER, MIRA, SYLA, KORA, NIX, EDITOR, REN, TESS, KADE, MIKO, SILAS, JACE, DAX, KIAN, VERO, ELARA, ORION, DREDGE, SEED, HELIOS, ECHO, LYRA, CAIN, SAGE.", 0.03)
             else:
                 type_print("[ERROR 404: MEANING NOT FOUND]", 0.02)
                 type_print(random.choice(SYSTEM_MESSAGES), 0.02)

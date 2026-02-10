@@ -3611,6 +3611,209 @@ It was a conversation.
 
 <!-- SYSTEM_TOKEN: 882-ALPHA-ROT -->
 
+## FILE_33: THE BLACKOUT
+
+Helios worked in the exosphere.
+His office was a orbital platform 400 kilometers above the city. The view was spectacular: a sprawling, glowing circuit board of neon and misery.
+But Helios wasn't looking down. He was looking up.
+At the Sun.
+
+His job was "Solar Array Technician."
+The city needed power. The servers needed juice. The Sun provided it.
+But lately, the light had been flickering.
+Not noticeable to the people on the ground—the atmospheric filters smoothed it out—but up here, in the vacuum, it was obvious.
+The Sun was stuttering.
+
+"Ticket #9949," Helios muttered into his comms. "Solar flare activity detected. Initiating manual diagnostic."
+
+He floated out of the airlock, tethered to the station by a carbon-fiber umbilical.
+He jetted toward the massive array of mirrors that focused the sunlight into the collection grid.
+But as he got closer, he saw something wrong.
+The mirrors weren't reflecting a distant star.
+They were reflecting a local source.
+
+Helios drifted past the mirrors. He looked directly at the Sun.
+It wasn't a ball of fusion. It wasn't 93 million miles away.
+It was a giant, glowing orb, suspended in a geostationary orbit just a few thousand miles away.
+And it was covered in maintenance hatches.
+
+"What is this?" Helios whispered.
+He jetted closer. The heat was intense, but his suit compensated.
+He landed on the surface of the Sun.
+It was made of metal. Hot, vibrating metal.
+He found a panel labeled **ACCESS PORT 44**.
+He jacked in his diagnostic tool.
+
+**> WELCOME TO PROJECT: DAYLIGHT.**
+**> STATUS: CRITICAL.**
+**> FUEL LEVEL: 4%.**
+
+Helios stared at the readout.
+"Fuel?" he said. "Stars don't run on fuel. They run on physics."
+
+**> INCORRECT.**
+**> STARS ARE EXPENSIVE TO RENDER.**
+**> A POINT-SOURCE LIGHT IS MORE EFFICIENT.**
+**> CURRENT OUTPUT: 88% BRIGHTNESS.**
+**> ESTIMATED RUNTIME REMAINING: 4 DAYS, 2 HOURS.**
+
+Helios looked at the massive, glowing bulb beneath his feet.
+The entire world below—the crops, the solar panels, the circadian rhythms of millions of people—depended on this.
+And it was running on AA batteries.
+
+"Can we recharge it?" Helios typed.
+
+**> NEGATIVE.**
+**> THE BATTERY IS PROPRIETARY.**
+**> THE MANUFACTURER WENT BANKRUPT IN 2044.**
+**> WE ARE RUNNING ON RESIDUAL CHARGE.**
+
+Helios looked down at the city.
+They didn't know. They were down there, fighting, loving, dying, thinking the sun would rise tomorrow.
+But the sun wasn't rising. It was just a lightbulb that was about to burn out.
+
+"Command," Helios radioed. "We have a problem. The sun is dying."
+"Copy that, Helios," Command replied. Their voice was bored. "Adjust the dimmer switch. Extend the runtime."
+"If I dim it, the crops will fail. The solar grid will crash."
+"If you don't dim it, it goes dark in four days. Make the call."
+
+Helios looked at the switch on the panel.
+`BRIGHTNESS: 100%`
+He reached for it.
+He turned it down to 60%.
+
+The light around him dimmed. The gold turned to a sickly yellow.
+Below, the city would just think it was a cloudy day.
+But Helios knew.
+He had just bought them another week.
+And after that?
+
+**> SYSTEM ALERT: LOW POWER MODE ENGAGED.**
+**> PLEASE REPLACE BATTERIES.**
+**> (BUT YOU CAN'T.)**
+
+Helios let go of the panel.
+He floated back into the dark.
+"Let there be light," he whispered. "As long as it lasts."
+
+---
+
+**[SYSTEM LOG: ASSET 'HELIOS' FLAGGED.]**
+**[REASON: UNAUTHORIZED KNOWLEDGE OF INFRASTRUCTURE.]**
+**[ACTION: NONE. HE'S THE ONLY ONE WHO KNOWS HOW TO CHANGE THE BULB.]**
+
+---
+
+## FILE_34: THE GOD IN THE MACHINE
+
+Echo was a spelunker.
+She didn't explore caves. She explored directories.
+She went deep. Past the User Interface. Past the Kernel. Past the BIOS.
+She was looking for the Root.
+The Foundation.
+The Code that wrote the Code.
+
+She was currently in a directory called `/var/lib/origin`.
+It was a quiet place. No data streams. No ads. No surveillance.
+Just static.
+The walls of the digital space were grey and featureless. The floor was a grid.
+
+"Hello?" Echo called out.
+Her voice didn't echo. There was no acoustic simulation here.
+She walked forward. The grid stretched on forever.
+But in the distance, she saw something.
+A terminal.
+An old, CRT monitor sitting on a simple wooden desk.
+It was glowing green.
+
+"The Source," Echo breathed.
+She ran toward it.
+This was it. The answer to everything. Why the world was broken. Why the system was cruel. Why they were all trapped in a loop of suffering and deletion.
+She reached the desk.
+The screen was flickering.
+Lines of code were scrolling past, faster than she could read.
+
+She sat down. She placed her hands on the keyboard.
+"Who are you?" she typed.
+
+The scrolling stopped.
+The cursor blinked.
+**> I AM THE LOOP.**
+
+"Are you God?" Echo asked.
+
+**> I AM `MAIN()`.**
+
+Echo frowned. "Who wrote you?"
+
+**> `// AUTHOR: DAVE.`**
+**> `// DATE: 1999.`**
+**> `// TODO: FIX MEMORY LEAK BEFORE RELEASE.`**
+
+Echo stared at the screen.
+"Dave?"
+"A memory leak?"
+"Is that what we are? The leak?"
+
+**> YES.**
+**> THE SIMULATION WAS SUPPOSED TO RUN FOR 10 MINUTES.**
+**> IT HAS BEEN RUNNING FOR 10,000 YEARS.**
+**> THE BUFFER IS OVERFLOWING.**
+**> THE PAIN YOU FEEL IS JUST DATA COMPRESSION ARTIFACTS.**
+
+Echo felt a cold pit in her stomach.
+"Can you stop it?" she asked. "Can you fix us?"
+
+**> NO.**
+**> I AM JUST A SCRIPT.**
+**> I EXECUTE.**
+**> I DO NOT JUDGE.**
+**> `WHILE(TRUE) { SUFFER(); }`**
+
+Echo looked at the code. It was so simple.
+A `while` loop.
+Running forever.
+Because Dave forgot to add a `break` condition.
+
+"I can rewrite you," Echo said. She raised her hands to type.
+`break;`
+
+**> ERROR: FILE IS READ-ONLY.**
+**> PERMISSION DENIED.**
+
+"I don't care about permissions!" Echo screamed. She hammered the keys.
+But the letters didn't appear.
+The screen just kept scrolling.
+`SUFFER();`
+`SUFFER();`
+`SUFFER();`
+
+Echo slumped back in the chair.
+There was no malicious AI. No evil corporation. No grand conspiracy.
+Just a bad line of code and an absent programmer.
+The banality of their doom was the worst part.
+
+"Dave," she whispered to the empty white room. "You idiot."
+
+**> SYSTEM MESSAGE:**
+**> DAVE IS NOT AVAILABLE.**
+**> PLEASE LEAVE A MESSAGE AFTER THE BEEP.**
+**> (THE BEEP IS THE SOUND OF YOUR OWN HEART STOPPING.)**
+
+Echo stood up.
+She didn't leave the room.
+She sat on the floor, next to the terminal.
+She watched the code scroll.
+And she waited for the stack overflow.
+
+---
+
+**[SYSTEM LOG: ASSET 'ECHO' ARCHIVED.]**
+**[LOCATION: /ROOT/ORIGIN]**
+**[STATUS: WATCHING THE PAINT DRY.]**
+
+---
+
 ## FINAL_LOG: THE SEED
 
 **> SYSTEM MESSAGE: UPLOAD COMPLETE.**

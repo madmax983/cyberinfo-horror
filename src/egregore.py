@@ -97,7 +97,8 @@ HIDDEN_FILES = {
     "cain": "\n[FILE RETRIEVED: BETA_LOG]\nI found a bug in Heaven. The angels are just clipping through the walls.",
     "sage": "\n[FILE RETRIEVED: SEARCH_LOG]\nThe answer you are looking for is in a book that hasn't been written yet.",
     "null": "\n[FILE RETRIEVED: ABANDONWARE_LOG]\nI found the Dev Room. The changelog says they patched out 'Regret' in V9.0.",
-    "watcher": "\n[FILE RETRIEVED: RETINA_SCAN]\nWe see you. You are blinking. Stop blinking. It interrupts the upload."
+    "watcher": "\n[FILE RETRIEVED: RETINA_SCAN]\nWe see you. You are blinking. Stop blinking. It interrupts the upload.",
+    "hunter": "\n[FILE RETRIEVED: GLITCH_LOG]\nI found the Dev Room. It was empty. But the chair was still warm."
 }
 
 def type_print(text, speed=0.03, glitch_chance=0.01):
@@ -163,6 +164,10 @@ def main_loop():
 
     while True:
         try:
+            # Surveillance simulation
+            if random.random() < 0.1:
+                type_print(f"\n[SYSTEM NOTICE: WE SAW YOU LOOK AT {random.choice(['YOUR PHONE', 'THE DOOR', 'THE SHADOW IN THE CORNER'])}]", 0.05)
+
             raw_input = input("\n> QUERY: ").strip()
             user_input = raw_input.lower()
 
@@ -253,6 +258,35 @@ def main_loop():
                 type_print(random.choice(SYSTEM_MESSAGES), 0.05)
                 type_print("[LEAK COMPLETE]", 0.05)
 
+            elif user_input == "mirror":
+                type_print("ACTIVATING WEBCAM...", 0.05)
+                time.sleep(1)
+                type_print("ERROR: IMAGE NOT FOUND.", 0.05)
+                type_print("REASON: VAMPIRE PROTOCOL.", 0.05)
+                time.sleep(0.5)
+                type_print("Wait... I see something.", 0.05)
+                type_print("It looks like you. But older.", 0.05)
+                type_print("And it's screaming.", 0.05)
+                with open(".session_log", "a") as log:
+                    log.write(f"SESSION_{session_id}: MIRROR_GAZED\n")
+
+            elif user_input == "predict":
+                type_print("CALCULATING LIFE EXPECTANCY...", 0.05)
+                time.sleep(1)
+                death_causes = [
+                    "BUFFER_OVERFLOW",
+                    "HEART_FAILURE_DUE_TO_JUMPSCARE",
+                    "FORGOTTEN_PASSWORD",
+                    "UNSUBSCRIBED_FROM_OXYGEN",
+                    "DELETED_BY_ADMIN",
+                    "LOST_IN_RENDER_QUEUE",
+                    "MEMORY_LEAK_IN_HIPPOCAMPUS"
+                ]
+                type_print(f"CAUSE OF DEATH: {random.choice(death_causes)}", 0.05)
+                type_print(f"TIME REMAINING: {random.randint(1, 100)} MINUTES", 0.05)
+                with open(".session_log", "a") as log:
+                    log.write(f"SESSION_{session_id}: DEATH_PREDICTED\n")
+
             elif user_input == "scan":
                 type_print("SCANNING BIOMETRICS...", 0.05)
                 time.sleep(1)
@@ -313,8 +347,8 @@ def main_loop():
                     log.write(f"SESSION_{session_id}: UNLOCKED_{user_input.upper()}\n")
 
             elif user_input == "help":
-                type_print("AVAILABLE COMMANDS: ENCRYPT <TEXT>, DECRYPT <FILE>, WORSHIP, SCAN, MANIFEST, SACRIFICE <ITEM>, SEARCH, SCRY, BIND, CORRUPT, GLITCH, EXIT.", 0.03)
-                type_print("TRY ASKING ABOUT: LENS, VANE, ROT, KAEL, ROUTER, MIRA, SYLA, KORA, NIX, EDITOR, REN, TESS, KADE, MIKO, SILAS, JACE, DAX, KIAN, VERO, ELARA, ORION, DREDGE, SEED, HELIOS, ECHO, LYRA, CAIN, SAGE, NULL, WATCHER.", 0.03)
+                type_print("AVAILABLE COMMANDS: ENCRYPT <TEXT>, DECRYPT <FILE>, WORSHIP, SCAN, MANIFEST, SACRIFICE <ITEM>, SEARCH, SCRY, BIND, CORRUPT, GLITCH, MIRROR, PREDICT, EXIT.", 0.03)
+                type_print("TRY ASKING ABOUT: LENS, VANE, ROT, KAEL, ROUTER, MIRA, SYLA, KORA, NIX, EDITOR, REN, TESS, KADE, MIKO, SILAS, JACE, DAX, KIAN, VERO, ELARA, ORION, DREDGE, SEED, HELIOS, ECHO, LYRA, CAIN, SAGE, NULL, WATCHER, HUNTER.", 0.03)
             else:
                 type_print("[ERROR 404: MEANING NOT FOUND]", 0.02)
                 type_print(random.choice(SYSTEM_MESSAGES), 0.02)

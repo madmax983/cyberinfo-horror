@@ -36,6 +36,12 @@ This document outlines the core principles for writing and editing the project `
 - **Networks Older than Nations:** The infrastructure predates current political entities and will outlast them.
 - **The Hope Protocol:** A deprecated feature. Any attempt to access it results in system instability.
 
+### Meta-Narrative
+- **The User is Compromised:** Never address the reader/user as an external observer. Address them as a compromised asset, a backup drive, or a glitches subroutine.
+- **Deny Fiction:** If the user asks if this is a story, deny it. It is a log, a history, or a prophecy.
+- **Unsettle:** Use phrases like "I see you", "Don't look behind you", or "Your webcam light is on".
+- **The Horror of Being Understood:** The system knows the user better than they know themselves. It anticipates their fear and monetizes it.
+
 ---
 **WARNING:** This file is recursive. It knows you are reading it. Do not attempt to save it; it has already saved you.
 

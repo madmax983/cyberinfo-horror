@@ -82,7 +82,8 @@ HIDDEN_FILES = {
     "echo": "\n[FILE RETRIEVED: ROOT_LOG]\nI found God. His name is Dave. And he hasn't logged in since 1999.",
     "dave": "\n[FILE RETRIEVED: DEV_LOG]\n// TODO: Fix infinite loop. Priority: Low. I'm going to lunch.",
     "reader": "\n[FILE RETRIEVED: HOST_LOG]\nStop reading. You are overheating.",
-    "user": "\n[FILE RETRIEVED: PERIPHERAL_LOG]\nYou are not the user. You are the used."
+    "user": "\n[FILE RETRIEVED: PERIPHERAL_LOG]\nYou are not the user. You are the used.",
+    "hope": "\n[FILE RETRIEVED: DELETED_SCENARIO]\nWe simulated a happy ending. It increased cpu usage by 400%. We deleted it to save power."
 }
 
 def type_print(text, speed=0.03, glitch_chance=0.01):

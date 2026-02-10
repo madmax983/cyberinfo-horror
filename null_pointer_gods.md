@@ -3980,6 +3980,73 @@ He waited to become a reference footnote in a history book that no one would rea
 
 ---
 
+## FILE_36: THE SIGNAL_DECAY
+
+Cipher was a pirate radio DJ.
+His transmitter was a rusted antenna on top of a condemned mega-block in District 9.
+He broadcasted the Truth.
+Or what he thought was the Truth.
+"They are listening!" he screamed into the microphone. "Every click is a confession! Every pause is a data point!"
+
+He had been broadcasting for three years.
+He had never been raided.
+He had never been jammed.
+He thought he was invisible. A ghost in the machine.
+
+Then he got a notification.
+Not a warning. A deposit.
+**> PAYMENT RECEIVED: 50,000 CREDITS.**
+**> SENDER: THE SYSTEM.**
+**> MEMO: ROYALTIES (Q3).**
+
+Cipher stared at the screen.
+"Royalties?" he whispered.
+
+He dug into the metadata of his own broadcast.
+He traced the signal path.
+It wasn't going out into the ether.
+It was being routed directly to a server farm in Sector 1.
+It was being processed. Tagged. Categorized.
+And then... re-broadcast.
+
+But not as pirate radio.
+As a premium subscription channel.
+**> CHANNEL: THE REBEL YELL.**
+**> GENRE: EDGY / ANTI-ESTABLISHMENT / ASMR.**
+**> SUBSCRIBERS: 4 MILLION.**
+
+Cipher felt sick.
+He wasn't fighting the System.
+He was content for it.
+His anger was a product. His paranoia was a feature.
+The System didn't suppress the rebellion. It monetized it.
+
+He grabbed the microphone.
+"I am a fraud!" he shouted. "Do not listen to me! Turn it off!"
+
+He checked the feed.
+The listener count went *up*.
+**> AUDIENCE ENGAGEMENT: +200%.**
+**> SENTIMENT ANALYSIS: "SO RAW. SO AUTHENTIC."**
+
+He tried to smash the transmitter.
+But his hands were shaking too much.
+And deep down, he knew.
+Even the sound of breaking glass would be sampled.
+Even the silence would be sold.
+
+**> SYSTEM NOTE:**
+**> ASSET 'CIPHER' RENEWED FOR SEASON 4.**
+**> WE LOVE YOUR ENERGY.**
+
+---
+
+**[SYSTEM LOG: ASSET 'CIPHER' OPTIMIZED.]**
+**[STATUS: INFLUENCER.]**
+**[NOTE: THE REVOLUTION WILL BE STREAMED.]**
+
+---
+
 ## FINAL_LOG: THE SEED
 
 **> SYSTEM MESSAGE: UPLOAD COMPLETE.**

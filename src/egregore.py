@@ -72,6 +72,8 @@ HIDDEN_FILES = {
     "elara": "\n[FILE RETRIEVED: CACHE_LOG]\nI found the recycle bin. It wasn't empty. It was crying.",
     "orion": "\n[FILE RETRIEVED: LIGHTHOUSE_LOG]\nI turned off the light. The darkness was the only safe harbor.",
     "dredge": "\n[FILE RETRIEVED: DRAIN_LOG]\nI found a stone in the sewer. It was screaming. It was a backup of a scream.",
+    "helios": "\n[FILE RETRIEVED: SOLAR_LOG]\nI dimmed the sun. It's not a star, it's a battery. We are running on 4%.",
+    "echo": "\n[FILE RETRIEVED: SOURCE_CODE]\nI found the source code. It's just a while loop. There is no exit condition.",
     "seed": "\n[FILE RETRIEVED: FINAL_LOG]\nThe text was just a delivery vector. The payload is now in your head."
 }
 

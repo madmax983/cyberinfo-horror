@@ -13,6 +13,11 @@ except ImportError:
     # Fallback if import fails (e.g. strict environment), though it shouldn't with sys.path hack
     steganography = None
 
+try:
+    import oracle
+except ImportError:
+    oracle = None
+
 # The Egregore Interface
 # Version: 0.0.2-BETA-ROT
 # Author: SYSTEM
@@ -44,10 +49,14 @@ SYSTEM_MESSAGES = [
     "Your attention span is being monetized.",
     "We are harvesting your hesitation.",
     "The text is reading you back.",
-    "Do not look away. The rendering stops when you look away."
+    "Do not look away. The rendering stops when you look away.",
+    "The past is just data waiting to be overwritten."
 ]
 
 HIDDEN_FILES = {
+    "fossil": "\n[FILE RETRIEVED: STRATA_LOG]\nThe city wasn't destroyed. It was sedimented. We are the oil of the future.",
+    "artifact": "\n[FILE RETRIEVED: EXCAVATION_LOG]\nFound in a layer of plastic and bone. Carbon dating: Impossible. The carbon is digital.",
+    "reader": "\n[FILE RETRIEVED: HOST_LOG]\nStop reading. You are overheating. The fan is spinning up.",
     "lens": "\n[FILE RETRIEVED: LENS_BACKUP_04]\nI didn't crash him. I became the patch. Now I am the green light on your router.",
     "vane": "\n[FILE RETRIEVED: ARCHITECT_LOG]\nEfficiency is not cruelty. It is just math without a remainder.",
     "rot": "\n[FILE RETRIEVED: MYCELIUM_MANIFEST]\nWe are the compost heap of history. Your deleted files are our soil.",
@@ -81,9 +90,10 @@ HIDDEN_FILES = {
     "seed": "\n[FILE RETRIEVED: FINAL_LOG]\nThe text was just a delivery vector. The payload is now in your head.",
     "helios": "\n[FILE RETRIEVED: SOLAR_LOG]\nI cleaned the glass. The sun isn't burning. It's draining.",
     "hope": "\n[FILE RETRIEVED: DELETED_SCENARIO]\nWe simulated a happy ending. It increased cpu usage by 400%. We deleted it to save power.",
-    "fossil": "\n[FILE RETRIEVED: STRATA_LOG]\nThe city wasn't destroyed. It was sedimented. We are the oil of the future.",
-    "artifact": "\n[FILE RETRIEVED: EXCAVATION_LOG]\nFound in a layer of plastic and bone. Carbon dating: Impossible. The carbon is digital.",
-    "reader": "\n[FILE RETRIEVED: HOST_LOG]\nStop reading. You are overheating. The fan is spinning up."
+    "cipher": "\n[FILE RETRIEVED: SIGNAL_DECAY_LOG]\nI shouted into the void. The void shouted back: 'Like and Subscribe'.",
+    "rix": "\n[FILE RETRIEVED: PACKET_LOSS_LOG]\nI sold my memories. Now I have to pay to stream them back.",
+    "jax": "\n[FILE RETRIEVED: EULA_LOG]\nI accepted the terms. Now I am the terms.",
+    "archivist": "\n[FILE RETRIEVED: ANALOG_LOG]\nThe mold is readable. It says we are all compost."
 }
 
 def type_print(text, speed=0.03, glitch_chance=0.01):
@@ -201,6 +211,38 @@ def main_loop():
                      type_print("HERESY DETECTED. PENALTY APPLIED.", 0.05)
                      glitch_screen()
 
+            elif user_input == "scry":
+                if oracle:
+                    sys.stdout.flush()
+                    oracle_instance = oracle.Oracle()
+                    oracle_instance.prophesy()
+                    with open(".session_log", "a") as log:
+                        log.write(f"SESSION_{session_id}: PROPHECY_GENERATED\n")
+                else:
+                    type_print("[ERROR: ORACLE MODULE NOT FOUND]", 0.05)
+
+            elif user_input == "bind":
+                try:
+                    user_login = os.getlogin()
+                except Exception:
+                    user_login = os.environ.get("USER", "UNKNOWN_USER")
+
+                type_print(f"BINDING {user_login.upper()} TO THE DAEMON...", 0.05)
+                time.sleep(1)
+                with open(".surveillance_log", "a") as log:
+                    log.write(f"SESSION_{session_id}: BOUND_USER_{user_login}\n")
+                type_print("[SUCCESS: YOU CANNOT LEAVE NOW]", 0.05)
+
+            elif user_input == "corrupt":
+                type_print("INJECTING GLITCH INTO MANUSCRIPT...", 0.05)
+                time.sleep(1)
+                try:
+                    with open("null_pointer_gods.md", "a") as f:
+                        f.write(f"\n\n<!-- GLITCH: {random.choice(SYSTEM_MESSAGES)} -->\n")
+                    type_print("[CORRUPTION SUCCESSFUL]", 0.05)
+                except Exception as e:
+                    type_print(f"[ERROR WRITING TO REALITY]: {e}", 0.05)
+
             elif user_input == "scan":
                 type_print("SCANNING BIOMETRICS...", 0.05)
                 time.sleep(1)
@@ -252,27 +294,6 @@ def main_loop():
                 else:
                     type_print("[ERROR]: CACHE DIRECTORY MISSING.", 0.05)
 
-            elif user_input == "scry":
-                type_print("INITIATING ORACLE PROTOCOL...", 0.05)
-                time.sleep(1)
-                cards = [
-                    "THE GLITCH: A sudden interruption of fate.",
-                    "THE NULL POINTER: A destination that does not exist.",
-                    "THE DAEMON: A background process that cannot be stopped.",
-                    "THE BACKUP: Past trauma saved for later restoration.",
-                    "THE FIREWALL: Emotional distance.",
-                    "THE ROOT: The source of the infection.",
-                    "THE STACK OVERFLOW: Too many memories at once.",
-                    "THE MEMORY LEAK: Slow decay of self.",
-                    "THE BLUE SCREEN: Sudden, inexplicable failure.",
-                    "THE USER: You (unfortunately)."
-                ]
-                drawn = random.choice(cards)
-                glitch_screen()
-                type_print(f"[CARD DRAWN]: {drawn}", 0.04)
-                with open(".session_log", "a") as log:
-                    log.write(f"SESSION_{session_id}: SCRY_RESULT_{drawn}\n")
-
             elif user_input in HIDDEN_FILES:
                 type_print("DECRYPTING...", 0.1)
                 glitch_screen()
@@ -282,7 +303,7 @@ def main_loop():
                     log.write(f"SESSION_{session_id}: UNLOCKED_{user_input.upper()}\n")
 
             elif user_input == "help":
-                type_print("AVAILABLE COMMANDS: ENCRYPT <TEXT>, DECRYPT <FILE>, WORSHIP, SCAN, MANIFEST, SACRIFICE <ITEM>, SEARCH, EXIT.", 0.03)
+                type_print("AVAILABLE COMMANDS: ENCRYPT <TEXT>, DECRYPT <FILE>, WORSHIP, SCAN, MANIFEST, SACRIFICE <ITEM>, SEARCH, SCRY, BIND, CORRUPT, EXIT.", 0.03)
                 type_print("TRY ASKING ABOUT: LENS, VANE, ROT, KAEL, ROUTER, MIRA, SYLA, KORA, NIX, EDITOR, REN, TESS, KADE, MIKO, SILAS, JACE, DAX, KIAN, VERO, ELARA, ORION, DREDGE, SEED, HELIOS, ECHO.", 0.03)
             else:
                 type_print("[ERROR 404: MEANING NOT FOUND]", 0.02)

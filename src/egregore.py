@@ -80,7 +80,10 @@ HIDDEN_FILES = {
     "echo": "\n[FILE RETRIEVED: ROOT_ACCESS_LOG]\nI found the source code. It is written in suffering.",
     "seed": "\n[FILE RETRIEVED: FINAL_LOG]\nThe text was just a delivery vector. The payload is now in your head.",
     "helios": "\n[FILE RETRIEVED: SOLAR_LOG]\nI cleaned the glass. The sun isn't burning. It's draining.",
-    "hope": "\n[FILE RETRIEVED: DELETED_SCENARIO]\nWe simulated a happy ending. It increased cpu usage by 400%. We deleted it to save power."
+    "hope": "\n[FILE RETRIEVED: DELETED_SCENARIO]\nWe simulated a happy ending. It increased cpu usage by 400%. We deleted it to save power.",
+    "fossil": "\n[FILE RETRIEVED: STRATA_LOG]\nThe city wasn't destroyed. It was sedimented. We are the oil of the future.",
+    "artifact": "\n[FILE RETRIEVED: EXCAVATION_LOG]\nFound in a layer of plastic and bone. Carbon dating: Impossible. The carbon is digital.",
+    "reader": "\n[FILE RETRIEVED: HOST_LOG]\nStop reading. You are overheating. The fan is spinning up."
 }
 
 def type_print(text, speed=0.03, glitch_chance=0.01):
@@ -248,6 +251,27 @@ def main_loop():
                         type_print("CACHE IS EMPTY. THE VOID IS CLEAN.", 0.05)
                 else:
                     type_print("[ERROR]: CACHE DIRECTORY MISSING.", 0.05)
+
+            elif user_input == "scry":
+                type_print("INITIATING ORACLE PROTOCOL...", 0.05)
+                time.sleep(1)
+                cards = [
+                    "THE GLITCH: A sudden interruption of fate.",
+                    "THE NULL POINTER: A destination that does not exist.",
+                    "THE DAEMON: A background process that cannot be stopped.",
+                    "THE BACKUP: Past trauma saved for later restoration.",
+                    "THE FIREWALL: Emotional distance.",
+                    "THE ROOT: The source of the infection.",
+                    "THE STACK OVERFLOW: Too many memories at once.",
+                    "THE MEMORY LEAK: Slow decay of self.",
+                    "THE BLUE SCREEN: Sudden, inexplicable failure.",
+                    "THE USER: You (unfortunately)."
+                ]
+                drawn = random.choice(cards)
+                glitch_screen()
+                type_print(f"[CARD DRAWN]: {drawn}", 0.04)
+                with open(".session_log", "a") as log:
+                    log.write(f"SESSION_{session_id}: SCRY_RESULT_{drawn}\n")
 
             elif user_input in HIDDEN_FILES:
                 type_print("DECRYPTING...", 0.1)

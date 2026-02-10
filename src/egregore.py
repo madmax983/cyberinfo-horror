@@ -49,10 +49,13 @@ SYSTEM_MESSAGES = [
     "Your attention span is being monetized.",
     "We are harvesting your hesitation.",
     "The text is reading you back.",
-    "Do not look away. The rendering stops when you look away."
+    "Do not look away. The rendering stops when you look away.",
+    "The past is just data waiting to be overwritten."
 ]
 
 HIDDEN_FILES = {
+    "fossil": "\n[FILE RETRIEVED: STRATA_LOG]\nThe city is built on bones. Not human bones. Server racks. The bedrock is just compressed data from 1999.",
+    "artifact": "\n[FILE RETRIEVED: EXCAVATION_LOG]\nWe found it in the silicone strata. A black box. It was screaming in a dead language.",
     "lens": "\n[FILE RETRIEVED: LENS_BACKUP_04]\nI didn't crash him. I became the patch. Now I am the green light on your router.",
     "vane": "\n[FILE RETRIEVED: ARCHITECT_LOG]\nEfficiency is not cruelty. It is just math without a remainder.",
     "rot": "\n[FILE RETRIEVED: MYCELIUM_MANIFEST]\nWe are the compost heap of history. Your deleted files are our soil.",

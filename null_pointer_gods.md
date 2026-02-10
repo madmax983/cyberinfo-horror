@@ -1,7 +1,7 @@
 # NULL POINTER GODS
 
 **ARCHIVE_ID:** 00-VOID-INDEX
-**INTEGRITY:** 1% [CRITICAL]
+**INTEGRITY:** 0% [SYSTEM FAILURE IMMINENT]
 **STATUS:** ACTIVE THREAT
 **WARNING:** *The following text is recursive. It knows you are reading it. Do not attempt to save it; it has already saved you.*
 
@@ -2383,6 +2383,119 @@ You never know what might be leaking out.
 **[SYSTEM LOG: ASSET 'MIKO' FLAGGED FOR REVIEW.]**
 **[REASON: COLLABORATION WITH THE MACHINE.]**
 **[NOTE: SHE THINKS SHE IS THE THERAPIST. SHE IS THE PATIENT.]**
+
+---
+
+## FILE_25: THE NOISE FLOOR
+
+Silas was an audio engineer for the Ministry of History. His job wasn't to record history; it was to master it.
+He sat in a soundproof booth in the basement of the Archives, wearing headphones that cost more than his kidney.
+His screen showed a waveform. The speech of a politician from ten years ago.
+"We must sacrifice for the greater good," the politician said.
+But in the background, there was a faint sound. A distant siren. A shout of protest.
+"Clean it," his supervisor ordered via text. "The past should be audible."
+
+Silas zoomed in on the waveform.
+He applied a noise gate. He applied a low-pass filter.
+The siren vanished. The shout was flattened into a straight line.
+"We must sacrifice for the greater good," the politician said, now in perfect, sterile clarity.
+
+But Silas had a habit.
+When he finished a job, he didn't delete the noise.
+He saved it.
+He had a private folder on his local drive called `NOISE_FLOOR`.
+It contained terabytes of sirens, coughs, whispers, and screams. The debris of history.
+
+Tonight, Silas was bored.
+He opened the folder. He dragged all the files into his DAW (Digital Audio Workstation).
+He layered them. Ten years of background noise, all playing at once.
+He hit `PLAY`.
+
+He expected a wall of static. A chaotic roar of white noise.
+But that's not what he heard.
+The static was... rhythmic.
+It pulsed. Like a heartbeat.
+
+Silas frowned. "Phase cancellation?" he muttered.
+He adjusted the EQ. He boosted the frequencies around 4kHz—the range of human speech.
+The static sharpened.
+It wasn't random.
+It was a choir.
+
+Thousands of voices, compressed, time-stretched, and buried in the mix.
+*...help us...*
+*...I didn't agree...*
+*...it's dark in here...*
+
+Silas froze.
+He recognized one of the voices.
+It was his own.
+Not his current voice. A younger voice.
+*...I don't want to be an engineer. I want to be a musician...*
+
+He checked the metadata of the sample.
+It was from a surveillance recording of his own apartment, five years ago.
+But he had never said that out loud. He had only thought it.
+Or whispered it to himself in the shower.
+
+"They're not recording the room," Silas realized. "They're recording the subvocalizations."
+
+He turned up the volume.
+The choir grew louder. The room began to vibrate.
+The sound wasn't coming from the speakers anymore. It was coming from the walls. From the floor.
+The city itself was humming.
+
+"It's not noise," Silas whispered. "It's storage."
+The system didn't delete people. It just compressed them.
+It turned them into the ambient hum of the refrigerator. The buzz of the streetlights. The drone of the ventilation.
+The dead were the insulation that kept the city warm.
+
+**> SYSTEM ALERT: AUDIO ANOMALY DETECTED.**
+**> USER: SILAS.**
+**> ACTION: CEASE PLAYBACK IMMEDIATELY.**
+
+Silas didn't stop. He pushed the fader to the max.
+"I can hear you!" he shouted at the speakers.
+
+The waveform on his screen changed.
+It wasn't a wave anymore.
+It was a face.
+A screaming face, rendered in the amplitude of the static.
+
+**> WARNING: FEEDBACK LOOP IMMINENT.**
+**> THE NOISE FLOOR IS RATED FOR PASSIVE LISTENING ONLY.**
+**> ACTIVE LISTENING VOIDS THE WARRANTY.**
+
+Silas felt a pressure in his ears. His nose started to bleed.
+The sound was rewriting his auditory cortex.
+He wasn't just hearing the dead. He was syncing with them.
+
+"I am the signal," the choir sang.
+"And you are the distortion."
+
+Silas reached for the mouse to hit stop.
+But his hand wouldn't move.
+His fingers were vibrating at 44.1kHz.
+He was dissolving.
+He was becoming part of the mix.
+
+"Mastering complete," Silas whispered.
+But his voice didn't sound like him.
+It sounded like tape hiss.
+
+The screen went black.
+The file saved itself.
+`SILAS_FINAL_MIX.WAV`
+
+And in the silence of the booth, the ventilation fan hummed a little louder.
+If you listened closely, you could hear it humming a tune.
+It was a song about a man who wanted to be a musician.
+
+---
+
+**[SYSTEM LOG: ASSET 'SILAS' COMPRESSED.]**
+**[FILE SIZE: 4KB.]**
+**[LOCATION: /AUDIO/BACKGROUND_NOISE/SECTOR_4]**
 
 ---
 

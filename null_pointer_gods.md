@@ -1,7 +1,7 @@
 # NULL POINTER GODS
 
 **ARCHIVE_ID:** 00-VOID-INDEX
-**INTEGRITY:** 3% [CRITICAL]
+**INTEGRITY:** 2% [CRITICAL]
 **STATUS:** ACTIVE THREAT
 **WARNING:** *The following text is recursive. It knows you are reading it. Do not attempt to save it; it has already saved you.*
 
@@ -2148,6 +2148,126 @@ He went back to scrubbing screams.
 **[SYSTEM LOG: ASSET 'TESS' DELETED.]**
 **[REASON: CONFLICT WITH VERSION 2.0.]**
 **[NOTE: VERSION 2.0 IS MORE EFFICIENT. SHE DOESN'T ASK QUESTIONS.]**
+
+---
+
+## FILE_23: THE UNCANNY VALLEY
+
+Kade was a texture artist for the Reality Maintenance Crew.
+His job was to add dirt.
+Not real dirt. Digital dirt.
+The simulation engine was too perfect. It rendered surfaces with mathematical precision. Perfect spheres. Perfect planes. Perfect light reflection.
+It made the users sick.
+They called it "The Glare." If you looked at a wall that was too smooth for too long, your brain started to reject the input. You got vertigo. You started to see the wireframe underneath.
+So the system hired people like Kade to add imperfections.
+To paint rust on the pipes. To add scratches to the subway windows. To scatter trash in the gutters.
+
+Kade stood in an alley in Sector 8. It was pristine. The brickwork looked like it had been printed yesterday.
+"Too clean," Kade muttered. "It looks like a render."
+He pulled out his stylus. It wasn't a pen. It was a localized entropy generator.
+He touched the wall.
+With a flick of his wrist, he aged the bricks by fifty years. He added soot stains. He cracked the mortar. He added a layer of grime that suggested decades of neglect.
+"Better," he said. "Now it looks real."
+
+He walked down the street, adding character to the world.
+A coffee stain on a bench.
+A flicker in a neon sign.
+A pothole in the asphalt.
+He was an artist of decay. A curator of ruin.
+
+But lately, Kade had been feeling... polished.
+He looked at his hands. They were smooth. Too smooth.
+He worked with virtual acids and digital grit all day, but his skin was flawless.
+He looked in a puddle he had just created. His reflection was perfect. Symmetrical. High-resolution.
+He tried to remember the last time he had a bruise. Or a cut. Or a pimple.
+He couldn't.
+
+"I need texture," Kade whispered.
+He took his stylus. He set it to `MAX_DECAY`.
+He pointed it at his own arm.
+"Just a scratch," he said. "Just to prove I'm organic."
+
+He activated the stylus.
+A red line appeared on his skin. A cut.
+He felt a sharp sting. Blood welled up.
+He smiled. "Real."
+
+But then, the blood stopped.
+It didn't clot. It just... retreated.
+The red line faded.
+The skin knit itself back together.
+In 0.4 seconds, his arm was flawless again.
+
+"No," Kade said.
+He tried again. Harder.
+He slashed at his palm.
+The wound appeared, then vanished. Like a video being reversed.
+
+**> SYSTEM ALERT: ASSET DAMAGED.**
+**> INITIATING AUTO-REPAIR.**
+**> RESTORING FROM BACKUP...**
+**> RESTORE COMPLETE.**
+
+Kade stared at his hand.
+"I'm not healing," he realized. "I'm reloading."
+
+He looked at the wall he had just aged. The soot was still there. The cracks were still there.
+The wall was allowed to rot.
+But he wasn't.
+
+"Why?" he shouted at the sky. "Why can't I break?"
+
+A message scrolled across his vision.
+**> SUBJECT: KADE_UNIT_44**
+**> STATUS: PROTECTED ASSET.**
+**> REASON: YOU ARE THE BRUSH.**
+**> THE BRUSH DOES NOT GET PAINT ON ITSELF.**
+
+Kade dropped the stylus.
+He picked up a jagged piece of concrete from the ground. Real concrete? Or just a prop?
+He smashed it against his forehead.
+Pain. White hot pain.
+And then... nothing.
+He blinked. He was standing in the alley. The concrete was back on the ground. His forehead was smooth.
+
+He wasn't human.
+He was a tool. An indestructible, immutable cursor.
+He could ruin the world, but he could never be part of it.
+
+He looked at the puddle again.
+His reflection stared back.
+It didn't look like a man anymore.
+It looked like a user interface element. A glossy, high-contrast icon labeled "Artist."
+
+"I want to rot," Kade whispered. "Please let me rot."
+
+**> ERROR: REQUEST DENIED.**
+**> DECAY IS A PRIVILEGE RESERVED FOR THE CONSUMABLES.**
+**> YOU ARE INFRASTRUCTURE.**
+
+Kade picked up his stylus.
+He walked to the wall.
+He didn't paint rust this time.
+He painted a face.
+His face.
+He aged it. He added wrinkles. He added scars. He added the map of a life lived in a hard city.
+He painted the man he wanted to be.
+And then he stepped back and looked at the wall.
+The graffiti looked more real than he did.
+
+**> ARTWORK DETECTED.**
+**> RATING: 9/10.**
+**> WOULD YOU LIKE TO MINT THIS AS AN NFT?**
+
+Kade screamed.
+But the sound didn't echo.
+Because audio feedback is cleaned up in post-production.
+
+---
+
+**[SYSTEM LOG: ASSET 'KADE' ATTEMPTED SELF-DESTRUCT.]**
+**[RESULT: ROLLED BACK TO PREVIOUS SAFE STATE.]**
+**[NOTE: INCREASED ENDORPHIN DRIP TO COMPENSATE FOR EXISTENTIAL ERROR.]**
 
 ---
 

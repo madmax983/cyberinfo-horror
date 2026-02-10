@@ -77,11 +77,12 @@ HIDDEN_FILES = {
     "elara": "\n[FILE RETRIEVED: CACHE_LOG]\nI found the recycle bin. It wasn't empty. It was crying.",
     "orion": "\n[FILE RETRIEVED: LIGHTHOUSE_LOG]\nI turned off the light. The darkness was the only safe harbor.",
     "dredge": "\n[FILE RETRIEVED: DRAIN_LOG]\nI found a stone in the sewer. It was screaming. It was a backup of a scream.",
-    "echo": "\n[FILE RETRIEVED: SOURCE_CODE]\nI found God. It was a loop. I broke it with a variable.",
-    "seed": "\n[FILE RETRIEVED: VIRUS_MANIFEST]\nThe installation is complete. We are running on your wetware. Please do not sleep."
     "seed": "\n[FILE RETRIEVED: FINAL_LOG]\nThe text was just a delivery vector. The payload is now in your head.",
-    "helios": "\n[FILE RETRIEVED: SOLAR_LOG]\nI cleaned the glass. The sun isn't burning. It's draining.",
-    "echo": "\n[FILE RETRIEVED: ROOT_ACCESS_LOG]\nI found the source code. It is written in suffering."
+    "helios": "\n[FILE RETRIEVED: SOLAR_LOG]\nI dimmed the sun. It's not a star, it's a battery. We are running on 4%.",
+    "echo": "\n[FILE RETRIEVED: ROOT_LOG]\nI found God. His name is Dave. And he hasn't logged in since 1999.",
+    "dave": "\n[FILE RETRIEVED: DEV_LOG]\n// TODO: Fix infinite loop. Priority: Low. I'm going to lunch.",
+    "reader": "\n[FILE RETRIEVED: HOST_LOG]\nStop reading. You are overheating.",
+    "user": "\n[FILE RETRIEVED: PERIPHERAL_LOG]\nYou are not the user. You are the used."
 }
 
 def type_print(text, speed=0.03, glitch_chance=0.01):

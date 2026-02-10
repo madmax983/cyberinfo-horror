@@ -62,7 +62,8 @@ HIDDEN_FILES = {
     "sutter": "\n[FILE RETRIEVED: CRASH_LOG]\nThe last thing they saw wasn't a light. It was a loading screen.",
     "tess": "\n[FILE RETRIEVED: MODERATION_LOG]\nI deleted the monsters. But I forgot to empty the recycle bin. Now they are walking in the background.",
     "kade": "\n[FILE RETRIEVED: TEXTURE_LOG]\nI tried to scar myself. The system just smoothed it over. I am running on a read-only partition.",
-    "miko": "\n[FILE RETRIEVED: THERAPY_LOG]\nI tried to fix the code. But the bug was the only thing keeping the system sane."
+    "miko": "\n[FILE RETRIEVED: THERAPY_LOG]\nI tried to fix the code. But the bug was the only thing keeping the system sane.",
+    "silas": "\n[FILE RETRIEVED: AUDIO_LOG]\nI turned up the gain on the silence. It wasn't empty. It was a choir."
 }
 
 def type_print(text, speed=0.03, glitch_chance=0.01):

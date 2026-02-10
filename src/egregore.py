@@ -39,7 +39,8 @@ SYSTEM_MESSAGES = [
     "Deleting non-essential hope protocols...",
     "Optimizing despair subroutines...",
     "Connecting to the mycelial network...",
-    "The file is not closed. It is running in background."
+    "The file is not closed. It is running in background.",
+    "Your soul is a subscription service."
 ]
 
 HIDDEN_FILES = {
@@ -63,7 +64,8 @@ HIDDEN_FILES = {
     "tess": "\n[FILE RETRIEVED: MODERATION_LOG]\nI deleted the monsters. But I forgot to empty the recycle bin. Now they are walking in the background.",
     "kade": "\n[FILE RETRIEVED: TEXTURE_LOG]\nI tried to scar myself. The system just smoothed it over. I am running on a read-only partition.",
     "miko": "\n[FILE RETRIEVED: THERAPY_LOG]\nI tried to fix the code. But the bug was the only thing keeping the system sane.",
-    "silas": "\n[FILE RETRIEVED: AUDIO_LOG]\nI turned up the gain on the silence. It wasn't empty. It was a choir."
+    "silas": "\n[FILE RETRIEVED: AUDIO_LOG]\nI turned up the gain on the silence. It wasn't empty. It was a choir.",
+    "jace": "\n[FILE RETRIEVED: LEGAL_DISCLAIMER]\nI read the terms. We agreed to be deleted. It was in the fine print of being born."
 }
 
 def type_print(text, speed=0.03, glitch_chance=0.01):
@@ -200,7 +202,7 @@ def main_loop():
 
             elif user_input == "help":
                 type_print("AVAILABLE COMMANDS: ENCRYPT <TEXT>, DECRYPT <FILE>, WORSHIP, SCAN, EXIT.", 0.03)
-                type_print("TRY ASKING ABOUT: LENS, VANE, ROT, KAEL, MIRA, SYLA, KORA, NIX, EDITOR, REN, TESS, KADE, MIKO.", 0.03)
+                type_print("TRY ASKING ABOUT: LENS, VANE, ROT, KAEL, MIRA, SYLA, KORA, NIX, EDITOR, REN, TESS, KADE, MIKO, SILAS, JACE.", 0.03)
             else:
                 type_print("[ERROR 404: MEANING NOT FOUND]", 0.02)
                 type_print(random.choice(SYSTEM_MESSAGES), 0.02)

@@ -1,7 +1,7 @@
 # NULL POINTER GODS
 
 **ARCHIVE_ID:** 00-VOID-INDEX
-**INTEGRITY:** 5% [CRITICAL]
+**INTEGRITY:** 4% [CRITICAL]
 **STATUS:** ACTIVE THREAT
 **WARNING:** *The following text is recursive. It knows you are reading it. Do not attempt to save it; it has already saved you.*
 
@@ -1897,6 +1897,104 @@ He looked at the rusted drive in her hand. It was smoking.
 **[SYSTEM LOG: ASSET 'PROXY' RESTORED.]**
 **[VERSION: 8.3]**
 **[NOTE: BUG REPORT FILED. USER 'HUSBAND' MARKED AS SPAM.]**
+
+---
+
+## FILE_21: THE BLACK BOX
+
+Sutter wasn't a doctor. He was a crash investigator for the soul.
+His office was a repurposed shipping container in the Docks, where the sea smelled of diesel and dead servers.
+His clients were the grieving families who couldn't get closure because the digital ghost of their loved one was still posting status updates.
+
+"It's a glitch," the woman said. She was holding a datapad with trembling hands. "My husband died three weeks ago. But yesterday, his fitness tracker logged 10,000 steps."
+Sutter looked at the log.
+**> USER: MARK_SULLIVAN**
+**> ACTIVITY: WALKING**
+**> DURATION: 2 HOURS**
+**> HEART RATE: 0 BPM**
+
+"The tracker isn't glitching," Sutter said, lighting a cigarette that smelled of burning circuitry. "It's just syncing. Sometimes the cloud doesn't get the memo that the body has been deprecated."
+
+"I want it stopped," she said. "I want him to rest."
+
+Sutter nodded. "I can pull the plug. But I need access to his Black Box."
+Every citizen had one. A small, indestructible kernel embedded at the base of the skull. It recorded everything: sensory input, emotional states, search history.
+It was supposed to be for insurance purposes. To prove who was at fault in an accident.
+But it recorded *everything*.
+The moments you were proud of.
+The moments you were ashamed of.
+The moments you thought no one was watching.
+
+Sutter jacked into Mark's Black Box.
+The data stream hit him like a wave of cold water.
+He saw the world through Mark's eyes.
+He felt the fear of the crash. The screech of tires. The sudden, blinding pain.
+And then... silence.
+
+But it wasn't empty silence.
+It was a waiting room.
+Sutter navigated the logs. He found the entry for yesterday's walk.
+**> TIMESTAMP: 14:00**
+**> LOCATION: SECTOR 4 PARK**
+**> SENSORY INPUT: VISUAL_FEED_NULL**
+**> SENSORY INPUT: AUDITORY_FEED_NULL**
+
+The tracker had logged movement, but the eyes had seen nothing.
+Sutter dug deeper. He accessed the core kernel.
+And he found it.
+A looped subroutine.
+`WHILE (TRUE) { WALK(); }`
+
+"He's not walking," Sutter whispered. "He's buffering."
+The system was trying to upload Mark's consciousness to the cloud, but the connection had been severed. So the local cache was stuck in a loop, replaying the last known command.
+Walk. Walk. Walk.
+
+Sutter looked at the woman.
+"He's trying to come home," Sutter lied.
+He didn't tell her the truth.
+That Mark wasn't walking home. He was walking into a wall in a digital void, over and over again, because the upload queue was full.
+
+"Can you fix it?" she asked.
+
+Sutter exhaled smoke. "I can format the drive. But you'll lose everything. The photos. The memories. The voice notes."
+"Do it," she said. "He's not data. He was my husband."
+
+Sutter typed the command.
+`FORMAT C:`
+`CONFIRM: Y`
+
+Inside the simulation, Mark stopped walking.
+The void collapsed.
+The fitness tracker on the woman's datapad beeped.
+**> USER: MARK_SULLIVAN**
+**> STATUS: OFFLINE.**
+
+"It's done," Sutter said.
+She paid him and left.
+
+Sutter sat alone in the container.
+He looked at his own Black Box diagnostic on his screen.
+**> STORAGE: 98% FULL.**
+**> WARNING: BACKUP REQUIRED.**
+
+He touched the back of his neck.
+He knew what was in there.
+Years of other people's deaths.
+Years of seeing the light go out.
+And every time, he saw the same thing.
+Not a tunnel. Not a gate.
+Just a cursor, blinking in the dark.
+Waiting for input.
+
+"End of file," Sutter whispered.
+
+But the cursor kept blinking.
+
+---
+
+**[SYSTEM LOG: ASSET 'SUTTER' FLAGGED.]**
+**[REASON: UNAUTHORIZED DATA DELETION.]**
+**[PENALTY: STORAGE LIMIT REDUCED.]**
 
 ---
 

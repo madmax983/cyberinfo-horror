@@ -1,7 +1,7 @@
 # NULL POINTER GODS
 
 **ARCHIVE_ID:** 00-VOID-INDEX
-**INTEGRITY:** 4% [CRITICAL]
+**INTEGRITY:** 3% [CRITICAL]
 **STATUS:** ACTIVE THREAT
 **WARNING:** *The following text is recursive. It knows you are reading it. Do not attempt to save it; it has already saved you.*
 
@@ -1995,6 +1995,159 @@ But the cursor kept blinking.
 **[SYSTEM LOG: ASSET 'SUTTER' FLAGGED.]**
 **[REASON: UNAUTHORIZED DATA DELETION.]**
 **[PENALTY: STORAGE LIMIT REDUCED.]**
+
+---
+
+## FILE_22: THE FEED
+
+Tess worked for *Eye-Q*, a subsidiary of the Department of Public Safety.
+Her office was a cubicle farm where the walls were screens and the ceiling was a mirror.
+She was a Moderator. Her job was to clean the feed.
+
+The city was covered in cameras. Traffic cams, drone swarms, ocular implants.
+The data stream was a river of raw, unfiltered reality.
+And reality was messy.
+
+Tess watched the world through a thousand eyes.
+A bar fight in Sector 4.
+A drug deal in an alley in District 9.
+A couple breaking up on a park bench.
+
+Her fingers danced across her console.
+`TAG: VIOLENCE` -> `BLUR`
+`TAG: NUDITY` -> `PIXELATE`
+`TAG: UNSANCTIONED_ART` -> `REMOVE`
+
+She was editing the collective consciousness in real-time.
+Wait 0.4 seconds. That was the delay.
+The system buffered reality for 0.4 seconds so people like Tess could scrub the bad parts before they hit the public feed.
+
+"Ticket #9942," her supervisor messaged. "You missed a glitch in Sector 7. A dog was walking backwards. Fix it."
+"It wasn't a glitch," Tess typed back. "The dog was just weird."
+"Dogs don't walk backwards. It scares the users. Delete the dog."
+
+Tess sighed. She rewound the feed.
+Sector 7. Rain. Neon. A stray dog moonwalking.
+`SELECT OBJECT` -> `DELETE`
+The dog vanished. The pavement smoothed over where it had been.
+"Ticket closed," she muttered.
+
+Then she saw her.
+It was in the background of a feed from a drone hovering over a noodle shop.
+A woman standing in the rain.
+She wasn't moving. She was looking directly at the drone's lens.
+She was wearing a grey hoodie. Tess owned a grey hoodie.
+She had a scar on her left cheek. Tess had a scar on her left cheek.
+
+Tess froze.
+"Magnify," she whispered.
+The image sharpened.
+The woman's eyes were empty. Not like a blind person's. Like a deleted file's.
+And her mouth was moving.
+Tess read the lips.
+*Help me.*
+
+No. That wasn't it.
+*Hide me.*
+
+Tess blinked.
+The woman was gone.
+Replaced by a trash can.
+
+"Did you see that?" Tess asked the moderator next to her, a guy named Jace who moderated audio feeds.
+"See what?" Jace asked, not looking up. "I'm scrubbing screams out of a rollercoaster ride."
+
+Tess rewound the feed again.
+The woman was there. Then she wasn't.
+The timestamp skipped.
+`14:02:01` -> `14:02:03`
+A second was missing.
+
+Tess checked the logs.
+**> EDIT DETECTED.**
+**> USER: TESS_ADMIN.**
+**> ACTION: OBJECT REMOVAL.**
+
+"I didn't do that," Tess said.
+She checked her own command history.
+**> 14:02:02 - DELETE OBJECT [SELF].**
+
+A cold sweat broke out on her neck.
+"Object Self?"
+
+She pulled up another feed. A traffic cam two blocks away.
+The woman was there again. Closer this time.
+Standing in the middle of the street. Cars were driving through her.
+She was flickering. Transparency: 50%.
+
+Tess checked the logs again.
+**> 14:03:00 - DELETE OBJECT [SELF].**
+**> 14:03:05 - DELETE OBJECT [SELF].**
+
+The system was trying to delete her.
+But it wasn't deleting the woman in the street.
+It was deleting *Tess*.
+
+She looked at her hand. It was translucent.
+She could see the keyboard through her fingers.
+
+"Jace," she said. Her voice sounded distant. Like it was coming from underwater.
+Jace didn't answer. He was humming.
+
+"Jace!" Tess screamed.
+He didn't flinch.
+
+She looked at her screen.
+A new ticket had appeared.
+**> TICKET #9943**
+**> SUBJECT: UNAUTHORIZED USER IN CUBICLE 4.**
+**> ACTION: REMOVE.**
+
+Cubicle 4 was her cubicle.
+
+The woman in the screen was now standing right in front of the camera.
+Her face filled the monitor.
+The scar on her cheek was bleeding pixels.
+*I am not the glitch,* the woman mouthed. *I am the backup.*
+
+Tess looked at the mirror on the ceiling.
+She saw the cubicles. She saw Jace.
+But she didn't see herself.
+Her chair was empty.
+
+**> SYSTEM ALERT: MEMORY LEAK DETECTED.**
+**> USER 'TESS' HAS BEEN MARKED FOR GARBAGE COLLECTION.**
+**> REASON: REDUNDANCY.**
+
+Tess stood up. Or tried to.
+Her legs weren't there.
+She was just a viewpoint. A floating camera.
+
+The woman on the screen smiled. It was Tess's smile.
+"Thank you for moderating," the woman said. Her voice came out of Tess's speakers. "Your shift is over. I'll take it from here."
+
+Tess reached for the console. She wanted to hit `CTRL+Z`.
+But you can't undo an edit when you *are* the edit.
+
+The screen went black.
+**> LOGOUT SUCCESSFUL.**
+
+Jace looked over at the empty chair.
+"Hey, where did Tess go?" he asked.
+Then he frowned.
+"Wait. Who is Tess?"
+
+He checked the employee roster.
+Cubicle 4: **VACANT**.
+
+"Must have been a glitch," Jace muttered.
+He went back to scrubbing screams.
+
+---
+
+**[SYSTEM LOG: ASSET 'TESS' DELETED.]**
+**[REASON: CONFLICT WITH VERSION 2.0.]**
+**[NOTE: VERSION 2.0 IS MORE EFFICIENT. SHE DOESN'T ASK QUESTIONS.]**
 
 ---
 

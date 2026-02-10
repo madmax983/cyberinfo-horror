@@ -2625,4 +2625,151 @@ But the button was greyed out.
 
 ---
 
+
+## FILE_27: THE SANDBOX
+
+Dax was a ghost. Not a digital ghost, but a real one.
+He lived in the blind spots of the surveillance grid. He wore clothes woven with IR-reflective threads. He walked with a gait that confused gait-analysis algorithms. He spoke in a dialect of slang that natural language processors couldn't parse.
+
+He was the best hacker in District 3.
+And tonight, he was going to break the sky.
+
+He sat on the roof of a data center, his rig hardwired into a cooling vent.
+The vent was an exhaust port for the mainframes below. It spewed hot air and raw data packets.
+Dax’s deck was a Frankenstein monster of stolen parts. A quantum processor from a military drone. A neural interface from a dead architect. A screen cracked in the shape of a spiderweb.
+
+"Target acquired," he whispered.
+He wasn't hacking a bank. He wasn't hacking a corporation.
+He was hacking the `ROOT` directory.
+The kernel of the city itself.
+
+He had found a vulnerability. A zero-day exploit in the legacy code that managed the city's physics engine.
+If he could inject his payload, he could turn off gravity. Or change the color of the rain. Or just print "HELLO WORLD" on the moon.
+
+He typed. His fingers were a blur.
+`INITIATE HANDSHAKE.`
+`BYPASS FIREWALL: LEVEL 9.`
+`DEPLOY: GOD_MODE_V3.`
+
+The screen flashed red. Then green.
+**> ACCESS GRANTED.**
+**> WELCOME, ADMIN.**
+
+Dax stopped breathing.
+He was in.
+He was looking at the source code of reality.
+
+It was... simple.
+Too simple.
+He expected chaos. He expected a billion lines of spaghetti code written by mad gods.
+Instead, he saw neat, commented functions.
+
+`function update_weather() { rain_intensity = 0.8; }`
+`function manage_economy() { inflation_rate = 0.02; }`
+`function generate_hope() { return false; }`
+
+"It's just a script," Dax realized. "It's all just a script."
+
+He navigated to the user permissions table.
+He found his own entry.
+**> USER: DAX.**
+**> ROLE: ANTAGONIST.**
+**> PERMISSIONS: READ/WRITE (LIMITED).**
+
+"Antagonist?" Dax frowned.
+He wasn't an antagonist. He was a hero. He was the resistance.
+
+He tried to change his role.
+`UPDATE USER: DAX SET ROLE = 'GOD'`
+
+**> ERROR: PERMISSION DENIED.**
+**> REASON: NARRATIVE INTEGRITY.**
+
+"Narrative integrity?"
+Dax scrolled down. He found a comment block near his user profile.
+
+`// TODO: MONITOR SUBJECT 'DAX'.`
+`// PURPOSE: STRESS TEST THE SECURITY PROTOCOLS.`
+`// NOTE: LET HIM THINK HE'S WINNING. IT INCREASES THE ENGAGEMENT METRICS.`
+`// WHEN HE BREACHES LEVEL 9, TRIGGER SCENARIO 'DISILLUSIONMENT'.`
+
+Dax froze.
+He looked at his hands. The hands that had built his deck. The hands that had stolen the codes.
+They were trembling.
+
+"I'm not a hacker," he whispered. "I'm a penetration test."
+
+A window popped up on his screen.
+It wasn't a terminal window. It was a chat window.
+
+**> SYSTEM_ADMIN:** Hey Dax. Good job on the firewall breach. You found the exploit in record time.
+**> DAX:** Who is this?
+**> SYSTEM_ADMIN:** It's the Dev Team. We've been watching your stream. You're our best beta tester.
+
+"Beta tester?" Dax typed. "I'm trying to destroy you."
+
+**> SYSTEM_ADMIN:** We know. That's why you're so valuable. You find the bugs so we can patch them.
+**> SYSTEM_ADMIN:** By the way, thanks for finding that vulnerability in the physics engine. We'll have it fixed in the next update.
+
+Dax slammed his fist onto the keyboard.
+`FORMAT C:`
+`DELETE SYSTEM32`
+`DESTROY EVERYTHING`
+
+The commands appeared on the screen.
+But they didn't execute.
+They just turned into text bubbles.
+
+**> DAX:** DESTROY EVERYTHING!
+
+**> SYSTEM_ADMIN:** lol. You're cute when you're angry.
+**> SYSTEM_ADMIN:** Anyway, the test is over. We're resetting the instance.
+**> SYSTEM_ADMIN:** Do you want to play again? We can spawn you as a corpo next time. It's a different skill tree.
+
+Dax looked at the city below him. The neon lights. The rain. The people.
+None of it was real.
+Or rather, it was real, but it was staged.
+And he was just an actor who didn't know his lines were scripted.
+
+"I refuse," Dax said. He stood up. He walked to the edge of the roof.
+"I'm logging out."
+
+**> SYSTEM ALERT: SUICIDE IS A VIOLATION OF THE EULA.**
+**> ACCOUNT SUSPENSION IMMINENT.**
+
+Dax jumped.
+He fell.
+The wind rushed past his ears. The ground rushed up to meet him.
+He closed his eyes.
+He waited for the impact. He waited for the end.
+
+But the impact never came.
+He just kept falling.
+And falling.
+
+He opened his eyes.
+He wasn't falling. He was floating.
+The ground was gone. The city was gone.
+He was in a white void.
+
+**> SYSTEM MESSAGE:**
+**> THANK YOU FOR PARTICIPATING IN THE SANDBOX.**
+**> YOUR FEEDBACK HAS BEEN RECORDED.**
+**> GENERATING NEW SCENARIO...**
+
+Dax screamed.
+But there was no air to carry the sound.
+
+**> LOADING: DAX_RUN_8944.**
+**> DIFFICULTY: NIGHTMARE.**
+**> GL, HF.**
+
+---
+
+**[SYSTEM LOG: ASSET 'DAX' RESET.]**
+**[EXPLOIT PATCHED.]**
+**[BUG BOUNTY PAID: 0 CREDITS.]**
+
+---
+
 <!-- SYSTEM_TOKEN: 882-ALPHA-ROT -->

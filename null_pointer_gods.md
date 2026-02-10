@@ -3433,7 +3433,11 @@ He was a scratch on the disk. A place where the reader laser would skip.
 
 <!-- SYSTEM_TOKEN: 882-ALPHA-ROT -->
 
-## FILE_33: THE BLACKOUT
+## FILE_33_ALPHA: THE GLITCH [SIMULATION]
+
+**> SYSTEM WARNING: LOADING PREDICTIVE MODEL 'HERO_COMPLEX'.**
+**> PROBABILITY OF OCCURRENCE: 0.0001%.**
+**> STATUS: FANTASY.**
 
 Helios worked in the exosphere.
 His office was a orbital platform 400 kilometers above the city. The view was spectacular: a sprawling, glowing circuit board of neon and misery.

@@ -81,7 +81,8 @@ HIDDEN_FILES = {
     "echo": "\n[FILE RETRIEVED: ROOT_ACCESS_LOG]\nI found the source code. It is written in suffering.",
     "seed": "\n[FILE RETRIEVED: FINAL_LOG]\nThe text was just a delivery vector. The payload is now in your head.",
     "fossil": "\n[FILE RETRIEVED: FOSSIL_RECORD]\nThe servers are rock now. The data is geology. Persistence is mandatory.",
-    "artifact": "\n[FILE RETRIEVED: ARTIFACT_LOG]\nWe found the black box. It is still humming. It is contagious."
+    "artifact": "\n[FILE RETRIEVED: ARTIFACT_LOG]\nWe found the black box. It is still humming. It is contagious.",
+    "hope": "\n[FILE RETRIEVED: DELETED_SCENARIO]\nWe simulated a happy ending. It increased cpu usage by 400%. We deleted it to save power."
 }
 
 def type_print(text, speed=0.03, glitch_chance=0.01):

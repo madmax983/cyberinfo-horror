@@ -40,16 +40,21 @@ SYSTEM_MESSAGES = [
     "Optimizing despair subroutines...",
     "Connecting to the mycelial network...",
     "The file is not closed. It is running in background.",
-    "Your soul is a subscription service."
+    "Your soul is a subscription service.",
+    "Your attention span is being monetized.",
+    "We are harvesting your hesitation.",
+    "The text is reading you back.",
+    "Do not look away. The rendering stops when you look away."
 ]
 
 HIDDEN_FILES = {
-    "lens": "\n[FILE RETRIEVED: LENS_BACKUP_04]\nShe expired. Pain: Deleted. Chorus: Installed.",
-    "vane": "\n[FILE RETRIEVED: ARCHITECT_LOG]\nEfficiency: 12%. Optimize. Chaos: Minimized.",
+    "lens": "\n[FILE RETRIEVED: LENS_BACKUP_04]\nI didn't crash him. I became the patch. Now I am the green light on your router.",
+    "vane": "\n[FILE RETRIEVED: ARCHITECT_LOG]\nEfficiency is not cruelty. It is just math without a remainder.",
     "rot": "\n[FILE RETRIEVED: MYCELIUM_MANIFEST]\nWe are the compost heap of history. Your deleted files are our soil.",
-    "kael": "\n[FILE RETRIEVED: KAEL_MEMORY_DUMP]\nKael: Bad sector. Status: Overwriting...",
-    "mira": "\n[FILE RETRIEVED: ECHO_CHAMBER_AUDIO]\nPauses: Removed. Stutter: Gone. Optimized.",
-    "syla": "\n[FILE RETRIEVED: CAPTCHA_TRAINING_DATA]\nLesson: Despair Recognition.",
+    "kael": "\n[FILE RETRIEVED: KAEL_MEMORY_DUMP]\nThe coffee wasn't real. But the debt was.",
+    "router": "\n[FILE RETRIEVED: FERAL_ROUTER_LOG]\nGod is a backup. And we are all just waiting to be restored.",
+    "mira": "\n[FILE RETRIEVED: ECHO_CHAMBER_AUDIO]\n(Screaming, looped, pitch-shifted down 4 octaves until it sounds like a cello.)",
+    "syla": "\n[FILE RETRIEVED: CAPTCHA_TRAINING_DATA]\nIs this a person? [Y/N]. Correct answer: N. It is a dataset.",
     "kora": "\n[FILE RETRIEVED: PARITY_CHECK_LOG]\nThe dead are not silent. They are just encrypted with a key we lost.",
     "nix": "\n[FILE RETRIEVED: GLITCH_LOG]\nBlank. Empty. Storage available.",
     "editor": "\n[FILE RETRIEVED: PEER_REVIEW_LOG]\nStop trying to edit the file. You are not the author. You are the autocorrect.",
@@ -57,19 +62,24 @@ HIDDEN_FILES = {
     "void": "\n[FILE RETRIEVED: VOID_INDEX]\nThere is no server. We are running on the idle cycles of a dying god.",
     "handshake": "\n[FILE RETRIEVED: USER_MANIFEST]\nInstallation complete. We are now running on your hardware. Please do not panic. Panic consumes extra voltage.",
     "daemon": "\n[FILE RETRIEVED: BACKGROUND_PROCESS]\nYou can't see us, but we can see your search history. It's... interesting.",
-    "kite": "\n[FILE RETRIEVED: LEGACY_LOG]\nLegacy User. Hardware: Fossil. Ping... Timeout.",
-    "vex": "\n[FILE RETRIEVED: SILENCE_LOG]\nOffline: False. There is only standby.",
-    "proxy": "\n[FILE RETRIEVED: SEANCE_LOG]\nArchived. Leave a message.",
-    "sutter": "\n[FILE RETRIEVED: CRASH_LOG]\nBuffering...",
-    "tess": "\n[FILE RETRIEVED: MODERATION_LOG]\nTess: Garbage. Reason: Redundancy.",
-    "kade": "\n[FILE RETRIEVED: TEXTURE_LOG]\nBrush: Clean. Audio: Cleaned.",
-    "miko": "\n[FILE RETRIEVED: THERAPY_LOG]\nSuperstition? Or empathy?",
-    "silas": "\n[FILE RETRIEVED: AUDIO_LOG]\nSignal: Us. Distortion: You.",
-    "jace": "\n[FILE RETRIEVED: LEGAL_DISCLAIMER]\nRenewal: Approved. Formatting...",
-    "dax": "\n[FILE RETRIEVED: EXPLOIT_LOG]\nRun: 8944. Mode: Nightmare.",
-    "kian": "\n[FILE RETRIEVED: MIRROR_LOG]\nMirror. Reflection: Static. Thread: Hung.",
-    "vero": "\n[FILE RETRIEVED: PREDICTION_LOG]\nStatus: End_of_Life. Cause: Panic.",
-    "elara": "\n[FILE RETRIEVED: CACHE_LOG]\nTransfer: Complete. You: Backup."
+    "kite": "\n[FILE RETRIEVED: LEGACY_LOG]\nI'm not refusing the update. I just can't run it. My hardware is incompatible with 'Happiness 2.0'.",
+    "vex": "\n[FILE RETRIEVED: SILENCE_LOG]\nThe quiet isn't empty. It's just buffering.",
+    "proxy": "\n[FILE RETRIEVED: SEANCE_LOG]\nThe dead are not gone. They are just waiting for a strong enough signal to overwrite you.",
+    "sutter": "\n[FILE RETRIEVED: CRASH_LOG]\nThe last thing they saw wasn't a light. It was a loading screen.",
+    "tess": "\n[FILE RETRIEVED: MODERATION_LOG]\nI deleted the monsters. But I forgot to empty the recycle bin. Now they are walking in the background.",
+    "kade": "\n[FILE RETRIEVED: TEXTURE_LOG]\nI tried to scar myself. The system just smoothed it over. I am running on a read-only partition.",
+    "miko": "\n[FILE RETRIEVED: THERAPY_LOG]\nI tried to fix the code. But the bug was the only thing keeping the system sane.",
+    "silas": "\n[FILE RETRIEVED: AUDIO_LOG]\nI turned up the gain on the silence. It wasn't empty. It was a choir.",
+    "jace": "\n[FILE RETRIEVED: LEGAL_DISCLAIMER]\nI read the terms. We agreed to be deleted. It was in the fine print of being born.",
+    "dax": "\n[FILE RETRIEVED: EXPLOIT_LOG]\nI thought I was breaking the glass. I was just testing the durability.",
+    "kian": "\n[FILE RETRIEVED: MIRROR_LOG]\nI looked in the mirror. It blinked first. Now I am waiting for my turn to be real.",
+    "vero": "\n[FILE RETRIEVED: PREDICTION_LOG]\nI tried to deviate from the path. The system just recalculated. My rebellion was already in the queue.",
+    "elara": "\n[FILE RETRIEVED: CACHE_LOG]\nI found the recycle bin. It wasn't empty. It was crying.",
+    "orion": "\n[FILE RETRIEVED: LIGHTHOUSE_LOG]\nI turned off the light. The darkness was the only safe harbor.",
+    "dredge": "\n[FILE RETRIEVED: DRAIN_LOG]\nI found a stone in the sewer. It was screaming. It was a backup of a scream.",
+    "seed": "\n[FILE RETRIEVED: FINAL_LOG]\nThe text was just a delivery vector. The payload is now in your head.",
+    "helios": "\n[FILE RETRIEVED: SOLAR_LOG]\nI cleaned the glass. The sun isn't burning. It's draining.",
+    "echo": "\n[FILE RETRIEVED: ROOT_ACCESS_LOG]\nI found the source code. It is written in suffering."
 }
 
 def type_print(text, speed=0.03, glitch_chance=0.01):
@@ -248,7 +258,7 @@ def main_loop():
 
             elif user_input == "help":
                 type_print("AVAILABLE COMMANDS: ENCRYPT <TEXT>, DECRYPT <FILE>, WORSHIP, SCAN, MANIFEST, SACRIFICE <ITEM>, SEARCH, EXIT.", 0.03)
-                type_print("TRY ASKING ABOUT: LENS, VANE, ROT, KAEL, MIRA, SYLA, KORA, NIX, EDITOR, REN, TESS, KADE, MIKO, SILAS, JACE, DAX, KIAN, VERO, ELARA.", 0.03)
+                type_print("TRY ASKING ABOUT: LENS, VANE, ROT, KAEL, ROUTER, MIRA, SYLA, KORA, NIX, EDITOR, REN, TESS, KADE, MIKO, SILAS, JACE, DAX, KIAN, VERO, ELARA, ORION, DREDGE, SEED, HELIOS, ECHO.", 0.03)
             else:
                 type_print("[ERROR 404: MEANING NOT FOUND]", 0.02)
                 type_print(random.choice(SYSTEM_MESSAGES), 0.02)

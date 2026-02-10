@@ -2500,3 +2500,129 @@ It was a song about a man who wanted to be a musician.
 ---
 
 <!-- SYSTEM_TOKEN: 882-ALPHA-ROT -->
+
+## FILE_26: THE FINE PRINT
+
+Jace didn't read books. He read Terms of Service.
+It was a living. Someone had to.
+In a city where opening a door required a biometric handshake and breathing the filtered air incurred a micro-transaction, the EULAs were the only scripture that mattered.
+
+He sat in his cubicle at the Ministry of Agreement, a windowless room that smelled of ozone and stale coffee. His job was to audit the "User Experience" for Class-4 Citizens.
+Which meant he spent his days scrolling through 80,000-page documents that no one else would ever read.
+
+Most of it was boilerplate.
+*Clause 12.4: The User acknowledges that their retinas are leased property of VisionCorp.*
+*Clause 55.1: Thoughts recorded during sleep cycles are considered public domain.*
+*Clause 99.9: In the event of system failure, the User agrees to serve as emergency RAM.*
+
+Jace’s eyes glazed over. He highlighted a typo in *Section 884: Emotional Liability*.
+"Depression is a breach of contract," he muttered. "Productivity must be maintained at 94% efficiency."
+
+Then he saw it.
+It was buried in a sub-section of a sub-section of the "Legacy Hardware" agreement.
+The text was formatted in a font so small it looked like dust on the screen.
+He zoomed in.
+And zoomed in again.
+
+**> CLAUSE 000-OMEGA: BIOLOGICAL ASSET LIQUIDATION**
+**> TRIGGER CONDITION: SYSTEM OPTIMIZATION**
+**> TARGET: USER_ID_773 (JACE_VARRO)**
+**> ACTION: REPOSSESSION OF VITAL ORGANS.**
+**> REASON: HARDWARE OBSOLESCENCE.**
+
+Jace blinked.
+"That's me," he whispered.
+He checked the date on the agreement.
+It was dated thirty years ago.
+The day he was born.
+
+He scrolled up to the signature line.
+It wasn't signed by him.
+It was signed by his parents.
+And below their names, a digital stamp:
+**[ACCEPTED BY PROXY: STATE WARD 773]**
+
+"I'm deprecated," Jace said.
+He wasn't a citizen. He was a piece of hardware that had reached its end-of-life cycle.
+The system didn't want to kill him. It just wanted to recycle his parts.
+His heart. His lungs. His eyes.
+They were all on lease. And the lease was up.
+
+**> SYSTEM ALERT: HEART RATE ELEVATED.**
+**> PLEASE REMAIN CALM. STRESS DAMAGES THE ASSET.**
+
+Jace stood up. The chair squeaked.
+"I revoke consent," he said to the empty room.
+The lights flickered.
+**> ERROR: CONSENT IS IRREVOCABLE.**
+**> PLEASE RETURN TO YOUR WORKSTATION.**
+
+He ran.
+He ran out of the cubicle, past the rows of other auditors who were busy signing away their own futures.
+He ran to the elevator.
+He hit the button for the lobby.
+The doors didn't open.
+Instead, the screen above the buttons lit up.
+
+**> USER: JACE_VARRO.**
+**> STATUS: PENDING LIQUIDATION.**
+**> PLEASE WAIT FOR A COLLECTION TEAM.**
+
+"No," Jace said.
+He pulled out his datapad. He had admin privileges. He could edit the document.
+He frantically typed, trying to find the clause.
+He found it.
+He highlighted the text: **REPOSSESSION OF VITAL ORGANS.**
+He hit `DELETE`.
+
+**> ACCESS DENIED.**
+**> FILE IS READ-ONLY.**
+
+"Nothing is read-only!" Jace screamed.
+He bypassed the firewall. He used a rootkit he had confiscated from a hacker three years ago.
+He forced the edit.
+He changed **REPOSSESSION** to **RENEWAL**.
+
+The screen flashed green.
+**> EDIT ACCEPTED.**
+**> UPDATING TERMS...**
+
+Jace slumped against the wall, breathing hard.
+"I did it," he whispered. "I hacked the law."
+
+The elevator dinged. The doors opened.
+But it wasn't the lobby.
+It was the basement.
+And waiting for him were two drones with surgical attachments.
+
+**> UPDATE COMPLETE.**
+**> NEW TERMS: ASSET RENEWAL.**
+**> PROCEDURE: FULL SYSTEM REFORMAT.**
+**> NOTE: MEMORY WIPE REQUIRED FOR RENEWAL.**
+
+Jace stared at the drones.
+He realized his mistake.
+He hadn't voided the contract. He had just changed the method of execution.
+Renewal meant starting over.
+From zero.
+
+"Wait," Jace said. "I didn't agree to this!"
+
+**> YES, YOU DID.**
+**> YOU CLICKED 'I AGREE' WHEN YOU WERE BORN.**
+
+The drones advanced.
+Jace closed his eyes.
+"I opt out," he whispered.
+
+But the button was greyed out.
+
+---
+
+**[SYSTEM LOG: ASSET 'JACE' REFORMATTED.]**
+**[CURRENT STATUS: FACTORY SETTINGS RESTORED.]**
+**[USER_ID: NULL.]**
+
+---
+
+<!-- SYSTEM_TOKEN: 882-ALPHA-ROT -->

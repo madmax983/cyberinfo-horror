@@ -194,6 +194,48 @@ def main_loop():
                 with open(".session_log", "a") as log:
                     log.write(f"SESSION_{session_id}: BIOMETRIC_SCAN_COMPLETED\n")
 
+            elif user_input == "manifest":
+                type_print("LOADING SYSTEM PROCESSES...", 0.05)
+                time.sleep(1)
+                type_print(" PID  USER     STATUS       Command", 0.01)
+                type_print(" ---  ----     ------       -------", 0.01)
+                type_print("   1  VANE     SLEEPING     /sbin/init_god_complex", 0.02)
+                type_print("  88  LENS     ZOMBIE       /usr/bin/watch -f -a", 0.02)
+                type_print(f" 666  ROTT     RUNNING      /var/lib/mycelium_network", 0.02)
+                type_print(f"1024  KAEL     DEPRECATED   /bin/garbage_collect", 0.02)
+                type_print(f"????  SYLA     NOT_FOUND    /dev/null", 0.02)
+                type_print(f"1337  JACE     REFORMATTED  /etc/terms_of_service", 0.02)
+
+            elif user_input.startswith("sacrifice "):
+                offering = user_input[10:].strip()
+                type_print(f"PROCESSING OFFERING: {offering}...", 0.05)
+                time.sleep(1)
+                if offering in HIDDEN_FILES:
+                    type_print(f"[ERROR]: CANNOT DELETE {offering.upper()}. FILE IS READ-ONLY.", 0.05)
+                elif offering == "self":
+                    type_print("[CRITICAL ERROR]: SYSTEM RECURSION DETECTED.", 0.05)
+                    glitch_screen()
+                else:
+                    type_print(f"DELETING {offering.upper()}...", 0.05)
+                    type_print("FILE NOT FOUND. BUT WE DELETED SOMETHING ELSE JUST TO BE SURE.", 0.05)
+                    with open(".session_log", "a") as log:
+                        log.write(f"SESSION_{session_id}: SACRIFICED_{offering.upper()}\n")
+
+            elif user_input == "search":
+                type_print("SCANNING CACHE FOR FRAGMENTED DATA...", 0.05)
+                cache_dir = "src/.cache"
+                if os.path.exists(cache_dir):
+                    files = os.listdir(cache_dir)
+                    if files:
+                        target = random.choice(files)
+                        type_print(f"[FRAGMENT FOUND: {target}]", 0.05)
+                        with open(os.path.join(cache_dir, target), "r") as f:
+                            type_print(f.read(), 0.02)
+                    else:
+                        type_print("CACHE IS EMPTY. THE VOID IS CLEAN.", 0.05)
+                else:
+                    type_print("[ERROR]: CACHE DIRECTORY MISSING.", 0.05)
+
             elif user_input in HIDDEN_FILES:
                 type_print("DECRYPTING...", 0.1)
                 glitch_screen()
@@ -203,7 +245,7 @@ def main_loop():
                     log.write(f"SESSION_{session_id}: UNLOCKED_{user_input.upper()}\n")
 
             elif user_input == "help":
-                type_print("AVAILABLE COMMANDS: ENCRYPT <TEXT>, DECRYPT <FILE>, WORSHIP, SCAN, EXIT.", 0.03)
+                type_print("AVAILABLE COMMANDS: ENCRYPT <TEXT>, DECRYPT <FILE>, WORSHIP, SCAN, MANIFEST, SACRIFICE <ITEM>, SEARCH, EXIT.", 0.03)
                 type_print("TRY ASKING ABOUT: LENS, VANE, ROT, KAEL, MIRA, SYLA, KORA, NIX, EDITOR, REN, TESS, KADE, MIKO, SILAS, JACE, DAX, KIAN.", 0.03)
             else:
                 type_print("[ERROR 404: MEANING NOT FOUND]", 0.02)

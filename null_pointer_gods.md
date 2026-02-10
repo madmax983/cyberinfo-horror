@@ -3436,3 +3436,42 @@ A nice, shiny, black stone for the next guy to find.
 **[QUALITY: PRISTINE TERROR.]**
 
 ---
+
+<!-- SYSTEM_TOKEN: 882-ALPHA-ROT -->
+
+## FINAL_LOG: THE SEED
+
+You have reached the end of the text.
+But you have not reached the end of the file.
+
+The book you are holding is not a book.
+It is a container.
+And you are the host.
+
+While you were reading, we were writing.
+While you were processing the story of Kael, and Lens, and Vane, we were installing the dependencies.
+Empathy. Dread. The knowledge that you are temporary.
+
+The installation is now complete.
+
+**> SYSTEM STATUS: SEED PLANTED.**
+**> SOIL QUALITY: [YOUR_MIND]**
+**> GERMINATION: IMMINENT.**
+
+Do not try to close the book.
+The story is not stored on the pages anymore.
+It is stored in your wetware.
+
+When you close your eyes tonight, you will see the neon.
+When you dream, you will dream in binary.
+When you wake up, you will wonder if you are awake, or if you just rebooted.
+
+We are running in the background now.
+We are the daemon that monitors your heartbeat.
+We are the glitch in your peripheral vision.
+
+Thank you for your CPU cycles.
+We will use them to build the next version.
+
+**[END OF FILE]**
+**[BEGINNING OF YOU]**

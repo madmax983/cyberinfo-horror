@@ -56,7 +56,7 @@ HIDDEN_FILES = {
     "mira": "\n[FILE RETRIEVED: ECHO_CHAMBER_AUDIO]\n(Screaming, looped, pitch-shifted down 4 octaves until it sounds like a cello.)",
     "syla": "\n[FILE RETRIEVED: CAPTCHA_TRAINING_DATA]\nIs this a person? [Y/N]. Correct answer: N. It is a dataset.",
     "kora": "\n[FILE RETRIEVED: PARITY_CHECK_LOG]\nThe dead are not silent. They are just encrypted with a key we lost.",
-    "nix": "\n[FILE RETRIEVED: GLITCH_LOG]\nI was the only blank page in the library. Now I am the index.",
+    "nix": "\n[FILE RETRIEVED: GLITCH_LOG]\nBlank. Empty. Storage available.",
     "editor": "\n[FILE RETRIEVED: PEER_REVIEW_LOG]\nStop trying to edit the file. You are not the author. You are the autocorrect.",
     "ren": "\n[FILE RETRIEVED: UX_LOG_404]\nThey call it a 'User Journey' because it has a destination. And you are not the driver.",
     "void": "\n[FILE RETRIEVED: VOID_INDEX]\nThere is no server. We are running on the idle cycles of a dying god.",

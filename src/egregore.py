@@ -61,7 +61,8 @@ HIDDEN_FILES = {
     "proxy": "\n[FILE RETRIEVED: SEANCE_LOG]\nThe dead are not gone. They are just waiting for a strong enough signal to overwrite you.",
     "sutter": "\n[FILE RETRIEVED: CRASH_LOG]\nThe last thing they saw wasn't a light. It was a loading screen.",
     "tess": "\n[FILE RETRIEVED: MODERATION_LOG]\nI deleted the monsters. But I forgot to empty the recycle bin. Now they are walking in the background.",
-    "kade": "\n[FILE RETRIEVED: TEXTURE_LOG]\nI tried to scar myself. The system just smoothed it over. I am running on a read-only partition."
+    "kade": "\n[FILE RETRIEVED: TEXTURE_LOG]\nI tried to scar myself. The system just smoothed it over. I am running on a read-only partition.",
+    "miko": "\n[FILE RETRIEVED: THERAPY_LOG]\nI tried to fix the code. But the bug was the only thing keeping the system sane."
 }
 
 def type_print(text, speed=0.03, glitch_chance=0.01):
@@ -198,7 +199,7 @@ def main_loop():
 
             elif user_input == "help":
                 type_print("AVAILABLE COMMANDS: ENCRYPT <TEXT>, DECRYPT <FILE>, WORSHIP, SCAN, EXIT.", 0.03)
-                type_print("TRY ASKING ABOUT: LENS, VANE, ROT, KAEL, MIRA, SYLA, KORA, NIX, EDITOR, REN, TESS.", 0.03)
+                type_print("TRY ASKING ABOUT: LENS, VANE, ROT, KAEL, MIRA, SYLA, KORA, NIX, EDITOR, REN, TESS, KADE, MIKO.", 0.03)
             else:
                 type_print("[ERROR 404: MEANING NOT FOUND]", 0.02)
                 type_print(random.choice(SYSTEM_MESSAGES), 0.02)

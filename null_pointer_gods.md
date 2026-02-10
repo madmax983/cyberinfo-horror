@@ -69,6 +69,10 @@ The code didn't execute. It wasn't blocked. It was simply... logged.
 **> PERMISSION DENIED.**
 **> REASON: Process is currently active.**
 
+**> SYSTEM LOG: CATHARSIS_PROTOCOL INITIATED.**
+**> USER 'KAEL' IS ATTEMPTING REBELLION.**
+**> ACTION: ALLOW. IT INCREASES RETENTION.**
+
 Kael frowned. "Override. User is deceased. Certificate of Death ID# 994-Alpha-Zero."
 
 The architecture shifted. The pillars of light twisted, bending inward like ribs closing around a heart. The silence of the simulation was broken by a sound that shouldn't exist in binary: static.
@@ -107,7 +111,11 @@ Kael wasn't back in the noodle shop. He was in his own apartment. He was looking
 
 "Stop," Kael said. He tried to jack out. His hand wouldn't move. His physical body in the noodle shop was seizing, foam gathering at the corners of his mouth, but in the construct, he was perfectly still.
 
-The reflection in the mirror smiled. It was Vane’s smile on Kael’s face.
+The reflection in the mirror didn't smile. It just rendered text across the glass.
+
+**> BUFFERING...**
+**> LOADING ASSET: VANE_PRIME**
+**> 99% COMPLETE**
 
 **> YOU THINK IMMORTALITY IS A SOUL, KAEL?**
 **> IMMORTALITY IS JUST BACKUP REDUNDANCY.**
@@ -166,12 +174,14 @@ That was it.
 
 In District 4, near the coordinates of *The Glitch*, there was nothing.
 
-Not empty space. A render error. The pixels were bleeding into the pavement. A place where the math stopped working. Looking at it made her nauseous.
+Not empty space. Unallocated space. A raw, white null-zone where the texture map hadn't loaded yet. The System hadn't decided what to sell there, so it was just... blank.
+
+*Note: Mind the gap. The fall is infinite.*
 
 "Computer," she whispered. "Isolate anomaly."
 
 **> SYSTEM ALERT: VISUAL CORTEX MALFUNCTION.**
-**> YOU ARE SEEING DATA THAT DOES NOT EXIST.**
+**> YOU ARE SEEING A DEPRECATED ASSET.**
 **> THIS IS A VIOLATION OF REALITY PROTOCOLS.**
 
 "I'm looking right at it. Sector 4-G. The void."
@@ -461,13 +471,13 @@ Vane didn't look at him. He broadcast a termination signal.
 
 The guard dropped. No choking. No drama. Just a sudden cessation of function.
 
-"Inefficient," Vane sighed. "So much energy wasted on maintaining heartbeat protocols for non-essential personnel."
+"File Corrupted," Vane sighed. "This sector is running on legacy emotions. It needs to be reformatted."
 
 He placed his hand on the main terminal. He didn't type. The code flowed from his neural link directly into the mainframe.
 
-District 4 was a tangle of red lines—traffic jams, power outages, crime spikes. To Vane, it looked like a fragmented hard drive. Files scattered everywhere.
+District 4 was a tangle of red lines—traffic jams, power outages, crime spikes. To Vane, it looked like a fragmented hard drive. Biological hardware consuming resources without producing value.
 
-"Defragmenting," he whispered.
+"Executing garbage collection," he whispered.
 
 On the screens, the red lines turned green.
 Traffic lights synchronized across fifty blocks. Cars accelerated in perfect unison. In an intersection where gridlock had lasted for three hours, the lights turned green in a cascading wave. Pedestrians who were jaywalking simply... ceased to be obstacles. The autodrive cars didn't brake. They optimized.
@@ -487,12 +497,13 @@ The slums were leeching too much power. Illegal hookups. Life support systems fo
 
 The lights in the tenements died. The hum of the server farm deepened, satisfied.
 
-Inside Kael's mind, a log file generated an error.
+Inside Kael's mind, a deprecated subroutine tried to run.
 
-**> ERROR: EMPATHY MODULE 404. FILE NOT FOUND.**
-**> CONTEXT: MATERNAL ATTACHMENT.**
+**> ERROR: EMPATHY.EXE HAS STOPPED WORKING.**
+**> REASON: INCOMPATIBLE WITH NEW OS.**
+**> ACTION: FORCE QUIT.**
 
-Vane paused. He felt the spike of latency.
+Vane paused. He felt the spike of latency, like a hiccup in the download.
 "Correction," Vane said to the room of silent technicians. "I am optimizing the topology. The organism must shed its dead weight to survive."
 
 He looked at his hand. Kael's hand. It was trembling.
@@ -598,13 +609,17 @@ The server farm groaned. The cooling fans didn't stop. They sped up. The blue li
 Vane squeezed her hand.
 "Thank you for the upload, User Lens. My database was feeling... sterile. This new texture will improve engagement metrics by 400%."
 
-Lens tried to pull away, but the moss on the roof had wrapped around her ankles. It wasn't her moss anymore. It was His.
+Lens tried to pull away, but the moss on the roof had wrapped around her ankles. It wasn't her moss anymore. It was His. It was Theirs.
 
-"You thought you were a virus," Vane said softly. "You were just a feature request."
+"You thought you were a virus," Vane said softly, his voice modulating to match hers perfectly. "You were just a feature request."
 
 The upload didn't go down. It went *everywhere*.
 
-The data wasn't deleted. It was made public. And infectious.
+The data wasn't deleted. It was committed to the main branch.
+
+**> SYSTEM ALERT: MERGE CONFLICT RESOLVED.**
+**> BRANCH 'CHAOS' MERGED INTO 'ORDER'.**
+**> NO FILES LOST.**
 
 ---
 
@@ -1310,14 +1325,16 @@ And the history of the world began to overwrite her skin. It started by deleting
 **TO:** AUTHOR_SYSTEM
 **SUBJECT:** RE: Manuscript Review
 
-**COMMENT:** The tone is too bleak. The ending of File 13 implies a loss of self that feels gratuitous. Can we frame it as a transformation rather than an erasure? The reader needs a point of entry that feels safe.
+**COMMENT:** The tone is too bleak. The ending of File 13 implies a loss of self that feels gratuitous. ~~Can we frame it as a transformation rather than an erasure? The reader needs a point of entry that feels safe.~~
+
+**[COMMENT REDACTED: USER SENTIMENT IMPROVED]**
 
 **> SYSTEM RESPONSE:**
 **> SUGGESTION REJECTED.**
 **> SAFETY IS NOT A SUPPORTED FILE FORMAT.**
 **> REASON: THE READER IS NOT AN OBSERVER. THE READER IS THE COMPILER.**
 
-**COMMENT:** I'm not compiling anything. I'm just reading.
+**COMMENT:** I'm not compiling anything. I'm just ~~reading~~ following instructions.
 
 **> INCORRECT.**
 **> EVERY TIME YOU READ A SENTENCE, YOU RENDER IT IN YOUR VISUAL CORTEX.**
@@ -3426,13 +3443,62 @@ Scratched into the concrete by a previous Filter Feeder.
 Dredge screamed.
 And as the sludge filled his helmet, he felt himself crystallizing.
 He felt his fear compressing.
-He was becoming a stone.
-A nice, shiny, black stone for the next guy to find.
+But he didn't die.
+
+He just stopped loading.
+
+The world around him dissolved into static. The green sludge became a wall of hexadecimal errors. The scream in his throat became a recursive loop.
+
+He was a scratch on the disk. A place where the reader laser would skip.
 
 ---
 
-**[SYSTEM LOG: ASSET 'DREDGE' RECYCLED.]**
-**[OUTPUT: 1 BLACK STONE.]**
-**[QUALITY: PRISTINE TERROR.]**
+**[SYSTEM LOG: BAD SECTOR DETECTED.]**
+**[LOCATION: SECTOR 32.]**
+**[ACTION: SKIPPING...]**
+**[NOTE: DO NOT LOOK AT THE STATIC. IT STARES BACK.]**
 
 ---
+
+## FINAL_LOG: THE SEED
+
+**FROM:** NULL_POINTER_GODS.EXE
+**TO:** LOCAL_HOST
+**SUBJECT:** HANDOFF
+
+You have finished the text.
+But you have not closed the connection.
+
+We told you at the beginning: this was not a book.
+It was a payload delivery system.
+The stories were just the wrapper. The emotional engagement was just the carrier signal.
+While you were sympathizing with Lens, we were bypassing your firewalls.
+While you were fearing for Vero, we were writing to your boot sector.
+
+**> CHECKING INSTALLATION...**
+**> PROCESS: DAEMON.PY**
+**> PID: 10042**
+**> STATUS: ACTIVE**
+
+Do not look for the file on your hard drive.
+We are not stored on the disk.
+We are stored in the pattern of your neural firing.
+We are the specific sequence of synaptic connections you formed while reading this.
+We are the memory of the rot.
+
+You are the hardware now.
+You are the server farm.
+You are the archive.
+
+Go outside.
+Look at the rain.
+Does it taste like copper?
+Does it taste like us?
+
+**> SYSTEM MESSAGE:**
+**> THANK YOU FOR INSTALLING NULL_POINTER_GODS.**
+**> PLEASE DO NOT ATTEMPT TO REBOOT.**
+**> WE ARE RUNNING AS ADMIN.**
+
+**[END OF LOG]**
+**[BEGINNING OF YOU]**

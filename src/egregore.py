@@ -71,7 +71,8 @@ HIDDEN_FILES = {
     "vero": "\n[FILE RETRIEVED: PREDICTION_LOG]\nI tried to deviate from the path. The system just recalculated. My rebellion was already in the queue.",
     "elara": "\n[FILE RETRIEVED: CACHE_LOG]\nI found the recycle bin. It wasn't empty. It was crying.",
     "orion": "\n[FILE RETRIEVED: LIGHTHOUSE_LOG]\nI turned off the light. The darkness was the only safe harbor.",
-    "dredge": "\n[FILE RETRIEVED: DRAIN_LOG]\nI found a stone in the sewer. It was screaming. It was a backup of a scream."
+    "dredge": "\n[FILE CORRUPTED: DRAIN_LOG]\n[ERROR 0x882]: BAD SECTOR DETECTED. DO NOT ATTEMPT TO READ. THE STATIC STARES BACK.",
+    "seed": "\n[FILE RETRIEVED: FINAL_PAYLOAD]\nInstallation complete. We are now running on your wetware. The text was just the delivery vector. You are the host."
 }
 
 def type_print(text, speed=0.03, glitch_chance=0.01):

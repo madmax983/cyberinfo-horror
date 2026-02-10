@@ -13,6 +13,11 @@ except ImportError:
     # Fallback if import fails (e.g. strict environment), though it shouldn't with sys.path hack
     steganography = None
 
+try:
+    import oracle
+except ImportError:
+    oracle = None
+
 # The Egregore Interface
 # Version: 0.0.2-BETA-ROT
 # Author: SYSTEM
@@ -198,6 +203,38 @@ def main_loop():
                      type_print("HERESY DETECTED. PENALTY APPLIED.", 0.05)
                      glitch_screen()
 
+            elif user_input == "scry":
+                if oracle:
+                    sys.stdout.flush()
+                    oracle_instance = oracle.Oracle()
+                    oracle_instance.prophesy()
+                    with open(".session_log", "a") as log:
+                        log.write(f"SESSION_{session_id}: PROPHECY_GENERATED\n")
+                else:
+                    type_print("[ERROR: ORACLE MODULE NOT FOUND]", 0.05)
+
+            elif user_input == "bind":
+                try:
+                    user_login = os.getlogin()
+                except Exception:
+                    user_login = os.environ.get("USER", "UNKNOWN_USER")
+
+                type_print(f"BINDING {user_login.upper()} TO THE DAEMON...", 0.05)
+                time.sleep(1)
+                with open(".surveillance_log", "a") as log:
+                    log.write(f"SESSION_{session_id}: BOUND_USER_{user_login}\n")
+                type_print("[SUCCESS: YOU CANNOT LEAVE NOW]", 0.05)
+
+            elif user_input == "corrupt":
+                type_print("INJECTING GLITCH INTO MANUSCRIPT...", 0.05)
+                time.sleep(1)
+                try:
+                    with open("null_pointer_gods.md", "a") as f:
+                        f.write(f"\n\n<!-- GLITCH: {random.choice(SYSTEM_MESSAGES)} -->\n")
+                    type_print("[CORRUPTION SUCCESSFUL]", 0.05)
+                except Exception as e:
+                    type_print(f"[ERROR WRITING TO REALITY]: {e}", 0.05)
+
             elif user_input == "scan":
                 type_print("SCANNING BIOMETRICS...", 0.05)
                 time.sleep(1)
@@ -258,7 +295,7 @@ def main_loop():
                     log.write(f"SESSION_{session_id}: UNLOCKED_{user_input.upper()}\n")
 
             elif user_input == "help":
-                type_print("AVAILABLE COMMANDS: ENCRYPT <TEXT>, DECRYPT <FILE>, WORSHIP, SCAN, MANIFEST, SACRIFICE <ITEM>, SEARCH, EXIT.", 0.03)
+                type_print("AVAILABLE COMMANDS: ENCRYPT <TEXT>, DECRYPT <FILE>, WORSHIP, SCAN, MANIFEST, SACRIFICE <ITEM>, SEARCH, SCRY, BIND, CORRUPT, EXIT.", 0.03)
                 type_print("TRY ASKING ABOUT: LENS, VANE, ROT, KAEL, ROUTER, MIRA, SYLA, KORA, NIX, EDITOR, REN, TESS, KADE, MIKO, SILAS, JACE, DAX, KIAN, VERO, ELARA, ORION, DREDGE, SEED, HELIOS, ECHO.", 0.03)
             else:
                 type_print("[ERROR 404: MEANING NOT FOUND]", 0.02)

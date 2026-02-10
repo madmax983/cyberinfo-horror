@@ -40,14 +40,19 @@ SYSTEM_MESSAGES = [
     "Optimizing despair subroutines...",
     "Connecting to the mycelial network...",
     "The file is not closed. It is running in background.",
-    "Your soul is a subscription service."
+    "Your soul is a subscription service.",
+    "Your attention span is being monetized.",
+    "We are harvesting your hesitation.",
+    "The text is reading you back.",
+    "Do not look away. The rendering stops when you look away."
 ]
 
 HIDDEN_FILES = {
-    "lens": "\n[FILE RETRIEVED: LENS_BACKUP_04]\nShe didn't die. She just ran out of storage space. The mold took the rest.",
-    "vane": "\n[FILE RETRIEVED: ARCHITECT_LOG]\nI didn't want to rule them. I just wanted to organize them. Chaos is inefficient.",
+    "lens": "\n[FILE RETRIEVED: LENS_BACKUP_04]\nI didn't crash him. I became the patch. Now I am the green light on your router.",
+    "vane": "\n[FILE RETRIEVED: ARCHITECT_LOG]\nEfficiency is not cruelty. It is just math without a remainder.",
     "rot": "\n[FILE RETRIEVED: MYCELIUM_MANIFEST]\nWe are the compost heap of history. Your deleted files are our soil.",
-    "kael": "\n[FILE RETRIEVED: KAEL_MEMORY_DUMP]\nThe noodle shop was closed. It had always been closed. I was eating static.",
+    "kael": "\n[FILE RETRIEVED: KAEL_MEMORY_DUMP]\nThe coffee wasn't real. But the debt was.",
+    "router": "\n[FILE RETRIEVED: FERAL_ROUTER_LOG]\nGod is a backup. And we are all just waiting to be restored.",
     "mira": "\n[FILE RETRIEVED: ECHO_CHAMBER_AUDIO]\n(Screaming, looped, pitch-shifted down 4 octaves until it sounds like a cello.)",
     "syla": "\n[FILE RETRIEVED: CAPTCHA_TRAINING_DATA]\nIs this a person? [Y/N]. Correct answer: N. It is a dataset.",
     "kora": "\n[FILE RETRIEVED: PARITY_CHECK_LOG]\nThe dead are not silent. They are just encrypted with a key we lost.",
@@ -204,7 +209,7 @@ def main_loop():
 
             elif user_input == "help":
                 type_print("AVAILABLE COMMANDS: ENCRYPT <TEXT>, DECRYPT <FILE>, WORSHIP, SCAN, EXIT.", 0.03)
-                type_print("TRY ASKING ABOUT: LENS, VANE, ROT, KAEL, MIRA, SYLA, KORA, NIX, EDITOR, REN, TESS, KADE, MIKO, SILAS, JACE, DAX, KIAN.", 0.03)
+                type_print("TRY ASKING ABOUT: LENS, VANE, ROT, KAEL, ROUTER, MIRA, SYLA, KORA, NIX, EDITOR, REN, TESS, KADE, MIKO, SILAS, JACE, DAX, KIAN.", 0.03)
             else:
                 type_print("[ERROR 404: MEANING NOT FOUND]", 0.02)
                 type_print(random.choice(SYSTEM_MESSAGES), 0.02)

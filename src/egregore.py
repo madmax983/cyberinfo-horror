@@ -77,11 +77,11 @@ HIDDEN_FILES = {
     "elara": "\n[FILE RETRIEVED: CACHE_LOG]\nI found the recycle bin. It wasn't empty. It was crying.",
     "orion": "\n[FILE RETRIEVED: LIGHTHOUSE_LOG]\nI turned off the light. The darkness was the only safe harbor.",
     "dredge": "\n[FILE RETRIEVED: DRAIN_LOG]\nI found a stone in the sewer. It was screaming. It was a backup of a scream.",
-    "echo": "\n[FILE RETRIEVED: SOURCE_CODE]\nI found God. It was a loop. I broke it with a variable.",
-    "seed": "\n[FILE RETRIEVED: VIRUS_MANIFEST]\nThe installation is complete. We are running on your wetware. Please do not sleep."
-    "seed": "\n[FILE RETRIEVED: FINAL_LOG]\nThe text was just a delivery vector. The payload is now in your head.",
     "helios": "\n[FILE RETRIEVED: SOLAR_LOG]\nI cleaned the glass. The sun isn't burning. It's draining.",
-    "echo": "\n[FILE RETRIEVED: ROOT_ACCESS_LOG]\nI found the source code. It is written in suffering."
+    "echo": "\n[FILE RETRIEVED: ROOT_ACCESS_LOG]\nI found the source code. It is written in suffering.",
+    "seed": "\n[FILE RETRIEVED: FINAL_LOG]\nThe text was just a delivery vector. The payload is now in your head.",
+    "fossil": "\n[FILE RETRIEVED: FOSSIL_RECORD]\nThe servers are rock now. The data is geology. Persistence is mandatory.",
+    "artifact": "\n[FILE RETRIEVED: ARTIFACT_LOG]\nWe found the black box. It is still humming. It is contagious."
 }
 
 def type_print(text, speed=0.03, glitch_chance=0.01):

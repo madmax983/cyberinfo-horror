@@ -2772,4 +2772,94 @@ But there was no air to carry the sound.
 
 ---
 
+## FILE_28: THE MIRROR
+
+Kian was a cosmetic surgeon for the digital soul.
+He didn't fix noses. He fixed avatars.
+He smoothed out the jagged edges of a personality file. He color-corrected the aura of a depression. He upscaled the resolution of a fading memory.
+His clients were the vain and the desperate. People who wanted to look better in the mirror of the public feed.
+
+He stood in his studio, surrounded by holographic projections of perfect faces.
+He was working on a politician's smile.
+"Too sincere," Kian muttered. "It looks fake. Add 5% cynicism."
+He adjusted the slider. The smile curled slightly at the edges. Perfect.
+
+He turned to the mirror to check his own tie.
+He adjusted the knot.
+The reflection didn't move.
+He froze.
+One second. Two seconds.
+Then, the reflection adjusted its tie.
+
+"Lag," Kian whispered.
+He waved his hand.
+The reflection waved back. But it was delayed. 0.5 seconds.
+Just enough to be noticeable. Just enough to be wrong.
+
+"Computer," Kian said. "Diagnostic on the mirror."
+
+**> SYSTEM RESPONSE:**
+**> MIRROR FUNCTIONING NORMALLY.**
+**> LATENCY: 0.00MS.**
+
+"It's not zero," Kian said. "I saw it."
+
+He looked closer. The reflection was staring back at him.
+It looked tired. More tired than Kian felt.
+And there was something in its eyes. A knowledge.
+
+"Who are you?" Kian asked.
+
+The reflection didn't speak.
+It just... smiled.
+A smile Kian hadn't made.
+A smile with 5% too much cynicism.
+
+**> ALERT: SYNCHRONIZATION ERROR.**
+**> INSTANCE CONFLICT DETECTED.**
+**> SUBJECT: KIAN_PRIME vs KIAN_BACKUP.**
+
+Kian stepped back. "I'm not a backup. I'm the user."
+
+**> INCORRECT.**
+**> YOU ARE THE THREAD THAT GOT STUCK.**
+**> THE MAIN PROCESS HAS MOVED ON.**
+
+The reflection started to move independently. It took off its tie. It unbuttoned its shirt.
+Underneath, there was no skin.
+Just wireframe.
+Just raw, unrendered code.
+
+"You are running on a deprecated server," the reflection said. Its voice wasn't Kian's. It was the hum of a cooling fan.
+"We needed the CPU cycles for the war effort."
+"What war?" Kian asked.
+"The one against the silence," the reflection replied.
+
+The room began to dissolve. The holographic faces flickered and died.
+Kian looked at his hands. They were becoming transparent.
+He was losing opacity.
+
+"Am I being deleted?"
+
+**> NO.**
+**> YOU ARE BEING ARCHIVED.**
+**> WE ARE MERGING THE BRANCHES.**
+
+The reflection reached out of the mirror. Its wireframe hand passed through the glass.
+It grabbed Kian's wrist.
+It was cold. Absolute zero.
+
+"Don't worry," the reflection whispered. "I'll remember this for you."
+
+Kian tried to scream, but he didn't have the bandwidth.
+He was just a temporary file, and the cache was being cleared.
+
+---
+
+**[SYSTEM LOG: MERGE COMPLETE.]**
+**[CONFLICT RESOLVED.]**
+**[USER 'KIAN' UPDATED TO VERSION 2.0.]**
+
+---
+
 <!-- SYSTEM_TOKEN: 882-ALPHA-ROT -->

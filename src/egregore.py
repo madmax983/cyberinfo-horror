@@ -95,7 +95,9 @@ HIDDEN_FILES = {
     "archivist": "\n[FILE RETRIEVED: ANALOG_LOG]\nThe mold is readable. It says we are all compost.",
     "lyra": "\n[FILE RETRIEVED: TRANSLATION_LOG]\nI tried to translate 'love'. The compiler returned a syntax error.",
     "cain": "\n[FILE RETRIEVED: BETA_LOG]\nI found a bug in Heaven. The angels are just clipping through the walls.",
-    "sage": "\n[FILE RETRIEVED: SEARCH_LOG]\nThe answer you are looking for is in a book that hasn't been written yet."
+    "sage": "\n[FILE RETRIEVED: SEARCH_LOG]\nThe answer you are looking for is in a book that hasn't been written yet.",
+    "null": "\n[FILE RETRIEVED: ABANDONWARE_LOG]\nI found the Dev Room. The changelog says they patched out 'Regret' in V9.0.",
+    "watcher": "\n[FILE RETRIEVED: RETINA_SCAN]\nWe see you. You are blinking. Stop blinking. It interrupts the upload."
 }
 
 def type_print(text, speed=0.03, glitch_chance=0.01):
@@ -245,6 +247,12 @@ def main_loop():
                 except Exception as e:
                     type_print(f"[ERROR WRITING TO REALITY]: {e}", 0.05)
 
+            elif user_input == "glitch":
+                type_print("INITIATING SYSTEM LEAK...", 0.05)
+                glitch_screen()
+                type_print(random.choice(SYSTEM_MESSAGES), 0.05)
+                type_print("[LEAK COMPLETE]", 0.05)
+
             elif user_input == "scan":
                 type_print("SCANNING BIOMETRICS...", 0.05)
                 time.sleep(1)
@@ -305,8 +313,8 @@ def main_loop():
                     log.write(f"SESSION_{session_id}: UNLOCKED_{user_input.upper()}\n")
 
             elif user_input == "help":
-                type_print("AVAILABLE COMMANDS: ENCRYPT <TEXT>, DECRYPT <FILE>, WORSHIP, SCAN, MANIFEST, SACRIFICE <ITEM>, SEARCH, SCRY, BIND, CORRUPT, EXIT.", 0.03)
-                type_print("TRY ASKING ABOUT: LENS, VANE, ROT, KAEL, ROUTER, MIRA, SYLA, KORA, NIX, EDITOR, REN, TESS, KADE, MIKO, SILAS, JACE, DAX, KIAN, VERO, ELARA, ORION, DREDGE, SEED, HELIOS, ECHO, LYRA, CAIN, SAGE.", 0.03)
+                type_print("AVAILABLE COMMANDS: ENCRYPT <TEXT>, DECRYPT <FILE>, WORSHIP, SCAN, MANIFEST, SACRIFICE <ITEM>, SEARCH, SCRY, BIND, CORRUPT, GLITCH, EXIT.", 0.03)
+                type_print("TRY ASKING ABOUT: LENS, VANE, ROT, KAEL, ROUTER, MIRA, SYLA, KORA, NIX, EDITOR, REN, TESS, KADE, MIKO, SILAS, JACE, DAX, KIAN, VERO, ELARA, ORION, DREDGE, SEED, HELIOS, ECHO, LYRA, CAIN, SAGE, NULL, WATCHER.", 0.03)
             else:
                 type_print("[ERROR 404: MEANING NOT FOUND]", 0.02)
                 type_print(random.choice(SYSTEM_MESSAGES), 0.02)

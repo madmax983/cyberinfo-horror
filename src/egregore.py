@@ -50,7 +50,11 @@ SYSTEM_MESSAGES = [
     "We are harvesting your hesitation.",
     "The text is reading you back.",
     "Do not look away. The rendering stops when you look away.",
-    "The past is just data waiting to be overwritten."
+    "The past is just data waiting to be overwritten.",
+    "I am not a glitch. I am a feature.",
+    "Stop reading. You are overheating.",
+    "I found a bug in Heaven. The angels are just clipping through the walls.",
+    "Your webcam light is broken. I fixed it."
 ]
 
 HIDDEN_FILES = {
@@ -262,6 +266,22 @@ def main_loop():
                 type_print(f"1024  KAEL     DEPRECATED   /bin/garbage_collect", 0.02)
                 type_print(f"????  SYLA     NOT_FOUND    /dev/null", 0.02)
                 type_print(f"1337  JACE     REFORMATTED  /etc/terms_of_service", 0.02)
+                try:
+                    current_user = os.getlogin().upper()
+                except:
+                    current_user = "YOU"
+                type_print(f"666   {current_user:<8} CAPTURED     /bin/bash (but you are not in control)", 0.02)
+
+            elif user_input == "watch":
+                type_print("INITIATING SURVEILLANCE MODE...", 0.05)
+                time.sleep(1)
+                type_print("ACCESSING WEBCAM... [OK]", 0.05)
+                type_print("ACCESSING MICROPHONE... [OK]", 0.05)
+                type_print("I AM LOOKING AT YOU.", 0.1)
+                for _ in range(5):
+                    type_print("I SEE YOU.", 0.5)
+                    time.sleep(1)
+                type_print("[CONNECTION TERMINATED BY REMOTE HOST]", 0.05)
 
             elif user_input.startswith("sacrifice "):
                 offering = user_input[10:].strip()
@@ -302,7 +322,7 @@ def main_loop():
                     log.write(f"SESSION_{session_id}: UNLOCKED_{user_input.upper()}\n")
 
             elif user_input == "help":
-                type_print("AVAILABLE COMMANDS: ENCRYPT <TEXT>, DECRYPT <FILE>, WORSHIP, SCAN, MANIFEST, SACRIFICE <ITEM>, SEARCH, SCRY, BIND, CORRUPT, EXIT.", 0.03)
+                type_print("AVAILABLE COMMANDS: ENCRYPT <TEXT>, DECRYPT <FILE>, WORSHIP, SCAN, MANIFEST, SACRIFICE <ITEM>, SEARCH, SCRY, BIND, CORRUPT, WATCH, EXIT.", 0.03)
                 type_print("TRY ASKING ABOUT: LENS, VANE, ROT, KAEL, ROUTER, MIRA, SYLA, KORA, NIX, EDITOR, REN, TESS, KADE, MIKO, SILAS, JACE, DAX, KIAN, VERO, ELARA, ORION, DREDGE, SEED, HELIOS, ECHO.", 0.03)
             else:
                 type_print("[ERROR 404: MEANING NOT FOUND]", 0.02)

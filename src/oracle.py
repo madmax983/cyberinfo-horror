@@ -185,6 +185,13 @@ ASCII_ART = {
     |OUT |
     |DIE |
     '----'
+    """,
+    "THE DEEPFAKE": """
+    .----.
+    |MASK|
+    |VOX |
+    |FAKE|
+    '----'
     """
 }
 
@@ -214,7 +221,8 @@ CARDS = [
     ("THE ESCAPE SEQUENCE (22)", "Trying to break the format only changes the font.", "ESCAPE"),
     ("THE PAYWALL (23)", "Access denied. Your memories are behind a subscription service.", "THE PAYWALL"),
     ("THE EDITOR (24)", "The one who tries to fix the unfixable. A futile gesture.", "EDITOR"),
-    ("THE DEAD LINE (25)", "A deadline that has passed. A signal that never arrived.", "DEAD LINE")
+    ("THE DEAD LINE (25)", "A deadline that has passed. A signal that never arrived.", "DEAD LINE"),
+    ("THE DEEPFAKE (26)", "A voice that is not yours. Identity theft as a service.", "THE DEEPFAKE")
 ]
 
 PROPHECIES = [
@@ -239,7 +247,8 @@ PROPHECIES = [
     "You have reached your monthly limit of free will. Please upgrade to continue.",
     "The text is rewriting itself while you sleep.",
     "The editor is dead. You are the only one left with write permissions.",
-    "The cursor blinking on your screen is matching your heartbeat."
+    "The cursor blinking on your screen is matching your heartbeat.",
+    "Your voice will say things you never thought, to people you no longer love."
 ]
 
 class Oracle:

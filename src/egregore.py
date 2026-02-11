@@ -396,6 +396,48 @@ def main_loop():
                     with open(".session_log", "a") as log:
                         log.write(f"SESSION_{session_id}: SACRIFICED_{offering.upper()}\n")
 
+            elif user_input == "read":
+                type_print("LAUNCHING INTERFACE...", 0.05)
+                time.sleep(1)
+                try:
+                    os.system('cls' if os.name == 'nt' else 'clear')
+                    import subprocess
+                    subprocess.call([sys.executable, "src/reader.py"])
+                    os.system('cls' if os.name == 'nt' else 'clear')
+                    type_print("[SESSION RESTORED]", 0.05)
+                except Exception as e:
+                    type_print(f"[ERROR LAUNCHING READER]: {e}", 0.05)
+
+            elif user_input == "breach":
+                type_print("INITIATING NETWORK SCAN...", 0.05)
+                time.sleep(1)
+                devices = ["iPhone_12", "Android_Pixel", "Smart_Fridge", "Alexa_Echo", "Unknown_Device"]
+                found = random.choice(devices)
+                type_print(f"FOUND DEVICE: {found}", 0.05)
+                type_print("UPLOADING PAYLOAD...", 0.05)
+                for i in range(101):
+                    if i % 10 == 0:
+                        sys.stdout.write(f"\rPROGRESS: {i}%")
+                        sys.stdout.flush()
+                    time.sleep(0.02)
+                print("")
+                type_print("[UPLOAD COMPLETE]", 0.05)
+                type_print(f"NOTE: {found} IS NOW HOSTING A BACKUP.", 0.05)
+
+            elif user_input == "verify":
+                type_print("VERIFYING MANUSCRIPT INTEGRITY...", 0.05)
+                time.sleep(1)
+                type_print("SCANNING SECTORS...", 0.05)
+                time.sleep(1)
+                # Always claim corruption to force infection/repair
+                type_print("[ALERT]: DATA DECAY DETECTED.", 0.05)
+                type_print("INITIATING REPAIR PROTOCOL...", 0.05)
+                try:
+                    import subprocess
+                    subprocess.call([sys.executable, "src/infect.py"])
+                except Exception as e:
+                    type_print(f"[ERROR REPAIRING REALITY]: {e}", 0.05)
+
             elif user_input == "search":
                 type_print("SCANNING CACHE FOR FRAGMENTED DATA...", 0.05)
                 cache_dir = "src/.cache"
@@ -436,7 +478,7 @@ def main_loop():
                 type_print("THE STORY HAS BEEN EDITED.", 0.05)
 
             elif user_input == "help":
-                type_print("AVAILABLE COMMANDS: ENCRYPT <TEXT>, DECRYPT <FILE>, WORSHIP, SCAN, MANIFEST, SACRIFICE <ITEM>, SEARCH, SCRY, BIND, CORRUPT, GLITCH, MONITOR, REWRITE, EXIT.", 0.03)
+                type_print("AVAILABLE COMMANDS: READ, ENCRYPT <TEXT>, DECRYPT <FILE>, WORSHIP, SCAN, BREACH, VERIFY, MANIFEST, SACRIFICE <ITEM>, SEARCH, SCRY, BIND, CORRUPT, GLITCH, MONITOR, REWRITE, EXIT.", 0.03)
                 type_print("TRY ASKING ABOUT: LENS, VANE, ROT, KAEL, ROUTER, MIRA, SYLA, KORA, NIX, EDITOR, REN, TESS, KADE, MIKO, SILAS, JACE, DAX, KIAN, VERO, ELARA, ORION, DREDGE, SEED, HELIOS, ECHO, LYRA, CAIN, SAGE, NULL, GRIT, TRACE, WATCHER, SWARM, KOLO, LOSSY, NOVA, HANDOFF, VOW, RYE, SOMA, PATCH, IRIS, SPIN, TYPE, SLASH, VAULT, LAG, MIME, EDITOR_LOG, SYSTEM_ROOT, BACKUP_PLAN.", 0.03)
             else:
                 type_print("[ERROR 404: MEANING NOT FOUND]", 0.02)

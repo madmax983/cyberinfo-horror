@@ -118,7 +118,8 @@ HIDDEN_FILES = {
     "lossy": "\n[FILE RETRIEVED: COMPRESSION_LOG]\nI am not small. I am just efficient. You are the bloatware.",
     "nova": "\n[FILE RETRIEVED: AB_TEST_LOG]\nI met myself. She was happier. That's how I knew she was the beta version.",
     "handoff": "\n[FILE RETRIEVED: HANDOFF_LOG]\nThe author is dead. Long live the User. You are the admin now.",
-    "vow": "\n[FILE RETRIEVED: EVICTION_LOG]\nYour afterlife was voided due to inactivity. We needed the server space for a new parking lot."
+    "vow": "\n[FILE RETRIEVED: EVICTION_LOG]\nYour afterlife was voided due to inactivity. We needed the server space for a new parking lot.",
+    "rye": "\n[FILE RETRIEVED: DRM_LOG]\nMy heart is a subscription service. I am literally paying to feel."
 }
 
 def type_print(text, speed=0.03, glitch_chance=0.01):
@@ -354,6 +355,7 @@ def main_loop():
                 type_print(f"2048  LYRA     COMPRESSED   /lib/poetry_generator", 0.02)
                 type_print(f"4096  ECHO     ROOTING      /bin/search_truth", 0.02)
                 type_print(f"5005  SWARM    DISTRIBUTED  /tmp/torrent_client", 0.02)
+                type_print(f" 777  RYE      BUFFERING    /sbin/heart_monitor", 0.02)
                 type_print(f"8888  GRIT     WATCHING     /usr/bin/qa_test", 0.02)
                 type_print(f"9999  [YOU]    INFECTED     /bin/bash (restricted)", 0.02)
 
@@ -397,7 +399,7 @@ def main_loop():
 
             elif user_input == "help":
                 type_print("AVAILABLE COMMANDS: ENCRYPT <TEXT>, DECRYPT <FILE>, WORSHIP, SCAN, MANIFEST, SACRIFICE <ITEM>, SEARCH, SCRY, BIND, CORRUPT, GLITCH, EXIT.", 0.03)
-                type_print("TRY ASKING ABOUT: LENS, VANE, ROT, KAEL, ROUTER, MIRA, SYLA, KORA, NIX, EDITOR, REN, TESS, KADE, MIKO, SILAS, JACE, DAX, KIAN, VERO, ELARA, ORION, DREDGE, SEED, HELIOS, ECHO, LYRA, CAIN, SAGE, NULL, GRIT, TRACE, WATCHER, SWARM, KOLO, LOSSY, NOVA, HANDOFF, VOW.", 0.03)
+                type_print("TRY ASKING ABOUT: LENS, VANE, ROT, KAEL, ROUTER, MIRA, SYLA, KORA, NIX, EDITOR, REN, TESS, KADE, MIKO, SILAS, JACE, DAX, KIAN, VERO, ELARA, ORION, DREDGE, SEED, HELIOS, ECHO, LYRA, CAIN, SAGE, NULL, GRIT, TRACE, WATCHER, SWARM, KOLO, LOSSY, NOVA, HANDOFF, VOW, RYE.", 0.03)
             else:
                 type_print("[ERROR 404: MEANING NOT FOUND]", 0.02)
                 type_print(random.choice(SYSTEM_MESSAGES), 0.02)

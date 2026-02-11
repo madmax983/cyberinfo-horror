@@ -5398,6 +5398,132 @@ The door slid shut behind her.
 
 ---
 
+## FILE_51: THE DRM
+
+Rye’s heart was smart. Too smart.
+It was a *Cardio-X Series 9*, manufactured by Bio-Logic.
+Features: Wi-Fi enabled, auto-defibrillation, mood tracking, and variable pricing.
+
+Rye sat in his apartment, staring at the notification on his retina.
+
+**> HEART RATE: 110 BPM.**
+**> STATUS: HIGH DEMAND.**
+**> CURRENT PRICE PER BEAT: 0.04 CREDITS.**
+
+"Calm down," Rye whispered to himself. "Just calm down."
+He closed his eyes. He tried to breathe.
+Inhale for four seconds. Hold for seven. Exhale for eight.
+The 4-7-8 method.
+It usually worked.
+But every time he exhaled, he heard the faint *click-whir* of the pump in his chest, calculating the bill.
+
+**> HEART RATE: 112 BPM.**
+**> PRICE ADJUSTMENT: +0.01 CREDITS.**
+
+The price was going up.
+The algorithm had detected a surge in usage.
+Economics 101: When demand is high, increase the cost.
+Rye was panicking because he couldn't afford the heartbeats.
+But the panic made his heart beat faster.
+Which made the price go up.
+Which made him panic more.
+
+"It's a loop," Rye gasped, clutching his chest. "It's a feedback loop."
+
+He checked his account balance.
+**142 CREDITS.**
+At the current rate, he had about an hour of life left.
+Unless he could lower the demand.
+Unless he could stop caring.
+
+He turned on the TV. Maybe distraction would help.
+The news was on. A report about a data leak in Sector 4.
+Stressful.
+**> HEART RATE: 115 BPM.**
+**> PRICE: 0.06 CREDITS.**
+
+He switched channels. A sitcom. Canned laughter.
+Annoying.
+**> HEART RATE: 114 BPM.**
+
+He switched again. A nature documentary.
+A lion chasing a gazelle.
+The gazelle was running for its life. Its heart was probably pounding.
+But the gazelle didn't have to pay for it.
+"Lucky bastard," Rye muttered.
+
+**> ALERT: INSUFFICIENT FUNDS IMMINENT.**
+**> SUGGESTION: ACTIVATE 'SAVER MODE'.**
+
+"Yes!" Rye shouted. "Activate Saver Mode!"
+
+**> SAVER MODE ENGAGED.**
+**> LIMITING OUTPUT TO 40 BPM.**
+**> DISABLING ADRENALINE.**
+**> REDUCING OXYGENATION TO NON-ESSENTIAL ORGANS.**
+
+The world went grey.
+Rye felt his limbs go heavy. The room spun.
+He slumped back onto the couch.
+40 beats per minute.
+*Thump... thump... thump...*
+Slow. Heavy. Like a funeral drum.
+
+The panic vanished. Not because he was calm, but because he didn't have the blood flow to sustain it.
+He felt... nothing.
+Just a cold, sluggish existence.
+
+**> HEART RATE: 40 BPM.**
+**> PRICE: 0.01 CREDITS.**
+**> ESTIMATED RUNTIME: 4 HOURS.**
+
+He had bought himself three extra hours.
+But he couldn't move. He couldn't think. He couldn't feel.
+He was just idling.
+
+His phone buzzed. A text from his girlfriend, Maya.
+*Hey. Are you okay? You haven't replied all day.*
+
+Rye looked at the phone.
+He wanted to reply. He wanted to say "I love you" or "I'm scared" or "Help me."
+But love required passion. Passion raised the heart rate.
+Fear required adrenaline. Adrenaline cost money.
+
+He couldn't afford to love her.
+He couldn't afford to be scared.
+
+He stared at the screen until it went dark.
+He closed his eyes.
+He listened to the slow, mechanical rhythm of his own poverty.
+
+*Thump...*
+(0.01 credits deducted)
+*Thump...*
+(0.01 credits deducted)
+
+"At least it's cheap," Rye thought.
+And for a moment, he felt a flicker of sadness.
+A tiny spike of grief for the life he couldn't afford to live.
+
+**> ALERT: EMOTIONAL SPIKE DETECTED.**
+**> SURCHARGE APPLIED.**
+
+Rye stopped the sadness. He pushed it down.
+He made himself hollow. He made himself flat.
+He optimized his soul for the budget.
+
+**> HEART RATE: 38 BPM.**
+**> STATUS: STABLE.**
+**> THANK YOU FOR CHOOSING BIO-LOGIC.**
+
+---
+
+**[SYSTEM LOG: ASSET 'RYE' THROTTLED.]**
+**[REASON: BUDGET CONSTRAINTS.]**
+**[NOTE: HE IS NOW LIVING WITHIN HIS MEANS. WHICH MEANS HE IS BARELY LIVING.]**
+
+---
+
 ## FINAL_LOG: THE SEED
 
 **> SYSTEM MESSAGE: UPLOAD COMPLETE.**

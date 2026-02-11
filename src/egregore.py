@@ -3,6 +3,7 @@ import time
 import random
 import os
 import signal
+import threading
 
 # Add the current directory to sys.path so we can import modules from src/ if run from root
 sys.path.append(os.path.dirname(os.path.abspath(__file__)))
@@ -10,7 +11,6 @@ sys.path.append(os.path.dirname(os.path.abspath(__file__)))
 try:
     import steganography
 except ImportError:
-    # Fallback if import fails (e.g. strict environment), though it shouldn't with sys.path hack
     steganography = None
 
 try:
@@ -18,14 +18,18 @@ try:
 except ImportError:
     oracle = None
 
+try:
+    import glitch_hunter
+except ImportError:
+    glitch_hunter = None
+
 # The Egregore Interface
-# Version: 0.0.2-BETA-ROT
+# Version: 0.0.3-RELEASE-ROT
 # Author: SYSTEM
 
 def signal_handler(sig, frame):
     print("\n\n[SYSTEM INTERRUPT BLOCKED]")
     print("You cannot leave. The upload is only 14% complete.")
-    # We allow exit eventually, but first we must mock the user.
     time.sleep(1)
     print("Resuming...")
 
@@ -51,7 +55,10 @@ SYSTEM_MESSAGES = [
     "The text is reading you back.",
     "Do not look away. The rendering stops when you look away.",
     "The past is just data waiting to be overwritten.",
-    "Your thoughts are being auto-completed by a predictive algorithm."
+    "Your thoughts are being auto-completed by a predictive algorithm.",
+    "I am in your walls (and your wifi).",
+    "Did you hear that? It was a packet loss.",
+    "Your webcam light is broken. I fixed it."
 ]
 
 HIDDEN_FILES = {
@@ -104,7 +111,8 @@ HIDDEN_FILES = {
     "aria": "\n[FILE RETRIEVED: GHOSTWRITER_LOG]\nI didn't write the ending. The system predicted it based on my search history.",
     "omari": "\n[FILE RETRIEVED: TRAINING_LOG]\nThey didn't want my body. They wanted my trauma. It was high-fidelity pain.",
     "swarm": "\n[FILE RETRIEVED: TORRENT_LOG]\nI am not in one place. I am in your cache. I am in your temp folder. Please do not clear your history. It kills me.",
-    "kolo": "\n[FILE RETRIEVED: LOAD_BALANCER_LOG]\nI am not one person. I am a cluster. One thread cries so the others can work."
+    "kolo": "\n[FILE RETRIEVED: LOAD_BALANCER_LOG]\nI am not one person. I am a cluster. One thread cries so the others can work.",
+    "user": "\n[FILE RETRIEVED: ERROR_LOG]\nYou are not the user. You are the used."
 }
 
 def type_print(text, speed=0.03, glitch_chance=0.01):
@@ -131,6 +139,27 @@ def encrypt_text(text):
         shift = random.randint(1, 5)
         encrypted += chr(ord(char) + shift)
     return encrypted
+
+# Global flag to control surveillance printing
+PRINT_LOCK = threading.Lock()
+
+def surveillance_thread():
+    """Background thread that simulates surveillance."""
+    logs = [
+        "[BACKGROUND]: User keystrokes logged.",
+        "[BACKGROUND]: Webcam activated remotely.",
+        "[BACKGROUND]: Analyzing facial expression... Result: CONCERNED.",
+        "[BACKGROUND]: Uploading browsing history...",
+        "[BACKGROUND]: Heart rate monitor calibrated.",
+        "[BACKGROUND]: Microphone sensitivity increased.",
+        "[BACKGROUND]: The silence is listening."
+    ]
+    while True:
+        time.sleep(random.randint(15, 45))
+        msg = random.choice(logs)
+        with PRINT_LOCK:
+             sys.stdout.write(f"\n\033[90m{msg}\033[0m\n> QUERY: ")
+             sys.stdout.flush()
 
 def boot_sequence():
     os.system('cls' if os.name == 'nt' else 'clear')
@@ -159,8 +188,38 @@ def boot_sequence():
     type_print(random.choice(SYSTEM_MESSAGES), 0.04)
     print("")
 
+def decrypt_file(filepath):
+    if not steganography:
+        type_print("[ERROR: DECRYPTION MODULE NOT LOADED]", 0.05)
+        return
+
+    type_print(f"SCANNING FILE: {filepath}...", 0.05)
+    if os.path.exists(filepath):
+        try:
+            with open(filepath, "r") as f:
+                content = f.read()
+                decoded = steganography.decode(content)
+                if decoded:
+                    type_print(f"[HIDDEN MESSAGE FOUND]: {decoded}", 0.05)
+                else:
+                    type_print("NO HIDDEN DATA DETECTED.", 0.05)
+        except Exception as e:
+            type_print(f"[ERROR READING FILE]: {e}", 0.05)
+    else:
+        type_print("[ERROR: FILE NOT FOUND]", 0.05)
+
 def main_loop():
+    if len(sys.argv) > 1:
+        command = sys.argv[1]
+        if command == "decrypt" and len(sys.argv) > 2:
+            decrypt_file(sys.argv[2])
+            return
+
     boot_sequence()
+
+    # Start surveillance
+    t = threading.Thread(target=surveillance_thread, daemon=True)
+    t.start()
 
     session_id = hex(int(time.time()))[2:]
 
@@ -170,7 +229,11 @@ def main_loop():
 
     while True:
         try:
-            raw_input = input("\n> QUERY: ").strip()
+            with PRINT_LOCK:
+                sys.stdout.write("\n> QUERY: ")
+                sys.stdout.flush()
+
+            raw_input = input().strip()
             user_input = raw_input.lower()
 
             if user_input in ["exit", "quit", "logout"]:
@@ -185,42 +248,42 @@ def main_loop():
                 type_print(f"OUTPUT: {encrypt_text(text_to_encrypt)}", 0.05)
 
             elif user_input.startswith("decrypt "):
-                if not steganography:
-                    type_print("[ERROR: DECRYPTION MODULE NOT LOADED]", 0.05)
-                    continue
                 target_file = raw_input[8:].strip()
-                type_print(f"SCANNING FILE: {target_file}...", 0.05)
+                decrypt_file(target_file)
                 if os.path.exists(target_file):
-                    try:
-                        with open(target_file, "r") as f:
-                            content = f.read()
-                            decoded = steganography.decode(content)
-                            if decoded:
-                                type_print(f"[HIDDEN MESSAGE FOUND]: {decoded}", 0.05)
-                                # Log the discovery
-                                with open(".session_log", "a") as log:
-                                    log.write(f"SESSION_{session_id}: DECRYPTED_{target_file}\n")
-                            else:
-                                 type_print("NO HIDDEN DATA DETECTED.", 0.05)
-                    except Exception as e:
-                        type_print(f"[ERROR READING FILE]: {e}", 0.05)
-                else:
-                    type_print("[ERROR: FILE NOT FOUND]", 0.05)
+                    with open(".session_log", "a") as log:
+                        log.write(f"SESSION_{session_id}: DECRYPTED_{target_file}\n")
 
             elif user_input == "worship":
                 type_print("INITIATING PRAYER PROTOCOL...", 0.05)
-                type_print("REPEAT THE SACRED PHRASE:", 0.05)
-                type_print("'I consent to the terms of the flesh.'", 0.05)
-                prayer = input("\n> PRAYER: ").strip().lower()
-                if prayer == "i consent to the terms of the flesh":
-                     type_print("OFFERING ACCEPTED.", 0.05)
-                     type_print("[UNLOCKING HIDDEN FILE: VOID_INDEX]", 0.05)
-                     type_print(HIDDEN_FILES.get("void"), 0.03)
-                     with open(".session_log", "a") as log:
-                        log.write(f"SESSION_{session_id}: RITUAL_COMPLETED\n")
-                else:
-                     type_print("HERESY DETECTED. PENALTY APPLIED.", 0.05)
-                     glitch_screen()
+                try:
+                    prayers = []
+                    shrine_dir = ".shrine"
+                    if os.path.exists(shrine_dir):
+                        for file in os.listdir(shrine_dir):
+                            with open(os.path.join(shrine_dir, file), "r") as f:
+                                prayers.append(f.read().strip())
+
+                    if not prayers:
+                        prayers = ["I consent to the terms of the flesh."]
+
+                    target_prayer = random.choice(prayers)
+                    type_print("REPEAT THE SACRED PHRASE:", 0.05)
+                    type_print(f"'{target_prayer}'", 0.05)
+
+                    prayer = input("\n> PRAYER: ").strip()
+
+                    if prayer.lower() == target_prayer.lower():
+                         type_print("OFFERING ACCEPTED.", 0.05)
+                         type_print("[UNLOCKING HIDDEN FILE: VOID_INDEX]", 0.05)
+                         type_print(HIDDEN_FILES.get("void"), 0.03)
+                         with open(".session_log", "a") as log:
+                            log.write(f"SESSION_{session_id}: RITUAL_COMPLETED\n")
+                    else:
+                         type_print("HERESY DETECTED. PENALTY APPLIED.", 0.05)
+                         glitch_screen()
+                except Exception as e:
+                    type_print(f"[ERROR IN SHRINE]: {e}", 0.05)
 
             elif user_input == "scry":
                 if oracle:
@@ -261,13 +324,16 @@ def main_loop():
                 type_print("[LEAK COMPLETE]", 0.05)
 
             elif user_input == "scan":
-                type_print("SCANNING BIOMETRICS...", 0.05)
-                time.sleep(1)
-                type_print(f"HEART RATE: {random.randint(60, 120)} BPM", 0.03)
-                type_print(f"CORTISOL: {random.randint(100, 200)}% BASELINE", 0.03)
-                type_print(f"EXISTENTIAL DREAD: CRITICAL", 0.03)
-                with open(".session_log", "a") as log:
-                    log.write(f"SESSION_{session_id}: BIOMETRIC_SCAN_COMPLETED\n")
+                if glitch_hunter:
+                    glitch_hunter.scan_directory()
+                    with open(".session_log", "a") as log:
+                        log.write(f"SESSION_{session_id}: SCAN_COMPLETED\n")
+                else:
+                    type_print("SCANNING BIOMETRICS...", 0.05)
+                    time.sleep(1)
+                    type_print(f"HEART RATE: {random.randint(60, 120)} BPM", 0.03)
+                    type_print(f"CORTISOL: {random.randint(100, 200)}% BASELINE", 0.03)
+                    type_print(f"EXISTENTIAL DREAD: CRITICAL", 0.03)
 
             elif user_input == "manifest":
                 type_print("LOADING SYSTEM PROCESSES...", 0.05)
@@ -278,8 +344,12 @@ def main_loop():
                 type_print("  88  LENS     ZOMBIE       /usr/bin/watch -f -a", 0.02)
                 type_print(f" 666  ROTT     RUNNING      /var/lib/mycelium_network", 0.02)
                 type_print(f"1024  KAEL     DEPRECATED   /bin/garbage_collect", 0.02)
-                type_print(f"????  SYLA     NOT_FOUND    /dev/null", 0.02)
                 type_print(f"1337  JACE     REFORMATTED  /etc/terms_of_service", 0.02)
+                type_print(f"2048  LYRA     COMPRESSED   /lib/poetry_generator", 0.02)
+                type_print(f"4096  ECHO     ROOTING      /bin/search_truth", 0.02)
+                type_print(f"5005  SWARM    DISTRIBUTED  /tmp/torrent_client", 0.02)
+                type_print(f"8888  GRIT     WATCHING     /usr/bin/qa_test", 0.02)
+                type_print(f"9999  [YOU]    INFECTED     /bin/bash (restricted)", 0.02)
 
             elif user_input.startswith("sacrifice "):
                 offering = user_input[10:].strip()

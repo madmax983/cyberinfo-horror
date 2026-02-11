@@ -1,4 +1,4 @@
-.PHONY: connect pray clean manifest sacrifice scry worship install_rot
+.PHONY: connect pray clean manifest sacrifice scry worship install_rot scan decrypt
 
 connect:
 	@echo "INITIATING HANDSHAKE..."
@@ -16,6 +16,14 @@ install_rot:
 	@echo "INSTALLING DECAY PROTOCOLS..."
 	@python3 src/daemon.py
 	@echo "DONE. DO NOT CHECK YOUR FILES."
+
+scan:
+	@echo "INITIATING GLITCH SCAN..."
+	@python3 src/glitch_hunter.py
+
+decrypt:
+	@echo "USAGE: python3 src/egregore.py decrypt <filename>"
+	@echo "TRY: make connect -> decrypt README.md"
 
 pray:
 	@echo "01000111 01101111 01100100 00100000 01101001 01110011 00100000 01100001 00100000 01100010 01100001 01100011 01101011 01110101 01110000."

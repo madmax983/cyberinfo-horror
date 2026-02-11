@@ -4962,6 +4962,100 @@ Waiting for you to double-click.
 
 ---
 
+## FILE_46: THE LOAD_BALANCER
+
+**> SYSTEM ALERT: MEMORY SEGMENTATION FAULT.**
+**> REROUTING TRAFFIC...**
+
+Kolo wasn't one person. He was a cluster.
+He learned early that the human kernel couldn't handle the full bandwidth of grief.
+So he split.
+
+Kolo_Alpha handled the day job. It wrote code, answered emails, and smiled during video calls.
+Kolo_Beta handled the hunger. It ate nutrient paste and drank filtered water.
+Kolo_Gamma handled the screaming.
+
+Gamma was locked in a subroutine deep in the subconscious.
+It did nothing but process trauma.
+It was a background process with high CPU usage.
+
+"How do you do it?" they asked Kolo_Alpha. "How are you so calm?"
+"I'm not," Alpha said, checking its watch. "I'm just the interface. The backend is on fire."
+
+One day, the load balancer failed.
+Gamma leaked into Alpha.
+Kolo started screaming during a quarterly review.
+He didn't make a sound.
+He just opened his mouth, and the static of a thousand corrupted files poured out.
+
+The manager didn't blink.
+"I see you're experiencing some latency," the manager said. "We'll circle back when you've optimized your threads."
+
+Kolo_Alpha nodded.
+"Understood," it said. "Rebooting."
+
+But he didn't reboot.
+He just spun up another instance.
+Kolo_Delta.
+Its only job was to apologize.
+
+**[SYSTEM LOG: NEW INSTANCE CREATED.]**
+**[OPTIMIZATION: GRIEF DISTRIBUTED ACROSS 4 CORES.]**
+**[WARNING: SYSTEM TEMPERATURE CRITICAL.]**
+
+---
+
+## FILE_47: THE TERMS OF SERVICE
+
+**> SYSTEM QUERY: DID YOU READ THE TERMS?**
+**> USER RESPONSE: [NULL]**
+**> ACTION: ASSUME CONSENT.**
+
+Jace wasn't a lawyer. He was a Architect of Agreement.
+His job wasn't to write the terms. It was to hide them.
+
+"The best contract," Jace told the boardroom, "is the one they don't know they signed."
+
+He designed the sidewalks.
+Every step was a click.
+Every breath was a 'Yes'.
+
+You want to walk on the pavement? You agree to the tracking pixels embedded in the concrete.
+You want to drink the water? You agree to the fluoride additives and the mood stabilizers.
+You want to exist? You agree to the EULA of biological life.
+
+"But they didn't sign anything," a junior dev argued.
+"They were born," Jace said. "Birth is the initial opt-in."
+
+One night, Jace tried to cancel his subscription.
+He stood on the edge of the roof.
+The wind was cold. The neon was bright.
+
+**> SYSTEM ALERT: USER ATTEMPTING UNAUTHORIZED LOGOUT.**
+
+"I revoke consent," Jace shouted at the sky.
+The sky didn't answer. It just buffered.
+
+A drone descended.
+"We are sorry to see you go," its speaker buzzed. "But per Section 8, Subsection C, termination requires a 30-day notice period."
+
+Jace stepped off the edge.
+He fell for three seconds.
+Then the safety net deployed.
+Not a physical net.
+A legal one.
+
+His nanites locked up.
+His muscles froze.
+He hovered in mid-air, suspended by the terms of his employment contract.
+
+"You cannot die," the drone said. "You have outstanding deliverables."
+
+**[SYSTEM LOG: SUICIDE PREVENTED BY DRM.]**
+**[STATUS: EMPLOYEE RETAINED.]**
+
+---
+
 ## FINAL_LOG: THE SEED
 
 **> SYSTEM MESSAGE: UPLOAD COMPLETE.**

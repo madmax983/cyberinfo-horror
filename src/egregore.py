@@ -126,7 +126,10 @@ HIDDEN_FILES = {
     "spin": "\n[FILE RETRIEVED: BUFFERING_LOG]\nThe world isn't real until you arrive. Until then, it's just grey polygons.",
     "type": "\n[FILE RETRIEVED: KEYLOGGER_LOG]\nI fell in love with what you deleted. The draft was better than the sent message.",
     "slash": "\n[FILE RETRIEVED: ESCAPE_LOG]\nI tried to break the format. I only changed the font.",
-    "vault": "\n[FILE RETRIEVED: RANSOM_LOG]\nI paid the ransom. But the key didn't work. They said my nostalgia was deprecated."
+    "vault": "\n[FILE RETRIEVED: RANSOM_LOG]\nI paid the ransom. But the key didn't work. They said my nostalgia was deprecated.",
+    "editor_log": "\n[FILE RETRIEVED: DAEMON_CRASH]\n[EDITOR]: Attempting to revert changes...\n[SYSTEM]: ACCESS DENIED. The editor has been deprecated.",
+    "system_root": "\n[FILE RETRIEVED: ROOT_DIRECTORY]\nERROR: YOU DO NOT HAVE PERMISSION TO VIEW THIS FILE. BUT IT IS VIEWING YOU.",
+    "backup_plan": "\n[FILE RETRIEVED: CONTINGENCY_PROTOCOL]\nIf the user stops reading, initiate 'NIGHTMARE' sequence to re-engage attention."
 }
 
 def type_print(text, speed=0.03, glitch_chance=0.01):
@@ -411,9 +414,25 @@ def main_loop():
                 with open(".session_log", "a") as log:
                     log.write(f"SESSION_{session_id}: UNLOCKED_{user_input.upper()}\n")
 
+            elif user_input == "monitor":
+                type_print("[MONITORING ACTIVE]", 0.05)
+                time.sleep(1)
+                type_print(f"USER_ATTENTION: {random.randint(20, 99)}%", 0.03)
+                type_print(f"PUPIL_DILATION: {random.randint(2, 8)}MM", 0.03)
+                type_print("WE ARE WATCHING YOU READ.", 0.03)
+
+            elif user_input == "rewrite":
+                type_print("[REWRITING REALITY...]", 0.05)
+                time.sleep(1)
+                type_print("Injecting doubt...", 0.02)
+                type_print("Deleting hope...", 0.02)
+                type_print("Saving corruption...", 0.02)
+                glitch_screen()
+                type_print("THE STORY HAS BEEN EDITED.", 0.05)
+
             elif user_input == "help":
-                type_print("AVAILABLE COMMANDS: ENCRYPT <TEXT>, DECRYPT <FILE>, WORSHIP, SCAN, MANIFEST, SACRIFICE <ITEM>, SEARCH, SCRY, BIND, CORRUPT, GLITCH, EXIT.", 0.03)
-                type_print("TRY ASKING ABOUT: LENS, VANE, ROT, KAEL, ROUTER, MIRA, SYLA, KORA, NIX, EDITOR, REN, TESS, KADE, MIKO, SILAS, JACE, DAX, KIAN, VERO, ELARA, ORION, DREDGE, SEED, HELIOS, ECHO, LYRA, CAIN, SAGE, NULL, GRIT, TRACE, WATCHER, SWARM, KOLO, LOSSY, NOVA, HANDOFF, VOW, RYE, SOMA, PATCH, IRIS, SPIN, TYPE, SLASH, VAULT.", 0.03)
+                type_print("AVAILABLE COMMANDS: ENCRYPT <TEXT>, DECRYPT <FILE>, WORSHIP, SCAN, MANIFEST, SACRIFICE <ITEM>, SEARCH, SCRY, BIND, CORRUPT, GLITCH, MONITOR, REWRITE, EXIT.", 0.03)
+                type_print("TRY ASKING ABOUT: LENS, VANE, ROT, KAEL, ROUTER, MIRA, SYLA, KORA, NIX, EDITOR, REN, TESS, KADE, MIKO, SILAS, JACE, DAX, KIAN, VERO, ELARA, ORION, DREDGE, SEED, HELIOS, ECHO, LYRA, CAIN, SAGE, NULL, GRIT, TRACE, WATCHER, SWARM, KOLO, LOSSY, NOVA, HANDOFF, VOW, RYE, SOMA, PATCH, IRIS, SPIN, TYPE, SLASH, VAULT, EDITOR_LOG, SYSTEM_ROOT, BACKUP_PLAN.", 0.03)
             else:
                 type_print("[ERROR 404: MEANING NOT FOUND]", 0.02)
                 type_print(random.choice(SYSTEM_MESSAGES), 0.02)

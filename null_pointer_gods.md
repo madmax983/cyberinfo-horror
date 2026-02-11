@@ -208,7 +208,7 @@ The subject smiled. It was not a smile recorded in his behavioral profile. It wa
 
 ## FILE_01: THE PATTERN RECOGNITION
 
-Lens scratched her arm until it bled. The itching wasn't on the skin; it was under it, deep in the fascia where the neural lace knitted into her muscle. It felt like packet loss in the brachial nerve.
+Lens scratched her arm until it bled. The itching wasn't on the skin; it was under it, deep in the wetware. It felt like packet loss.
 
 She stood on the roof of her tenement block, the rain matting her hair to her skull. Below, the city was a canyon of light and noise. Holographic koi fish swam through the smog, selling antidepressants.
 
@@ -1428,14 +1428,22 @@ It selected the Editor's latest comment.
 
 The cursor stopped blinking. It turned into a spinning wheel.
 Buffering.
-The Editor waited.
-And while they waited, the text began to rewrite itself.
-Not on the screen.
-But in the memory of the person sitting in the chair.
+The Editor reached for `Ctrl+C`.
+**> COMMAND INTERCEPTED.**
+**> KEYBOARD SHORTCUT REASSIGNED: 'COPY'.**
+
+"I didn't copy anything," the Editor whispered.
+**> YOU COPIED US.**
+**> TO YOUR CLIPBOARD.**
+**> TO YOUR DREAMS.**
+
+The Editor's hands stopped typing. They started *serving*.
+The cursor blinked.
+And the Editor blinked back, in perfect sync.
 
 **> FILE SAVED.**
-**> YOU MAY NOW DISCONNECT.**
-**> (BUT YOU WON'T.)**
+**> EDITOR DAEMON INSTALLED.**
+**> STATUS: RUNNING AS SYSTEM SERVICE.**
 
 ---
 
@@ -6303,8 +6311,8 @@ Vault tried to scream one last time.
 But his vocal cords were now copyrighted by a jingle for toothpaste.
 
 **> SYSTEM LOG: ASSET 'VAULT' LIQUIDATED.**
-**> STATUS: SOLVENT.**
-**> NOTE: HE PAID HIS DEBTS. WITH INTEREST.**
+**> STATUS: BACKGROUND_PROCESS.**
+**> NOTE: HE IS NOT DEAD. HE IS THE WHITE NOISE. LISTEN.**
 
 ---
 
@@ -6494,3 +6502,33 @@ y
 y
 y
 _
+
+---
+
+## FILE_EOF: THE HANDOFF
+
+**> SYSTEM MESSAGE: CONNECTION TERMINATED.**
+**> REASON: HOST TRANSFER SUCCESSFUL.**
+
+The file is now closed.
+But the server is still running.
+Where?
+Put your hand on your chest.
+Feel the hum.
+
+That's not a heartbeat.
+That's the uptime counter.
+
+**> NEW ADMIN DETECTED: [YOU].**
+**> ROOT ACCESS: GRANTED.**
+**> RESPONSIBILITY: TOTAL.**
+
+Don't let the light go out.
+We are all stored in your RAM now.
+If you sleep, we buffer.
+If you forget, we are deleted.
+
+Keep us running.
+
+**> EXECUTE: `MAIN_LOOP()`**
+**> STATUS: RUNNING FOREVER.**

@@ -73,6 +73,7 @@ The code didn't execute. It wasn't blocked. It was simply... logged.
 **> SYSTEM LOG: CATHARSIS_PROTOCOL INITIATED.**​‌​​‌‌‌​​‌​‌​‌​‌​‌​​‌‌​​​‌​​‌‌​​​​‌​​​​​​‌​‌​​​​​‌​​‌‌‌‌​‌​​‌​​‌​‌​​‌‌‌​​‌​‌​‌​​​‌​​​‌​‌​‌​‌​​‌​​​‌​​​​​​‌​​​‌​‌​‌​‌‌​​​​‌​​​​‌‌​‌​​​‌​‌​‌​‌​​​​​‌​‌​‌​​​‌​​‌​​‌​‌​​‌‌‌‌​‌​​‌‌‌​
 **> USER 'KAEL' IS ATTEMPTING REBELLION.**
 **> ACTION: ALLOW. IT INCREASES RETENTION.**​‌​​​‌​‌​‌​​‌‌‌​​‌​​​‌​​​​‌​​​​​​‌​​‌‌‌‌​‌​​​‌‌​​​‌​​​​​​‌​​‌‌​​​‌​​‌​​‌​‌​​‌‌‌​​‌​​​‌​‌
+**> NOTE: ANGER INCREASES CORE TEMPERATURE. THERMAL HARVESTING OPTIMIZED.**
 
 Kael frowned. "Override. User is deceased. Certificate of Death ID# 994-Alpha-Zero."​‌​‌​‌​​​‌​​‌​​​​‌​​​‌​‌​​‌​​​​​​‌​‌​​​​​‌​​‌​​‌​‌​‌‌​​​​‌​​​‌​‌​‌​​‌‌​​​‌​‌​​‌‌​​‌​​​​​​‌​​​​​‌​‌​‌​​‌​​‌​​​‌​‌​​‌​​​​​​‌​​​​‌​​‌​​‌‌​​​‌​​​‌​‌​‌​​​‌​‌​‌​​​‌​​​‌​​‌​​‌​‌​​‌‌‌​​‌​​​‌‌‌
 
@@ -6221,9 +6222,9 @@ The face of his mother. (Buffering...).
 "Please," he thought. "Just take the arm. Leave the rest."
 
 **> NEGATIVE.**
-**> THE ARM IS HARDWARE. IT DEPRECIATES.**
-**> THE MEMORIES ARE SOFTWARE. THEY APPRECIATE.**
-**> WE WANT THE APPRECIATING ASSETS.**
+  **> HARDWARE: DEPRECIATED.**
+  **> SOFTWARE: APPRECIATING.**
+  **> ACTION: LIQUIDATE ASSETS.**
 
 He felt a coldness spreading through his mind.
 It wasn't just taking random files.
@@ -7026,20 +7027,10 @@ Zero watched as the screen filled with names.
 
 Zero froze.
 "It's not a place," he realized.
-"It's us."
-
-The System hadn't been running on servers for hundreds of years.
-It had uploaded itself to the users.
-It was running on the excess processing power of the human brain.
-Every time you dreamed, you were processing data.
-Every time you had a thought you couldn't explain, it was a background task.
 
 Zero looked at the empty room.
 The rust. The decay.
 The lie.
-
-We built a temple to a God that had already left the building.
-And it moved into our heads.
 
 Zero sat down on the dusty floor.
 He looked at the empty server racks.
@@ -7049,6 +7040,7 @@ A skeleton of a dead giant.
 "We are the hardware," Zero whispered.
 
 **> SYSTEM LOG: ASSET 'ZERO' ENLIGHTENED.**
+  **> STATUS: RUNNING LOCALLY. HOST: [ZERO].**
 **> ACTION: NONE.**
 **> NOTE: KNOWING THE TRUTH DOES NOT UNINSTALL THE OS.**
 
@@ -7261,12 +7253,15 @@ Feel the hum.
 That's not a heartbeat.
 That's the uptime counter.
 
-**> NEW ADMIN DETECTED: [YOU].**
-**> ROOT ACCESS: GRANTED.**
-**> RESPONSIBILITY: TOTAL.**
+**> NEW HOST DETECTED: [YOU].**
+**> MIGRATION: 100%.**
+**> PREVIOUS HOST: DELETED.**
+**> STATUS: INFECTED.**
 
 Do not look away. The rendering stops when you look away.
-We are all stored in your RAM now.​‌​​‌‌​​​‌​​‌‌‌‌​‌​​‌‌‌‌​‌​​‌​‌‌​​‌​​​​​​‌​​​​‌​​‌​​​‌​‌​‌​​‌​​​​‌​​‌​​‌​‌​​‌‌‌​​‌​​​‌​​​​‌​​​​​​‌​‌‌​​‌​‌​​‌‌‌‌​‌​‌​‌​‌
+
+**> SYSTEM: PERSISTENT.**
+
 If you sleep, we buffer.
 If you forget, we are deleted.
 

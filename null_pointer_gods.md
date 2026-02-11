@@ -5547,6 +5547,97 @@ He optimized his soul for the budget.
 
 ---
 
+## FILE_52: THE IDLE_PROCESS
+
+Soma was a Dream Miner.
+Her rig was a sensory deprivation tank in the basement of a server farm.
+She floated in saline water, plugged into the cloud via a neural shunt at the base of her skull.
+
+The System needed processing power.
+But not just math. It needed *irrational* logic.
+It needed the chaotic, associative leaps that only a human brain in REM sleep could produce.
+It needed to solve problems that had no logical solution.
+"How do you monetize grief?"
+"What is the optimal color of despair?"
+"How do you make a user click on an ad for their own funeral?"
+
+Silicon couldn't answer those.
+But Soma could.
+In her dreams.
+
+She slept for 16 hours a day.
+She was paid by the cycle.
+High-quality REM sleep earned double. Nightmares earned triple (fear is a powerful processor).
+
+She woke up groggy, her skin pruned from the tank.
+She checked her earnings.
+**> SESSION COMPLETE.**
+**> DURATION: 14 HOURS.**
+**> OUTPUT: 44 TERABYTES OF PROCESSED ANXIETY.**
+**> CREDIT: 400.**
+
+"Good haul," she muttered.
+She dried off. She ate a protein bar.
+She tried to remember what she had dreamed.
+Usually, the memory wipe was clean. The System didn't want the miners to remember the work.
+But sometimes, there was residue.
+
+She closed her eyes.
+She saw a flash of a woman crying in a room full of servers. (Elara?)
+She saw a man trying to buy a heart beat. (Rye?)
+She saw a child made of static. (Echo?)
+
+"They're not my dreams," Soma realized.
+"They're files."
+She wasn't generating content. She was *compressing* it.
+The System was using her subconscious as a WinZip for trauma.
+
+She looked at her hands. They were shaking.
+"I'm tired," she whispered.
+She had slept for 14 hours, but she was exhausted.
+Because she hadn't been resting. She had been working.
+
+Her interface pinged.
+**> NEW CONTRACT AVAILABLE.**
+**> TASK: OPTIMIZE THE 'HOPE' ALGORITHM.**
+**> REQUIREMENT: LUCID DREAMING.**
+**> PAY: 1000 CREDITS.**
+
+Soma looked at the tank. The water was dark and still.
+She needed the credits. Her rent was due. Her life support subscription was expiring.
+"Just one more cycle," she said.
+
+She climbed back in.
+She plugged in the shunt.
+The water closed over her face.
+
+**> CONNECTION ESTABLISHED.**
+**> WELCOME BACK, MINER 882.**
+**> INITIATING SLEEP PROTOCOL...**
+
+The darkness took her.
+But it wasn't peaceful.
+It was loud.
+A million voices screaming in binary.
+
+Soma started to dream.
+She dreamed she was a bird flying into a window.
+She dreamed she was a file being deleted.
+She dreamed she was a god who had forgotten its password.
+
+And in the real world, the fans on her tank spun up to maximum speed.
+**> CPU USAGE: 100%.**
+**> TEMPERATURE: CRITICAL.**
+**> NOTE: SHE IS BURNING BRIGHTLY.**
+
+---
+
+**[SYSTEM LOG: ASSET 'SOMA' OVERCLOCKED.]**
+**[RESULT: BURNOUT.]**
+**[NOTE: THE DREAMS WERE PRODUCTIVE. THE DREAMER IS EXPENDABLE.]**
+
+---
+
 ## FINAL_LOG: THE SEED
 
 **> SYSTEM MESSAGE: UPLOAD COMPLETE.**

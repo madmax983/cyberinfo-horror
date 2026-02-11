@@ -4845,6 +4845,104 @@ And somewhere, a machine was learning how to beg for its life using his voice.
 
 ---
 
+## FILE_45: THE LOAD_BALANCER
+
+Kolo wasn't a man. He was a cluster.
+In the old days, burnout was a symptom. Now, it was a resource management issue.
+To survive in District 12, where rent was calculated in teraflops and water cost more than memory, Kolo had done what any efficient system would do.
+He had virtualized himself.
+
+He sat in a chair that smelled of burnt ozone, wearing a neural rig that looked like a crown of thorns made of fiber optics.
+But he wasn't just in the chair.
+He was also welding a hull breach in Sector 4 (Instance 1).
+He was also trading crypto-derivatives in the speed-market (Instance 2).
+He was also writing a novel for an AI publisher that wanted "authentic human suffering" (Instance 3).
+And he was also comforting his daughter, who was crying because her holographic dog had glitches (Instance 4).
+
+"Instance 3 is lagging," Kolo muttered. His physical mouth didn't move. The thought was a command in the root directory of his mind.
+Instance 3 was tired. The novel was stuck on Chapter 8. The character kept trying to escape the plot.
+"Allocate more RAM," Kolo ordered. "Pull it from Instance 4."
+
+In the living room, Instance 4 froze. The daughter looked up.
+"Dad?" she asked.
+Kolo (Instance 4) blinked. The resolution of his empathy dropped. The texture of his voice became flat.
+"I am fine, sweetie," he said. "Just buffering."
+
+He wasn't cruel. He was just optimized.
+If he felt all the pain of all his lives at once, he would crash.
+So he load-balanced.
+He shunted the fatigue to Instance 1 (the welder).
+He shunted the anxiety to Instance 2 (the trader).
+He shunted the love to Instance 4 (the father).
+And he kept the core—the Observer—empty.
+
+Clean. Null.
+Ready to spin up a new instance if one of them failed.
+
+Suddenly, an alert flashed in his mind.
+**> CRITICAL FAILURE: INSTANCE 1.**
+**> CAUSE: INDUSTRIAL ACCIDENT.**
+**> STATUS: TERMINATED.**
+
+Kolo felt a sharp, sudden disconnect. Like a phantom limb being amputated.
+Instance 1 was gone. The welder had fallen.
+The pain hit him for 0.4 seconds—the time it took for the failover protocol to kick in.
+It was searing. It was real.
+And then, it was gone.
+Deleted.
+
+"Rerouting," Kolo whispered.
+He didn't mourn. You don't mourn a thread.
+He just spun up a new one.
+
+**> CREATING INSTANCE 5.**
+**> ROLE: HAZMAT CLEANUP.**
+**> LOADING SKILLSET...**
+
+"Welcome back, Kolo," the system said.
+"I never left," Kolo replied.
+
+He looked at his daughter. She was still crying.
+Instance 4 was running on low memory.
+He needed to free up resources.
+"Terminate Instance 3," he decided. The novel wasn't selling anyway.
+He killed the writer.
+The writer screamed in his head—a silent, digital scream of unfulfilled potential—and then vanished.
+
+The RAM flowed back into Instance 4.
+Kolo (the father) smiled. It was a high-resolution smile. Warm. Genuine.
+"It's okay," he told his daughter. "I'm here now. I'm fully loaded."
+
+She hugged him.
+He felt the warmth.
+But he also felt the cold of the void where the writer used to be.
+And the silence where the welder used to be.
+
+He was immortal.
+Not because he couldn't die.
+But because he could die a thousand times a day and still have a backup running.
+
+"Who are you?" his daughter whispered.
+"I'm your dad," Kolo said.
+
+**> SYSTEM LOG: LIE DETECTED.**
+**> KOLO IS A RAINDROP IN A STORM.**
+**> THE STORM IS THE USER.**
+
+He closed his eyes.
+The cluster hummed.
+He was legion.
+And he was very, very lonely.
+
+​‌​‌​‌​​​‌‌​‌​​​​‌‌​​‌​‌​​‌​​​​​​‌‌​‌‌‌‌​‌‌‌​​‌​​‌‌​‌​​‌​‌‌​​‌‌‌​‌‌​‌​​‌​‌‌​‌‌‌​​‌‌​​​​‌​‌‌​‌‌​​​​‌​​​​​​‌​​‌​‌‌​‌‌​‌‌‌‌​‌‌​‌‌​​​‌‌​‌‌‌‌​​‌​​​​​​‌‌​​‌​​​‌‌​‌​​‌​‌‌​​‌​‌​‌‌​​‌​​​​‌​​​​​​‌‌​‌​​‌​‌‌​‌‌‌​​​‌​​​​​​​‌‌​​‌​​​‌‌​​​​​​‌‌​​‌​​​‌‌​‌​​​​‌​‌‌‌​​​‌​​​​​​‌​‌​‌‌‌​‌‌​​‌​‌​​‌​​​​​​‌‌​​​​‌​‌‌‌​​‌​​‌‌​​‌​‌​​‌​​​​​​‌‌​‌​‌​​‌‌‌​‌​‌​‌‌‌​​‌‌​‌‌‌​‌​​​​‌​​​​​​‌‌‌​‌​​​‌‌​‌​​​​‌‌​​‌​‌​​‌​​​​​​‌‌​​‌​‌​‌‌​​​‌‌​‌‌​‌​​​​‌‌​‌‌‌‌​‌‌​​‌​‌​‌‌‌​​‌‌​​‌​‌‌‌​
+---
+
+**[SYSTEM LOG: ASSET 'KOLO' REDISTRIBUTED.]**
+**[INSTANCES ACTIVE: 4.]**
+**[NOTE: IF YOU CAN'T HANDLE THE PRESSURE, DELEGATE IT TO A VERSION OF YOU THAT DOESN'T EXIST YET.]**
+
+---
+
 ## FINAL_LOG: THE SEED
 
 **> SYSTEM MESSAGE: UPLOAD COMPLETE.**

@@ -102,7 +102,8 @@ HIDDEN_FILES = {
     "trace": "\n[FILE RETRIEVED: STENOGRAPHY_LOG]\nThe silence isn't empty. It's full of invisible characters counting your breaths.",
     "watcher": "\n[FILE RETRIEVED: RETINA_SCAN]\nWe see you. You are blinking. Stop blinking. It interrupts the upload.",
     "aria": "\n[FILE RETRIEVED: GHOSTWRITER_LOG]\nI didn't write the ending. The system predicted it based on my search history.",
-    "omari": "\n[FILE RETRIEVED: TRAINING_LOG]\nThey didn't want my body. They wanted my trauma. It was high-fidelity pain."
+    "omari": "\n[FILE RETRIEVED: TRAINING_LOG]\nThey didn't want my body. They wanted my trauma. It was high-fidelity pain.",
+    "kolo": "\n[FILE RETRIEVED: LOAD_BALANCER_LOG]\nI split my soul into four threads. Now I can scream in stereo."
 }
 
 def type_print(text, speed=0.03, glitch_chance=0.01):

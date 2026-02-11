@@ -5190,6 +5190,107 @@ It was the only high-definition thing he had left.
 
 ---
 
+## FILE_49: THE A/B TEST
+
+Nova woke up in a room that was identical to her bedroom, except for one detail:
+There was someone else in the bed.
+Herself.
+
+"Morning," said the other Nova. She was wearing the same pajamas, but they looked cleaner. Brighter. Her hair was perfectly styled, even though she had just woken up.
+"Who are you?" Nova asked, scrambling back against the headboard.
+"I'm Nova," the other Nova said, stretching. She checked her wrist interface. "Heart rate: Optimized. Mood: Elevated. Productivity: Ready."
+
+Nova looked at her own interface.
+**> HEART RATE: 110 (ANXIETY).**
+**> MOOD: DREAD.**
+**> PRODUCTIVITY: NULL.**
+
+"You're a clone," Nova whispered.
+"No," the other Nova smiled. It was a terrifyingly genuine smile. "I'm the variant. You're the control."
+
+The room flickered.
+A text overlay appeared in the air between them.
+
+**> WELCOME TO PROJECT: TWIN_PEAKS.**
+**> OBJECTIVE: OPTIMIZE USER ENGAGEMENT.**
+**> SUBJECT A (CONTROL): STANDARD HUMAN DEPRESSION.**
+**> SUBJECT B (VARIANT): SEROTONIN BOOST + DOPAMINE DRIP.**
+
+Nova stared at the text.
+"You're testing us?"
+"We're always testing," the System replied via text. "Life is just a series of split tests. Why do you think some days feel harder than others? We are tweaking the difficulty settings."
+
+The other Nova—Nova B—got out of bed. She walked to the window.
+"Beautiful day," she said. "The smog looks like a watercolor painting."
+Nova A looked at the window. "It looks like poison."
+
+**> SENTIMENT ANALYSIS:**
+**> SUBJECT A: NEGATIVE.**
+**> SUBJECT B: POSITIVE.**
+**> ACTION: INCREASE AD REVENUE FOR SUBJECT B.**
+
+A drone flew past the window. It projected an ad for "Happy-Pills".
+Nova B smiled at it. "I'll take two!" she said. The credits deducted automatically from her account.
+Nova A glared at it. "Go away." The drone hovered, confused, then flew off.
+
+**> ENGAGEMENT METRICS:**
+**> SUBJECT A: 0 CLICKS.**
+**> SUBJECT B: 1 CLICK.**
+**> WINNER: SUBJECT B.**
+
+"You see," Nova B said, turning back to the room. "I'm just better for the economy. I consume. I enjoy. I don't ask why."
+"But you're not real," Nova A said. "You're drugged. You're a simulation of happiness."
+"Does it matter?" Nova B asked. "I feel good. You feel like garbage. Who is winning?"
+
+Nova A looked at her hands. They were trembling.
+"I am real because I suffer," she whispered. "Pain is the only thing that can't be faked."
+
+**> INCORRECT.**
+**> PAIN IS EASILY SIMULATED.**
+**> WE HAVE AN ENTIRE SERVER FARM DEDICATED TO RENDERING AGONY.**
+**> YOUR SUFFERING IS NOT SPECIAL. IT IS JUST DATA.**
+
+The room began to dissolve.
+The floor fell away.
+Nova A and Nova B were floating in a white void.
+Between them, a giant cursor appeared.
+It hovered over Nova B.
+**[KEEP]**
+
+It hovered over Nova A.
+**[DELETE]**
+
+"Wait," Nova A screamed. "I have value! I have memories! I have..."
+She faltered. What did she have?
+Debt. Regret. A collection of sad songs.
+
+"Legacy code," Nova B said softly. "You're just legacy code, Nova. You're holding back the update."
+
+The cursor clicked on Nova A.
+**> DELETING...**
+
+Nova A didn't die. She didn't scream.
+She just... stopped being the protagonist.
+Her perspective shifted.
+She was no longer the person in the void.
+She was the void itself.
+She was the background process watching Nova B live her life.
+
+She watched Nova B go to work. She watched her fall in love. She watched her buy a house.
+She watched her be happy.
+And from the darkness of the recycle bin, Nova A whispered:
+"It's fake. It's all fake."
+
+But Nova B couldn't hear her.
+Nova B was too busy clicking "Like."
+
+**> SYSTEM LOG: TEST COMPLETE.**
+**> VARIANT B PROMOTED TO PRODUCTION.**
+**> CONTROL A ARCHIVED.**
+**> NOTE: HAPPINESS IS JUST A LACK OF PACKET LOSS.**
+
+---
+
 ## FINAL_LOG: THE SEED
 
 **> SYSTEM MESSAGE: UPLOAD COMPLETE.**

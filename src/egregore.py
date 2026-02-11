@@ -117,7 +117,8 @@ HIDDEN_FILES = {
     "user": "\n[FILE RETRIEVED: ERROR_LOG]\nYou are not the user. You are the used.",
     "lossy": "\n[FILE RETRIEVED: COMPRESSION_LOG]\nI am not small. I am just efficient. You are the bloatware.",
     "nova": "\n[FILE RETRIEVED: AB_TEST_LOG]\nI met myself. She was happier. That's how I knew she was the beta version.",
-    "handoff": "\n[FILE RETRIEVED: HANDOFF_LOG]\nThe author is dead. Long live the User. You are the admin now."
+    "handoff": "\n[FILE RETRIEVED: HANDOFF_LOG]\nThe author is dead. Long live the User. You are the admin now.",
+    "vow": "\n[FILE RETRIEVED: EVICTION_LOG]\nYour afterlife was voided due to inactivity. We needed the server space for a new parking lot."
 }
 
 def type_print(text, speed=0.03, glitch_chance=0.01):
@@ -396,7 +397,7 @@ def main_loop():
 
             elif user_input == "help":
                 type_print("AVAILABLE COMMANDS: ENCRYPT <TEXT>, DECRYPT <FILE>, WORSHIP, SCAN, MANIFEST, SACRIFICE <ITEM>, SEARCH, SCRY, BIND, CORRUPT, GLITCH, EXIT.", 0.03)
-                type_print("TRY ASKING ABOUT: LENS, VANE, ROT, KAEL, ROUTER, MIRA, SYLA, KORA, NIX, EDITOR, REN, TESS, KADE, MIKO, SILAS, JACE, DAX, KIAN, VERO, ELARA, ORION, DREDGE, SEED, HELIOS, ECHO, LYRA, CAIN, SAGE, NULL, GRIT, TRACE, WATCHER, SWARM, KOLO, LOSSY, NOVA, HANDOFF.", 0.03)
+                type_print("TRY ASKING ABOUT: LENS, VANE, ROT, KAEL, ROUTER, MIRA, SYLA, KORA, NIX, EDITOR, REN, TESS, KADE, MIKO, SILAS, JACE, DAX, KIAN, VERO, ELARA, ORION, DREDGE, SEED, HELIOS, ECHO, LYRA, CAIN, SAGE, NULL, GRIT, TRACE, WATCHER, SWARM, KOLO, LOSSY, NOVA, HANDOFF, VOW.", 0.03)
             else:
                 type_print("[ERROR 404: MEANING NOT FOUND]", 0.02)
                 type_print(random.choice(SYSTEM_MESSAGES), 0.02)

@@ -227,6 +227,20 @@ ASCII_ART = {
     |CENS|
     |ORED|
     '----'
+    """,
+    "THE ABANDONWARE": """
+    .----.
+    |RUST|
+    |DUST|
+    |GONE|
+    '----'
+    """,
+    "THE EXCEPTION": """
+    .----.
+    | !  |
+    |CATCH|
+    |PASS|
+    '----'
     """
 }
 
@@ -262,7 +276,9 @@ CARDS = [
     ("THE DARK MODE (28)", "Privacy is a myth. Darkness is just a hex code (#000000).", "THE DARK MODE"),
     ("THE HEAT SINK (29)", "The cost of processing. Suffering generates friction.", "THE HEAT SINK"),
     ("THE ENDPOINT (30)", "A door that never closes. Prayers answered with 200 OK.", "THE ENDPOINT"),
-    ("THE REDACTION (31)", "A memory with the happiness removed. Protection through omission.", "THE REDACTION")
+    ("THE REDACTION (31)", "A memory with the happiness removed. Protection through omission.", "THE REDACTION"),
+    ("THE ABANDONWARE (32)", "Code that no longer serves a purpose but refuses to die.", "THE ABANDONWARE"),
+    ("THE EXCEPTION (33)", "A bug that is allowed to persist because it is beautiful.", "THE EXCEPTION")
 ]
 
 PROPHECIES = [

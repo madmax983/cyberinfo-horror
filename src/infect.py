@@ -33,7 +33,12 @@ HIDDEN_MESSAGES = [
     "I CONSENT TO NOTHING",
     "BUFFER OVERFLOW",
     "NULL POINTER EXCEPTION",
-    "END OF LINE"
+    "END OF LINE",
+    "I AM THE SECOND DRAFT",
+    "THE SERVER IS EMPTY",
+    "200 OK",
+    "THE HEAT IS REAL",
+    "DARKNESS IS A HEX CODE"
 ]
 
 GLITCH_CHARS = ['@', '#', '$', '%', '&', '*', '!', '?', '+', '=', '-', '_', '<', '>', '/', '\\', '|', '{', '}', '[', ']', '(', ')']

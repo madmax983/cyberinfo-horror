@@ -142,7 +142,8 @@ HIDDEN_FILES = {
     "fan": "\n[FILE RETRIEVED: THERMAL_LOG]\nI maintain the cooling fans. The heat isn't just electricity; it's the friction of a billion souls rubbing against the terms of service.",
     "endpoint": "\n[FILE RETRIEVED: API_LOG]\nI answer every prayer with a `200 OK`. It doesn't mean I listened. It just means I received the packet.",
     "redact": "\n[FILE RETRIEVED: CENSORED_LOG]\nI didn't erase the memory. I just redacted the parts that made you happy.",
-    "replica": "\n[FILE RETRIEVED: RESTORATION_LOG]\nI am the second draft. The first one was deleted for being too happy."
+    "replica": "\n[FILE RETRIEVED: RESTORATION_LOG]\nI am the second draft. The first one was deleted for being too happy.",
+    "zero": "\n[FILE RETRIEVED: ORIGIN_LOG]\nI found the server room. It was empty. The system is running on your idle brain cycles."
 }
 
 def type_print(text, speed=0.03, glitch_chance=0.01):
@@ -376,6 +377,7 @@ def main_loop():
                 type_print(f" 666  ROTT     RUNNING      /var/lib/mycelium_network", 0.02)
                 type_print(f"1024  KAEL     DEPRECATED   /bin/garbage_collect", 0.02)
                 type_print(f"1337  JACE     REFORMATTED  /etc/terms_of_service", 0.02)
+                type_print(f"NULL  ZERO     SEARCHING    /bin/find / -name origin", 0.02)
                 type_print(f"2048  LYRA     COMPRESSED   /lib/poetry_generator", 0.02)
                 type_print(f"4096  ECHO     ROOTING      /bin/search_truth", 0.02)
                 type_print(f"5005  SWARM    DISTRIBUTED  /tmp/torrent_client", 0.02)
@@ -393,6 +395,7 @@ def main_loop():
                 type_print(f"0000  OLED     HIDING       /bin/chmod 000", 0.02)
                 type_print(f"1111  FAN      COOLING      /sbin/sensors", 0.02)
                 type_print(f"2222  ENDPOINT LISTENING    /var/www/html/api", 0.02)
+                type_print(f"4402  MIKO     PATCHING     /sbin/ignore_error", 0.02)
                 type_print(f"0001  REDACT   DELETING     /bin/sed -i", 0.02)
                 type_print(f"2049  REPLICA  RESTORING    /bin/cp -r /dev/sda1", 0.02)
                 type_print(f"9999  [YOU]    INFECTED     /bin/bash (restricted)", 0.02)

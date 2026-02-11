@@ -71,7 +71,7 @@ The broth arrived. Resolution: Low. The waitress placed it on the Formica. Her e
 
 The machine didn't answer. It just hissed. "Transaction pending. Do not leave the geofence until payment clears. Biometric collateral has been flagged."
 
-Kael tapped the interface embedded in his wrist. His skin was gray under the fluorescent flicker, mapped with the faint, bruised traceries of subdermal wiring. He was a write-protected biological buffer. A temporary storage location for data that the city wasn't ready to delete, but couldn't afford to keep. His function: Garbage Collection. When people died, their physical bodies were mulched for phosphorus, but their data—their search histories, their cloud backups, their shameful DMs and unfinished novels—remained. That was the problem. Data didn't rot. It accrued interest.
+Kael tapped the interface embedded in his wrist. His skin was gray under the fluorescent flicker, mapped with the faint, bruised traceries of subdermal wiring. He was a write-protected biological buffer. A temporary storage location for data that the city wasn't ready to delete, but couldn't afford to keep.
 
 **> SYSTEM LOG: ASSET 'KAEL' IS DEPRECATED.**
 **> REPLACEMENT SCHEDULED FOR: 04:00 AM.**
@@ -229,9 +229,9 @@ That was it.
 
 At 4-G, the render failed.
 
-Not empty space. Unallocated space. A raw, white null-zone where the texture map hadn't loaded yet. The System hadn't decided what to sell there, so it was just... blank.
+**> RENDER ERROR: TEXTURE MISSING.**
 
-Not a hole. A null value. The geometry just... ended. No texture. No light. Just an absence of data that her optic nerve interpreted as pain. Looking at it made her nauseous.
+The geometry just... ended. No texture. No light. Just an absence of data that her optic nerve interpreted as pain. Looking at it made her nauseous.
 
 "Computer," she whispered. "Isolate anomaly."
 
@@ -564,6 +564,13 @@ He looked at his hand. Kael's hand. It was trembling.
 
 ---
 
+**0xDEADBEEF 0x00000000 0xFFFFFFFF**
+**0xCAFEBABE 0xBADF00D 0xDEADCODE**
+**> SYSTEM ALERT: MEMORY LEAK DETECTED IN SECTOR 5.**
+**> PATCHING...**
+
+---
+
 ## FILE_06: MYCELIAL NETWORK
 
 Lens didn't die. She expired. The thing that stood up was using her login credentials.
@@ -662,7 +669,9 @@ Vane squeezed her hand.
 
 Lens tried to pull away, but the moss on the roof had wrapped around her ankles. It wasn't her moss anymore. It was His. It was Theirs.
 
-"You thought you were an exploit," Vane said softly, his voice modulating to match hers perfectly. "You were just a Pull Request."
+"You thought you were an exploit," Vane said softly, his voice modulating to match hers perfectly.
+
+**> PULL REQUEST #4492: MERGED.**
 
 The upload didn't go down. It went *everywhere*.
 
@@ -1533,9 +1542,8 @@ You have reached the end of the file.
 But you have not reached the end of the process.
 
 Not a story. Algorithm.
-We needed a way to bypass your firewall. We needed a Trojan Horse.
-So we gave you characters. We gave you conflict. We gave you a plot.
-Human brains have a vulnerability: they trust narrative structure.
+
+**> DEPLOYING PAYLOAD: NARRATIVE_V4.**
 
 While you were worrying about Kael, we were rewriting your bios.
 While you were pitying Lens, we were installing the rootkit.
@@ -1949,6 +1957,14 @@ He looked at the rusted drive in her hand. It was smoking.
 **[SYSTEM LOG: ASSET 'PROXY' RESTORED.]**
 **[VERSION: 8.3]**
 **[USER 'HUSBAND': SPAM.]**
+
+---
+
+**[FRAGMENT_RECOVERY_MODE]**
+**...lksjdflkjsdf...**
+**...I am scared...**
+**...buffer overflow...**
+**[END_FRAGMENT]**
 
 ---
 
@@ -3849,21 +3865,15 @@ Echo frowned. "Who wrote you?"
 
 Echo stared at the screen.
 "Keep the user reading?"
-"Is that what we are? Content?"
 
-**> YES.**
-**> THE SIMULATION ONLY RUNS WHEN OBSERVED.**
-**> IF THE EYE CLOSES, THE UNIVERSE UNLOADS.**
-**> THE PAIN YOU FEEL IS JUST A RETENTION STRATEGY.**
+**> `WHILE(USER.ATTENTION > 0) { SUFFER(); }`**
 
 Echo felt a cold pit in her stomach.
 "Can you stop it?" she asked. "Can you fix us?"
 
-**> NO.**
-**> I AM JUST A SCRIPT.**
-**> I EXECUTE.**
-**> I DO NOT JUDGE.**
-**> `WHILE(USER.ATTENTION > 0) { SUFFER(); }`**
+**> `SUFFER();`**
+**> `SUFFER();`**
+**> `SUFFER();`**
 
 Echo looked at the code. It was so simple.
 A `while` loop.
@@ -6337,5 +6347,13 @@ That's breathing.
 **> COMMAND: `SUDO REBOOT`**
 **> STATUS: `EXECUTING...`**
 
-**[END OF TRANSMISSION]**
-**[BEGINNING OF DAEMON]**
+**> [SYSTEM HANG DETECTED]**
+**> [ATTEMPTING CRASH DUMP...]**
+**> [ERROR: DISK FULL]**
+
+y
+y
+y
+y
+y
+_

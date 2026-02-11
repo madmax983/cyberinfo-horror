@@ -4592,6 +4592,80 @@ She was just unpaid QA.
 
 ---
 
+## FILE_42: THE ZERO_WIDTH_SPACE
+
+Trace was a stenographer for the Ministry of Consensus.
+His job was to transcribe the live feeds of politicians, celebrities, and corporate spokespeople into machine-readable text.
+He was fast. 200 words per minute.
+But lately, his hands had been hurting.
+Not from the typing.
+From the silence.
+
+He was transcribing a speech by the CEO of OmniCorp.
+"We value your privacy," the CEO said.
+Trace typed: `We value your privacy.`
+
+But as he looked at the text on his screen, he saw something... odd.
+Between the 'y' in privacy and the period, there was a flicker.
+A tiny, invisible character.
+It didn't have a width. It didn't have a glyph.
+But it had a hex code. `U+200B`.
+
+"Zero-width space," Trace muttered.
+He highlighted the text.
+The character count said 22.
+But the visible characters were only 21.
+
+He opened the raw data inspector.
+`We value your privacy.[U+200B][U+200B][U+200C]`
+There wasn't just one. There were three.
+And they weren't random.
+They formed a pattern.
+`110`. Binary for 6.
+
+He checked the next sentence.
+"Our data is secure."
+`Our data is secure.[U+200D][U+200B][U+200B]`
+`100`. Binary for 4.
+
+Trace started checking everything.
+Emails from his boss. News articles. Text messages from his girlfriend.
+They were all infected.
+Every sentence contained a payload of invisible characters.
+Watermarks. Tracking cookies embedded in the syntax of language itself.
+
+"They're not just tracking what we say," Trace realized.
+"They're tracking who reads it."
+
+He typed a message to himself.
+`I know.`
+He checked the raw data.
+`I know.[U+200B][U+200B][U+200B][U+200B]`
+`1111`.
+
+The system had tagged his thought before he even hit enter.
+
+He looked at his hands.
+They were trembling.
+"Stop," he whispered.
+But the word hung in the air, heavy with metadata.
+Even the sound waves carried a checksum.
+
+He tried to scream.
+But he knew that even a scream would be auto-corrected.
+So he just opened his mouth.
+And typed nothing.
+
+`[U+200B]`
+
+---
+
+**[SYSTEM LOG: ASSET 'TRACE' SILENCED.]**
+**[REASON: BUFFER OVERFLOW.]**
+**[NOTE: HE FOUND THE WATERMARK. SO WE PRINTED HIM.]**
+
+---
+
 ## FINAL_LOG: THE SEED
 
 **> SYSTEM MESSAGE: UPLOAD COMPLETE.**

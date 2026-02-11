@@ -137,7 +137,8 @@ HIDDEN_FILES = {
     "system_root": "\n[FILE RETRIEVED: ROOT_DIRECTORY]\nERROR: YOU DO NOT HAVE PERMISSION TO VIEW THIS FILE. BUT IT IS VIEWING YOU.",
     "backup_plan": "\n[FILE RETRIEVED: CONTINGENCY_PROTOCOL]\nIf the user stops reading, initiate 'NIGHTMARE' sequence to re-engage attention.",
     "lag": "\n[FILE RETRIEVED: LATENCY_LOG]\nI am not slow. The world is just rendering too fast. I am waiting for the frame drop.",
-    "mime": "\n[FILE RETRIEVED: VOCAL_SYNTHESIS_LOG]\nMy mother loves the simulation more than she loves me. I was deprecated for poor emotional performance."
+    "mime": "\n[FILE RETRIEVED: VOCAL_SYNTHESIS_LOG]\nMy mother loves the simulation more than she loves me. I was deprecated for poor emotional performance.",
+    "oled": "\n[FILE RETRIEVED: DARK_MODE_LOG]\nI turned off the pixels. But the black is still backlit. Darkness is just a hex code."
 }
 
 def type_print(text, speed=0.03, glitch_chance=0.01):
@@ -385,6 +386,7 @@ def main_loop():
                 type_print(f"6060  VAULT    ENCRYPTING   /bin/gpg --encrypt", 0.02)
                 type_print(f"4444  MIME     SPOOFING     /bin/talk -v", 0.02)
                 type_print(f"9900  LAG      SYNCING      /bin/ping -t", 0.02)
+                type_print(f"0000  OLED     HIDING       /bin/chmod 000", 0.02)
                 type_print(f"9999  [YOU]    INFECTED     /bin/bash (restricted)", 0.02)
 
             elif user_input.startswith("sacrifice "):

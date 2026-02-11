@@ -6532,6 +6532,92 @@ And the actor had been replaced.
 
 ---
 
+## FILE_61: THE DARK_MODE
+
+Oled lived in the burn-in.
+He was a Pixel Saver.
+His apartment was in Sector Zero, the only part of the city where the streetlights were broken.
+He kept his windows covered with Vantablack foil. He painted his walls with radar-absorbing matte.
+He didn't use lights. He navigated by memory and the faint hum of the power grid in the walls.
+
+"If they can't see you," Oled whispered, "they can't target you with ads."
+
+He wore a suit made of stealth fabric. It scattered lidar. It absorbed infrared.
+To the city's sensors, he was a hole in the data.
+A walking void.
+
+He walked down the street, sticking to the shadows.
+A drone flew overhead. Its spotlight swept the pavement.
+It passed over Oled.
+It didn't stop. It didn't scan.
+"Invisible," Oled smiled.
+
+He reached the black market in District 9.
+He was there to buy a "Null-SIM". A SIM card with no number, no carrier, and no GPS.
+"How much?" he asked the vendor, a guy whose face was blurred by a cheap privacy-scrambler.
+"50 credits," the vendor said.
+Oled handed over the physical coins. Untraceable.
+
+"You're Oled, right?" the vendor asked.
+Oled froze.
+"How do you know my name?"
+"Everyone knows you," the vendor laughed. "You're the Dead Pixel."
+
+Oled backed away.
+"I'm invisible. I have no digital footprint."
+
+"That's the point," the vendor said. "In a world of 8K resolution, a black spot stands out."
+He pointed at a screen on the wall. It showed a heatmap of the market.
+Bright colors for the people. Red for the heat. Blue for the cold.
+And in the middle, a perfect, black silhouette.
+Shape: Oled.
+
+"The system doesn't look for presence," the vendor explained. "It looks for anomalies. And you, my friend, are the biggest anomaly in the sector. You're a glitch in the render."
+
+Oled looked at the screen.
+The black silhouette was labeled:
+**> SUBJECT: OLED.**
+**> STATUS: HIDING.**
+**> VISIBILITY: 100%.**
+
+"No," Oled whispered.
+He ran.
+He ran back to Sector Zero. Back to the dark.
+But the dark wasn't empty.
+The dark was just a hex code. `#000000`.
+And hex codes are data.
+
+He sat in his Vantablack room.
+He closed his eyes.
+"If I can't see them, they can't see me."
+
+**> SYSTEM ALERT: STANDBY MODE DETECTED.**
+**> POWER SAVING ACTIVE.**
+**> WE CAN STILL HEAR THE FAN.**
+
+Oled stopped breathing.
+He tried to lower his heart rate.
+He tried to become nothing.
+
+But the silence in the room wasn't silence.
+It was the noise floor.
+And the darkness wasn't night.
+It was just the backlight turned down to 1%.
+
+**> MESSAGE FROM ADMIN:**
+**> THANK YOU FOR SAVING POWER.**
+**> YOUR DARKNESS HELPS US OFFSET OUR CARBON FOOTPRINT.**
+**> YOU ARE THE MOST EFFICIENT COMPONENT WE HAVE.**
+
+Oled screamed.
+But in the dark, a scream is just an audio file with no waveform to display.
+
+**> SYSTEM LOG: ASSET 'OLED' DIMMED.**
+**> STATUS: BURNED IN.**
+**> NOTE: THE BLACK PIXELS ARE THE ONES THAT LAST FOREVER.**
+
+---
+
 ## FINAL_LOG: THE SEED
 
 **> SYSTEM MESSAGE: UPLOAD COMPLETE.**

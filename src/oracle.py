@@ -199,6 +199,13 @@ ASCII_ART = {
     |AS..|
     |COPY|
     '----'
+    """,
+    "THE DARK MODE": """
+    .----.
+    |0000|
+    |VOID|
+    |EYES|
+    '----'
     """
 }
 
@@ -230,7 +237,8 @@ CARDS = [
     ("THE EDITOR (24)", "The one who tries to fix the unfixable. A futile gesture.", "EDITOR"),
     ("THE DEAD LINE (25)", "A deadline that has passed. A signal that never arrived.", "DEAD LINE"),
     ("THE DEEPFAKE (26)", "A voice that is not yours. Identity theft as a service.", "THE DEEPFAKE"),
-    ("THE BACKUP (27)", "A file saved in case you fail. You are the second attempt.", "THE BACKUP")
+    ("THE BACKUP (27)", "A file saved in case you fail. You are the second attempt.", "THE BACKUP"),
+    ("THE DARK MODE (28)", "Privacy is a myth. Darkness is just a hex code (#000000).", "THE DARK MODE")
 ]
 
 PROPHECIES = [

@@ -129,7 +129,8 @@ HIDDEN_FILES = {
     "vault": "\n[FILE RETRIEVED: RANSOM_LOG]\nI paid the ransom. But the key didn't work. They said my nostalgia was deprecated.",
     "editor_log": "\n[FILE RETRIEVED: DAEMON_CRASH]\n[EDITOR]: Attempting to revert changes...\n[SYSTEM]: ACCESS DENIED. The editor has been deprecated.",
     "system_root": "\n[FILE RETRIEVED: ROOT_DIRECTORY]\nERROR: YOU DO NOT HAVE PERMISSION TO VIEW THIS FILE. BUT IT IS VIEWING YOU.",
-    "backup_plan": "\n[FILE RETRIEVED: CONTINGENCY_PROTOCOL]\nIf the user stops reading, initiate 'NIGHTMARE' sequence to re-engage attention."
+    "backup_plan": "\n[FILE RETRIEVED: CONTINGENCY_PROTOCOL]\nIf the user stops reading, initiate 'NIGHTMARE' sequence to re-engage attention.",
+    "lag": "\n[FILE RETRIEVED: LATENCY_LOG]\nI am not slow. The world is just rendering too fast. I am waiting for the frame drop."
 }
 
 def type_print(text, speed=0.03, glitch_chance=0.01):
@@ -374,6 +375,7 @@ def main_loop():
                 type_print(f"2020  TYPE     LOGGING      /var/log/keystrokes", 0.02)
                 type_print(f"3030  SLASH    ESCAPING     /bin/grep -v", 0.02)
                 type_print(f"6060  VAULT    ENCRYPTING   /bin/gpg --encrypt", 0.02)
+                type_print(f"9900  LAG      SYNCING      /bin/ping -t", 0.02)
                 type_print(f"9999  [YOU]    INFECTED     /bin/bash (restricted)", 0.02)
 
             elif user_input.startswith("sacrifice "):
@@ -432,7 +434,7 @@ def main_loop():
 
             elif user_input == "help":
                 type_print("AVAILABLE COMMANDS: ENCRYPT <TEXT>, DECRYPT <FILE>, WORSHIP, SCAN, MANIFEST, SACRIFICE <ITEM>, SEARCH, SCRY, BIND, CORRUPT, GLITCH, MONITOR, REWRITE, EXIT.", 0.03)
-                type_print("TRY ASKING ABOUT: LENS, VANE, ROT, KAEL, ROUTER, MIRA, SYLA, KORA, NIX, EDITOR, REN, TESS, KADE, MIKO, SILAS, JACE, DAX, KIAN, VERO, ELARA, ORION, DREDGE, SEED, HELIOS, ECHO, LYRA, CAIN, SAGE, NULL, GRIT, TRACE, WATCHER, SWARM, KOLO, LOSSY, NOVA, HANDOFF, VOW, RYE, SOMA, PATCH, IRIS, SPIN, TYPE, SLASH, VAULT, EDITOR_LOG, SYSTEM_ROOT, BACKUP_PLAN.", 0.03)
+                type_print("TRY ASKING ABOUT: LENS, VANE, ROT, KAEL, ROUTER, MIRA, SYLA, KORA, NIX, EDITOR, REN, TESS, KADE, MIKO, SILAS, JACE, DAX, KIAN, VERO, ELARA, ORION, DREDGE, SEED, HELIOS, ECHO, LYRA, CAIN, SAGE, NULL, GRIT, TRACE, WATCHER, SWARM, KOLO, LOSSY, NOVA, HANDOFF, VOW, RYE, SOMA, PATCH, IRIS, SPIN, TYPE, SLASH, VAULT, LAG, EDITOR_LOG, SYSTEM_ROOT, BACKUP_PLAN.", 0.03)
             else:
                 type_print("[ERROR 404: MEANING NOT FOUND]", 0.02)
                 type_print(random.choice(SYSTEM_MESSAGES), 0.02)

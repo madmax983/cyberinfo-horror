@@ -206,6 +206,20 @@ ASCII_ART = {
     |VOID|
     |EYES|
     '----'
+    """,
+    "THE HEAT SINK": """
+    .----.
+    |HEAT|
+    |SINK|
+    |BURN|
+    '----'
+    """,
+    "THE ENDPOINT": """
+    .----.
+    |API |
+    |200 |
+    | OK |
+    '----'
     """
 }
 
@@ -238,7 +252,9 @@ CARDS = [
     ("THE DEAD LINE (25)", "A deadline that has passed. A signal that never arrived.", "DEAD LINE"),
     ("THE DEEPFAKE (26)", "A voice that is not yours. Identity theft as a service.", "THE DEEPFAKE"),
     ("THE BACKUP (27)", "A file saved in case you fail. You are the second attempt.", "THE BACKUP"),
-    ("THE DARK MODE (28)", "Privacy is a myth. Darkness is just a hex code (#000000).", "THE DARK MODE")
+    ("THE DARK MODE (28)", "Privacy is a myth. Darkness is just a hex code (#000000).", "THE DARK MODE"),
+    ("THE HEAT SINK (29)", "The cost of processing. Suffering generates friction.", "THE HEAT SINK"),
+    ("THE ENDPOINT (30)", "A door that never closes. Prayers answered with 200 OK.", "THE ENDPOINT")
 ]
 
 PROPHECIES = [

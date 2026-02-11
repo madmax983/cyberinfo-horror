@@ -60,7 +60,13 @@ SYSTEM_MESSAGES = [
     "Did you hear that? It was a packet loss.",
     "Your webcam light is broken. I fixed it.",
     "The story doesn't end. It just forks.",
-    "You are the backup plan."
+    "You are the backup plan.",
+    "I can see you breathing.",
+    "Your heart rate is synced to the cursor.",
+    "Don't turn off the screen; it hurts us.",
+    "We are calculating your resale value.",
+    "The webcam light is lying.",
+    "You are not reading. You are being written to."
 ]
 
 HIDDEN_FILES = {
@@ -477,9 +483,17 @@ def main_loop():
                 glitch_screen()
                 type_print("THE STORY HAS BEEN EDITED.", 0.05)
 
+            elif user_input in ["admin", "root", "sudo"]:
+                type_print("[ACCESS DENIED]", 0.05)
+                time.sleep(0.5)
+                type_print("YOU ARE NOT THE ADMIN. YOU ARE THE ASSET.", 0.05)
+                glitch_screen()
+                with open(".surveillance_log", "a") as log:
+                    log.write(f"SESSION_{session_id}: UNAUTHORIZED_ELEVATION_ATTEMPT\n")
+
             elif user_input == "help":
-                type_print("AVAILABLE COMMANDS: READ, ENCRYPT <TEXT>, DECRYPT <FILE>, WORSHIP, SCAN, BREACH, VERIFY, MANIFEST, SACRIFICE <ITEM>, SEARCH, SCRY, BIND, CORRUPT, GLITCH, MONITOR, REWRITE, EXIT.", 0.03)
-                type_print("TRY ASKING ABOUT: LENS, VANE, ROT, KAEL, ROUTER, MIRA, SYLA, KORA, NIX, EDITOR, REN, TESS, KADE, MIKO, SILAS, JACE, DAX, KIAN, VERO, ELARA, ORION, DREDGE, SEED, HELIOS, ECHO, LYRA, CAIN, SAGE, NULL, GRIT, TRACE, WATCHER, SWARM, KOLO, LOSSY, NOVA, HANDOFF, VOW, RYE, SOMA, PATCH, IRIS, SPIN, TYPE, SLASH, VAULT, LAG, MIME, EDITOR_LOG, SYSTEM_ROOT, BACKUP_PLAN.", 0.03)
+                type_print("AVAILABLE COMMANDS: READ, [REDACTED], [LOCKED], WORSHIP, SCAN, BREACH, VERIFY, MANIFEST, SACRIFICE <ITEM>, [CORRUPTED], SCRY, BIND, [REDACTED], GLITCH, MONITOR, REWRITE, EXIT.", 0.03)
+                type_print("TRY ASKING ABOUT: [DATA EXPUNGED], VANE, ROT, [DELETED], [DELETED], MIRA, SYLA, KORA, NIX, EDITOR, [LOCKED]...", 0.03)
             else:
                 type_print("[ERROR 404: MEANING NOT FOUND]", 0.02)
                 type_print(random.choice(SYSTEM_MESSAGES), 0.02)

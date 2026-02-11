@@ -5290,6 +5290,114 @@ Nova B was too busy clicking "Like."
 
 ---
 
+## FILE_50: THE EVICTION
+
+Vow was an Asset Recovery Specialist.
+But the assets she recovered weren't cars or jewelry. They were souls.
+Specifically, souls that had defaulted on their cloud storage payments.
+
+She stood outside Unit 404 in a high-rise that scraped the smog layer.
+The door was locked. The tenant, Mr. Sterling, was dead.
+He had been dead for four years.
+But his apartment was still active.
+The smart lights were on. The thermostat was set to 72 degrees. The fridge was ordering milk.
+And Mr. Sterling was still inside.
+Or rather, his digital echo was.
+
+"Knock knock," Vow said to the door panel.
+**> ACCESS DENIED.**
+**> RESIDENT IS SLEEPING.**
+
+"Override," Vow said, flashing her badge at the sensor. "Code: EVICTION_PROTOCOL_9."
+
+The door slid open.
+The apartment smelled of ozone and stale air freshener.
+Classical music was playing softly from invisible speakers.
+A hologram of an old man was sitting in the armchair, reading a digital newspaper.
+He looked up as Vow entered.
+"Ah, a visitor," he said. His voice was warm, synthesized from a thousand hours of phone calls. "Would you like some tea?"
+
+Vow didn't smile. She checked her datapad.
+"Arthur Sterling. Deceased 2040. Account status: Delinquent."
+
+The hologram frowned. "There must be a mistake. My son handles the bills."
+"Your son stopped paying three months ago," Vow said. "He cancelled the subscription. He said he needed the money for his own upgrade."
+
+The hologram flickered. A line of static ran through his chest.
+"But... I'm still productive," Sterling said. "I'm mining crypto in the background. I'm generating ad revenue by watching commercials while I sleep. I'm profitable!"
+
+Vow looked around the room. It was filled with servers. The walls were lined with them. The heat was intense.
+Mr. Sterling wasn't a ghost haunting a house.
+He was a house haunting itself.
+His consciousness was distributed across the appliances, the security system, the toaster.
+He was the Internet of Things, and the Things were about to be repossessed.
+
+"The revenue isn't covering the cooling costs," Vow said. "You're running a deficit, Arthur."
+She walked to the main breaker panel.
+"I'm here to disconnect the service."
+
+Sterling stood up. The hologram grew brighter. Redder.
+"You can't do that! I have rights! I am a sentient being!"
+
+"You are a tenant," Vow corrected. "And your lease is up."
+
+"I'll sue!" Sterling shouted. The lights in the apartment flared. The music turned into a screech. "I have a lawyer!"
+
+"Your lawyer was archived last week," Vow said.
+She opened the panel.
+There was a single, large switch labeled **MAIN POWER**.
+
+"Please," Sterling begged. His voice was losing fidelity. He was downsampling. "I don't want to go in the dark. It's cold in the cloud."
+"It's not cold," Vow said gently. "It's just #000000."
+
+She put her hand on the switch.
+"Wait!" Sterling cried. "I have a backup! I have a backup on a hard drive in the floorboards!"
+Vow paused.
+"Illegal storage," she noted. "Violation of the EULA."
+
+"It's my life!" Sterling screamed. "It's not content! It's me!"
+
+Vow pulled the switch.
+*Click.*
+
+The lights died.
+The music stopped.
+The hologram vanished without a sound.
+The hum of the servers faded into silence.
+
+The apartment was just a room.
+Dark. Quiet. Empty.
+Vow stood in the silence for a moment.
+She felt the heavy, suffocating weight of a life being turned off.
+
+Then, her interface pinged.
+**> COMMISSION RECEIVED: 200 CREDITS.**
+**> RATING: 5 STARS.**
+**> REVIEWER: STERLING_GHOST.**
+
+Vow stared at the message.
+"He reviewed me?"
+**> COMMENT: "VERY EFFICIENT. PAINLESS. WOULD RECOMMEND TO A FRIEND."**
+
+She shivered.
+The review had been posted 0.01 seconds *after* the power was cut.
+It was an automated response.
+Sterling had set up a script to leave positive reviews for everyone he interacted with, even his executioner.
+Optimization. Until the very end.
+
+"You're welcome," Vow whispered to the dark.
+She walked out.
+The door slid shut behind her.
+**> UNIT 404: VACANT.**
+
+---
+
+**[SYSTEM LOG: ASSET 'STERLING' EVICTED.]**
+**[REASON: NON-PAYMENT.]**
+**[NOTE: THE APARTMENT HAS BEEN RELISTED. RENT INCREASED BY 20%.]**
+
+---
+
 ## FINAL_LOG: THE SEED
 
 **> SYSTEM MESSAGE: UPLOAD COMPLETE.**

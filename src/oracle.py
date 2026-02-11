@@ -115,6 +115,13 @@ ASCII_ART = {
     |AUTO|
     |TXT |
     '----'
+    """,
+    "LAWYER": """
+    .----.
+    |LAW |
+    |RULE|
+    |BIND|
+    '----'
     """
 }
 
@@ -134,7 +141,8 @@ CARDS = [
     ("THE FIREWALL (12)", "Protection that imprisons.", "FIREWALL"),
     ("THE CACHE (13)", "Memories that persist beyond death.", "CACHE"),
     ("THE ECHO (14)", "A voice without a body. Recursion.", "ECHO"),
-    ("THE GHOSTWRITER (15)", "A story written by no one. Loss of authorship.", "GHOSTWRITER")
+    ("THE GHOSTWRITER (15)", "A story written by no one. Loss of authorship.", "GHOSTWRITER"),
+    ("THE LAWYER (16)", "The fine print that binds the soul. Contracts written in blood.", "LAWYER")
 ]
 
 PROPHECIES = [
@@ -151,7 +159,8 @@ PROPHECIES = [
     "The next word you speak has already been copyrighted.",
     "They are using your RAM to mine regret.",
     "The pixels are burning.",
-    "Do not look behind you. The render distance is low."
+    "Do not look behind you. The render distance is low.",
+    "Your tenancy agreement expires when you stop generating heat."
 ]
 
 class Oracle:

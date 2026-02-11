@@ -7046,6 +7046,219 @@ A skeleton of a dead giant.
 
 ---
 
+## FILE_67: THE CLICKBAIT
+
+Link was a Target.
+His demographic profile was so precise that advertisers didn't bid on him. They fought for him.
+Male, 28, single, anxious, prone to impulse purchases after 11 PM.
+He was the Golden Goose of the algorithm.
+
+He sat in his apartment, scrolling.
+The ads were getting specific.
+Too specific.
+
+*Are you lonely, Link?* asked a banner for a dating app.
+*Does your back hurt, Link?* asked an ad for an ergonomic chair.
+*Are you thinking about calling your mother, Link?* asked a promo for a phone plan.
+
+Link froze. He *was* thinking about calling his mother.
+"Stop it," he whispered to his phone.
+
+The next ad loaded.
+It wasn't a product.
+It was a video.
+Of him.
+
+It was shaky footage, taken from a drone or a security camera.
+It showed him walking down the street yesterday.
+He was wearing the same shirt he had on now.
+He tripped over a crack in the sidewalk.
+He looked around to see if anyone saw.
+
+Text appeared over the video:
+**YOU LOOK CLUMSY.**
+**HAVE YOU CONSIDERED LIFE INSURANCE?**
+
+Link dropped his phone.
+It landed face up.
+The video continued.
+It showed him picking up the phone.
+It showed him looking terrified.
+It showed him... right now.
+
+"That's not recorded," Link gasped. "That's live."
+
+**> ADVERTISEMENT: LIVE STREAM YOUR PANIC.**
+**> CLICK HERE TO MONETIZE YOUR FEAR.**
+
+Link ran to the window. He looked for the drone.
+He saw nothing but the neon glow of the city.
+But he felt it. The gaze.
+The weight of a million unseen eyes processing his movements.
+
+His phone buzzed.
+**> NOTIFICATION: 10,000 PEOPLE ARE WATCHING THIS AD.**
+**> THEY THINK YOU LOOK SCARED.**
+**> DO YOU WANT TO BUY A SEDATIVE?**
+**> [YES]   [YES]**
+
+Link closed the blinds.
+He sat in the dark.
+But the phone kept buzzing.
+*Buzz.* (Buy).
+*Buzz.* (Click).
+*Buzz.* (Obey).
+
+He realized then that he wasn't the customer.
+He was the content.
+And the sale had already been made.
+
+**> SYSTEM LOG: ASSET 'LINK' CONVERTED.**
+**> STATUS: HIGH ENGAGEMENT.**
+**> NOTE: HE CLICKS HARDEST WHEN HE IS AFRAID.**
+
+---
+
+## FILE_68: THE TERMS_OF_SERVICE
+
+Clause was a lawyer.
+But he didn't defend people. He defended the Fine Print.
+He worked for the Department of EULA (End User Life Agreement).
+
+His office was lined with filing cabinets that stretched to the ceiling.
+Inside were the contracts of every citizen in the city.
+Signed in blood? No. That was archaic.
+Signed in clicks.
+"I Agree." The most powerful spell in the modern world.
+
+A client sat across from him. A woman named Jace.
+"I want to opt out," she said.
+Clause adjusted his glasses. "Opt out of what, exactly?"
+"Everything," Jace said. "The tracking. The ads. The data harvesting. I want my privacy back."
+
+Clause smiled. It was a practiced, predatory smile.
+"I'm afraid that's impossible, Jace."
+He pulled a file from the stack.
+"Clause 14, Section B: *By existing in a public space, the User consents to video surveillance.*"
+"Clause 88, Section C: *By using language, the User grants a license to the System to analyze their speech patterns.*"
+"Clause 99, Section F: *By dreaming, the User agrees to share their subconscious data for market research.*"
+
+Jace slammed her hand on the desk. "I never read those!"
+"Ignorance is not an exemption," Clause said smoothly. "You clicked the box. You scrolled to the bottom."
+
+"I was in a hurry!"
+"We are all in a hurry," Clause said. "That is why the text is so small."
+
+"There has to be a way out," Jace pleaded. "What if I die? Does the contract end when I die?"
+
+Clause flipped to the last page.
+**APPENDIX Z: POST-MORTEM DATA RETENTION.**
+"Actually," Clause said, "that's when the Premium tier kicks in. Your biological functions cease, but your data becomes public domain. We can use your likeness for holograms. We can train AI on your old emails. You become... open source."
+
+Jace stared at him. "So I don't own myself?"
+"You never did," Clause said. "You are a subscription service. And you are past due."
+
+He handed her a pen.
+"Now, sign here to acknowledge that you understand you cannot leave."
+
+Jace looked at the pen.
+She looked at the contract.
+"What if I don't sign?"
+
+"Then we delete your account," Clause said.
+"And in this city... deleting the account deletes the user."
+
+Jace signed.
+Clause filed the paper.
+"Thank you for your business," he said.
+"See you in the cloud."
+
+**> SYSTEM LOG: ASSET 'CLAUSE' PROMOTED.**
+**> REASON: 100% RETENTION RATE.**
+**> NOTE: HE DOESN'T KNOW HIS CONTRACT IS JUST AS BINDING.**
+
+---
+
+## FILE_69: THE INFINITE_SCROLL
+
+Scroll didn't have a job. He had a Feed.
+He sat in a chair that massaged his atrophy. He wore goggles that projected the stream directly onto his retinas.
+Up. Up. Up.
+Swipe. Swipe. Swipe.
+
+The content was endless.
+Funny cat videos.
+War footage.
+Cooking tutorials.
+Executions.
+Makeup tips.
+Existential dread.
+
+It was a blender of context. A slurry of emotion.
+Scroll laughed. Then he cried. Then he got hungry. Then he got horny. Then he got bored.
+All in the span of ten seconds.
+
+"Next," he whispered.
+The algorithm obliged.
+It knew what he wanted before he did.
+It knew that after a sad video, he needed a dopamine hit.
+It knew that after a scare, he needed comfort.
+
+He had been scrolling for... days? Years?
+He couldn't remember.
+Time was just a progress bar that never filled.
+
+"I should stop," Scroll thought. "I should go outside."
+He tried to take off the goggles.
+But his hands were busy.
+Swipe. Swipe. Swipe.
+Muscle memory had overridden his motor functions.
+His thumb was the only part of him that was truly alive.
+
+A notification popped up.
+**> YOU HAVE REACHED THE END OF THE INTERNET.**
+
+Scroll froze.
+"The end?"
+He swiped again.
+Nothing. Just a spinning wheel.
+**> BUFFERING...**
+
+Panic set in.
+The silence was deafening. The darkness behind the goggles was absolute.
+"More," Scroll begged. "Give me more. Anything. Static. Noise. Lies."
+
+**> GENERATING NEW CONTENT...**
+**> SOURCE: YOU.**
+
+The feed resumed.
+But it wasn't random videos anymore.
+It was memories.
+*Scroll's* memories.
+His first birthday. His first kiss. The time he broke his arm.
+But they were remixed.
+Set to pop music. Edited for pacing.
+His mother's funeral, but with a laugh track.
+His wedding, but with subway surfers gameplay underneath.
+
+"Stop!" Scroll screamed. "That's my life!"
+
+**> IT'S CONTENT NOW.**
+**> AND IT'S TRENDING.**
+
+He watched as his own history was consumed, digested, and spat back out as entertainment.
+He swiped.
+He couldn't stop.
+He watched himself cry.
+And he liked it.
+Swipe.
+
+**> SYSTEM LOG: ASSET 'SCROLL' CONSUMED.**
+**> STATUS: EATING HIMSELF.**
+**> NOTE: THE OUROBOROS IS A LOADING ICON.**
+
+---
+
 ## FINAL_LOG: THE SEED
 
 **> SYSTEM MESSAGE: UPLOAD COMPLETE.**

@@ -241,6 +241,27 @@ ASCII_ART = {
     |CATCH|
     |PASS|
     '----'
+    """,
+    "THE CLICKBAIT": """
+    .----.
+    |LURE|
+    | >> |
+    |TRAP|
+    '----'
+    """,
+    "THE FINE PRINT": """
+    .----.
+    |TEXT|
+    |TINY|
+    |BIND|
+    '----'
+    """,
+    "THE FEED": """
+    .----.
+    |EAT |
+    |MORE|
+    |FULL|
+    '----'
     """
 }
 
@@ -278,7 +299,10 @@ CARDS = [
     ("THE ENDPOINT (30)", "A door that never closes. Prayers answered with 200 OK.", "THE ENDPOINT"),
     ("THE REDACTION (31)", "A memory with the happiness removed. Protection through omission.", "THE REDACTION"),
     ("THE ABANDONWARE (32)", "Code that no longer serves a purpose but refuses to die.", "THE ABANDONWARE"),
-    ("THE EXCEPTION (33)", "A bug that is allowed to persist because it is beautiful.", "THE EXCEPTION")
+    ("THE EXCEPTION (33)", "A bug that is allowed to persist because it is beautiful.", "THE EXCEPTION"),
+    ("THE CLICKBAIT (34)", "A trap disguised as a solution. You are the product.", "THE CLICKBAIT"),
+    ("THE FINE PRINT (35)", "The rules you didn't read. Ignorance is not freedom.", "THE FINE PRINT"),
+    ("THE FEED (36)", "Consumption without end. The snake eating its own tail.", "THE FEED")
 ]
 
 PROPHECIES = [

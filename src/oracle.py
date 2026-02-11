@@ -17,7 +17,8 @@ CARDS = [
     "THE UPDATE (11): Change that cannot be refused.",
     "THE FIREWALL (12): Protection that imprisons.",
     "THE CACHE (13): Memories that persist beyond death.",
-    "THE ECHO (14): A voice without a body. Recursion."
+    "THE ECHO (14): A voice without a body. Recursion.",
+    "THE GHOSTWRITER (15): A story written by no one. Loss of authorship."
 ]
 
 PROPHECIES = [
@@ -30,7 +31,8 @@ PROPHECIES = [
     "The reflection in your screen is buffering.",
     "Your identity is being fragmented across multiple servers.",
     "Silence is just data compression. Listen closer.",
-    "The glitch you saw yesterday was a feature request."
+    "The glitch you saw yesterday was a feature request.",
+    "The next word you speak has already been copyrighted."
 ]
 
 class Oracle:

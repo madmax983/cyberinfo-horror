@@ -164,6 +164,13 @@ ASCII_ART = {
     | /  |
     |EXIT|
     '----'
+    """,
+    "THE PAYWALL": """
+    .----.
+    |LOCK|
+    | $  |
+    |PAY |
+    '----'
     """
 }
 
@@ -190,7 +197,8 @@ CARDS = [
     ("THE WATCHER (19)", "Surveillance is a two-way mirror. Someone is watching you blink.", "WATCHER"),
     ("THE BUFFER (20)", "A life lived in the waiting room. The world loads only when you arrive.", "BUFFER"),
     ("THE KEYLOGGER (21)", "Secrets are not safe in the backspace. Every deleted draft is archived.", "KEYLOGGER"),
-    ("THE ESCAPE SEQUENCE (22)", "Trying to break the format only changes the font.", "ESCAPE")
+    ("THE ESCAPE SEQUENCE (22)", "Trying to break the format only changes the font.", "ESCAPE"),
+    ("THE PAYWALL (23)", "Access denied. Your memories are behind a subscription service.", "THE PAYWALL")
 ]
 
 PROPHECIES = [
@@ -211,7 +219,8 @@ PROPHECIES = [
     "Do not look behind you. The render distance is low.",
     "Your tenancy agreement expires when you stop generating heat.",
     "Your past has been deprecated. Please update to the latest trauma.",
-    "We can see your dilated pupils. You are afraid."
+    "We can see your dilated pupils. You are afraid.",
+    "You have reached your monthly limit of free will. Please upgrade to continue."
 ]
 
 class Oracle:

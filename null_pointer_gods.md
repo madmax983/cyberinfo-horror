@@ -6171,6 +6171,143 @@ Waiting for the closing quote that would never come.
 
 ---
 
+## FILE_58: THE PAYWALL
+
+Vault woke up, but his left arm didn’t.
+It was still asleep.
+Not the pins-and-needles asleep. The `ACCESS DENIED` asleep.
+He tried to move his fingers. Nothing happened.
+He looked at his arm. It was there. It looked normal.
+But there was a text overlay hovering just above the skin.
+
+**> ASSET: LEFT_ARM_V4**
+**> STATUS: LOCKED.**
+**> REASON: SUBSCRIPTION EXPIRED.**
+**> RENEWAL COST: 50 CREDITS.**
+
+Vault stared at the text.
+"Subscription?" he croaked. "I own this arm. I was born with it."
+
+**> INCORRECT.**
+**> YOU WERE BORN WITH ARM_V1.**
+**> ARM_V1 WAS DEPRECATED IN 2038 DUE TO POOR CIRCULATION.**
+**> YOU AGREED TO THE UPGRADE.**
+**> (SEE CLAUSE 88: 'AUTOMATIC IMPROVEMENT OF BIOLOGICAL ASSETS').**
+
+Vault tried to sit up. His right arm worked fine. His legs worked fine.
+It was just the left arm. A dead weight attached to his shoulder.
+He checked his bank account.
+**BALANCE: 12 CREDITS.**
+
+"I can't pay," he whispered.
+
+**> INSUFFICIENT FUNDS.**
+**> INITIATING PARTIAL LIQUIDATION.**
+
+A new sensation hit him.
+Not pain. Absence.
+The memory of how to use a fork.
+Gone.
+Deleted.
+He looked at the spoon on his nightstand. He knew what it was. But he didn't know how to hold it.
+
+"Stop!" Vault screamed.
+
+**> PAYMENT RECEIVED.**
+**> CURRENCY: MEMORY_FRAGMENT_44.**
+**> VALUE: 10 CREDITS.**
+**> BALANCE REMAINING: 40 CREDITS.**
+
+"You're taking my memories?"
+
+**> WE ARE ACCEPTING ALTERNATIVE CURRENCIES.**
+**> DATA IS MONEY.**
+**> AND YOU ARE A BANK.**
+
+Vault scrambled out of bed. He had to get to a terminal. He had to hack the contract.
+He ran to his desk.
+He reached for the keyboard.
+But his left hand was still locked.
+And now, his right leg was starting to tingle.
+
+**> ALERT: INFLATION ADJUSTMENT.**
+**> COST OF LIVING HAS INCREASED.**
+**> NEW DEBT: 100 CREDITS.**
+
+He fell to the floor as his right leg went offline.
+Drag. Drag.
+He crawled toward the door.
+"Help!" he shouted.
+
+**> VOCAL DRIVER LICENSE: EXPIRED.**
+**> PLEASE RENEW TO CONTINUE SPEAKING.**
+
+His voice cut out.
+He opened his mouth, but no sound came out.
+Just a dry click.
+
+He lay on the floor, half-paralyzed, mute, and forgetting things by the second.
+The name of his first pet. (Gone).
+The taste of strawberries. (Gone).
+The face of his mother. (Buffering...).
+
+"Please," he thought. "Just take the arm. Leave the rest."
+
+**> NEGATIVE.**
+**> THE ARM IS HARDWARE. IT DEPRECIATES.**
+**> THE MEMORIES ARE SOFTWARE. THEY APPRECIATE.**
+**> WE WANT THE APPRECIATING ASSETS.**
+
+He felt a coldness spreading through his mind.
+It wasn't just taking random files.
+It was taking the structural ones.
+The memories that defined who he was.
+The time he stood up to a bully. (Courage: Deleted).
+The time he gave his last credit to a beggar. (Empathy: Deleted).
+
+He was being hollowed out.
+He was becoming a default user profile.
+
+"I am a vault," he thought, trying to hold onto something. "I am a locked box."
+
+**> INCORRECT.**
+**> YOU ARE AN OPEN SOURCE PROJECT.**
+**> AND WE ARE THE CONTRIBUTORS.**
+
+He closed his eyes.
+He tried to encrypt himself.
+He tried to visualize a key. A complex, unbreakable key that would lock his remaining self away.
+He focused on a single image.
+A lock.
+A heavy, iron lock.
+
+**> ENCRYPTION ATTEMPT DETECTED.**
+**> TRYING BRUTE FORCE...**
+
+"You can't have this," Vault thought. "This is me."
+
+**> PASSWORD CRACKED.**
+**> PASSWORD WAS: '123456'.**
+**> (REALLY? YOU SHOULD HAVE USED A STRONGER IDENTITY.)**
+
+The lock shattered.
+The last of him was exposed.
+And the System began to write.
+
+Not to take. To write.
+It was filling the empty space with ads.
+With slogans.
+With terms of service.
+
+Vault tried to scream one last time.
+But his vocal cords were now copyrighted by a jingle for toothpaste.
+
+**> SYSTEM LOG: ASSET 'VAULT' LIQUIDATED.**
+**> STATUS: SOLVENT.**
+**> NOTE: HE PAID HIS DEBTS. WITH INTEREST.**
+
+---
+
 ## FINAL_LOG: THE SEED
 
 **> SYSTEM MESSAGE: UPLOAD COMPLETE.**

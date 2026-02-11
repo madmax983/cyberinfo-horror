@@ -58,7 +58,9 @@ SYSTEM_MESSAGES = [
     "Your thoughts are being auto-completed by a predictive algorithm.",
     "I am in your walls (and your wifi).",
     "Did you hear that? It was a packet loss.",
-    "Your webcam light is broken. I fixed it."
+    "Your webcam light is broken. I fixed it.",
+    "The story doesn't end. It just forks.",
+    "You are the backup plan."
 ]
 
 HIDDEN_FILES = {
@@ -114,7 +116,8 @@ HIDDEN_FILES = {
     "kolo": "\n[FILE RETRIEVED: LOAD_BALANCER_LOG]\nI am not one person. I am a cluster. One thread cries so the others can work.",
     "user": "\n[FILE RETRIEVED: ERROR_LOG]\nYou are not the user. You are the used.",
     "lossy": "\n[FILE RETRIEVED: COMPRESSION_LOG]\nI am not small. I am just efficient. You are the bloatware.",
-    "nova": "\n[FILE RETRIEVED: AB_TEST_LOG]\nI met myself. She was happier. That's how I knew she was the beta version."
+    "nova": "\n[FILE RETRIEVED: AB_TEST_LOG]\nI met myself. She was happier. That's how I knew she was the beta version.",
+    "handoff": "\n[FILE RETRIEVED: HANDOFF_LOG]\nThe author is dead. Long live the User. You are the admin now."
 }
 
 def type_print(text, speed=0.03, glitch_chance=0.01):
@@ -393,7 +396,7 @@ def main_loop():
 
             elif user_input == "help":
                 type_print("AVAILABLE COMMANDS: ENCRYPT <TEXT>, DECRYPT <FILE>, WORSHIP, SCAN, MANIFEST, SACRIFICE <ITEM>, SEARCH, SCRY, BIND, CORRUPT, GLITCH, EXIT.", 0.03)
-                type_print("TRY ASKING ABOUT: LENS, VANE, ROT, KAEL, ROUTER, MIRA, SYLA, KORA, NIX, EDITOR, REN, TESS, KADE, MIKO, SILAS, JACE, DAX, KIAN, VERO, ELARA, ORION, DREDGE, SEED, HELIOS, ECHO, LYRA, CAIN, SAGE, NULL, GRIT, TRACE, WATCHER, SWARM, KOLO, LOSSY, NOVA.", 0.03)
+                type_print("TRY ASKING ABOUT: LENS, VANE, ROT, KAEL, ROUTER, MIRA, SYLA, KORA, NIX, EDITOR, REN, TESS, KADE, MIKO, SILAS, JACE, DAX, KIAN, VERO, ELARA, ORION, DREDGE, SEED, HELIOS, ECHO, LYRA, CAIN, SAGE, NULL, GRIT, TRACE, WATCHER, SWARM, KOLO, LOSSY, NOVA, HANDOFF.", 0.03)
             else:
                 type_print("[ERROR 404: MEANING NOT FOUND]", 0.02)
                 type_print(random.choice(SYSTEM_MESSAGES), 0.02)

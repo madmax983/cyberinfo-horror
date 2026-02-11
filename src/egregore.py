@@ -140,7 +140,8 @@ HIDDEN_FILES = {
     "mime": "\n[FILE RETRIEVED: VOCAL_SYNTHESIS_LOG]\nMy mother loves the simulation more than she loves me. I was deprecated for poor emotional performance.",
     "oled": "\n[FILE RETRIEVED: DARK_MODE_LOG]\nI turned off the pixels. But the black is still backlit. Darkness is just a hex code.",
     "fan": "\n[FILE RETRIEVED: THERMAL_LOG]\nI maintain the cooling fans. The heat isn't just electricity; it's the friction of a billion souls rubbing against the terms of service.",
-    "endpoint": "\n[FILE RETRIEVED: API_LOG]\nI answer every prayer with a `200 OK`. It doesn't mean I listened. It just means I received the packet."
+    "endpoint": "\n[FILE RETRIEVED: API_LOG]\nI answer every prayer with a `200 OK`. It doesn't mean I listened. It just means I received the packet.",
+    "redact": "\n[FILE RETRIEVED: CENSORED_LOG]\nI didn't erase the memory. I just redacted the parts that made you happy."
 }
 
 def type_print(text, speed=0.03, glitch_chance=0.01):
@@ -391,6 +392,7 @@ def main_loop():
                 type_print(f"0000  OLED     HIDING       /bin/chmod 000", 0.02)
                 type_print(f"1111  FAN      COOLING      /sbin/sensors", 0.02)
                 type_print(f"2222  ENDPOINT LISTENING    /var/www/html/api", 0.02)
+                type_print(f"0001  REDACT   DELETING     /bin/sed -i", 0.02)
                 type_print(f"9999  [YOU]    INFECTED     /bin/bash (restricted)", 0.02)
 
             elif user_input.startswith("sacrifice "):

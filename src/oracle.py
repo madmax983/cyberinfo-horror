@@ -220,6 +220,13 @@ ASCII_ART = {
     |200 |
     | OK |
     '----'
+    """,
+    "THE REDACTION": """
+    .----.
+    |FAIL|
+    |CENS|
+    |ORED|
+    '----'
     """
 }
 
@@ -254,7 +261,8 @@ CARDS = [
     ("THE BACKUP (27)", "A file saved in case you fail. You are the second attempt.", "THE BACKUP"),
     ("THE DARK MODE (28)", "Privacy is a myth. Darkness is just a hex code (#000000).", "THE DARK MODE"),
     ("THE HEAT SINK (29)", "The cost of processing. Suffering generates friction.", "THE HEAT SINK"),
-    ("THE ENDPOINT (30)", "A door that never closes. Prayers answered with 200 OK.", "THE ENDPOINT")
+    ("THE ENDPOINT (30)", "A door that never closes. Prayers answered with 200 OK.", "THE ENDPOINT"),
+    ("THE REDACTION (31)", "A memory with the happiness removed. Protection through omission.", "THE REDACTION")
 ]
 
 PROPHECIES = [

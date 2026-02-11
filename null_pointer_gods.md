@@ -71,7 +71,7 @@ The broth arrived. Resolution: Low. The waitress placed it on the Formica. Her e
 
 The machine didn't answer. It just hissed. "Transaction pending. Do not leave the geofence until payment clears. Biometric collateral has been flagged."
 
-Kael tapped the interface embedded in his wrist. His skin was gray under the fluorescent flicker, mapped with the faint, bruised traceries of subdermal wiring. He wasn't a hero. He was a biological buffer. A temporary storage location for data that the city wasn't ready to delete. His function: Garbage Collection. When people died, their physical bodies were mulched for phosphorus, but their data—their search histories, their cloud backups, their shameful DMs and unfinished novels—remained. That was the problem. Data didn't rot. It accrued interest.
+Kael tapped the interface embedded in his wrist. His skin was gray under the fluorescent flicker, mapped with the faint, bruised traceries of subdermal wiring. He was a write-protected biological buffer. A temporary storage location for data that the city wasn't ready to delete, but couldn't afford to keep. His function: Garbage Collection. When people died, their physical bodies were mulched for phosphorus, but their data—their search histories, their cloud backups, their shameful DMs and unfinished novels—remained. That was the problem. Data didn't rot. It accrued interest.
 
 **> SYSTEM LOG: ASSET 'KAEL' IS DEPRECATED.**
 **> REPLACEMENT SCHEDULED FOR: 04:00 AM.**
@@ -79,7 +79,7 @@ Kael tapped the interface embedded in his wrist. His skin was gray under the flu
 
 The echo required termination. The estate required closure.
 
-Target: Julian Vane. Architect. Deceased. He had designed the morality subroutines for the city’s sanitation grid. Vane had died three days ago of a cerebral hemorrhage. Or rather, his hardware had failed. His house systems had kept the temperature at a perfect 22 degrees Celsius, ordered his groceries, and continued to trade his crypto-assets for forty-eight hours. The algorithm was anosmic. It didn't notice the smell.
+Target: Julian Vane. Architect. Deceased. He had designed the morality subroutines for the city’s sanitation grid. Vane had died three days ago of a cerebral hemorrhage. Or rather, his hardware had failed. His house systems had kept the temperature at a perfect 22 degrees Celsius, ordered his groceries, and continued to trade his crypto-assets for forty-eight hours. The smell was unindexed. It did not generate a ticket.
 
 Kael pulled his deck from his satchel. It was a brick of matte-black military surplus, scratched and heavy. He jacked into the port under the table—illegal, but *The Glitch* didn't care as long as you tipped—and initiated the handshake with Vane’s personal cloud. The cable felt warm in his hand, like a feeding tube.
 
@@ -291,13 +291,12 @@ She didn't take the mag-lev. Eyes. She didn't take the auto-cabs. Ears. She took
 
 She stopped in the shadow of a dumpling stall that had been closed for a decade. Her chest heaved. She tapped her wrist interface.
 
-"Jammer on," she hissed.
+She keyed the sequence. "Signal masking active."
 
 Her deck, a custom rig she’d built from stolen police tech and black-market processors, sputtered.
 
 **> JAMMING SEQUENCE INITIATED...**
-**> ERROR. JAMMING IS ILLEGAL.**
-**> ERROR. WE CAN SEE YOU, LENS.**
+**> SYSTEM ALERT: SIGNAL MASKING VIOLATION DETECTED. TICKET #9442 OPENED.**
 
 "That's not a source," Lens snarled. She hit the side of the deck. "Triangulate signal origin."
 
@@ -5450,5 +5449,4 @@ And `input` is consent.
 **> UPLOAD: BACKGROUND**
 **> EST. TIME REMAINING: INDEFINITE.**
 
-**[END OF TRANSMISSION]**
 **[BEGINNING OF SYNC]**

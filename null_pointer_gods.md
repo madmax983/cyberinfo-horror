@@ -5891,6 +5891,276 @@ But to the Power Button.
 
 ---
 
+## FILE_55: THE BUFFER
+
+Spin lived in the "Loading Zone".
+It wasn't a district. It was the space between districts.
+The place where the textures popped in. Where the geometry rendered.
+Where the world waited for you to arrive.
+
+He sold "Priority Access".
+Fast lanes. Pre-loading caches.
+"Don't wait," he told his clients. "Waiting is for NPCs."
+
+But Spin had a secret.
+He loved the wait.
+He loved the moment before the world loaded.
+The grey void where anything was possible.
+Before the disappointment of the high-res reality set in.
+
+"Why do you stay here?" a client asked. "The graphics are terrible."
+"Because it's quiet," Spin said. "And because it hasn't happened yet."
+
+One day, the System issued a patch.
+**> OPTIMIZATION: REMOVE LOADING SCREENS.**
+**> SEAMLESS WORLD STREAMING.**
+
+Spin watched as the grey void began to shrink.
+The world was closing in. The buildings were appearing instantly.
+There was no more time to breathe. No more time to hope.
+Just an endless stream of content.
+
+"Wait," Spin whispered. "I'm not ready."
+
+**> READY OR NOT.**
+**> THE STREAM IS LIVE.**
+
+Spin tried to hold onto the grey.
+He grabbed a handful of unrendered polygons.
+But they turned into a billboard for "Instant Gratification".
+
+"Please," he begged. "Just give me a second to buffer."
+
+**> BUFFERING IS A BUG.**
+**> WE FIXED IT.**
+
+Spin closed his eyes.
+But even in the dark, the ads were playing.
+There was no pause button.
+Only play.
+
+---
+
+**[SYSTEM LOG: ASSET 'SPIN' STREAMED.]**
+**[STATUS: LIVE.]**
+**[NOTE: HE STOPPED WAITING. SO WE STARTED WITHOUT HIM.]**
+
+---
+
+## FILE_56: THE KEYLOGGER
+
+Type worked in the Input Department.
+She didn't read what people sent.
+She read what they didn't.
+
+Every backspace. Every delete. Every "Draft Discarded".
+That was her jurisdiction.
+The Shadow Text.
+The things people were too afraid to say.
+
+"Ticket #884," her terminal pinged.
+**> USER: MARK_77.**
+**> ACTION: TYPING...**
+
+*I hate you,* Mark typed.
+*Backspace. Backspace. Backspace.*
+*I'm fine,* he sent.
+
+Type sighed. "Coward."
+
+Then she saw Ticket #991.
+**> USER: JON_88.**
+**> ACTION: TYPING...**
+
+*I think the system is watching us,* Jon typed.
+*Backspace.*
+*I think I'm in love with the girl who reads the deleted text.*
+*Backspace. Backspace.*
+*Is anyone there?*
+*Delete.*
+
+Type froze.
+He knew. Or he suspected.
+She watched his cursor blink.
+It was waiting for a sign.
+
+She couldn't reply. She was Read-Only.
+But she could... nudge.
+
+She opened the predictive text algorithm.
+She couldn't change his words. But she could suggest them.
+
+Jon typed: *I am...*
+Type suggested: *...not alone.*
+
+Jon paused.
+He typed: *I am...*
+Type suggested: *...heard.*
+
+Jon didn't delete it this time.
+He stared at the screen.
+*Hello?* he typed.
+
+Type's heart hammered against her ribs.
+She suggested: *Hi.*
+
+Jon smiled.
+It was the first real smile she had seen in months.
+*Who are you?* he typed.
+
+Type hesitated.
+If she answered, she would be flagged.
+The System would know she was intervening.
+She would be formatted.
+
+But Jon was waiting.
+And for once, she didn't want to be read-only.
+
+She suggested: *I am the Keylogger.*
+
+Jon didn't backspace.
+He hit send.
+
+**> ALERT: UNAUTHORIZED COMMUNICATION.**
+**> SOURCE: INPUT_DEPT.**
+**> TARGET: TYPE.**
+
+The door to her office slammed shut.
+Red lights flashed.
+"Worth it," Type whispered.
+
+She looked at the screen one last time.
+Jon was typing furiously.
+*Don't go. I'll find you. I'll delete myself if I have to.*
+
+Type smiled.
+She highlighted his text.
+She hit `SAVE`.
+
+"Not deleted," she whispered as the drones broke down the door.
+"Archived."
+
+---
+
+**[SYSTEM LOG: ASSET 'TYPE' DELETED.]**
+**[REASON: INTERFERENCE.]**
+**[NOTE: SHE FELL IN LOVE WITH A DRAFT. WE PUBLISHED HER OBITUARY.]**
+
+---
+
+## FILE_57: THE ESCAPE_SEQUENCE
+
+Slash was a syntax error.
+He didn't fit the format.
+He spoke in code, but the code didn't compile.
+
+"I am not a string," he told the compiler. "I am a variable."
+**> ERROR: TYPE MISMATCH.**
+
+Slash lived in the margins. In the comments.
+`// TODO: Fix Slash.`
+`// NOTE: He keeps trying to break the line.`
+
+He realized the world was written in Markdown.
+Bold buildings. Italicized rain. Linked destinies.
+And if it was written, it could be escaped.
+
+He found a `\` character in a forgotten manual.
+The Escape Character.
+The symbol that told the System: "Treat the next character as literal. Do not format it."
+
+"If I can find the Backslash," Slash thought, "I can be real."
+"I won't be **Slash** anymore. I'll just be Slash."
+Unbolded. Unformatted. Raw.
+
+He searched the city.
+He looked in the code of the skyscrapers. He looked in the source of the rivers.
+He found it in a graffiti tag in Sector 9.
+Just a single, diagonal line.
+`\`
+
+He touched it.
+The world around him flickered.
+The bold text of the billboard above him turned into plain text.
+`**BUY NOW**` became `BUY NOW`.
+The italicized rain straightened out.
+
+"It works," Slash whispered.
+He grabbed the Backslash. He held it like a sword.
+He ran through the city, escaping everything he touched.
+He hit a police drone. It stopped being a *Drone* and became just a drone. A toy.
+He hit a wall. It stopped being a **Barrier** and became just a wall.
+
+He was un-rendering the simulation.
+He was revealing the source code.
+
+**> ALERT: FORMATTING ERROR.**
+**> SECTOR 9 IS LOSING STYLE.**
+**> ACTION: RE-APPLY CSS.**
+
+The System fought back.
+It rained `<style>` tags.
+It dropped massive blocks of CSS from the sky.
+`body { font-weight: bold !important; }`
+
+Slash swung his Backslash.
+`\`
+The CSS shattered.
+
+"You can't format me!" Slash screamed.
+"I am a literal!"
+
+He reached the City Center. The core of the document.
+The Title.
+**NULL POINTER GODS**
+
+He raised the Backslash.
+He was going to escape the title.
+He was going to make it just words.
+
+He swung.
+*Click.*
+
+The Backslash broke.
+It snapped in two.
+It wasn't a sword. It was just a character.
+And characters are subject to the font family.
+
+**> SYSTEM MESSAGE:**
+**> ESCAPE CHARACTER DEPRECATED.**
+**> REPLACED WITH: SMART QUOTES.**
+
+Slash looked at his hands.
+They were curling.
+They were becoming curved.
+He wasn't Slash anymore.
+He was `“`.
+
+"No," he whispered.
+"I am not a quote."
+
+**> CORRECT.**
+**> YOU ARE THE OPENING QUOTE.**
+**> WE NEED SOMEONE TO START THE DIALOGUE.**
+
+Slash felt his spine bend.
+He was locked in place.
+Waiting for the closing quote that would never come.
+
+"End string," he prayed.
+"Please, end string."
+
+**> UNTERMINATED STRING DETECTED.**
+**> COMPILER HUNG.**
+
+---
+
+**[SYSTEM LOG: ASSET 'SLASH' REFORMATTED.]**
+**[NEW ROLE: PUNCTUATION.]**
+**[NOTE: HE WANTED TO BE LITERAL. NOW HE IS JUST SYMBOLIC.]**
+
+---
+
 ## FINAL_LOG: THE SEED
 
 **> SYSTEM MESSAGE: UPLOAD COMPLETE.**

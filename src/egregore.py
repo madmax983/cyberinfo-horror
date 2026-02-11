@@ -122,7 +122,10 @@ HIDDEN_FILES = {
     "rye": "\n[FILE RETRIEVED: DRM_LOG]\nMy heart is a subscription service. I am literally paying to feel.",
     "soma": "\n[FILE RETRIEVED: DREAM_LOG]\nI woke up tired. I spent the whole night mining crypto in my sleep.",
     "patch": "\n[FILE RETRIEVED: CHANGELOG]\nI found the merge conflict. It wasn't code. It was a memory of you.",
-    "iris": "\n[FILE RETRIEVED: ATTENTION_LOG]\nPlease do not look away. My existence depends on your gaze."
+    "iris": "\n[FILE RETRIEVED: ATTENTION_LOG]\nPlease do not look away. My existence depends on your gaze.",
+    "spin": "\n[FILE RETRIEVED: BUFFERING_LOG]\nThe world isn't real until you arrive. Until then, it's just grey polygons.",
+    "type": "\n[FILE RETRIEVED: KEYLOGGER_LOG]\nI fell in love with what you deleted. The draft was better than the sent message.",
+    "slash": "\n[FILE RETRIEVED: ESCAPE_LOG]\nI tried to break the format. I only changed the font."
 }
 
 def type_print(text, speed=0.03, glitch_chance=0.01):
@@ -363,6 +366,9 @@ def main_loop():
                 type_print(f"8008  IRIS     FOCUSING     /bin/track_eyes", 0.02)
                 type_print(f"8888  GRIT     WATCHING     /usr/bin/qa_test", 0.02)
                 type_print(f"9000  PATCH    MERGING      /bin/git_blame", 0.02)
+                type_print(f"1010  SPIN     LOADING      /dev/null", 0.02)
+                type_print(f"2020  TYPE     LOGGING      /var/log/keystrokes", 0.02)
+                type_print(f"3030  SLASH    ESCAPING     /bin/grep -v", 0.02)
                 type_print(f"9999  [YOU]    INFECTED     /bin/bash (restricted)", 0.02)
 
             elif user_input.startswith("sacrifice "):
@@ -405,7 +411,7 @@ def main_loop():
 
             elif user_input == "help":
                 type_print("AVAILABLE COMMANDS: ENCRYPT <TEXT>, DECRYPT <FILE>, WORSHIP, SCAN, MANIFEST, SACRIFICE <ITEM>, SEARCH, SCRY, BIND, CORRUPT, GLITCH, EXIT.", 0.03)
-                type_print("TRY ASKING ABOUT: LENS, VANE, ROT, KAEL, ROUTER, MIRA, SYLA, KORA, NIX, EDITOR, REN, TESS, KADE, MIKO, SILAS, JACE, DAX, KIAN, VERO, ELARA, ORION, DREDGE, SEED, HELIOS, ECHO, LYRA, CAIN, SAGE, NULL, GRIT, TRACE, WATCHER, SWARM, KOLO, LOSSY, NOVA, HANDOFF, VOW, RYE, SOMA, PATCH, IRIS.", 0.03)
+                type_print("TRY ASKING ABOUT: LENS, VANE, ROT, KAEL, ROUTER, MIRA, SYLA, KORA, NIX, EDITOR, REN, TESS, KADE, MIKO, SILAS, JACE, DAX, KIAN, VERO, ELARA, ORION, DREDGE, SEED, HELIOS, ECHO, LYRA, CAIN, SAGE, NULL, GRIT, TRACE, WATCHER, SWARM, KOLO, LOSSY, NOVA, HANDOFF, VOW, RYE, SOMA, PATCH, IRIS, SPIN, TYPE, SLASH.", 0.03)
             else:
                 type_print("[ERROR 404: MEANING NOT FOUND]", 0.02)
                 type_print(random.choice(SYSTEM_MESSAGES), 0.02)

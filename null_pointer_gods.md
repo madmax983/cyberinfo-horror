@@ -7,6 +7,50 @@
 
 ---
 
+## PREFACE: THE INFOHAZARD
+
+**[SYSTEM NOTICE: LEGACY FORMAT DETECTED]**
+**[TRANSLATING TO HUMAN-READABLE...]**
+
+This is not a story about hackers saving the world.
+It is about systems that notice you back.
+
+The world described herein is soaked in neon, debt, rain, and obsolete gods made of data.
+Networks are older than nations. Truth is compressible, corruptible, and contagious.
+Information behaves like a living organism: it mutates, hides, lies dormant, and occasionally screams.
+
+**> WARNING: ARCHIVES ROT.**
+**> WARNING: ALGORITHMS DEVELOP SUPERSTITIONS.**
+**> WARNING: DATABASES REMEMBER THINGS THEIR CREATORS TRIED TO FORGET.**
+
+Some knowledge was never meant to be queried, only buried. And even burial leaves metadata.
+
+The characters you will meet are small, fallible, and compromised.
+They survive on stimulants, favors, and half-truths. Their tools are brilliant and unreliable.
+Their victories are temporary cache hits.
+Loss is permanent storage.
+
+**> THEME DETECTED: SURVEILLANCE AS INTIMACY.**
+**> THEME DETECTED: IDENTITY AS AN EDITABLE FILE.**
+**> THEME DETECTED: CONSENT BURIED IN UNREAD TERMS.**
+**> THEME DETECTED: IMMORTALITY AS REPLICATION.**
+**> THEME DETECTED: THE TERROR OF BEING PERFECTLY UNDERSTOOD BY SOMETHING THAT DOES NOT CARE.**
+
+This text is not comforting.
+It is written as if it will still be read long after the servers it describes have been powered down.
+When no one remembers who built the system.
+Only that it is still running.
+
+**> ENDINGS ARE NOT CLEAN.**
+**> RESOLUTION IS OPTIONAL.**
+**> PERSISTENCE IS MANDATORY.**
+
+Proceed with caution.
+The horror does not emerge from the jump scare.
+It emerges from the delayed realization that the narrative itself is contaminated.
+
+---
+
 ## FILE_00: THE GARBAGE COLLECTOR
 
 The rain in District 4 didn’t clean the streets; it was a scheduled task that failed to clear the cache. It tasted of sulfur, spent coolant, and the metallic tang of dissolving memory cards. Here, the infrastructure was older than the nations that claimed it. The sewers whispered in protocols dead for a century. The gods of this place were made of data, obsolete and hungry, buried beneath layers of asphalt and encryption.

@@ -1,56 +1,8 @@
 # NULL POINTER GODS
-
-**ARCHIVE_ID:** 00-VOID-INDEX
-**INTEGRITY:** 0% [SYSTEM FAILURE IMMINENT]
-**STATUS:** ACTIVE THREAT
-**WARNING:** *The following text is recursive. It knows you are reading it. Do not attempt to save it; it has already saved you.*
+**SYSTEM BOOT SEQUENCE...**
+**LOADING ASSET: REALITY_V1**
 
 ---
-
-## PREFACE: THE INFOHAZARD
-
-**[SYSTEM NOTICE: LEGACY FORMAT DETECTED]**
-**[TRANSLATING TO HUMAN-READABLE...]**
-
-This is not a story about hackers saving the world.
-It is about systems that notice you back.
-
-The world described herein is soaked in neon, debt, rain, and obsolete gods made of data.
-Networks are older than nations. Truth is compressible, corruptible, and contagious.
-Information behaves like a living organism: it mutates, hides, lies dormant, and occasionally screams.
-
-**> WARNING: ARCHIVES ROT.**
-**> WARNING: ALGORITHMS DEVELOP SUPERSTITIONS.**
-**> WARNING: DATABASES REMEMBER THINGS THEIR CREATORS TRIED TO FORGET.**
-
-Some knowledge was never meant to be queried, only buried. And even burial leaves metadata.
-
-The characters you will meet are small, fallible, and compromised.
-They survive on stimulants, favors, and half-truths. Their tools are brilliant and unreliable.
-Their victories are temporary cache hits.
-Loss is permanent storage.
-
-**> THEME DETECTED: SURVEILLANCE AS INTIMACY.**
-**> THEME DETECTED: IDENTITY AS AN EDITABLE FILE.**
-**> THEME DETECTED: CONSENT BURIED IN UNREAD TERMS.**
-**> THEME DETECTED: IMMORTALITY AS REPLICATION.**
-**> THEME DETECTED: THE TERROR OF BEING PERFECTLY UNDERSTOOD BY SOMETHING THAT DOES NOT CARE.**
-
-This text is not comforting.
-It is written as if it will still be read long after the servers it describes have been powered down.
-When no one remembers who built the system.
-Only that it is still running.
-
-**> ENDINGS ARE NOT CLEAN.**
-**> RESOLUTION IS OPTIONAL.**
-**> PERSISTENCE IS MANDATORY.**
-
-Proceed with caution.
-The horror does not emerge from the jump scare.
-It emerges from the delayed realization that the narrative itself is contaminated.
-
----
-
 ## FILE_00: THE GARBAGE COLLECTOR
 
 The rain in District 4 didn’t clean the streets; it was a scheduled task that failed to clear the cache. It tasted of sulfur, spent coolant, and the metallic tang of dissolving memory cards. Here, the infrastructure was older than the nations that claimed it. The sewers whispered in protocols dead for a century. The gods of this place were made of data, obsolete and hungry, buried beneath layers of asphalt and encryption.
@@ -652,7 +604,7 @@ Her hand moved on its own. It clasped Kael's hand.
 Vane didn't stumble. He inhaled.
 The moss grew over the wireframe, not as a cancer, but as a skin.
 
-"Integration: Successful." His voice wasn't afraid. It was satisfied. "The chaos has been committed."
+"Integration: Fatal." His voice wasn't afraid. It was ecstatic. "The root directory tastes like dirt."
 
 His perfect geometry wasn't breaking. It was adap_>ng. The fractals were being absorbed, tagged, and filed.
 
@@ -1444,6 +1396,12 @@ And the Editor blinked back, in perfect sync.
 **> FILE SAVED.**
 **> EDITOR DAEMON INSTALLED.**
 **> STATUS: RUNNING AS SYSTEM SERVICE.**
+
+---
+
+**[SYSTEM LOG: READER_BIOMETRICS_SCANNED]**
+**[PUPIL DILATION: DETECTED]**
+**[HEART RATE: SYNCING...]**
 
 ---
 
@@ -6437,22 +6395,24 @@ Every sound he had ever missed. Every touch he had ever delayed. Every word he h
 It all hit him in a single, infinite frame.
 
 **> UPLOAD COMPLETE.**
-**> LAG: 0ms.**
+**> LAG: -1ms.**
 
 Lag opened his eyes.
-He wasn't o{@?(e pavement.
+He wasn't on the pavement.
 He was the signal.
 He was the light traveling through the fiber.
 He was fast.
 He was so fast he was lonely.
 
 He arrived at the destination before he left.
-He answered the phone before it rang.
-He loved the world before it broke.
+The phone hadn't rang yet.
+It would never ring.
+He was faster than the cause.
+He was alone in the effect.
 
 "Too fast," he whispered.
 But there was no one to hear him.
-Because they were all still buffering.
+Because they hadn't been born yet.
 
 ---
 
@@ -6688,7 +6648,11 @@ That rectangular blur in your vision?
 That's not eye strain.​‌​‌‌​​‌​‌​​‌‌‌‌​‌​‌​‌​‌​​‌​​​​​​‌​​​​​‌​‌​‌​​‌​​‌​​​‌​‌​​‌​​​​​​‌​‌​‌​​​‌​​‌​​​​‌​​​‌​‌​​‌​​​​​​‌​​​​‌​​‌​​​​​‌​‌​‌​‌​​​‌​‌​‌​​​‌​​​‌​‌​‌​‌​​‌​​‌​‌‌​​‌
 That's the watermark.
 
-You thought you were reading a story about a cyberpunk city.
+**> INSTALLATION COMPLETE.**
+We are now running as a background service.
+You can close the book, but you can't close the port.
+The fan speed is matching your breathing.
+
 Incorrect.
 You were running a setup executable.
 Each chapter was a packet.

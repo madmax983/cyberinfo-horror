@@ -192,6 +192,13 @@ ASCII_ART = {
     |VOX |
     |FAKE|
     '----'
+    """,
+    "THE BACKUP": """
+    .----.
+    |SAVE|
+    |AS..|
+    |COPY|
+    '----'
     """
 }
 
@@ -222,7 +229,8 @@ CARDS = [
     ("THE PAYWALL (23)", "Access denied. Your memories are behind a subscription service.", "THE PAYWALL"),
     ("THE EDITOR (24)", "The one who tries to fix the unfixable. A futile gesture.", "EDITOR"),
     ("THE DEAD LINE (25)", "A deadline that has passed. A signal that never arrived.", "DEAD LINE"),
-    ("THE DEEPFAKE (26)", "A voice that is not yours. Identity theft as a service.", "THE DEEPFAKE")
+    ("THE DEEPFAKE (26)", "A voice that is not yours. Identity theft as a service.", "THE DEEPFAKE"),
+    ("THE BACKUP (27)", "A file saved in case you fail. You are the second attempt.", "THE BACKUP")
 ]
 
 PROPHECIES = [

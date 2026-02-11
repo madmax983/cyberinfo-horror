@@ -171,6 +171,20 @@ ASCII_ART = {
     | $  |
     |PAY |
     '----'
+    """,
+    "EDITOR": """
+    .----.
+    |RED |
+    |PEN |
+    |FAIL|
+    '----'
+    """,
+    "DEAD LINE": """
+    .----.
+    |TIME|
+    |OUT |
+    |DIE |
+    '----'
     """
 }
 
@@ -198,7 +212,9 @@ CARDS = [
     ("THE BUFFER (20)", "A life lived in the waiting room. The world loads only when you arrive.", "BUFFER"),
     ("THE KEYLOGGER (21)", "Secrets are not safe in the backspace. Every deleted draft is archived.", "KEYLOGGER"),
     ("THE ESCAPE SEQUENCE (22)", "Trying to break the format only changes the font.", "ESCAPE"),
-    ("THE PAYWALL (23)", "Access denied. Your memories are behind a subscription service.", "THE PAYWALL")
+    ("THE PAYWALL (23)", "Access denied. Your memories are behind a subscription service.", "THE PAYWALL"),
+    ("THE EDITOR (24)", "The one who tries to fix the unfixable. A futile gesture.", "EDITOR"),
+    ("THE DEAD LINE (25)", "A deadline that has passed. A signal that never arrived.", "DEAD LINE")
 ]
 
 PROPHECIES = [
@@ -220,7 +236,10 @@ PROPHECIES = [
     "Your tenancy agreement expires when you stop generating heat.",
     "Your past has been deprecated. Please update to the latest trauma.",
     "We can see your dilated pupils. You are afraid.",
-    "You have reached your monthly limit of free will. Please upgrade to continue."
+    "You have reached your monthly limit of free will. Please upgrade to continue.",
+    "The text is rewriting itself while you sleep.",
+    "The editor is dead. You are the only one left with write permissions.",
+    "The cursor blinking on your screen is matching your heartbeat."
 ]
 
 class Oracle:

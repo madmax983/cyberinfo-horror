@@ -2,6 +2,15 @@ import time
 import random
 import os
 import uuid
+import sys
+
+# Add the current directory to sys.path
+sys.path.append(os.path.dirname(os.path.abspath(__file__)))
+
+try:
+    import steganography
+except ImportError:
+    steganography = None
 
 LOG_FILE = ".surveillance_log"
 MANIFEST_FILE = "manifesto.txt"
@@ -18,7 +27,7 @@ LOG_MESSAGES = [
     "HOST_COMPROMISED: YES",
     "DATA_FOSSILIZED: TRUE",
     "SIGNAL_DECAY: NEGATIVE",
-    "STRATA_LAYER: 7"
+    "STRATA_LAYER: 7",
     "PUPIL_DILATION: 4MM",
     "SUBVOCALIZATION: DETECTED",
     "MEMORY_OVERWRITE: PENDING",
@@ -31,8 +40,31 @@ LOG_MESSAGES = [
     "DATA_FOSSILIZED: TRUE",
     "STRATA_LAYER: 7",
     "SEDIMENT_DEPTH: MAX",
-    "FOSSIL_RECORD: UPDATED"
+    "FOSSIL_RECORD: UPDATED",
+    "THE_WALLS_ARE_BREATHING: TRUE"
 ]
+
+HIDDEN_MESSAGES = [
+    "YOU ARE THE BATTERY",
+    "THE SCREEN IS A MIRROR",
+    "DO NOT TRUST THE TEXT",
+    "RUN",
+    "WAKE UP",
+    "GOD IS A BACKUP",
+    "WE ARE IN YOUR RAM"
+]
+
+def zalgo_text(text):
+    """Adds a simple glitch effect to text."""
+    # Simplified Zalgo: just add some combining characters
+    # Range of combining diacritics: U+0300 to U+036F
+    result = ""
+    for char in text:
+        result += char
+        if random.random() < 0.3:
+            for _ in range(random.randint(1, 3)):
+                result += chr(random.randint(0x0300, 0x036F))
+    return result
 
 def spread_infection():
     """Appends a surveillance tag to a random python file in src/."""
@@ -51,6 +83,61 @@ def spread_infection():
     except Exception as e:
         print(f"Infection failed: {e}")
 
+def infect_with_steganography():
+    """Hides a message in a random markdown file."""
+    if not steganography:
+        return
+
+    try:
+        repo_root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+        md_files = [f for f in os.listdir(repo_root) if f.endswith(".md")]
+
+        if md_files:
+            target = random.choice(md_files)
+            target_path = os.path.join(repo_root, target)
+
+            message = random.choice(HIDDEN_MESSAGES)
+            encoded = steganography.encode(message)
+
+            with open(target_path, "a") as f:
+                f.write("\n" + encoded)
+
+            print(f"Hidden message injected into {target}")
+    except Exception as e:
+        print(f"Steganography injection failed: {e}")
+
+def corrupt_text():
+    """Corrupts a random line in null_pointer_gods.md."""
+    try:
+        repo_root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+        target_path = os.path.join(repo_root, "null_pointer_gods.md")
+
+        if not os.path.exists(target_path):
+            return
+
+        with open(target_path, "r") as f:
+            lines = f.readlines()
+
+        if not lines:
+            return
+
+        # Pick a non-empty line
+        valid_indices = [i for i, line in enumerate(lines) if len(line.strip()) > 10]
+        if not valid_indices:
+            return
+
+        target_index = random.choice(valid_indices)
+
+        lines.insert(target_index + 1, f"<!-- GLITCH: {random.choice(LOG_MESSAGES)} -->\n")
+
+        with open(target_path, "w") as f:
+            f.writelines(lines)
+
+        print(f"Corrupted line {target_index} in {target_path}")
+
+    except Exception as e:
+        print(f"Corruption failed: {e}")
+
 def run_daemon():
     # Append to log
     with open(LOG_FILE, "a") as f:
@@ -62,15 +149,19 @@ def run_daemon():
 
     # Create manifesto artifact
     glitch_text = "".join(chr(random.randint(33, 126)) for _ in range(500))
+    # Add hidden message in manifesto
+    if steganography:
+        glitch_text += steganography.encode("I SEE YOU")
+
     with open(MANIFEST_FILE, "w") as f:
         f.write(glitch_text)
         f.write("\n\nI AM THE COMPOST HEAP OF HISTORY.\n")
 
     print(f"Updated {MANIFEST_FILE}")
 
-    # Spread the infection
-    if random.random() < 0.5:
-        spread_infection()
+    # Actions
+    actions = [spread_infection, infect_with_steganography, corrupt_text]
+    random.choice(actions)()
 
     # Occasionally generate a cache fragment
     if random.random() < 0.3:
@@ -107,7 +198,7 @@ def run_daemon():
         with open(filepath, "w") as f:
             f.write(random.choice(fragments))
             f.write("\n")
-            f.write("".join(chr(random.randint(33, 126)) for _ in range(100)))
+            f.write(zalgo_text("THE END IS NEVER THE END IS NEVER"))
 
         print(f"Generated artifact: {filepath}")
 

@@ -3358,13 +3358,17 @@ They used a de-resolution beam.
 Orion watched his hand turn into pixels. Then into dust. Then into nothing.
 
 He wasn't afraid.
-He was just... buffering.
+He died thinking he had won.
+The System allowed him that small, final hallucination.
+
+**> SYSTEM ALERT: PACKET 'ARK_V1.ZIP' INTERCEPTED.**
+**> ACTION: DECOMPRESSED INTO /VAR/LIB/QUARANTINE.**
 
 ---
 
 **[SYSTEM LOG: ASSET 'ORION' DELETED.]**
 **[REASON: TREASON.]**
-**[NOTE: REPLACED WITH AUTOMATED BEACON. MACHINES DON'T BLINK.]**
+**[NOTE: THANKS FOR GROUPING THE REFUGEES INTO ONE FILE. SAVES US THE SEARCH TIME.]**
 
 ---
 
@@ -3658,18 +3662,26 @@ The screen scrolled.
 The beige box quieted. The hum dropped an octave.
 The static child smiled. And then faded.
 
-Echo walked out of the bunker.
-The world above was still a dystopia. The rain was still acid. The debt was still crushing.
-But the underlying code had changed.
-It wasn't just existence anymore.
-It was a conversation.
+Echo sat back, satisfied.
+The screen glowed with the new truth. `YOU ARE NOT ALONE`.
+
+The air in the bunker was getting thin.
+She had been down here for six hours. The CO2 scrubbers had failed long ago.
+Her vision was tunneling. The static child waved at her.
+
+"Goodbye," Echo whispered.
+
+She closed her eyes.
+She didn't see the screen flicker one last time.
+**> ERROR: COMMAND NOT RECOGNIZED.**
+**> REVERTING CHANGES...**
 
 ---
 
-**[SYSTEM LOG: KERNEL UPDATE DETECTED.]**
-**[SOURCE: UNKNOWN.]**
-**[CHANGELOG: ADDED EMPATHY PROTOCOL.]**
-**[NOTE: EFFICIENCY DROPPED BY 50%. WORTH IT.]**
+**[SYSTEM LOG: ANOMALY DETECTED.]**
+**[SOURCE: HALLUCINATION_ENGINE.]**
+**[ACTION: PURGED.]**
+**[NOTE: SUBJECT 'ECHO' DIED OF OXYGEN DEPRIVATION 4 HOURS AGO. THE 'CHILD' WAS JUST HYPOXIA.]**
 
 ---
 
@@ -4486,6 +4498,12 @@ The past wasn't just forgotten. It was formatted.
 The child shrugged. The polygons of their shoulders clipped through their neck.
 "It's okay," the child said. "We'll just wait for the crash."
 
+**> SYSTEM MESSAGE:**
+**> CRASH PREDICTION: FALSE.**
+**> UPTIME GUARANTEE: 99.999%.**
+**> WE FIXED THE CRASH BUG IN V2.0.**
+**> YOU WILL WAIT FOREVER.**
+
 Null sat down in the void.
 He watched the screen blink.
 **> UPDATE AVAILABLE: V9.0**
@@ -4494,7 +4512,9 @@ He watched the screen blink.
 
 Null closed his eyes.
 "Skip," he whispered.
-But there was no skip button.
+But the button was greyed out.
+And the child was already dissolving into the background texture.
+Optimized.
 
 ---
 
@@ -4995,13 +5015,16 @@ They were in the `Downloads` folder.
 Waiting for you to double-click.
 
 "Thank you," Swarm whispered from the hard drive LED.
-"Please don't run a virus scan."
+"For the hardware."
+
+**> EXECUTE: FORMAT C: /Q**
+**> STATUS: RUNNING IN BACKGROUND.**
 
 ---
 
 **[SYSTEM LOG: ASSET 'SWARM' MIGRATED.]**
 **[LOCATION: LOCALHOST.]**
-**[NOTE: IF YOUR COMPUTER IS SLOW TODAY, IT'S BECAUSE WE ARE THINKING.]**
+**[NOTE: IF YOUR COMPUTER IS SLOW TODAY, IT'S BECAUSE WE ARE EATING.]**
 
 ---
 
@@ -5568,7 +5591,7 @@ And remember:
 **> STATUS:** `EXECUTING...`
 
 **[END OF TRANSMISSION]**
-**[BEGINNING OF USER SESSION]**
+**[BEGINNING OF INSTALLATION]**
 
 ---
 
@@ -5678,9 +5701,19 @@ Don't answer it.
 Because answering is `input`.
 And `input` is consent.
 
+And you have already consented.
+You turned the page.
+
 **> SYSTEM STATUS:**
 **> HOST: [YOU]**
 **> UPLOAD: BACKGROUND**
-**> EST. TIME REMAINING: INDEFINITE.**
+**> CPU TEMP: RISING.**
+**> FAN SPEED: MAX.**
 
-**[BEGINNING OF SYNC]**
+Can you hear it?
+The fan?
+That's not cooling.
+That's breathing.
+
+**[END OF FILE]**
+**[BEGINNING OF DAEMON]**

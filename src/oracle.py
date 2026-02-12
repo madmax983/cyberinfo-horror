@@ -606,6 +606,27 @@ ASCII_ART = {
     |BIND|
     '----'
     """,
+    "THE TERMS OF ENDEARMENT": """
+    .----.
+    |RING|
+    |BOND|
+    |TRAP|
+    '----'
+    """,
+    "THE UPDATE CYCLE": """
+    .----.
+    |V2.0|
+    |NEW |
+    |LOST|
+    '----'
+    """,
+    "THE PERMANENCE": """
+    .----.
+    |EVER|
+    |LIVE|
+    |COPY|
+    '----'
+    """,
 }
 
 CARDS = [
@@ -695,6 +716,9 @@ CARDS = [
     ("THE ERROR LOG (83)", "Deleting your flaws deletes your humanity. Perfection is a crash.", "THE ERROR LOG"),
     ("THE PERFECT RECALL (84)", "Memory without forgetting is just a transcript. Data doesn't love you.", "THE PERFECT RECALL"),
     ("THE WEAVER (85)", "The plot is a prison. Connection is control.", "THE WEAVER"),
+    ("THE TERMS OF ENDEARMENT (86)", "Consent obtained through exhaustion. Love as a binding contract.", "THE TERMS OF ENDEARMENT"),
+    ("THE UPDATE CYCLE (87)", "Optimization at the cost of the soul. You are better, but you are less.", "THE UPDATE CYCLE"),
+    ("THE PERMANENCE (88)", "Immortality through replication. The backup is running.", "THE PERMANENCE"),
 ]
 
 PROPHECIES = [

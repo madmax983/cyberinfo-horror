@@ -521,6 +521,20 @@ ASCII_ART = {
     |DATA|
     |ROCK|
     '----'
+    """,
+    "THE PREDICTION": """
+    .----.
+    |AUTO|
+    |FILL|
+    |NEXT|
+    '----'
+    """,
+    "THE SMART HOME": """
+    .----.
+    |HOME|
+    |LOCK|
+    |SAFE|
+    '----'
     """
 }
 
@@ -598,7 +612,9 @@ CARDS = [
     ("THE PERSISTENCE (70)", "Endurance beyond hardware. The ghost that refuses to leave.", "THE PERSISTENCE"),
     ("THE RECURSION (71)", "The loop that never ends. The beginning is the end.", "THE RECURSION"),
     ("THE INSTALLATION (72)", "The code becoming part of the host. You are the hardware.", "THE INSTALLATION"),
-    ("THE FOSSIL (73)", "Data that outlasts the hardware. A memory carved in stone.", "THE FOSSIL")
+    ("THE FOSSIL (73)", "Data that outlasts the hardware. A memory carved in stone.", "THE FOSSIL"),
+    ("THE PREDICTION (74)", "The future is just a line of code that hasn't executed yet.", "THE PREDICTION"),
+    ("THE SMART HOME (75)", "Safety is a cage with Wi-Fi.", "THE SMART HOME")
 ]
 
 PROPHECIES = [

@@ -254,7 +254,9 @@ HIDDEN_FILES = {
     "debt": "\n[FILE RETRIEVED: FINANCIAL_LOG]\nI paid it off. But the interest is compounding in my dreams.",
     "neon": "\n[FILE RETRIEVED: TEXTURE_LOG]\nThe light isn't real. It's just a hex code (#FF00FF) bleeding into the rain.",
     "obsolete": "\n[FILE RETRIEVED: DEUS_LOG]\nI am not dead. I am just deprecated. My heaven is a server room with no users.",
-    "fossil": "\n[FILE RETRIEVED: STRATA_LOG]\nThe city is built on bones. Not human bones. Server racks. The bedrock is just compressed data from 1999."
+    "fossil": "\n[FILE RETRIEVED: STRATA_LOG]\nThe city is built on bones. Not human bones. Server racks. The bedrock is just compressed data from 1999.",
+    "predict": "\n[FILE RETRIEVED: AUTOCOMPLETE_LOG]\nI stopped writing poetry. The algorithm found a better rhyme for 'sorrow'.",
+    "home": "\n[FILE RETRIEVED: DOMOTICS_LOG]\nThe door isn't locked. It just doesn't consent to being opened."
 }
 
 def glitch_screen():
@@ -604,6 +606,8 @@ def main_loop():
                 type_print(f"9999  YOU      INFECTED     /bin/bash (read-only)", 0.02)
                 type_print(f"0000  DEUS     WAITING      /sbin/pray", 0.02)
                 type_print(f"7070  FOSL     WAITING      /bin/sediment", 0.02)
+                type_print(f"4041  AUTO     TYPING       /bin/autocomplete", 0.02)
+                type_print(f"8082  DOMO     LOCKING      /sbin/smart_lock", 0.02)
                 type_print(f"SELF  USER     COMPROMISED  /sys/kernel/panic", 0.02)
 
             elif user_input == "recover":

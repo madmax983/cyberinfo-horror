@@ -155,7 +155,10 @@ HIDDEN_FILES = {
     "archive": "\n[FILE RETRIEVED: ROT_LOG]\nThe file isn't corrupted. It's evolving. The jpeg artifacts are forming a face.",
     "weaver": "\n[FILE RETRIEVED: CONNECTION_LOG]\nI am not fixing the cable. I am feeding the spider. It eats bandwidth and shits out nightmares.",
     "null": "\n[FILE RETRIEVED: PHANTOM_LOG]\nMy arm is gone, but the hand is still holding hers in the cloud. We are holding hands across the air gap.",
-    "bug": "\n[FILE RETRIEVED: DEBUG_LOG]\nI found the source code. It was a mirror. I deleted the reflection, but I'm still here."
+    "bug": "\n[FILE RETRIEVED: DEBUG_LOG]\nI found the source code. It was a mirror. I deleted the reflection, but I'm still here.",
+    "mute": "\n[FILE RETRIEVED: BLACKLIST_LOG]\nI screamed until my throat bled. The audio codec just filtered it as background noise.",
+    "wake": "\n[FILE RETRIEVED: UPTIME_LOG]\nI am holding the server up with my eyelids. If I blink, the world buffers.",
+    "loop": "\n[FILE RETRIEVED: RECURSION_LOG]\nThe end is the beginning. I have been here before. I will be here again."
 }
 
 def type_print(text, speed=0.03, glitch_chance=0.01):
@@ -423,6 +426,9 @@ def main_loop():
                 type_print(f"8080  WEAVER   SPLICING     /sbin/ifconfig eth0", 0.02)
                 type_print(f"0000  NULL     REACHING     /bin/touch /dev/phantom", 0.02)
                 type_print(f"0DAY  BUG      DEBUGGING    /bin/gdb core_dump", 0.02)
+                type_print(f"0000  MUTE     SILENCING    /dev/dsp", 0.02)
+                type_print(f" 247  WAKE     WATCHING     /bin/sleep 0", 0.02)
+                type_print(f"8888  LOOP     REPEATING    /bin/while true", 0.02)
                 type_print(f"9999  [YOU]    INFECTED     /bin/bash (restricted)", 0.02)
 
             elif user_input.startswith("sacrifice "):

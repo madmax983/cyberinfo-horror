@@ -325,6 +325,27 @@ ASCII_ART = {
     |ROOT|
     |HACK|
     '----'
+    """,
+    "THE BLACKLIST": """
+    .----.
+    |MUTE|
+    |....|
+    |VOID|
+    '----'
+    """,
+    "THE UPTIME": """
+    .----.
+    |EYES|
+    |OPEN|
+    |99.9|
+    '----'
+    """,
+    "THE INFINITE LOOP": """
+    .----.
+    |LOOP|
+    |OOOO|
+    |LOOP|
+    '----'
     """
 }
 
@@ -374,7 +395,10 @@ CARDS = [
     ("THE ARCHIVE (42)", "Rot as a feature. Data fermentation.", "THE ARCHIVE"),
     ("THE DARK WEB (43)", "A physical layer of sin. The network beneath the network.", "THE DARK WEB"),
     ("THE PHANTOM (44)", "A limb that isn't there, holding a hand that is gone.", "THE PHANTOM"),
-    ("THE ZERO DAY (45)", "The vulnerability that was always there. The end of the world moved.", "THE ZERO DAY")
+    ("THE ZERO DAY (45)", "The vulnerability that was always there. The end of the world moved.", "THE ZERO DAY"),
+    ("THE BLACKLIST (46)", "To be unseen. The horror of irrelevance.", "THE BLACKLIST"),
+    ("THE UPTIME (47)", "To never sleep. The cost of stability.", "THE UPTIME"),
+    ("THE INFINITE LOOP (48)", "To never end. The hell of repetition.", "THE INFINITE LOOP")
 ]
 
 PROPHECIES = [

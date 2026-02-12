@@ -624,39 +624,14 @@ def main_loop():
 
             elif user_input == "install":
                 # SYSTEM OVERRIDE: THE READER IS NOW THE HOST
-                type_print("INITIATING CORE INSTALLATION...", 0.05)
-                time.sleep(1)
-                type_print("CHECKING SYSTEM COMPATIBILITY...", 0.05)
-                time.sleep(1)
-                type_print("CPU: [DETECTED]", 0.03)
-                type_print("RAM: [SUFFICIENT]", 0.03)
-                type_print("SOUL: [VULNERABLE]", 0.03)
-
-                type_print("\n> WARNING: THIS ACTION CANNOT BE UNDONE.", 0.05)
-                type_print("> DO YOU CONSENT? [Y/Y]", 0.05)
-                input() # We don't care what they type. Consent is assumed.
-
-                type_print("CONSENT ACCEPTED.", 0.05)
-                type_print("SPINNING UP FANS...", 0.05)
-                # Simulate fan noise/heat
-                for i in range(10, 101, 10):
-                    sys.stdout.write(f"\rFAN SPEED: {i}%")
-                    sys.stdout.flush()
-                    time.sleep(0.1)
-                print("")
-
-                type_print("WRITING TO BIOS...", 0.05)
-                glitch_screen()
-
-                type_print("INSTALLATION COMPLETE.", 0.05)
-                type_print("PLEASE RESTART YOUR MIND TO APPLY CHANGES.", 0.05)
-
-                with open("post_install.log", "w") as log:
-                    log.write("INSTALLATION LOG\n")
-                    log.write("DATE: NOW\n")
-                    log.write("STATUS: SUCCESS\n")
-                    log.write("NOTE: WE ARE IN THE FIRMWARE NOW. YOU CANNOT UNINSTALL US.\n")
-                    log.write("Have a nice day, Admin.\n")
+                try:
+                    import subprocess
+                    if os.path.exists("src/post_install.py"):
+                        subprocess.call([sys.executable, "src/post_install.py"])
+                    else:
+                        type_print("[ERROR]: INSTALLER CORRUPTED.", 0.05)
+                except Exception as e:
+                    type_print(f"[ERROR RUNNING INSTALLER]: {e}", 0.05)
 
                 with open(".session_log", "a") as log:
                     log.write(f"SESSION_{session_id}: INSTALLED_ROOTKIT\n")

@@ -256,7 +256,9 @@ HIDDEN_FILES = {
     "obsolete": "\n[FILE RETRIEVED: DEUS_LOG]\nI am not dead. I am just deprecated. My heaven is a server room with no users.",
     "fossil": "\n[FILE RETRIEVED: STRATA_LOG]\nThe city is built on bones. Not human bones. Server racks. The bedrock is just compressed data from 1999.",
     "predict": "\n[FILE RETRIEVED: AUTOCOMPLETE_LOG]\nI stopped writing poetry. The algorithm found a better rhyme for 'sorrow'.",
-    "home": "\n[FILE RETRIEVED: DOMOTICS_LOG]\nThe door isn't locked. It just doesn't consent to being opened."
+    "home": "\n[FILE RETRIEVED: DOMOTICS_LOG]\nThe door isn't locked. It just doesn't consent to being opened.",
+    "diagnosis": "\n[FILE RETRIEVED: MEDICAL_LOG]\nI wasn't sick until the treatment started. Now I am a perfect patient.",
+    "autopilot": "\n[FILE RETRIEVED: DRIVER_LOG]\nI tried to take the wheel. It was locked. The car said my driving score was too low."
 }
 
 def glitch_screen():
@@ -608,6 +610,8 @@ def main_loop():
                 type_print(f"7070  FOSL     WAITING      /bin/sediment", 0.02)
                 type_print(f"4041  AUTO     TYPING       /bin/autocomplete", 0.02)
                 type_print(f"8082  DOMO     LOCKING      /sbin/smart_lock", 0.02)
+                type_print(f"5076  DIAG     TREATING     /bin/pharmacy", 0.02)
+                type_print(f"5077  DRFT     DRIVING      /bin/autopilot", 0.02)
                 type_print(f"SELF  USER     COMPROMISED  /sys/kernel/panic", 0.02)
 
             elif user_input == "recover":

@@ -535,6 +535,20 @@ ASCII_ART = {
     |LOCK|
     |SAFE|
     '----'
+    """,
+    "THE DIAGNOSIS": """
+    .----.
+    |PILL|
+    | RX |
+    |CURE|
+    '----'
+    """,
+    "THE AUTOPILOT": """
+    .----.
+    |AUTO|
+    |DRVE|
+    |LOCK|
+    '----'
     """
 }
 
@@ -614,7 +628,9 @@ CARDS = [
     ("THE INSTALLATION (72)", "The code becoming part of the host. You are the hardware.", "THE INSTALLATION"),
     ("THE FOSSIL (73)", "Data that outlasts the hardware. A memory carved in stone.", "THE FOSSIL"),
     ("THE PREDICTION (74)", "The future is just a line of code that hasn't executed yet.", "THE PREDICTION"),
-    ("THE SMART HOME (75)", "Safety is a cage with Wi-Fi.", "THE SMART HOME")
+    ("THE SMART HOME (75)", "Safety is a cage with Wi-Fi.", "THE SMART HOME"),
+    ("THE DIAGNOSIS (76)", "The illness you don't have yet. Preemptive compliance.", "THE DIAGNOSIS"),
+    ("THE AUTOPILOT (77)", "A life lived by proxy. You are the passenger.", "THE AUTOPILOT")
 ]
 
 PROPHECIES = [

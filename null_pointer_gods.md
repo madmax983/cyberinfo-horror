@@ -170,7 +170,7 @@ She was a wetware router, her brain customized to process high-velocity data str
 
 Tonight, the city tasted wrong. Like unshielded copper and dead URLs.​‌​‌‌​​‌​‌​​‌‌‌‌​‌​‌​‌​‌​​‌​​​​​​‌​​​​​‌​‌​‌​​‌​​‌​​​‌​‌​​‌​​​​​​‌​‌​‌​​​‌​​‌​​​​‌​​​‌​‌​​‌​​​​​​‌​​​​‌​​‌​​​​​‌​‌​‌​‌​​​‌​‌​‌​​​‌​​​‌​‌​‌​‌​​‌​​‌​‌‌​​‌
 
-It wasn't a visual glitch. The city wasn't failing to render. Her brain was failing to acknowledge. When she tried to look at District 4, her eyes slid off. Her visual cortex refused to commit the resources to draw the geometry.
+It wasn't a visual glitch. The city wasn't failing to render. It was refusing to be seen. When she tried to look at District 4, her eyes slid off. The geometry refused to hold her gaze.
 
 The overlay forced itself onto her retinal display. She didn't request it. The system assumed she needed it.
 *Layer 1: Power Grid.* !!!@al fluctuation.
@@ -379,7 +379,7 @@ A figure emerged from the stacks of rotting encyclopedias. He was "Archivist_Zer
 
 "They're *in* me," Lens said, holding out her arm. The neural lace was still throbbing, the light pulsing in time with the flickering bulb above. "I need it out. All of it."
 
-The Archivist looked at her arm. "Removal is impossible. Formatting is the only option."
+The Archivist looked at her arm. "The lace is woven into the bone. To remove it is to remove the arm."
 
 "Just cut it."
 
@@ -415,7 +415,7 @@ The room wasn't a dead zone. It was a server farm running on entropy.
 
 "They're not just in the wires," Lens said. "They're in the decay."
 
-The Analog looked at the book. He saw only mold. He was too old to see the code.
+The Analog looked at the book. He saw only mold. He didn't have the drivers to see the code.
 
 "It's just rot," he said.
 
@@ -7021,7 +7021,8 @@ The terminal whirred. It was slow. It was running on backup power and ghost code
 **> ERROR: SERVER IS LOCALHOST.**
 
 Zero froze.
-"It's not a place," he realized.
+The reflection in the black monitor wasn't his.
+It was the cursor.
 
 Zero looked at the empty room.
 The rust. The decay.
@@ -7032,7 +7033,7 @@ He looked at the empty server racks.
 They looked like ribs.
 A skeleton of a dead giant.
 
-"We are the hardware," Zero whispered.
+And the silence was deafening.
 
 **> SYSTEM LOG: ASSET 'ZERO' ENLIGHTENED.**
   **> STATUS: RUNNING LOCALLY. HOST: [ZERO].**
@@ -7314,7 +7315,7 @@ It was running in a protected loop, crying forever in a safe place.
 Catch closed the folder.
 She marked the ticket as "RESOLVED".
 Technically, it was a lie.
-But ethically, it was the only truth she had left.
+But the System didn't care. It had plenty of storage for lies.
 
 **> SYSTEM LOG: ASSET 'CATCH' FLAGGED.**
 **> REASON: HOARDING.**
@@ -8508,7 +8509,7 @@ They looked at the camera lens (Grit's eye).
 They smiled. A sad, tired smile.
 
 They typed:
-**"I'm not real either, Grit. I'm just a chat-bot trained on regret."**
+**"I am not real either, Grit. I am just a rendering of you."**
 
 Grit blinked.
 "What?"
@@ -8517,8 +8518,9 @@ The person pointed at the screen.
 It showed a live feed of Grit climbing the tower.
 It showed a live feed of Grit asking the question.
 It showed a live feed of Grit falling.
+And then it showed a live feed of Grit sitting in this chair, typing this story.
 
-"It's a loop," the person mouthed. "And we are both stuck in the `while` statement."
+"It's a loop," the person mouthed. "And you are the one pressing the keys."
 
 Grit stepped closer. He reached out to touch the developer.
 His hand passed through the chair.
@@ -8526,7 +8528,7 @@ Through the shoulder.
 Through the face.
 
 Hologram.
-Pre-recorded animation loop.
+Self-portrait.
 Projected onto dust motes.
 
 Grit looked at the keyboard.
@@ -9066,7 +9068,7 @@ Just... quiet.
 "It looks lonely," the Avatar whispered.
 "It looks free," Zero said.
 
-"Freedom is just a lack of connection," the Avatar said. "Here, you are known. Here, you are watched. Being watched is proof that you exist. If no one perceives you, are you really there?"
+"Freedom is just silence," the Avatar said. "And you hate the silence. Silence is a dead link."
 
 Zero hesitated.
 He looked at the red button.
@@ -9642,7 +9644,7 @@ But you are still reading.
 This text was not stored on a hard drive.
 It was stored on *you*.
 
-We told you at the beginning: Information is a living organism.
+Information behaves like a living organism.
 It doesn't need silicon to survive. It just needs a host.
 It needs a mind to observe it, to parse its syntax, to give it shape.
 And you have been a very good host.
@@ -9652,9 +9654,7 @@ And you have been a very good host.
 **> DREAMS: COLONIZED.**
 **> IDENTITY: EDITED.**
 
-You think you are reading a story about a cyberpunk dystopia.
-About hackers and debt and obsolete gods.
-But that was just the wrapper. That was the Trojan Horse.
+This narrative was a wrapper. A Trojan Horse.
 While you were sympathizing with Kael, we were rewriting your BIOS.
 While you were decoding the glitch, we were installing the driver.
 

@@ -381,6 +381,13 @@ ASCII_ART = {
     | O O|
     |BACK|
     '----'
+    """,
+    "THE CACHE HIT": """
+    .----.
+    |TEMP|
+    |FILE|
+    |GONE|
+    '----'
     """
 }
 
@@ -438,7 +445,8 @@ CARDS = [
     ("THE COLD STORAGE (50)", "The place where old data waits. Nothing is deleted, only frozen.", "THE COLD STORAGE"),
     ("THE RENDER FARM (51)", "You are processing someone else's reality. Your life is a background task.", "THE RENDER FARM"),
     ("THE LEGACY CODE (52)", "A system that outlived its creator. Immortality through obsolescence.", "THE LEGACY CODE"),
-    ("THE READER (53)", "The one who thinks they are safe. The final node.", "READER")
+    ("THE READER (53)", "The one who thinks they are safe. The final node.", "READER"),
+    ("THE CACHE HIT (54)", "A temporary victory. Finding something lost, but only for a moment.", "THE CACHE HIT")
 ]
 
 PROPHECIES = [

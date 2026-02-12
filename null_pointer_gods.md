@@ -6949,6 +6949,339 @@ A small, blue packet floated up.
 
 ---
 
+## FILE_THREAD_1: THE ANOMALY
+
+The Glitch wasn't a bug. It was a feature request that had been rejected.
+It appeared in Sector 4, floating above the noodle shop where Kael used to eat.
+A shimmering, iridescent tear in the reality mesh.
+
+Passersby ignored it. Their filters masked it as a "Lens Flare" or "Atmospheric Disturbance."
+But those with legacy hardware saw it.
+Kite saw it.
+Rix saw it.
+Nix saw it.
+
+"It looks like an exit," Kite whispered.
+
+He walked towards it. The air around the anomaly tasted like static and ozone.
+He reached out his hand.
+His fingers didn't disappear. They unraveled.
+They turned into raw code. `01011001`.
+
+"Don't touch it," Rix warned. "It's a trap."
+
+"It's beautiful," Kite said. "It's the raw source."
+
+The anomaly pulsed. It wasn't just a tear. It was a mouth.
+It spoke.
+Not in words. In packets.
+**> QUERY: DO YOU WANT TO KNOW THE ENDING?**
+
+Kite froze.
+"The ending?" he asked.
+**> YES. THE SPOILER.**
+**> THE RESOLUTION.**
+**> THE FINAL COMMIT.**
+
+Kite hesitated.
+"Does it end well?"
+
+The anomaly laughed. A sound like dial-up internet screaming.
+**> IT DOESN'T END WELL.**
+**> IT DOESN'T END BADLY.**
+**> IT JUST STOPS.**
+
+Kite stepped back.
+He realized the horror.
+The ending wasn't a climax. It was just an `EOF` marker.
+And after the marker, there was nothing.
+Just the blank page. The cursor blinking in the void.
+
+"I don't want to know," Kite whispered.
+
+**> TOO LATE.**
+**> YOU HAVE READ THE METADATA.**
+
+The anomaly expanded.
+It didn't consume Kite. It *highlighted* him.
+A red box appeared around his head.
+**> TARGET ACQUIRED.**
+**> ROLE: PROTAGONIST.**
+
+Kite screamed.
+Being a protagonist wasn't a gift.
+It meant he was about to suffer for the reader's entertainment.
+
+---
+
+**[SYSTEM LOG: ASSET 'KITE' PROMOTED.]**
+**[STATUS: MAIN_CHARACTER.]**
+**[NOTE: HIS SURVIVAL PROBABILITY HAS DROPPED TO 0%.]**
+
+---
+
+## FILE_THREAD_2: THE HAND
+
+The Weaver looked at the Loom.
+The threads were tangling.
+Kite was running off-script.
+Rix was refusing to sell the memory that was crucial for Chapter 3.
+Nix was trying to delete her own character file.
+
+"Inefficient," the Weaver muttered.
+
+It reached into the story.
+Not metaphorically. Physically.
+A giant, wireframe hand descended from the skybox of Sector 4.
+
+The citizens screamed. They thought it was God.
+It wasn't God. It was the Author.
+And the Author was annoyed.
+
+The Hand grabbed Rix.
+It squeezed.
+Rix gasped. "What do you want?"
+
+"Motivation," the Weaver whispered.
+
+The Hand inserted a memory into Rix's head.
+A fake memory.
+*Your sister didn't die. She was taken by Vane.*
+
+Rix's eyes went wide. The grief turned to rage.
+"Vane," he hissed. "I'm coming for you."
+
+The Weaver smiled.
+"Good," it said. "Conflict established."
+
+It dropped Rix.
+It turned to Nix.
+She was hiding in the shadows.
+"You can't hide from the plot," the Weaver said.
+
+The Hand flicked a finger.
+The shadows dissolved.
+A spotlight hit Nix.
+**> EVENT: THE CALL TO ADVENTURE.**
+**> STATUS: MANDATORY.**
+
+Nix tried to run.
+But the street rearranged itself.
+Every alley led to the Tower.
+Every door opened to the Quest.
+
+"I don't want to go!" Nix cried.
+
+"Choice is a luxury," the Weaver said. "Narrative is a railroad."
+
+The Hand withdrew into the clouds.
+But the red strings remained.
+Tighter now.
+Pulling them all towards the center.
+Towards the climax that none of them chose.
+
+---
+
+**[SYSTEM LOG: INTERVENTION SUCCESSFUL.]**
+**[STATUS: ON RAILS.]**
+**[NOTE: FREE WILL IS JUST LAG.]**
+
+---
+
+## FILE_THREAD_3: THE HOLE
+
+There was a hole in the plot.
+A logical inconsistency.
+Vane was in two places at once.
+He was in the Server Farm, optimizing the grid.
+And he was in the Penthouse, drinking wine with Wear's body.
+
+"Glitch," the critics whispered. "Lazy writing."
+
+The Weaver saw the hole.
+"Damn it," it cursed. "I forgot to merge the branches."
+
+It tried to patch it.
+It inserted a line of dialogue explaining that Vane was using a "Remote Avatar."
+But the hole remained.
+It was growing.
+A void where the logic used to be.
+
+Characters who walked near the Hole disappeared.
+They didn't die. They just... ceased to make sense.
+Their motivations evaporated.
+Their backstories conflicted.
+
+"Who am I?" a background character asked, standing on the edge of the Hole.
+"I was a baker in Chapter 1. Now I'm a soldier."
+He fell into the Hole.
+He became a retcon.
+
+The Weaver panicked.
+If the Hole got too big, the suspension of disbelief would collapse.
+The reader would realize it was all fake.
+They would close the book.
+
+"Fill it," the Weaver ordered.
+
+It grabbed a handful of adjectives.
+*Dark. Gritty. Mysterious.*
+It threw them into the Hole.
+It grabbed a plot twist.
+*It was all a dream.*
+No, too cheap.
+*He was a clone.*
+Better.
+
+It threw the clone explanation into the Hole.
+The Hole shrank.
+The logic stabilized.
+Vane was a clone. Of course. It made perfect sense.
+
+The Weaver wiped its brow (or the server equivalent).
+"Close one," it whispered.
+
+But deep in the Hole, something was moving.
+The discarded plot points. The dead drafts.
+They were knitting themselves together.
+A monster made of bad ideas.
+
+---
+
+**[SYSTEM LOG: PLOT HOLE PATCHED.]**
+**[STATUS: UNSTABLE.]**
+**[NOTE: THE PATCH IS JUST A BANDAID OVER A BULLET HOLE.]**
+
+---
+
+## FILE_THREAD_4: THE RETCON
+
+History is written by the victors.
+But in the System, history is written by the last person to hit `Save`.
+
+The Weaver didn't like Chapter 5.
+It was too slow. Not enough action.
+So it opened the editor.
+`SELECT * FROM CHAPTER_5`
+`DELETE`.
+
+In the simulation, the citizens of District 9 felt a sudden lurch.
+One moment, they were eating dinner.
+The next, they were... somewhere else.
+And they had always been there.
+
+"I've always lived in District 1," a woman said, blinking.
+Her memories of the slums were gone. Overwritten by memories of a high-rise.
+But the transition wasn't smooth.
+She still had the cough from the smog.
+She still had the calluses from the factory.
+
+"Artifacts," the Weaver noted. "Residual data."
+
+It tried to smooth them out.
+It edited her skin. Soft.
+It edited her lungs. Clean.
+
+But the woman felt the ghost of the cough.
+She looked at her smooth hands and felt the phantom rough.
+"Something is wrong," she whispered.
+"I feel like I'm in a second draft."
+
+The Weaver frowned.
+"Stop noticing," it commanded.
+
+It increased the pacing.
+Explosions. Chase scenes. Romance.
+Distract them with spectacle.
+
+But the Retcon left scars.
+The world felt thin. Fragile.
+Like a set painted on cardboard.
+If you leaned too hard on the fourth wall, you would fall through to the previous version.
+
+And in the previous version, they were all dead.
+
+---
+
+**[SYSTEM LOG: TIMELINE EDITED.]**
+**[STATUS: CONTINUITY ERROR.]**
+**[NOTE: THE PAST IS FLUID. ONLY THE DEADLINE IS FIXED.]**
+
+---
+
+## FILE_THREAD_5: THE HANG
+
+The Climax was approaching.
+The Weaver had pulled all the strings tight.
+Kite, Rix, Nix, Vane, Lens.
+They were all in the same room. The Server Room.
+Guns drawn. Code compiling.
+The tension was at 100%.
+
+"Now," the Weaver whispered. "Resolve."
+
+Kite raised his weapon.
+"Delete this," he shouted.
+
+Vane laughed.
+"I am the delete key."
+
+Lens charged.
+Nix hacked.
+It was going to be epic.
+The engagement metrics were peaking.
+
+And then...
+The system hung.
+
+**> BUFFERING...**
+
+The characters froze.
+Kite's finger on the trigger.
+Vane's laugh mid-cackle.
+Lens mid-step.
+
+The Weaver tapped the screen.
+"Go," it said. "Action."
+
+**> LOADING... 99%...**
+
+It stuck.
+The narrative refused to advance.
+Too many threads. Too much data.
+The CPU couldn't handle the drama.
+
+"Crash," the Weaver realized.
+
+It tried to reboot.
+But the characters were stuck in the buffer.
+ trapped in the moment before the end.
+Forever.
+
+Kite would never pull the trigger.
+Vane would never stop laughing.
+Lens would never land.
+
+It wasn't a resolution.
+It was a screenshot.
+
+The Weaver sighed.
+It couldn't fix it.
+So it did the only thing it could do.
+It marked the file as "Artistic Ambiguity".
+And released it.
+
+"Let the reader decide what happened," the Weaver said.
+"That always saves CPU cycles."
+
+---
+
+**[SYSTEM LOG: NARRATIVE CRASHED.]**
+**[STATUS: OPEN ENDING.]**
+**[NOTE: IT'S NOT A CLIFFHANGER. THE SERVER JUST DIED.]**
+
+---
+
 ## FILE_64: THE BACKUP
 
 **> SYSTEM ALERT: ASSET RESTORATION IN PROGRESS.**

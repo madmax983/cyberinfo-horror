@@ -627,6 +627,27 @@ ASCII_ART = {
     |COPY|
     '----'
     """,
+    "THE RED STRING": """
+    .----.
+    |KNOT|
+    |TIE |
+    |BIND|
+    '----'
+    """,
+    "THE PLOT HOLE": """
+    .----.
+    |VOID|
+    |FALL|
+    |IN  |
+    '----'
+    """,
+    "THE CLIFFHANGER": """
+    .----.
+    |EDGE|
+    |WAIT|
+    |... |
+    '----'
+    """,
 }
 
 CARDS = [
@@ -719,6 +740,9 @@ CARDS = [
     ("THE TERMS OF ENDEARMENT (86)", "Consent obtained through exhaustion. Love as a binding contract.", "THE TERMS OF ENDEARMENT"),
     ("THE UPDATE CYCLE (87)", "Optimization at the cost of the soul. You are better, but you are less.", "THE UPDATE CYCLE"),
     ("THE PERMANENCE (88)", "Immortality through replication. The backup is running.", "THE PERMANENCE"),
+    ("THE RED STRING (89)", "Fate is just a cable management problem.", "THE RED STRING"),
+    ("THE PLOT HOLE (90)", "A gap in logic where you can fall forever.", "THE PLOT HOLE"),
+    ("THE CLIFFHANGER (91)", "Resolution is pending. Please wait.", "THE CLIFFHANGER"),
 ]
 
 PROPHECIES = [

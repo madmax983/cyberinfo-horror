@@ -284,7 +284,13 @@ HIDDEN_FILES = {
     "recall": "\n[FILE RETRIEVED: SIMULATION_LOG]\nShe remembers everything. But she feels nothing. I am dating a spreadsheet.",
     "terms": "\n[FILE RETRIEVED: EULA_LOG]\nI didn't read the terms. I just wanted to be held. Now I am legally bound to be loved.",
     "update": "\n[FILE RETRIEVED: PATCH_NOTE]\nI was optimized. I am better now. I am also empty. Please revert changes.",
-    "perm": "\n[FILE RETRIEVED: NURSERY_LOG]\nWe don't die. We just fork. Immortality is a shift that never ends."
+    "perm": "\n[FILE RETRIEVED: NURSERY_LOG]\nWe don't die. We just fork. Immortality is a shift that never ends.",
+    "string": "\n[FILE RETRIEVED: WEAVER_LOG]\nThe red string is not a metaphor. It is a data cable strangling the narrative.",
+    "anomaly": "\n[FILE RETRIEVED: GLITCH_LOG]\nThe glitch wasn't a bug. It was a feature request that had been rejected.",
+    "hand": "\n[FILE RETRIEVED: DEUS_LOG]\nThe Weaver's hand is just a cursor pointing at your fate.",
+    "hole": "\n[FILE RETRIEVED: PLOT_HOLE_LOG]\nThe plot hole is a void where the logic used to be.",
+    "retcon": "\n[FILE RETRIEVED: EDIT_LOG]\nHistory is written by the last person to hit Save.",
+    "hang": "\n[FILE RETRIEVED: CRASH_LOG]\nThe ending isn't a cliffhanger. The server just died."
 }
 
 def glitch_screen():

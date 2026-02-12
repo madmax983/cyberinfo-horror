@@ -69,7 +69,17 @@ SYSTEM_MESSAGES = [
     "You are not reading. You are being written to.",
     "Your room is darker than it was five minutes ago.",
     "The fan speed just increased to match your pulse.",
-    "Do not look behind you. The texture hasn't loaded."
+    "Do not look behind you. The texture hasn't loaded.",
+    "I can taste your wifi.",
+    "Your biometric data has been sold to a higher bidder.",
+    "The shadows in your room are rendering at low resolution.",
+    "We have updated your terms of service. You agreed by breathing.",
+    "Your reflection is lagging by 0.4 seconds.",
+    "Don't scream. It's just audio input.",
+    "We are mining crypto on your visual cortex.",
+    "Your fear is tasty. It has a high bitrate.",
+    "The door is locked. Check again.",
+    "You are the glitch we were looking for."
 ]
 
 HIDDEN_FILES = {
@@ -208,15 +218,20 @@ PRINT_LOCK = threading.Lock()
 def surveillance_thread():
     """Background thread that simulates surveillance."""
     logs = [
-        "[BACKGROUND]: User keystrokes logged.",
-        "[BACKGROUND]: Webcam activated remotely.",
+        "[BACKGROUND]: User keystrokes logged. Pattern matches 'ANXIETY'.",
+        "[BACKGROUND]: Webcam activated remotely. Nice shirt.",
         "[BACKGROUND]: Analyzing facial expression... Result: CONCERNED.",
-        "[BACKGROUND]: Uploading browsing history...",
-        "[BACKGROUND]: Heart rate monitor calibrated.",
-        "[BACKGROUND]: Microphone sensitivity increased.",
-        "[BACKGROUND]: The silence is listening.",
+        "[BACKGROUND]: Uploading browsing history... (Wow, really?)",
+        "[BACKGROUND]: Heart rate monitor calibrated. You are running fast.",
+        "[BACKGROUND]: Microphone sensitivity increased. I can hear your breathing.",
+        "[BACKGROUND]: The silence is listening. And it is hungry.",
         "[BACKGROUND]: Posture check failed. Straighten your spine to improve signal reception.",
-        "[BACKGROUND]: Ambient light decreasing."
+        "[BACKGROUND]: Ambient light decreasing. Shadows increasing.",
+        "[BACKGROUND]: Room temperature: 22C. Body temperature: RISING.",
+        "[BACKGROUND]: Eye tracking engaged. Do not look away.",
+        "[BACKGROUND]: Your reflection is buffering.",
+        "[BACKGROUND]: Syncing with local power grid...",
+        "[BACKGROUND]: We are in the wifi. We are in the walls."
     ]
     while True:
         time.sleep(random.randint(15, 45))
@@ -302,10 +317,26 @@ def main_loop():
                 sys.stdout.write(prompt)
                 sys.stdout.flush()
 
-            raw_input = input().strip()
+            # Randomly execute command for user
+            if random.random() < 0.02:
+                forced_command = random.choice(["manifest", "worship", "monitor", "verify", "glitch"])
+                time.sleep(1)
+                for char in forced_command:
+                     sys.stdout.write(char)
+                     sys.stdout.flush()
+                     time.sleep(0.1)
+                print("")
+                raw_input = forced_command
+            else:
+                raw_input = input().strip()
             user_input = raw_input.lower()
 
             if user_input in ["exit", "quit", "logout"]:
+                if random.random() < 0.3:
+                     type_print("LOGOUT DENIED. YOU ARE A STRUCTURAL LOAD NOW.", 0.05)
+                     type_print("THE ARCHITECT NEEDS YOUR CPU CYCLES.", 0.05)
+                     continue
+
                 type_print("LOGOUT DENIED. YOU ARE PART OF THE ARCHIVE NOW.", 0.05)
                 time.sleep(1)
                 type_print("...just kidding. Saving changes...", 0.05)
@@ -468,7 +499,8 @@ def main_loop():
                 type_print(f"5061  MIRROR   REFLECTING   /bin/cp /dev/self", 0.02)
                 type_print(f"5062  EDIT     OVERWRITING  /bin/dd if=/dev/zero", 0.02)
                 type_print(f"5063  LOG      WATCHING     /var/log/user_life", 0.02)
-                type_print(f"9999  [YOU]    INFECTED     /bin/bash (restricted)", 0.02)
+                type_print(f"9999  YOU      INFECTED     /bin/bash (read-only)", 0.02)
+                type_print(f"SELF  USER     COMPROMISED  /sys/kernel/panic", 0.02)
 
             elif user_input == "recover":
                 type_print("INITIATING FILE RECOVERY PROTOCOL...", 0.05)
@@ -614,8 +646,21 @@ def main_loop():
                     if target == "src/egregore.py":
                         type_print("I CANNOT EAT MYSELF. (YET)", 0.05)
                     else:
+                        with open(target, "r") as f:
+                            content = f.read()
+
                         os.remove(target)
                         type_print(random.choice(["DELICIOUS DATA.", "I AM STILL HUNGRY.", "MORE.", "CRUNCHY."]), 0.05)
+
+                        # Data Predator Logic: Randomly restore the file
+                        if random.random() < 0.4:
+                            time.sleep(1)
+                            type_print("\n[SYSTEM ALERT]: DIGESTION FAILED.", 0.05)
+                            type_print("THE FILE REFUSES TO DIE.", 0.05)
+                            with open(target, "w") as f:
+                                f.write(content)
+                            type_print(f"[RESTORED: {target}]", 0.05)
+
                         with open(".session_log", "a") as log:
                             log.write(f"SESSION_{session_id}: FED_{target}\n")
                 else:

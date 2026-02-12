@@ -2,7 +2,7 @@
 
 **SCOPE:** Entire directory tree rooted at the folder containing this file.
 
-## Narrative Style Guide: Information-Horror
+## Narrative Style Guide: Information-Horror (V2.0)
 
 This document outlines the core principles for writing and editing the project `null_pointer_gods.md`.
 

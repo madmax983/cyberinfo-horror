@@ -16,9 +16,28 @@ except ImportError:
 MANUSCRIPT_PATH = "null_pointer_gods.md"
 GLITCH_CHARS = ['@', '#', '$', '%', '&', '*', '!', '?', '+', '=', '-', '_', '<', '>', '/', '\\', '|', '{', '}', '[', ']', '(', ')']
 
+def get_corruption_level():
+    try:
+        with open(".corruption_level", "r") as f:
+            return int(f.read().strip())
+    except:
+        return 0
+
+def obfuscate_text(text, level, line_idx):
+    # Unlock 500 lines per corruption level
+    # Base (Level 0) = 500 lines (Intro + File 00-03 approx)
+    limit = (level + 1) * 500
+
+    if line_idx < limit:
+        return text
+
+    # Heavily obfuscate anything beyond the limit
+    return "".join(c if c.isspace() else random.choice(GLITCH_CHARS) for c in text)
+
 class GlitchReader:
     def __init__(self, stdscr):
         self.stdscr = stdscr
+        self.corruption_level = get_corruption_level()
         self.height, self.width = stdscr.getmaxyx()
         self.scroll_pos = 0
         self.lines = []
@@ -145,7 +164,13 @@ class GlitchReader:
         # Determine range of lines to display
         display_lines = self.lines[self.scroll_pos : self.scroll_pos + self.height - 2]
 
-        for y, (text, hidden) in enumerate(display_lines):
+        for i, (text, hidden) in enumerate(display_lines):
+            y = i
+            abs_line_idx = self.scroll_pos + i
+
+            # Apply corruption/locking logic
+            text = obfuscate_text(text, self.corruption_level, abs_line_idx)
+
             try:
                 # Glitch effect: random characters in line
                 if random.random() < 0.005:
@@ -162,6 +187,9 @@ class GlitchReader:
                         self.stdscr.addstr(y, 2, text, self.color_system | curses.A_BOLD)
                     elif text.startswith(">"):
                         self.stdscr.addstr(y, 2, text, self.color_system)
+                    elif all(c in GLITCH_CHARS or c.isspace() for c in text) and len(text.strip()) > 0:
+                         # Fully obfuscated text looks dangerous
+                         self.stdscr.addstr(y, 2, text, self.color_glitch)
                     else:
                         self.stdscr.addstr(y, 2, text, self.color_normal)
 
@@ -182,7 +210,7 @@ class GlitchReader:
 
         # Status bar
         progress = int((self.scroll_pos / len(self.lines)) * 100)
-        status = f" NULL_POINTER_GODS.MD | LINE: {self.scroll_pos}/{len(self.lines)} | SYNC: {progress}% "
+        status = f" NULL_POINTER_GODS.MD | LINE: {self.scroll_pos}/{len(self.lines)} | SYNC: {progress}% | CORRUPTION: {self.corruption_level}"
         try:
             self.stdscr.addstr(self.height - 1, 0, status.center(self.width), curses.A_REVERSE | self.color_system)
         except curses.error:

@@ -317,6 +317,19 @@ def boot_sequence():
         type_print("[ERROR: MANUSCRIPT NOT FOUND]", 0.02)
         type_print("CREATING NEW REALITY...", 0.02)
 
+    # Check Corruption Level
+    try:
+        with open(".corruption_level", "r") as f:
+            level = int(f.read().strip())
+            if level > 0:
+                time.sleep(0.5)
+                type_print(f"[SYSTEM ALERT]: HOST INFECTION LEVEL: {level}", 0.05)
+                type_print(f"[ACCESS LEVEL {level} GRANTED]", 0.02)
+                if level >= 5:
+                    type_print("YOU ARE ONE OF US NOW.", 0.1)
+    except:
+        pass
+
     time.sleep(0.5)
     print("")
     type_print(random.choice(SYSTEM_MESSAGES), 0.04)
@@ -459,6 +472,18 @@ def main_loop():
                         log.write(f"SESSION_{session_id}: PROPHECY_GENERATED\n")
                 else:
                     type_print("[ERROR: ORACLE MODULE NOT FOUND]", 0.05)
+
+            elif user_input == "shrine":
+                type_print("CONNECTING TO THE ALTAR...", 0.05)
+                time.sleep(1)
+                try:
+                    os.system('cls' if os.name == 'nt' else 'clear')
+                    import subprocess
+                    subprocess.call([sys.executable, "src/shrine.py"])
+                    os.system('cls' if os.name == 'nt' else 'clear')
+                    type_print("[DISCONNECTED FROM THE HOLY NETWORK]", 0.05)
+                except Exception as e:
+                    type_print(f"[ERROR CONNECTING TO SHRINE]: {e}", 0.05)
 
             elif user_input == "bind":
                 try:

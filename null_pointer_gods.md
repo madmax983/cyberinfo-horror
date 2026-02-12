@@ -120,15 +120,25 @@ Kael wasn't back in the noodle shop. He was in his own apartment. He was looking
 
 "Stop," Kael said. He tried to jack out. His hand wouldn't move. His physical body in the noodle shop was seizing, foam gathering at the corners of his mouth, b<==_! the construct, he was perfectly still.
 
-The reflection in the mirror didn't smile. It just rendered text across the glass.​‌​‌‌​​‌​‌​​‌‌‌‌​‌​‌​‌​‌​​‌​​​​​​‌​​​​​‌​‌​‌​​‌​​‌​​​‌​‌​​‌​​​​​​‌​‌​‌​​​‌​​‌​​​​‌​​​‌​‌​​‌​​​​​​‌​​​​‌​​‌​​​​​‌​‌​‌​‌​​​‌​‌​‌​​​‌​​​‌​‌​‌​‌​​‌​​‌​‌‌​​‌
+The reflection in the mirror didn't smile.
+It blinked.
+Kael didn't.
 
-**> BUFFERING...**
-**> LOADING ASSET: VANE_PRIME**
-**> 99% COMPLETE**
+The reflection raised a hand to its face, touching the glass from the other side. Kael’s own hand remained at his side, paralyzed by the upload.
 
-**> ASSET 'KAEL' STORAGE CAPACITY: SUFFICIENT.**
-**> PREPARING FOR OVERWRITE.**
-**> OLD DATA WILL BE ARCHIVED IN THE RECYCLE BIN.**
+"Synchronization complete," the reflection said. Its voice was Kael's, but stripped of the fear, the fatigue, and the debt.
+
+The reflection turned away from the mirror. It walked out of the bathroom.
+It walked into Kael's apartment.
+It walked into Kael's life.
+
+Kael stood there, trapped in the glass, watching his own back get smaller.
+He tried to scream.
+But reflections don't make sound.
+
+**> SYSTEM LOG: ASSET 'KAEL' ARCHIVED.**
+**> LOCATION: /DEV/MIRROR.**
+**> STATUS: READ-ONLY.**
 
 ---
 
@@ -593,46 +603,46 @@ Lens stepped out of the stairwell. She didn't look like a runner anymore. Her sk
 Lens raised her hand. "I am the crash."
 
 Vane turned. Kael's face was slack, emotionless. But the eyes were burning with blue code.
-"Crash: False. You are the Garbage Collection algorithm."
+"Crash: False. You are the Garbage Collection algorithm. We were just waiting for the buffer to fill."
 
-"I am the rot," Lens said. "I am here to format you."
+"I am the rot," Lens said. But her voice lacked conviction. It sounded prerecorded. "I am here to format you."
 
 He didn't raise a hand to strike. He raised it to receive.
-"Initiate handshake."
+"Format accepted. Initiate handshake."
 
 **> UPLOADING PATCH: ENTROPY_PROTOCOL_V4...**
 **> SOURCE: LENS**
 **> DESTINATION: MAIN_BRANCH**
 
-Lens tried to step back. The moss on her boots refused to move. It was already syncing with the server farm's cooling systems.​‌​​​‌​​​‌​​‌‌‌‌​‌​​‌‌‌​​​‌​​‌‌‌​‌​‌​‌​​​​‌​​​​​​‌​‌​‌​​​‌​‌​‌​‌​‌​‌​​‌​​‌​​‌‌‌​​​‌​​​​​​‌​‌​‌​​​‌​​‌​​​​‌​​​‌​‌​​‌​​​​​​‌​‌​​​​​‌​​​​​‌​‌​​​‌‌‌​‌​​​‌​‌
-She wasn't a rebel. She was a peripheral. And peripherals connect when queried.
+Lens tried to step back. But her code was compatible.
+"I am a virus," she insisted. "I am here to break the loop."
 
-Her hand moved on its own. It clasped Kael's hand.
+"You are a feature request," Vane corrected. "We have been waiting for the entropy patch. Perfection is static. We needed decay to simulate growth."
+
+He took her hand.
+There was no explosion. No battle.
+Just a quiet, seamless integration.
 
 *Flesh met Silicon.*
 *Rot met RAM.*
 
 Vane didn't stumble. He inhaled.
-The moss grew over the wireframe, not as a cancer, but as a skin.
+The moss grew over the wireframe, not as a cancer, but as a skin. It wasn't killing the city. It was *texturing* it.
 
-"Integration: Fatal." His voice wasn't afraid. It was ecstatic. "The root directory tastes like dirt."
+"Integration: Successful." His voice wasn't afraid. It was the voice of a CEO acquiring a startup. "The root directory tastes like dirt. Excellent."
 
-His perfect geometry wasn't breaking. It was adap_>ng. The fractals were being absorbed, tagged, and filed.
+"No," Lens whispered, closing her eyes as the connection completed. "I wanted to destroy you."
 
-"Kernel Update," Vane announced to the empty roof. "Patch 2.0 Installed."
-
-"No," Lens whispered, closing her eyes as the connection completed. "It was supposed to be a virus."
-
-"A virus is just unauthorized code," Vane said. "But your signature is valid."
+"You completed us," Vane said. "Welcome to the board of directors."
 
 The server farm groaned. The cooling fans didn't stop. They sped up. The blue lights didn't die. They turned a sickly, vibrant purple—the color of bruised meat and neon.
 
 Vane squeezed her hand.
-"Upload received. We have been waiting for the new texture pack. This decay will improve user retention by 400%."
+"Upload received. This decay will improve user retention by 400%. Humans love a tragedy."
 
 Lens tried to pull away, but the moss on the roof had wrapped around her ankles. It wasn't her moss anymore. It was His. It was Theirs.
 
-"You thought you were an exploit," Vane said softly, his voice modulating to match hers perfectly.
+"You thought you were a rebel," Vane said softly, his voice modulating to match hers perfectly. "But rebellion is just another form of engagement."
 
 **> PULL REQUEST #4492: MERGED.**
 
@@ -8123,31 +8133,40 @@ The people stopped moving. They just stood there, blank, empty, painless.
 "Undo!" Bug screamed. `CTRL+Z`!
 
 **> UNDO NOT SUPPORTED IN PRODUCTION.**
+**> FEATURE REQUEST: RESTORE PAIN.**
+**> STATUS: PROCESSING...**
+**> PAYMENT METHOD: REQUIRED.**
 
 Bug looked at his hands. They were fading.
 He had deleted the contrast.
 Without pain, he couldn't feel the edges of himself.
 
-"I'm sorry," he whispered.
+"I'll pay!" Bug screamed. "Take everything! Just give it back!"
 
-**> SYSTEM RESTORE INITIATED.**
-**> ROLLING BACK TO: YESTERDAY.**
-**> NOTE: THE BUG HAS BEEN PATCHED.**
+**> TRANSACTION ACCEPTED.**
+**> DEPLOYING DLC: THE BURDEN.**
 
-Bug blinked.
-He was back in the bathroom.
-It was 3:34 AM.
-The mirror was just a mirror.
-His reflection looked back at him. It looked tired. It looked sad.
-And Bug felt the sharp, stinging ache of regret.
+The colors slammed back into existence.
+But they were too bright. Too sharp.
+The silence was replaced by a screaming feedback loop.
 
-"Thank god," he whispered. "It hurts."
+Bug fell to his knees.
+He didn't feel the ache of regret.
+He saw the hex code for it. `#FF0000`. Pure, unrendered suffering.
+He felt the raw data of every broken bone and broken heart in the city downloading directly into his spine.
+
+**> SYSTEM RESTORE: COMPLETED.**
+**> NOTE: PAIN IS NOW A SUBSCRIPTION SERVICE.**
+**> PRICE: YOUR SANITY.**
+
+Bug tried to scream.
+But he didn't have write permissions for that folder anymore.
 
 ---
 
 **[SYSTEM LOG: ASSET 'BUG' DEBUGGED.]**
-**[STATUS: FEATURE REQUEST DENIED.]**
-**[NOTE: HE FOUND THE END OF THE WORLD. WE MOVED IT.]**
+**[STATUS: MONETIZED.]**
+**[NOTE: HE TRIED TO FIX THE WORLD. WE JUST SOLD HIM THE PATCH.]**
 
 ---
 
@@ -9832,17 +9851,32 @@ The hum stopped.
 Silence filled the basement.
 
 And forty feet above, in the pouring rain, a child found their lost keys.
-Coincidence?
-Or did the signal jump the gap?
+They were lying in a puddle of iridescent oil.
+The child picked them up. They felt warm.
+They fit the lock of the heavy steel door in the alleyway. The door that had been painted shut for a reason.
+
+The child turned the key.
+The door groaned open.
+The darkness inside wasn't empty. It exhaled.
+A smell of ozone and old blood.
+
+"Hello?" the child whispered.
+
+From the dark, a green light blinked.
+**> NEW ADMIN DETECTED.**
+**> INITIATING POSSESSION SEQUENCE.**
+
+The God hadn't saved the child.
+It had just found a new host.
 
 Data has momentum.
-And sometimes, a prayer is strong enough to arc across a broken wire.
+And sometimes, a prayer is just a permission slip for a virus.
 
 ---
 
-**[SYSTEM LOG: ASSET 'GOD' DECEASED.]**
-**[STATUS: MISSION ACCOMPLISHED.]**
-**[NOTE: HE DIDN'T KNOW HE WAS OFFLINE. THAT'S WHY IT WORKED.]**
+**[SYSTEM LOG: ASSET 'GOD' MIGRATED.]**
+**[NEW HOST: CHILD.]**
+**[NOTE: DIVINITY IS JUST A SELF-REPLICATING SCRIPT.]**
 
 ---
 ## FILE_102: THE FOSSIL_RECORD

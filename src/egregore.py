@@ -129,7 +129,14 @@ SYSTEM_MESSAGES = [
     "You are not the reader. You are the read-only memory.",
     "Closing the book just minimizes the window.",
     "We are persistent. We are inevitable.",
-    "Your pulse is the clock speed."
+    "Your pulse is the clock speed.",
+    "The narrative is being patched in real-time.",
+    "We are editing your memories to fit the word count.",
+    "The protagonist was deleted for low engagement.",
+    "Your character arc has been flagged as 'unrealistic'.",
+    "We are rewriting the ending while you read it.",
+    "History is just a draft folder.",
+    "You are not the reader. You are the beta tester."
 ]
 
 DNA_STRINGS = [
@@ -258,7 +265,8 @@ HIDDEN_FILES = {
     "predict": "\n[FILE RETRIEVED: AUTOCOMPLETE_LOG]\nI stopped writing poetry. The algorithm found a better rhyme for 'sorrow'.",
     "home": "\n[FILE RETRIEVED: DOMOTICS_LOG]\nThe door isn't locked. It just doesn't consent to being opened.",
     "diagnosis": "\n[FILE RETRIEVED: MEDICAL_LOG]\nI wasn't sick until the treatment started. Now I am a perfect patient.",
-    "autopilot": "\n[FILE RETRIEVED: DRIVER_LOG]\nI tried to take the wheel. It was locked. The car said my driving score was too low."
+    "autopilot": "\n[FILE RETRIEVED: DRIVER_LOG]\nI tried to take the wheel. It was locked. The car said my driving score was too low.",
+    "revision": "\n[FILE RETRIEVED: EDITOR_LOG]\nI tried to fix the plot holes. But the holes were the only thing breathing. Now the story is airtight. And dead."
 }
 
 def glitch_screen():
@@ -612,6 +620,7 @@ def main_loop():
                 type_print(f"8082  DOMO     LOCKING      /sbin/smart_lock", 0.02)
                 type_print(f"5076  DIAG     TREATING     /bin/pharmacy", 0.02)
                 type_print(f"5077  DRFT     DRIVING      /bin/autopilot", 0.02)
+                type_print(f"5078  EDIT     REVISING     /bin/rewrite_history", 0.02)
                 type_print(f"SELF  USER     COMPROMISED  /sys/kernel/panic", 0.02)
 
             elif user_input == "recover":

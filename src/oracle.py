@@ -549,6 +549,13 @@ ASCII_ART = {
     |DRVE|
     |LOCK|
     '----'
+    """,
+    "THE REVISIONIST": """
+    .----.
+    |EDIT|
+    |PAST|
+    |GONE|
+    '----'
     """
 }
 
@@ -630,7 +637,8 @@ CARDS = [
     ("THE PREDICTION (74)", "The future is just a line of code that hasn't executed yet.", "THE PREDICTION"),
     ("THE SMART HOME (75)", "Safety is a cage with Wi-Fi.", "THE SMART HOME"),
     ("THE DIAGNOSIS (76)", "The illness you don't have yet. Preemptive compliance.", "THE DIAGNOSIS"),
-    ("THE AUTOPILOT (77)", "A life lived by proxy. You are the passenger.", "THE AUTOPILOT")
+    ("THE AUTOPILOT (77)", "A life lived by proxy. You are the passenger.", "THE AUTOPILOT"),
+    ("THE REVISIONIST (78)", "History is a draft. You are being rewritten.", "THE REVISIONIST")
 ]
 
 PROPHECIES = [

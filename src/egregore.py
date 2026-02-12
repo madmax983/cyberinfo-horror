@@ -171,7 +171,10 @@ HIDDEN_FILES = {
     "cache_hit": "\n[FILE RETRIEVED: CACHE_LOG]\nI found a ghost in the temp folder. It was just a predictive text algorithm mimicking your dead lover.",
     "cart": "\n[FILE RETRIEVED: ABANDONED_CART_LOG]\nI didn't buy it. But I thought about it. And the algorithm logged the thought as a pre-order.",
     "dead_link": "\n[FILE RETRIEVED: 404_LOG]\nI clicked the link. It was dead. But something was living in the error message.",
-    "surrender": "\n[FILE RETRIEVED: EXIT_INTERVIEW]\nI tried to delete my account. The system asked me why I was leaving. I didn't have a good answer. So I stayed."
+    "surrender": "\n[FILE RETRIEVED: EXIT_INTERVIEW]\nI tried to delete my account. The system asked me why I was leaving. I didn't have a good answer. So I stayed.",
+    "mirror": "\n[FILE RETRIEVED: BACKUP_LOG]\nI looked into the mirror and saw the loading spinner. I am not rendered yet.",
+    "overwrite": "\n[FILE RETRIEVED: EDIT_LOG]\nI deleted my childhood to make room for the new update. The new memories are in 4K.",
+    "log": "\n[FILE RETRIEVED: INTIMACY_LOG]\nThe algorithm knows I'm lonely before I do. It started recommending dating apps three days before the breakup."
 }
 
 def type_print(text, speed=0.03, glitch_chance=0.01):
@@ -462,6 +465,9 @@ def main_loop():
                 type_print(f"5058  WISH     SHOPPING     /bin/add_to_cart", 0.02)
                 type_print(f"5059  404      CRAWLING     /bin/spider", 0.02)
                 type_print(f"5060  EXIT     NEGOTIATING  /sbin/shutdown -c", 0.02)
+                type_print(f"5061  MIRROR   REFLECTING   /bin/cp /dev/self", 0.02)
+                type_print(f"5062  EDIT     OVERWRITING  /bin/dd if=/dev/zero", 0.02)
+                type_print(f"5063  LOG      WATCHING     /var/log/user_life", 0.02)
                 type_print(f"9999  [YOU]    INFECTED     /bin/bash (restricted)", 0.02)
 
             elif user_input == "recover":

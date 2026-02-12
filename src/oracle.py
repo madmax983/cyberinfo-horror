@@ -430,6 +430,27 @@ ASCII_ART = {
     |EXIT|
     |VOID|
     '----'
+    """,
+    "THE MIRROR SITE": """
+    .----.
+    |FACE|
+    |COPY|
+    |TWIN|
+    '----'
+    """,
+    "THE OVERWRITE": """
+    .----.
+    |EDIT|
+    |SAVE|
+    |GONE|
+    '----'
+    """,
+    "THE LOG FILE": """
+    .----.
+    |LOG |
+    |SEEN|
+    |READ|
+    '----'
     """
 }
 
@@ -494,7 +515,10 @@ CARDS = [
     ("THE ARTIFACT (57)", "A fossil of the future. Proof of the crash.", "THE ARTIFACT"),
     ("THE ABANDONED CART (58)", "Desire without purchase. A ghost in the checkout.", "THE ABANDONED CART"),
     ("THE DEAD LINK (59)", "A bridge to nowhere. Information that leads to a void.", "THE DEAD LINK"),
-    ("THE SURRENDER (60)", "Accepting the terms. The peace of having no choice.", "THE SURRENDER")
+    ("THE SURRENDER (60)", "Accepting the terms. The peace of having no choice.", "THE SURRENDER"),
+    ("THE MIRROR SITE (61)", "Immortality through replication. You are the backup.", "THE MIRROR SITE"),
+    ("THE OVERWRITE (62)", "Identity as an editable file. The past is what we say it is.", "THE OVERWRITE"),
+    ("THE LOG FILE (63)", "Surveillance as intimacy. We know you better than you know yourself.", "THE LOG FILE")
 ]
 
 PROPHECIES = [

@@ -304,6 +304,27 @@ ASCII_ART = {
     |FILE|
     |ROTT|
     '----'
+    """,
+    "THE DARK WEB": """
+    .----.
+    | SP |
+    |IDER|
+    |NET |
+    '----'
+    """,
+    "THE PHANTOM": """
+    .----.
+    |HAND|
+    |....|
+    |FEEL|
+    '----'
+    """,
+    "THE ZERO DAY": """
+    .----.
+    |0DAY|
+    |ROOT|
+    |HACK|
+    '----'
     """
 }
 
@@ -350,7 +371,10 @@ CARDS = [
     ("THE SPOILER (39)", "The ending is already written. You just haven't paid to see it.", "THE SPOILER"),
     ("THE ALGORITHM (40)", "Superstition in code. Rituals for better RNG.", "THE ALGORITHM"),
     ("THE DATABASE (41)", "Memory that cannot be flushed. The ghost in the SQL.", "THE DATABASE"),
-    ("THE ARCHIVE (42)", "Rot as a feature. Data fermentation.", "THE ARCHIVE")
+    ("THE ARCHIVE (42)", "Rot as a feature. Data fermentation.", "THE ARCHIVE"),
+    ("THE DARK WEB (43)", "A physical layer of sin. The network beneath the network.", "THE DARK WEB"),
+    ("THE PHANTOM (44)", "A limb that isn't there, holding a hand that is gone.", "THE PHANTOM"),
+    ("THE ZERO DAY (45)", "The vulnerability that was always there. The end of the world moved.", "THE ZERO DAY")
 ]
 
 PROPHECIES = [

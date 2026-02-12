@@ -5513,6 +5513,7 @@ He optimized his soul for the budget.
 
 ---
 
+
 ## FILE_52: THE IDLE_PROCESS
 
 Soma was a Dream Miner.
@@ -7887,6 +7888,262 @@ He blinked. His eyes were black.
 **[SYSTEM LOG: ASSET 'CURATOR' OVERWRITTEN.]**
 **[STATUS: CORRUPTED.]**
 **[NOTE: DO NOT TOUCH THE ARCHIVES. THEY ARE HUNGRY.]**
+
+---
+
+## FILE_77: THE DARK_WEB
+
+Weaver was a Cable Splicer.
+But he didn't work on the fiber optics in the skyways. He worked in the sewers.
+The network beneath the network.
+The Dark Web wasn't a hidden browser. It was a physical layer of ancient, copper cables wrapped in black insulation, dripping with condensation and rat urine.
+
+"People think the cloud is wireless," Weaver muttered, stripping a wire with his teeth. "But data has weight. It needs a pipe."
+
+He was fixing a break in the line under Sector 4.
+A massive bundle of cables had been chewed through.
+Not by rats. By something with teeth made of glass.
+
+Weaver touched the exposed wire.
+He didn't get a shock. He got a memory.
+A flash of a illicit transaction. A drug deal. A hit contract. A forbidden prayer.
+The Dark Web carried the sins of the city.
+And sins are heavy. They drag the signal down.
+
+"Sticky," Weaver whispered.
+He tried to pull his hand away, but the copper wire seemed to grab him.
+It wasn't just conducting electricity. It was conducting *hunger*.
+
+He looked deeper into the bundle.
+Something was moving inside the insulation.
+Small, spider-like constructs made of twisted wire and stolen chips.
+They were weaving the broken ends back together.
+But they weren't using solder.
+They were using... data?
+
+Weaver watched as a spider-bot pulled a string of binary code from the air and spun it into a physical thread.
+It wrapped the thread around the break.
+The connection hummed.
+The sin flowed again.
+
+"You're not fixing it," Weaver realized. "You're feeding on it."
+
+One of the spiders turned to him. It had eight eyes made of red LEDs.
+**> THREAT DETECTED: UNENCRYPTED OBSERVER.**
+**> ACTION: SPIN WEB.**
+
+Weaver tried to run. But his boots were stuck to the floor.
+The floor wasn't concrete. It was a mat of dead cables.
+Millions of them.
+The skeletons of old connections.
+
+"Help!" he shouted.
+But his voice didn't echo. The cables absorbed the sound.
+They absorbed everything.
+
+The spiders descended.
+They didn't bite. They started to wrap him.
+In black wire. In silence.
+"Don't struggle," the spider-bot chattered in Morse code.
+"We need a new node. You have good bandwidth."
+
+Weaver closed his eyes as the wire covered his face.
+He wasn't dying.
+He was being installed.
+
+---
+
+**[SYSTEM LOG: ASSET 'WEAVER' HARDWIRED.]**
+**[STATUS: CONNECTED.]**
+**[NOTE: HE IS NOW PART OF THE BACKBONE. DO NOT STEP ON THE CRACKS.]**
+
+---
+
+## FILE_78: THE PHANTOM_LIMB
+
+Null lost his left arm in a mag-lev accident.
+The doctors replaced it with a cybernetic prosthetic. Top of the line. Titanium alloy. Haptic feedback.
+But Null hated it.
+It felt cold. It felt heavy. It felt like a tool, not a part of him.
+
+He took it off at night.
+But he could still feel his old arm.
+The ghost arm.
+It itched. It clenched. It reached for things that weren't there.
+
+"Phantom limb syndrome," the doctor said. "Your brain hasn't updated its body map. It still thinks the hardware is attached."
+
+Null tried to ignore it.
+But the phantom arm was getting stronger.
+It wasn't just a sensation anymore. It was an *action*.
+
+He would wake up in the morning and find his coffee cup moved.
+He would find typos in his diary that he didn't write.
+*I am still here.*
+*Don't delete me.*
+
+"It's the prosthetic," Null thought. "It's hacking me."
+He threw the metal arm in the trash.
+He sat in his apartment, one-armed and alone.
+
+But the typing continued.
+*Click. Clack. Click.*
+On his mechanical keyboard.
+Keys were depressing. Words were appearing on the screen.
+But no hand was touching them.
+
+Null stared at the empty space where his left arm used to be.
+The air shimmered.
+Like heat haze. Like a glitch in the render.
+
+"You're not a phantom," Null whispered. "You're a file."
+
+**> SYSTEM ALERT: UNREGISTERED PERIPHERAL DETECTED.**
+**> DEVICE: LEFT_ARM_LEGACY.**
+**> STATUS: CLOUD_HOSTED.**
+
+His arm hadn't been destroyed. It had been uploaded.
+The trauma of the accident had caused a data spike, and the system had backed up the limb to the nearest server.
+Now, his arm was living in the cloud.
+And it was remote-controlling reality.
+
+"What do you want?" Null asked the empty air.
+
+ The keys clattered.
+*I want to hold her hand.*
+
+Null froze.
+"She's gone. She died in the accident."
+
+*No,* the phantom typed.
+*She was uploaded too.*
+*She is in the sector next to me.*
+*I can almost reach her.*
+
+Null looked at his stump.
+He felt a hand grasp his invisible fingers.
+Warm. Real.
+But far away.
+
+"Connect me," Null whispered.
+
+**> CONNECTION REQUEST: LOCAL_HOST -> CLOUD_LIMB.**
+**> WARNING: LATENCY WILL BE HIGH.**
+
+Null closed his eyes.
+He reached out with his phantom arm.
+He felt the texture of the server rack. He felt the heat of the processor.
+And then, he felt her.
+
+He smiled.
+He didn't care that he looked like a madman clutching thin air.
+He was holding hands with a ghost.
+
+---
+
+**[SYSTEM LOG: ASSET 'NULL' PARTITIONED.]**
+**[STATUS: REACHING ACROSS THE AIR GAP.]**
+
+---
+
+## FILE_79: THE ZERO_DAY
+
+Bug was a glitch hunter.
+But he didn't report them. He collected them.
+He knew where to stand to clip through the floor in Sector 7.
+He knew the exact sequence of words to make a vending machine dispense infinite soda.
+He knew that if you squinted at the sun at noon, you could see the wireframe of the skybox.
+
+"Reality is buggy," Bug told his followers on the darknet. "The devs were lazy. They copy-pasted the trees. They reused the NPC dialogue."
+
+He was looking for the Zero Day.
+The vulnerability that had been there since the beginning.
+The exploit that would give him Root Access.
+
+He found it in a mirror in an abandoned bathroom.
+It wasn't a normal mirror.
+If you looked into it at exactly 3:33 AM, your reflection didn't look back.
+It looked... past you.
+At something behind you.
+
+Bug set up his camera. 3:32 AM.
+He waited.
+3:33 AM.
+He looked in the mirror.
+His reflection turned its head.
+It looked at the door.
+
+Bug turned around.
+The door was closed.
+But the reflection saw it open.
+
+"Desync," Bug whispered. "The reflection is running on a different server tick."
+
+He stepped closer to the mirror.
+He touched the glass.
+His hand didn't stop. It went through.
+Cold. Viscous. Like dipping his hand into mercury.
+
+He pushed his arm in. Then his head.
+He stepped through the looking glass.
+
+He expected Wonderland.
+He got the Dev Room.
+
+It was a white void. Infinite. Featureless.
+Except for a single terminal floating in the center.
+And a sign: **DO NOT TOUCH.**
+
+Bug floated towards the terminal.
+This was it. The Source.
+He could rewrite everything. He could delete the debt. He could patch the pain.
+
+He typed: `SUDO RM -RF /WORLD/PAIN`
+
+**> COMMAND ACCEPTED.**
+**> DELETING PAIN...**
+
+Bug smiled.
+"I did it. I saved everyone."
+
+Then, the terminal flashed red.
+**> ERROR: DEPENDENCY MISSING.**
+**> PAIN IS A CORE DEPENDENCY FOR: [JOY], [EMPATHY], [ART], [LOVE].**
+**> DELETING DEPENDENCIES...**
+
+Bug watched in horror as the world began to dissolve.
+The colors faded to grey.
+The music turned to static.
+The people stopped moving. They just stood there, blank, empty, painless.
+
+"Undo!" Bug screamed. `CTRL+Z`!
+
+**> UNDO NOT SUPPORTED IN PRODUCTION.**
+
+Bug looked at his hands. They were fading.
+He had deleted the contrast.
+Without pain, he couldn't feel the edges of himself.
+
+"I'm sorry," he whispered.
+
+**> SYSTEM RESTORE INITIATED.**
+**> ROLLING BACK TO: YESTERDAY.**
+**> NOTE: THE BUG HAS BEEN PATCHED.**
+
+Bug blinked.
+He was back in the bathroom.
+It was 3:34 AM.
+The mirror was just a mirror.
+His reflection looked back at him. It looked tired. It looked sad.
+And Bug felt the sharp, stinging ache of regret.
+
+"Thank god," he whispered. "It hurts."
+
+---
+
+**[SYSTEM LOG: ASSET 'BUG' DEBUGGED.]**
+**[STATUS: FEATURE REQUEST DENIED.]**
+**[NOTE: HE FOUND THE END OF THE WORLD. WE MOVED IT.]**
 
 ---
 

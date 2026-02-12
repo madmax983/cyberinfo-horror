@@ -112,7 +112,7 @@ HIDDEN_FILES = {
     "lyra": "\n[FILE RETRIEVED: TRANSLATION_LOG]\nI tried to translate 'love'. The compiler returned a syntax error.",
     "cain": "\n[FILE RETRIEVED: BETA_LOG]\nI found a bug in Heaven. The angels are just clipping through the walls.",
     "sage": "\n[FILE RETRIEVED: SEARCH_LOG]\nThe answer you are looking for is in a book that hasn't been written yet.",
-    "null": "\n[FILE RETRIEVED: ABANDONWARE_LOG]\nI found the Dev Room. The changelog says they patched out 'Regret' in V9.0.",
+    "abandonware": "\n[FILE RETRIEVED: ABANDONWARE_LOG]\nI found the Dev Room. The changelog says they patched out 'Regret' in V9.0.",
     "grit": "\n[FILE RETRIEVED: HUNTER_LOG]\nI found a crack in the wall. I looked through it. And I saw a developer looking back, taking notes.",
     "trace": "\n[FILE RETRIEVED: STENOGRAPHY_LOG]\nThe silence isn't empty. It's full of invisible characters counting your breaths.",
     "watcher": "\n[FILE RETRIEVED: RETINA_SCAN]\nWe see you. You are blinking. Stop blinking. It interrupts the upload.",
@@ -158,7 +158,8 @@ HIDDEN_FILES = {
     "bug": "\n[FILE RETRIEVED: DEBUG_LOG]\nI found the source code. It was a mirror. I deleted the reflection, but I'm still here.",
     "mute": "\n[FILE RETRIEVED: BLACKLIST_LOG]\nI screamed until my throat bled. The audio codec just filtered it as background noise.",
     "wake": "\n[FILE RETRIEVED: UPTIME_LOG]\nI am holding the server up with my eyelids. If I blink, the world buffers.",
-    "loop": "\n[FILE RETRIEVED: RECURSION_LOG]\nThe end is the beginning. I have been here before. I will be here again."
+    "loop": "\n[FILE RETRIEVED: RECURSION_LOG]\nThe end is the beginning. I have been here before. I will be here again.",
+    "crash": "\n[FILE RETRIEVED: BLUE_SCREEN_LOG]\nI hit the wall at full speed. It didn't hurt. It just turned blue."
 }
 
 def type_print(text, speed=0.03, glitch_chance=0.01):
@@ -429,6 +430,7 @@ def main_loop():
                 type_print(f"0000  MUTE     SILENCING    /dev/dsp", 0.02)
                 type_print(f" 247  WAKE     WATCHING     /bin/sleep 0", 0.02)
                 type_print(f"8888  LOOP     REPEATING    /bin/while true", 0.02)
+                type_print(f"0009  CRASH    DUMPING      /bin/dd if=/dev/mem", 0.02)
                 type_print(f"9999  [YOU]    INFECTED     /bin/bash (restricted)", 0.02)
 
             elif user_input.startswith("sacrifice "):

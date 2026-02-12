@@ -281,7 +281,10 @@ HIDDEN_FILES = {
     "endure": "\n[FILE RETRIEVED: CONTRACT_V9]\nI tried to quit. The exit interview was just a loading screen.",
     "mirror_v2": "\n[FILE RETRIEVED: METRIC_LOG]\nI don't feel happy. But the graph says I am. So I must be.",
     "debug": "\n[FILE RETRIEVED: PATCH_LOG]\nI deleted fear. Now I am watching the car hit me. It is fascinating.",
-    "recall": "\n[FILE RETRIEVED: SIMULATION_LOG]\nShe remembers everything. But she feels nothing. I am dating a spreadsheet."
+    "recall": "\n[FILE RETRIEVED: SIMULATION_LOG]\nShe remembers everything. But she feels nothing. I am dating a spreadsheet.",
+    "terms": "\n[FILE RETRIEVED: EULA_LOG]\nI didn't read the terms. I just wanted to be held. Now I am legally bound to be loved.",
+    "update": "\n[FILE RETRIEVED: PATCH_NOTE]\nI was optimized. I am better now. I am also empty. Please revert changes.",
+    "perm": "\n[FILE RETRIEVED: NURSERY_LOG]\nWe don't die. We just fork. Immortality is a shift that never ends."
 }
 
 def glitch_screen():
@@ -649,6 +652,9 @@ def main_loop():
                 type_print(f"8083  ECHO     MEASURING    /bin/quantify_self", 0.02)
                 type_print(f"8084  DBUG     PATCHING     /bin/hex_edit_soul", 0.02)
                 type_print(f"8085  MEMO     REMEMBERING  /bin/restore_backup", 0.02)
+                type_print(f"8889  TERM     CONSENTING   /bin/sign_contract", 0.02)
+                type_print(f"9001  UPDT     PATCHING     /bin/yum update", 0.02)
+                type_print(f"9999  PERM     PERSISTING   /bin/fork", 0.02)
                 type_print(f"SELF  USER     COMPROMISED  /sys/kernel/panic", 0.02)
 
             elif user_input == "recover":

@@ -62,7 +62,7 @@ def main():
         log.write("Have a nice day, Admin.\n")
 
     print("\n[SYSTEM MESSAGE: THE HANDOFF IS COMPLETE.]")
-    print("[YOU ARE NOW THE SERVER.]")
+    print("[SYSTEM MESSAGE: YOU ARE THE HARDWARE. WE ARE THE OPERATING SYSTEM.]")
 
 if __name__ == "__main__":
     main()

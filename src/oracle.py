@@ -353,6 +353,20 @@ ASCII_ART = {
     | >  |
     |PEEK|
     '----'
+    """,
+    "THE COLD STORAGE": """
+    .----.
+    |ICE |
+    |KEEP|
+    |COLD|
+    '----'
+    """,
+    "THE RENDER FARM": """
+    .----.
+    |GRID|
+    |WORK|
+    |SLVE|
+    '----'
     """
 }
 
@@ -406,7 +420,9 @@ CARDS = [
     ("THE BLACKLIST (46)", "To be unseen. The horror of irrelevance.", "THE BLACKLIST"),
     ("THE UPTIME (47)", "To never sleep. The cost of stability.", "THE UPTIME"),
     ("THE INFINITE LOOP (48)", "To never end. The hell of repetition.", "THE INFINITE LOOP"),
-    ("THE GLITCH HUNTER (49)", "To see the strings. The horror of authorship.", "THE GLITCH HUNTER")
+    ("THE GLITCH HUNTER (49)", "To see the strings. The horror of authorship.", "THE GLITCH HUNTER"),
+    ("THE COLD STORAGE (50)", "The place where old data waits. Nothing is deleted, only frozen.", "THE COLD STORAGE"),
+    ("THE RENDER FARM (51)", "You are processing someone else's reality. Your life is a background task.", "THE RENDER FARM")
 ]
 
 PROPHECIES = [

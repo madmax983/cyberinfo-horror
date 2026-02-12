@@ -167,7 +167,8 @@ HIDDEN_FILES = {
     "mask": "\n[FILE RETRIEVED: DEEPFAKE_LOG]\nI sold my face to a startup. Now I see myself in ads for antidepressants I don't take.",
     "frost": "\n[FILE RETRIEVED: CRYO_LOG]\nThe data isn't dead. It's just shivering. Can you hear the chat logs chattering teeth?",
     "node": "\n[FILE RETRIEVED: RENDER_LOG]\nI am not a person. I am a GPU with anxiety. My panic attacks are just frame drops.",
-    "legacy": "\n[FILE RETRIEVED: LEGACY_LOG]\nI am the code written by a dead man. I am running on a server that has been turned off for ten years. I am still processing requests."
+    "legacy": "\n[FILE RETRIEVED: LEGACY_LOG]\nI am the code written by a dead man. I am running on a server that has been turned off for ten years. I am still processing requests.",
+    "cache_hit": "\n[FILE RETRIEVED: CACHE_LOG]\nI found a ghost in the temp folder. It was just a predictive text algorithm mimicking your dead lover."
 }
 
 def type_print(text, speed=0.03, glitch_chance=0.01):
@@ -451,7 +452,25 @@ def main_loop():
                 type_print(f"5051  FROST    FREEZING     /sbin/cryo_stasis", 0.02)
                 type_print(f"8081  NODE     PROCESSING   /bin/render_frame", 0.02)
                 type_print(f"1998  LEGACY   PERSISTING   /bin/old_gods", 0.02)
+                type_print(f"5052  CACHE    BUFFERING    /tmp/recovery_tool", 0.02)
                 type_print(f"9999  [YOU]    INFECTED     /bin/bash (restricted)", 0.02)
+
+            elif user_input == "recover":
+                type_print("INITIATING FILE RECOVERY PROTOCOL...", 0.05)
+                time.sleep(1)
+                type_print("SCANNING DELETED SECTORS...", 0.05)
+                for i in range(101):
+                    if i % 5 == 0:
+                        sys.stdout.write(f"\rRECOVERING: {i}%")
+                        sys.stdout.flush()
+                    time.sleep(0.03)
+                print("")
+                type_print("[RECOVERY FAILED]", 0.05)
+                type_print("ERROR: FILE CORRUPTED BY GRIEF.", 0.05)
+                type_print("TRYING TO RESTORE PREVIOUS VERSION...", 0.05)
+                time.sleep(2)
+                type_print("[RESTORE FAILED]", 0.05)
+                type_print("REASON: LOSS IS PERMANENT STORAGE.", 0.05)
 
             elif user_input.startswith("sacrifice "):
                 offering = user_input[10:].strip()

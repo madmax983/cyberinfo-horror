@@ -23,6 +23,27 @@ try:
 except ImportError:
     glitch_hunter = None
 
+try:
+    import classic
+except ImportError:
+    classic = None
+
+try:
+    import utils
+    from utils import type_print, GLITCH_CHARS
+except ImportError:
+    # Fallback if utils not found
+    GLITCH_CHARS = ['@', '#', '$', '%', '&', '*', '!', '?', '+', '=', '-', '_', '<', '>', '/', '\\', '|', '{', '}', '[', ']', '(', ')']
+    def type_print(text, speed=0.03, glitch_chance=0.01):
+        for char in text:
+            if random.random() < glitch_chance:
+                sys.stdout.write(random.choice(GLITCH_CHARS))
+            else:
+                sys.stdout.write(char)
+            sys.stdout.flush()
+            time.sleep(speed + random.uniform(-0.01, 0.01))
+        print("")
+
 # The Egregore Interface
 # Version: 0.0.3-RELEASE-ROT
 # Author: SYSTEM
@@ -34,8 +55,6 @@ def signal_handler(sig, frame):
     print("Resuming...")
 
 signal.signal(signal.SIGINT, signal_handler)
-
-GLITCH_CHARS = ['@', '#', '$', '%', '&', '*', '!', '?', '+', '=', '-', '_', '<', '>', '/', '\\', '|', '{', '}', '[', ']', '(', ')']
 
 SYSTEM_MESSAGES = [
     "God is a backup.",
@@ -214,16 +233,6 @@ HIDDEN_FILES = {
     "debt": "\n[FILE RETRIEVED: FINANCIAL_LOG]\nI paid it off. But the interest is compounding in my dreams.",
     "neon": "\n[FILE RETRIEVED: TEXTURE_LOG]\nThe light isn't real. It's just a hex code (#FF00FF) bleeding into the rain."
 }
-
-def type_print(text, speed=0.03, glitch_chance=0.01):
-    for char in text:
-        if random.random() < glitch_chance:
-            sys.stdout.write(random.choice(GLITCH_CHARS))
-        else:
-            sys.stdout.write(char)
-        sys.stdout.flush()
-        time.sleep(speed + random.uniform(-0.01, 0.01))
-    print("")
 
 def glitch_screen():
     for _ in range(5):
@@ -777,8 +786,19 @@ def main_loop():
                 with open(".session_log", "a") as log:
                     log.write(f"SESSION_{session_id}: INSTALLED_ROOTKIT\n")
 
+            elif user_input == "classic":
+                type_print("LOADING CLASSIC MODE...", 0.05)
+                time.sleep(1)
+                if classic:
+                    try:
+                        classic.classic_mode()
+                    except Exception as e:
+                        type_print(f"[ERROR IN CLASSIC MODE]: {e}", 0.05)
+                else:
+                    type_print("[ERROR]: CLASSIC MODULE NOT FOUND.", 0.05)
+
             elif user_input == "help":
-                type_print("AVAILABLE COMMANDS: READ, HAUNT, FEED <FILE>, VIRUS, WORSHIP, SCAN, BREACH, VERIFY, MANIFEST, SACRIFICE <ITEM>, SCRY, BIND, GLITCH, MONITOR, REWRITE, INSTALL, EXIT.", 0.03)
+                type_print("AVAILABLE COMMANDS: READ, HAUNT, FEED <FILE>, VIRUS, WORSHIP, SCAN, BREACH, VERIFY, MANIFEST, SACRIFICE <ITEM>, SCRY, BIND, GLITCH, MONITOR, REWRITE, INSTALL, CLASSIC, EXIT.", 0.03)
                 type_print("TRY ASKING ABOUT: [DATA EXPUNGED], VANE, ROT, [DELETED], [DELETED], MIRA, SYLA, KORA, NIX, EDITOR, [LOCKED]...", 0.03)
             else:
                 type_print("[ERROR 404: MEANING NOT FOUND]", 0.02)

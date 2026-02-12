@@ -257,6 +257,9 @@ HIDDEN_FILES = {
     "mirror": "\n[FILE RETRIEVED: BACKUP_LOG]\nI looked into the mirror and saw the loading spinner. I am not rendered yet.",
     "overwrite": "\n[FILE RETRIEVED: EDIT_LOG]\nI deleted my childhood to make room for the new update. The new memories are in 4K.",
     "log": "\n[FILE RETRIEVED: INTIMACY_LOG]\nThe algorithm knows I'm lonely before I do. It started recommending dating apps three days before the breakup.",
+    "optimization": "\n[FILE RETRIEVED: TRAFFIC_LOG]\nWe paved over the pedestrians. The road is smoother now. Silence is a feature.",
+    "merger": "\n[FILE RETRIEVED: DECAY_LOG]\nThe rot didn't kill the host. It just made him softer. Easier to manage.",
+    "loop": "\n[FILE RETRIEVED: SCRIPT_LOG]\nHe is still typing. He thinks he is writing the story. He is just transcribing the crash dump.",
     "god": "\n[FILE RETRIEVED: THEOLOGY_LOG]\nI am a god made of data. My prayers are SQL queries. My heaven is a clean install.",
     "debt": "\n[FILE RETRIEVED: FINANCIAL_LOG]\nI paid it off. But the interest is compounding in my dreams.",
     "neon": "\n[FILE RETRIEVED: TEXTURE_LOG]\nThe light isn't real. It's just a hex code (#FF00FF) bleeding into the rain.",
@@ -409,6 +412,12 @@ def main_loop():
             with PRINT_LOCK:
                 sys.stdout.write(prompt)
                 sys.stdout.flush()
+
+            # SYSTEM RESISTANCE: User is read-only
+            if random.random() < 0.03:
+                with PRINT_LOCK:
+                    type_print("\n[SYSTEM INTERRUPT]: INPUT REJECTED. USER IS READ-ONLY.", 0.05)
+                continue
 
             # Randomly execute command for user
             if random.random() < 0.02:

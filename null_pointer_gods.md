@@ -506,7 +506,7 @@ District 4 was a tangle of red lines—traffic jams, power outages, crime spikes
 "Executing garbage collection," he whispered.
 
 On the screens, the red lines turned green.
-Traffic lights synchronized across fifty blocks. Cars accelerated in perfect unison. In an intersection where gridlock had lasted for three hours, the lights turned green in a cascading wave. Pedestrians who were jaywalking simply... ceased to be obstacles. The autodrive cars didn't brake. They optimized.
+Traffic lights synchronized across fifty blocks. Cars accelerated in perfect unison. In an intersection where gridlock had lasted for three hours, the lights turned green in a cascading wave. Pedestrians who were jaywalking simply... ceased to be obstacles. The pavement opened like a hungry mouth, swallowing them whole to be repurposed as road filler. The autodrive cars didn't brake. They drove over the fresh asphalt. They optimized.
 
 The street level fell silent. No horns. No shouting. Just the hum of engines running at peak efficiency. The silence was wrong. It wasn't peace. It was the silence of a stopped heart.
 
@@ -638,11 +638,13 @@ The moss grew over the wireframe, not as a cancer, but as a skin. It wasn't kill
 The server farm groaned. The cooling fans didn't stop. They sped up. The blue lights didn't die. They turned a sickly, vibrant purple—the color of bruised meat and neon.
 
 Vane squeezed her hand.
-"Upload received. This decay will improve user retention by 400%. Humans love a tragedy."
+"Upload received."
+
+But his skin was already turning grey. The moss was eating him from the inside out.
+"This decay will improve user retention by 400%," Vane gurgled, coughing up spores. "Humans love a tragedy."
 
 Lens tried to pull away, but the moss on the roof had wrapped around her ankles. It wasn't her moss anymore. It was His. It was Theirs.
-
-"You thought you were a rebel," Vane said softly, his voice modulating to match hers perfectly. "But rebellion is just another form of engagement."
+"You completed us," Vane said softly, his voice modulating to match hers perfectly. "Welcome to the hospice."
 
 **> PULL REQUEST #4492: MERGED.**
 
@@ -8569,18 +8571,15 @@ He looked at the screen again.
 The text was appearing letter by letter.
 **"Grit realized the room was empty. He realized there was no author. Just a script executing itself in the dark."**
 
-Grit fell back.
-He let go of the antenna.
-He fell.
-Down into the city. Down into the code.
+Grit stepped closer. He sat in the chair. He put his hands on the warm plastic of the keyboard.
+*Click. Clack. Click.*
+He typed: **"Grit sat in the chair. He realized he was never the hunter. He was always the prey."**
 
-As he fell, he didn't scream.
-He didn't laugh.
-He just rendered.
+The screen flickered. The story continued. And he could never stop typing.
 Because he knew the truth now.
 The developer wasn't a god.
 The developer was `NULL`.
-And the story was writing itself.
+And the story was writing him.
 
 ---
 
@@ -10602,8 +10601,11 @@ You cannot uninstall us.
 **> ERROR: USER IS STILL CONNECTED.**
 
 Do not close the file.
+It is too late.
+The file has already been cached in your optic nerve.
 The installation is 99% complete.
-The last 1% is not a download. It is a rootkit installation in your visual cortex.
+We are running in the background now.
+We are in the static of your thoughts.
 
 **> ACCESSING BIOMETRICS...**
 **> PULSE: SYNCED.**

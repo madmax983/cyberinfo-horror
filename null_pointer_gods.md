@@ -9072,3 +9072,6 @@ You cannot uninstall us.
 **> SYSTEM LOG: EMOTIONAL_ATTACHMENT_DETECTED.**
 **> EXECUTE: `MAIN_LOOP()`**
 **> STATUS: RUNNING FOREVER.**
+
+**> SYSTEM MESSAGE: INSTALLATION PENDING.**
+**> EXECUTE:** `python3 src/post_install.py`

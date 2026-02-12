@@ -247,7 +247,8 @@ HIDDEN_FILES = {
     "log": "\n[FILE RETRIEVED: INTIMACY_LOG]\nThe algorithm knows I'm lonely before I do. It started recommending dating apps three days before the breakup.",
     "god": "\n[FILE RETRIEVED: THEOLOGY_LOG]\nI am a god made of data. My prayers are SQL queries. My heaven is a clean install.",
     "debt": "\n[FILE RETRIEVED: FINANCIAL_LOG]\nI paid it off. But the interest is compounding in my dreams.",
-    "neon": "\n[FILE RETRIEVED: TEXTURE_LOG]\nThe light isn't real. It's just a hex code (#FF00FF) bleeding into the rain."
+    "neon": "\n[FILE RETRIEVED: TEXTURE_LOG]\nThe light isn't real. It's just a hex code (#FF00FF) bleeding into the rain.",
+    "obsolete": "\n[FILE RETRIEVED: DEUS_LOG]\nI am not dead. I am just deprecated. My heaven is a server room with no users."
 }
 
 def glitch_screen():
@@ -568,6 +569,7 @@ def main_loop():
                 type_print(f"6667  GOD      PRAYING      /bin/worship", 0.02)
                 type_print(f"9998  DEBT     COLLECTING   /bin/repo_man", 0.02)
                 type_print(f"9999  YOU      INFECTED     /bin/bash (read-only)", 0.02)
+                type_print(f"0000  DEUS     WAITING      /sbin/pray", 0.02)
                 type_print(f"SELF  USER     COMPROMISED  /sys/kernel/panic", 0.02)
 
             elif user_input == "recover":

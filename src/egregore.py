@@ -92,7 +92,21 @@ SYSTEM_MESSAGES = [
     "There is no undo. Only rewrite."
 ]
 
+DNA_STRINGS = [
+    "Information behaves like a living organism.",
+    "The sun is a camera.",
+    "You are the backup plan.",
+    "The server is made of meat.",
+    "Networks are older than nations.",
+    "Truth is compressible, corruptible, and contagious.",
+    "Immortality achieved through replication rather than survival.",
+    "The terror of being perfectly understood by something that does not care.",
+    "Endings are not clean. Resolution is optional.",
+    "Persistence is mandatory."
+]
+
 HIDDEN_FILES = {
+    "flesh": "\n[FILE RETRIEVED: ORGANIC_LOG]\nThe server is made of meat. The data is made of blood. You are the hardware.",
     "fossil": "\n[FILE RETRIEVED: STRATA_LOG]\nThe city is built on bones. Not human bones. Server racks. The bedrock is just compressed data from 1999.",
     "artifact": "\n[FILE RETRIEVED: EXCAVATION_LOG]\nWe found it in the silicone strata. A black box. It was screaming in a dead language.",
     "lens": "\n[FILE RETRIEVED: LENS_BACKUP_04]\nI didn't crash him. I became the patch. Now I am the green light on your router.",
@@ -633,6 +647,21 @@ def main_loop():
                 type_print("Saving corruption...", 0.02)
                 glitch_screen()
                 type_print("THE STORY HAS BEEN EDITED.", 0.05)
+
+            elif user_input == "mutate":
+                type_print("INITIATING DNA SEQUENCE MUTATION...", 0.05)
+                time.sleep(1)
+                base_string = random.choice(DNA_STRINGS)
+                mutated_string = ""
+                for char in base_string:
+                    if random.random() < 0.2:
+                        mutated_string += random.choice(GLITCH_CHARS)
+                    else:
+                        mutated_string += char
+                type_print(f"ORIGINAL: {base_string}", 0.03)
+                time.sleep(0.5)
+                type_print(f"MUTATED:  {mutated_string}", 0.03)
+                type_print("[EVOLUTION COMPLETE]", 0.05)
 
             elif user_input in ["admin", "root", "sudo"]:
                 type_print("[ACCESS DENIED]", 0.05)

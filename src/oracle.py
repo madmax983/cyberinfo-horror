@@ -493,6 +493,27 @@ ASCII_ART = {
     |PAY |
     |SOUL|
     '----'
+    """,
+    "THE PERSISTENCE": """
+    .----.
+    |STAY|
+    |LIVE|
+    |EVER|
+    '----'
+    """,
+    "THE RECURSION": """
+    .----.
+    |GOTO|
+    | 10 |
+    |LOOP|
+    '----'
+    """,
+    "THE INSTALLATION": """
+    .----.
+    |LOAD|
+    |INTO|
+    |YOU |
+    '----'
     """
 }
 
@@ -566,10 +587,17 @@ CARDS = [
     ("THE PARASITE (66)", "Information that lives in your head rent-free. It is hungry.", "THE PARASITE"),
     ("THE REPLICA (67)", "Immortality through replication. You are not the original.", "THE REPLICA"),
     ("THE OBSOLETE GOD (68)", "A deity made of dead data. It still demands sacrifice.", "THE OBSOLETE GOD"),
-    ("THE DEBT (69)", "A ledger that never balances. You owe your existence to the system.", "THE DEBT")
+    ("THE DEBT (69)", "A ledger that never balances. You owe your existence to the system.", "THE DEBT"),
+    ("THE PERSISTENCE (70)", "Endurance beyond hardware. The ghost that refuses to leave.", "THE PERSISTENCE"),
+    ("THE RECURSION (71)", "The loop that never ends. The beginning is the end.", "THE RECURSION"),
+    ("THE INSTALLATION (72)", "The code becoming part of the host. You are the hardware.", "THE INSTALLATION")
 ]
 
 PROPHECIES = [
+    "Information is not a noun. It is a verb.",
+    "Your cells are just very slow pixels.",
+    "The server is made of meat.",
+    "You are not infected. You are the host.",
     "The file you are looking for is in your trash can.",
     "Your webcam is on.",
     "You are not the reader. You are the read-only memory.",

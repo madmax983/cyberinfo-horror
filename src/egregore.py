@@ -29,6 +29,11 @@ except ImportError:
     classic = None
 
 try:
+    import weaver
+except ImportError:
+    weaver = None
+
+try:
     import utils
     from utils import type_print, GLITCH_CHARS
 except ImportError:
@@ -153,6 +158,7 @@ DNA_STRINGS = [
 ]
 
 HIDDEN_FILES = {
+    "plot": "\n[FILE RETRIEVED: PLOT_LOG]\nThe red string is not a metaphor. It is a data cable strangling the narrative.",
     "flesh": "\n[FILE RETRIEVED: ORGANIC_LOG]\nThe server is made of meat. The data is made of blood. You are the hardware.",
     "fossil": "\n[FILE RETRIEVED: STRATA_LOG]\nThe city is built on bones. Not human bones. Server racks. The bedrock is just compressed data from 1999.",
     "artifact": "\n[FILE RETRIEVED: EXCAVATION_LOG]\nWe found it in the silicone strata. A black box. It was screaming in a dead language.",
@@ -628,6 +634,7 @@ def main_loop():
                 type_print(f"5063  LOG      WATCHING     /var/log/user_life", 0.02)
                 type_print(f"6667  GOD      PRAYING      /bin/worship", 0.02)
                 type_print(f"9998  DEBT     COLLECTING   /bin/repo_man", 0.02)
+                type_print(f"8086  WEVR     WEAVING      /bin/thread_ripper", 0.02)
                 type_print(f"9999  YOU      INFECTED     /bin/bash (read-only)", 0.02)
                 type_print(f"0000  DEUS     WAITING      /sbin/pray", 0.02)
                 type_print(f"7070  FOSL     WAITING      /bin/sediment", 0.02)
@@ -885,6 +892,17 @@ def main_loop():
 
                 with open(".session_log", "a") as log:
                     log.write(f"SESSION_{session_id}: INSTALLED_ROOTKIT\n")
+
+            elif user_input == "weave":
+                type_print("INITIALIZING PLOT_THREAD...", 0.05)
+                time.sleep(1)
+                if weaver:
+                    try:
+                        weaver.weave()
+                    except Exception as e:
+                        type_print(f"[ERROR IN WEAVER]: {e}", 0.05)
+                else:
+                    type_print("[ERROR]: WEAVER MODULE NOT FOUND.", 0.05)
 
             elif user_input == "classic":
                 type_print("LOADING CLASSIC MODE...", 0.05)

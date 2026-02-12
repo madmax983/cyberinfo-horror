@@ -598,7 +598,14 @@ ASCII_ART = {
     |SAVE|
     |FULL|
     '----'
-    """
+    """,
+    "THE WEAVER": """
+    .----.
+    |LOOM|
+    |KNOT|
+    |BIND|
+    '----'
+    """,
 }
 
 CARDS = [
@@ -686,7 +693,8 @@ CARDS = [
     ("THE ENDURANCE (81)", "Survival is not optional. The contract is binding.", "THE ENDURANCE"),
     ("THE BIOMETRIC MIRROR (82)", "You love the metrics, not the self. Optimization is addiction.", "THE BIOMETRIC MIRROR"),
     ("THE ERROR LOG (83)", "Deleting your flaws deletes your humanity. Perfection is a crash.", "THE ERROR LOG"),
-    ("THE PERFECT RECALL (84)", "Memory without forgetting is just a transcript. Data doesn't love you.", "THE PERFECT RECALL")
+    ("THE PERFECT RECALL (84)", "Memory without forgetting is just a transcript. Data doesn't love you.", "THE PERFECT RECALL"),
+    ("THE WEAVER (85)", "The plot is a prison. Connection is control.", "THE WEAVER"),
 ]
 
 PROPHECIES = [
@@ -731,6 +739,7 @@ PROPHECIES = [
     "We have monetized your anxiety.",
     "The rain is just pixelated tears.",
     "Do not trust the silence. It is just a pause in the upload."
+    "The thread you are pulling is attached to a detonator.",
 ]
 
 class Oracle:

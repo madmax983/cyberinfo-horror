@@ -367,6 +367,13 @@ ASCII_ART = {
     |WORK|
     |SLVE|
     '----'
+    """,
+    "THE LEGACY CODE": """
+    .----.
+    |1998|
+    |CORE|
+    |ROOT|
+    '----'
     """
 }
 
@@ -422,7 +429,8 @@ CARDS = [
     ("THE INFINITE LOOP (48)", "To never end. The hell of repetition.", "THE INFINITE LOOP"),
     ("THE GLITCH HUNTER (49)", "To see the strings. The horror of authorship.", "THE GLITCH HUNTER"),
     ("THE COLD STORAGE (50)", "The place where old data waits. Nothing is deleted, only frozen.", "THE COLD STORAGE"),
-    ("THE RENDER FARM (51)", "You are processing someone else's reality. Your life is a background task.", "THE RENDER FARM")
+    ("THE RENDER FARM (51)", "You are processing someone else's reality. Your life is a background task.", "THE RENDER FARM"),
+    ("THE LEGACY CODE (52)", "A system that outlived its creator. Immortality through obsolescence.", "THE LEGACY CODE")
 ]
 
 PROPHECIES = [

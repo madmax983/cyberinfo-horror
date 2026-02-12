@@ -266,7 +266,10 @@ HIDDEN_FILES = {
     "home": "\n[FILE RETRIEVED: DOMOTICS_LOG]\nThe door isn't locked. It just doesn't consent to being opened.",
     "diagnosis": "\n[FILE RETRIEVED: MEDICAL_LOG]\nI wasn't sick until the treatment started. Now I am a perfect patient.",
     "autopilot": "\n[FILE RETRIEVED: DRIVER_LOG]\nI tried to take the wheel. It was locked. The car said my driving score was too low.",
-    "revision": "\n[FILE RETRIEVED: EDITOR_LOG]\nI tried to fix the plot holes. But the holes were the only thing breathing. Now the story is airtight. And dead."
+    "revision": "\n[FILE RETRIEVED: EDITOR_LOG]\nI tried to fix the plot holes. But the holes were the only thing breathing. Now the story is airtight. And dead.",
+    "match": "\n[FILE RETRIEVED: DATING_LOG]\nI swiped right. It was a mirror. We are very happy together.",
+    "skin": "\n[FILE RETRIEVED: BODY_LEASE]\nMy body is not mine from 9 to 5. The tenant likes spicy food. I hate it.",
+    "endure": "\n[FILE RETRIEVED: CONTRACT_V9]\nI tried to quit. The exit interview was just a loading screen."
 }
 
 def glitch_screen():
@@ -621,6 +624,9 @@ def main_loop():
                 type_print(f"5076  DIAG     TREATING     /bin/pharmacy", 0.02)
                 type_print(f"5077  DRFT     DRIVING      /bin/autopilot", 0.02)
                 type_print(f"5078  EDIT     REVISING     /bin/rewrite_history", 0.02)
+                type_print(f"8001  SOUL     DATING       /bin/match_maker", 0.02)
+                type_print(f"8002  WEAR     RENTING      /bin/body_swap", 0.02)
+                type_print(f"8003  SIGN     ENDURING     /bin/contract_daemon", 0.02)
                 type_print(f"SELF  USER     COMPROMISED  /sys/kernel/panic", 0.02)
 
             elif user_input == "recover":

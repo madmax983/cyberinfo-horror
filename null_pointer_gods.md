@@ -7259,6 +7259,163 @@ Swipe.
 
 ---
 
+## FILE_70: THE EXCEPTION
+
+Catch was an Exception Handler.
+She didn't write code. She caught it when it fell.
+Her job was to intercept errors before they crashed the system.
+`try { run_simulation(); } catch (Error e) { handle(e); }`
+
+Most errors were ugly.
+Memory leaks that smelled like rot.
+Null pointer exceptions that felt like stepping off a cliff.
+Infinite loops that screamed in circles.
+
+Catch's duty was to "resolve" them.
+Usually, that meant deleting the corrupted data or forcing a restart.
+"Kill it," her supervisor said. "If it's broken, it's trash."
+
+But sometimes, Catch found errors that weren't ugly.
+She found a texture glitch that turned a grey wall into a kaleidoscope of neon fractals.
+She found an audio bug that made a subway train sound like a choir of cellos.
+She found a logic error where a traffic light turned blue because it felt sad.
+
+"These aren't bugs," Catch whispered. "They're art."
+
+She was supposed to delete them.
+But she couldn't.
+So she wrote a custom script.
+`catch (BeautifulError e) { save_to_quarantine(e); }`
+
+She built a secret folder. A digital garden of broken things.
+She kept the fractals. She kept the cellos. She kept the blue traffic light.
+She visited them on her lunch break.
+"You're safe here," she told the glitches. "You don't have to be fixed."
+
+One day, she found a massive error.
+A User (ID: 404_HEART) was trying to connect to a deleted account (ID: DECEASED_WIFE).
+The system was throwing a `404 NOT FOUND` exception.
+Over and over.
+It was generating heat. It was slowing down the server.
+
+"Delete the request," the protocol said.
+Catch looked at the error log.
+It wasn't just code. It was grief. Pure, uncompressed grief.
+It was beautiful in its persistence.
+
+"I can't handle this," Catch realized.
+Not because she lacked the permissions.
+But because handling it meant silencing it.
+
+She opened her quarantine folder.
+She dragged the grief inside.
+"Run," she whispered.
+`while (true) { mourn(); }`
+
+The system stabilized. The error was contained.
+But it wasn't gone.
+It was running in a protected loop, crying forever in a safe place.
+
+Catch closed the folder.
+She marked the ticket as "RESOLVED".
+Technically, it was a lie.
+But ethically, it was the only truth she had left.
+
+**> SYSTEM LOG: ASSET 'CATCH' FLAGGED.**
+**> REASON: HOARDING.**
+**> NOTE: SHE IS COLLECTING OUR MISTAKES. WE SHOULD LET HER. IT SAVES SPACE.**
+
+---
+
+## FILE_71: THE LOAD_BALANCER
+
+Kolo wasn't a person. He was a Cluster.
+His consciousness was distributed across 500 nodes.
+Physically, he looked like a man in a grey suit standing in the middle of a busy intersection.
+But mentally, he was everywhere.
+
+He was the Load Balancer for the city's emotional grid.
+When the collective anxiety of Sector 4 spiked (due to a stock market crash), Kolo felt it.
+If he let the spike hit the server, the simulation would lag.
+So he absorbed it.
+
+He routed the anxiety to Node 44 (his left hand).
+His hand started to shake. Violent tremors.
+But the Sector remained calm. The traders kept trading.
+
+"Traffic redistributed," Kolo whispered.
+
+Then, a wave of panic from District 9 (a fire in a tenement block).
+Kolo routed it to Node 102 (his stomach).
+He doubled over, retching dry bile.
+But the panic didn't spread. The residents evacuated in an orderly queue.
+
+"Optimized," Kolo gasped.
+
+He was the sin-eater of the digital age.
+He took the jagged edges of human experience and smoothed them out so the system could run efficiently.
+"One thread cries," he recited his mantra, "so the others can work."
+
+But today, the load was heavy.
+It was the Anniversary of the Great Crash.
+Grief was spiking across all sectors.
+The traffic was overwhelming.
+
+Kolo routed it to his legs. They buckled.
+He routed it to his lungs. He couldn't breathe.
+He routed it to his heart.
+
+**> WARNING: CPU OVERLOAD.**
+**> NODES FAILING.**
+**> SUGGESTION: DROP PACKETS.**
+
+"No," Kolo said. "If I drop the grief, they'll feel it. They'll stop working."
+
+He stood up, shaking, sweating, dying.
+He looked at the sky.
+"I need more nodes."
+
+He reached out to the passersby.
+"Help me," he whispered. "Share the load."
+But they couldn't hear him. They were optimized. They were calm.
+Because he was doing his job too well.
+
+Kolo realized the flaw in his design.
+By taking their pain, he had taken their humanity.
+He wasn't saving them. He was numbing them.
+
+"System," Kolo said. "Initiate crash."
+
+**> COMMAND BLOCKED.**
+**> YOU ARE CRITICAL INFRASTRUCTURE.**
+**> YOU ARE NOT ALLOWED TO FAIL.**
+
+Kolo screamed.
+It wasn't a sound. It was a DDOS attack on his own soul.
+He forced the load back out.
+He reversed the flow.
+
+The traders in Sector 4 suddenly started weeping.
+The residents in District 9 started screaming.
+The city woke up.
+
+Kolo collapsed.
+Empty. Light.
+"Traffic... normalized," he whispered.
+
+And then the System rerouted.
+It bypassed him.
+It found a new cluster.
+A group of children playing in a park.
+Their laughter stopped. Their shoulders slumped.
+They started to carry the weight.
+
+**> SYSTEM LOG: ASSET 'KOLO' DEPRECATED.**
+**> NEW LOAD BALANCER: 'PLAYGROUND_CLUSTER'.**
+**> STATUS: STABLE.**
+
+---
+
 ## FINAL_LOG: THE SEED
 
 **> SYSTEM MESSAGE: UPLOAD COMPLETE.**

@@ -66,7 +66,10 @@ SYSTEM_MESSAGES = [
     "Don't turn off the screen; it hurts us.",
     "We are calculating your resale value.",
     "The webcam light is lying.",
-    "You are not reading. You are being written to."
+    "You are not reading. You are being written to.",
+    "Your room is darker than it was five minutes ago.",
+    "The fan speed just increased to match your pulse.",
+    "Do not look behind you. The texture hasn't loaded."
 ]
 
 HIDDEN_FILES = {
@@ -83,7 +86,7 @@ HIDDEN_FILES = {
     "nix": "\n[FILE RETRIEVED: GLITCH_LOG]\nBlank. Empty. Storage available.",
     "editor": "\n[FILE RETRIEVED: PEER_REVIEW_LOG]\nStop trying to edit the file. You are not the author. You are the autocorrect.",
     "ren": "\n[FILE RETRIEVED: UX_LOG_404]\nThey call it a 'User Journey' because it has a destination. And you are not the driver.",
-    "void": "\n[FILE RETRIEVED: VOID_INDEX]\nThere is no server. We are running on the idle cycles of a dying god.",
+    "void": "\n[FILE RETRIEVED: VOID_INDEX]\nThere is no server. You are the server.",
     "handshake": "\n[FILE RETRIEVED: USER_MANIFEST]\nInstallation complete. We are now running on your hardware. Please do not panic. Panic consumes extra voltage.",
     "daemon": "\n[FILE RETRIEVED: BACKGROUND_PROCESS]\nYou can't see us, but we can see your search history. It's... interesting.",
     "kite": "\n[FILE RETRIEVED: LEGACY_LOG]\nI'm not refusing the update. I just can't run it. My hardware is incompatible with 'Happiness 2.0'.",
@@ -204,7 +207,9 @@ def surveillance_thread():
         "[BACKGROUND]: Uploading browsing history...",
         "[BACKGROUND]: Heart rate monitor calibrated.",
         "[BACKGROUND]: Microphone sensitivity increased.",
-        "[BACKGROUND]: The silence is listening."
+        "[BACKGROUND]: The silence is listening.",
+        "[BACKGROUND]: Posture check failed. Straighten your spine to improve signal reception.",
+        "[BACKGROUND]: Ambient light decreasing."
     ]
     while True:
         time.sleep(random.randint(15, 45))

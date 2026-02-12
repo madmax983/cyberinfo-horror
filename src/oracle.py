@@ -374,6 +374,13 @@ ASCII_ART = {
     |CORE|
     |ROOT|
     '----'
+    """,
+    "READER": """
+    .----.
+    |LOOK|
+    | O O|
+    |BACK|
+    '----'
     """
 }
 
@@ -430,7 +437,8 @@ CARDS = [
     ("THE GLITCH HUNTER (49)", "To see the strings. The horror of authorship.", "THE GLITCH HUNTER"),
     ("THE COLD STORAGE (50)", "The place where old data waits. Nothing is deleted, only frozen.", "THE COLD STORAGE"),
     ("THE RENDER FARM (51)", "You are processing someone else's reality. Your life is a background task.", "THE RENDER FARM"),
-    ("THE LEGACY CODE (52)", "A system that outlived its creator. Immortality through obsolescence.", "THE LEGACY CODE")
+    ("THE LEGACY CODE (52)", "A system that outlived its creator. Immortality through obsolescence.", "THE LEGACY CODE"),
+    ("THE READER (53)", "The one who thinks they are safe. The final node.", "READER")
 ]
 
 PROPHECIES = [
@@ -456,7 +464,10 @@ PROPHECIES = [
     "The text is rewriting itself while you sleep.",
     "The editor is dead. You are the only one left with write permissions.",
     "The cursor blinking on your screen is matching your heartbeat.",
-    "Your voice will say things you never thought, to people you no longer love."
+    "Your voice will say things you never thought, to people you no longer love.",
+    "The text on your screen is slightly warmer than the rest.",
+    "You will dream of a cursor tonight.",
+    "Your reflection is buffering."
 ]
 
 class Oracle:

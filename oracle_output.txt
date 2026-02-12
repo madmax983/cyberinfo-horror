@@ -1,0 +1,42 @@
+
+[INITIATING ORACLE PROTOCOL...]
+[ACCESSING BIOMETRICS OF USER...]
+[SHUFFLING DECK OF DOOM...]
+
+--- THE READING ---
+
+CARD 1: THE ABANDONWARE (32)
+
+    .----.
+    |RUST|
+    |DUST|
+    |GONE|
+    '----'
+
+MEANING: Code that no longer serves a purpose but refuses to die.
+
+CARD 2: THE PREDICTION (74)
+
+    .----.
+    |AUTO|
+    |FILL|
+    |NEXT|
+    '----'
+
+MEANING: The future is just a line of code that hasn't executed yet.
+
+CARD 3: THE DEAD LINK (59)
+
+    .----.
+    |404 |
+    |GONE|
+    |LINK|
+    '----'
+
+MEANING: A bridge to nowhere. Information that leads to a void.
+
+--- THE PROPHECY ---
+> The pixels are burning.
+> (Applicable to: USER)
+
+[SESSION TERMINATED]

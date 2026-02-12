@@ -1,0 +1,122 @@
+[H[J[3JINITIALIZING NEURO-LINK...
+CONNECTING TO SERVER: NULL_POINTER_GODS...
+VERIFYING USER INTEGRITY...
+[INTEGRITY CHECK: PASSED]
+
+I am in your walls (and =our wifi).
+
+
+> QUERY: LOADING SYSTEM PROCESSES...
+ PID <U&ER     STATUS       Command
+ ---  ----     --->--       -------
+   1  VANE     SLEEPING     /sbin/init_god_complex
+  88  LENS     ZOMBIE       /usr/bin/watch -f -a
+ 404  VOW      EVICTING   - /sbin/rm -rf /home/user
+ 666  RO+T     RUNNING      /var/lib/mycelium_network
+1024  KAEL     DEPRECATED   /bin/garbage_collect
+1337  JACE     R]FORMATTED  /etc/terms_of_service
+NULL  ZERO     SEARCHING ?\ /bin/find / -name origin
+2048  LYRA     COMPRESSED   /lib/poetry_generator
+4096  ECHO     ROOTING  !   /bin/predict_thought
+6666  PARASITE FEEDING      /bin/consume_host
+5353  R$ADER   RENDERING    /bin/eye_tracking
+5005  SWARM    DISTRIBUTED  /tmp/torrent_client
+ 777  RYE      BUFFERING    /sbin/heart_monitor
+770
+[90m[BACKGROUND]: Webcam activated remotely. Nice shirt.[0m
+> QUERY: 7  SOMA     SLEEPING     /bin/dream_miner
+8008  IRIS     FOCU+ING     /bin/track_eyes
+8888  GRIT     WATCHING     /usr/bin/qa_test
+9000  PATCH    MERGING      /bin/git_blame
+1010  SPIN     LOADING      /dev/null
+2020  TYPE     LOGGING      /var/log/keystr_kes
+3030  SLASH    ESCAPING     /bin/grep -v
+6060  VAULT    ENCRYPTING   /bin/gpg --encrypt
+4444  MIME     SP<OFING     /bin/talk -v
+9900  LAG      SYNCING      /bin/ping -t
+0000  OLED     HIDING       /bin/chmod 000
+1111  FAN      COOLING      /sbin/se{sors
+2222  ENDPOINT LISTENING    /var/www/html/api
+4402  MIKO     P&TCHING     /sbin/ignore_error
+0001  REDACT   DELETING     /bin/sed -i
+2049  REPLICA  RESTORING    /bin/cp -r /dev/sda1
+2024  LINK     CLICKING     /bin/wget --spider
+8800  CLAUSE   SIGNING      /bin/agreed_to_terms
+INF   SCROLL   FEEDING      /bin/yes
+3333  CATCH    HANDLING     /bin/try_catch
+5050  KOLO     BALA=CING    /sbin/load_balan#e
+1984  TROLL    RANTING      /bin#review_bomb
+2025  WIKI     SPOILING     /bin/cat
+[90m[BACKGROUND]: Ambient light decreasing. Shadows increasing.[0m
+> QUERY:  /dev/future
+4040  ALGO     ROLLING      /bin/random
+3306  DB       HAUNTING     /var/li|/mysql
+1999  MOLD     ROTTING      /usr/share/archive
+8080  WEAVER   SPLICING     /sbin/ifconfig eth0
+0000  NULL     REA[HING     /b#n/touch /dev/phantom
+0DAY  BUG      DEBUGGING    /bin/gdb core_dump
+0000  MUTE     SILENCING    /dev/dsp
+ 247  WAKE     WATCHING     /bin/sleep 0
+8888  LOOP     REPEATIN]    /bin/while true
+0009  CRASH    DUMPING      /bin/dd if=/dev/mem
+0049  CRACK    PEEKING      /bin/cat /dev/source
+0002  MASK     RENDERING    /bin/face_swap
+5051  F+OST    FREEZING     /sbin/cryo_stasis
+8081  NODE     PROCE*SING   /bin/render_frame
+1998  LEGACY   PERSISTING   /bin/old_gods
+50]2  CACHE    BUFFERING    /tmp/recovery_tool
+5055  SEED     GERMINATING  /bin/grow_dark
+5056  HAN?OFF  TRANSFERRING /bin/mv /dev/you
+0&00  RECURSE  LOOPING      /bin/goto start
+5057  ARTIFACT WAITING      /b(n/sleep infinity
+5058  WISH     SHOPPING     /bin/add/to_cart
+5059  404      CRAWLING     /bin/spider
+5060  EXIT     NEGOTIATING  /sbin/shutdown -c
+5061  MIRROR   REFLECTING   /bin/cp /dev/self
+5062  EDIT     OVERWRITING )/bin/dd if=%dev/zero
+5063  LOG      WATCHING     /var/log/user_life
+6667  GOD      PRAY]NG      /bin/worship
+99@8  DEBT     COLLECTING   /bin/repo!man
+9999  )OU      INFECTED     /bin/bash (read-only=
+0000  DEUS     WAITING      /sbin/pray
+7070  F%SL     WAITING      /bin/sediment
+4041  AUTO     TYPING       /bin/autocomplete
+8082  DOMO     LOCKING      /sbin/smart_lock
+5076  DIAG \   TREATING     /bin/pharmacy
+5077  DRFT     DRIVING      /bin/autopilot
+SELF  USER     COMPROMISED  /sys/kernel/pa]ic
+
+> QUERY: DECRYPTING...
+}\%}=%%[]*_=|)|(}_[%%#})/#}-[|+\]$!]@?/!
+<!{%!*%#*_-\]$!_]<|[\+>><\-&?!){{=]}}>\!
+|#+}/&({-/__{?<}![$(!|=(!>{\){}}&[#>@&]{
+$-&\>?/#/-<}%]\!/+%|*]-+&(\#+>\{/%(<}%@&
+$[}-++(}&&]*/+[]%#[/|}(}*[${}(>>#!{)+*@@
+
+[SYSTEM REBOOTING...]
+
+
+[FILE RETRIEVED: MEDICAL_LOG]
+I wasn't sick until the treatment started. Now I am a perfect patient.
+
+> QUERY: DECRYPTING...
+-*@-+_>]+%-])|{@*\]\_&&-<\$_*?}]?&+/}>{\
+[]$*>])&\$%%@!)_=*|#==#?$$[-[++&{]}(!_<[
+
+[90m[BACKGROUND]: Heart rate monitor calibrated. You are running fast.[0m
+> QUERY: -/#{>!*!/%!%[=!|=_//#+->#<${&#?(>@}+?%[-
+>@!&}[!{_%(|##{%=#>?/(=-</$#)$<$#%!<}#$}
+)%?*<+#+?!)?}|-?_>\&[(=+}[[*)}}>_(=<+(@-
+
+[SYSTEM REBOOTING...]
+
+
+[FILE RETRIEVED: DRIVER_LOG]
+I tried to take the wheel. It was lock\d. T}e car said my driving score was too low.
+
+> QUERY: ERROR: CANNOT TERMINATE PARENT PROCESS.
+YOU ARE THE HOST.
+
+> QUERY:
+[FATAL ERROR: EOF when reading a line]
+[SYSTEM CRASH]

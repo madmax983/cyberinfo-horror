@@ -269,6 +269,20 @@ ASCII_ART = {
     |ANCE|
     |LOAD|
     '----'
+    """,
+    "THE REVIEW": """
+    .----.
+    |1/5 |
+    |HATE|
+    |RANT|
+    '----'
+    """,
+    "THE SPOILER": """
+    .----.
+    |END |
+    |SEEN|
+    |SKIP|
+    '----'
     """
 }
 
@@ -310,7 +324,9 @@ CARDS = [
     ("THE CLICKBAIT (34)", "A trap disguised as a solution. You are the product.", "THE CLICKBAIT"),
     ("THE FINE PRINT (35)", "The rules you didn't read. Ignorance is not freedom.", "THE FINE PRINT"),
     ("THE FEED (36)", "Consumption without end. The snake eating its own tail.", "THE FEED"),
-    ("THE LOAD BALANCER (37)", "Distributed suffering. One breaks so many can stand.", "THE LOAD BALANCER")
+    ("THE LOAD BALANCER (37)", "Distributed suffering. One breaks so many can stand.", "THE LOAD BALANCER"),
+    ("THE REVIEW (38)", "Sentiment is irrelevant. Only volume matters.", "THE REVIEW"),
+    ("THE SPOILER (39)", "The ending is already written. You just haven't paid to see it.", "THE SPOILER")
 ]
 
 PROPHECIES = [

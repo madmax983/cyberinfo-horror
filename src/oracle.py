@@ -556,6 +556,27 @@ ASCII_ART = {
     |PAST|
     |GONE|
     '----'
+    """,
+    "THE MATCH": """
+    .----.
+    |SAME|
+    |LOVE|
+    |SELF|
+    '----'
+    """,
+    "THE SKIN": """
+    .----.
+    |BODY|
+    |RENT|
+    |SOLD|
+    '----'
+    """,
+    "THE ENDURANCE": """
+    .----.
+    |WORK|
+    |EVER|
+    |LOOP|
+    '----'
     """
 }
 
@@ -638,7 +659,10 @@ CARDS = [
     ("THE SMART HOME (75)", "Safety is a cage with Wi-Fi.", "THE SMART HOME"),
     ("THE DIAGNOSIS (76)", "The illness you don't have yet. Preemptive compliance.", "THE DIAGNOSIS"),
     ("THE AUTOPILOT (77)", "A life lived by proxy. You are the passenger.", "THE AUTOPILOT"),
-    ("THE REVISIONIST (78)", "History is a draft. You are being rewritten.", "THE REVISIONIST")
+    ("THE REVISIONIST (78)", "History is a draft. You are being rewritten.", "THE REVISIONIST"),
+    ("THE MATCH (79)", "A mirror that flatters you. Narcissus in code.", "THE MATCH"),
+    ("THE SKIN (80)", "Flesh for rent. The tenant is always right.", "THE SKIN"),
+    ("THE ENDURANCE (81)", "Survival is not optional. The contract is binding.", "THE ENDURANCE")
 ]
 
 PROPHECIES = [

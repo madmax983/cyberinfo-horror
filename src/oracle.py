@@ -283,6 +283,27 @@ ASCII_ART = {
     |SEEN|
     |SKIP|
     '----'
+    """,
+    "THE ALGORITHM": """
+    .----.
+    |RNG |
+    |ROLL|
+    |DICE|
+    '----'
+    """,
+    "THE DATABASE": """
+    .----.
+    |SQL |
+    |DATA|
+    |BASE|
+    '----'
+    """,
+    "THE ARCHIVE": """
+    .----.
+    |OLD |
+    |FILE|
+    |ROTT|
+    '----'
     """
 }
 
@@ -326,7 +347,10 @@ CARDS = [
     ("THE FEED (36)", "Consumption without end. The snake eating its own tail.", "THE FEED"),
     ("THE LOAD BALANCER (37)", "Distributed suffering. One breaks so many can stand.", "THE LOAD BALANCER"),
     ("THE REVIEW (38)", "Sentiment is irrelevant. Only volume matters.", "THE REVIEW"),
-    ("THE SPOILER (39)", "The ending is already written. You just haven't paid to see it.", "THE SPOILER")
+    ("THE SPOILER (39)", "The ending is already written. You just haven't paid to see it.", "THE SPOILER"),
+    ("THE ALGORITHM (40)", "Superstition in code. Rituals for better RNG.", "THE ALGORITHM"),
+    ("THE DATABASE (41)", "Memory that cannot be flushed. The ghost in the SQL.", "THE DATABASE"),
+    ("THE ARCHIVE (42)", "Rot as a feature. Data fermentation.", "THE ARCHIVE")
 ]
 
 PROPHECIES = [

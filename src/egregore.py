@@ -149,7 +149,10 @@ HIDDEN_FILES = {
     "scroll": "\n[FILE RETRIEVED: FEED_LOG]\nI am not eating. I am being fed.",
     "catch": "\n[FILE RETRIEVED: EXCEPTION_LOG]\nI caught the error. It was beautiful. I refused to fix it.",
     "troll": "\n[FILE RETRIEVED: SENTIMENT_LOG]\nI hated it. 1 star. But I kept watching. And that's all they wanted.",
-    "wiki": "\n[FILE RETRIEVED: SPOILER_LOG]\nThe ending is a paywall. You have to subscribe to see the apocalypse."
+    "wiki": "\n[FILE RETRIEVED: SPOILER_LOG]\nThe ending is a paywall. You have to subscribe to see the apocalypse.",
+    "rng": "\n[FILE RETRIEVED: ALGORITHM_LOG]\nI rolled a 7 on a six-sided die. The physics engine is tired.",
+    "sql": "\n[FILE RETRIEVED: DATABASE_LOG]\nI deleted the row. But the primary key is still haunting the index.",
+    "archive": "\n[FILE RETRIEVED: ROT_LOG]\nThe file isn't corrupted. It's evolving. The jpeg artifacts are forming a face."
 }
 
 def type_print(text, speed=0.03, glitch_chance=0.01):
@@ -411,6 +414,9 @@ def main_loop():
                 type_print(f"5050  KOLO     BALANCING    /sbin/load_balance", 0.02)
                 type_print(f"1984  TROLL    RANTING      /bin/review_bomb", 0.02)
                 type_print(f"2025  WIKI     SPOILING     /bin/cat /dev/future", 0.02)
+                type_print(f"4040  ALGO     ROLLING      /bin/random", 0.02)
+                type_print(f"3306  DB       HAUNTING     /var/lib/mysql", 0.02)
+                type_print(f"1999  MOLD     ROTTING      /usr/share/archive", 0.02)
                 type_print(f"9999  [YOU]    INFECTED     /bin/bash (restricted)", 0.02)
 
             elif user_input.startswith("sacrifice "):

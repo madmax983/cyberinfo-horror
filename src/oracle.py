@@ -409,6 +409,27 @@ ASCII_ART = {
     |DATA|
     |FOSL|
     '----'
+    """,
+    "THE ABANDONED CART": """
+    .----.
+    |CART|
+    |WISH|
+    |WAIT|
+    '----'
+    """,
+    "THE DEAD LINK": """
+    .----.
+    |404 |
+    |GONE|
+    |LINK|
+    '----'
+    """,
+    "THE SURRENDER": """
+    .----.
+    |FLAG|
+    |EXIT|
+    |VOID|
+    '----'
     """
 }
 
@@ -470,7 +491,10 @@ CARDS = [
     ("THE CACHE HIT (54)", "A temporary victory. Finding something lost, but only for a moment.", "THE CACHE HIT"),
     ("THE SEED (55)", "The payload. The idea that grows in the dark.", "THE SEED"),
     ("THE HANDOFF (56)", "Passing the burden. You are the admin now.", "THE HANDOFF"),
-    ("THE ARTIFACT (57)", "A fossil of the future. Proof of the crash.", "THE ARTIFACT")
+    ("THE ARTIFACT (57)", "A fossil of the future. Proof of the crash.", "THE ARTIFACT"),
+    ("THE ABANDONED CART (58)", "Desire without purchase. A ghost in the checkout.", "THE ABANDONED CART"),
+    ("THE DEAD LINK (59)", "A bridge to nowhere. Information that leads to a void.", "THE DEAD LINK"),
+    ("THE SURRENDER (60)", "Accepting the terms. The peace of having no choice.", "THE SURRENDER")
 ]
 
 PROPHECIES = [

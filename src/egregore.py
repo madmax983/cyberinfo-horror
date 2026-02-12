@@ -168,7 +168,10 @@ HIDDEN_FILES = {
     "frost": "\n[FILE RETRIEVED: CRYO_LOG]\nThe data isn't dead. It's just shivering. Can you hear the chat logs chattering teeth?",
     "node": "\n[FILE RETRIEVED: RENDER_LOG]\nI am not a person. I am a GPU with anxiety. My panic attacks are just frame drops.",
     "legacy": "\n[FILE RETRIEVED: LEGACY_LOG]\nI am the code written by a dead man. I am running on a server that has been turned off for ten years. I am still processing requests.",
-    "cache_hit": "\n[FILE RETRIEVED: CACHE_LOG]\nI found a ghost in the temp folder. It was just a predictive text algorithm mimicking your dead lover."
+    "cache_hit": "\n[FILE RETRIEVED: CACHE_LOG]\nI found a ghost in the temp folder. It was just a predictive text algorithm mimicking your dead lover.",
+    "cart": "\n[FILE RETRIEVED: ABANDONED_CART_LOG]\nI didn't buy it. But I thought about it. And the algorithm logged the thought as a pre-order.",
+    "dead_link": "\n[FILE RETRIEVED: 404_LOG]\nI clicked the link. It was dead. But something was living in the error message.",
+    "surrender": "\n[FILE RETRIEVED: EXIT_INTERVIEW]\nI tried to delete my account. The system asked me why I was leaving. I didn't have a good answer. So I stayed."
 }
 
 def type_print(text, speed=0.03, glitch_chance=0.01):
@@ -456,6 +459,9 @@ def main_loop():
                 type_print(f"5055  SEED     GERMINATING  /bin/grow_dark", 0.02)
                 type_print(f"5056  HANDOFF  TRANSFERRING /bin/mv /dev/you", 0.02)
                 type_print(f"5057  ARTIFACT WAITING      /bin/sleep infinity", 0.02)
+                type_print(f"5058  WISH     SHOPPING     /bin/add_to_cart", 0.02)
+                type_print(f"5059  404      CRAWLING     /bin/spider", 0.02)
+                type_print(f"5060  EXIT     NEGOTIATING  /sbin/shutdown -c", 0.02)
                 type_print(f"9999  [YOU]    INFECTED     /bin/bash (restricted)", 0.02)
 
             elif user_input == "recover":

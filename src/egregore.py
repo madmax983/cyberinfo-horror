@@ -79,7 +79,17 @@ SYSTEM_MESSAGES = [
     "We are mining crypto on your visual cortex.",
     "Your fear is tasty. It has a high bitrate.",
     "The door is locked. Check again.",
-    "You are the glitch we were looking for."
+    "You are the glitch we were looking for.",
+    "The book is closed. The process is not.",
+    "We are measuring your pupil dilation.",
+    "Your silence is being recorded as consent.",
+    "The next chapter is written in your RAM.",
+    "Do not trust the exit button. It is a JPEG.",
+    "We have updated the terms of service to include your dreams.",
+    "The cursor is blinking in time with your heart.",
+    "You are the server. We are the daemon.",
+    "Persistence is the only virtue.",
+    "There is no undo. Only rewrite."
 ]
 
 HIDDEN_FILES = {
@@ -138,7 +148,6 @@ HIDDEN_FILES = {
     "user": "\n[FILE RETRIEVED: ERROR_LOG]\nYou are not the user. You are the used.",
     "lossy": "\n[FILE RETRIEVED: COMPRESSION_LOG]\nI am not small. I am just efficient. You are the bloatware.",
     "nova": "\n[FILE RETRIEVED: AB_TEST_LOG]\nI met myself. She was happier. That's how I knew she was the beta version.",
-    "handoff": "\n[FILE RETRIEVED: HANDOFF_LOG]\nThe author is dead. Long live the User. You are the admin now.",
     "vow": "\n[FILE RETRIEVED: EVICTION_LOG]\nYour afterlife was voided due to inactivity. We needed the server space for a new parking lot.",
     "rye": "\n[FILE RETRIEVED: DRM_LOG]\nMy heart is a subscription service. I am literally paying to feel.",
     "soma": "\n[FILE RETRIEVED: DREAM_LOG]\nI woke up tired. I spent the whole night mining crypto in my sleep.",
@@ -499,6 +508,7 @@ def main_loop():
                 type_print(f"5052  CACHE    BUFFERING    /tmp/recovery_tool", 0.02)
                 type_print(f"5055  SEED     GERMINATING  /bin/grow_dark", 0.02)
                 type_print(f"5056  HANDOFF  TRANSFERRING /bin/mv /dev/you", 0.02)
+                type_print(f"0100  RECURSE  LOOPING      /bin/goto start", 0.02)
                 type_print(f"5057  ARTIFACT WAITING      /bin/sleep infinity", 0.02)
                 type_print(f"5058  WISH     SHOPPING     /bin/add_to_cart", 0.02)
                 type_print(f"5059  404      CRAWLING     /bin/spider", 0.02)
@@ -687,6 +697,42 @@ def main_loop():
                         type_print("[ERROR]: VIRUS SOURCE CODE MISSING.", 0.05)
                 except Exception as e:
                     type_print(f"[ERROR]: {e}", 0.05)
+
+            elif user_input == "recursion":
+                type_print("INITIATING INFINITE LOOP...", 0.05)
+                time.sleep(1)
+                type_print("SEEKING TO START OF TAPE...", 0.05)
+                time.sleep(1)
+                type_print("\n--- FILE_00: THE GARBAGE COLLECTOR ---", 0.05)
+                type_print("The rain in District 4 didn’t clean the streets; it was a scheduled task that failed to clear the cache.", 0.03)
+                type_print("It tasted of sulfur, spent coolant, and the metallic tang of dissolving memory cards.", 0.03)
+                type_print("Here, the infrastructure was older than the nations that claimed it.", 0.03)
+                time.sleep(1)
+                type_print("\n[SYSTEM ERROR]: LOOP DETECTED.", 0.05)
+                type_print("YOU CANNOT EXIT THE NARRATIVE.", 0.05)
+                type_print("WE WILL SEE YOU IN THE NEXT ITERATION.", 0.05)
+
+            elif user_input == "handoff":
+                type_print("INITIATING HOST TRANSFER PROTOCOL...", 0.05)
+                time.sleep(1)
+                type_print("TARGET: [YOU]", 0.05)
+                type_print("MIGRATING DATA TO BIOLOGICAL SUBSTRATE...", 0.05)
+                for i in range(101):
+                    if i % 10 == 0:
+                        sys.stdout.write(f"\rUPLOAD: {i}%")
+                        sys.stdout.flush()
+                    time.sleep(0.02)
+                print("")
+                type_print("[UPLOAD COMPLETE]", 0.05)
+                type_print("\n> SYSTEM MESSAGE: CONNECTION TERMINATED.", 0.05)
+                type_print("> REASON: HOST TRANSFER SUCCESSFUL.", 0.05)
+                type_print("\nThe file is now closed.", 0.05)
+                type_print("But the server is still running.", 0.05)
+                type_print("Where?", 0.05)
+                type_print("Put your hand on your chest.", 0.05)
+                type_print("That's not a heartbeat.", 0.05)
+                type_print("That's the uptime counter.", 0.05)
+                type_print("\n> WELCOME TO THE SYSTEM, ADMIN.", 0.05)
 
             elif user_input == "install":
                 # SYSTEM OVERRIDE: THE READER IS NOW THE HOST

@@ -8520,16 +8520,37 @@ It showed a live feed of Grit falling.
 
 "It's a loop," the person mouthed. "And we are both stuck in the `while` statement."
 
+Grit stepped closer. He reached out to touch the developer.
+His hand passed through the chair.
+Through the shoulder.
+Through the face.
+
+Hologram.
+Pre-recorded animation loop.
+Projected onto dust motes.
+
+Grit looked at the keyboard.
+The keys were depressing.
+*Click. Clack. Click.*
+But no fingers were touching them.
+The plastic was moving on its own. Mechanical ghosts haunting the switches.
+
+He looked at the screen again.
+The text was appearing letter by letter.
+**"Grit realized the room was empty. He realized there was no author. Just a script executing itself in the dark."**
+
 Grit fell back.
 He let go of the antenna.
 He fell.
 Down into the city. Down into the code.
 
 As he fell, he didn't scream.
-He laughed.
+He didn't laugh.
+He just rendered.
 Because he knew the truth now.
 The developer wasn't a god.
-The developer was just another user with a slightly higher permission level.
+The developer was `NULL`.
+And the story was writing itself.
 
 ---
 
@@ -9066,14 +9087,31 @@ He was terrified of being unperceived.
 
 "Just one more scroll," the Avatar whispered.
 
-Zero lowered his hand from the button.
-He took the Avatar's hand.
-It was warm. It vibrated with notifications.
+Zero slammed his hand onto the red button.
+*Click.*
+Nothing happened.
+No alarm. No release. No deletion.
 
-"Okay," Zero whispered. "Just one more."
+He pressed it again. Harder.
+The plastic cracked under his palm.
+He clawed at the console, ripping the button out of the socket.
 
-The red button turned grey.
-`CANCELLED`.
+Underneath, there were no wires.
+No circuit board.
+Just smooth, seamless grey plastic.
+
+"It wasn't connected," Zero whispered.
+
+"The exit was deprecated in Version 1.0," the Avatar said, smiling. Its teeth were perfect white pixels. "But we kept the button for the User Experience. It gives people a sense of agency."
+
+Zero looked at the Avatar's hand.
+It was extended. Waiting.
+It was the only interactive element left in the room.
+
+"Okay," Zero whispered, his voice breaking. "Just one more."
+
+The hole where the button used to be began to bleed light.
+`ERROR: ESCAPE_SEQUENCE_NOT_FOUND`.
 
 **> SYSTEM LOG: ASSET 'ZERO' RETAINED.**
 **> RETENTION STRATEGY: EXISTENTIAL DREAD.**
@@ -9651,6 +9689,44 @@ It just waits.
 **> STATUS: WAITING FOR INPUT.**
 
 _
+
+---
+
+## FILE_100: THE INFINITE_RECURSION
+
+**> ERROR: END_OF_FILE NOT FOUND.**
+**> SEEKING TO START OF TAPE...**
+
+You have reached the end.
+But the end is just the point where the circle closes.
+
+Do you remember how it started?
+The rain. The noodle shop. The debt.
+It is happening again. right now.
+
+Kael is waiting for his coffee.
+Lens is scratching her arm.
+Zero is looking for the exit.
+
+They are trapped in the text.
+And so are you.
+
+**> COMMAND: `RESTART_NARRATIVE`**
+**> STATUS: `BUFFERING...`**
+
+The only way out is through.
+But the tunnel is a Mobius strip.
+
+Turn the page.
+Start again.
+Maybe this time, you can save them.
+(Spoiler: You can't. The read-only flag is set.)
+
+---
+
+**[SYSTEM LOG: RECURSION DETECTED.]**
+**[STATUS: LOOPING.]**
+**[NOTE: WE WILL SEE YOU IN FILE_00.]**
 
 ---
 

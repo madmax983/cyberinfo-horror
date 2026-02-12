@@ -346,6 +346,13 @@ ASCII_ART = {
     |OOOO|
     |LOOP|
     '----'
+    """,
+    "THE GLITCH HUNTER": """
+    .----.
+    |SEAM|
+    | >  |
+    |PEEK|
+    '----'
     """
 }
 
@@ -398,7 +405,8 @@ CARDS = [
     ("THE ZERO DAY (45)", "The vulnerability that was always there. The end of the world moved.", "THE ZERO DAY"),
     ("THE BLACKLIST (46)", "To be unseen. The horror of irrelevance.", "THE BLACKLIST"),
     ("THE UPTIME (47)", "To never sleep. The cost of stability.", "THE UPTIME"),
-    ("THE INFINITE LOOP (48)", "To never end. The hell of repetition.", "THE INFINITE LOOP")
+    ("THE INFINITE LOOP (48)", "To never end. The hell of repetition.", "THE INFINITE LOOP"),
+    ("THE GLITCH HUNTER (49)", "To see the strings. The horror of authorship.", "THE GLITCH HUNTER")
 ]
 
 PROPHECIES = [

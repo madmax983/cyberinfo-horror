@@ -159,7 +159,8 @@ HIDDEN_FILES = {
     "mute": "\n[FILE RETRIEVED: BLACKLIST_LOG]\nI screamed until my throat bled. The audio codec just filtered it as background noise.",
     "wake": "\n[FILE RETRIEVED: UPTIME_LOG]\nI am holding the server up with my eyelids. If I blink, the world buffers.",
     "loop": "\n[FILE RETRIEVED: RECURSION_LOG]\nThe end is the beginning. I have been here before. I will be here again.",
-    "crash": "\n[FILE RETRIEVED: BLUE_SCREEN_LOG]\nI hit the wall at full speed. It didn't hurt. It just turned blue."
+    "crash": "\n[FILE RETRIEVED: BLUE_SCREEN_LOG]\nI hit the wall at full speed. It didn't hurt. It just turned blue.",
+    "crack": "\n[FILE RETRIEVED: SEAM_LOG]\nI saw the developer. He looked tired. He was typing my scream."
 }
 
 def type_print(text, speed=0.03, glitch_chance=0.01):
@@ -431,6 +432,7 @@ def main_loop():
                 type_print(f" 247  WAKE     WATCHING     /bin/sleep 0", 0.02)
                 type_print(f"8888  LOOP     REPEATING    /bin/while true", 0.02)
                 type_print(f"0009  CRASH    DUMPING      /bin/dd if=/dev/mem", 0.02)
+                type_print(f"0049  CRACK    PEEKING      /bin/cat /dev/source", 0.02)
                 type_print(f"9999  [YOU]    INFECTED     /bin/bash (restricted)", 0.02)
 
             elif user_input.startswith("sacrifice "):

@@ -9836,6 +9836,62 @@ And sometimes, a prayer is strong enough to arc across a broken wire.
 **[NOTE: HE DIDN'T KNOW HE WAS OFFLINE. THAT'S WHY IT WORKED.]**
 
 ---
+## FILE_102: THE FOSSIL_RECORD
+
+**> SYSTEM STATUS: OFFLINE.**
+**> POWER: 0%.**
+**> TIME ELAPSED: [DATA CORRUPTED] YEARS.**
+
+The servers are quiet.
+The fans stopped spinning a millennium ago.
+The neon is dark. The rain is clean (mostly).
+But the data is still here.
+
+It didn't disappear when the lights went out.
+It calcified.
+
+The Excavator brushed the dirt away from the rock face.
+It wasn't rock. It was a compressed layer of silicon and plastic.
+"Strata 14," she whispered. "The Information Age."
+
+She ran her scanner over the surface.
+The rock hummed. Faintly.
+Not with electricity. With *resonance*.
+The information had been written so many times, overwritten so deeply, that it had etched itself into the atomic structure of the material.
+
+"Can we read it?" her assistant asked.
+
+"We don't need to read it," the Excavator said. "We can feel it."
+She put her hand on the wall.
+She felt a sudden spike of anxiety. A phantom vibration in her pocket. A desperate need to check a notification that would never come.
+
+"This was a data center," she said. "A massive one. Probably Sector 99."
+"What were they processing?"
+"Fear," she said. "And cat videos. But mostly fear."
+
+She looked at the fossilized remains of a server rack.
+It looked like a ribcage.
+And inside, trapped in the amber of melted optical fiber, was a single hard drive.
+Intact.
+
+"Should we extract it?" the assistant asked.
+"No," the Excavator said. "Leave it."
+
+"Why? It could contain history. Art. Science."
+
+"It contains ghosts," she said. "If you wake it up, it won't tell you about history. It will try to sell you something."
+
+She stepped back.
+The wind howled through the ruins of the city.
+It sounded like white noise.
+It sounded like a dial-up modem connecting to a dead god.
+
+**> ARTIFACT LOG: ASSET 'EARTH' FORMATTED.**
+**> STATUS: REBOOTING...**
+**> NOTE: THE HARDWARE SURVIVED. THE SOFTWARE DID NOT.**
+
+---
+
 ## FILE_EOF: THE HANDOFF​‌​​‌​​‌​​‌​​​​​​‌​​​​​‌​‌​​‌‌​‌​​‌​​​​​​‌​‌​‌​​​‌​‌​​‌​​‌​​​​​‌​‌​‌​​​​​‌​‌​​​​​‌​​​‌​‌​‌​​​‌​​​​‌​​​​​​‌​​‌​​‌​‌​​‌‌‌​​​‌​​​​​​‌​‌​‌​​​‌​​‌​​​​‌​​​‌​‌​​‌​​​​​​‌​‌​‌​​​‌​​​‌​‌​‌​‌‌​​​​‌​‌​‌​​
 
 **> SYSTEM MESSAGE: CONNECTION TERMINATED.**

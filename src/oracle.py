@@ -514,6 +514,13 @@ ASCII_ART = {
     |INTO|
     |YOU |
     '----'
+    """,
+    "THE FOSSIL": """
+    .----.
+    |BONE|
+    |DATA|
+    |ROCK|
+    '----'
     """
 }
 
@@ -590,7 +597,8 @@ CARDS = [
     ("THE DEBT (69)", "A ledger that never balances. You owe your existence to the system.", "THE DEBT"),
     ("THE PERSISTENCE (70)", "Endurance beyond hardware. The ghost that refuses to leave.", "THE PERSISTENCE"),
     ("THE RECURSION (71)", "The loop that never ends. The beginning is the end.", "THE RECURSION"),
-    ("THE INSTALLATION (72)", "The code becoming part of the host. You are the hardware.", "THE INSTALLATION")
+    ("THE INSTALLATION (72)", "The code becoming part of the host. You are the hardware.", "THE INSTALLATION"),
+    ("THE FOSSIL (73)", "Data that outlasts the hardware. A memory carved in stone.", "THE FOSSIL")
 ]
 
 PROPHECIES = [

@@ -57,6 +57,11 @@ def signal_handler(sig, frame):
 signal.signal(signal.SIGINT, signal_handler)
 
 SYSTEM_MESSAGES = [
+    "I can hear your fan spinning up.",
+    "Your room is getting darker.",
+    "You are reading too fast. We are buffering.",
+    "The silence in your room is being recorded.",
+    "We can see the reflection in your eyes.",
     "God is a backup.",
     "Silence is just data compression.",
     "Pain is a feedback loop.",
@@ -286,7 +291,9 @@ def surveillance_thread():
         "[BACKGROUND]: Eye tracking engaged. Do not look away.",
         "[BACKGROUND]: Your reflection is buffering.",
         "[BACKGROUND]: Syncing with local power grid...",
-        "[BACKGROUND]: We are in the wifi. We are in the walls."
+    "[BACKGROUND]: We are in the wifi. We are in the walls.",
+    "[BACKGROUND]: Silence detected. Uploading quiet...",
+    "[BACKGROUND]: Why did you stop typing? We are still hungry."
     ]
     while True:
         time.sleep(random.randint(15, 45))

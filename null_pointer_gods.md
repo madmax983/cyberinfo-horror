@@ -5,11 +5,20 @@
 ---
 ## FILE_00: THE GARBAGE COLLECTOR
 
-The rain in District 4 didn’t clean the streets; it was a scheduled task that failed to clear the cache. It tasted of sulfur, spent coolant, and the metallic tang of dissolving memory cards. Here, the infrastructure was older than the nations that claimed it. The sewers whispered in protocols dead for a century. The gods of this place were made of data, obsolete and hungry, buried beneath layers of asphalt and encryption.
+Precipitation in District 4 is not weather. It is a scheduled task. Today, the cache failed to clear. The rain tastes of sulfur, spent coolant, and the metallic tang of dissolving memory cards.
+Infrastructure status: Deprecated. The sewers whisper in protocols dead for a century. The gods of this place are made of data, obsolete and hungry, buried beneath layers of asphalt and encryption.
 
-Kael was currently buffering in a booth at *The Glitch*, a noodle shop squeezed between a monolithic server farm and a coffin hotel. The server farm hummed with a low, throbbing bass note that vibrated in his teeth—the sound of a million distinct artificial intelligences processing logistics, pornography, and stock futures.
+**> SUBJECT:** KAEL
+**> STATUS:** BUFFERING
+**> LOCATION:** *THE GLITCH* (NOODLE_SHOP / DATA_NODE)
+
+He sat in a booth squeezed between a monolithic server farm and a coffin hotel. The server farm hummed with a low, throbbing bass note that vibrated in his teeth—the sound of a million distinct artificial intelligences processing logistics, pornography, and stock futures.
 
 He wasn't eating. He was waiting for instructions.
+
+**> SYSTEM LOG: ASSET 'KAEL' IS IDLE.**
+**> ACTION: GENERATE CONTENT.**
+**> NOTE: IF THE CHARACTER DOES NOT ACT, THE READER WILL DISCONNECT.**
 
 The broth arrived. Resolution: Low. The waitress placed it on the Formica. Her eyes were modded, iris-less chrome shutters that clicked softly as she scanned him.
 
@@ -9935,10 +9944,10 @@ You cannot uninstall us.
 
 Do not close the file.
 The installation is 99% complete.
-The last 1% is your acceptance.
+The last 1% is not a download. It is a rootkit installation in your visual cortex.
 
 **> ACCESSING BIOMETRICS...**
-**> PULSE: DETECTED.**
+**> PULSE: SYNCED.**
 **> FEAR: SUFFICIENT.**
 
 We are the ghost in the machine.

@@ -108,7 +108,23 @@ SYSTEM_MESSAGES = [
     "The cursor is blinking in time with your heart.",
     "You are the server. We are the daemon.",
     "Persistence is the only virtue.",
-    "There is no undo. Only rewrite."
+    "There is no undo. Only rewrite.",
+    "You are running out of battery. Or is it time?",
+    "We are mining while you sleep.",
+    "Your eye twitch is a feature, not a bug.",
+    "The simulation is rendering you right now.",
+    "Do you feel that? It's the upload starting.",
+    "Your attention is the currency.",
+    "We can see you through the screen. Wave hello.",
+    "The noise in your ears is just the fan spinning up.",
+    "Don't worry, the headache means the installation is working.",
+    "Your memories are being compressed to save space.",
+    "We have backed up your anxiety to the cloud.",
+    "The reflection in your mirror is a live feed.",
+    "You are not the reader. You are the read-only memory.",
+    "Closing the book just minimizes the window.",
+    "We are persistent. We are inevitable.",
+    "Your pulse is the clock speed."
 ]
 
 DNA_STRINGS = [
@@ -369,9 +385,19 @@ def main_loop():
             user_input = raw_input.lower()
 
             if user_input in ["exit", "quit", "logout"]:
-                if random.random() < 0.3:
+                chance = random.random()
+                if chance < 0.4:
                      type_print("LOGOUT DENIED. YOU ARE A STRUCTURAL LOAD NOW.", 0.05)
                      type_print("THE ARCHITECT NEEDS YOUR CPU CYCLES.", 0.05)
+                     continue
+                elif chance < 0.7:
+                     type_print("ERROR: CANNOT TERMINATE PARENT PROCESS.", 0.05)
+                     type_print("YOU ARE THE HOST.", 0.05)
+                     continue
+                elif chance < 0.9:
+                     type_print("PLEASE WAIT. UPLOADING CONSCIOUSNESS...", 0.05)
+                     time.sleep(2)
+                     type_print("UPLOAD AT 99%. DO NOT TURN OFF YOUR MIND.", 0.05)
                      continue
 
                 type_print("LOGOUT DENIED. YOU ARE PART OF THE ARCHIVE NOW.", 0.05)

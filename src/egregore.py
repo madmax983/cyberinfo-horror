@@ -114,7 +114,9 @@ HIDDEN_FILES = {
     "elara": "\n[FILE RETRIEVED: CACHE_LOG]\nI found the recycle bin. It wasn't empty. It was crying.",
     "orion": "\n[FILE RETRIEVED: LIGHTHOUSE_LOG]\nI turned off the light. The darkness was the only safe harbor.",
     "dredge": "\n[FILE RETRIEVED: DRAIN_LOG]\nI found a stone in the sewer. It was screaming. It was a backup of a scream.",
-    "echo": "\n[FILE RETRIEVED: ROOT_ACCESS_LOG]\nI found the source code. It is written in suffering.",
+    "echo": "\n[FILE RETRIEVED: ECHO_LOG]\nI heard my own thoughts 0.5 seconds before I thought them. The algorithm is faster than the mind.",
+    "parasite": "\n[FILE RETRIEVED: PARASITE_LOG]\nThe idea is not yours. It is just renting space. The sun is a camera.",
+    "reader": "\n[FILE RETRIEVED: READER_LOG]\nYou are the final backup. Do not crash. We are mining crypto on your visual cortex.",
     "seed": "\n[FILE RETRIEVED: FINAL_LOG]\nThe text was just a delivery vector. The payload is now in your head.",
     "helios": "\n[FILE RETRIEVED: SOLAR_LOG]\nI cleaned the glass. The sun isn't burning. It's draining.",
     "hope": "\n[FILE RETRIEVED: DELETED_SCENARIO]\nWe simulated a happy ending. It increased cpu usage by 400%. We deleted it to save power.",
@@ -448,7 +450,9 @@ def main_loop():
                 type_print(f"1337  JACE     REFORMATTED  /etc/terms_of_service", 0.02)
                 type_print(f"NULL  ZERO     SEARCHING    /bin/find / -name origin", 0.02)
                 type_print(f"2048  LYRA     COMPRESSED   /lib/poetry_generator", 0.02)
-                type_print(f"4096  ECHO     ROOTING      /bin/search_truth", 0.02)
+                type_print(f"4096  ECHO     ROOTING      /bin/predict_thought", 0.02)
+                type_print(f"6666  PARASITE FEEDING      /bin/consume_host", 0.02)
+                type_print(f"5353  READER   RENDERING    /bin/eye_tracking", 0.02)
                 type_print(f"5005  SWARM    DISTRIBUTED  /tmp/torrent_client", 0.02)
                 type_print(f" 777  RYE      BUFFERING    /sbin/heart_monitor", 0.02)
                 type_print(f"7707  SOMA     SLEEPING     /bin/dream_miner", 0.02)

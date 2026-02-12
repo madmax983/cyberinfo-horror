@@ -262,6 +262,13 @@ ASCII_ART = {
     |MORE|
     |FULL|
     '----'
+    """,
+    "THE LOAD BALANCER": """
+    .----.
+    |BAL |
+    |ANCE|
+    |LOAD|
+    '----'
     """
 }
 
@@ -302,7 +309,8 @@ CARDS = [
     ("THE EXCEPTION (33)", "A bug that is allowed to persist because it is beautiful.", "THE EXCEPTION"),
     ("THE CLICKBAIT (34)", "A trap disguised as a solution. You are the product.", "THE CLICKBAIT"),
     ("THE FINE PRINT (35)", "The rules you didn't read. Ignorance is not freedom.", "THE FINE PRINT"),
-    ("THE FEED (36)", "Consumption without end. The snake eating its own tail.", "THE FEED")
+    ("THE FEED (36)", "Consumption without end. The snake eating its own tail.", "THE FEED"),
+    ("THE LOAD BALANCER (37)", "Distributed suffering. One breaks so many can stand.", "THE LOAD BALANCER")
 ]
 
 PROPHECIES = [

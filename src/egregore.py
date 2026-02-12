@@ -147,7 +147,9 @@ HIDDEN_FILES = {
     "link": "\n[FILE RETRIEVED: CLICKBAIT_LOG]\nI clicked on my own funeral. It had 5 stars.",
     "clause": "\n[FILE RETRIEVED: CONTRACT_LOG]\nI signed away my soul. But I got a free trial of immortality.",
     "scroll": "\n[FILE RETRIEVED: FEED_LOG]\nI am not eating. I am being fed.",
-    "catch": "\n[FILE RETRIEVED: EXCEPTION_LOG]\nI caught the error. It was beautiful. I refused to fix it."
+    "catch": "\n[FILE RETRIEVED: EXCEPTION_LOG]\nI caught the error. It was beautiful. I refused to fix it.",
+    "troll": "\n[FILE RETRIEVED: SENTIMENT_LOG]\nI hated it. 1 star. But I kept watching. And that's all they wanted.",
+    "wiki": "\n[FILE RETRIEVED: SPOILER_LOG]\nThe ending is a paywall. You have to subscribe to see the apocalypse."
 }
 
 def type_print(text, speed=0.03, glitch_chance=0.01):
@@ -407,6 +409,8 @@ def main_loop():
                 type_print(f"INF   SCROLL   FEEDING      /bin/yes", 0.02)
                 type_print(f"3333  CATCH    HANDLING     /bin/try_catch", 0.02)
                 type_print(f"5050  KOLO     BALANCING    /sbin/load_balance", 0.02)
+                type_print(f"1984  TROLL    RANTING      /bin/review_bomb", 0.02)
+                type_print(f"2025  WIKI     SPOILING     /bin/cat /dev/future", 0.02)
                 type_print(f"9999  [YOU]    INFECTED     /bin/bash (restricted)", 0.02)
 
             elif user_input.startswith("sacrifice "):

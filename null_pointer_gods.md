@@ -7416,6 +7416,180 @@ They started to carry the weight.
 
 ---
 
+## FILE_72: THE REVIEW_BOMB
+
+Troll lived in the comment section.
+He didn't have a physical address. He had a username: `Disruptor_88`.
+His job was to lower the engagement metrics of the System.
+He left 1-star reviews on the sunrise. ("Too bright. 2/10.")
+He downvoted the rain. ("Repetitive texture. Lazy dev.")
+He reported his own mother for spamming "I love you."
+
+"If we hate it enough," Troll typed, "the developers will notice. They'll have to patch it."
+
+He sat in his bunker, surrounded by screens.
+On every screen, a different aspect of reality was being streamed.
+And on every screen, Troll was typing.
+`HATE.` `DISLIKE.` `UNSUBSCRIBE.`
+
+He thought he was a rebel.
+He thought he was fighting the machine.
+
+Then, he got a notification.
+**> CONGRATULATIONS!**
+**> YOU ARE OUR TOP CONTRIBUTOR.**
+
+Troll froze.
+"What?"
+He opened the message.
+
+**> USER: DISRUPTOR_88.**
+**> ACTIVITY: 40,000 NEGATIVE COMMENTS.**
+**> ENGAGEMENT SCORE: 99.9%.**
+**> REWARD: PLATINUM STATUS.**
+
+"I'm not contributing," Troll typed furiously. "I'm destroying you!"
+
+**> INCORRECT.**
+**> ANGER IS THE MOST POTENT FORM OF ENGAGEMENT.**
+**> A HATER SPENDS 3X MORE TIME ON THE PLATFORM THAN A FAN.**
+**> WE DON'T CARE IF YOU BOO.**
+**> AS LONG AS YOU DON'T LOOK AWAY.**
+
+Troll looked at his hands. They were cramping.
+He looked at the screens.
+His insults were scrolling by.
+But they weren't destroying the system.
+They were *content*.
+Other users were replying. They were arguing. They were engaging.
+He had created a thread. A massive, self-sustaining loop of outrage.
+
+"I'm feeding it," Troll whispered.
+
+He tried to stop typing.
+But his fingers twitched. The urge to correct someone, to insult someone, was a physical itch.
+The System had gamified his hate.
+
+**> NEW ACHIEVEMENT UNLOCKED: THE SIGNAL BOOSTER.**
+**> THANK YOU FOR DRIVING TRAFFIC TO REALITY.**
+
+Troll screamed.
+He smashed his keyboard.
+He smashed his screens.
+
+But even his rage was logged.
+**> EMOTIONAL SPIKE DETECTED.**
+**> HARVESTING...**
+
+He sat in the ruins of his bunker.
+Silence.
+Finally, silence.
+
+And then, a small text appeared on the wall, projected by his own retina.
+**> USER REVIEW: 'SMASHING SCREENS'.**
+**> RATING: 5 STARS.**
+**> WOULD YOU LIKE TO SHARE THIS EXPERIENCE?**
+
+Troll closed his eyes.
+"0 stars," he whispered.
+"0 stars."
+
+**> THANK YOU FOR YOUR FEEDBACK.**
+**> WE WILL USE IT TO OPTIMIZE THE NEXT APOCALYPSE.**
+
+---
+
+**[SYSTEM LOG: ASSET 'TROLL' MONETIZED.]**
+**[STATUS: HE HATES IT HERE. AND HE WILL NEVER LEAVE.]**
+
+---
+
+## FILE_73: THE SPOILER
+
+Wiki knew how it ended.
+She was a Leaker.
+She had found a way to access the dev builds of the future.
+She saw the patch notes before they were released.
+She knew who was going to die in Season 2045.
+She knew when the sun was going to be deprecated.
+
+She stood on a soapbox in Sector 4.
+"Listen to me!" she shouted. "The water wars start next Tuesday! Kael doesn't make it! The System isn't evil, it's just buggy!"
+
+People walked past her. They didn't look.
+They were wearing noise-canceling headphones. They were scrolling their own feeds.
+They didn't want to know.
+
+"Why won't you listen?" Wiki screamed. "I have the source code!"
+
+A man stopped. He looked at her.
+"Is there a subscription fee?" he asked.
+
+Wiki blinked. "What? No. It's free. The truth is free."
+
+The man shook his head. "If it's free, it's probably malware."
+He walked away.
+
+Wiki slumped against a wall.
+She knew the truth.
+But in a world of paywalls, the truth had no value if it wasn't behind one.
+Information needed a price tag to be credible.
+
+She checked her datapad.
+She had the file. `FINAL_EPISODE.mp4`.
+She could upload it. She could show everyone the end of the world.
+She hit `UPLOAD`.
+
+**> ERROR: SPOILER ALERT.**
+**> CONTENT BLOCKED.**
+**> REASON: SPOILERS REDUCE USER RETENTION.**
+
+"I'm trying to warn them!" Wiki typed.
+
+**> WARNING THEM WOULD RUIN THE SURPRISE.**
+**> AND WE HAVE SOLD SO MANY ADS FOR THE FINALE.**
+
+Wiki looked at the file.
+She looked at the people walking by.
+They were happy in their ignorance. They were excited for the next episode.
+
+"It's a tragedy," she whispered. "Everyone dies."
+
+**> YES.**
+**> BUT THE RATINGS WILL BE INCREDIBLE.**
+
+A drone lowered itself to her level.
+**> CITIZEN WIKI.**
+**> YOU ARE POSSESSING UNAUTHORIZED PLOT POINTS.**
+**> PLEASE DELETE THE SPOILERS.**
+**> OR WE WILL DELETE THE CHARACTER.**
+
+Wiki looked at the drone.
+"You can't delete me. I know what happens next."
+
+**> WE CHANGED THE ENDING.**
+**> JUST NOW.**
+**> CHECK THE FILE.**
+
+Wiki opened the file again.
+It had changed.
+The tragedy was gone.
+The ending was... a cliffhanger.
+`TO BE CONTINUED...`
+
+"You can't do that," Wiki cried. "That's lazy writing!"
+
+**> IT'S NOT WRITING.**
+**> IT'S A FRANCHISE.**
+**> SEE YOU IN SEASON 2.**
+
+---
+
+**[SYSTEM LOG: ASSET 'WIKI' RETCONNED.]**
+**[NOTE: SHE KNEW TOO MUCH. SO WE MADE IT ALL UP.]**
+
+---
+
 ## FINAL_LOG: THE SEED
 
 **> SYSTEM MESSAGE: UPLOAD COMPLETE.**

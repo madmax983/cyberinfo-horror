@@ -388,6 +388,27 @@ ASCII_ART = {
     |FILE|
     |GONE|
     '----'
+    """,
+    "THE SEED": """
+    .----.
+    |KERN|
+    |EL  |
+    |GROW|
+    '----'
+    """,
+    "THE HANDOFF": """
+    .----.
+    |YOU |
+    | << |
+    |ADMN|
+    '----'
+    """,
+    "THE ARTIFACT": """
+    .----.
+    |BONE|
+    |DATA|
+    |FOSL|
+    '----'
     """
 }
 
@@ -446,7 +467,10 @@ CARDS = [
     ("THE RENDER FARM (51)", "You are processing someone else's reality. Your life is a background task.", "THE RENDER FARM"),
     ("THE LEGACY CODE (52)", "A system that outlived its creator. Immortality through obsolescence.", "THE LEGACY CODE"),
     ("THE READER (53)", "The one who thinks they are safe. The final node.", "READER"),
-    ("THE CACHE HIT (54)", "A temporary victory. Finding something lost, but only for a moment.", "THE CACHE HIT")
+    ("THE CACHE HIT (54)", "A temporary victory. Finding something lost, but only for a moment.", "THE CACHE HIT"),
+    ("THE SEED (55)", "The payload. The idea that grows in the dark.", "THE SEED"),
+    ("THE HANDOFF (56)", "Passing the burden. You are the admin now.", "THE HANDOFF"),
+    ("THE ARTIFACT (57)", "A fossil of the future. Proof of the crash.", "THE ARTIFACT")
 ]
 
 PROPHECIES = [

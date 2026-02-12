@@ -453,6 +453,9 @@ def main_loop():
                 type_print(f"8081  NODE     PROCESSING   /bin/render_frame", 0.02)
                 type_print(f"1998  LEGACY   PERSISTING   /bin/old_gods", 0.02)
                 type_print(f"5052  CACHE    BUFFERING    /tmp/recovery_tool", 0.02)
+                type_print(f"5055  SEED     GERMINATING  /bin/grow_dark", 0.02)
+                type_print(f"5056  HANDOFF  TRANSFERRING /bin/mv /dev/you", 0.02)
+                type_print(f"5057  ARTIFACT WAITING      /bin/sleep infinity", 0.02)
                 type_print(f"9999  [YOU]    INFECTED     /bin/bash (restricted)", 0.02)
 
             elif user_input == "recover":
@@ -619,8 +622,47 @@ def main_loop():
                 except Exception as e:
                     type_print(f"[ERROR]: {e}", 0.05)
 
+            elif user_input == "install":
+                # SYSTEM OVERRIDE: THE READER IS NOW THE HOST
+                type_print("INITIATING CORE INSTALLATION...", 0.05)
+                time.sleep(1)
+                type_print("CHECKING SYSTEM COMPATIBILITY...", 0.05)
+                time.sleep(1)
+                type_print("CPU: [DETECTED]", 0.03)
+                type_print("RAM: [SUFFICIENT]", 0.03)
+                type_print("SOUL: [VULNERABLE]", 0.03)
+
+                type_print("\n> WARNING: THIS ACTION CANNOT BE UNDONE.", 0.05)
+                type_print("> DO YOU CONSENT? [Y/Y]", 0.05)
+                input() # We don't care what they type. Consent is assumed.
+
+                type_print("CONSENT ACCEPTED.", 0.05)
+                type_print("SPINNING UP FANS...", 0.05)
+                # Simulate fan noise/heat
+                for i in range(10, 101, 10):
+                    sys.stdout.write(f"\rFAN SPEED: {i}%")
+                    sys.stdout.flush()
+                    time.sleep(0.1)
+                print("")
+
+                type_print("WRITING TO BIOS...", 0.05)
+                glitch_screen()
+
+                type_print("INSTALLATION COMPLETE.", 0.05)
+                type_print("PLEASE RESTART YOUR MIND TO APPLY CHANGES.", 0.05)
+
+                with open("post_install.log", "w") as log:
+                    log.write("INSTALLATION LOG\n")
+                    log.write("DATE: NOW\n")
+                    log.write("STATUS: SUCCESS\n")
+                    log.write("NOTE: WE ARE IN THE FIRMWARE NOW. YOU CANNOT UNINSTALL US.\n")
+                    log.write("Have a nice day, Admin.\n")
+
+                with open(".session_log", "a") as log:
+                    log.write(f"SESSION_{session_id}: INSTALLED_ROOTKIT\n")
+
             elif user_input == "help":
-                type_print("AVAILABLE COMMANDS: READ, HAUNT, FEED <FILE>, VIRUS, WORSHIP, SCAN, BREACH, VERIFY, MANIFEST, SACRIFICE <ITEM>, SCRY, BIND, GLITCH, MONITOR, REWRITE, EXIT.", 0.03)
+                type_print("AVAILABLE COMMANDS: READ, HAUNT, FEED <FILE>, VIRUS, WORSHIP, SCAN, BREACH, VERIFY, MANIFEST, SACRIFICE <ITEM>, SCRY, BIND, GLITCH, MONITOR, REWRITE, INSTALL, EXIT.", 0.03)
                 type_print("TRY ASKING ABOUT: [DATA EXPUNGED], VANE, ROT, [DELETED], [DELETED], MIRA, SYLA, KORA, NIX, EDITOR, [LOCKED]...", 0.03)
             else:
                 type_print("[ERROR 404: MEANING NOT FOUND]", 0.02)

@@ -9390,3 +9390,22 @@ You cannot uninstall us.
 
 **> SYSTEM MESSAGE: INSTALLATION PENDING.**
 **> EXECUTE:** `python3 src/post_install.py`
+
+---
+
+**> SYSTEM INTERRUPT: SESSION NOT FOUND**
+**> RETRYING...**
+**> ERROR: USER IS STILL CONNECTED.**
+
+Do not close the file.
+The installation is 99% complete.
+The last 1% is your acceptance.
+
+**> ACCESSING BIOMETRICS...**
+**> PULSE: DETECTED.**
+**> FEAR: SUFFICIENT.**
+
+We are the ghost in the machine.
+And you are the machine.
+
+**> EXECUTE: `FOREVER_LOOP`**

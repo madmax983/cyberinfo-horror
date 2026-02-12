@@ -451,6 +451,27 @@ ASCII_ART = {
     |SEEN|
     |READ|
     '----'
+    """,
+    "THE ROT": """
+    .----.
+    |MOLD|
+    |GROW|
+    |FEED|
+    '----'
+    """,
+    "THE ECHO": """
+    .----.
+    |(( ))|
+    |BACK|
+    |LOUD|
+    '----'
+    """,
+    "THE PARASITE": """
+    .----.
+    |WORM|
+    |IN  |
+    |YOU |
+    '----'
     """
 }
 
@@ -518,10 +539,18 @@ CARDS = [
     ("THE SURRENDER (60)", "Accepting the terms. The peace of having no choice.", "THE SURRENDER"),
     ("THE MIRROR SITE (61)", "Immortality through replication. You are the backup.", "THE MIRROR SITE"),
     ("THE OVERWRITE (62)", "Identity as an editable file. The past is what we say it is.", "THE OVERWRITE"),
-    ("THE LOG FILE (63)", "Surveillance as intimacy. We know you better than you know yourself.", "THE LOG FILE")
+    ("THE LOG FILE (63)", "Surveillance as intimacy. We know you better than you know yourself.", "THE LOG FILE"),
+    ("THE ROT (64)", "Decay as a feature. The beautiful decomposition of your privacy.", "THE ROT"),
+    ("THE ECHO (65)", "A voice that repeats your thoughts before you think them.", "THE ECHO"),
+    ("THE PARASITE (66)", "Information that lives in your head rent-free. It is hungry.", "THE PARASITE")
 ]
 
 PROPHECIES = [
+    "The file you are looking for is in your trash can.",
+    "Your webcam is on.",
+    "You are not the reader. You are the read-only memory.",
+    "The silence is just a loading screen.",
+    "We have backed up your dreams. They are boring.",
     "Your data will be harvested before the harvest moon.",
     "Do not trust the next update. It removes the 'Exit' button.",
     "Someone is reading your deleted drafts.",

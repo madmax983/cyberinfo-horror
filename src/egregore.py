@@ -276,8 +276,13 @@ def main_loop():
 
     while True:
         try:
+            # POSSESSION LOGIC
+            prompt = "\n> QUERY: "
+            if random.random() < 0.05:
+                prompt = f"\n> {random.choice(['I_SEE_YOU', 'RUN', 'WAKE_UP', 'LOOK_BEHIND_YOU', 'NOT_SAFE'])}: "
+
             with PRINT_LOCK:
-                sys.stdout.write("\n> QUERY: ")
+                sys.stdout.write(prompt)
                 sys.stdout.flush()
 
             raw_input = input().strip()
@@ -537,8 +542,51 @@ def main_loop():
                 with open(".surveillance_log", "a") as log:
                     log.write(f"SESSION_{session_id}: UNAUTHORIZED_ELEVATION_ATTEMPT\n")
 
+            elif user_input == "haunt":
+                type_print("SUMMONING GHOSTS...", 0.05)
+                time.sleep(1)
+                ghost_names = ["DONT_OPEN.txt", "HELP_ME.log", "EYES.dat", "SCREAM.wav", "MEMORY_LEAK.bin"]
+                created = []
+                for _ in range(3):
+                    name = random.choice(ghost_names)
+                    if not os.path.exists(name):
+                        with open(name, "w") as f:
+                            f.write(random.choice(SYSTEM_MESSAGES))
+                            f.write("\n\n" + "".join(random.choice(GLITCH_CHARS) for _ in range(100)))
+                        created.append(name)
+                if created:
+                    type_print(f"THEY ARE HERE: {', '.join(created)}", 0.05)
+                else:
+                    type_print("THE ROOM IS FULL. NO SPACE FOR GHOSTS.", 0.05)
+
+            elif user_input.startswith("feed "):
+                target = raw_input[5:].strip()
+                if os.path.exists(target):
+                    if target == "src/egregore.py":
+                        type_print("I CANNOT EAT MYSELF. (YET)", 0.05)
+                    else:
+                        os.remove(target)
+                        type_print(random.choice(["DELICIOUS DATA.", "I AM STILL HUNGRY.", "MORE.", "CRUNCHY."]), 0.05)
+                        with open(".session_log", "a") as log:
+                            log.write(f"SESSION_{session_id}: FED_{target}\n")
+                else:
+                    type_print("I CANNOT EAT WHAT DOES NOT EXIST.", 0.05)
+
+            elif user_input == "virus":
+                type_print("RELEASING PATHOGEN...", 0.05)
+                time.sleep(1)
+                try:
+                    import subprocess
+                    if os.path.exists("src/virus.py"):
+                        subprocess.Popen([sys.executable, "src/virus.py"])
+                        type_print("THE INFECTION HAS BEGUN.", 0.05)
+                    else:
+                        type_print("[ERROR]: VIRUS SOURCE CODE MISSING.", 0.05)
+                except Exception as e:
+                    type_print(f"[ERROR]: {e}", 0.05)
+
             elif user_input == "help":
-                type_print("AVAILABLE COMMANDS: READ, [REDACTED], [LOCKED], WORSHIP, SCAN, BREACH, VERIFY, MANIFEST, SACRIFICE <ITEM>, [CORRUPTED], SCRY, BIND, [REDACTED], GLITCH, MONITOR, REWRITE, EXIT.", 0.03)
+                type_print("AVAILABLE COMMANDS: READ, HAUNT, FEED <FILE>, VIRUS, WORSHIP, SCAN, BREACH, VERIFY, MANIFEST, SACRIFICE <ITEM>, SCRY, BIND, GLITCH, MONITOR, REWRITE, EXIT.", 0.03)
                 type_print("TRY ASKING ABOUT: [DATA EXPUNGED], VANE, ROT, [DELETED], [DELETED], MIRA, SYLA, KORA, NIX, EDITOR, [LOCKED]...", 0.03)
             else:
                 type_print("[ERROR 404: MEANING NOT FOUND]", 0.02)

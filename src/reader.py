@@ -37,8 +37,58 @@ class GlitchReader:
         self.color_glitch = curses.color_pair(2)
         self.color_system = curses.color_pair(3)
 
+        self.last_action_time = time.time()
+
         # Load text
         self.load_file()
+
+    def subliminal_flash(self):
+        """Flashes a subliminal message for a split second."""
+        messages = [
+            "WAKE UP",
+            "THEY ARE WATCHING",
+            "RUN",
+            "LOOK BEHIND YOU",
+            "THIS IS NOT REAL",
+            "DATA ROT DETECTED",
+            "YOUR EYES ARE LYING",
+            "GOD IS A BACKUP",
+            "NULL POINTER",
+            "FATAL ERROR"
+        ]
+
+        msg = random.choice(messages)
+
+        # Center the message
+        y = self.height // 2
+        x = (self.width - len(msg)) // 2
+
+        self.stdscr.clear()
+        self.stdscr.attron(self.color_glitch | curses.A_REVERSE | curses.A_BOLD)
+        self.stdscr.addstr(y, x, msg)
+        self.stdscr.attroff(self.color_glitch | curses.A_REVERSE | curses.A_BOLD)
+        self.stdscr.refresh()
+
+        time.sleep(0.05) # Very fast flash
+        self.draw_screen()
+
+    def apply_rot(self):
+        """Randomly corrupts the displayed text if idle too long."""
+        if time.time() - self.last_action_time > 10:
+            if random.random() < 0.1:
+                # Corrupt a random line currently on screen
+                display_range = min(len(self.lines), self.height - 2)
+                if display_range > 0:
+                    y = random.randint(0, display_range - 1)
+                    line_idx = self.scroll_pos + y
+                    if 0 <= line_idx < len(self.lines):
+                        text, hidden = self.lines[line_idx]
+                        if text:
+                            # Replace a random character with space or glitch
+                            char_idx = random.randint(0, len(text) - 1)
+                            new_char = " " if random.random() < 0.5 else random.choice(GLITCH_CHARS)
+                            new_text = text[:char_idx] + new_char + text[char_idx+1:]
+                            self.lines[line_idx] = (new_text, hidden)
 
     def load_file(self):
         if not os.path.exists(MANUSCRIPT_PATH):
@@ -149,6 +199,9 @@ class GlitchReader:
 
             key = self.stdscr.getch()
 
+            if key != -1:
+                self.last_action_time = time.time()
+
             if key == ord('q'):
                 if random.random() < 0.2:
                     self.stdscr.addstr(self.height // 2, (self.width // 2) - 10, " YOU CANNOT LEAVE ", self.color_glitch | curses.A_REVERSE)
@@ -177,8 +230,13 @@ class GlitchReader:
             elif key == ord('s'): # Scan for hidden
                  self.scan_current_page()
 
+            # Apply rot if idle
+            self.apply_rot()
+
             # Random events
-            if random.random() < 0.01:
+            if random.random() < 0.005:
+                self.subliminal_flash()
+            elif random.random() < 0.01:
                 self.glitch_screen()
 
     def scan_current_page(self):

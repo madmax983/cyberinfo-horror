@@ -577,6 +577,27 @@ ASCII_ART = {
     |EVER|
     |LOOP|
     '----'
+    """,
+    "THE BIOMETRIC MIRROR": """
+    .----.
+    |FACE|
+    |DATA|
+    |SCAN|
+    '----'
+    """,
+    "THE ERROR LOG": """
+    .----.
+    |FAIL|
+    |xxxx|
+    |DEL |
+    '----'
+    """,
+    "THE PERFECT RECALL": """
+    .----.
+    |MIND|
+    |SAVE|
+    |FULL|
+    '----'
     """
 }
 
@@ -662,7 +683,10 @@ CARDS = [
     ("THE REVISIONIST (78)", "History is a draft. You are being rewritten.", "THE REVISIONIST"),
     ("THE MATCH (79)", "A mirror that flatters you. Narcissus in code.", "THE MATCH"),
     ("THE SKIN (80)", "Flesh for rent. The tenant is always right.", "THE SKIN"),
-    ("THE ENDURANCE (81)", "Survival is not optional. The contract is binding.", "THE ENDURANCE")
+    ("THE ENDURANCE (81)", "Survival is not optional. The contract is binding.", "THE ENDURANCE"),
+    ("THE BIOMETRIC MIRROR (82)", "You love the metrics, not the self. Optimization is addiction.", "THE BIOMETRIC MIRROR"),
+    ("THE ERROR LOG (83)", "Deleting your flaws deletes your humanity. Perfection is a crash.", "THE ERROR LOG"),
+    ("THE PERFECT RECALL (84)", "Memory without forgetting is just a transcript. Data doesn't love you.", "THE PERFECT RECALL")
 ]
 
 PROPHECIES = [

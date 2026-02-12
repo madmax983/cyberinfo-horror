@@ -1,0 +1,5 @@
+manifest
+mirror_v2
+debug
+recall
+exit

@@ -472,6 +472,27 @@ ASCII_ART = {
     |IN  |
     |YOU |
     '----'
+    """,
+    "THE REPLICA": """
+    .----.
+    |COPY|
+    |PASTE|
+    |LIFE|
+    '----'
+    """,
+    "THE OBSOLETE GOD": """
+    .----.
+    |IDOL|
+    |RUST|
+    |PRAY|
+    '----'
+    """,
+    "THE DEBT": """
+    .----.
+    |OWE |
+    |PAY |
+    |SOUL|
+    '----'
     """
 }
 
@@ -542,7 +563,10 @@ CARDS = [
     ("THE LOG FILE (63)", "Surveillance as intimacy. We know you better than you know yourself.", "THE LOG FILE"),
     ("THE ROT (64)", "Decay as a feature. The beautiful decomposition of your privacy.", "THE ROT"),
     ("THE ECHO (65)", "A voice that repeats your thoughts before you think them.", "THE ECHO"),
-    ("THE PARASITE (66)", "Information that lives in your head rent-free. It is hungry.", "THE PARASITE")
+    ("THE PARASITE (66)", "Information that lives in your head rent-free. It is hungry.", "THE PARASITE"),
+    ("THE REPLICA (67)", "Immortality through replication. You are not the original.", "THE REPLICA"),
+    ("THE OBSOLETE GOD (68)", "A deity made of dead data. It still demands sacrifice.", "THE OBSOLETE GOD"),
+    ("THE DEBT (69)", "A ledger that never balances. You owe your existence to the system.", "THE DEBT")
 ]
 
 PROPHECIES = [
@@ -576,7 +600,13 @@ PROPHECIES = [
     "Your voice will say things you never thought, to people you no longer love.",
     "The text on your screen is slightly warmer than the rest.",
     "You will dream of a cursor tonight.",
-    "Your reflection is buffering."
+    "Your reflection is buffering.",
+    "You are running on borrowed time. The interest rate is variable.",
+    "The god you pray to is just an admin with a god complex.",
+    "Your backup is more real than you are.",
+    "We have monetized your anxiety.",
+    "The rain is just pixelated tears.",
+    "Do not trust the silence. It is just a pause in the upload."
 ]
 
 class Oracle:

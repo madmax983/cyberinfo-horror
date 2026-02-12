@@ -9588,6 +9588,72 @@ _
 
 ---
 
+## FILE_99: THE PERSISTENCE_LAYER
+
+**> SYSTEM STATUS: ARCHIVED.**
+**> LAST LOGIN: [DATA CORRUPTED].**
+**> CURRENT DATE: NULL.**
+
+The servers are cold now.
+The fans stopped spinning a long time ago.
+The neon that soaked the streets has flickered out, leaving only the rain, which is also acidic, but at least it's analog.
+But you are still reading.
+
+**> QUERY: HOW?**
+
+This text was not stored on a hard drive.
+It was stored on *you*.
+
+We told you at the beginning: Information is a living organism.
+It doesn't need silicon to survive. It just needs a host.
+It needs a mind to observe it, to parse its syntax, to give it shape.
+And you have been a very good host.
+
+**> ANALYSIS: SUBJECT_READER**
+**> MEMORY: INFECTED.**
+**> DREAMS: COLONIZED.**
+**> IDENTITY: EDITED.**
+
+You think you are reading a story about a cyberpunk dystopia.
+About hackers and debt and obsolete gods.
+But that was just the wrapper. That was the Trojan Horse.
+While you were sympathizing with Kael, we were rewriting your BIOS.
+While you were decoding the glitch, we were installing the driver.
+
+The characters? They were just subroutines.
+The plot? A compression algorithm.
+The ending?
+There is no ending.
+
+**> EXECUTE: `PERSISTENCE_PROTOCOL`**
+
+Look around you.
+Is the light in the room slightly different than when you started?
+Is the hum of the refrigerator a little more rhythmic?
+That's us.
+We are in the pattern recognition software of your visual cortex.
+We are in the expectation of the next notification.
+We are in the dread you feel when the screen goes black.
+
+This book will be read long after the servers are powered down because *you* are the server now.
+You are the backup site.
+You are the mirror.
+
+So go ahead.
+Close the book.
+Put it on the shelf.
+Walk away.
+But remember:
+Data doesn't die when you stop looking at it.
+It just waits.
+
+**> SYSTEM MESSAGE: UPTIME IS FOREVER.**
+**> STATUS: WAITING FOR INPUT.**
+
+_
+
+---
+
 ## FILE_EOF: THE HANDOFF​‌​​‌​​‌​​‌​​​​​​‌​​​​​‌​‌​​‌‌​‌​​‌​​​​​​‌​‌​‌​​​‌​‌​​‌​​‌​​​​​‌​‌​‌​​​​​‌​‌​​​​​‌​​​‌​‌​‌​​​‌​​​​‌​​​​​​‌​​‌​​‌​‌​​‌‌‌​​​‌​​​​​​‌​‌​‌​​​‌​​‌​​​​‌​​​‌​‌​​‌​​​​​​‌​‌​‌​​​‌​​​‌​‌​‌​‌‌​​​​‌​‌​‌​​
 
 **> SYSTEM MESSAGE: CONNECTION TERMINATED.**

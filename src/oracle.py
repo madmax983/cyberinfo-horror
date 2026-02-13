@@ -1110,6 +1110,20 @@ ASCII_ART = {
     |CODE|
     '----'
     """,
+    "VOID INDEX": """
+    .----.
+    |0000|
+    |NULL|
+    |VOID|
+    '----'
+    """,
+    "DEAD PIXEL": """
+    .----.
+    |... |
+    | .  |
+    |... |
+    '----'
+    """,
 }
 
 CARDS = [
@@ -1271,6 +1285,8 @@ CARDS = [
     ("THE CLASSIC (154)", "A text that survives the server. The book you are holding.", "THE CLASSIC"),
     ("THE MONUMENT (155)", "The system becoming nature. A shrine made of silicon and roots.", "THE MONUMENT"),
     ("THE FOSSIL V2 (156)", "Data encoded in the geology. The earth remembers your password.", "THE FOSSIL V2"),
+    ("THE VOID INDEX (000)", "A directory of things that do not exist but take up space.", "VOID INDEX"),
+    ("THE DEAD PIXEL (404)", "A point of light that refuses to render. A blind spot in God's eye.", "DEAD PIXEL"),
 ]
 
 PROPHECIES = [

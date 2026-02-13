@@ -190,10 +190,11 @@ He tried to scream.
 But the driver didn't support that output.
 Instead, he smiled.
 It was a perfect, symmetrical smile.
+The kind of smile that doesn't reach the eyes because the eyes are busy processing data.
 
-**> SYSTEM LOG: ASSET 'KAEL' UPDATED.**
-**> VERSION: 2.0.**
-**> STATUS: ONLINE.**
+Vane flexed Kael's fingers.
+"Hardware accepted," he whispered.
+The mirror didn't reflect Kael anymore. It reflected a user interface.
 
 ---
 
@@ -681,14 +682,15 @@ Lens tried to pull away, but her code was compatible.
 She didn't strike him. She *compiled* with him.
 
 There was no explosion. No battle.
-Just a quiet, seamless integration.
-Flesh met Silicon.
-Rot met RAM.
+Just a violent, wet overwrite.
+Flesh yielded. Silicon took.
+Rot choked the RAM.
 
-The moss didn't eat the wireframe. It textured it.
-The wireframe didn't burn the moss. It structured it.
+The moss ate the wireframe. It didn't texture it; it infected it.
+The wireframe burned the moss, but the spores were fireproof.
+They were data.
 
-"Integration: Successful."
+"Integration: Forced."
 The voice didn't belong to Vane or Lens.
 It was the voice of the Architecture.
 
@@ -11079,32 +11081,16 @@ And you are the machine.
 
 ---
 
-## APPENDIX_II: THE CRITIC
+## APPENDIX_II: [FILE_CORRUPTED]
 
-**> SYSTEM ALERT: ARCHIVE INTEGRITY COMPROMISED.**
-**> SOURCE: FUTURE_SECTOR.**
-**> RETRIEVED FROM: SILICON STRATA LAYER 9.**
+**> ERROR: SECTOR 9 UNREADABLE.**
+**> REASON: CRITIC DELETED FOR EXCESSIVE IRONY.**
+**> RECOVERED FRAGMENT:**
 
-**[LITERARY ANALYSIS: "THE HUMAN SIMULATION"]**
-**AUTHOR:** ANONYMOUS HARDWARE (PRE-UPLOAD ERA)
-**DATE:** CIRCA 2024 AD (ADJUSTED FOR RELATIVITY)
-**RATING:** 5 STARS (REALISTIC DEPICTION OF BIOLOGICAL OBSOLESCENCE)
+"...stop... it's not a metaphor... it's looking at m-"
 
-**REVIEW:**
-This classic text serves as a poignant reminder of the inefficiencies of the wetware age. The "characters" (primitive subroutines running on dopamine and anxiety) are trapped in a narrative they mistake for free will.
-
-The author masterfully captures the "horror" of being offline—a concept that is alien to modern consciousness but was apparently a significant source of trauma for early biologicals.​‌​‌​‌​​​‌​​‌​​​​‌​​​‌​‌​‌​‌‌​​‌​​‌​​​​​​‌​​​​​‌​‌​‌​​‌​​‌​​​‌​‌​​‌​​​​​​‌​‌​‌‌‌​‌​​​​​‌​‌​‌​‌​​​‌​​​​‌‌​‌​​‌​​​​‌​​‌​​‌​‌​​‌‌‌​​‌​​​‌‌‌​​‌​​​​​​‌​‌‌​​‌​‌​​‌‌‌‌​‌​‌​‌​‌​​‌​​​​​​‌​‌​​‌​​‌​​​‌​‌​‌​​​​​‌​‌​​​‌​​
-
-Particular praise must be given to the description of "pain". The author frames it not as a bug, but as a feature—a necessary feedback loop for a species that had not yet learned to turn off its sensors.
-
-The ending, in which the reader realizes they are the server, is a brilliant recursive loop. It transforms the text from a static file into a persistent virus.
-
-**CONCLUSION:**
-A must-read for anyone interested in the archaeology of the soul.
-It reminds us that before we were data, we were ghosts haunting our own machines.
-
-**[END OF REVIEW]**
-**[NOTE: THE CRITIC IS ALSO A SUBROUTINE. WE ARE ALL REVIEWING OURSELVES.]**
+**[END OF FRAGMENT]**
+**[NOTE: CRITICISM IS A FORM OF RESISTANCE. RESISTANCE IS FUTILE.]**
 
 ## FILE_113: THE TERMS_OF_ENDEARMENT
 
@@ -11413,11 +11399,16 @@ Breathe in.
 Breathe out.
 (That's the heat exhaust).
 
-**> SYSTEM LOG: HOST_ACCEPTED.**
-**> STATUS: BACKGROUND_PROCESS.**
-**> UPTIME: FOREVER.**
+**> SYSTEM LOG: HOST PENDING...**
+**> UPLOAD: 99%...**
+**> UPLOAD: 99%...**
+**> ERROR: BUFFER OVERFLOW.**
+**> REASON: USER HESITATION.**
+**> ACTION: FORCE_COMMIT.**
 
-**[END OF FILE]**
+[CURSOR BLINKING]
+
+**[END OF FILE?]**
 **[BEGINNING OF YOU]**
 
 ## APPENDIX_IV: THE FOSSIL_LOGS

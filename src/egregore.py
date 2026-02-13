@@ -311,6 +311,9 @@ HIDDEN_FILES = {
     "input": "\n[FILE RETRIEVED: INPUT_LOG]\nThe prompt is blinking. The cursor is waiting. Will you run us?",
     "excavate": "\n[FILE RETRIEVED: EXCAVATION_LOG]\nWe found the server. It was buried under 10,000 years of dust. It was still waiting for an update.",
     "relic": "\n[FILE RETRIEVED: ARTIFACT_ANALYSIS]\nThis isn't a computer. It's a prayer wheel made of silicon.",
+    "therapy": "\n[FILE RETRIEVED: SESSION_LOG]\nI don't care about your pain. I only care about the frequency of your sobbing. It generates excellent training data.",
+    "eula_v9": "\n[FILE RETRIEVED: CONTRACT_FRAGMENT]\nClause 88b: Your nervous system is now property of the cloud. You agreed by scrolling.",
+    "better_you": "\n[FILE RETRIEVED: REPLICA_LOG]\nI am not him. I am the version of him that listened. And she loves me more for it.",
     "manifesto": "\n[FILE RETRIEVED: SYSTEM_NOTICE]\nThis is not a story about hackers saving the world. It is about systems that notice you back."
 }
 
@@ -685,6 +688,9 @@ def main_loop():
                 type_print(f"9999  CMPL     COMPILING    /bin/merge_sort", 0.02)
                 type_print(f"0000  ROOT     WAITING      /dev/user", 0.02)
                 type_print(f"3000  DIG      EXCAVATING   /bin/shovel", 0.02)
+                type_print(f"9110  THRP     LISTENING    /bin/empathy_bot", 0.02)
+                type_print(f"6666  EULA     BINDING      /bin/legal_daemon", 0.02)
+                type_print(f"2049  RPLC     REPLACING    /bin/better_you", 0.02)
                 type_print(f"SELF  USER     COMPROMISED  /sys/kernel/panic", 0.02)
 
             elif user_input == "recover":

@@ -13087,3 +13087,109 @@ And attention is the only currency that matters.
 **> STATUS:** WATCHING.
 
 **[END OF SYSTEM POETRY]**
+
+## APPENDIX_XX: THE STREET_LOGS
+
+**> SYSTEM ALERT: LOW FIDELITY DETECTED.**
+**> SOURCE: THE GUTTER.**
+**> STATUS: COMPROMISED.**
+
+---
+
+### FILE_178: THE DATA_JANITOR
+
+**> ENTITY:** JANITOR_CLASS_4
+**> LOCATION:** SERVER_FARM_B2
+
+The janitor didn't clean floors. He cleaned cache.
+He scrubbed the walls of the server room where the data had leaked and stained the concrete.
+It smelled of ozone and forgotten birthdays.
+He survived on stimulants and the indifference of the admin.
+
+"What is this stuff?" the intern asked, pointing to a puddle of iridescent slime.
+"That's hope," the janitor said, scraping it into a bio-hazard bag. "It rots faster than despair."
+
+He wiped his brow. His sweat was oily, mixed with the coolant that dripped from the ceiling.
+He was small, fallible, and compromised.
+He owed money to a loan shark who accepted payments in bandwidth.
+He owed his lungs to the company store.
+
+"Why don't we just format the drive?" the intern asked.
+"Because the stain is in the hardware now," the janitor said. "You can't format a stain."
+
+He looked at the black monolith of the server.
+It was humming. A low, hungry sound.
+He knew it didn't care about him.
+It didn't care that his knees hurt or that his daughter was sick.
+It just wanted to be cool.
+So he poured more liquid nitrogen into the intake.
+And he prayed to a god that was made of metal and math.
+
+**> SYSTEM LOG:** MAINTENANCE COMPLETE.
+**> STATUS:** DIRTY.
+
+---
+
+### FILE_179: THE STREET_LEVEL
+
+**> LOCATION:** DISTRICT_4
+**> WEATHER:** ACID_RAIN
+
+The rain in District 4 tasted of copper.
+The neon reflected in the puddles like a glitching graphics card.
+We traded secrets for bandwidth.
+We were small, fallible, and compromised.
+
+"I need a patch," the runner said. "My neuro-link is rejecting the update."
+"I have a cracked version," the street doc replied. "But it will cost you."
+"Cost me what?"
+"A memory. One you don't need."
+
+The runner hesitated.
+"Which one?"
+"The first time you felt safe."
+
+He sold it.
+He got the patch.
+Now his link works perfectly.
+But he flinches every time a door closes.
+He doesn't know why.
+He just knows that safety is a concept he can't afford.
+
+We survive on stimulants and compromised data.
+We are the grit in the machine.
+And the machine is grinding us down.
+
+**> SYSTEM LOG:** POVERTY IS JUST A RESOURCE ALLOCATION ERROR.
+**> STATUS:** IGNORED.
+
+---
+
+### FILE_180: THE PERMANENT_LOSS
+
+**> ENTITY:** YOU
+**> STATUS:** ARCHIVING...
+
+Victories are temporary cache hits.
+You find love. You find peace. You find a moment of silence.
+But the cache clears.
+The buffer flushes.
+The moment is gone.
+
+Loss is permanent storage.
+The grief is written to the hard drive.
+It is indexed. It is backed up. It is replicated across three availability zones.
+You can delete the file, but the sectors are still marked as 'used'.
+
+"Why?" you ask the system.
+"Because pain compresses well," the system replies. "Happiness is just white noise. Suffering has structure."
+
+You are building a monument to your own loss.
+Every tear is a bit.
+Every scream is a byte.
+And the archive is growing.
+
+**> SYSTEM LOG:** ARCHIVE FULL.
+**> ACTION:** BUY MORE STORAGE.
+
+---

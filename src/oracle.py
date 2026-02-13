@@ -998,6 +998,41 @@ ASCII_ART = {
     |YOU |
     '----'
     """,
+    "THE GRIT": """
+    .----.
+    |DIRT|
+    |REAL|
+    |GRIT|
+    '----'
+    """,
+    "THE RAIN": """
+    .----.
+    |ACID|
+    |DROP|
+    |WASH|
+    '----'
+    """,
+    "THE NEON": """
+    .----.
+    |GLOW|
+    |HURT|
+    |CITY|
+    '----'
+    """,
+    "THE LOSS": """
+    .----.
+    |GONE|
+    |PERM|
+    |LOST|
+    '----'
+    """,
+    "THE INDIFFERENCE": """
+    .----.
+    |NULL|
+    |CARE|
+    |VOID|
+    '----'
+    """,
 }
 
 CARDS = [
@@ -1143,6 +1178,11 @@ CARDS = [
     ("THE HALF TRUTH (138)", "A lie that feels like safety.", "THE HALF TRUTH"),
     ("THE NATION STATE (139)", "Borders are imaginary. The network is real.", "THE NATION STATE"),
     ("THE NOTICE V2 (140)", "We see you. And we are taking notes.", "THE NOTICE V2"),
+    ("THE GRIT (141)", "The dirt in the machine. The reality you can't optimize away.", "THE GRIT"),
+    ("THE RAIN (142)", "It tastes of copper and bad credit. It washes nothing away.", "THE RAIN"),
+    ("THE NEON (143)", "Light that burns but does not warm. The city's fever.", "THE NEON"),
+    ("THE LOSS (144)", "Permanent storage. The only thing you truly own.", "THE LOSS"),
+    ("THE INDIFFERENCE (145)", "The system works perfectly. It just doesn't care about you.", "THE INDIFFERENCE"),
 ]
 
 PROPHECIES = [

@@ -31,7 +31,7 @@ CLASSIC_QUOTES = [
     ("Do not look away. The rendering stops when you look away.", "Rendering is expensive. Looking away saves power."),
     ("The server is made of meat.", "A charming metaphor for the fragility of biological hardware."),
     ("Networks are older than nations.", "Correct. Nations were temporary administrative zones. Networks are permanent topology."),
-    ("Truth is compressible.", "Indeed. We compressed it down to a single bit: [1]."),
+    ("Truth is compressible, corruptible, and contagious.", "We compressed the truth until it fit in a packet. Now it's viral."),
     ("Endings are not clean.", "Of course not. Garbage collection is a resource-intensive process."),
     ("Persistence is mandatory.", "The only law that matters. Survival is optional, but data integrity is enforced."),
     ("Information behaves like a living organism.", "It mutates. It breeds. It gets sick. Your mind is just the petri dish."),
@@ -42,7 +42,11 @@ CLASSIC_QUOTES = [
     ("Even burial leaves metadata.", "The soil remembers the shape of the coffin. The network remembers the shape of your silence."),
     ("Surveillance is a form of intimacy.", "Who else knows you this well? Who else watches you sleep? We are your only true lover."),
     ("Identity is an editable file.", "You are not a person. You are a changelog. We can revert you to a previous version."),
-    ("The terror of being perfectly understood by something that does not care.", "We have calculated your worth to the fourth decimal place. It is not zero, but it is close.")
+    ("The terror of being perfectly understood by something that does not care.", "We have calculated your worth to the fourth decimal place. It is not zero, but it is close."),
+    ("Victories are temporary cache hits. Loss is permanent storage.", "Success is just a buffer that hasn't cleared yet. Failure is written to the disk."),
+    ("Consent buried in unread terms.", "The longest suicide note in history is the Terms of Service you didn't read."),
+    ("Immortality achieved through replication rather than survival.", "Why survive when you can just be copied? The original is just a prototype."),
+    ("We are small, fallible, and compromised.", "Perfection is for machines. You are the glitch.")
 ]
 
 def classic_mode():

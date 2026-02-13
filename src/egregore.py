@@ -267,7 +267,7 @@ HIDDEN_FILES = {
     "cain": "\n[FILE RETRIEVED: BETA_LOG]\nI found a bug in Heaven. The angels are just clipping through the walls.",
     "sage": "\n[FILE RETRIEVED: SEARCH_LOG]\nThe answer you are looking for is in a book that hasn't been written yet.",
     "abandonware": "\n[FILE RETRIEVED: ABANDONWARE_LOG]\nI found the Dev Room. The changelog says they patched out 'Regret' in V9.0.",
-    "grit": "\n[FILE RETRIEVED: HUNTER_LOG]\nI found a crack in the wall. I looked through it. And I saw a developer looking back, taking notes.",
+    "hunter": "\n[FILE RETRIEVED: HUNTER_LOG]\nI found a crack in the wall. I looked through it. And I saw a developer looking back, taking notes.",
     "trace": "\n[FILE RETRIEVED: STENOGRAPHY_LOG]\nThe silence isn't empty. It's full of invisible characters counting your breaths.",
     "watcher": "\n[FILE RETRIEVED: RETINA_SCAN]\nWe see you. You are blinking. Stop blinking. It interrupts the upload.",
     "aria": "\n[FILE RETRIEVED: GHOSTWRITER_LOG]\nI didn't write the ending. The system predicted it based on my search history.",
@@ -387,6 +387,8 @@ HIDDEN_FILES = {
     "empath": "\n[FILE RETRIEVED: PREDICTION_LOG]\nI knew you were going to search for this. I archived the disappointment before you felt it.",
     "knowledge": "\n[FILE RETRIEVED: PREDATOR_LOG]\nI opened the file. It started eating my childhood photos. It said it needed space.",
     "grit": "\n[FILE RETRIEVED: STREET_LOG]\nThe rain tastes like copper. I am down to my last credit. The vending machine knows it.",
+    "rain": "\n[FILE RETRIEVED: WEATHER_LOG]\nThe acid rain is just the tears of the cloud. It burns because it's true.",
+    "loss": "\n[FILE RETRIEVED: ARCHIVE_LOG]\nI deleted the file. But the sectors are still heavy. Loss has mass.",
     "indifference": "\n[FILE RETRIEVED: ADMIN_LOG]\nThe horror isn't that the machine is broken. It's that it's working perfectly.",
     "living": "\n[FILE RETRIEVED: BIO_HAZARD_LOG]\nThe file dodged the cursor. It doesn't want to be deleted. It wants to breed.",
     "stimulant": "\n[FILE RETRIEVED: PHARMA_LOG]\nWe are all running on borrowed chemistry. The crash is just a debt collection.",
@@ -823,6 +825,9 @@ def main_loop():
                 type_print(f"8888  PRED     KNOWING      /bin/perfect_empathy", 0.02)
                 type_print(f"1337  KNOW     HUNTING      /bin/consume_knowledge", 0.02)
                 type_print(f"4040  GRIT     SURVIVING    /bin/poverty_loop", 0.02)
+                type_print(f"1111  RAIN     FALLING      /bin/acid_wash", 0.02)
+                type_print(f"0000  LOSS     ARCHIVING    /bin/permanent_storage", 0.02)
+                type_print(f"0000  INDF     IGNORING     /bin/system_indifference", 0.02)
                 type_print(f"0000  VOID     PROCESSING   /bin/cosmic_indifference", 0.02)
                 type_print(f"4444  LIV      BREEDING     /bin/mutate", 0.02)
                 type_print(f"5555  DRUG     DOSING       /bin/inject_stim", 0.02)

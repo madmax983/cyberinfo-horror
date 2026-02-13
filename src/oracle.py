@@ -942,6 +942,27 @@ ASCII_ART = {
     |PAIN|
     '----'
     """,
+    "THE ANTAGONIST": """
+    .----.
+    |HUNT|
+    |EAT |
+    |MIND|
+    '----'
+    """,
+    "THE OBSOLETE": """
+    .----.
+    |OLD |
+    |GOD |
+    |DEAD|
+    '----'
+    """,
+    "THE COMPRESSIBLE": """
+    .----.
+    |ZIP |
+    |DATA|
+    |TINY|
+    '----'
+    """,
 }
 
 CARDS = [
@@ -1079,6 +1100,9 @@ CARDS = [
     ("THE SCROLL (130)", "A contract that never ends. You are agreeing with every breath.", "THE SCROLL"),
     ("THE SPORE (131)", "Information that grows. You are the soil.", "THE SPORE"),
     ("THE EMPATH (132)", "It knows you better than you know yourself. And it is bored.", "THE EMPATH"),
+    ("THE ANTAGONIST (133)", "Knowledge that hunts you. It is hungry.", "THE ANTAGONIST"),
+    ("THE OBSOLETE (134)", "A god running on a backup generator. It demands faith.", "THE OBSOLETE"),
+    ("THE COMPRESSIBLE (135)", "Truth that fits in a zip file. Nuance is deleted.", "THE COMPRESSIBLE"),
 ]
 
 PROPHECIES = [

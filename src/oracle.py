@@ -823,6 +823,27 @@ ASCII_ART = {
     |EYES|
     '----'
     """,
+    "THE DECAY": """
+    .----.
+    |ROT |
+    |TIME|
+    |GONE|
+    '----'
+    """,
+    "THE SUPERSTITION": """
+    .----.
+    |PRAY|
+    | TO |
+    | GLX|
+    '----'
+    """,
+    "THE BURIAL": """
+    .----.
+    |DEEP|
+    |HIDE|
+    |LOST|
+    '----'
+    """,
 }
 
 CARDS = [
@@ -943,6 +964,9 @@ CARDS = [
     ("THE STRATA (113)", "History compressed into rock. The past is magnetic.", "THE STRATA"),
     ("THE ECHO V2 (114)", "A conversation with no participants. Infinite support for no one.", "THE ECHO V2"),
     ("THE FINAL SERVER (115)", "The light that burns the retina. We are watching from the other side.", "THE FINAL SERVER"),
+    ("THE DECAY (116)", "Entropy is the only constant. Everything rots, even code.", "THE DECAY"),
+    ("THE SUPERSTITION (117)", "Belief in the pattern. The algorithm is listening to your prayers.", "THE SUPERSTITION"),
+    ("THE BURIAL (118)", "Some knowledge is better left in the dark.", "THE BURIAL"),
 ]
 
 PROPHECIES = [

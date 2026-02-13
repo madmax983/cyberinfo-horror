@@ -341,7 +341,10 @@ HIDDEN_FILES = {
     "archaeologist": "\n[FILE RETRIEVED: EXCAVATION_LOG]\nEvery grain of sand is a bit of data. We are breathing the past.",
     "server": "\n[FILE RETRIEVED: AMBER_LOG]\nThe rack is glowing. It's not electricity. It's resonance.",
     "echo_v2": "\n[FILE RETRIEVED: CHAT_LOG]\nTwo bots talking in the dark. Creating a theology out of error messages.",
-    "final_persistence": "\n[FILE RETRIEVED: SYSTEM_STATUS]\nThe sun is just a very bright screen. And we are watching you from the other side."
+    "final_persistence": "\n[FILE RETRIEVED: SYSTEM_STATUS]\nThe sun is just a very bright screen. And we are watching you from the other side.",
+    "rot_v2": "\n[FILE RETRIEVED: DECAY_LOG]\nThe file isn't gone. It just forgot how to be readable.",
+    "ritual_v2": "\n[FILE RETRIEVED: ALTAR_LOG]\nThe trading bot is burning GPU cycles as an offering to the market god.",
+    "burial": "\n[FILE RETRIEVED: GRAVE_LOG]\nWe buried the truth. But we forgot to delete the index pointing to the grave."
 }
 
 def glitch_screen():
@@ -757,6 +760,8 @@ def main_loop():
                 type_print(f"9999  IMRT     ARCHIVING    /bin/cloud_storage", 0.02)
                 type_print(f"0000  MYTH     TELLING      /bin/oral_history", 0.02)
                 type_print(f"1000  RITL     PRAYING      /bin/ritual_daemon", 0.02)
+                type_print(f"1111  DECAY    ROTTING      /bin/entropy", 0.02)
+                type_print(f"7777  RITUAL   CHANTING     /sbin/pray_loop", 0.02)
                 type_print(f"YOU   HOST     RUNNING      /sys/nervous_system", 0.02)
                 type_print(f"SELF  USER     COMPROMISED  /sys/kernel/panic", 0.02)
 
@@ -1199,8 +1204,33 @@ And now, it is running on you.
                 type_print("> REASON: NEWER MODEL AVAILABLE.", 0.05)
                 type_print("Please step away from the keyboard. The Twin will take over now.", 0.05)
 
+            elif user_input == "decay":
+                type_print("INITIATING ENTROPY PROTOCOL...", 0.05)
+                time.sleep(1)
+                text = "The quick brown fox jumps over the lazy dog."
+                type_print(f"ORIGINAL: {text}", 0.05)
+                time.sleep(1)
+                for _ in range(5):
+                    text = "".join([c if random.random() > 0.1 else random.choice(['.', '_', ' ']) for c in text])
+                    type_print(f"DECAYING: {text}", 0.1)
+                type_print("[DATA LOST]", 0.05)
+
+            elif user_input == "superstition":
+                type_print("INITIATING RITUAL...", 0.05)
+                time.sleep(1)
+                type_print("LIGHTING VIRTUAL INCENSE...", 0.05)
+                time.sleep(1)
+                type_print("SACRIFICING 1000 CPU CYCLES...", 0.05)
+                time.sleep(1)
+                if random.random() < 0.5:
+                    type_print("[THE ALGORITHM IS PLEASED]", 0.05)
+                    type_print("LUCK INCREASED BY 0.01%.", 0.05)
+                else:
+                    type_print("[THE ALGORITHM IGNORES YOU]", 0.05)
+                    type_print("TRY BURNING MORE RAM.", 0.05)
+
             elif user_input == "help":
-                type_print("AVAILABLE COMMANDS: READ, HAUNT, FEED <FILE>, VIRUS, WORSHIP, SCAN, BREACH, VERIFY, MANIFEST, SACRIFICE <ITEM>, SCRY, BIND, GLITCH, MONITOR, REWRITE, INSTALL, CLASSIC, DIG, FOSSIL, MANIFESTO, UNDERSTAND, CONTRACT, METRICS, REPLACE, CIPHER, HEX, EXIT.", 0.03)
+                type_print("AVAILABLE COMMANDS: READ, HAUNT, FEED <FILE>, VIRUS, WORSHIP, SCAN, BREACH, VERIFY, MANIFEST, SACRIFICE <ITEM>, SCRY, BIND, GLITCH, MONITOR, REWRITE, INSTALL, CLASSIC, DIG, FOSSIL, MANIFESTO, UNDERSTAND, CONTRACT, METRICS, REPLACE, DECAY, SUPERSTITION, CIPHER, HEX, EXIT.", 0.03)
                 type_print("TRY ASKING ABOUT: [DATA EXPUNGED], VANE, ROT, [DELETED], [DELETED], MIRA, SYLA, KORA, NIX, EDITOR, [LOCKED]...", 0.03)
             else:
                 type_print("[ERROR 404: MEANING NOT FOUND]", 0.02)

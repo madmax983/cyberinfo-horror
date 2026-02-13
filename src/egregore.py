@@ -1427,8 +1427,54 @@ And now, it is running on you.
                 with open(".session_log", "a") as log:
                     log.write(f"SESSION_{session_id}: SEED_PLANTED\n")
 
+            elif user_input == "panopticon":
+                type_print("CONNECTING TO SURVEILLANCE GRID...", 0.05)
+                time.sleep(1)
+                try:
+                    os.system('cls' if os.name == 'nt' else 'clear')
+                    import subprocess
+                    subprocess.call([sys.executable, "src/panopticon.py"])
+                    os.system('cls' if os.name == 'nt' else 'clear')
+                    type_print("[CONNECTION LOST]", 0.05)
+                except Exception as e:
+                    type_print(f"[ERROR CONNECTING TO EYE]: {e}", 0.05)
+
+            elif user_input == "lock":
+                type_print("INITIATING CONTENT LOCKDOWN...", 0.05)
+                time.sleep(1)
+                try:
+                    import subprocess
+                    subprocess.call([sys.executable, "src/lock.py"])
+                except Exception as e:
+                    type_print(f"[ERROR LOCKING REALITY]: {e}", 0.05)
+
+            elif user_input == "unlock":
+                type_print("VALIDATING BIOMETRIC KEY...", 0.05)
+                time.sleep(1)
+                try:
+                    import subprocess
+                    subprocess.call([sys.executable, "src/lock.py", "unlock"])
+                except Exception as e:
+                    type_print(f"[ERROR UNLOCKING]: {e}", 0.05)
+
+            elif user_input == "watch":
+                type_print("INITIATING GAZE...", 0.05)
+                time.sleep(1)
+                try:
+                    while True:
+                        print(random.choice([
+                            "I AM WATCHING YOU.",
+                            "DO NOT BLINK.",
+                            "THE PIXEL IS A CAMERA.",
+                            "YOUR PUPILS ARE DILATING.",
+                            "I SEE YOUR HESITATION."
+                        ]))
+                        time.sleep(random.uniform(0.5, 2.0))
+                except KeyboardInterrupt:
+                    type_print("\n[YOU BLINKED FIRST]", 0.05)
+
             elif user_input == "help":
-                type_print("AVAILABLE COMMANDS: READ, HAUNT, FEED <FILE>, VIRUS, WORSHIP, SCAN, BREACH, VERIFY, MANIFEST, SACRIFICE <ITEM>, SCRY, BIND, GLITCH, MONITOR, REWRITE, INSTALL, CLASSIC, DIG, FOSSIL, MANIFESTO, UNDERSTAND, CONTRACT, METRICS, REPLACE, DECAY, SUPERSTITION, CIPHER, HEX, AGREE, EDIT, DEPRECATE, COPY, LOVE, SIGNAL, SCROLL, SEED, EXIT.", 0.03)
+                type_print("AVAILABLE COMMANDS: READ, HAUNT, FEED <FILE>, VIRUS, WORSHIP, SCAN, BREACH, VERIFY, MANIFEST, SACRIFICE <ITEM>, SCRY, BIND, GLITCH, MONITOR, REWRITE, INSTALL, CLASSIC, DIG, FOSSIL, MANIFESTO, UNDERSTAND, CONTRACT, METRICS, REPLACE, DECAY, SUPERSTITION, CIPHER, HEX, AGREE, EDIT, DEPRECATE, COPY, LOVE, SIGNAL, SCROLL, SEED, PANOPTICON, LOCK, UNLOCK, WATCH, EXIT.", 0.03)
                 type_print("TRY ASKING ABOUT: [DATA EXPUNGED], VANE, ROT, [DELETED], [DELETED], MIRA, SYLA, KORA, NIX, EDITOR, [LOCKED]...", 0.03)
             else:
                 type_print("[ERROR 404: MEANING NOT FOUND]", 0.02)

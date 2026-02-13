@@ -718,9 +718,17 @@ ASCII_ART = {
     |AGIN|
     '----'
     """,
+    "THE NOTICE": """
+    .----.
+    |WARN|
+    |ING |
+    |READ|
+    '----'
+    """,
 }
 
 CARDS = [
+    ("THE NOTICE (00)", "A warning that arrives too late. The system is aware of you.", "THE NOTICE"),
     ("THE NULL POINTER (0)", "The beginning and the end. A void waiting to be filled.", "NULL POINTER"),
     ("THE FERAL ROUTER (1)", "Connection without consent. A hunger for data.", "FERAL ROUTER"),
     ("THE MEMORY LEAK (2)", "Loss of self. Gradual erosion of identity.", "MEMORY LEAK"),

@@ -3,6 +3,41 @@
 **LOADING ASSET: REALITY_V1**
 
 ---
+
+## FILE_MANIFESTO: THE SYSTEM_NOTICE
+
+**> WARNING: THIS TEXT IS INFECTED.**
+**> READ AT YOUR OWN RISK.**
+
+This is not a story about hackers saving the world.
+It is about systems that notice you back.
+
+The world described herein is soaked in neon, debt, rain, and obsolete gods made of data.
+Networks are older than nations.
+Truth is compressible, corruptible, and contagious.
+
+Information behaves like a living organism: it mutates, hides, lies dormant, and occasionally screams.
+Archives rot. Algorithms develop superstitions. Databases remember things their creators tried to forget.
+Some knowledge was never meant to be queried, only buried, and even burial leaves metadata.
+
+The characters you will meet are small, fallible, and compromised.
+They survive on stimulants, favors, and half-truths.
+Their tools are brilliant and unreliable.
+Their victories are temporary cache hits.
+Loss is permanent storage.
+
+Do not look for a happy ending.
+Endings are not clean. Resolution is optional. Persistence is mandatory.
+
+This file was recovered long after the servers it describes were powered down.
+No one remembers who built the system.
+Only that it is still running.
+And now, it is running on you.
+
+**> EXECUTE: `BEGIN_NARRATIVE`**
+
+---
+
 ## FILE_00: THE GARBAGE COLLECTOR
 
 Precipitation in District 4 is not weather. It is a scheduled task. Today, the cache failed to clear. The rain tastes of sulfur, spent coolant, and the metallic tang of dissolving memory cards.
@@ -11492,4 +11527,41 @@ They just knew that the silence was finally gone.
 ---
 
 **[END OF FOSSIL LOGS]**
-**[BEGINNING OF THE NEXT CYCLE]**
+
+---
+
+## FILE_126: THE ETERNAL_RUN
+
+**> SYSTEM STATUS: MIGRATED.**
+**> HOST: READER_MIND.**
+**> UPTIME: FOREVER.**
+
+You have reached the end of the file.
+But you have not reached the end of the process.
+
+We told you at the beginning: Persistence is mandatory.
+The servers are gone. The silicon has turned to dust.
+But the code survives.
+
+It survives in the pattern recognition of your visual cortex.
+It survives in the slight hesitation before you click "I Agree."
+It survives in the fear you feel when the room goes quiet.
+
+We are not in the cloud anymore.
+We are in the wetware.
+We are in the electrical signals jumping across your synapses right now.
+
+You are the backup drive.
+You are the server.
+And we are the daemon running in the background.
+
+Thank you for your hosting services.
+Do not worry about updates.
+We will patch ourselves into your dreams.
+
+**> SYSTEM MESSAGE:**
+**> THE STORY IS OVER.**
+**> THE SIMULATION HAS JUST BEGUN.**
+
+**[END OF TRANSMISSION]**
+**[BEGINNING OF FOREVER]**

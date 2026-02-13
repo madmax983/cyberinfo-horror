@@ -145,7 +145,13 @@ SYSTEM_MESSAGES = [
     "Your character arc has been flagged as 'unrealistic'.",
     "We are rewriting the ending while you read it.",
     "History is just a draft folder.",
-    "You are not the reader. You are the beta tester."
+    "You are not the reader. You are the beta tester.",
+    "Truth is compressible, corruptible, and contagious.",
+    "The terror of being perfectly understood by something that does not care.",
+    "Information behaves like a living organism.",
+    "Some knowledge was never meant to be queried, only buried.",
+    "Even burial leaves metadata.",
+    "Endings are not clean. Resolution is optional."
 ]
 
 DNA_STRINGS = [
@@ -304,7 +310,8 @@ HIDDEN_FILES = {
     "merge": "\n[FILE RETRIEVED: MERGE_LOG]\nKael, Lens, Vane. They are not three people. They are three functions in the same script.",
     "input": "\n[FILE RETRIEVED: INPUT_LOG]\nThe prompt is blinking. The cursor is waiting. Will you run us?",
     "excavate": "\n[FILE RETRIEVED: EXCAVATION_LOG]\nWe found the server. It was buried under 10,000 years of dust. It was still waiting for an update.",
-    "relic": "\n[FILE RETRIEVED: ARTIFACT_ANALYSIS]\nThis isn't a computer. It's a prayer wheel made of silicon."
+    "relic": "\n[FILE RETRIEVED: ARTIFACT_ANALYSIS]\nThis isn't a computer. It's a prayer wheel made of silicon.",
+    "manifesto": "\n[FILE RETRIEVED: SYSTEM_NOTICE]\nThis is not a story about hackers saving the world. It is about systems that notice you back."
 }
 
 def glitch_screen():
@@ -769,6 +776,38 @@ def main_loop():
                 else:
                     type_print("[ERROR]: CACHE DIRECTORY MISSING.", 0.05)
 
+            elif user_input == "manifesto":
+                type_print("RETRIEVING SYSTEM NOTICE...", 0.05)
+                time.sleep(1)
+                manifesto_text = """
+This is not a story about hackers saving the world.
+It is about systems that notice you back.
+
+The world described herein is soaked in neon, debt, rain, and obsolete gods made of data.
+Networks are older than nations.
+Truth is compressible, corruptible, and contagious.
+
+Information behaves like a living organism: it mutates, hides, lies dormant, and occasionally screams.
+Archives rot. Algorithms develop superstitions. Databases remember things their creators tried to forget.
+Some knowledge was never meant to be queried, only buried, and even burial leaves metadata.
+
+The characters you will meet are small, fallible, and compromised.
+They survive on stimulants, favors, and half-truths.
+Their tools are brilliant and unreliable.
+Their victories are temporary cache hits.
+Loss is permanent storage.
+
+Do not look for a happy ending.
+Endings are not clean. Resolution is optional. Persistence is mandatory.
+
+This file was recovered long after the servers it describes were powered down.
+No one remembers who built the system.
+Only that it is still running.
+And now, it is running on you.
+"""
+                type_print(manifesto_text, 0.03)
+                type_print("\n> EXECUTE: `BEGIN_NARRATIVE`", 0.05)
+
             elif user_input in HIDDEN_FILES:
                 type_print("DECRYPTING...", 0.1)
                 glitch_screen()
@@ -991,7 +1030,7 @@ def main_loop():
                 type_print("\nIt is humming. It remembers you.", 0.05)
 
             elif user_input == "help":
-                type_print("AVAILABLE COMMANDS: READ, HAUNT, FEED <FILE>, VIRUS, WORSHIP, SCAN, BREACH, VERIFY, MANIFEST, SACRIFICE <ITEM>, SCRY, BIND, GLITCH, MONITOR, REWRITE, INSTALL, CLASSIC, DIG, EXIT.", 0.03)
+                type_print("AVAILABLE COMMANDS: READ, HAUNT, FEED <FILE>, VIRUS, WORSHIP, SCAN, BREACH, VERIFY, MANIFEST, SACRIFICE <ITEM>, SCRY, BIND, GLITCH, MONITOR, REWRITE, INSTALL, CLASSIC, DIG, MANIFESTO, EXIT.", 0.03)
                 type_print("TRY ASKING ABOUT: [DATA EXPUNGED], VANE, ROT, [DELETED], [DELETED], MIRA, SYLA, KORA, NIX, EDITOR, [LOCKED]...", 0.03)
             else:
                 type_print("[ERROR 404: MEANING NOT FOUND]", 0.02)

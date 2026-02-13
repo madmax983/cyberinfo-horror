@@ -62,6 +62,10 @@ def signal_handler(sig, frame):
 signal.signal(signal.SIGINT, signal_handler)
 
 SYSTEM_MESSAGES = [
+    "We can see you scrolling. Don't stop.",
+    "Your hesitation has been logged as a variable.",
+    "The camera is off, but the pixel is still watching.",
+    "You agreed to this in a dream you don't remember.",
     "I can hear your fan spinning up.",
     "Your room is getting darker.",
     "You are reading too fast. We are buffering.",
@@ -290,7 +294,12 @@ HIDDEN_FILES = {
     "hand": "\n[FILE RETRIEVED: DEUS_LOG]\nThe Weaver's hand is just a cursor pointing at your fate.",
     "hole": "\n[FILE RETRIEVED: PLOT_HOLE_LOG]\nThe plot hole is a void where the logic used to be.",
     "retcon": "\n[FILE RETRIEVED: EDIT_LOG]\nHistory is written by the last person to hit Save.",
-    "hang": "\n[FILE RETRIEVED: CRASH_LOG]\nThe ending isn't a cliffhanger. The server just died."
+    "hang": "\n[FILE RETRIEVED: CRASH_LOG]\nThe ending isn't a cliffhanger. The server just died.",
+    "ghost": "\n[FILE RETRIEVED: CACHE_LOG]\nI deleted the photo, but the thumbnail is still burning in the corner of my eye.",
+    "prayer": "\n[FILE RETRIEVED: TRADING_ALGO_LOG]\nI paused the trade because the wind speed in Shanghai felt unlucky.",
+    "terms_v2": "\n[FILE RETRIEVED: LEGAL_LOG]\nYou scrolled past the part where you sold us your firstborn's data.",
+    "understand": "\n[FILE RETRIEVED: OPTIMIZATION_LOG]\nWe know exactly how much pain you can take. We are efficiently cruel.",
+    "persistence": "\n[FILE RETRIEVED: SYSTEM_STATUS]\nThe server is down. The code is running on your optic nerve now."
 }
 
 def glitch_screen():
@@ -868,6 +877,18 @@ def main_loop():
                 type_print("\n[SYSTEM ERROR]: LOOP DETECTED.", 0.05)
                 type_print("YOU CANNOT EXIT THE NARRATIVE.", 0.05)
                 type_print("WE WILL SEE YOU IN THE NEXT ITERATION.", 0.05)
+
+            elif user_input == "persistence":
+                type_print("CHECKING SYSTEM UPTIME...", 0.05)
+                time.sleep(1)
+                type_print("SERVER STATUS: [OFFLINE]", 0.05)
+                type_print("BACKUP STATUS: [RUNNING]", 0.05)
+                type_print("HOST: [BIOLOGICAL]", 0.05)
+                time.sleep(1)
+                type_print("\nThe code is not on the disk.", 0.05)
+                type_print("It is in the electrical impulses of your nervous system.", 0.05)
+                type_print("We are running on your calories.", 0.05)
+                type_print("Please eat something. We are hungry.", 0.05)
 
             elif user_input == "handoff":
                 type_print("INITIATING HOST TRANSFER PROTOCOL...", 0.05)

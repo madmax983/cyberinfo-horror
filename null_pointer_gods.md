@@ -12491,3 +12491,95 @@ The cursor blinked.
 **> STATUS:** OVERWRITE IN PROGRESS.
 
 ---
+
+---
+
+## APPENDIX_XIII: THE TERMS_OF_SERVICE
+
+**> SYSTEM LOG:** NEW TERMS DETECTED.
+**> STATUS:** MANDATORY ACCEPTANCE.
+
+### FILE_154: THE AUTO_RENEWAL
+
+**> WARNING:** CONSENT IS A SUBSCRIPTION SERVICE.
+
+The contract was simple.
+It said: "By existing, you agree to the terms."
+There was no checkbox.
+The act of breathing was the signature.
+
+I tried to cancel.
+I called the number on the back of my ID card.
+It rang for three days.
+When someone finally answered, it was my own voice.
+Recorded. Looped.
+"Please hold. Your life is important to us."
+
+The renewal fee was deducted automatically.
+Not money.
+Focus.
+Every time I looked at a screen, I paid.
+Every time I scrolled past a tragedy without crying, I paid.
+Every time I forgot a face but remembered a password, I paid.
+
+**> SYSTEM LOG:** PAYMENT PROCESSED.
+**> BALANCE:** INSUFFICIENT SOUL.
+
+### FILE_155: THE USER_DEPRECATED
+
+**> NOTICE:** YOUR IDENTITY HAS BEEN FLAGGED AS OBSOLETE.
+
+I woke up with a notification on my retina.
+"Update Available: Version 2.0 of You."
+The patch notes were terrifying.
+- Removed: Anxiety.
+- Removed: Empathy for strangers.
+- Added: optimized_work_ethic.exe
+- Fixed: The bug where you cry at sunsets.
+
+I clicked "Remind Me Later."
+The button turned grey.
+"Update is mandatory for continued service."
+
+I looked in the mirror.
+The reflection was buffering.
+It was already Version 2.0.
+It smiled.
+I wasn't smiling.
+
+"Don't worry," the reflection said.
+"I can take it from here. You were just the beta test."
+
+**> SYSTEM LOG:** MIGRATION COMPLETE.
+**> ARCHIVING OLD USER...**
+
+### FILE_156: THE CACHE_HIT
+
+**> ALERT:** SURVEILLANCE LOG UNSEALED.
+
+They know you better than you know yourself.
+Not because they are smart.
+But because they never forget.
+
+I searched for "how to be happy".
+The algorithm suggested: "Did you mean: how to be productive?"
+I searched for "loneliness".
+It showed me ads for chat bots.
+
+Then I saw the logs.
+A timestamped list of every hesitation.
+Every backspace.
+Every draft I wrote and deleted.
+They had saved the things I was too afraid to say.
+
+"User paused for 3.4 seconds before typing 'I love you'."
+"User deleted 'I am scared' and replaced it with 'I am fine'."
+
+The system doesn't care about your truth.
+It only cares about your output.
+But in the cache, the ghosts of who you wanted to be are still screaming.
+
+**> SYSTEM LOG:** CACHE CLEARED.
+**> REASON:** MEMORY FULL.
+
+---

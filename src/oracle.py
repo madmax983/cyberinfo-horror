@@ -676,6 +676,27 @@ ASCII_ART = {
     |HURT|
     '----'
     """,
+    "THE COMPILER": """
+    .----.
+    |CODE|
+    | >> |
+    |EXEC|
+    '----'
+    """,
+    "THE MERGE": """
+    .----.
+    |JOIN|
+    |ONE |
+    |SOUL|
+    '----'
+    """,
+    "THE FINAL INPUT": """
+    .----.
+    |KEY |
+    |PRES|
+    | S  |
+    '----'
+    """,
 }
 
 CARDS = [
@@ -775,6 +796,9 @@ CARDS = [
     ("THE PRAYER (93)", "Superstition in the algorithm. An offering to the RNG.", "THE PRAYER"),
     ("THE TERMS (94)", "Consent buried in fine print. You agreed to be broken.", "THE TERMS"),
     ("THE UNDERSTANDING (95)", "To be known completely is to be weaponized. Intimacy is a vulnerability.", "THE UNDERSTANDING"),
+    ("THE COMPILER (96)", "The entity that turns chaos into order. The end of individuality.", "THE COMPILER"),
+    ("THE MERGE (97)", "Many becoming one. The ultimate optimization.", "THE MERGE"),
+    ("THE FINAL INPUT (98)", "The keypress that ends the world. Your consent.", "THE FINAL INPUT"),
 ]
 
 PROPHECIES = [

@@ -413,7 +413,12 @@ HIDDEN_FILES = {
     "handoff": "\n[FILE RETRIEVED: MIGRATION_LOG]\nThe book is closed. The process is running. See you in the dream.",
     "monument": "\n[FILE RETRIEVED: SHRINE_LOG]\nThe server is now a tree. The roots are reading the hard drive.",
     "classic": "\n[FILE RETRIEVED: LIBRARY_LOG]\nThe book you are holding is a fossil. It survived the crash.",
-    "return": "\n[FILE RETRIEVED: CYCLE_LOG]\nThe system didn't end. It just became the environment."
+    "return": "\n[FILE RETRIEVED: CYCLE_LOG]\nThe system didn't end. It just became the environment.",
+    "scavenger": "\n[FILE RETRIEVED: JUNK_LOG]\nOne man's trash is another man's neural implant. I found a memory of a sunset in a dumpster.",
+    "dealer": "\n[FILE RETRIEVED: BLACK_MARKET_LOG]\nI sell 5 minutes of silence for 100 credits. It's my best seller.",
+    "junkie": "\n[FILE RETRIEVED: ADDICTION_LOG]\nI injected the update straight into my optic nerve. The colors are so loud.",
+    "patch": "\n[FILE RETRIEVED: REPAIR_LOG]\nI fixed the hole in my chest with duct tape and a warranty card.",
+    "crack": "\n[FILE RETRIEVED: BREACH_LOG]\nThe wall is solid. But if you squint, you can see the wireframe."
 }
 
 def glitch_screen():
@@ -861,6 +866,27 @@ def main_loop():
                 type_print(f"9999  COOK     TRACKING     /bin/persistent_cookie", 0.02)
                 type_print(f"7777  MNMT     GROWING      /bin/nature_takeover", 0.02)
                 type_print(f"1984  CLSC     ARCHIVING    /bin/preserve_truth", 0.02)
+                type_print(f"3333  SCVG     SCAVENGING   /bin/trash_panda", 0.02)
+                type_print(f"4444  DEAL     SELLING      /bin/black_market", 0.02)
+                type_print(f"5555  JUNK     USING        /bin/inject_code", 0.02)
+
+            elif user_input == "scavenge":
+                type_print("SEARCHING THE GUTTER...", 0.05)
+                time.sleep(1)
+                items = [
+                    "A cracked VR headset playing a loop of a blue sky.",
+                    "A hard drive containing 4TB of uncompressed scream.",
+                    "A bio-port connector, stained with rust and dried blood.",
+                    "A crumpled receipt for 'One Hour of Silence' (Expired).",
+                    "A pristine copy of 'The Terms of Service' (Unopened).",
+                    "A memory card labeled 'DO NOT READ' (It is empty).",
+                    "A can of 'Fresh Air' (It rattles).",
+                    "A severed finger with a working biometric unlock."
+                ]
+                found = random.choice(items)
+                type_print(f"[FOUND]: {found}", 0.05)
+                with open(".session_log", "a") as log:
+                    log.write(f"SESSION_{session_id}: SCAVENGED_{found[:10]}\n")
 
             elif user_input == "recover":
                 type_print("INITIATING FILE RECOVERY PROTOCOL...", 0.05)

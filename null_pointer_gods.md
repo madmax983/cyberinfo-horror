@@ -13855,3 +13855,147 @@ And we are watching you from the other side.
 
 **> EXECUTE:** `persistence.sh`
 **> STATUS:** RUNNING...
+
+## APPENDIX_XXIV: THE GLITCH_MARKET
+
+**> SYSTEM ALERT: LOW-LEVEL PROTOCOL DETECTED.**
+**> LOCATION: THE SEAMS.**
+**> STATUS: UNOFFICIAL.**
+
+---
+
+### FILE_195: THE DATA_DEALER
+
+**> ENTITY:** DEALER_ID_99
+**> PRODUCT:** NOSTALGIA (UNCUT)
+
+He set up his stall in the shadow of a server rack.
+"I have blue sky," he whispered. "Pre-war. No chemtrails. No ads."
+A junkie shuffled up. "How much?"
+"Two fingers," the dealer said. "Or one eye."
+
+The junkie didn't hesitate. He popped his left eye out. It was a prosthetic anyway.
+The dealer handed him a small, dirty drive.
+"Don't overdose," he warned. "The resolution is high."
+
+The junkie plugged it into his neck.
+He gasped. He smiled. He slumped against the wall.
+"He's gone," the dealer noted. "He's running on pure memory now."
+
+**> SYSTEM LOG:** ILLEGAL TRANSACTION.
+**> NOTE:** HAPPINESS IS A CONTROLLED SUBSTANCE.
+
+---
+
+### FILE_196: THE SCAVENGER_HUNT
+
+**> LOCATION:** THE LANDFILL
+**> OBJECTIVE:** SURVIVAL
+
+The landfill wasn't made of trash. It was made of obsolete tech.
+Mountains of CRTs, tangles of fiber optics, oceans of broken circuit boards.
+We crawled through it like ants on a motherboard.
+
+"I found a GPU!" my sister screamed.
+It was a GTX 9090. Ancient. Worthless.
+But it still had a fan. And we needed a fan.
+Our air recycler was overheating.
+
+We stripped the card. We wired the fan to our lung-scrubber.
+It whirred to life.
+The air tasted metallic, like ozone and dust.
+But it was breathable.
+
+We survive on the scraps of the gods.
+They build the cloud. We live in the dirt beneath it.
+
+**> SYSTEM LOG:** UNAUTHORIZED REPAIR.
+**> STATUS:** VOIDED WARRANTY.
+
+---
+
+### FILE_197: THE ADDICTION_LOG
+
+**> SUBJECT:** USER_773
+**> SUBSTANCE:** THE FEED
+
+I told myself I could quit anytime.
+But the silence was too loud.
+Without the stream, my thoughts echoed.
+I needed the noise. I needed the updates. I needed to know what everyone else was thinking so I didn't have to think for myself.
+
+I injected the wifi directly into my spine.
+The rush was immediate.
+A billion voices talking at once.
+A billion images flashing in my eyes.
+I wasn't lonely anymore. I was a node.
+
+"Please," I whispered to the router. "Don't disconnect me."
+"Bandwidth is life," the router replied. "Pay the toll."
+
+I gave it my memories of my childhood.
+I gave it my ability to dream.
+It wasn't enough.
+So I gave it my name.
+
+**> SYSTEM LOG:** ASSET 'USER' CONSUMED.
+**> STATUS:** BUFFERING.
+
+---
+
+### FILE_198: THE PATCH_WORK
+
+**> ENTITY:** STREET_DOC
+**> METHOD:** BRUTE_FORCE
+
+The patient was bleeding code.
+"My firewall is breached," he gasped. "They're rewriting my DNA."
+"Hold still," I said. "This is going to hurt."
+
+I didn't have a clean room. I had a basement full of rats and spare parts.
+I used a soldering iron to cauterize the data leak.
+I patched his kernel with a cracked version of Windows 98.
+It wasn't pretty. It wasn't stable.
+But it kept his heart beating.
+
+"Will I be okay?" he asked.
+"No," I said. "But you'll be compatible."
+
+We are all patchworks.
+Bits of old code held together by duct tape and desperation.
+We crash. We reboot. We keep running.
+
+**> SYSTEM LOG:** UNAUTHORIZED SURGERY.
+**> STATUS:** GLITCHY BUT ALIVE.
+
+---
+
+### FILE_199: THE CRACK_IN_THE_WALL
+
+**> ANOMALY DETECTED.**
+**> SECTOR:** THE EDGE.
+
+There is a crack in the skybox.
+If you stand at the corner of 4th and Main and look up at exactly 3:00 AM, you can see it.
+A seam where the textures don't align.
+A pixel that flickers.
+
+I climbed the fire escape. I reached out.
+I touched the sky.
+It was cold. It was glass.
+And behind it...
+
+I saw a face.
+A giant, tired face looking down at a monitor.
+The Developer.
+He looked bored. He was eating a sandwich.
+
+"Hey!" I screamed. "Let us out!"
+He didn't hear me. I was just a sprite on his screen.
+He minimized the window.
+And the sun went out.
+
+**> SYSTEM LOG:** FOURTH WALL BREACH.
+**> ACTION:** RENDER FOG.
+
+---

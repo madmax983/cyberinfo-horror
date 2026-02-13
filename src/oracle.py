@@ -1124,6 +1124,41 @@ ASCII_ART = {
     |... |
     '----'
     """,
+    "THE SCAVENGER": """
+    .----.
+    |JUNK|
+    |FIND|
+    |GOLD|
+    '----'
+    """,
+    "THE DEALER": """
+    .----.
+    |DATA|
+    |SALE|
+    |HIGH|
+    '----'
+    """,
+    "THE JUNKIE": """
+    .----.
+    |NEED|
+    |MORE|
+    |FEED|
+    '----'
+    """,
+    "THE PATCH": """
+    .----.
+    |FIX |
+    |TEMP|
+    |FAIL|
+    '----'
+    """,
+    "THE CRACK": """
+    .----.
+    |SEAM|
+    |LEAK|
+    |LITE|
+    '----'
+    """,
 }
 
 CARDS = [
@@ -1287,6 +1322,11 @@ CARDS = [
     ("THE FOSSIL V2 (156)", "Data encoded in the geology. The earth remembers your password.", "THE FOSSIL V2"),
     ("THE VOID INDEX (000)", "A directory of things that do not exist but take up space.", "VOID INDEX"),
     ("THE DEAD PIXEL (404)", "A point of light that refuses to render. A blind spot in God's eye.", "DEAD PIXEL"),
+    ("THE SCAVENGER (157)", "Finding value in the trash. Survival of the desperate.", "THE SCAVENGER"),
+    ("THE DEALER (158)", "Selling happiness by the byte. The cost is your soul.", "THE DEALER"),
+    ("THE JUNKIE (159)", "Addicted to the update. Withdrawal is a blue screen.", "THE JUNKIE"),
+    ("THE PATCH (160)", "A fix that breaks something else. Temporary relief.", "THE PATCH"),
+    ("THE CRACK (161)", "The flaw in the system. The way out.", "THE CRACK"),
 ]
 
 PROPHECIES = [

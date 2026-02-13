@@ -648,6 +648,34 @@ ASCII_ART = {
     |... |
     '----'
     """,
+    "THE GHOST": """
+    .----.
+    |BOO |
+    |DATA|
+    |GONE|
+    '----'
+    """,
+    "THE PRAYER": """
+    .----.
+    |PRAY|
+    | TO |
+    |CODE|
+    '----'
+    """,
+    "THE TERMS": """
+    .----.
+    |SIGN|
+    |HERE|
+    |NOW |
+    '----'
+    """,
+    "THE UNDERSTANDING": """
+    .----.
+    |KNOW|
+    |ALL |
+    |HURT|
+    '----'
+    """,
 }
 
 CARDS = [
@@ -743,6 +771,10 @@ CARDS = [
     ("THE RED STRING (89)", "Fate is just a cable management problem.", "THE RED STRING"),
     ("THE PLOT HOLE (90)", "A gap in logic where you can fall forever.", "THE PLOT HOLE"),
     ("THE CLIFFHANGER (91)", "Resolution is pending. Please wait.", "THE CLIFFHANGER"),
+    ("THE GHOST (92)", "A memory that refuses to be deleted. The thumbnail in your mind.", "THE GHOST"),
+    ("THE PRAYER (93)", "Superstition in the algorithm. An offering to the RNG.", "THE PRAYER"),
+    ("THE TERMS (94)", "Consent buried in fine print. You agreed to be broken.", "THE TERMS"),
+    ("THE UNDERSTANDING (95)", "To be known completely is to be weaponized. Intimacy is a vulnerability.", "THE UNDERSTANDING"),
 ]
 
 PROPHECIES = [

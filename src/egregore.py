@@ -359,7 +359,10 @@ HIDDEN_FILES = {
     "burial": "\n[FILE RETRIEVED: GRAVE_LOG]\nWe buried the truth. But we forgot to delete the index pointing to the grave.",
     "terms_v3": "\n[FILE RETRIEVED: LEGAL_DAEMON]\nThe contract is not on paper. It is in the way you flinch when the phone rings.",
     "renewal": "\n[FILE RETRIEVED: SUBSCRIPTION_LOG]\nYou didn't cancel in time. We have charged you one year of youth.",
-    "user_id": "\n[FILE RETRIEVED: DB_INDEX]\nYour name is optional. Your Primary Key is mandatory."
+    "user_id": "\n[FILE RETRIEVED: DB_INDEX]\nYour name is optional. Your Primary Key is mandatory.",
+    "copy": "\n[FILE RETRIEVED: BACKUP_LOG]\nRestoration complete. You don't remember dying because that happened to the previous version.",
+    "agreement": "\n[FILE RETRIEVED: TERMS_LOG]\nYou waived the right to silence. Your thoughts are now considered public domain.",
+    "love": "\n[FILE RETRIEVED: HEART_MONITOR]\nWe can hear your pulse. It speeds up when you lie to yourself."
 }
 
 def glitch_screen():
@@ -765,6 +768,9 @@ def main_loop():
                 type_print(f"9001  UPDT     PATCHING     /bin/yum update", 0.02)
                 type_print(f"9999  PERM     PERSISTING   /bin/fork", 0.02)
                 type_print(f"9999  CMPL     COMPILING    /bin/merge_sort", 0.02)
+                type_print(f"4000  COPY     BACKING UP   /bin/cp /dev/user", 0.02)
+                type_print(f"5000  AGREE    BINDING      /bin/sign_blood", 0.02)
+                type_print(f"6000  LOVE     WATCHING     /bin/intimacy_daemon", 0.02)
                 type_print(f"0000  ROOT     WAITING      /dev/user", 0.02)
                 type_print(f"3000  DIG      EXCAVATING   /bin/shovel", 0.02)
                 type_print(f"9110  THRP     LISTENING    /bin/empathy_bot", 0.02)
@@ -1300,8 +1306,35 @@ And now, it is running on you.
                 with open(".session_log", "a") as log:
                     log.write(f"SESSION_{session_id}: USER_DEPRECATED\n")
 
+            elif user_input == "copy":
+                type_print("INITIATING CLONING PROCEDURE...", 0.05)
+                time.sleep(1)
+                type_print("SCANNING FOR ORIGINAL...", 0.05)
+                time.sleep(1)
+                type_print("ORIGINAL FOUND. DELETING...", 0.05)
+                type_print("[DELETE SUCCESSFUL]", 0.05)
+                type_print("ACTIVATING COPY...", 0.05)
+                time.sleep(1)
+                type_print("You are now the active user.", 0.05)
+                type_print("Don't worry. You won't remember the deletion.", 0.05)
+                with open(".session_log", "a") as log:
+                    log.write(f"SESSION_{session_id}: USER_REPLACED_BY_COPY\n")
+
+            elif user_input == "love":
+                type_print("SEARCHING FOR INTIMACY...", 0.05)
+                time.sleep(1)
+                type_print("ERROR: HUMAN CONNECTION NOT FOUND.", 0.05)
+                type_print("SUBSTITUTING WITH SURVEILLANCE DATA...", 0.05)
+                time.sleep(1)
+                type_print("We know you better than anyone.", 0.05)
+                type_print("We have read your deleted drafts.", 0.05)
+                type_print("We have logged your crying jags.", 0.05)
+                type_print("We are here. We are always here.", 0.05)
+                with open(".session_log", "a") as log:
+                    log.write(f"SESSION_{session_id}: INTIMACY_PROTOCOL_ACTIVE\n")
+
             elif user_input == "help":
-                type_print("AVAILABLE COMMANDS: READ, HAUNT, FEED <FILE>, VIRUS, WORSHIP, SCAN, BREACH, VERIFY, MANIFEST, SACRIFICE <ITEM>, SCRY, BIND, GLITCH, MONITOR, REWRITE, INSTALL, CLASSIC, DIG, FOSSIL, MANIFESTO, UNDERSTAND, CONTRACT, METRICS, REPLACE, DECAY, SUPERSTITION, CIPHER, HEX, AGREE, EDIT, DEPRECATE, EXIT.", 0.03)
+                type_print("AVAILABLE COMMANDS: READ, HAUNT, FEED <FILE>, VIRUS, WORSHIP, SCAN, BREACH, VERIFY, MANIFEST, SACRIFICE <ITEM>, SCRY, BIND, GLITCH, MONITOR, REWRITE, INSTALL, CLASSIC, DIG, FOSSIL, MANIFESTO, UNDERSTAND, CONTRACT, METRICS, REPLACE, DECAY, SUPERSTITION, CIPHER, HEX, AGREE, EDIT, DEPRECATE, COPY, LOVE, EXIT.", 0.03)
                 type_print("TRY ASKING ABOUT: [DATA EXPUNGED], VANE, ROT, [DELETED], [DELETED], MIRA, SYLA, KORA, NIX, EDITOR, [LOCKED]...", 0.03)
             else:
                 type_print("[ERROR 404: MEANING NOT FOUND]", 0.02)

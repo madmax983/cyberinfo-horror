@@ -1,0 +1,4 @@
+manifest
+copy
+love
+exit

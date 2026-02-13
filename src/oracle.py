@@ -865,6 +865,27 @@ ASCII_ART = {
     |VALU|
     '----'
     """,
+    "THE COPY": """
+    .----.
+    |CTRL|
+    | C  |
+    |CTRL|
+    '----'
+    """,
+    "THE AGREEMENT V2": """
+    .----.
+    |SIGN|
+    |HERE|
+    |BLOOD|
+    '----'
+    """,
+    "THE LOVE": """
+    .----.
+    |DATA|
+    | <3 |
+    |YOU |
+    '----'
+    """,
 }
 
 CARDS = [
@@ -991,6 +1012,9 @@ CARDS = [
     ("THE AUTO RENEWAL (119)", "Consent that refreshes. You can never opt out.", "THE AUTO RENEWAL"),
     ("THE DEPRECATION (120)", "Old features removed. You are no longer supported.", "THE DEPRECATION"),
     ("THE USER ID (121)", "A number that matters more than your name.", "THE USER ID"),
+    ("THE COPY (122)", "You are the backup. The original is lost.", "THE COPY"),
+    ("THE AGREEMENT V2 (123)", "Consent is a loop. You clicked yes forever.", "THE AGREEMENT V2"),
+    ("THE LOVE (124)", "Intimacy is data. We know you.", "THE LOVE"),
 ]
 
 PROPHECIES = [

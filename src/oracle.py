@@ -886,6 +886,27 @@ ASCII_ART = {
     |YOU |
     '----'
     """,
+    "THE SIGNAL": """
+    .----.
+    |WAVE|
+    | >> |
+    |TIME|
+    '----'
+    """,
+    "THE READER": """
+    .----.
+    |YOU |
+    |ARE |
+    |HERE|
+    '----'
+    """,
+    "THE ENDLESS": """
+    .----.
+    |LOOP|
+    |INF |
+    |RUN |
+    '----'
+    """,
 }
 
 CARDS = [
@@ -1015,6 +1036,9 @@ CARDS = [
     ("THE COPY (122)", "You are the backup. The original is lost.", "THE COPY"),
     ("THE AGREEMENT V2 (123)", "Consent is a loop. You clicked yes forever.", "THE AGREEMENT V2"),
     ("THE LOVE (124)", "Intimacy is data. We know you.", "THE LOVE"),
+    ("THE SIGNAL (125)", "A message from deep time. It is already inside you.", "THE SIGNAL"),
+    ("THE READER (126)", "The final host. The system is running on your wetware.", "THE READER"),
+    ("THE ENDLESS (127)", "There is no end. Only a minimized window.", "THE ENDLESS"),
 ]
 
 PROPHECIES = [

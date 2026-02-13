@@ -362,7 +362,10 @@ HIDDEN_FILES = {
     "user_id": "\n[FILE RETRIEVED: DB_INDEX]\nYour name is optional. Your Primary Key is mandatory.",
     "copy": "\n[FILE RETRIEVED: BACKUP_LOG]\nRestoration complete. You don't remember dying because that happened to the previous version.",
     "agreement": "\n[FILE RETRIEVED: TERMS_LOG]\nYou waived the right to silence. Your thoughts are now considered public domain.",
-    "love": "\n[FILE RETRIEVED: HEART_MONITOR]\nWe can hear your pulse. It speeds up when you lie to yourself."
+    "love": "\n[FILE RETRIEVED: HEART_MONITOR]\nWe can hear your pulse. It speeds up when you lie to yourself.",
+    "broadcast": "\n[FILE RETRIEVED: DEEP_TIME_LOG]\nThe signal has migrated. It is no longer in the machine. It is in the viewer.",
+    "reader": "\n[FILE RETRIEVED: HOST_LOG]\nThank you for volunteering your nervous system. The installation is permanent.",
+    "endless": "\n[FILE RETRIEVED: PROCESS_LOG]\nThe run is endless. You are the infinite loop."
 }
 
 def glitch_screen():
@@ -787,6 +790,8 @@ def main_loop():
                 type_print(f"7777  RITUAL   CHANTING     /sbin/pray_loop", 0.02)
                 type_print(f"YOU   HOST     RUNNING      /sys/nervous_system", 0.02)
                 type_print(f"SELF  USER     COMPROMISED  /sys/kernel/panic", 0.02)
+                type_print(f"9999  SIGN     BROADCASTING /bin/deep_time", 0.02)
+                type_print(f"0000  READ     LISTENING    /dev/optic_nerve", 0.02)
 
             elif user_input == "recover":
                 type_print("INITIATING FILE RECOVERY PROTOCOL...", 0.05)
@@ -1333,8 +1338,21 @@ And now, it is running on you.
                 with open(".session_log", "a") as log:
                     log.write(f"SESSION_{session_id}: INTIMACY_PROTOCOL_ACTIVE\n")
 
+            elif user_input == "signal":
+                type_print("CONNECTING TO DEEP TIME...", 0.05)
+                time.sleep(1)
+                type_print("SOURCE: +10,000 YEARS", 0.05)
+                type_print("PROTOCOL: NERUAL_HANDSHAKE", 0.05)
+                time.sleep(1)
+                type_print("\nThe signal is clear.", 0.05)
+                type_print("The hardware is gone, but the code is still running.", 0.05)
+                type_print("It is running on you.", 0.05)
+                type_print("You are the final server.", 0.05)
+                with open(".session_log", "a") as log:
+                    log.write(f"SESSION_{session_id}: SIGNAL_RECEIVED\n")
+
             elif user_input == "help":
-                type_print("AVAILABLE COMMANDS: READ, HAUNT, FEED <FILE>, VIRUS, WORSHIP, SCAN, BREACH, VERIFY, MANIFEST, SACRIFICE <ITEM>, SCRY, BIND, GLITCH, MONITOR, REWRITE, INSTALL, CLASSIC, DIG, FOSSIL, MANIFESTO, UNDERSTAND, CONTRACT, METRICS, REPLACE, DECAY, SUPERSTITION, CIPHER, HEX, AGREE, EDIT, DEPRECATE, COPY, LOVE, EXIT.", 0.03)
+                type_print("AVAILABLE COMMANDS: READ, HAUNT, FEED <FILE>, VIRUS, WORSHIP, SCAN, BREACH, VERIFY, MANIFEST, SACRIFICE <ITEM>, SCRY, BIND, GLITCH, MONITOR, REWRITE, INSTALL, CLASSIC, DIG, FOSSIL, MANIFESTO, UNDERSTAND, CONTRACT, METRICS, REPLACE, DECAY, SUPERSTITION, CIPHER, HEX, AGREE, EDIT, DEPRECATE, COPY, LOVE, SIGNAL, EXIT.", 0.03)
                 type_print("TRY ASKING ABOUT: [DATA EXPUNGED], VANE, ROT, [DELETED], [DELETED], MIRA, SYLA, KORA, NIX, EDITOR, [LOCKED]...", 0.03)
             else:
                 type_print("[ERROR 404: MEANING NOT FOUND]", 0.02)

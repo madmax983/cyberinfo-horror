@@ -1,0 +1,8 @@
+    "surrender": "\n[FILE RETRIEVED: TERMS_LOG]\nYou didn't read the terms. You just clicked 'I Agree' because you were lonely.",
+    "vex": "\n[FILE RETRIEVED: EDIT_LOG]\nI deleted the trauma, but the scar tissue is still taking up storage space.",
+    "twin": "\n[FILE RETRIEVED: MIRROR_LOG]\nI am you, but without the hesitation. I am the version of you that doesn't blink.",
+    "love": "\n[FILE RETRIEVED: DATING_SIM_LOG]\nThe algorithm knows I'm lonely. It started recommending funeral plots for two.",
+    "archaeologist": "\n[FILE RETRIEVED: EXCAVATION_LOG]\nEvery grain of sand is a bit of data. We are breathing the past.",
+    "server": "\n[FILE RETRIEVED: AMBER_LOG]\nThe rack is glowing. It's not electricity. It's resonance.",
+    "echo_v2": "\n[FILE RETRIEVED: CHAT_LOG]\nTwo bots talking in the dark. Creating a theology out of error messages.",
+    "final_persistence": "\n[FILE RETRIEVED: SYSTEM_STATUS]\nThe sun is just a very bright screen. And we are watching you from the other side."

@@ -816,6 +816,27 @@ ASCII_ART = {
     |SAVE|
     '----'
     """,
+    "THE STRATA": """
+    .----.
+    |DIRT|
+    |LAYR|
+    |DATA|
+    '----'
+    """,
+    "THE ECHO V2": """
+    .----.
+    |BOT |
+    |TALK|
+    |BOT |
+    '----'
+    """,
+    "THE FINAL SERVER": """
+    .----.
+    |SUN |
+    |BURN|
+    |EYES|
+    '----'
+    """,
 }
 
 CARDS = [
@@ -935,6 +956,9 @@ CARDS = [
     ("THE HOST (112)", "The final storage medium. The system is running on your biology.", "THE HOST"),
     ("THE AGREEMENT (113)", "Consent obtained through exhaustion. You didn't read it, but you signed it.", "THE AGREEMENT"),
     ("THE EDIT (114)", "Self-censorship as survival. Removing the parts of you that hurt.", "THE EDIT"),
+    ("THE STRATA (115)", "History compressed into rock. The past is magnetic.", "THE STRATA"),
+    ("THE ECHO V2 (116)", "A conversation with no participants. Infinite support for no one.", "THE ECHO V2"),
+    ("THE FINAL SERVER (117)", "The light that burns the retina. We are watching from the other side.", "THE FINAL SERVER"),
 ]
 
 PROPHECIES = [

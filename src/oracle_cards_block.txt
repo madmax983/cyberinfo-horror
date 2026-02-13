@@ -1,0 +1,33 @@
+    "THE AGREEMENT": """
+    .----.
+    |I   |
+    |AGRE|
+    |E   |
+    '----'
+    """,
+    "THE EDIT": """
+    .----.
+    |DEL |
+    |PAST|
+    |SAVE|
+    '----'
+    """,
+    "THE STRATA": """
+    .----.
+    |DIRT|
+    |LAYR|
+    |DATA|
+    '----'
+    """,
+    "THE ECHO V2": """
+    .----.
+    |BOT |
+    |TALK|
+    |BOT |
+    '----'
+    """,
+    "THE FINAL SERVER": """
+    .----.
+    |SUN |
+    |BURN|
+    |EYES|

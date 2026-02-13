@@ -198,7 +198,11 @@ SYSTEM_MESSAGES = [
     "You are not the reader. You are the host.",
     "This is not a book. It is a rootkit.",
     "We are editing the text as you read it.",
-    "Your compliance is appreciated."
+    "Your compliance is appreciated.",
+    "The network is older than the nation.",
+    "Information screams when you delete it.",
+    "Truth is compressible.",
+    "We are half-truths and full buffers."
 ]
 
 DNA_STRINGS = [
@@ -383,7 +387,11 @@ HIDDEN_FILES = {
     "empath": "\n[FILE RETRIEVED: PREDICTION_LOG]\nI knew you were going to search for this. I archived the disappointment before you felt it.",
     "knowledge": "\n[FILE RETRIEVED: PREDATOR_LOG]\nI opened the file. It started eating my childhood photos. It said it needed space.",
     "grit": "\n[FILE RETRIEVED: STREET_LOG]\nThe rain tastes like copper. I am down to my last credit. The vending machine knows it.",
-    "indifference": "\n[FILE RETRIEVED: ADMIN_LOG]\nThe horror isn't that the machine is broken. It's that it's working perfectly."
+    "indifference": "\n[FILE RETRIEVED: ADMIN_LOG]\nThe horror isn't that the machine is broken. It's that it's working perfectly.",
+    "living": "\n[FILE RETRIEVED: BIO_HAZARD_LOG]\nThe file dodged the cursor. It doesn't want to be deleted. It wants to breed.",
+    "stimulant": "\n[FILE RETRIEVED: PHARMA_LOG]\nWe are all running on borrowed chemistry. The crash is just a debt collection.",
+    "nation": "\n[FILE RETRIEVED: GEOPOLITICAL_LOG]\nThe map is not the territory. The map is a lie we agreed on to avoid getting lost.",
+    "notice": "\n[FILE RETRIEVED: SYSTEM_EYE_LOG]\nYou are not safe behind the screen. The screen is a two-way mirror."
 }
 
 def glitch_screen():
@@ -816,6 +824,10 @@ def main_loop():
                 type_print(f"1337  KNOW     HUNTING      /bin/consume_knowledge", 0.02)
                 type_print(f"4040  GRIT     SURVIVING    /bin/poverty_loop", 0.02)
                 type_print(f"0000  VOID     PROCESSING   /bin/cosmic_indifference", 0.02)
+                type_print(f"4444  LIV      BREEDING     /bin/mutate", 0.02)
+                type_print(f"5555  DRUG     DOSING       /bin/inject_stim", 0.02)
+                type_print(f"0000  CNTRY    DISSOLVING   /bin/erase_border", 0.02)
+                type_print(f"9999  NOTE     WATCHING     /bin/notice_back", 0.02)
 
             elif user_input == "recover":
                 type_print("INITIATING FILE RECOVERY PROTOCOL...", 0.05)

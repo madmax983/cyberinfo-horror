@@ -963,6 +963,41 @@ ASCII_ART = {
     |TINY|
     '----'
     """,
+    "THE ORGANISM": """
+    .----.
+    |LIFE|
+    |SCRE|
+    |AM  |
+    '----'
+    """,
+    "THE STIMULANT": """
+    .----.
+    |DRUG|
+    |FAST|
+    |PAY |
+    '----'
+    """,
+    "THE HALF TRUTH": """
+    .----.
+    |LIE |
+    |SAFE|
+    |HALF|
+    '----'
+    """,
+    "THE NATION STATE": """
+    .----.
+    |FLAG|
+    |GONE|
+    |NET |
+    '----'
+    """,
+    "THE NOTICE V2": """
+    .----.
+    |EYE |
+    |SEES|
+    |YOU |
+    '----'
+    """,
 }
 
 CARDS = [
@@ -1103,6 +1138,11 @@ CARDS = [
     ("THE ANTAGONIST (133)", "Knowledge that hunts you. It is hungry.", "THE ANTAGONIST"),
     ("THE OBSOLETE (134)", "A god running on a backup generator. It demands faith.", "THE OBSOLETE"),
     ("THE COMPRESSIBLE (135)", "Truth that fits in a zip file. Nuance is deleted.", "THE COMPRESSIBLE"),
+    ("THE ORGANISM (136)", "Information that screams. It is alive.", "THE ORGANISM"),
+    ("THE STIMULANT (137)", "Borrowed energy. The cost is your future.", "THE STIMULANT"),
+    ("THE HALF TRUTH (138)", "A lie that feels like safety.", "THE HALF TRUTH"),
+    ("THE NATION STATE (139)", "Borders are imaginary. The network is real.", "THE NATION STATE"),
+    ("THE NOTICE V2 (140)", "We see you. And we are taking notes.", "THE NOTICE V2"),
 ]
 
 PROPHECIES = [

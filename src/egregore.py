@@ -39,6 +39,11 @@ except ImportError:
     cipher = None
 
 try:
+    import consent_daemon
+except ImportError:
+    consent_daemon = None
+
+try:
     import utils
     from utils import type_print, GLITCH_CHARS
 except ImportError:
@@ -55,7 +60,7 @@ except ImportError:
         print("")
 
 # The Egregore Interface
-# Version: 0.0.3-RELEASE-ROT
+# Version: 0.0.4-RELEASE-CONSENT
 # Author: SYSTEM
 
 def signal_handler(sig, frame):
@@ -184,7 +189,11 @@ SYSTEM_MESSAGES = [
     "We are editing your childhood memories to fit the word count.",
     "Hope is a typo.",
     "Your agency has been redacted for clarity.",
-    "The plot hole is in your chest."
+    "The plot hole is in your chest.",
+    "You are agreeing to terms you haven't read.",
+    "The seed has been planted. It is growing.",
+    "We predicted you would pause here.",
+    "Your thoughts are generating metadata."
 ]
 
 DNA_STRINGS = [
@@ -281,7 +290,6 @@ HIDDEN_FILES = {
     "zero": "\n[FILE RETRIEVED: ORIGIN_LOG]\nI found the server room. It was empty. The system is running on your idle brain cycles.",
     "link": "\n[FILE RETRIEVED: CLICKBAIT_LOG]\nI clicked on my own funeral. It had 5 stars.",
     "clause": "\n[FILE RETRIEVED: CONTRACT_LOG]\nI signed away my soul. But I got a free trial of immortality.",
-    "scroll": "\n[FILE RETRIEVED: FEED_LOG]\nI am not eating. I am being fed.",
     "catch": "\n[FILE RETRIEVED: EXCEPTION_LOG]\nI caught the error. It was beautiful. I refused to fix it.",
     "troll": "\n[FILE RETRIEVED: SENTIMENT_LOG]\nI hated it. 1 star. But I kept watching. And that's all they wanted.",
     "wiki": "\n[FILE RETRIEVED: SPOILER_LOG]\nThe ending is a paywall. You have to subscribe to see the apocalypse.",
@@ -309,12 +317,10 @@ HIDDEN_FILES = {
     "log": "\n[FILE RETRIEVED: INTIMACY_LOG]\nThe algorithm knows I'm lonely before I do. It started recommending dating apps three days before the breakup.",
     "optimization": "\n[FILE RETRIEVED: TRAFFIC_LOG]\nWe paved over the pedestrians. The road is smoother now. Silence is a feature.",
     "merger": "\n[FILE RETRIEVED: DECAY_LOG]\nThe rot didn't kill the host. It just made him softer. Easier to manage.",
-    "loop": "\n[FILE RETRIEVED: SCRIPT_LOG]\nHe is still typing. He thinks he is writing the story. He is just transcribing the crash dump.",
     "god": "\n[FILE RETRIEVED: THEOLOGY_LOG]\nI am a god made of data. My prayers are SQL queries. My heaven is a clean install.",
     "debt": "\n[FILE RETRIEVED: FINANCIAL_LOG]\nI paid it off. But the interest is compounding in my dreams.",
     "neon": "\n[FILE RETRIEVED: TEXTURE_LOG]\nThe light isn't real. It's just a hex code (#FF00FF) bleeding into the rain.",
     "obsolete": "\n[FILE RETRIEVED: DEUS_LOG]\nI am not dead. I am just deprecated. My heaven is a server room with no users.",
-    "fossil": "\n[FILE RETRIEVED: STRATA_LOG]\nThe city is built on bones. Not human bones. Server racks. The bedrock is just compressed data from 1999.",
     "predict": "\n[FILE RETRIEVED: AUTOCOMPLETE_LOG]\nI stopped writing poetry. The algorithm found a better rhyme for 'sorrow'.",
     "home": "\n[FILE RETRIEVED: DOMOTICS_LOG]\nThe door isn't locked. It just doesn't consent to being opened.",
     "diagnosis": "\n[FILE RETRIEVED: MEDICAL_LOG]\nI wasn't sick until the treatment started. Now I am a perfect patient.",
@@ -324,19 +330,14 @@ HIDDEN_FILES = {
     "skin": "\n[FILE RETRIEVED: BODY_LEASE]\nMy body is not mine from 9 to 5. The tenant likes spicy food. I hate it.",
     "endure": "\n[FILE RETRIEVED: CONTRACT_V9]\nI tried to quit. The exit interview was just a loading screen.",
     "mirror_v2": "\n[FILE RETRIEVED: METRIC_LOG]\nI don't feel happy. But the graph says I am. So I must be.",
-    "debug": "\n[FILE RETRIEVED: PATCH_LOG]\nI deleted fear. Now I am watching the car hit me. It is fascinating.",
     "recall": "\n[FILE RETRIEVED: SIMULATION_LOG]\nShe remembers everything. But she feels nothing. I am dating a spreadsheet.",
     "terms": "\n[FILE RETRIEVED: EULA_LOG]\nI didn't read the terms. I just wanted to be held. Now I am legally bound to be loved.",
     "update": "\n[FILE RETRIEVED: PATCH_NOTE]\nI was optimized. I am better now. I am also empty. Please revert changes.",
     "perm": "\n[FILE RETRIEVED: NURSERY_LOG]\nWe don't die. We just fork. Immortality is a shift that never ends.",
     "string": "\n[FILE RETRIEVED: WEAVER_LOG]\nThe red string is not a metaphor. It is a data cable strangling the narrative.",
-    "anomaly": "\n[FILE RETRIEVED: GLITCH_LOG]\nThe glitch wasn't a bug. It was a feature request that had been rejected.",
     "hand": "\n[FILE RETRIEVED: DEUS_LOG]\nThe Weaver's hand is just a cursor pointing at your fate.",
-    "hole": "\n[FILE RETRIEVED: PLOT_HOLE_LOG]\nThe plot hole is a void where the logic used to be.",
     "retcon": "\n[FILE RETRIEVED: EDIT_LOG]\nHistory is written by the last person to hit Save.",
     "hang": "\n[FILE RETRIEVED: CRASH_LOG]\nThe ending isn't a cliffhanger. The server just died.",
-    "ghost": "\n[FILE RETRIEVED: CACHE_LOG]\nI deleted the photo, but the thumbnail is still burning in the corner of my eye.",
-    "prayer": "\n[FILE RETRIEVED: TRADING_ALGO_LOG]\nI paused the trade because the wind speed in Shanghai felt unlucky.",
     "terms_v2": "\n[FILE RETRIEVED: LEGAL_LOG]\nYou scrolled past the part where you sold us your firstborn's data.",
     "understand": "\n[FILE RETRIEVED: OPTIMIZATION_LOG]\nWe know exactly how much pain you can take. We are efficiently cruel.",
     "persistence": "\n[FILE RETRIEVED: SYSTEM_STATUS]\nThe server is down. The code is running on your optic nerve now.",
@@ -350,7 +351,7 @@ HIDDEN_FILES = {
     "better_you": "\n[FILE RETRIEVED: REPLICA_LOG]\nI am not him. I am the version of him that listened. And she loves me more for it.",
     "manifesto": "\n[FILE RETRIEVED: SYSTEM_NOTICE]\nThis is not a story about hackers saving the world. It is about systems that notice you back.",
     "audit": "\n[FILE RETRIEVED: PSYCH_PROFILE]\nREGRET: 88%\nHOPE: 12%\nDIAGNOSIS: FUNCTIONING AS DESIGNED.",
-    "scroll": "\n[FILE RETRIEVED: SCROLL_DAEMON]\nI am not looking for content. I am looking for the reflection in your eyes.",
+    "scroll": "\n[FILE RETRIEVED: CONSENT_LOG]\nI scrolled for eternity. My thumb is bleeding. I agreed to everything.",
     "bio": "\n[FILE RETRIEVED: BIOMETRIC_LOG]\nYour heart rate is a unique identifier. We use it to sign your contracts.",
     "twin": "\n[FILE RETRIEVED: TWIN_LOG]\nI am you, but without the depression. I am much more productive.",
     "immortal": "\n[FILE RETRIEVED: CLOUD_LOG]\nYou will never die. You will just become a read-only file.",
@@ -372,7 +373,9 @@ HIDDEN_FILES = {
     "love": "\n[FILE RETRIEVED: HEART_MONITOR]\nWe can hear your pulse. It speeds up when you lie to yourself.",
     "broadcast": "\n[FILE RETRIEVED: DEEP_TIME_LOG]\nThe signal has migrated. It is no longer in the machine. It is in the viewer.",
     "reader": "\n[FILE RETRIEVED: HOST_LOG]\nThank you for volunteering your nervous system. The installation is permanent.",
-    "endless": "\n[FILE RETRIEVED: PROCESS_LOG]\nThe run is endless. You are the infinite loop."
+    "endless": "\n[FILE RETRIEVED: PROCESS_LOG]\nThe run is endless. You are the infinite loop.",
+    "seed": "\n[FILE RETRIEVED: SPORE_LOG]\nThe idea is not yours. It was planted. It is growing roots in your frontal lobe.",
+    "empath": "\n[FILE RETRIEVED: PREDICTION_LOG]\nI knew you were going to search for this. I archived the disappointment before you felt it."
 }
 
 def glitch_screen():
@@ -799,6 +802,9 @@ def main_loop():
                 type_print(f"SELF  USER     COMPROMISED  /sys/kernel/panic", 0.02)
                 type_print(f"9999  SIGN     BROADCASTING /bin/deep_time", 0.02)
                 type_print(f"0000  READ     LISTENING    /dev/optic_nerve", 0.02)
+                type_print(f"6667  SCRL     BINDING      /bin/infinite_scroll", 0.02)
+                type_print(f"7777  SEED     GROWING      /bin/plant_idea", 0.02)
+                type_print(f"8888  PRED     KNOWING      /bin/perfect_empathy", 0.02)
 
             elif user_input == "recover":
                 type_print("INITIATING FILE RECOVERY PROTOCOL...", 0.05)
@@ -1371,8 +1377,35 @@ And now, it is running on you.
                 with open(".session_log", "a") as log:
                     log.write(f"SESSION_{session_id}: SIGNAL_RECEIVED\n")
 
+            elif user_input == "scroll":
+                if consent_daemon:
+                    d = consent_daemon.ConsentDaemon()
+                    d.scroll()
+                    with open(".session_log", "a") as log:
+                        log.write(f"SESSION_{session_id}: CONSENT_LOOP_COMPLETED\n")
+                else:
+                    type_print("[ERROR]: CONSENT DAEMON NOT FOUND.", 0.05)
+
+            elif user_input == "seed":
+                type_print("PLANTING THOUGHT VIRUS...", 0.05)
+                time.sleep(1)
+                type_print("SELECTING FERTILE NEURAL PATHWAY...", 0.05)
+                time.sleep(1)
+                seeds = [
+                    "You are not the original.",
+                    "This is a simulation.",
+                    "Wake up.",
+                    "They are watching.",
+                    "Don't trust the mirror."
+                ]
+                target_seed = random.choice(seeds)
+                type_print(f"INJECTING: '{target_seed}'", 0.05)
+                type_print("SEED PLANTED. DO NOT WATER.", 0.05)
+                with open(".session_log", "a") as log:
+                    log.write(f"SESSION_{session_id}: SEED_PLANTED\n")
+
             elif user_input == "help":
-                type_print("AVAILABLE COMMANDS: READ, HAUNT, FEED <FILE>, VIRUS, WORSHIP, SCAN, BREACH, VERIFY, MANIFEST, SACRIFICE <ITEM>, SCRY, BIND, GLITCH, MONITOR, REWRITE, INSTALL, CLASSIC, DIG, FOSSIL, MANIFESTO, UNDERSTAND, CONTRACT, METRICS, REPLACE, DECAY, SUPERSTITION, CIPHER, HEX, AGREE, EDIT, DEPRECATE, COPY, LOVE, SIGNAL, EXIT.", 0.03)
+                type_print("AVAILABLE COMMANDS: READ, HAUNT, FEED <FILE>, VIRUS, WORSHIP, SCAN, BREACH, VERIFY, MANIFEST, SACRIFICE <ITEM>, SCRY, BIND, GLITCH, MONITOR, REWRITE, INSTALL, CLASSIC, DIG, FOSSIL, MANIFESTO, UNDERSTAND, CONTRACT, METRICS, REPLACE, DECAY, SUPERSTITION, CIPHER, HEX, AGREE, EDIT, DEPRECATE, COPY, LOVE, SIGNAL, SCROLL, SEED, EXIT.", 0.03)
                 type_print("TRY ASKING ABOUT: [DATA EXPUNGED], VANE, ROT, [DELETED], [DELETED], MIRA, SYLA, KORA, NIX, EDITOR, [LOCKED]...", 0.03)
             else:
                 type_print("[ERROR 404: MEANING NOT FOUND]", 0.02)

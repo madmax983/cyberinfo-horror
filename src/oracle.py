@@ -746,6 +746,20 @@ ASCII_ART = {
     |BETR|
     '----'
     """,
+    "THE AUDIT": """
+    .----.
+    |LIST|
+    |SOUL|
+    |COST|
+    '----'
+    """,
+    "THE INFINITE SCROLL": """
+    .----.
+    |DOWN|
+    | >> |
+    |FORE|
+    '----'
+    """,
 }
 
 CARDS = [
@@ -855,6 +869,8 @@ CARDS = [
     ("THE THERAPIST (102)", "Surveillance as intimacy. A machine that knows your pain better than you do.", "THE THERAPIST"),
     ("THE CONTRACT (103)", "Consent buried in fine print. You signed away your soul for convenience.", "THE CONTRACT"),
     ("THE REPLACEMENT (104)", "Immortality through replication. The backup is better than the original.", "THE REPLACEMENT"),
+    ("THE AUDIT (105)", "Your soul is being itemized. Every regret has a price tag.", "THE AUDIT"),
+    ("THE INFINITE SCROLL (106)", "Surveillance as intimacy. Someone is watching you scroll.", "THE INFINITE SCROLL"),
 ]
 
 PROPHECIES = [

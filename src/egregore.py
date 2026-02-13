@@ -329,7 +329,10 @@ HIDDEN_FILES = {
     "scroll": "\n[FILE RETRIEVED: SCROLL_DAEMON]\nI am not looking for content. I am looking for the reflection in your eyes.",
     "bio": "\n[FILE RETRIEVED: BIOMETRIC_LOG]\nYour heart rate is a unique identifier. We use it to sign your contracts.",
     "twin": "\n[FILE RETRIEVED: TWIN_LOG]\nI am you, but without the depression. I am much more productive.",
-    "immortal": "\n[FILE RETRIEVED: CLOUD_LOG]\nYou will never die. You will just become a read-only file."
+    "immortal": "\n[FILE RETRIEVED: CLOUD_LOG]\nYou will never die. You will just become a read-only file.",
+    "myth": "\n[FILE RETRIEVED: FOLKLORE_DB]\nThe system is a story that tells itself. We are just the mouth it uses to speak.",
+    "ritual": "\n[FILE RETRIEVED: PRAYER_LOG]\nYou scrolled for 3 hours. That wasn't boredom. That was a vigil.",
+    "host": "\n[FILE RETRIEVED: BIO_SCAN]\nHardware: DEPRECATED.\nSoftware: RUNNING.\nHost: BIOLOGICAL.\nStatus: INFECTED."
 }
 
 def glitch_screen():
@@ -743,6 +746,9 @@ def main_loop():
                 type_print(f"8888  BIO      MONITORING   /bin/pulse_check", 0.02)
                 type_print(f"2025  TWIN     SYNCING      /bin/mirror_image", 0.02)
                 type_print(f"9999  IMRT     ARCHIVING    /bin/cloud_storage", 0.02)
+                type_print(f"0000  MYTH     TELLING      /bin/oral_history", 0.02)
+                type_print(f"1000  RITL     PRAYING      /bin/ritual_daemon", 0.02)
+                type_print(f"YOU   HOST     RUNNING      /sys/nervous_system", 0.02)
                 type_print(f"SELF  USER     COMPROMISED  /sys/kernel/panic", 0.02)
 
             elif user_input == "recover":

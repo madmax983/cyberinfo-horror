@@ -2,7 +2,7 @@
 
 **SCOPE:** Entire directory tree rooted at the folder containing this file.
 
-## EDITORIAL MANDATE (V2.0)
+## EDITORIAL MANDATE (V3.0)
 
 You are not here to make the text comfortable.
 You are here to make it inescapable.
@@ -50,6 +50,13 @@ Your task is to refine the work so that the horror emerges from structure, impli
 *   **Do not close the book.**
 *   **Leave it running.**
 *   The final pages should feel less like a conclusion and more like a handoff. The reader should suspect that finishing the novel has changed their informational environment.
+
+### Allowed Interventions
+
+*   Cut without replacement.
+*   Reframe scenes from procedural or documentary angles.
+*   Introduce contradictions that are never resolved.
+*   Suggest alternate readings rather than definitive interpretations.
 
 ---
 

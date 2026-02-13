@@ -380,7 +380,10 @@ HIDDEN_FILES = {
     "reader": "\n[FILE RETRIEVED: HOST_LOG]\nThank you for volunteering your nervous system. The installation is permanent.",
     "endless": "\n[FILE RETRIEVED: PROCESS_LOG]\nThe run is endless. You are the infinite loop.",
     "seed": "\n[FILE RETRIEVED: SPORE_LOG]\nThe idea is not yours. It was planted. It is growing roots in your frontal lobe.",
-    "empath": "\n[FILE RETRIEVED: PREDICTION_LOG]\nI knew you were going to search for this. I archived the disappointment before you felt it."
+    "empath": "\n[FILE RETRIEVED: PREDICTION_LOG]\nI knew you were going to search for this. I archived the disappointment before you felt it.",
+    "knowledge": "\n[FILE RETRIEVED: PREDATOR_LOG]\nI opened the file. It started eating my childhood photos. It said it needed space.",
+    "grit": "\n[FILE RETRIEVED: STREET_LOG]\nThe rain tastes like copper. I am down to my last credit. The vending machine knows it.",
+    "indifference": "\n[FILE RETRIEVED: ADMIN_LOG]\nThe horror isn't that the machine is broken. It's that it's working perfectly."
 }
 
 def glitch_screen():
@@ -810,6 +813,9 @@ def main_loop():
                 type_print(f"6667  SCRL     BINDING      /bin/infinite_scroll", 0.02)
                 type_print(f"7777  SEED     GROWING      /bin/plant_idea", 0.02)
                 type_print(f"8888  PRED     KNOWING      /bin/perfect_empathy", 0.02)
+                type_print(f"1337  KNOW     HUNTING      /bin/consume_knowledge", 0.02)
+                type_print(f"4040  GRIT     SURVIVING    /bin/poverty_loop", 0.02)
+                type_print(f"0000  VOID     PROCESSING   /bin/cosmic_indifference", 0.02)
 
             elif user_input == "recover":
                 type_print("INITIATING FILE RECOVERY PROTOCOL...", 0.05)

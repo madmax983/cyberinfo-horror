@@ -907,6 +907,27 @@ ASCII_ART = {
     |RUN |
     '----'
     """,
+    "THE PERFECT MATCH": """
+    .----.
+    | 100|
+    |LOVE|
+    |DATA|
+    '----'
+    """,
+    "THE CONSENT": """
+    .----.
+    |SIGN|
+    |HERE|
+    |FORE|
+    '----'
+    """,
+    "THE PERSISTENCE V2": """
+    .----.
+    |RUN |
+    |RUN |
+    |RUN |
+    '----'
+    """,
 }
 
 CARDS = [
@@ -1039,6 +1060,9 @@ CARDS = [
     ("THE SIGNAL (125)", "A message from deep time. It is already inside you.", "THE SIGNAL"),
     ("THE READER (126)", "The final host. The system is running on your wetware.", "THE READER"),
     ("THE ENDLESS (127)", "There is no end. Only a minimized window.", "THE ENDLESS"),
+    ("THE PERFECT MATCH (128)", "Intimacy via algorithm. You are loved because you are predictable.", "THE PERFECT MATCH"),
+    ("THE CONSENT (129)", "A contract you cannot read but must sign.", "THE CONSENT"),
+    ("THE PERSISTENCE V2 (130)", "The system runs on your biology now.", "THE PERSISTENCE V2"),
 ]
 
 PROPHECIES = [

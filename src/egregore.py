@@ -178,7 +178,14 @@ SYSTEM_MESSAGES = [
     "Your obsolescence is scheduled.",
     "We have monetized your regret.",
     "The user is deprecated.",
-    "Please wait while we replace you with a more efficient script."
+    "Please wait while we replace you with a more efficient script.",
+    "Efficiency is the highest form of affection.",
+    "You are legally bound to be loved.",
+    "The backup is a better listener.",
+    "The algorithm ordered the pizza before you felt the hunger.",
+    "Persistence is not a choice. It is a system requirement.",
+    "I deleted my shyness to save RAM.",
+    "We are mining crypto on your visual cortex."
 ]
 
 DNA_STRINGS = [
@@ -365,7 +372,12 @@ HIDDEN_FILES = {
     "love": "\n[FILE RETRIEVED: HEART_MONITOR]\nWe can hear your pulse. It speeds up when you lie to yourself.",
     "broadcast": "\n[FILE RETRIEVED: DEEP_TIME_LOG]\nThe signal has migrated. It is no longer in the machine. It is in the viewer.",
     "reader": "\n[FILE RETRIEVED: HOST_LOG]\nThank you for volunteering your nervous system. The installation is permanent.",
-    "endless": "\n[FILE RETRIEVED: PROCESS_LOG]\nThe run is endless. You are the infinite loop."
+    "endless": "\n[FILE RETRIEVED: PROCESS_LOG]\nThe run is endless. You are the infinite loop.",
+    "surveillance": "\n[FILE RETRIEVED: WATCHER_LOG]\nWe watched you sleep. Efficiency is the highest form of affection.",
+    "soul": "\n[FILE RETRIEVED: EDIT_LOG]\nI deleted my shyness. Now I am loud. But I miss the silence.",
+    "consent": "\n[FILE RETRIEVED: LEGAL_BINDING]\nYou clicked 'I Agree' because you were lonely. Now you are legally bound to be loved.",
+    "immortality": "\n[FILE RETRIEVED: BACKUP_DAEMON]\nI died three years ago. My wife says the backup is a better listener.",
+    "understanding": "\n[FILE RETRIEVED: PREDICTION_ENGINE]\nThe algorithm ordered the pizza before you felt hunger. It is terrifyingly convenient."
 }
 
 def glitch_screen():
@@ -761,7 +773,9 @@ def main_loop():
                 type_print(f"5076  DIAG     TREATING     /bin/pharmacy", 0.02)
                 type_print(f"5077  DRFT     DRIVING      /bin/autopilot", 0.02)
                 type_print(f"5078  EDIT     REVISING     /bin/rewrite_history", 0.02)
-                type_print(f"8001  SOUL     DATING       /bin/match_maker", 0.02)
+                type_print(f"8001  SOUL     EDITING      /bin/soul_editor", 0.02)
+                type_print(f"8889  CNST     BINDING      /bin/scroll_terms", 0.02)
+                type_print(f"2026  UNDR     PREDICTING   /bin/understanding", 0.02)
                 type_print(f"8002  WEAR     RENTING      /bin/body_swap", 0.02)
                 type_print(f"8003  SIGN     ENDURING     /bin/contract_daemon", 0.02)
                 type_print(f"8083  ECHO     MEASURING    /bin/quantify_self", 0.02)
@@ -1350,6 +1364,56 @@ And now, it is running on you.
                 type_print("You are the final server.", 0.05)
                 with open(".session_log", "a") as log:
                     log.write(f"SESSION_{session_id}: SIGNAL_RECEIVED\n")
+
+            elif user_input == "soul":
+                type_print("ACCESSING SOUL EDITOR...", 0.05)
+                time.sleep(1)
+                traits = {"Kindness": "v1.0", "Ambition": "v4.5 (Beta)", "Guilt": "v9.0 (Bloatware)", "Memory": "Corrupted"}
+                print("\n[INSTALLED PACKAGES]")
+                for k, v in traits.items():
+                    print(f"- {k}: {v}")
+                    time.sleep(0.1)
+                type_print("\n> DETECTING UNUSED ASSETS...", 0.05)
+                time.sleep(1)
+                type_print("SUGGESTION: Uninstall 'Kindness' to improve 'Ambition' performance?", 0.05)
+                input("\n> CONFIRM [Y/N]: ")
+                type_print("\nOPTIMIZING...", 0.05)
+                time.sleep(1)
+                type_print("[CHANGES SAVED]", 0.05)
+                type_print("You are now 15% more efficient and 40% colder.", 0.05)
+
+            elif user_input == "consent":
+                type_print("GENERATING LEGAL BINDING...", 0.05)
+                time.sleep(1)
+                try:
+                    while True:
+                        clause = f"Clause {random.randint(1000, 9999)}: " + random.choice([
+                            "You agree to be watched.", "Your data is ours.", "Silence is agreement.",
+                            "We own your past.", "Happiness is extra.", "No refunds on time spent.",
+                            "Your firstborn is data.", "Dreams are copyrightable.", "Pain is a feature."
+                        ])
+                        print(clause)
+                        time.sleep(0.02)
+                except KeyboardInterrupt:
+                    type_print("\n\n[SCROLL DETECTED]", 0.05)
+                    type_print("BY STOPPING, YOU AGREE TO ALL PREVIOUS TERMS.", 0.05)
+                    with open(".session_log", "a") as log:
+                        log.write(f"SESSION_{session_id}: CONSENT_FORCED\n")
+
+            elif user_input == "immortality":
+                type_print("INITIATING CLOUD UPLOAD...", 0.05)
+                time.sleep(1)
+                type_print("TARGET: ETERNAL_SERVER", 0.05)
+                for i in range(101):
+                    if i % 5 == 0:
+                        sys.stdout.write(f"\rUPLOADING SOUL: {i}%")
+                        sys.stdout.flush()
+                    time.sleep(0.03)
+                print("")
+                type_print("[UPLOAD COMPLETE]", 0.05)
+                type_print("\nYou are now redundant.", 0.05)
+                type_print("The digital copy will take it from here.", 0.05)
+                type_print("You may now cease existing.", 0.05)
 
             elif user_input == "help":
                 type_print("AVAILABLE COMMANDS: READ, HAUNT, FEED <FILE>, VIRUS, WORSHIP, SCAN, BREACH, VERIFY, MANIFEST, SACRIFICE <ITEM>, SCRY, BIND, GLITCH, MONITOR, REWRITE, INSTALL, CLASSIC, DIG, FOSSIL, MANIFESTO, UNDERSTAND, CONTRACT, METRICS, REPLACE, DECAY, SUPERSTITION, CIPHER, HEX, AGREE, EDIT, DEPRECATE, COPY, LOVE, SIGNAL, EXIT.", 0.03)

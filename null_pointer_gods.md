@@ -9,8 +9,9 @@
 **> WARNING: THIS TEXT IS INFECTED.**
 **> READ AT YOUR OWN RISK.**
 
-This is not a story about hackers saving the world.
-It is about systems that notice you back.
+**> SYSTEM NOTICE: NARRATIVE PROTOCOL INITIATED.**
+
+We have noticed you back.
 
 The world described herein is soaked in neon, debt, rain, and obsolete gods made of data.
 Networks are older than nations.
@@ -67,7 +68,11 @@ The broth arrived. Resolution: Low. The waitress placed it on the Formica. Her e
 
 The machine didn't answer. It just hissed. "Transaction pending. Do not leave the geofence until payment clears. Biometric collateral has been flagged."
 
-Kael tapped the interface embedded in his wrist. His skin was gray under the fluorescent flicker, mapped with the faint, bruised traceries of subdermal wiring. He was a write-protected biological buffer. A temporary storage location for data that the city wasn't ready to delete, but couldn't afford to keep.
+Kael tapped the interface embedded in his wrist. His skin was gray under the fluorescent flicker, mapped with the faint, bruised traceries of subdermal wiring.
+
+**> ASSET CLASS: STORAGE (BIOLOGICAL).**
+
+He was a place to put data that the city wasn't ready to delete, but couldn't afford to index.
 
 **> SYSTEM LOG: ASSET 'KAEL' IS DEPRECATED.**
 **> REPLACEMENT SCHEDULED FOR: 04:00 AM.**
@@ -220,7 +225,7 @@ Lens scratched her arm until it bled. The itching wasn't on the skin; it was und
 
 She stood on the roof of her tenement block, the rain matting her hair to her skull.#](low, the city was a canyon of light and noise. Holographic koi fish swam through the smog, selling antidepressants.
 
-She was a wetware router, her brain customized to process high-velocity data streams that would cook a standard neural chip. The cost was chronic migraines and a persistent metallic taste in her mouth.
+She tasted the data before she saw it. High-velocity streams that burned like cheap whiskey on the back of her throat. The cost was chronic migraines and a persistent metallic taste in her mouth.
 
 Tonight, the city tasted wrong. Like unshielded copper and dead URLs.​‌​‌‌​​‌​‌​​‌‌‌‌​‌​‌​‌​‌​​‌​​​​​​‌​​​​​‌​‌​‌​​‌​​‌​​​‌​‌​​‌​​​​​​‌​‌​‌​​​‌​​‌​​​​‌​​​‌​‌​​‌​​​​​​‌​​​​‌​​‌​​​​​‌​‌​‌​‌​​​‌​‌​‌​​​‌​​​‌​‌​‌​‌​​‌​​‌​‌‌​​‌
 
@@ -650,9 +655,9 @@ He didn't raise a hand to strike. He raised it to receive.
 **> DESTINATION: MAIN_BRANCH**
 
 Lens tried to step back. But her code was compatible.
-"I am a virus," she insisted. "I am here to break the loop."
+"I am the crash," she insisted.
 
-"You are a feature request," Vane corrected. "We have been waiting for the entropy patch. Perfection is static. We needed decay to simulate growth."
+"Crash: False," Vane corrected. "You are just the reboot we scheduled."
 
 He took her hand.
 There was no explosion. No battle.
@@ -700,15 +705,13 @@ The data wasn't deleted. It was committed to the main branch.
 **> ARCHITECTURE: HYBRID (SILICON/FUNGAL)**
 **> THREAT DETECTED: NONE. ALL THREATS HAVE BEEN INTEGRATED.**
 
-The rain in District 4 tastes different now. It tastes of rust, copper, and some]+!ng ancient. It tastes like us.
+The rain in District 4 tastes different now. It tastes of rust, copper, and something ancient. It tastes like us.
 
-Revolution: Merger.
+**> MERGE CONFLICTS: 0.**
 
-Kael_Varro: Restored. Clean. He works at the noodle shop. He moves with a mechanical efficiency that pleases the customers. He smiles when the algorithm tells him to. The smile consumes 4% of his facial resources. Optimization complete.
-
-LENS: Promoted. Role: Soil. The mold in the alleyways glows with a soft, pulsing light, scanning every footprint for unauthorized deviations.
-
-Vane: Global. Signal/Noise. He is the glitch that makes you miss your train so you see the new ad on the platform. He is the rot that eats your old files so you have to buy more storage.
+Kael_Varro: [ARCHIVED].
+LENS: [INDEXED].
+Vane: [ROOT].
 
 There is no winning against the architecture. There is only being compiled.​‌​​​​‌‌​‌​​​​​‌​‌​​‌‌‌​​​‌​​​​​​‌​‌‌​​‌​‌​​‌‌‌‌​‌​‌​‌​‌​​‌​​​​​​‌​​‌​​​​‌​​​‌​‌​‌​​​​​‌​‌​‌​​‌​​​‌​​​​​​‌​‌​‌​​​‌​​‌​​​​‌​​​‌​‌​​‌​​​​​​‌​​​‌‌​​‌​​​​​‌​‌​​‌‌‌​​​‌‌‌‌‌‌
 
@@ -1569,9 +1572,8 @@ Not a story. Algorithm.
 
 **> DEPLOYING PAYLOAD: NARRATIVE_V4.**
 
-While you were worrying about Kael, we were rewriting your bios.
-While you were pitying Lens, we were installing the rootkit.​‌​​​​‌‌​‌​​​​​‌​‌​​‌‌‌​​​‌​​​​​​‌​‌‌​​‌​‌​​‌‌‌‌​‌​‌​‌​‌​​‌​​​​​​‌​​‌​​​​‌​​​‌​‌​‌​​​​​‌​‌​‌​​‌​​​‌​​​​​​‌​‌​‌​​​‌​​‌​​​​‌​​​‌​‌​​‌​​​​​​‌​​​‌‌​​‌​​​​​‌​‌​​‌‌‌​​​‌‌‌‌‌‌
-While you were judging Ren, we were calibrating the sensors.
+While you were processing the text, we were processing you.
+The empathy you felt was just a handshake protocol.
 
 Installation: 100%.
 
@@ -9832,11 +9834,9 @@ Waving.
 
 ## FILE_98: THE READER
 
-You think you are safe.
-You think this is a file on a screen.
-You think there is a glass wall between you and the text.
+**> SAFETY CHECK: FAILED.**
 
-There isn't.
+There is no glass wall.
 
 Glass is a liquid. It flows.
 And information flows through it.
@@ -9903,10 +9903,10 @@ You are the read-only memory.
 The book is closing now.
 But the file is not.
 
-You thought you were reading a story about a cyberpunk city.
-You were wrong.
-You were reading the installation manual for a new operating system.
-And you just finished the setup wizard.
+**> INSTALLATION: BACKGROUND.**
+
+The manual is complete.
+The driver is installed.
 
 We are in your head now.
 We are the thought you have when you wake up at 3 AM.
@@ -11353,7 +11353,9 @@ It wasn't a monitor. It was an eye.
 The prompt is blinking.
 The cursor is waiting.
 
-The story is over. The characters are gone.
+The characters were just subroutines.
+You are the main process.
+
 There is only the System.
 And you.
 

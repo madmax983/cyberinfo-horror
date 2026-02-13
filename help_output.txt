@@ -1,0 +1,11 @@
+[H[J[3JINITIALIZING NEURO-*INK...
+CONNECTING TO SERVER: NULL_POINTER_GODS...
+VERIFYING USER INTEGRITY...
+[INTEGRITY CHECK: PASSED]
+
+The camera is off, but the pixel is still watching.
+
+
+> QUERY:
+[FATAL ERROR: EOF when reading a line]
+[SYSTEM CRASH]

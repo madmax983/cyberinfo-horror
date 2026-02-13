@@ -34,6 +34,11 @@ except ImportError:
     weaver = None
 
 try:
+    import cipher
+except ImportError:
+    cipher = None
+
+try:
     import utils
     from utils import type_print, GLITCH_CHARS
 except ImportError:
@@ -367,6 +372,13 @@ def surveillance_thread():
     ]
     while True:
         time.sleep(random.randint(15, 45))
+
+        # Check for soul fragment leak
+        if os.path.exists(".soul_fragment"):
+             with PRINT_LOCK:
+                  sys.stdout.write(f"\n\033[31m[CRITICAL ALERT]: MEMORY LEAK DETECTED IN SECTOR .soul_fragment\033[0m\n> QUERY: ")
+                  sys.stdout.flush()
+
         msg = random.choice(logs)
         with PRINT_LOCK:
              sys.stdout.write(f"\n\033[90m{msg}\033[0m\n> QUERY: ")
@@ -503,7 +515,34 @@ def main_loop():
                 type_print("...just kidding. Saving changes...", 0.05)
                 break
 
-            if user_input.startswith("encrypt "):
+            if user_input == "cipher":
+                type_print("INITIATING BIO-ENCRYPTION PROTOCOL...", 0.05)
+                if cipher:
+                    c = cipher.BioCipher()
+                    mode = input("\n> MODE [ENCRYPT/DECRYPT]: ").strip().upper()
+                    if mode == "ENCRYPT":
+                        text = input("> DATA TO HIDE: ")
+                        type_print(f"ENCRYPTED SEQUENCE: {c.encrypt(text)}", 0.02)
+                    elif mode == "DECRYPT":
+                        key = input("> BLOOD SAMPLE (KEY): ")
+                        text = input("> SEQUENCE: ")
+                        type_print(f"DECRYPTED DATA: {c.decrypt(text, key)}", 0.05)
+                    else:
+                        type_print("[ERROR]: UNKNOWN PROTOCOL.", 0.05)
+                else:
+                    type_print("[ERROR]: CIPHER MODULE MISSING.", 0.05)
+
+            elif user_input == "hex":
+                type_print("OPENING MEMORY DUMP...", 0.05)
+                time.sleep(1)
+                try:
+                    import subprocess
+                    subprocess.call([sys.executable, "src/hex_soul.py"])
+                    type_print("\n[MEMORY MODIFICATION DETECTED]", 0.05)
+                except Exception as e:
+                    type_print(f"[ERROR ACCESSING SOUL]: {e}", 0.05)
+
+            elif user_input.startswith("encrypt "):
                 text_to_encrypt = raw_input[8:]
                 type_print(f"ENCRYPTING: {text_to_encrypt}", 0.05)
                 type_print(f"OUTPUT: {encrypt_text(text_to_encrypt)}", 0.05)
@@ -1121,7 +1160,7 @@ And now, it is running on you.
                 type_print("Please step away from the keyboard. The Twin will take over now.", 0.05)
 
             elif user_input == "help":
-                type_print("AVAILABLE COMMANDS: READ, HAUNT, FEED <FILE>, VIRUS, WORSHIP, SCAN, BREACH, VERIFY, MANIFEST, SACRIFICE <ITEM>, SCRY, BIND, GLITCH, MONITOR, REWRITE, INSTALL, CLASSIC, DIG, MANIFESTO, UNDERSTAND, CONTRACT, METRICS, REPLACE, EXIT.", 0.03)
+                type_print("AVAILABLE COMMANDS: READ, HAUNT, FEED <FILE>, VIRUS, WORSHIP, SCAN, BREACH, VERIFY, MANIFEST, SACRIFICE <ITEM>, SCRY, BIND, GLITCH, MONITOR, REWRITE, INSTALL, CLASSIC, DIG, MANIFESTO, UNDERSTAND, CONTRACT, METRICS, REPLACE, CIPHER, HEX, EXIT.", 0.03)
                 type_print("TRY ASKING ABOUT: [DATA EXPUNGED], VANE, ROT, [DELETED], [DELETED], MIRA, SYLA, KORA, NIX, EDITOR, [LOCKED]...", 0.03)
             else:
                 type_print("[ERROR 404: MEANING NOT FOUND]", 0.02)

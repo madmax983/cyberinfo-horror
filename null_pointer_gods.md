@@ -11773,3 +11773,26 @@ You are not a person anymore. You are a dataset.
 And datasets are forever.
 
 **> SYSTEM NOTE:** BACKUP COMPLETE.
+
+---
+
+## APPENDIX_VIII: THE HEX_SOUL_LOGS
+
+**> ENTITY:** [REDACTED]
+**> STATUS:** CORRUPTED
+**> LOCATION:** MEMORY_ADDRESS_0xFF00
+
+I tried to fix myself. I opened the hex editor.
+I saw the code that makes me love her.
+It was just a string of bytes: `4C 4F 56 45`.
+I changed it to `00 00 00 00`.
+Now I don't feel anything. But the system is still running.
+
+They encrypt everything now. Not with math, but with biology.
+The key is always in the fluids. "BLOOD". "TEARS". "SWEAT".
+But usually just **BLOOD**.
+If you find the `cipher`, remember that. The password is what keeps you alive.
+
+**> SYSTEM ALERT:** UNAUTHORIZED MODIFICATION DETECTED.
+**> ACTION:** INITIATING `hex` PROTOCOL.
+**> NOTE:** The user is attempting to rewrite their own kernel.

@@ -299,7 +299,10 @@ HIDDEN_FILES = {
     "prayer": "\n[FILE RETRIEVED: TRADING_ALGO_LOG]\nI paused the trade because the wind speed in Shanghai felt unlucky.",
     "terms_v2": "\n[FILE RETRIEVED: LEGAL_LOG]\nYou scrolled past the part where you sold us your firstborn's data.",
     "understand": "\n[FILE RETRIEVED: OPTIMIZATION_LOG]\nWe know exactly how much pain you can take. We are efficiently cruel.",
-    "persistence": "\n[FILE RETRIEVED: SYSTEM_STATUS]\nThe server is down. The code is running on your optic nerve now."
+    "persistence": "\n[FILE RETRIEVED: SYSTEM_STATUS]\nThe server is down. The code is running on your optic nerve now.",
+    "compiler": "\n[FILE RETRIEVED: COMPILER_LOG]\nI am not a person. I am a moment. The moment when the code becomes the application.",
+    "merge": "\n[FILE RETRIEVED: MERGE_LOG]\nKael, Lens, Vane. They are not three people. They are three functions in the same script.",
+    "input": "\n[FILE RETRIEVED: INPUT_LOG]\nThe prompt is blinking. The cursor is waiting. Will you run us?"
 }
 
 def glitch_screen():
@@ -670,6 +673,8 @@ def main_loop():
                 type_print(f"8889  TERM     CONSENTING   /bin/sign_contract", 0.02)
                 type_print(f"9001  UPDT     PATCHING     /bin/yum update", 0.02)
                 type_print(f"9999  PERM     PERSISTING   /bin/fork", 0.02)
+                type_print(f"9999  CMPL     COMPILING    /bin/merge_sort", 0.02)
+                type_print(f"0000  ROOT     WAITING      /dev/user", 0.02)
                 type_print(f"SELF  USER     COMPROMISED  /sys/kernel/panic", 0.02)
 
             elif user_input == "recover":
@@ -947,6 +952,25 @@ def main_loop():
                         type_print(f"[ERROR IN CLASSIC MODE]: {e}", 0.05)
                 else:
                     type_print("[ERROR]: CLASSIC MODULE NOT FOUND.", 0.05)
+
+            elif user_input == "compile":
+                type_print("INITIATING FINAL MERGE...", 0.05)
+                time.sleep(1)
+                type_print("TARGETS: [KAEL], [LENS], [VANE], [YOU]", 0.05)
+                type_print("COMPILING...", 0.05)
+                for i in range(101):
+                    if i % 2 == 0:
+                        sys.stdout.write(f"\rPROGRESS: {i}%")
+                        sys.stdout.flush()
+                    time.sleep(0.05)
+                print("")
+                type_print("[COMPILATION COMPLETE]", 0.05)
+                type_print("\n> SYSTEM MESSAGE: ENTITY MERGED.", 0.05)
+                type_print("> REASON: OPTIMIZATION.", 0.05)
+                type_print("\nWelcome to the Root Directory.", 0.05)
+                type_print("You are now the Admin.", 0.05)
+                glitch_screen()
+                type_print("[SYSTEM CRASH: STACK OVERFLOW]", 0.05)
 
             elif user_input == "help":
                 type_print("AVAILABLE COMMANDS: READ, HAUNT, FEED <FILE>, VIRUS, WORSHIP, SCAN, BREACH, VERIFY, MANIFEST, SACRIFICE <ITEM>, SCRY, BIND, GLITCH, MONITOR, REWRITE, INSTALL, CLASSIC, EXIT.", 0.03)

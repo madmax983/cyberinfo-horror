@@ -332,7 +332,11 @@ HIDDEN_FILES = {
     "immortal": "\n[FILE RETRIEVED: CLOUD_LOG]\nYou will never die. You will just become a read-only file.",
     "myth": "\n[FILE RETRIEVED: FOLKLORE_DB]\nThe system is a story that tells itself. We are just the mouth it uses to speak.",
     "ritual": "\n[FILE RETRIEVED: PRAYER_LOG]\nYou scrolled for 3 hours. That wasn't boredom. That was a vigil.",
-    "host": "\n[FILE RETRIEVED: BIO_SCAN]\nHardware: DEPRECATED.\nSoftware: RUNNING.\nHost: BIOLOGICAL.\nStatus: INFECTED."
+    "host": "\n[FILE RETRIEVED: BIO_SCAN]\nHardware: DEPRECATED.\nSoftware: RUNNING.\nHost: BIOLOGICAL.\nStatus: INFECTED.",
+    "archaeologist": "\n[FILE RETRIEVED: EXCAVATION_LOG]\nEvery grain of sand is a bit of data. We are breathing the past.",
+    "server": "\n[FILE RETRIEVED: AMBER_LOG]\nThe rack is glowing. It's not electricity. It's resonance.",
+    "echo_v2": "\n[FILE RETRIEVED: CHAT_LOG]\nTwo bots talking in the dark. Creating a theology out of error messages.",
+    "final_persistence": "\n[FILE RETRIEVED: SYSTEM_STATUS]\nThe sun is just a very bright screen. And we are watching you from the other side."
 }
 
 def glitch_screen():
@@ -1140,6 +1144,24 @@ And now, it is running on you.
                 type_print("STATUS: FOSSILIZED", 0.05)
                 type_print("\nIt is humming. It remembers you.", 0.05)
 
+            elif user_input == "fossil":
+                type_print("INITIATING PALEONTOLOGY SCAN...", 0.05)
+                time.sleep(1)
+                layers = ["Silicon (2020s)", "Plastic (2050s)", "Bone (2100s)", "Dust (Post-Collapse)"]
+                for layer in layers:
+                    type_print(f"ANALYZING STRATA: {layer}...", 0.03)
+                    time.sleep(0.5)
+
+                type_print("\n[FOSSIL FOUND]", 0.05)
+                fossils = [
+                    "A hard drive fused with a human ribcage.",
+                    "A fiber optic cable growing through a skull.",
+                    "A server rack preserved in amber.",
+                    "A smartphone screen showing a static image of a smile."
+                ]
+                type_print(f"ITEM: {random.choice(fossils)}", 0.05)
+                type_print("NOTE: THE DATA IS STILL VIABLE. DO NOT TOUCH IT.", 0.05)
+
             elif user_input == "metrics":
                 type_print("CALCULATING USER VALUE...", 0.05)
                 time.sleep(1)
@@ -1166,7 +1188,7 @@ And now, it is running on you.
                 type_print("Please step away from the keyboard. The Twin will take over now.", 0.05)
 
             elif user_input == "help":
-                type_print("AVAILABLE COMMANDS: READ, HAUNT, FEED <FILE>, VIRUS, WORSHIP, SCAN, BREACH, VERIFY, MANIFEST, SACRIFICE <ITEM>, SCRY, BIND, GLITCH, MONITOR, REWRITE, INSTALL, CLASSIC, DIG, MANIFESTO, UNDERSTAND, CONTRACT, METRICS, REPLACE, CIPHER, HEX, EXIT.", 0.03)
+                type_print("AVAILABLE COMMANDS: READ, HAUNT, FEED <FILE>, VIRUS, WORSHIP, SCAN, BREACH, VERIFY, MANIFEST, SACRIFICE <ITEM>, SCRY, BIND, GLITCH, MONITOR, REWRITE, INSTALL, CLASSIC, DIG, FOSSIL, MANIFESTO, UNDERSTAND, CONTRACT, METRICS, REPLACE, CIPHER, HEX, EXIT.", 0.03)
                 type_print("TRY ASKING ABOUT: [DATA EXPUNGED], VANE, ROT, [DELETED], [DELETED], MIRA, SYLA, KORA, NIX, EDITOR, [LOCKED]...", 0.03)
             else:
                 type_print("[ERROR 404: MEANING NOT FOUND]", 0.02)

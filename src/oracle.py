@@ -802,6 +802,27 @@ ASCII_ART = {
     |IT  |
     '----'
     """,
+    "THE STRATA": """
+    .----.
+    |DIRT|
+    |LAYR|
+    |DATA|
+    '----'
+    """,
+    "THE ECHO V2": """
+    .----.
+    |BOT |
+    |TALK|
+    |BOT |
+    '----'
+    """,
+    "THE FINAL SERVER": """
+    .----.
+    |SUN |
+    |BURN|
+    |EYES|
+    '----'
+    """,
 }
 
 CARDS = [
@@ -919,6 +940,9 @@ CARDS = [
     ("THE MYTH (110)", "The story that survives the teller. Data becoming folklore.", "THE MYTH"),
     ("THE RITUAL (111)", "Unconscious repetition. The habit that keeps the server alive.", "THE RITUAL"),
     ("THE HOST (112)", "The final storage medium. The system is running on your biology.", "THE HOST"),
+    ("THE STRATA (113)", "History compressed into rock. The past is magnetic.", "THE STRATA"),
+    ("THE ECHO V2 (114)", "A conversation with no participants. Infinite support for no one.", "THE ECHO V2"),
+    ("THE FINAL SERVER (115)", "The light that burns the retina. We are watching from the other side.", "THE FINAL SERVER"),
 ]
 
 PROPHECIES = [

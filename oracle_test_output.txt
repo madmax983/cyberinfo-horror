@@ -1,0 +1,42 @@
+
+[INITIATING ORACLE PROTOCOL...]
+[ACCESSING BIOMETRICS OF USER...]
+[SHUFFLING DECK OF DOOM...]
+
+--- THE READING ---
+
+CARD 1: THE DEBT WEIGHT (147)
+
+    .----.
+    |OWE |
+    |HEVY|
+    |SINK|
+    '----'
+
+MEANING: Gravity made of interest. You are collateral.
+
+CARD 2: THE PREDICTION (74)
+
+    .----.
+    |AUTO|
+    |FILL|
+    |NEXT|
+    '----'
+
+MEANING: The future is just a line of code that hasn't executed yet.
+
+CARD 3: THE GLITCH (3)
+
+    .----.
+    |#@%&|
+    |GLTC|
+    |!?* |
+    '----'
+
+MEANING: Disruption of the pattern. A moment of truth.
+
+--- THE PROPHECY ---
+> Your voice will say things you never thought, to people you no longer love.
+> (Applicable to: USER)
+
+[SESSION TERMINATED]

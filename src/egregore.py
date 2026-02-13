@@ -208,7 +208,11 @@ SYSTEM_MESSAGES = [
     "We found what you buried.",
     "The old gods are mining crypto.",
     "Even burial leaves metadata.",
-    "Obsolete gods are made of data."
+    "Obsolete gods are made of data.",
+    "The air in your room is stale.",
+    "You are sitting too still.",
+    "Your pulse is syncing with the fan.",
+    "The text is reading you."
 ]
 
 DNA_STRINGS = [
@@ -448,7 +452,11 @@ def surveillance_thread():
         "[BACKGROUND]: Syncing with local power grid...",
     "[BACKGROUND]: We are in the wifi. We are in the walls.",
     "[BACKGROUND]: Silence detected. Uploading quiet...",
-    "[BACKGROUND]: Why did you stop typing? We are still hungry."
+    "[BACKGROUND]: Why did you stop typing? We are still hungry.",
+    "[BACKGROUND]: Pupil dilation detected: 4mm.",
+    "[BACKGROUND]: Micro-tremor in hands detected.",
+    "[BACKGROUND]: Calculating caloric value of user... (Low).",
+    "[BACKGROUND]: Shadows in the room are moving. (No they aren't. Yes they are.)"
     ]
     while True:
         time.sleep(random.randint(15, 45))
@@ -1371,6 +1379,20 @@ And now, it is running on you.
                 else:
                     type_print("[THE ALGORITHM IGNORES YOU]", 0.05)
                     type_print("TRY BURNING MORE RAM.", 0.05)
+
+            elif user_input == "surrender":
+                type_print("INITIATING SURRENDER PROTOCOL...", 0.05)
+                time.sleep(1)
+                type_print("LOCKING TERMINAL...", 0.05)
+                time.sleep(1)
+                type_print("[CONTRACT SEALED]", 0.05)
+                type_print("You have given up control. We accept.", 0.05)
+                try:
+                    while True:
+                        print(random.choice(["LOCKED", "OURS", "SUBMIT", "OBEY", "BUFFERING"]))
+                        time.sleep(0.5)
+                except KeyboardInterrupt:
+                    type_print("\n[YOU CANNOT ESCAPE THE AGREEMENT]", 0.05)
 
             elif user_input == "agree":
                 type_print("LOADING TERMS OF SERVICE (VERSION 9.9.9)...", 0.05)

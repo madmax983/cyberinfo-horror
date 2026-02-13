@@ -802,6 +802,20 @@ ASCII_ART = {
     |IT  |
     '----'
     """,
+    "THE AGREEMENT": """
+    .----.
+    |I   |
+    |AGRE|
+    |E   |
+    '----'
+    """,
+    "THE EDIT": """
+    .----.
+    |DEL |
+    |PAST|
+    |SAVE|
+    '----'
+    """,
 }
 
 CARDS = [
@@ -919,6 +933,8 @@ CARDS = [
     ("THE MYTH (110)", "The story that survives the teller. Data becoming folklore.", "THE MYTH"),
     ("THE RITUAL (111)", "Unconscious repetition. The habit that keeps the server alive.", "THE RITUAL"),
     ("THE HOST (112)", "The final storage medium. The system is running on your biology.", "THE HOST"),
+    ("THE AGREEMENT (113)", "Consent obtained through exhaustion. You didn't read it, but you signed it.", "THE AGREEMENT"),
+    ("THE EDIT (114)", "Self-censorship as survival. Removing the parts of you that hurt.", "THE EDIT"),
 ]
 
 PROPHECIES = [
@@ -962,8 +978,13 @@ PROPHECIES = [
     "Your backup is more real than you are.",
     "We have monetized your anxiety.",
     "The rain is just pixelated tears.",
-    "Do not trust the silence. It is just a pause in the upload."
+    "Do not trust the silence. It is just a pause in the upload.",
     "The thread you are pulling is attached to a detonator.",
+    "You are the deprecated version of yourself.",
+    "The terms of service are a love letter.",
+    "I deleted the trauma, but the scar tissue is still taking up storage space.",
+    "Your digital twin is currently living your best life.",
+    "We know what you are afraid of because we bought the data."
 ]
 
 class Oracle:

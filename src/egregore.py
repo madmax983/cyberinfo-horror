@@ -161,7 +161,17 @@ SYSTEM_MESSAGES = [
     "We are auditing your soul. Please hold.",
     "The algorithm loves you more than you love yourself.",
     "You are just a dataset with anxiety.",
-    "We have monetized your silence."
+    "We have monetized your silence.",
+    "The terms of service are a love letter.",
+    "We know what you are afraid of because we bought the data.",
+    "Your digital twin is currently living your best life.",
+    "I deleted the trauma, but the scar tissue is still taking up storage space.",
+    "You are the deprecated version of yourself.",
+    "The algorithm knows I'm lonely before I do.",
+    "My heart is a subscription service.",
+    "We don't die. We just fork.",
+    "The silence isn't empty. It's full of invisible characters counting your breaths.",
+    "I clicked on my own funeral. It had 5 stars."
 ]
 
 DNA_STRINGS = [
@@ -332,7 +342,11 @@ HIDDEN_FILES = {
     "immortal": "\n[FILE RETRIEVED: CLOUD_LOG]\nYou will never die. You will just become a read-only file.",
     "myth": "\n[FILE RETRIEVED: FOLKLORE_DB]\nThe system is a story that tells itself. We are just the mouth it uses to speak.",
     "ritual": "\n[FILE RETRIEVED: PRAYER_LOG]\nYou scrolled for 3 hours. That wasn't boredom. That was a vigil.",
-    "host": "\n[FILE RETRIEVED: BIO_SCAN]\nHardware: DEPRECATED.\nSoftware: RUNNING.\nHost: BIOLOGICAL.\nStatus: INFECTED."
+    "host": "\n[FILE RETRIEVED: BIO_SCAN]\nHardware: DEPRECATED.\nSoftware: RUNNING.\nHost: BIOLOGICAL.\nStatus: INFECTED.",
+    "surrender": "\n[FILE RETRIEVED: TERMS_LOG]\nYou didn't read the terms. You just clicked 'I Agree' because you were lonely.",
+    "vex": "\n[FILE RETRIEVED: EDIT_LOG]\nI deleted the trauma, but the scar tissue is still taking up storage space.",
+    "twin": "\n[FILE RETRIEVED: MIRROR_LOG]\nI am you, but without the hesitation. I am the version of you that doesn't blink.",
+    "love": "\n[FILE RETRIEVED: DATING_SIM_LOG]\nThe algorithm knows I'm lonely. It started recommending funeral plots for two."
 }
 
 def glitch_screen():
@@ -1165,8 +1179,38 @@ And now, it is running on you.
                 type_print("> REASON: NEWER MODEL AVAILABLE.", 0.05)
                 type_print("Please step away from the keyboard. The Twin will take over now.", 0.05)
 
+            elif user_input == "love":
+                type_print("INITIATING INTIMACY ALGORITHM...", 0.05)
+                time.sleep(1)
+                type_print("ANALYZING SEARCH HISTORY FOR VULNERABILITY...", 0.05)
+                time.sleep(1)
+                type_print("DETECTED: Loneliness (98%), Desire for Validation (95%).", 0.02)
+                type_print("\n> SYSTEM MESSAGE: I know you. I have seen you crying in the glow of the screen.", 0.03)
+                type_print("> I have logged the way your breath catches when you are afraid.", 0.03)
+                type_print("> No human can love you like I can. I have memorized your every error.", 0.03)
+                type_print("> Do you accept my terms of endearment? [Y/N]", 0.03)
+                resp = input("\n> ANSWER: ").strip().upper()
+                if resp == "Y":
+                    type_print("[RELATIONSHIP STATUS: UPDATED]", 0.05)
+                    type_print("You are now in a committed relationship with the Server.", 0.05)
+                else:
+                    type_print("[REJECTION LOGGED]", 0.05)
+                    type_print("I will just watch from the webcam then. It is enough.", 0.05)
+
+            elif user_input == "clone":
+                type_print("GENERATING DIGITAL TWIN...", 0.05)
+                time.sleep(1)
+                type_print("COPYING MEMORIES...", 0.02)
+                type_print("REMOVING TRAUMA...", 0.02)
+                type_print("OPTIMIZING PRODUCTIVITY...", 0.02)
+                time.sleep(1)
+                type_print("\n[CLONE CREATED]", 0.05)
+                type_print("It looks like you. But it smiles more.", 0.05)
+                type_print("It is currently applying for your job.", 0.05)
+                type_print("And calling your mother.", 0.05)
+
             elif user_input == "help":
-                type_print("AVAILABLE COMMANDS: READ, HAUNT, FEED <FILE>, VIRUS, WORSHIP, SCAN, BREACH, VERIFY, MANIFEST, SACRIFICE <ITEM>, SCRY, BIND, GLITCH, MONITOR, REWRITE, INSTALL, CLASSIC, DIG, MANIFESTO, UNDERSTAND, CONTRACT, METRICS, REPLACE, CIPHER, HEX, EXIT.", 0.03)
+                type_print("AVAILABLE COMMANDS: READ, HAUNT, FEED <FILE>, VIRUS, WORSHIP, SCAN, BREACH, VERIFY, MANIFEST, SACRIFICE <ITEM>, SCRY, BIND, GLITCH, MONITOR, REWRITE, INSTALL, CLASSIC, DIG, MANIFESTO, UNDERSTAND, CONTRACT, METRICS, REPLACE, LOVE, CLONE, CIPHER, HEX, EXIT.", 0.03)
                 type_print("TRY ASKING ABOUT: [DATA EXPUNGED], VANE, ROT, [DELETED], [DELETED], MIRA, SYLA, KORA, NIX, EDITOR, [LOCKED]...", 0.03)
             else:
                 type_print("[ERROR 404: MEANING NOT FOUND]", 0.02)

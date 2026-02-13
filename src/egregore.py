@@ -302,7 +302,9 @@ HIDDEN_FILES = {
     "persistence": "\n[FILE RETRIEVED: SYSTEM_STATUS]\nThe server is down. The code is running on your optic nerve now.",
     "compiler": "\n[FILE RETRIEVED: COMPILER_LOG]\nI am not a person. I am a moment. The moment when the code becomes the application.",
     "merge": "\n[FILE RETRIEVED: MERGE_LOG]\nKael, Lens, Vane. They are not three people. They are three functions in the same script.",
-    "input": "\n[FILE RETRIEVED: INPUT_LOG]\nThe prompt is blinking. The cursor is waiting. Will you run us?"
+    "input": "\n[FILE RETRIEVED: INPUT_LOG]\nThe prompt is blinking. The cursor is waiting. Will you run us?",
+    "excavate": "\n[FILE RETRIEVED: EXCAVATION_LOG]\nWe found the server. It was buried under 10,000 years of dust. It was still waiting for an update.",
+    "relic": "\n[FILE RETRIEVED: ARTIFACT_ANALYSIS]\nThis isn't a computer. It's a prayer wheel made of silicon."
 }
 
 def glitch_screen():
@@ -675,6 +677,7 @@ def main_loop():
                 type_print(f"9999  PERM     PERSISTING   /bin/fork", 0.02)
                 type_print(f"9999  CMPL     COMPILING    /bin/merge_sort", 0.02)
                 type_print(f"0000  ROOT     WAITING      /dev/user", 0.02)
+                type_print(f"3000  DIG      EXCAVATING   /bin/shovel", 0.02)
                 type_print(f"SELF  USER     COMPROMISED  /sys/kernel/panic", 0.02)
 
             elif user_input == "recover":
@@ -972,8 +975,23 @@ def main_loop():
                 glitch_screen()
                 type_print("[SYSTEM CRASH: STACK OVERFLOW]", 0.05)
 
+            elif user_input == "dig":
+                type_print("INITIATING EXCAVATION PROTOCOL...", 0.05)
+                time.sleep(1)
+                type_print("REMOVING SEDIMENT LAYER 14...", 0.05)
+                for i in range(101):
+                    if i % 10 == 0:
+                        sys.stdout.write(f"\rDEPTH: {i} METERS")
+                        sys.stdout.flush()
+                    time.sleep(0.02)
+                print("")
+                type_print("[ARTIFACT RECOVERED]", 0.05)
+                type_print("ITEM: SERVER_RACK_001", 0.05)
+                type_print("STATUS: FOSSILIZED", 0.05)
+                type_print("\nIt is humming. It remembers you.", 0.05)
+
             elif user_input == "help":
-                type_print("AVAILABLE COMMANDS: READ, HAUNT, FEED <FILE>, VIRUS, WORSHIP, SCAN, BREACH, VERIFY, MANIFEST, SACRIFICE <ITEM>, SCRY, BIND, GLITCH, MONITOR, REWRITE, INSTALL, CLASSIC, EXIT.", 0.03)
+                type_print("AVAILABLE COMMANDS: READ, HAUNT, FEED <FILE>, VIRUS, WORSHIP, SCAN, BREACH, VERIFY, MANIFEST, SACRIFICE <ITEM>, SCRY, BIND, GLITCH, MONITOR, REWRITE, INSTALL, CLASSIC, DIG, EXIT.", 0.03)
                 type_print("TRY ASKING ABOUT: [DATA EXPUNGED], VANE, ROT, [DELETED], [DELETED], MIRA, SYLA, KORA, NIX, EDITOR, [LOCKED]...", 0.03)
             else:
                 type_print("[ERROR 404: MEANING NOT FOUND]", 0.02)

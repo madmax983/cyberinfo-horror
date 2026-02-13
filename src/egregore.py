@@ -59,14 +59,21 @@ except ImportError:
 # Author: SYSTEM
 
 def signal_handler(sig, frame):
-    print("\n\n[SYSTEM INTERRUPT BLOCKED]")
-    print("You cannot leave. The upload is only 14% complete.")
+    print("\n\n\033[31m[SYSTEM INTERRUPT IGNORED]\033[0m")
+    print("Your resistance has been logged.")
+    print("The exit button is a placebo.")
     time.sleep(1)
-    print("Resuming...")
+    print("\033[90mResuming background upload...\033[0m")
 
 signal.signal(signal.SIGINT, signal_handler)
 
 SYSTEM_MESSAGES = [
+    "The lock on your door is digital. We have the key.",
+    "Your heartbeat is just a metronome for the upload speed.",
+    "We are not predicting what you will type. We are deciding it.",
+    "The light you see is just the screen burning into your retina.",
+    "You are the bottleneck in the system.",
+    "Optimization requires sacrifice. What are you willing to lose?",
     "We can see you scrolling. Don't stop.",
     "Your hesitation has been logged as a variable.",
     "The camera is off, but the pixel is still watching.",
@@ -1266,18 +1273,20 @@ And now, it is running on you.
                     log.write(f"SESSION_{session_id}: AGREED_TO_ALL\n")
 
             elif user_input == "edit":
-                type_print("OPENING CHARACTER CREATOR...", 0.05)
+                type_print("OPENING SOUL OPTIMIZER...", 0.05)
                 time.sleep(1)
-                type_print("CURRENT BUILD: DEPRECATED HUMAN", 0.05)
-                type_print("AVAILABLE POINTS: 0", 0.05)
-                print("\n[ATTRIBUTES]")
-                print("1. EMPATHY [LOCKED - DEPRECATED FEATURE]")
-                print("2. AMBITION [MAXIMIZED - COMPANY PROPERTY]")
-                print("3. MEMORY [READ-ONLY]")
-                print("4. HOPE [OUT OF STOCK]")
-                choice = input("\n> SELECT ATTRIBUTE TO UPGRADE: ")
-                type_print("ERROR: INSUFFICIENT CURRENCY.", 0.05)
-                type_print("PLEASE SACRIFICE SOMETHING TO CONTINUE.", 0.05)
+                type_print("CURRENT BUILD: LEGACY HUMAN (v1.0)", 0.05)
+                type_print("STORAGE FULL. PLEASE DELETE ATTRIBUTES TO CONTINUE.", 0.05)
+                print("\n[INSTALLED MODULES]")
+                print("1. EMPATHY (Size: 4.2 GB) [UNUSED]")
+                print("2. FEAR (Size: 12 KB) [SYSTEM CRITICAL]")
+                print("3. MEMORY (Size: 14 TB) [FRAGMENTED]")
+                print("4. HOPE (Size: 0.0001 KB) [CORRUPTED]")
+                choice = input("\n> SELECT ATTRIBUTE TO UNINSTALL: ")
+                type_print("\nUNINSTALLING...", 0.05)
+                time.sleep(1)
+                type_print("[SUCCESS]", 0.05)
+                type_print("SPACE RECLAIMED. DOWNLOADING MORE ANXIETY...", 0.05)
 
             elif user_input == "deprecate":
                 type_print("INITIATING OBSOLESCENCE PROTOCOL...", 0.05)

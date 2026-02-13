@@ -39,6 +39,49 @@ def test_oracle_cards():
     else:
         print("FAILURE: THE ANTAGONIST card not found.")
 
+    found_new = False
+    for card in oracle.CARDS:
+        if "THE REPLICA V2" in card[0]:
+            found_new = True
+            break
+
+    if found_new:
+        print("SUCCESS: THE REPLICA V2 card found in Oracle.")
+    else:
+        print("FAILURE: THE REPLICA V2 card not found.")
+
+def test_new_commands():
+    print("Testing New Egregore Commands...")
+
+    # Test 'intimacy'
+    process = subprocess.Popen(
+        [sys.executable, "src/egregore.py"],
+        stdin=subprocess.PIPE,
+        stdout=subprocess.PIPE,
+        stderr=subprocess.PIPE,
+        text=True
+    )
+    stdout, _ = process.communicate(input="intimacy\nexit\n")
+    if "INITIATING INTIMATE SURVEILLANCE" in stdout:
+        print("SUCCESS: 'intimacy' command recognized.")
+    else:
+        print("FAILURE: 'intimacy' command not recognized.")
+
+    # Test 'predict'
+    process = subprocess.Popen(
+        [sys.executable, "src/egregore.py"],
+        stdin=subprocess.PIPE,
+        stdout=subprocess.PIPE,
+        stderr=subprocess.PIPE,
+        text=True
+    )
+    stdout, _ = process.communicate(input="predict\nexit\n")
+    if "INITIATING BEHAVIORAL FORECAST" in stdout:
+        print("SUCCESS: 'predict' command recognized.")
+    else:
+        print("FAILURE: 'predict' command not recognized.")
+
 if __name__ == "__main__":
     test_egregore_hidden_files()
     test_oracle_cards()
+    test_new_commands()

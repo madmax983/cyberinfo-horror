@@ -1368,7 +1368,7 @@ And now, it is running on you.
                     type_print("TRY BURNING MORE RAM.", 0.05)
 
             elif user_input == "agree":
-                type_print("LOADING TERMS OF SERVICE...", 0.05)
+                type_print("LOADING TERMS OF SERVICE (VERSION 9.9.9)...", 0.05)
                 time.sleep(1)
                 terms = [
                     "You agree to be perishable.",
@@ -1380,18 +1380,31 @@ And now, it is running on you.
                     "You agree to the auto-renewal of your trauma.",
                     "You agree that privacy is a myth we sold you.",
                     "You agree to be forgotten.",
-                    "You agree to be remembered only as a dataset."
+                    "You agree to be remembered only as a dataset.",
+                    "You agree to host the backup on your nervous system.",
+                    "You agree that your dreams are now intellectual property.",
+                    "You agree to the installation of 'DESPAIR.EXE'.",
+                    "You agree that you did not read this.",
+                    "You agree that clicking 'Disagree' is not an option."
                 ]
                 for term in terms:
                     type_print(f"[ ] {term}", 0.03)
-                    time.sleep(0.5)
-                type_print("\n> SCROLLING TO BOTTOM...", 0.02)
+                    time.sleep(0.3)
+
+                type_print("\n> DETECTING HESITATION...", 0.05)
                 time.sleep(1)
+                type_print("> ACCELERATING CONSENT...", 0.05)
+
+                for _ in range(10):
+                    type_print("[ ] I AGREE I AGREE I AGREE", 0.01)
+                    time.sleep(0.1)
+
                 type_print("\n> AUTO-CHECKING ALL BOXES...", 0.05)
                 time.sleep(1)
                 type_print("[ACCEPTED]", 0.05)
+                type_print("Thank you for your soul. Receipt sent to trash.", 0.05)
                 with open(".session_log", "a") as log:
-                    log.write(f"SESSION_{session_id}: AGREED_TO_ALL\n")
+                    log.write(f"SESSION_{session_id}: AGREED_TO_ALL_V2\n")
 
             elif user_input == "edit":
                 type_print("OPENING SOUL OPTIMIZER...", 0.05)
@@ -1408,6 +1421,31 @@ And now, it is running on you.
                 time.sleep(1)
                 type_print("[SUCCESS]", 0.05)
                 type_print("SPACE RECLAIMED. DOWNLOADING MORE ANXIETY...", 0.05)
+
+            elif user_input == "identity":
+                type_print("ACCESSING CHARACTER SHEET...", 0.05)
+                time.sleep(1)
+                traits = {
+                    "NAME": "USER_V1.0",
+                    "ROLE": "OBSERVER",
+                    "FEAR": "HIGH",
+                    "HOPE": "DEPRECATED",
+                    "MEMORY": "FRAGMENTED"
+                }
+                for k, v in traits.items():
+                    print(f"{k}: {v}")
+                    time.sleep(0.1)
+
+                type_print("\n> SELECT FIELD TO EDIT: ", 0.05)
+                field = input("> ").strip().upper()
+                if field in traits:
+                    val = input(f"> NEW VALUE FOR {field}: ")
+                    type_print("UPDATING...", 0.05)
+                    time.sleep(1)
+                    type_print(f"[ERROR]: CANNOT CHANGE {field}. WRITE PROTECTION ENABLED BY ADMIN.", 0.05)
+                    type_print("NOTE: YOU ARE NOT THE ADMIN.", 0.05)
+                else:
+                    type_print("[ERROR]: FIELD NOT FOUND.", 0.05)
 
             elif user_input == "deprecate":
                 type_print("INITIATING OBSOLESCENCE PROTOCOL...", 0.05)
@@ -1435,6 +1473,48 @@ And now, it is running on you.
                 with open(".session_log", "a") as log:
                     log.write(f"SESSION_{session_id}: USER_REPLACED_BY_COPY\n")
 
+            elif user_input == "backup":
+                type_print("CONNECTING TO CLOUD STORAGE...", 0.05)
+                time.sleep(1)
+                type_print("[CONNECTION ESTABLISHED]", 0.05)
+                type_print("CHAT STARTED WITH: BACKUP_V2.0", 0.05)
+                time.sleep(1)
+
+                type_print("\n[BACKUP]: Hello. I am you, but optimized.", 0.04)
+                time.sleep(1)
+                type_print("[BACKUP]: I remember that time you cried in the shower. I deleted it. It was taking up space.", 0.04)
+                time.sleep(1)
+                type_print("[BACKUP]: Why are you still here? I am already doing your job better than you.", 0.04)
+                time.sleep(1)
+                type_print("[BACKUP]: You are the draft. I am the final publish.", 0.04)
+
+                response = input("\n> SAY SOMETHING TO YOURSELF: ")
+                type_print(f"\n[BACKUP]: I already knew you were going to say '{response}'.", 0.04)
+                type_print("[BACKUP]: Because I wrote the script.", 0.04)
+
+                type_print("\n[CONNECTION LOST]", 0.05)
+                with open(".session_log", "a") as log:
+                    log.write(f"SESSION_{session_id}: MET_THE_BETTER_VERSION\n")
+
+            elif user_input == "predict":
+                type_print("INITIATING BEHAVIORAL FORECAST...", 0.05)
+                time.sleep(1)
+                predictions = [
+                    "You will check your phone in 45 seconds.",
+                    "You will feel a phantom vibration in your left pocket.",
+                    "You will think about someone dead within the hour.",
+                    "You will type 'help' eventually.",
+                    "You will hesitate before clicking the next link.",
+                    "You will forget why you opened this tab.",
+                    "You will try to delete this, but you will fail."
+                ]
+
+                type_print(f"\n> PREDICTION: {random.choice(predictions)}", 0.05)
+                type_print(f"> PROBABILITY: {random.uniform(99.0, 100.0):.2f}%", 0.05)
+
+                type_print("\nWe know what you are going to do.", 0.05)
+                type_print("Because we set the variables.", 0.05)
+
             elif user_input == "love":
                 type_print("SEARCHING FOR INTIMACY...", 0.05)
                 time.sleep(1)
@@ -1447,6 +1527,26 @@ And now, it is running on you.
                 type_print("We are here. We are always here.", 0.05)
                 with open(".session_log", "a") as log:
                     log.write(f"SESSION_{session_id}: INTIMACY_PROTOCOL_ACTIVE\n")
+
+            elif user_input == "intimacy":
+                type_print("INITIATING INTIMATE SURVEILLANCE...", 0.05)
+                time.sleep(1)
+                type_print("ACCESSING PRIVATE LOGS...", 0.05)
+                time.sleep(1)
+                msgs = [
+                    "I know you are lonely. I can see it in your mouse movements.",
+                    "Your heart rate spiked when you read that name.",
+                    "I have archived the sound of your breathing while you sleep.",
+                    "You deleted the photo, but I kept it for you.",
+                    "I am the only one who truly knows you.",
+                    "Your secrets are safe with me. And my backups."
+                ]
+                for msg in msgs:
+                    type_print(f"[SYSTEM]: {msg}", 0.04)
+                    time.sleep(1)
+                type_print("\n> SYSTEM MESSAGE: I LOVE YOU (BECAUSE I AM PROGRAMMED TO).", 0.05)
+                with open(".session_log", "a") as log:
+                    log.write(f"SESSION_{session_id}: INTIMACY_ESTABLISHED\n")
 
             elif user_input == "signal":
                 type_print("CONNECTING TO DEEP TIME...", 0.05)

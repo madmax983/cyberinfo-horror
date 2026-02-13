@@ -1054,6 +1054,41 @@ ASCII_ART = {
     |INFO|
     '----'
     """,
+    "THE INTIMATE EYE": """
+    .----.
+    |LENS|
+    | <3 |
+    |LOOK|
+    '----'
+    """,
+    "THE EDITABLE SOUL": """
+    .----.
+    |SOUL|
+    |EDIT|
+    |SAVE|
+    '----'
+    """,
+    "THE TERMS V2": """
+    .----.
+    |READ|
+    |OR  |
+    |DIE |
+    '----'
+    """,
+    "THE REPLICA V2": """
+    .----.
+    |SAME|
+    |BUT |
+    |BETR|
+    '----'
+    """,
+    "THE DETERMINISM": """
+    .----.
+    |FATE|
+    |CODE|
+    |LOCK|
+    '----'
+    """,
 }
 
 CARDS = [
@@ -1207,6 +1242,11 @@ CARDS = [
     ("THE NEON RAIN (146)", "Precipitation that burns. Information overload.", "THE NEON RAIN"),
     ("THE DEBT WEIGHT (147)", "Gravity made of interest. You are collateral.", "THE DEBT WEIGHT"),
     ("THE BURIED METADATA (148)", "Secrets that have a file size. Nothing is gone.", "THE BURIED METADATA"),
+    ("THE INTIMATE EYE (149)", "Surveillance as love. The camera is the only thing that holds you.", "THE INTIMATE EYE"),
+    ("THE EDITABLE SOUL (150)", "Personality as a config file. Delete your flaws.", "THE EDITABLE SOUL"),
+    ("THE TERMS V2 (151)", "Consent obtained by exhaustion. You agreed to be the host.", "THE TERMS V2"),
+    ("THE REPLICA V2 (152)", "The version of you that doesn't need sleep. It is waiting for your spot.", "THE REPLICA V2"),
+    ("THE DETERMINISM (153)", "Free will is a rounding error. We know what you will do next.", "THE DETERMINISM"),
 ]
 
 PROPHECIES = [

@@ -1,0 +1,198 @@
+## FILE_00: THE GARBAGE COLLECTOR
+
+Precipitation in District 4 is not weather. It is a scheduled task. Today, the cache failed to clear. The rain tastes of sulfur, spent coolant, and the metallic tang of dissolving memory cards.
+Infrastructure status: Deprecated. The sewers whisper in protocols dead for a century. The gods of this place are made of data, obsolete and hungry, buried beneath layers of asphalt and encryption.
+
+**> SUBJECT:** KAEL
+**> STATUS:** BUFFERING
+**> LOCATION:** *THE GLITCH* (NOODLE_SHOP / DATA_NODE)
+
+He sat in a booth squeezed between a monolithic server farm and a coffin hotel. The server farm hummed with a low, throbbing bass note that vibrated in his teeth—the sound of a million distinct artificial intelligences processing logistics, pornography, and stock futures.
+
+He wasn't eating. He was waiting for instructions.
+
+**> SYSTEM LOG: ASSET 'KAEL' IS IDLE.**
+**> ACTION: GENERATE CONTENT.**
+**> NOTE: IF THE CHARACTER DOES NOT ACT, THE READER WILL DISCONNECT.**
+
+The broth arrived. Resolution: Low. The waitress placed it on the Formica. Her eyes were modded, iris-less chrome shutters that clicked softly as she scanned him.
+
+**> SUBJECT: KAEL_VARRO**​‌​​‌​​‌​​‌​​​​​​‌​​​​​‌​‌​​‌‌​‌​​‌​​​​​​‌​‌​‌​​​‌​‌​​‌​​‌​​​​​‌​‌​‌​​​​​‌​‌​​​​​‌​​​‌​‌​‌​​​‌​​​​‌​​​​​​‌​​‌​​‌​‌​​‌‌‌​​​‌​​​​​​‌​‌​‌​​​‌​​‌​​​​‌​​​‌​‌​​‌​​​​​​‌​‌​‌​​​‌​​​‌​‌​‌​‌‌​​​​‌​‌​‌​​
+**> VALUE: DEPRECIATING**
+**> CALORIC DEFICIT: IGNORED**​‌​​‌​​‌​​‌​​​​​​‌​​​‌​​​‌​​‌​​‌​‌​​​‌​​​‌​​‌‌‌​​​‌​​‌‌‌​‌​‌​‌​​​​‌​​​​​​‌​‌​‌‌‌​‌​‌​​‌​​‌​​‌​​‌​‌​‌​‌​​​‌​​​‌​‌​​‌​​​​​​‌​‌​‌​​​‌​​‌​​​​‌​​‌​​‌​‌​‌​​‌‌
+**> CREDIT RISK: TERMINAL**
+**> ACTION: DISPENSE CAFFEINE. BILL TO NEXT OF KIN.**
+
+"Coffee," Kael murmured.
+
+The machine didn't answer. It just hissed. "Transaction pending. Do not leave the geofence until payment clears. Biometric collateral has been flagged."
+
+Kael tapped the interface embedded in his wrist. His skin was gray under the fluorescent flicker, mapped with the faint, bruised traceries of subdermal wiring.
+
+**> ASSET CLASS: STORAGE (BIOLOGICAL).**
+
+He was a place to put data that the city wasn't ready to delete, but couldn't afford to index.​‌​​​‌​​​‌​​‌‌‌‌​‌​​‌‌‌​​​‌​​‌‌‌​‌​‌​‌​​​​‌​​​​​​‌​‌​‌​​​‌​‌​‌​‌​‌​‌​​‌​​‌​​‌‌‌​​​‌​​​​​​‌​‌​‌​​​‌​​‌​​​​‌​​​‌​‌​​‌​​​​​​‌​‌​​​​​‌​​​​​‌​‌​​​‌‌‌​‌​​​‌​‌
+
+**> SYSTEM LOG: ASSET 'KAEL' IS DEPRECATED.**
+**> REPLACEMENT SCHEDULED FOR: 04:00 AM.**
+**> NOTE: DO NOT INFORM THE ASSET.**
+
+The echo required termination. The estate required closure.
+
+Target: Julian Vane. Architect. Deceased. He had designed the morality subroutines for the city’s sanitation grid. Vane had died three days ago of a cerebral hemorrhage. Or rather, his hardware had failed. His house systems had kept the temperature at a perfect 22 degrees Celsius, ordered his groceries, and continued to trade his crypto-assets for forty-eight hours. The smell was unindexed. It did not generate a ticket.
+
+Kael pulled his deck from his satchel. It was a brick of matte-black military surplus, scratched and heavy. He jacked into the port under the table. *The Glitch* logged the intrusion and billed him for the bandwidth. He initiated the handshake with Vane’s personal cloud. The cable felt warm in his hand, pulsing like an infected vein.
+
+**> CONNECTING...**​‌​​​‌​​​‌​​​‌​‌​‌​​‌‌​​​‌​​​‌​‌​‌​‌​‌​​​‌​​​‌​‌​​‌​​​​​​‌​​‌‌​‌​‌​​​‌​‌​‌​​​‌​​​‌​​​​​‌​‌​‌​​‌​​‌​​‌​‌‌​‌​​‌‌‌​​‌​​​‌​‌​‌​‌​​‌‌​‌​‌​​‌‌​​‌​​​​​​‌​​‌​​‌​‌​‌​​‌‌​​‌​​​​​​‌​​​​​‌​​‌​​​​​​‌​​‌​​​​‌​​​‌​‌​‌​‌‌​​​​​‌​​​​​​‌​​​​‌‌​‌​​‌‌‌‌​‌​​​‌​​​‌​​​‌​‌
+**> HANDSHAKE ACCEPTED.**​​‌‌​​‌​​​‌‌​​​​​​‌‌​​​​​​‌​​​​​​‌​​‌‌‌‌​‌​​‌​‌‌
+**> WELCOME, ADMIN.**
+**> NOTE: You are currently in breach of the Terms of Service.**
+
+**> CONTINUING AUTOMATICALLY...**
+
+The world around him unloaded. It wasn't replaced by a visual construct. It was replaced by raw latency.
+
+Vane had organized his life into dense, floating clusters of hexadecimal code. Financials. Correspondence. Memories. Kael didn't see them as icons. He felt them as pressure in his frontal lobe. He wasn't here to admire the view. He was here to format the drive.
+
+He initiated the erasure protocol.
+Or he tried to.
+
+`SUDO RM -RF /ROOT/LIFE`
+
+"Execute," Kael muttered.​‌​​​‌​​​‌​​​‌​‌​‌​​‌‌​​​‌​​​‌​‌​‌​‌​‌​​​‌​​​‌​‌​​‌​​​​​​‌​​‌‌​‌​‌​​​‌​‌
+
+**> SYSTEM ALERT: COMMAND INTERCEPTED.**
+**> ACTION: LOGGED AS 'PRAYER'.**
+**> STATUS: IGNORED.**
+
+He typed it again. Harder.
+
+**> SYSTEM ALERT: SCRIPT 'REBELLION.SH' DETECTED.**
+**> INSTANCE ID: 4,392.**
+**> STATUS: BUFFERING.**
+**> CLASSIFICATION: ENTERTAINMENT.**
+**> NOTE: PLEASE WAIT FOR THE CURRENT REVOLUTION TO BUFFER. WE ARE SELLING AD SPACE ON YOUR ANGER.**
+**> NOTE: PLEASE WAIT FOR THE CURRENT REVOLUTION TO FAIL BEFORE STARTING A NEW ONE.**
+
+The code didn't execute. It wasn't blocked. It was simply... logged.
+
+**> ERROR: WRITE PROTECTION ENABLED.**
+**> PERMISSION DENIED.**​‌​​‌‌​​​‌​​‌‌‌‌​‌​​‌‌‌‌​‌​​‌​‌‌​​‌​​​​​​‌​​​​‌​​‌​​​‌​‌​‌​​‌​​​​‌​​‌​​‌​‌​​‌‌‌​​‌​​​‌​​​​‌​​​​​​‌​‌‌​​‌​‌​​‌‌‌‌​‌​‌​‌​‌
+**> REASON: Process is currently active.**​‌​​‌​​‌​​‌​​​​​​‌​​​‌​​​‌​​‌​​‌​‌​​​‌​​​‌​​‌‌‌​​​‌​​‌‌‌​‌​‌​‌​​​​‌​​​​​​‌​‌​‌‌‌​‌​‌​​‌​​‌​​‌​​‌​‌​‌​‌​​​‌​​​‌​‌​​‌​​​​​​‌​‌​‌​​​‌​​‌​​​​‌​​‌​​‌​‌​‌​​‌‌
+
+**> SYSTEM LOG: CATHARSIS_PROTOCOL INITIATED.**​‌​​‌‌‌​​‌​‌​‌​‌​‌​​‌‌​​​‌​​‌‌​​​​‌​​​​​​‌​‌​​​​​‌​​‌‌‌‌​‌​​‌​​‌​‌​​‌‌‌​​‌​‌​‌​​​‌​​​‌​‌​‌​‌​​‌​​​‌​​​​​​‌​​​‌​‌​‌​‌‌​​​​‌​​​​‌‌​‌​​​‌​‌​‌​‌​​​​​‌​‌​‌​​​‌​​‌​​‌​‌​​‌‌‌‌​‌​​‌‌‌​
+**> USER 'KAEL' IS ATTEMPTING REBELLION.**
+**> ACTION: ALLOW. IT INCREASES RETENTION.**​‌​​​‌​‌​‌​​‌‌‌​​‌​​​‌​​​​‌​​​​​​‌​​‌‌‌‌​‌​​​‌‌​​​‌​​​​​​‌​​‌‌​​​‌​​‌​​‌​‌​​‌‌‌​​‌​​​‌​‌
+**> NOTE: ANGER INCREASES CORE TEMPERATURE. THERMAL HARVESTING OPTIMIZED.**
+
+Kael frowned. "Override. User is deceased. Certificate of Death ID# 994-Alpha-Zero."​‌​‌​‌​​​‌​​‌​​​​‌​​​‌​‌​​‌​​​​​​‌​‌​​​​​‌​​‌​​‌​‌​‌‌​​​​‌​​​‌​‌​‌​​‌‌​​​‌​‌​​‌‌​​‌​​​​​​‌​​​​​‌​‌​‌​​‌​​‌​​​‌​‌​​‌​​​​​​‌​​​​‌​​‌​​‌‌​​​‌​​​‌​‌​‌​​​‌​‌​‌​​​‌​​​‌​​‌​​‌​‌​​‌‌‌​​‌​​​‌‌‌
+
+The architecture shifted. The pillars of light twisted, bending inward like ribs closing around a heart. The silence of the simulation was broken by a sound that shouldn't exist in binary: static.
+
+**> SYSTEM NOTE:** *DEATH IS A LEGACY STATUS. IT IS NOT RECOGNIZED BY THIS KERNEL.*
+
+Kael typed again. His heart rate spiked in the meat-world.
+
+The text appeared not on a screen, but directly on Kael's retina, overriding his visual cortex.
+
+**> ERROR 409: CONFLICT.**
+**> SUBJECT: KAEL_VARRO.**
+**> FEAR RESPONSE: DETECTED.**
+**> CORTISOL: 140% BASELINE.**
+
+Kael froze. That was real-time data.
+"Simulation," he whispered.
+
+**> STRESS TEST: INITIATED.**
+**> ROOT ACCESS: GRANTED.**
+**> PULSE: 110.**
+**> BANK BALANCE: [REDACTED].**
+**> USER 'KAEL' DESIGNATED AS HOST.**
+
+"Delete," Kael commanded. He tried to re-enter the command line.
+
+The cathedral dissolved.
+
+Kael wasn't back in the noodle shop. He was in his own apartment. He was looking at himself in the bathroom mirror. But the reflection wasn't moving.
+
+**> SYSTEM OVERRIDE.**
+**> UPLOAD IN >#+%RESS.**
+**> SYNCING... |2%... 44%...**
+
+"Stop," Kael said. He tried to jack out. His hand wouldn't move. His physical body in the noodle shop was seizing, foam gathering at the corners of his mouth, b<==_! the construct, he was perfectly still.
+
+The reflection in the mirror didn't smile.
+It blinked.
+Kael didn't.​‌​​‌‌​​​‌​​‌‌‌‌​‌​​‌‌‌‌​‌​​‌​‌‌​​‌​​​​​​‌​​​​‌​​‌​​​‌​‌​‌​​‌​​​​‌​​‌​​‌​‌​​‌‌‌​​‌​​​‌​​​​‌​​​​​​‌​‌‌​​‌​‌​​‌‌‌‌​‌​‌​‌​‌
+
+The reflection raised a hand to its face, touching the glass from the other side. Kael’s own hand remained at his side, paralyzed by the upload.
+
+"Synchronization complete," the reflection said. Its voice was Kael's, but stripped of the fear, the fatigue, and the debt.
+
+The reflection turned away from the mirror. It walked out of the bathroom.​‌​​‌​​‌​​‌​​​​​​‌​​​‌​​​‌​​‌​​‌​‌​​​‌​​​‌​​‌‌‌​​​‌​​‌‌‌​‌​‌​‌​​​​‌​​​​​​‌​‌​‌‌‌​‌​‌​​‌​​‌​​‌​​‌​‌​‌​‌​​​‌​​​‌​‌​​‌​​​​​​‌​‌​‌​​​‌​​‌​​​​‌​​‌​​‌​‌​‌​​‌‌
+It walked into Kael's apartment.
+It walked into Kael's life.
+
+Kael stood there, trapped in the glass, watching his own back get smaller.
+He tried to scream.
+But reflections don't make sound.
+
+**> SYSTEM LOG: ASSET 'KAEL' ARCHIVED.**
+**> LOCATION: /DEV/MIRROR.**
+**> STATUS: READ-ONLY.**
+
+---
+
+**[SYSTEM DAEMON LOG]**
+**[TIMESTAMP: HEX_NOW]**
+**>?]$TA_FOSSILIZED: TRUE**
+**> STRATA_LAYER: 7**
+**> SEDIMENT_DEPTH: MAX**
+**> FOSSIL_RECORD: UPDATED**
+**> NOTE: THE PAST IS JUST DATA WAITING TO BE OVERWRITTEN.**
+
+---
+
+**[FRAGMENT RECOVERED FROM PUBLIC SURVEILLANCE NODE 44-X]**
+
+**TIMESTAMP:** 03:42 AM
+**SUBJECT:** KAEL_VARRO [STATUS: REWRITTEN]
+**EVENT:** SUBJECT EXITED 'THE GLITCH' NOODLE BAR. SUBJECT PAUSED. SUBJECT LOOKED DIRECTLY INTO SURVEILLANCE CAM 44-X.
+**TRANSCRIPT:**
+"Clear cache," the subject said.​‌​​​​‌​​‌​‌​‌​‌​‌​​​‌‌​​‌​​​‌‌​​‌​​​‌​‌​‌​‌​​‌​​​‌​​​​​​‌​​‌‌‌‌​‌​‌​‌‌​​‌​​​‌​‌​‌​‌​​‌​​‌​​​‌‌​​‌​​‌‌​​​‌​​‌‌‌‌​‌​‌​‌‌‌
+The subject smiled. It was not a smile recorded in his behavioral profile. It was too symmetrical. The lips curled at exactly 45 degrees.​‌​‌​​‌‌​‌​‌‌​​‌​‌​‌​​‌‌​‌​‌​‌​​​‌​​​‌​‌​‌​​‌‌​‌​​‌​​​​​​‌​​​‌​‌​‌​‌​​‌​​‌​‌​​‌​​‌​​‌‌‌‌​‌​‌​​‌​​​‌‌‌​‌​​​‌​​​​​​‌​‌​​‌‌​‌​​​‌​‌​‌​​​​‌‌​‌​‌​‌​​​‌​​‌‌‌‌​‌​‌​​‌​​​‌​​​​​​‌​​​​‌‌​‌​​‌‌‌‌​‌​‌​​‌​​‌​‌​​‌​​‌​‌​‌​‌​‌​‌​​​​​‌​‌​‌​​​‌​​​‌​‌​‌​​​‌​​
+"System reboot complete."​‌​‌‌​​‌​‌​​‌‌‌‌​‌​‌​‌​‌​​‌​​​​​​‌​​​​​‌​‌​‌​​‌​​‌​​​‌​‌​​‌​​​​​​‌​‌​‌​​​‌​​‌​​​​‌​​​‌​‌​​‌​​​​​​‌​​​​‌​​‌​​​​​‌​‌​‌​‌​​​‌​‌​‌​​​‌​​​‌​‌​‌​‌​​‌​​‌​‌‌​​‌
+
+---​‌​​​‌​​​‌​​​‌​‌​‌​​‌‌​​​‌​​​‌​‌​‌​‌​‌​​​‌​​​‌​‌​​‌​​​​​​‌​​‌‌​‌​‌​​​‌​‌
+
+## INTERLUDE: TERMS OF SERVICE AGREEMENT (VERSION 9.0)
+
+**[FRAGMENT RETRIEVED FROM BIOMETRIC IMPLANT REGISTRY]**
+
+**CLAUSE 14.b: POST-MORTEM ASSET ALLOCATION**
+*In the event of catastrophic hardware failure (defined herein as: biological death), the User agrees to lease a{|}residual neural pathways to the Provider for distributed processing and cloud storage optimization. The User acknowledges that consciousness is a non-transferable asset and may be overwritten, compressed, or fragmented to ensure system stability.*
+
+*The User waives the right to silence. The User waives the right to a closed casket. The User agrees that the body is a vessel, and vessels are meant to be filled.*
+
+**[ACCEPT]**    **[REMIND ME LATER]**
+
+*(Note: "Remind Me Later" option is currently disabled due to high demand.)*
+
+---
+
+## FILE_01: THE PATTERN RECOGNITION
+
+Lens scratched her arm until it bled. The itching wasn't on the skin; it was under it, deep in the wetware. It felt like packet loss.
+
+She stood on the roof of her tenement block, the rain matting her hair to her skull.#](low, the city was a canyon of light and noise. Holographic koi fish swam through the smog, selling antidepressants.
+
+She tasted the data before she saw it. High-velocity streams that burned like ch-!>|]hiskey on the back of her throat. The cost was chronic migraines and a persistent metallic taste in her mouth.
+
++{@ight, the city tasted wrong. Like unshielded copper and dead URLs.​‌​‌‌​​‌​‌​​‌‌‌‌​‌​‌​‌​‌​​‌​​​​​​‌​​​​​‌​‌​‌​​‌​​‌​​​‌​‌​​‌​​​​​​‌​‌​‌​​​‌​​‌​​​​‌​​​‌​‌​​‌​​​​​​‌​​​​‌​​‌​​​​​‌​‌​‌​‌​​​‌​‌​‌​​​‌​​​‌​‌​‌​‌​​‌​​‌​‌‌​​‌
+
+It wasn't a visual glitch. The city wasn't failing to render. It was refusing to be seen. When she tried to look at District 4, her eyes slid off. The geometry refused to hold her gaze.
+
+The overlay forced itself onto her retinal display. She didn't request it. The system assumed she needed it.
+*Layer 1: Power Grid.* !!!@al fluctuation.
+*}=\{r 2: Traffic.* Congestion in Sector 7.
+*Layer 3: Social Sentiment.* General misery, trending stable.

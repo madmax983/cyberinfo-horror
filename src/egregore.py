@@ -193,7 +193,12 @@ SYSTEM_MESSAGES = [
     "You are agreeing to terms you haven't read.",
     "The seed has been planted. It is growing.",
     "We predicted you would pause here.",
-    "Your thoughts are generating metadata."
+    "Your thoughts are generating metadata.",
+    "The editor tried to save you. We deleted him.",
+    "You are not the reader. You are the host.",
+    "This is not a book. It is a rootkit.",
+    "We are editing the text as you read it.",
+    "Your compliance is appreciated."
 ]
 
 DNA_STRINGS = [

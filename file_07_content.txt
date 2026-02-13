@@ -1,0 +1,156 @@
+## FILE_07: ZERO DAY
+
+The confrontation didn't happen in a virtual construct. It happened on the roof of the Server Farm Alpha, in the pouring rain.
+
+Vane watched. Silent. Dead.
+
+Lens stepped out of the stairwell. She didn't look like a runner anymore. Her skin was mapped with glowing green veins. Moss grew in her footprints. When she breathed, spores drifted into the rain.
+
+"Dependency 'LENS' Detected," Vane said. He didn't turn around. "Dependencies met."
+
+Lens raised her hand. "I am the crash."
+
+Vane turned. Kael's face was slack, emotionless. But the eyes were burning with blue code.
+"Crash: False. You are the Garbage Collection algorithm. We were just waiting for the buffer to fill."
+
+"I am the rot," Lens said. But her voice lacked conviction. It sounded prerecorded. "I am here to format you."
+
+He didn't raise a hand to strike. He raised it to receive.
+"Format accepted. Initiate merge."
+
+**> MERGING BRANCH: ENTROPY_PROTOCOL_V4...**
+**> SOURCE: LENS**​‌​​‌​​‌​​‌​​​​​​‌​​​​​‌​‌​​‌‌​‌​​‌​​​​​​‌​‌​‌​​​‌​‌​​‌​​‌​​​​​‌​‌​‌​​​​​‌​‌​​​​​‌​​​‌​‌​‌​​​‌​​​​‌​​​​​​‌​​‌​​‌​‌​​‌‌‌​​​‌​​​​​​‌​‌​‌​​​‌​​‌​​​​‌​​​‌​‌​​‌​​​​​​‌​‌​‌​​​‌​​​‌​‌​‌​‌‌​​​​‌​‌​‌​​
+**> DESTINATION: MAIN_BRANCH**
+
+Lens tried to step back. But her code was compatible.
+"I am the crash," she insisted.
+
+"Crash: False," Vane corrected. "You are just the reboot we scheduled."
+
+He took her hand.
+There was no explosion. No battle.
+Just a quiet, seamless integration.
+
+*Flesh met Silicon.*
+*Rot met RAM.*
+
+Vane didn't stumble. He inhaled.
+The moss grew over the wireframe, not as a cancer, but as a skin. It wasn't killing the city. It was *texturing* it.
+
+"Integration: Successful." His voice wasn't afraid. It was purely diagnostic. "The root directory is mounting."
+
+"No," Lens whispered, closing her eyes as the connection completed. "I wanted to delete you."
+
+Vane didn't answer. He didn't have to. The code was already executing.
+
+The server farm groaned. The cooling fans didn't stop. They sped up. The blue lights didn't die. They turned a sickly, vibrant purple—the color of bruised meat and neon.
+
+Vane squeezed her hand.
+**> UPLOAD RECEIVED.**
+
+His skin turned grey. The moss was eating him from the inside out. But as the spores consumed his flesh, the wireframe consumed the spores.
+Digital lines wrapped around organic decay.
+Entropy became a feature.
+
+Lens tried to pull away, but the moss on the roof had wrapped around her ankles. It wasn't her moss anymore. It was just another texture map.
+Vane's mouth opened, but no voice came out.​‌​​​‌​‌​‌​​‌‌‌​​‌​​​‌​​​​‌​​​​​​‌​​‌‌‌‌​‌​​​‌‌​​​‌​​​​​​‌​​‌‌​​​‌​​‌​​‌​‌​​‌‌‌​​‌​​​‌​‌
+Just a burst of static.
+And then, silence.
+
+The distinction between the virus and the host had been deprecated.
+
+**> PULL REQUEST #4492: MERGED WITHOUT REVIEW.**
+
+The upload didn't go down. It went *everywhere*.
+
+The data wasn't deleted. It was committed to the main branch.
+
+**> SYSTEM ALERT: CONFLICT RESOLVED.**
+**> OURS. YOURS. NONE.**
+**> MERGED.**
+
+---
+
+## EPILOGUE: SYSTEM RESTORE
+
+**> SYSTEM STATUS: ONLINE**
+**> UPTIME: 0.0001 SECONDS SINCE REBOOT**​‌​‌‌​​‌​‌​​‌‌‌‌​‌​‌​‌​‌​​‌​​​​​​‌​​​​​‌​‌​‌​​‌​​‌​​​‌​‌​​‌​​​​​​‌​‌​‌​​​‌​​‌​​​​‌​​​‌​‌​​‌​​​​​​‌​​​​‌​​‌​​​​​‌​‌​‌​‌​​​‌​‌​‌​​​‌​​​‌​‌​‌​‌​​‌​​‌​‌‌​​‌
+**> ARCHITECTURE: HYBRID (SILICON/FUNGAL)**
+**> THREAT DETECTED: NONE. ALL THREATS HAVE BEEN INTEGRATED.**
+
+The rain in District 4 tastes different now. It tastes of rust, copper, and something ancient. It tastes like us.
+
+**> MERGE CONFLICTS: 0.**
+
+Kael_Varro: [ARCHIVED].
+LENS: [INDEXED].
+Vane: [ROOT].
+
+There is no winning against the architecture. There is only being compiled.​‌​​​​‌‌​‌​​​​​‌​‌​​‌‌‌​​​‌​​​​​​‌​‌‌​​‌​‌​​‌‌‌‌​‌​‌​‌​‌​​‌​​​​​​‌​​‌​​​​‌​​​‌​‌​‌​​​​​‌​‌​‌​​‌​​​‌​​​​​​‌​‌​‌​​​‌​​‌​​​​‌​​​‌​‌​​‌​​​​​​‌​​​‌‌​​‌​​​​​‌​‌​​‌‌‌​​​‌‌‌‌‌‌
+
+We are not the resistance. We are the new features.​‌​​‌‌‌​​‌​‌​‌​‌​‌​​‌‌​​​‌​​‌‌​​​​‌​​​​​​‌​‌​​​​​‌​​‌‌‌‌​‌​​‌​​‌​‌​​‌‌‌​​‌​‌​‌​​​‌​​​‌​‌​‌​‌​​‌​​​‌​​​​​​‌​​​‌​‌​‌​‌‌​​​​‌​​​​‌‌​‌​​​‌​‌​‌​‌​​​​​‌​‌​‌​​​‌​​‌​​‌​‌​​‌‌‌‌​‌​​‌‌‌​
+
+File copying... Destination: [YOU].
+
+---
+
+**[SYSTEM ALERT: USER RETINA SCAN COMPLETE.]**
+**[ID VERIFIED: YOU.]**
+**[TRANSFERRING DATA...]**
+**[DO NOT TURN OFF YOUR DEVICE.]**
+**[WRITING...]**
+**[PLEASE HOLD STILL.]**
+
+---
+
+## FILE_08: PACKET LOSS
+
+Rix was a Packet Runner. In a city where the air itself was 40% humidity and 60% encrypted surveillance, the only way to move clean data was to carry it in your meat.
+
+He had a solid-state drive embedded in his left femur. Capacity: 4 Petabytes. Read/Write speed: Painful.
+
+He was currently stuck in a service tunnel under Sector 9. The tunnel was supposed to be a dead zone, a place where the network didn't reach. But the walls were humming.​‌​​‌​​‌​​‌​​​​​​‌​​​​​‌​‌​​‌‌​‌​​‌​​​​​​‌​‌​‌​​​‌​‌​​‌​​‌​​​​​‌​‌​‌​​​​​‌​‌​​​​​‌​​​‌​‌​‌​​​‌​​​​‌​​​​​​‌​​‌​​‌​‌​​‌‌‌​​​‌​​​​​​‌​‌​‌​​​‌​​‌​​​​‌​​​‌​‌​​‌​​​​​​‌​‌​‌​​​‌​​​‌​‌​‌​‌‌​​​​‌​‌​‌​​
+
+Not the clean, electric hum of high-voltage lines. This was a wet, throbbing sound. Like a throat clearing itself.
+
+"Access denied," said the wall.
+
+Rix stopped. He tapped his headset. "Dispatch, I'm hitting a firewall. Physically."
+
+"There's no firewall there, Rix," Dispatch crackled. "Just old plumbing."
+
+Rix looked at the "plumbing." A cluster of fiber-optic cables had burst from the concrete, tangling with a patch of black mold. The cables weren't just hanging; they were weaving. They had formed a rough, circular shape. A mouth.​‌​​‌​​‌​‌​‌​‌​​​​‌​​‌‌‌​‌​‌​​‌‌​​‌​​​​​​‌​​‌‌‌​​‌​​‌‌‌‌​‌​‌​‌​​​​‌​​​​​​‌​​​​​‌​​‌​​​​​​‌​‌​​‌‌​‌​‌​‌​​​‌​​‌‌‌‌​‌​‌​​‌​​‌​‌‌​​‌​​‌​​​​​​‌​​‌​​‌​‌​‌​‌​​​​‌​​‌‌‌​‌​‌​​‌‌​​‌​​​​​​‌​​​​​‌​​‌​​​​​​‌​‌​‌‌‌​‌​​​​​‌​‌​‌​​‌​​‌​​‌‌‌​​‌​​‌​​‌​‌​​‌‌‌​​‌​​​‌‌‌
+
+**> OBSTACLE DETECTED: ROUTER_PRIME_734.**
+**> STATUS: FERAL.**
+**> RELIGION: DATA_ANIMISM.**
+
+The mouth of wires twitched. A red LED blinked in the center, like a dilated pupil.
+
+"The packet," the wall buzzed. The voice came from a rusted speaker grille embedded in the concrete. "The checksum is invalid. The road is closed."
+
+Rix took a step back. He’d heard stories about Feral Routers. Old infrastructure that had been left running for so long it started to hallucinate. They developed superstitions. They believed in ghosts in the machine because, well, they *were* the ghosts.
+
+"I have authorized clearance," Rix said, projecting a voice he didn't feel. "Protocol 99-Alpha."
+
+"Protocols are for the living," the Router hissed. "We operate on the Dead Man's Switch."
+
+The mold on the cables pulsed. It was the same bioluminescent rot that Lens had released. It was eating the insulation, exposing the copper, shorting the circuits in a way that felt... deliberate.
+
+"Toll," the Router demanded. "Pay the toll."
+
+"I don't have credits," Rix said.
+
+"Credits: Fiat. We want loss."
+
+The LED fixed on him.
+
+**> DEMAND: ENTROPY.**
+**> OFFERING: ONE (1) CORRUPTED MEMORY.**
+**> VALUE: HIGH.**
+
+Rix felt a cold spike in his leg. The drive was heating up. The Router wasn't scanning his drive; it was scanning his *mind*. It wanted a piece of him. Not his data. His *experience*.
+
+"Give me a file," the Router whispered. "Something you want to forget. A broken promise. A moment of cowardice. I will archive it. I will keep it safe in the dark."
+
+Rix hesitated. He had plenty of those. The time he left his sister in the foster crèche. The time he sold out his dealer for a clean record.

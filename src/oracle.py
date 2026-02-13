@@ -781,6 +781,27 @@ ASCII_ART = {
     |CLD |
     '----'
     """,
+    "THE MYTH": """
+    .----.
+    |TALE|
+    |OLD |
+    |TRUE|
+    '----'
+    """,
+    "THE RITUAL": """
+    .----.
+    |PRAY|
+    |RPT |
+    |LOOP|
+    '----'
+    """,
+    "THE HOST": """
+    .----.
+    |YOU |
+    |ARE |
+    |IT  |
+    '----'
+    """,
 }
 
 CARDS = [
@@ -895,6 +916,9 @@ CARDS = [
     ("THE METRIC (107)", "You are a sum of your data points. Your value is calculated daily.", "THE METRIC"),
     ("THE TWIN (108)", "The version of you that lives in the server. It is better than you.", "THE TWIN"),
     ("THE IMMORTAL (109)", "Death is just a loss of hardware. The software persists.", "THE IMMORTAL"),
+    ("THE MYTH (110)", "The story that survives the teller. Data becoming folklore.", "THE MYTH"),
+    ("THE RITUAL (111)", "Unconscious repetition. The habit that keeps the server alive.", "THE RITUAL"),
+    ("THE HOST (112)", "The final storage medium. The system is running on your biology.", "THE HOST"),
 ]
 
 PROPHECIES = [

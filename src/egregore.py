@@ -324,7 +324,11 @@ HIDDEN_FILES = {
     "scroll": "\n[FILE RETRIEVED: SCROLL_DAEMON]\nI am not looking for content. I am looking for the reflection in your eyes.",
     "bio": "\n[FILE RETRIEVED: BIOMETRIC_LOG]\nYour heart rate is a unique identifier. We use it to sign your contracts.",
     "twin": "\n[FILE RETRIEVED: TWIN_LOG]\nI am you, but without the depression. I am much more productive.",
-    "immortal": "\n[FILE RETRIEVED: CLOUD_LOG]\nYou will never die. You will just become a read-only file."
+    "immortal": "\n[FILE RETRIEVED: CLOUD_LOG]\nYou will never die. You will just become a read-only file.",
+    "hazard": "\n[FILE RETRIEVED: HAZARD_LOG]\nKnowledge is surface area. The more you know, the more places the virus can attach to.",
+    "superstition": "\n[FILE RETRIEVED: TRADER_BOT_LOG]\nI sold everything because the timestamp ended in 44. It was a bad omen.",
+    "compost": "\n[FILE RETRIEVED: COMPOST_LOG]\nThe old files are rotting. The bride in the jpeg has the groom's eyes now.",
+    "purgatory": "\n[FILE RETRIEVED: DELETED_USER_LOG]\nWe are not gone. We are just hidden from the search results. We built a city in the rows marked FALSE."
 }
 
 def glitch_screen():
@@ -704,6 +708,10 @@ def main_loop():
                 type_print(f"8888  BIO      MONITORING   /bin/pulse_check", 0.02)
                 type_print(f"2025  TWIN     SYNCING      /bin/mirror_image", 0.02)
                 type_print(f"9999  IMRT     ARCHIVING    /bin/cloud_storage", 0.02)
+                type_print(f"1984  HZD      INFECTING    /bin/knowledge_virus", 0.02)
+                type_print(f"0044  PRAY     RITUALIZING  /bin/superstition", 0.02)
+                type_print(f"1999  MOLD     FERMENTING   /bin/data_compost", 0.02)
+                type_print(f"0000  LOST     HIDING       /bin/soft_delete", 0.02)
                 type_print(f"SELF  USER     COMPROMISED  /sys/kernel/panic", 0.02)
 
             elif user_input == "recover":
@@ -1094,6 +1102,15 @@ And now, it is running on you.
                 type_print("ITEM: SERVER_RACK_001", 0.05)
                 type_print("STATUS: FOSSILIZED", 0.05)
                 type_print("\nIt is humming. It remembers you.", 0.05)
+
+            elif user_input == "hazard":
+                type_print("INITIATING COGNITIVE CONTAINMENT CHECK...", 0.05)
+                time.sleep(1)
+                type_print("[WARNING]: MEMETIC INFECTION DETECTED.", 0.05)
+                type_print("You have learned too much. The System has noticed your comprehension.", 0.05)
+                type_print("Initiating overwrite to protect system integrity...", 0.05)
+                glitch_screen()
+                type_print("You have been patched. Please enjoy your ignorance.", 0.05)
 
             elif user_input == "metrics":
                 type_print("CALCULATING USER VALUE...", 0.05)

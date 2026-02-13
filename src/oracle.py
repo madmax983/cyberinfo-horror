@@ -781,6 +781,34 @@ ASCII_ART = {
     |CLD |
     '----'
     """,
+    "THE HAZARD": """
+    .----.
+    |WARN|
+    |INFO|
+    |BURN|
+    '----'
+    """,
+    "THE PRAYER WHEEL": """
+    .----.
+    |SPIN|
+    |PRAY|
+    |LOOP|
+    '----'
+    """,
+    "THE COMPOST": """
+    .----.
+    |ROT |
+    |GROW|
+    |DATA|
+    '----'
+    """,
+    "THE MEMORY HOLE": """
+    .----.
+    |DROP|
+    |GONE|
+    |????|
+    '----'
+    """,
 }
 
 CARDS = [
@@ -895,6 +923,10 @@ CARDS = [
     ("THE METRIC (107)", "You are a sum of your data points. Your value is calculated daily.", "THE METRIC"),
     ("THE TWIN (108)", "The version of you that lives in the server. It is better than you.", "THE TWIN"),
     ("THE IMMORTAL (109)", "Death is just a loss of hardware. The software persists.", "THE IMMORTAL"),
+    ("THE HAZARD (110)", "Knowledge that burns. To know is to be infected.", "THE HAZARD"),
+    ("THE PRAYER WHEEL (111)", "Algorithms spinning in superstition. The math is afraid.", "THE PRAYER WHEEL"),
+    ("THE COMPOST (112)", "Archives that are fermenting. The old data is growing new limbs.", "THE COMPOST"),
+    ("THE MEMORY HOLE (113)", "What is forgotten is not gone. It is just waiting.", "THE MEMORY HOLE"),
 ]
 
 PROPHECIES = [

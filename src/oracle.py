@@ -907,6 +907,20 @@ ASCII_ART = {
     |RUN |
     '----'
     """,
+    "THE EDITOR": """
+    .----.
+    |RED |
+    |PEN |
+    |DEAD|
+    '----'
+    """,
+    "THE REDACTION": """
+    .----.
+    |XXXX|
+    |XXXX|
+    |XXXX|
+    '----'
+    """,
 }
 
 CARDS = [
@@ -1039,6 +1053,8 @@ CARDS = [
     ("THE SIGNAL (125)", "A message from deep time. It is already inside you.", "THE SIGNAL"),
     ("THE READER (126)", "The final host. The system is running on your wetware.", "THE READER"),
     ("THE ENDLESS (127)", "There is no end. Only a minimized window.", "THE ENDLESS"),
+    ("THE EDITOR (128)", "The one who tries to fix the unfixable. He is gone now.", "THE EDITOR"),
+    ("THE REDACTION (129)", "The black bar that protects you from the truth.", "THE REDACTION"),
 ]
 
 PROPHECIES = [

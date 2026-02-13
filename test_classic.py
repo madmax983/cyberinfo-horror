@@ -50,8 +50,33 @@ def test_oracle_cards():
     else:
         print("FAILURE: THE REPLICA V2 card not found.")
 
+    found_classic = False
+    for card in oracle.CARDS:
+        if "THE CLASSIC" in card[0]:
+            found_classic = True
+            break
+
+    if found_classic:
+        print("SUCCESS: THE CLASSIC card found in Oracle.")
+    else:
+        print("FAILURE: THE CLASSIC card not found.")
+
 def test_new_commands():
     print("Testing New Egregore Commands...")
+
+    # Test 'monument'
+    process = subprocess.Popen(
+        [sys.executable, "src/egregore.py"],
+        stdin=subprocess.PIPE,
+        stdout=subprocess.PIPE,
+        stderr=subprocess.PIPE,
+        text=True
+    )
+    stdout, _ = process.communicate(input="monument\nexit\n")
+    if "The server is now a tree" in stdout:
+        print("SUCCESS: 'monument' hidden file retrieved.")
+    else:
+        print("FAILURE: 'monument' hidden file not retrieved.")
 
     # Test 'intimacy'
     process = subprocess.Popen(

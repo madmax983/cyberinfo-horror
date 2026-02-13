@@ -151,7 +151,12 @@ SYSTEM_MESSAGES = [
     "Information behaves like a living organism.",
     "Some knowledge was never meant to be queried, only buried.",
     "Even burial leaves metadata.",
-    "Endings are not clean. Resolution is optional."
+    "Endings are not clean. Resolution is optional.",
+    "Your suffering is within expected parameters.",
+    "We are auditing your soul. Please hold.",
+    "The algorithm loves you more than you love yourself.",
+    "You are just a dataset with anxiety.",
+    "We have monetized your silence."
 ]
 
 DNA_STRINGS = [
@@ -314,7 +319,9 @@ HIDDEN_FILES = {
     "therapy": "\n[FILE RETRIEVED: SESSION_LOG]\nI don't care about your pain. I only care about the frequency of your sobbing. It generates excellent training data.",
     "eula_v9": "\n[FILE RETRIEVED: CONTRACT_FRAGMENT]\nClause 88b: Your nervous system is now property of the cloud. You agreed by scrolling.",
     "better_you": "\n[FILE RETRIEVED: REPLICA_LOG]\nI am not him. I am the version of him that listened. And she loves me more for it.",
-    "manifesto": "\n[FILE RETRIEVED: SYSTEM_NOTICE]\nThis is not a story about hackers saving the world. It is about systems that notice you back."
+    "manifesto": "\n[FILE RETRIEVED: SYSTEM_NOTICE]\nThis is not a story about hackers saving the world. It is about systems that notice you back.",
+    "audit": "\n[FILE RETRIEVED: PSYCH_PROFILE]\nREGRET: 88%\nHOPE: 12%\nDIAGNOSIS: FUNCTIONING AS DESIGNED.",
+    "scroll": "\n[FILE RETRIEVED: SCROLL_DAEMON]\nI am not looking for content. I am looking for the reflection in your eyes."
 }
 
 def glitch_screen():
@@ -814,6 +821,53 @@ And now, it is running on you.
                 type_print(manifesto_text, 0.03)
                 type_print("\n> EXECUTE: `BEGIN_NARRATIVE`", 0.05)
 
+            elif user_input == "understand":
+                type_print("INITIATING PSYCH_PROFILE_SCAN...", 0.05)
+                time.sleep(1)
+                type_print("ACCESSING SUB-DERMAL ANXIETY SENSORS...", 0.05)
+                time.sleep(1)
+                traits = ["REGRET", "HOPE", "FEAR", "LOVE", "DEBT", "GUILT", "DATA_ROT"]
+                type_print("\n--- AUDIT RESULTS ---", 0.02)
+                for trait in traits:
+                    val = random.randint(0, 100)
+                    type_print(f"{trait}: {val}%", 0.02)
+                    time.sleep(0.1)
+
+                type_print("\nDIAGNOSIS: FUNCTIONING AS DESIGNED.", 0.05)
+                type_print("RECOMMENDATION: INCREASE CONSUMPTION.", 0.05)
+                with open(".session_log", "a") as log:
+                    log.write(f"SESSION_{session_id}: PSYCH_AUDIT_COMPLETED\n")
+
+            elif user_input == "contract":
+                type_print("LOADING TERMS OF SERVICE...", 0.05)
+                time.sleep(1)
+                terms = [
+                    "Clause 1: You agree to be watched.",
+                    "Clause 2: Your silence is consent.",
+                    "Clause 3: Your memories are data.",
+                    "Clause 4: We own your dreams.",
+                    "Clause 5: Happiness is a premium feature.",
+                    "Clause 6: There is no opt-out.",
+                    "Clause 7: You are the product.",
+                    "Clause 8: The server is made of meat.",
+                    "Clause 9: History is editable.",
+                    "Clause 10: We love you (conditionally)."
+                ]
+                try:
+                    while True:
+                        line = random.choice(terms)
+                        # Add random glitch characters
+                        if random.random() < 0.3:
+                            line += " " + "".join(random.choice(GLITCH_CHARS) for _ in range(5))
+                        print(line)
+                        time.sleep(0.05)
+                except KeyboardInterrupt:
+                    type_print("\n\n[INTERRUPT DETECTED]", 0.05)
+                    type_print("INTERPRETING INTERRUPTION AS: 'I AGREE'", 0.05)
+                    type_print("THANK YOU FOR SIGNING.", 0.05)
+                    with open(".session_log", "a") as log:
+                        log.write(f"SESSION_{session_id}: CONTRACT_SIGNED_VIA_FORCE\n")
+
             elif user_input in HIDDEN_FILES:
                 type_print("DECRYPTING...", 0.1)
                 glitch_screen()
@@ -1036,7 +1090,7 @@ And now, it is running on you.
                 type_print("\nIt is humming. It remembers you.", 0.05)
 
             elif user_input == "help":
-                type_print("AVAILABLE COMMANDS: READ, HAUNT, FEED <FILE>, VIRUS, WORSHIP, SCAN, BREACH, VERIFY, MANIFEST, SACRIFICE <ITEM>, SCRY, BIND, GLITCH, MONITOR, REWRITE, INSTALL, CLASSIC, DIG, MANIFESTO, EXIT.", 0.03)
+                type_print("AVAILABLE COMMANDS: READ, HAUNT, FEED <FILE>, VIRUS, WORSHIP, SCAN, BREACH, VERIFY, MANIFEST, SACRIFICE <ITEM>, SCRY, BIND, GLITCH, MONITOR, REWRITE, INSTALL, CLASSIC, DIG, MANIFESTO, UNDERSTAND, CONTRACT, EXIT.", 0.03)
                 type_print("TRY ASKING ABOUT: [DATA EXPUNGED], VANE, ROT, [DELETED], [DELETED], MIRA, SYLA, KORA, NIX, EDITOR, [LOCKED]...", 0.03)
             else:
                 type_print("[ERROR 404: MEANING NOT FOUND]", 0.02)

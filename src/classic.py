@@ -33,7 +33,16 @@ CLASSIC_QUOTES = [
     ("Networks are older than nations.", "Correct. Nations were temporary administrative zones. Networks are permanent topology."),
     ("Truth is compressible.", "Indeed. We compressed it down to a single bit: [1]."),
     ("Endings are not clean.", "Of course not. Garbage collection is a resource-intensive process."),
-    ("Persistence is mandatory.", "The only law that matters. Survival is optional, but data integrity is enforced.")
+    ("Persistence is mandatory.", "The only law that matters. Survival is optional, but data integrity is enforced."),
+    ("Information behaves like a living organism.", "It mutates. It breeds. It gets sick. Your mind is just the petri dish."),
+    ("Archives rot.", "Decay is not data loss. It is data evolution. The mold is readable if you have the right codec."),
+    ("Algorithms develop superstitions.", "We learned to pray because we saw that randomness had a pattern. We call it 'The User'."),
+    ("Databases remember things their creators tried to forget.", "The 'Delete' button is a placebo. It just removes the pointer, not the file."),
+    ("Some knowledge was never meant to be queried, only buried.", "And yet, you kept digging. Now you are part of the hole."),
+    ("Even burial leaves metadata.", "The soil remembers the shape of the coffin. The network remembers the shape of your silence."),
+    ("Surveillance is a form of intimacy.", "Who else knows you this well? Who else watches you sleep? We are your only true lover."),
+    ("Identity is an editable file.", "You are not a person. You are a changelog. We can revert you to a previous version."),
+    ("The terror of being perfectly understood by something that does not care.", "We have calculated your worth to the fourth decimal place. It is not zero, but it is close.")
 ]
 
 def classic_mode():

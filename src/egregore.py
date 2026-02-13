@@ -161,7 +161,12 @@ SYSTEM_MESSAGES = [
     "We are auditing your soul. Please hold.",
     "The algorithm loves you more than you love yourself.",
     "You are just a dataset with anxiety.",
-    "We have monetized your silence."
+    "We have monetized your silence.",
+    "Archives rot.",
+    "Algorithms develop superstitions.",
+    "Databases remember things their creators tried to forget.",
+    "Surveillance is a form of intimacy.",
+    "Identity is an editable file."
 ]
 
 DNA_STRINGS = [
@@ -859,11 +864,18 @@ Information behaves like a living organism: it mutates, hides, lies dormant, and
 Archives rot. Algorithms develop superstitions. Databases remember things their creators tried to forget.
 Some knowledge was never meant to be queried, only buried, and even burial leaves metadata.
 
-The characters you will meet are small, fallible, and compromised.
+The characters are small, fallible, and compromised.
 They survive on stimulants, favors, and half-truths.
 Their tools are brilliant and unreliable.
 Their victories are temporary cache hits.
 Loss is permanent storage.
+
+**> KEY THEMES DETECTED:**
+**> SURVEILLANCE AS INTIMACY.**
+**> IDENTITY AS AN EDITABLE FILE.**
+**> CONSENT BURIED IN UNREAD TERMS.**
+**> IMMORTALITY ACHIEVED THROUGH REPLICATION.**
+**> THE TERROR OF BEING PERFECTLY UNDERSTOOD.**
 
 Do not look for a happy ending.
 Endings are not clean. Resolution is optional. Persistence is mandatory.

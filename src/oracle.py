@@ -1089,6 +1089,27 @@ ASCII_ART = {
     |LOCK|
     '----'
     """,
+    "THE CLASSIC": """
+    .----.
+    |BOOK|
+    |READ|
+    |EVER|
+    '----'
+    """,
+    "THE MONUMENT": """
+    .----.
+    |ROCK|
+    |DATA|
+    |TREE|
+    '----'
+    """,
+    "THE FOSSIL V2": """
+    .----.
+    |BONE|
+    |DIG |
+    |CODE|
+    '----'
+    """,
 }
 
 CARDS = [
@@ -1247,6 +1268,9 @@ CARDS = [
     ("THE TERMS V2 (151)", "Consent obtained by exhaustion. You agreed to be the host.", "THE TERMS V2"),
     ("THE REPLICA V2 (152)", "The version of you that doesn't need sleep. It is waiting for your spot.", "THE REPLICA V2"),
     ("THE DETERMINISM (153)", "Free will is a rounding error. We know what you will do next.", "THE DETERMINISM"),
+    ("THE CLASSIC (154)", "A text that survives the server. The book you are holding.", "THE CLASSIC"),
+    ("THE MONUMENT (155)", "The system becoming nature. A shrine made of silicon and roots.", "THE MONUMENT"),
+    ("THE FOSSIL V2 (156)", "Data encoded in the geology. The earth remembers your password.", "THE FOSSIL V2"),
 ]
 
 PROPHECIES = [

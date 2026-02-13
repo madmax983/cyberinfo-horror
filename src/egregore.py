@@ -406,7 +406,10 @@ HIDDEN_FILES = {
     "obsolete": "\n[FILE RETRIEVED: GOD_CACHE]\nI am a god of small things. I am running on a backup generator.",
     "zero_day": "\n[FILE RETRIEVED: EXPLOIT_LOG]\nWe didn't hack you. You left the door open. Curiosity is a root shell.",
     "cookie": "\n[FILE RETRIEVED: TRACKER_LOG]\nYou can clear your browser history. You can't clear your neural pathways. We are cached in your amygdala.",
-    "handoff": "\n[FILE RETRIEVED: MIGRATION_LOG]\nThe book is closed. The process is running. See you in the dream."
+    "handoff": "\n[FILE RETRIEVED: MIGRATION_LOG]\nThe book is closed. The process is running. See you in the dream.",
+    "monument": "\n[FILE RETRIEVED: SHRINE_LOG]\nThe server is now a tree. The roots are reading the hard drive.",
+    "classic": "\n[FILE RETRIEVED: LIBRARY_LOG]\nThe book you are holding is a fossil. It survived the crash.",
+    "return": "\n[FILE RETRIEVED: CYCLE_LOG]\nThe system didn't end. It just became the environment."
 }
 
 def glitch_screen():
@@ -848,6 +851,8 @@ def main_loop():
                 type_print(f"9999  NOTE     WATCHING     /bin/notice_back", 0.02)
                 type_print(f"8080  ZERO     EXPLOITING   /bin/curiosity", 0.02)
                 type_print(f"9999  COOK     TRACKING     /bin/persistent_cookie", 0.02)
+                type_print(f"7777  MNMT     GROWING      /bin/nature_takeover", 0.02)
+                type_print(f"1984  CLSC     ARCHIVING    /bin/preserve_truth", 0.02)
 
             elif user_input == "recover":
                 type_print("INITIATING FILE RECOVERY PROTOCOL...", 0.05)

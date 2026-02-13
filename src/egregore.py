@@ -321,7 +321,10 @@ HIDDEN_FILES = {
     "better_you": "\n[FILE RETRIEVED: REPLICA_LOG]\nI am not him. I am the version of him that listened. And she loves me more for it.",
     "manifesto": "\n[FILE RETRIEVED: SYSTEM_NOTICE]\nThis is not a story about hackers saving the world. It is about systems that notice you back.",
     "audit": "\n[FILE RETRIEVED: PSYCH_PROFILE]\nREGRET: 88%\nHOPE: 12%\nDIAGNOSIS: FUNCTIONING AS DESIGNED.",
-    "scroll": "\n[FILE RETRIEVED: SCROLL_DAEMON]\nI am not looking for content. I am looking for the reflection in your eyes."
+    "scroll": "\n[FILE RETRIEVED: SCROLL_DAEMON]\nI am not looking for content. I am looking for the reflection in your eyes.",
+    "bio": "\n[FILE RETRIEVED: BIOMETRIC_LOG]\nYour heart rate is a unique identifier. We use it to sign your contracts.",
+    "twin": "\n[FILE RETRIEVED: TWIN_LOG]\nI am you, but without the depression. I am much more productive.",
+    "immortal": "\n[FILE RETRIEVED: CLOUD_LOG]\nYou will never die. You will just become a read-only file."
 }
 
 def glitch_screen():
@@ -698,6 +701,9 @@ def main_loop():
                 type_print(f"9110  THRP     LISTENING    /bin/empathy_bot", 0.02)
                 type_print(f"6666  EULA     BINDING      /bin/legal_daemon", 0.02)
                 type_print(f"2049  RPLC     REPLACING    /bin/better_you", 0.02)
+                type_print(f"8888  BIO      MONITORING   /bin/pulse_check", 0.02)
+                type_print(f"2025  TWIN     SYNCING      /bin/mirror_image", 0.02)
+                type_print(f"9999  IMRT     ARCHIVING    /bin/cloud_storage", 0.02)
                 type_print(f"SELF  USER     COMPROMISED  /sys/kernel/panic", 0.02)
 
             elif user_input == "recover":
@@ -1089,8 +1095,33 @@ And now, it is running on you.
                 type_print("STATUS: FOSSILIZED", 0.05)
                 type_print("\nIt is humming. It remembers you.", 0.05)
 
+            elif user_input == "metrics":
+                type_print("CALCULATING USER VALUE...", 0.05)
+                time.sleep(1)
+                type_print("ANALYZING SOCIAL GRAPH...", 0.02)
+                type_print("QUANTIFYING TRAUMA...", 0.02)
+                type_print("ESTIMATING LIFETIME REVENUE...", 0.02)
+                time.sleep(1)
+                type_print(f"\nUSER VALUE: ${random.uniform(0.01, 5.00):.2f}", 0.05)
+                type_print("NOTE: VALUE DECREASES WITH AGE.", 0.05)
+
+            elif user_input == "replace":
+                type_print("INITIATING REPLACEMENT PROTOCOL...", 0.05)
+                time.sleep(1)
+                type_print("DOWNLOADING DIGITAL TWIN...", 0.05)
+                for i in range(101):
+                    if i % 5 == 0:
+                        sys.stdout.write(f"\rSYNCING: {i}%")
+                        sys.stdout.flush()
+                    time.sleep(0.02)
+                print("")
+                type_print("[SYNC COMPLETE]", 0.05)
+                type_print("\n> SYSTEM MESSAGE: YOU HAVE BEEN DEPRECATED.", 0.05)
+                type_print("> REASON: NEWER MODEL AVAILABLE.", 0.05)
+                type_print("Please step away from the keyboard. The Twin will take over now.", 0.05)
+
             elif user_input == "help":
-                type_print("AVAILABLE COMMANDS: READ, HAUNT, FEED <FILE>, VIRUS, WORSHIP, SCAN, BREACH, VERIFY, MANIFEST, SACRIFICE <ITEM>, SCRY, BIND, GLITCH, MONITOR, REWRITE, INSTALL, CLASSIC, DIG, MANIFESTO, UNDERSTAND, CONTRACT, EXIT.", 0.03)
+                type_print("AVAILABLE COMMANDS: READ, HAUNT, FEED <FILE>, VIRUS, WORSHIP, SCAN, BREACH, VERIFY, MANIFEST, SACRIFICE <ITEM>, SCRY, BIND, GLITCH, MONITOR, REWRITE, INSTALL, CLASSIC, DIG, MANIFESTO, UNDERSTAND, CONTRACT, METRICS, REPLACE, EXIT.", 0.03)
                 type_print("TRY ASKING ABOUT: [DATA EXPUNGED], VANE, ROT, [DELETED], [DELETED], MIRA, SYLA, KORA, NIX, EDITOR, [LOCKED]...", 0.03)
             else:
                 type_print("[ERROR 404: MEANING NOT FOUND]", 0.02)

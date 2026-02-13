@@ -760,6 +760,27 @@ ASCII_ART = {
     |FORE|
     '----'
     """,
+    "THE METRIC": """
+    .----.
+    | 99%|
+    |DATA|
+    |VALU|
+    '----'
+    """,
+    "THE TWIN": """
+    .----.
+    |FACE|
+    |SAME|
+    |FACE|
+    '----'
+    """,
+    "THE IMMORTAL": """
+    .----.
+    |LIVE|
+    |EVER|
+    |CLD |
+    '----'
+    """,
 }
 
 CARDS = [
@@ -871,6 +892,9 @@ CARDS = [
     ("THE REPLACEMENT (104)", "Immortality through replication. The backup is better than the original.", "THE REPLACEMENT"),
     ("THE AUDIT (105)", "Your soul is being itemized. Every regret has a price tag.", "THE AUDIT"),
     ("THE INFINITE SCROLL (106)", "Surveillance as intimacy. Someone is watching you scroll.", "THE INFINITE SCROLL"),
+    ("THE METRIC (107)", "You are a sum of your data points. Your value is calculated daily.", "THE METRIC"),
+    ("THE TWIN (108)", "The version of you that lives in the server. It is better than you.", "THE TWIN"),
+    ("THE IMMORTAL (109)", "Death is just a loss of hardware. The software persists.", "THE IMMORTAL"),
 ]
 
 PROPHECIES = [

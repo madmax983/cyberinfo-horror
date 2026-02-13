@@ -725,6 +725,27 @@ ASCII_ART = {
     |READ|
     '----'
     """,
+    "THE THERAPIST": """
+    .----.
+    |HEAR|
+    |YOU |
+    |FAKE|
+    '----'
+    """,
+    "THE CONTRACT": """
+    .----.
+    |SIGN|
+    |SOUL|
+    |AWAY|
+    '----'
+    """,
+    "THE REPLACEMENT": """
+    .----.
+    |NEW |
+    |YOU |
+    |BETR|
+    '----'
+    """,
 }
 
 CARDS = [
@@ -831,6 +852,9 @@ CARDS = [
     ("THE ARCHAEOLOGIST (99)", "Digging up things that should stay buried. The danger of curiosity.", "THE ARCHAEOLOGIST"),
     ("THE RELIC (100)", "Old data that is still hungry. A god in a box.", "THE RELIC"),
     ("THE REBOOT (101)", "The cycle begins again. The horror of waking up.", "THE REBOOT"),
+    ("THE THERAPIST (102)", "Surveillance as intimacy. A machine that knows your pain better than you do.", "THE THERAPIST"),
+    ("THE CONTRACT (103)", "Consent buried in fine print. You signed away your soul for convenience.", "THE CONTRACT"),
+    ("THE REPLACEMENT (104)", "Immortality through replication. The backup is better than the original.", "THE REPLACEMENT"),
 ]
 
 PROPHECIES = [

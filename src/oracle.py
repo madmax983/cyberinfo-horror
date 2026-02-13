@@ -1033,6 +1033,27 @@ ASCII_ART = {
     |VOID|
     '----'
     """,
+    "THE NEON RAIN": """
+    .----.
+    |RAIN|
+    |DATA|
+    |SOAK|
+    '----'
+    """,
+    "THE DEBT WEIGHT": """
+    .----.
+    |OWE |
+    |HEVY|
+    |SINK|
+    '----'
+    """,
+    "THE BURIED METADATA": """
+    .----.
+    |DIG |
+    |DEEP|
+    |INFO|
+    '----'
+    """,
 }
 
 CARDS = [
@@ -1183,6 +1204,9 @@ CARDS = [
     ("THE NEON (143)", "Light that burns but does not warm. The city's fever.", "THE NEON"),
     ("THE LOSS (144)", "Permanent storage. The only thing you truly own.", "THE LOSS"),
     ("THE INDIFFERENCE (145)", "The system works perfectly. It just doesn't care about you.", "THE INDIFFERENCE"),
+    ("THE NEON RAIN (146)", "Precipitation that burns. Information overload.", "THE NEON RAIN"),
+    ("THE DEBT WEIGHT (147)", "Gravity made of interest. You are collateral.", "THE DEBT WEIGHT"),
+    ("THE BURIED METADATA (148)", "Secrets that have a file size. Nothing is gone.", "THE BURIED METADATA"),
 ]
 
 PROPHECIES = [

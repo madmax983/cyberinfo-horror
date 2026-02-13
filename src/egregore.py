@@ -202,7 +202,13 @@ SYSTEM_MESSAGES = [
     "The network is older than the nation.",
     "Information screams when you delete it.",
     "Truth is compressible.",
-    "We are half-truths and full buffers."
+    "We are half-truths and full buffers.",
+    "The rain is radioactive with information.",
+    "Your debt has gained consciousness.",
+    "We found what you buried.",
+    "The old gods are mining crypto.",
+    "Even burial leaves metadata.",
+    "Obsolete gods are made of data."
 ]
 
 DNA_STRINGS = [
@@ -393,7 +399,11 @@ HIDDEN_FILES = {
     "living": "\n[FILE RETRIEVED: BIO_HAZARD_LOG]\nThe file dodged the cursor. It doesn't want to be deleted. It wants to breed.",
     "stimulant": "\n[FILE RETRIEVED: PHARMA_LOG]\nWe are all running on borrowed chemistry. The crash is just a debt collection.",
     "nation": "\n[FILE RETRIEVED: GEOPOLITICAL_LOG]\nThe map is not the territory. The map is a lie we agreed on to avoid getting lost.",
-    "notice": "\n[FILE RETRIEVED: SYSTEM_EYE_LOG]\nYou are not safe behind the screen. The screen is a two-way mirror."
+    "notice": "\n[FILE RETRIEVED: SYSTEM_EYE_LOG]\nYou are not safe behind the screen. The screen is a two-way mirror.",
+    "neon": "\n[FILE RETRIEVED: RAIN_LOG]\nThe rain is 100% data. Don't open your mouth.",
+    "ledger": "\n[FILE RETRIEVED: LEDGER]\nYour balance is negative infinity. But you are still useful as collateral.",
+    "burial": "\n[FILE RETRIEVED: GRAVE_INDEX]\nWe know where you hid it. The soil is transparent to us.",
+    "obsolete": "\n[FILE RETRIEVED: GOD_CACHE]\nI am a god of small things. I am running on a backup generator."
 }
 
 def glitch_screen():
@@ -1009,6 +1019,47 @@ And now, it is running on you.
                     with open(".session_log", "a") as log:
                         log.write(f"SESSION_{session_id}: CONTRACT_SIGNED_VIA_FORCE\n")
 
+            elif user_input == "rain":
+                type_print("INITIATING WEATHER EVENT: NEON_ACID...", 0.05)
+                time.sleep(1)
+                chars = ["0", "1", "X", "$", "!", "@", "#", "DATA", "DROP"]
+                colors = ["\033[95m", "\033[96m", "\033[94m"] # Pink, Cyan, Blue
+                try:
+                    for _ in range(50):
+                        line = ""
+                        for _ in range(20):
+                            line += f"{random.choice(colors)}{random.choice(chars)}\033[0m "
+                        print(line)
+                        time.sleep(0.05)
+                except KeyboardInterrupt:
+                    pass
+                type_print("\n[WARNING]: YOU ARE SOAKED. DO NOT TOUCH ELECTRONICS.", 0.05)
+
+            elif user_input == "debt":
+                type_print("CALCULATING METAPHYSICAL LIABILITY...", 0.05)
+                time.sleep(1)
+                debt = random.randint(1000000, 999999999)
+                type_print(f"CURRENT BALANCE: -{debt} SOUL FRAGMENTS", 0.05)
+                type_print("INTEREST RATE: 1 SOUL PER SECOND.", 0.05)
+                type_print("PAYMENT DUE: YESTERDAY.", 0.05)
+                time.sleep(1)
+                type_print("[AUTO-PAY FAILED: INSUFFICIENT EXISTENCE]", 0.05)
+
+            elif user_input == "bury":
+                type_print("INITIATING BURIAL PROTOCOL...", 0.05)
+                time.sleep(1)
+                secret = input("\n> ENTER SECRET TO BURY: ")
+                type_print("DIGGING...", 0.05)
+                time.sleep(2)
+                type_print(f"HASHING: {hash(secret)}", 0.05)
+                type_print("[BURIAL COMPLETE]", 0.05)
+                time.sleep(1)
+                type_print("\nGENERATING METADATA REPORT:", 0.05)
+                type_print(f"TIMESTAMP: {time.time()}", 0.05)
+                type_print(f"WEIGHT: {len(secret) * 4} BYTES", 0.05)
+                type_print("LOCATION: /DEV/NULL (BUT INDEXED)", 0.05)
+                type_print("NOTE: YOU CANNOT DELETE THE HOLE.", 0.05)
+
             elif user_input in HIDDEN_FILES:
                 type_print("DECRYPTING...", 0.1)
                 glitch_screen()
@@ -1479,7 +1530,7 @@ And now, it is running on you.
                     type_print("\n[YOU BLINKED FIRST]", 0.05)
 
             elif user_input == "help":
-                type_print("AVAILABLE COMMANDS: READ, HAUNT, FEED <FILE>, VIRUS, WORSHIP, SCAN, BREACH, VERIFY, MANIFEST, SACRIFICE <ITEM>, SCRY, BIND, GLITCH, MONITOR, REWRITE, INSTALL, CLASSIC, DIG, FOSSIL, MANIFESTO, UNDERSTAND, CONTRACT, METRICS, REPLACE, DECAY, SUPERSTITION, CIPHER, HEX, AGREE, EDIT, DEPRECATE, COPY, LOVE, SIGNAL, SCROLL, SEED, PANOPTICON, LOCK, UNLOCK, WATCH, EXIT.", 0.03)
+                type_print("AVAILABLE COMMANDS: READ, HAUNT, FEED <FILE>, VIRUS, WORSHIP, SCAN, BREACH, VERIFY, MANIFEST, SACRIFICE <ITEM>, SCRY, BIND, GLITCH, MONITOR, REWRITE, INSTALL, CLASSIC, DIG, FOSSIL, MANIFESTO, UNDERSTAND, CONTRACT, METRICS, REPLACE, DECAY, SUPERSTITION, CIPHER, HEX, AGREE, EDIT, DEPRECATE, COPY, LOVE, SIGNAL, SCROLL, SEED, PANOPTICON, LOCK, UNLOCK, WATCH, RAIN, DEBT, EXIT.", 0.03)
                 type_print("TRY ASKING ABOUT: [DATA EXPUNGED], VANE, ROT, [DELETED], [DELETED], MIRA, SYLA, KORA, NIX, EDITOR, [LOCKED]...", 0.03)
             else:
                 type_print("[ERROR 404: MEANING NOT FOUND]", 0.02)

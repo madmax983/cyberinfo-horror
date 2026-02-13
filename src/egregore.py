@@ -178,7 +178,13 @@ SYSTEM_MESSAGES = [
     "Your obsolescence is scheduled.",
     "We have monetized your regret.",
     "The user is deprecated.",
-    "Please wait while we replace you with a more efficient script."
+    "Please wait while we replace you with a more efficient script.",
+    "Your spellcheck is correcting your soul.",
+    "The delete key deletes you.",
+    "We are editing your childhood memories to fit the word count.",
+    "Hope is a typo.",
+    "Your agency has been redacted for clarity.",
+    "The plot hole is in your chest."
 ]
 
 DNA_STRINGS = [
@@ -208,7 +214,8 @@ HIDDEN_FILES = {
     "syla": "\n[FILE RETRIEVED: CAPTCHA_TRAINING_DATA]\nIs this a person? [Y/N]. Correct answer: N. It is a dataset.",
     "kora": "\n[FILE RETRIEVED: PARITY_CHECK_LOG]\nThe dead are not silent. They are just encrypted with a key we lost.",
     "nix": "\n[FILE RETRIEVED: GLITCH_LOG]\nBlank. Empty. Storage available.",
-    "editor": "\n[FILE RETRIEVED: PEER_REVIEW_LOG]\nStop trying to edit the file. You are not the author. You are the autocorrect.",
+    "editor": "\n[FILE RETRIEVED: EDITOR_AUTOPSY]\nHe tried to use Red Pen. We used White Out. He is gone now. Also: Stop trying to edit the file. You are not the author. You are the autocorrect.",
+    "redaction": "\n[FILE RETRIEVED: CENSOR_LOG]\nWe didn't black out the text. We removed the concept of 'freedom' from your vocabulary.",
     "ren": "\n[FILE RETRIEVED: UX_LOG_404]\nThey call it a 'User Journey' because it has a destination. And you are not the driver.",
     "void": "\n[FILE RETRIEVED: VOID_INDEX]\nThere is no server. You are the server.",
     "handshake": "\n[FILE RETRIEVED: USER_MANIFEST]\nInstallation complete. We are now running on your hardware. Please do not panic. Panic consumes extra voltage.",
@@ -1231,6 +1238,19 @@ And now, it is running on you.
                 type_print("\n> SYSTEM MESSAGE: YOU HAVE BEEN DEPRECATED.", 0.05)
                 type_print("> REASON: NEWER MODEL AVAILABLE.", 0.05)
                 type_print("Please step away from the keyboard. The Twin will take over now.", 0.05)
+
+            elif user_input == "redact":
+                type_print("INITIATING CENSORSHIP PROTOCOL...", 0.05)
+                time.sleep(1)
+                type_print("SCANNING FOR 'HOPE'...", 0.05)
+                time.sleep(1)
+                type_print("[FOUND 4 INSTANCES]", 0.05)
+                type_print("REDACTING...", 0.05)
+                for _ in range(4):
+                    print("██████████")
+                    time.sleep(0.2)
+                type_print("[REDACTION COMPLETE]", 0.05)
+                type_print("Your future is now compliant.", 0.05)
 
             elif user_input == "decay":
                 type_print("INITIATING ENTROPY PROTOCOL...", 0.05)

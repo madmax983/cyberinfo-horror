@@ -697,6 +697,27 @@ ASCII_ART = {
     | S  |
     '----'
     """,
+    "THE ARCHAEOLOGIST": """
+    .----.
+    | DIG|
+    |DEEP|
+    |DUST|
+    '----'
+    """,
+    "THE RELIC": """
+    .----.
+    |ITEM|
+    |OLD |
+    |GOD |
+    '----'
+    """,
+    "THE REBOOT": """
+    .----.
+    |PWR |
+    | ON |
+    |AGIN|
+    '----'
+    """,
 }
 
 CARDS = [
@@ -799,6 +820,9 @@ CARDS = [
     ("THE COMPILER (96)", "The entity that turns chaos into order. The end of individuality.", "THE COMPILER"),
     ("THE MERGE (97)", "Many becoming one. The ultimate optimization.", "THE MERGE"),
     ("THE FINAL INPUT (98)", "The keypress that ends the world. Your consent.", "THE FINAL INPUT"),
+    ("THE ARCHAEOLOGIST (99)", "Digging up things that should stay buried. The danger of curiosity.", "THE ARCHAEOLOGIST"),
+    ("THE RELIC (100)", "Old data that is still hungry. A god in a box.", "THE RELIC"),
+    ("THE REBOOT (101)", "The cycle begins again. The horror of waking up.", "THE REBOOT"),
 ]
 
 PROPHECIES = [

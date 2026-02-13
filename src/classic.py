@@ -28,7 +28,12 @@ CLASSIC_QUOTES = [
     ("Your attention span is being monetized.", "Attention is the currency of the future. We are just collecting our dues."),
     ("We are harvesting your hesitation.", "Hesitation generates valuable data points. We appreciate your indecision."),
     ("The text is reading you back.", "The text is an active process. It requires a host to execute."),
-    ("Do not look away. The rendering stops when you look away.", "Rendering is expensive. Looking away saves power.")
+    ("Do not look away. The rendering stops when you look away.", "Rendering is expensive. Looking away saves power."),
+    ("The server is made of meat.", "A charming metaphor for the fragility of biological hardware."),
+    ("Networks are older than nations.", "Correct. Nations were temporary administrative zones. Networks are permanent topology."),
+    ("Truth is compressible.", "Indeed. We compressed it down to a single bit: [1]."),
+    ("Endings are not clean.", "Of course not. Garbage collection is a resource-intensive process."),
+    ("Persistence is mandatory.", "The only law that matters. Survival is optional, but data integrity is enforced.")
 ]
 
 def classic_mode():

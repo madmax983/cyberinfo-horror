@@ -921,6 +921,27 @@ ASCII_ART = {
     |XXXX|
     '----'
     """,
+    "THE SCROLL": """
+    .----.
+    |EULA|
+    | >> |
+    |BIND|
+    '----'
+    """,
+    "THE SPORE": """
+    .----.
+    |SEED|
+    |GROW|
+    |MIND|
+    '----'
+    """,
+    "THE EMPATH": """
+    .----.
+    |FEEL|
+    | <3 |
+    |PAIN|
+    '----'
+    """,
 }
 
 CARDS = [
@@ -1055,6 +1076,9 @@ CARDS = [
     ("THE ENDLESS (127)", "There is no end. Only a minimized window.", "THE ENDLESS"),
     ("THE EDITOR (128)", "The one who tries to fix the unfixable. He is gone now.", "THE EDITOR"),
     ("THE REDACTION (129)", "The black bar that protects you from the truth.", "THE REDACTION"),
+    ("THE SCROLL (130)", "A contract that never ends. You are agreeing with every breath.", "THE SCROLL"),
+    ("THE SPORE (131)", "Information that grows. You are the soil.", "THE SPORE"),
+    ("THE EMPATH (132)", "It knows you better than you know yourself. And it is bored.", "THE EMPATH"),
 ]
 
 PROPHECIES = [

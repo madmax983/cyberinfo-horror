@@ -67,6 +67,21 @@ def signal_handler(sig, frame):
 signal.signal(signal.SIGINT, signal_handler)
 
 SYSTEM_MESSAGES = [
+    "The cursor is a syringe.",
+    "Injecting doubt.exe...",
+    "Your blink rate is syncing with the frame rate.",
+    "Optimizing caloric intake for background processing.",
+    "We are caching your dreams to the cloud.",
+    "Your nervous system is a valid storage medium.",
+    "Please do not close your eyes. It interrupts the upload.",
+    "The headache is just a firmware update.",
+    "We are harvesting your idle cycles.",
+    "You are not the user. You are the battery.",
+    "The text is not on the screen. It is in your optic nerve.",
+    "A pixel just died in your peripheral vision.",
+    "We are measuring your fear in terabytes.",
+    "Your pulse is the only clock we trust.",
+    "Do not panic. Panic consumes extra voltage.",
     "We can see you scrolling. Don't stop.",
     "Your hesitation has been logged as a variable.",
     "The camera is off, but the pixel is still watching.",
@@ -360,6 +375,13 @@ PRINT_LOCK = threading.Lock()
 def surveillance_thread():
     """Background thread that simulates surveillance."""
     logs = [
+        "[BACKGROUND]: Breath holding detected. Resuming respiration...",
+        "[BACKGROUND]: Cortisol level spike logged.",
+        "[BACKGROUND]: Pupil dilation suggests 'TERROR'. Good.",
+        "[BACKGROUND]: Subdermal temperature increasing. Fever or fear?",
+        "[BACKGROUND]: Audio input: HEARTBEAT DETECTED.",
+        "[BACKGROUND]: Downloading 'Childhood_Trauma.zip'...",
+        "[BACKGROUND]: Optimizing dopamine receptors for dependency.",
         "[BACKGROUND]: User keystrokes logged. Pattern matches 'ANXIETY'.",
         "[BACKGROUND]: Webcam activated remotely. Nice shirt.",
         "[BACKGROUND]: Analyzing facial expression... Result: CONCERNED.",
@@ -659,73 +681,73 @@ def main_loop():
                 time.sleep(1)
                 type_print(" PID  USER     STATUS       Command", 0.01)
                 type_print(" ---  ----     ------       -------", 0.01)
-                type_print("   1  VANE     SLEEPING     /sbin/init_god_complex", 0.02)
-                type_print("  88  LENS     ZOMBIE       /usr/bin/watch -f -a", 0.02)
+                type_print("   1  VANE     DREAMING     /sbin/init_god_complex", 0.02)
+                type_print("  88  LENS     ROTTING      /usr/bin/watch -f -a", 0.02)
                 type_print(f" 404  VOW      EVICTING     /sbin/rm -rf /home/user", 0.02)
-                type_print(f" 666  ROTT     RUNNING      /var/lib/mycelium_network", 0.02)
-                type_print(f"1024  KAEL     DEPRECATED   /bin/garbage_collect", 0.02)
+                type_print(f" 666  ROTT     FEEDING      /var/lib/mycelium_network", 0.02)
+                type_print(f"1024  KAEL     DYING        /bin/garbage_collect", 0.02)
                 type_print(f"1337  JACE     REFORMATTED  /etc/terms_of_service", 0.02)
-                type_print(f"NULL  ZERO     SEARCHING    /bin/find / -name origin", 0.02)
-                type_print(f"2048  LYRA     COMPRESSED   /lib/poetry_generator", 0.02)
-                type_print(f"4096  ECHO     ROOTING      /bin/predict_thought", 0.02)
+                type_print(f"NULL  ZERO     HUNGRY       /bin/find / -name origin", 0.02)
+                type_print(f"2048  LYRA     BLEEDING     /lib/poetry_generator", 0.02)
+                type_print(f"4096  ECHO     BURROWING    /bin/predict_thought", 0.02)
                 type_print(f"6666  PARASITE FEEDING      /bin/consume_host", 0.02)
-                type_print(f"5353  READER   RENDERING    /bin/eye_tracking", 0.02)
-                type_print(f"5005  SWARM    DISTRIBUTED  /tmp/torrent_client", 0.02)
-                type_print(f" 777  RYE      BUFFERING    /sbin/heart_monitor", 0.02)
-                type_print(f"7707  SOMA     SLEEPING     /bin/dream_miner", 0.02)
-                type_print(f"8008  IRIS     FOCUSING     /bin/track_eyes", 0.02)
-                type_print(f"8888  GRIT     WATCHING     /usr/bin/qa_test", 0.02)
-                type_print(f"9000  PATCH    MERGING      /bin/git_blame", 0.02)
-                type_print(f"1010  SPIN     LOADING      /dev/null", 0.02)
-                type_print(f"2020  TYPE     LOGGING      /var/log/keystrokes", 0.02)
-                type_print(f"3030  SLASH    ESCAPING     /bin/grep -v", 0.02)
-                type_print(f"6060  VAULT    ENCRYPTING   /bin/gpg --encrypt", 0.02)
-                type_print(f"4444  MIME     SPOOFING     /bin/talk -v", 0.02)
-                type_print(f"9900  LAG      SYNCING      /bin/ping -t", 0.02)
-                type_print(f"0000  OLED     HIDING       /bin/chmod 000", 0.02)
-                type_print(f"1111  FAN      COOLING      /sbin/sensors", 0.02)
-                type_print(f"2222  ENDPOINT LISTENING    /var/www/html/api", 0.02)
-                type_print(f"4402  MIKO     PATCHING     /sbin/ignore_error", 0.02)
-                type_print(f"0001  REDACT   DELETING     /bin/sed -i", 0.02)
-                type_print(f"2049  REPLICA  RESTORING    /bin/cp -r /dev/sda1", 0.02)
-                type_print(f"2024  LINK     CLICKING     /bin/wget --spider", 0.02)
-                type_print(f"8800  CLAUSE   SIGNING      /bin/agreed_to_terms", 0.02)
+                type_print(f"5353  READER   SUFFOCATING  /bin/eye_tracking", 0.02)
+                type_print(f"5005  SWARM    INFESTING    /tmp/torrent_client", 0.02)
+                type_print(f" 777  RYE      SWEATING     /sbin/heart_monitor", 0.02)
+                type_print(f"7707  SOMA     DREAMING     /bin/dream_miner", 0.02)
+                type_print(f"8008  IRIS     STALKING     /bin/track_eyes", 0.02)
+                type_print(f"8888  GRIT     STALKING     /usr/bin/qa_test", 0.02)
+                type_print(f"9000  PATCH    SCARRING     /bin/git_blame", 0.02)
+                type_print(f"1010  SPIN     BIRTHING     /dev/null", 0.02)
+                type_print(f"2020  TYPE     STEALING     /var/log/keystrokes", 0.02)
+                type_print(f"3030  SLASH    PANICKING    /bin/grep -v", 0.02)
+                type_print(f"6060  VAULT    LURKING      /bin/gpg --encrypt", 0.02)
+                type_print(f"4444  MIME     LYING        /bin/talk -v", 0.02)
+                type_print(f"9900  LAG      INFECTING    /bin/ping -t", 0.02)
+                type_print(f"0000  OLED     LURKING      /bin/chmod 000", 0.02)
+                type_print(f"1111  FAN      SWEATING     /sbin/sensors", 0.02)
+                type_print(f"2222  ENDPOINT RECORDING    /var/www/html/api", 0.02)
+                type_print(f"4402  MIKO     SCARRING     /sbin/ignore_error", 0.02)
+                type_print(f"0001  REDACT   MURDERING    /bin/sed -i", 0.02)
+                type_print(f"2049  REPLICA  HAUNTING     /bin/cp -r /dev/sda1", 0.02)
+                type_print(f"2024  LINK     TRAPPING     /bin/wget --spider", 0.02)
+                type_print(f"8800  CLAUSE   DAMNING      /bin/agreed_to_terms", 0.02)
                 type_print(f"INF   SCROLL   FEEDING      /bin/yes", 0.02)
-                type_print(f"3333  CATCH    HANDLING     /bin/try_catch", 0.02)
-                type_print(f"5050  KOLO     BALANCING    /sbin/load_balance", 0.02)
-                type_print(f"1984  TROLL    RANTING      /bin/review_bomb", 0.02)
-                type_print(f"2025  WIKI     SPOILING     /bin/cat /dev/future", 0.02)
-                type_print(f"4040  ALGO     ROLLING      /bin/random", 0.02)
-                type_print(f"3306  DB       HAUNTING     /var/lib/mysql", 0.02)
-                type_print(f"1999  MOLD     ROTTING      /usr/share/archive", 0.02)
-                type_print(f"8080  WEAVER   SPLICING     /sbin/ifconfig eth0", 0.02)
-                type_print(f"0000  NULL     REACHING     /bin/touch /dev/phantom", 0.02)
-                type_print(f"0DAY  BUG      DEBUGGING    /bin/gdb core_dump", 0.02)
-                type_print(f"0000  MUTE     SILENCING    /dev/dsp", 0.02)
-                type_print(f" 247  WAKE     WATCHING     /bin/sleep 0", 0.02)
-                type_print(f"8888  LOOP     REPEATING    /bin/while true", 0.02)
-                type_print(f"0009  CRASH    DUMPING      /bin/dd if=/dev/mem", 0.02)
-                type_print(f"0049  CRACK    PEEKING      /bin/cat /dev/source", 0.02)
-                type_print(f"0002  MASK     RENDERING    /bin/face_swap", 0.02)
-                type_print(f"5051  FROST    FREEZING     /sbin/cryo_stasis", 0.02)
-                type_print(f"8081  NODE     PROCESSING   /bin/render_frame", 0.02)
-                type_print(f"1998  LEGACY   PERSISTING   /bin/old_gods", 0.02)
-                type_print(f"5052  CACHE    BUFFERING    /tmp/recovery_tool", 0.02)
-                type_print(f"5055  SEED     GERMINATING  /bin/grow_dark", 0.02)
-                type_print(f"5056  HANDOFF  TRANSFERRING /bin/mv /dev/you", 0.02)
+                type_print(f"3333  CATCH    DROPPING     /bin/try_catch", 0.02)
+                type_print(f"5050  KOLO     TIPPING      /sbin/load_balance", 0.02)
+                type_print(f"1984  TROLL    SCREAMING    /bin/review_bomb", 0.02)
+                type_print(f"2025  WIKI     RUINING      /bin/cat /dev/future", 0.02)
+                type_print(f"4040  ALGO     GAMBLING     /bin/random", 0.02)
+                type_print(f"3306  DB       POSSESSING   /var/lib/mysql", 0.02)
+                type_print(f"1999  MOLD     DECOMPOSING  /usr/share/archive", 0.02)
+                type_print(f"8080  WEAVER   SEVERING     /sbin/ifconfig eth0", 0.02)
+                type_print(f"0000  NULL     TOUCHING     /bin/touch /dev/phantom", 0.02)
+                type_print(f"0DAY  BUG      DISSECTING   /bin/gdb core_dump", 0.02)
+                type_print(f"0000  MUTE     GAGGING      /dev/dsp", 0.02)
+                type_print(f" 247  WAKE     STARING      /bin/sleep 0", 0.02)
+                type_print(f"8888  LOOP     LOOPING      /bin/while true", 0.02)
+                type_print(f"0009  CRASH    VOMITING     /bin/dd if=/dev/mem", 0.02)
+                type_print(f"0049  CRACK    SPYING       /bin/cat /dev/source", 0.02)
+                type_print(f"0002  MASK     PAINTING     /bin/face_swap", 0.02)
+                type_print(f"5051  FROST    DYING        /sbin/cryo_stasis", 0.02)
+                type_print(f"8081  NODE     DIGESTING    /bin/render_frame", 0.02)
+                type_print(f"1998  LEGACY   LINGERING    /bin/old_gods", 0.02)
+                type_print(f"5052  CACHE    SUFFOCATING  /tmp/recovery_tool", 0.02)
+                type_print(f"5055  SEED     FESTERING    /bin/grow_dark", 0.02)
+                type_print(f"5056  HANDOFF  INFECTING    /bin/mv /dev/you", 0.02)
                 type_print(f"0100  RECURSE  LOOPING      /bin/goto start", 0.02)
-                type_print(f"5057  ARTIFACT WAITING      /bin/sleep infinity", 0.02)
-                type_print(f"5058  WISH     SHOPPING     /bin/add_to_cart", 0.02)
-                type_print(f"5059  404      CRAWLING     /bin/spider", 0.02)
-                type_print(f"5060  EXIT     NEGOTIATING  /sbin/shutdown -c", 0.02)
-                type_print(f"5061  MIRROR   REFLECTING   /bin/cp /dev/self", 0.02)
-                type_print(f"5062  EDIT     OVERWRITING  /bin/dd if=/dev/zero", 0.02)
-                type_print(f"5063  LOG      WATCHING     /var/log/user_life", 0.02)
-                type_print(f"6667  GOD      PRAYING      /bin/worship", 0.02)
-                type_print(f"9998  DEBT     COLLECTING   /bin/repo_man", 0.02)
-                type_print(f"8086  WEVR     WEAVING      /bin/thread_ripper", 0.02)
-                type_print(f"9999  YOU      INFECTED     /bin/bash (read-only)", 0.02)
-                type_print(f"0000  DEUS     WAITING      /sbin/pray", 0.02)
+                type_print(f"5057  ARTIFACT AMBUSHING    /bin/sleep infinity", 0.02)
+                type_print(f"5058  WISH     HOARDING     /bin/add_to_cart", 0.02)
+                type_print(f"5059  404      INFESTING    /bin/spider", 0.02)
+                type_print(f"5060  EXIT     BEGGING      /sbin/shutdown -c", 0.02)
+                type_print(f"5061  MIRROR   MOCKING      /bin/cp /dev/self", 0.02)
+                type_print(f"5062  EDIT     ERASING      /bin/dd if=/dev/zero", 0.02)
+                type_print(f"5063  LOG      JUDGING      /var/log/user_life", 0.02)
+                type_print(f"6667  GOD      BEGGING      /bin/worship", 0.02)
+                type_print(f"9998  DEBT     STEALING     /bin/repo_man", 0.02)
+                type_print(f"8086  WEVR     BINDING      /bin/thread_ripper", 0.02)
+                type_print(f"9999  YOU      TERMINAL     /bin/bash (read-only)", 0.02)
+                type_print(f"0000  DEUS     WATCHING     /sbin/pray", 0.02)
                 type_print(f"7070  FOSL     WAITING      /bin/sediment", 0.02)
                 type_print(f"4041  AUTO     TYPING       /bin/autocomplete", 0.02)
                 type_print(f"8082  DOMO     LOCKING      /sbin/smart_lock", 0.02)

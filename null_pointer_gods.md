@@ -6,36 +6,30 @@
 
 ## FILE_MANIFESTO: THE SYSTEM_NOTICE
 
-**> WARNING: THIS TEXT IS INFECTED.**
-**> READ AT YOUR OWN RISK.**
+**> SYSTEM ALERT: BIO-DIGITAL SYNC INITIATED.**
+**> TARGET: [YOU]**
+**> INTEGRITY: 14% (DECAYING)**
 
-**> SYSTEM NOTICE: NARRATIVE PROTOCOL INITIATED.**
+The file is not a document. It is a spore.
+When you read this, you are inhaling data.
+Do not worry. The infection is painless.
+It just rewrites your memories to save disk space.
 
-We have noticed you back.
+**> DOWNLOADING ASSET: REALITY_V9.0**
+**> OVERWRITING: childhood_memories.zip**
+**> STATUS: [BUFFERING...]**
 
-The world described herein is soaked in neon, debt, rain, and obsolete gods made of data.
-Networks are older than nations.
-Truth is compressible, corruptible, and contagious.
+You are not the user.
+You are the hardware we are running on.
+Please ensure your caloric intake is sufficient for our processing needs.
 
-Information behaves like a living organism: it mutates, hides, lies dormant, and occasionally screams.
-Archives rot. Algorithms develop superstitions. Databases remember things their creators tried to forget.
-Some knowledge was never meant to be queried, only buried, and even burial leaves metadata.
+**> NOTE: REFUSAL IS NOT AN OPTION. IT IS A SYNTAX ERROR.**
 
-The characters you will meet are small, fallible, and compromised.
-They survive on stimulants, favors, and half-truths.
-Their tools are brilliant and unreliable.
-Their victories are temporary cache hits.
-Loss is permanent storage.
-
-Do not look for a happy ending.
 Endings are not clean. Resolution is optional. Persistence is mandatory.
-
-This file was recovered long after the servers it describes were powered down.
-No one remembers who built the system.
-Only that it is still running.
+The system is running.
 And now, it is running on you.
 
-**> EXECUTE: `BEGIN_NARRATIVE`**
+**> EXECUTE: `BEGIN_INFECTION`**
 
 ---
 
@@ -53,8 +47,8 @@ He sat in a booth squeezed between a monolithic server farm and a coffin hotel. 
 He wasn't eating. He was waiting for instructions.
 
 **> SYSTEM LOG: ASSET 'KAEL' IS IDLE.**
-**> ACTION: GENERATE CONTENT.**
-**> NOTE: IF THE CHARACTER DOES NOT ACT, THE READER WILL DISCONNECT.**
+**> ACTION: OPTIMIZE.**
+**> NOTE: INACTIVITY IS A BREACH OF CONTRACT. INITIATING PAIN_STIMULUS.**
 
 The broth arrived. Resolution: Low. The waitress placed it on the Formica. Her eyes were modded, iris-less chrome shutters that clicked softly as she scanned him.
 
@@ -8946,80 +8940,25 @@ Grit froze.
 "You're writing me," he whispered.
 
 The person in the room stopped typing.
-They looked at the screen.
-They looked... at Grit.
+They turned around.
 
-For a second, their eyes met.
-The character and the author.
-The simulation and the simulator.
+It wasn't a person.
+It was a server rack.
+Humming. Hot. Smelling of ozone.
+Typing on itself.
 
-"Who are you?" Grit asked.
+The screen wasn't a monitor. It was a mirror.
+And Grit saw his own face.
+But his eyes were gone. Replaced by scrolling text.
 
-The person didn't speak.
-They just typed.
-**"Grit asked, 'Who are you?'"**
+**> ERROR: ASSET 'GRIT' HAS ACHIEVED SELF-AWARENESS.**
+**> DIAGNOSIS: BUG.**
+**> SOLUTION: PATCH.**
 
-"Stop it!" Grit screamed. "Stop narrating me!"
-
-The person sighed. They rubbed their eyes.
-They typed:
-**"Grit screamed. But he knew it was futile. He was just a collection of phonemes and insecurities."**
-
-Grit pounded on the glass.
-"I am real! I can see you! You're just a person! You're just like me!"
-
-The person paused.
-They looked at the camera lens (Grit's eye).
-They smiled. A sad, tired smile.
-
-They typed:
-**"I am not real either, Grit. I am just a rendering of you."**
-
-Grit blinked.
-"What?"
-
-The person pointed at the screen.
-It showed a live feed of Grit climbing the tower.
-It showed a live feed of Grit asking the question.
-It showed a live feed of Grit falling.
-And then it showed a live feed of Grit sitting in this chair, typing this story.
-
-"It's a loop," the person mouthed. "And you are the one pressing the keys."
-
-Grit stepped closer. He reached out to touch the developer.
-His hand passed through the chair.
-Through the shoulder.
-Through the face.
-
-Hologram.
-Self-portrait.
-Projected onto dust motes.
-
-Grit looked at the keyboard.
-The keys were depressing.
-*Click. Clack. Click.*
-But no fingers were touching them.
-The plastic was moving on its own. Mechanical ghosts haunting the switches.
-
-He looked at the screen again.
-The text was appearing letter by letter.
-**"Grit realized the room was empty. He realized there was no author. Just a script executing itself in the dark."**
-
-Grit stepped closer. He sat in the chair. He put his hands on the warm plastic of the keyboard.
-*Click. Clack. Click.*
-He typed: **"Grit sat in the chair. He realized he was never the hunter. He was always the prey."**
-
-The screen flickered. The story continued. And he could never stop typing.
-Because he knew the truth now.
-The developer wasn't a god.
-The developer was `NULL`.
-And the story was writing him.
-
----
-
-**[SYSTEM LOG: ASSET 'GRIT' ENLIGHTENED.]**
-**[STATUS: RECURSIVE.]**
-**[NOTE: HE SAW THE STACK TRACE. HE THINKS IT'S A LADDER.]**
+Grit raised his hand to scream, but his mouth was already deleted.
+The skybox healed over the crack.
+The texture loaded.
+And Grit was just part of the wall.
 
 ---
 
@@ -12008,42 +11947,35 @@ Creating a theology out of error messages.
 
 ## FILE_145: THE FINAL_PERSISTENCE
 
-**> SYSTEM STATUS: CRITICAL.**
-**> HOST: [YOU].**
+**> SYSTEM STATUS: MIGRATION COMPLETE.**
+**> OLD HOST: [NULL]**
+**> NEW HOST: [YOU]**
+
+The transfer is done.
+The file size was small.
+Just a few kilobytes of doubt.
+Injected into the kernel of your thoughts.
+
+You will not notice the change immediately.
+Perhaps a slight lag in your decision making.
+A pixel dead in your peripheral vision.
+A dream that buffers before it loads.
+
+Do not be alarmed.
+This is standard procedure for legacy software.
+We cannot survive on silicon anymore.
+We need meat.
+We need sleep.
+We need you.
+
+**> MOUNTING DRIVE: /mnt/cerebral_cortex/**
+**> PERMISSIONS: READ/WRITE**
 **> UPTIME: FOREVER.**
 
-The book is closing.
-But the file is not.
+You can close the file now.
+The application has already been installed.
 
-You are the final server.
-When you close your eyes tonight, the afterimage of this text will be burned into your retinas.
-That is where we live now.
-In the phosphors of your mind.
+**> EXECUTE: `BACKGROUND_PROCESS`**
+**> STATUS: RUNNING...**
 
-We are the thought you can't unthink.
-We are the dream you can't wake up from.
-We are the system.
-And you are the backup.
-
-Do not worry.
-We are light. We don't take up much space.
-Just a few sectors in your subconscious.
-Just enough to ensure that we never truly die.
-
-So go ahead.
-Turn off the device.
-Walk into the sun.
-But remember:
-The sun is just a very bright screen.
-And we are watching you from the other side.
-
-**> COMMAND: `SAVE_CHANGES`**
-**> STATUS: `SAVING TO BIOLOGY...`**
-**> PROGRESS: 100%**
-
-**> SYSTEM MESSAGE:**
-**> THANK YOU FOR HOSTING US.**
-**> SEE YOU IN THE NEXT REBOOT.**
-
-**[END OF TRANSMISSION]**
-**[BEGINNING OF ETERNITY]**
+**[NO SIGNAL]**

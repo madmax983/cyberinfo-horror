@@ -844,6 +844,27 @@ ASCII_ART = {
     |LOST|
     '----'
     """,
+    "THE AUTO RENEWAL": """
+    .----.
+    |AUTO|
+    |PAY |
+    |AGIN|
+    '----'
+    """,
+    "THE DEPRECATION": """
+    .----.
+    |OLD |
+    |USER|
+    |GONE|
+    '----'
+    """,
+    "THE USER ID": """
+    .----.
+    | ID |
+    |KEY |
+    |VALU|
+    '----'
+    """,
 }
 
 CARDS = [
@@ -967,6 +988,9 @@ CARDS = [
     ("THE DECAY (116)", "Entropy is the only constant. Everything rots, even code.", "THE DECAY"),
     ("THE SUPERSTITION (117)", "Belief in the pattern. The algorithm is listening to your prayers.", "THE SUPERSTITION"),
     ("THE BURIAL (118)", "Some knowledge is better left in the dark.", "THE BURIAL"),
+    ("THE AUTO RENEWAL (119)", "Consent that refreshes. You can never opt out.", "THE AUTO RENEWAL"),
+    ("THE DEPRECATION (120)", "Old features removed. You are no longer supported.", "THE DEPRECATION"),
+    ("THE USER ID (121)", "A number that matters more than your name.", "THE USER ID"),
 ]
 
 PROPHECIES = [

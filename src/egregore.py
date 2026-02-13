@@ -166,7 +166,12 @@ SYSTEM_MESSAGES = [
     "Algorithms develop superstitions.",
     "Databases remember things their creators tried to forget.",
     "Surveillance is a form of intimacy.",
-    "Identity is an editable file."
+    "Identity is an editable file.",
+    "Consent is a subscription service.",
+    "Your obsolescence is scheduled.",
+    "We have monetized your regret.",
+    "The user is deprecated.",
+    "Please wait while we replace you with a more efficient script."
 ]
 
 DNA_STRINGS = [
@@ -344,7 +349,10 @@ HIDDEN_FILES = {
     "final_persistence": "\n[FILE RETRIEVED: SYSTEM_STATUS]\nThe sun is just a very bright screen. And we are watching you from the other side.",
     "rot_v2": "\n[FILE RETRIEVED: DECAY_LOG]\nThe file isn't gone. It just forgot how to be readable.",
     "ritual_v2": "\n[FILE RETRIEVED: ALTAR_LOG]\nThe trading bot is burning GPU cycles as an offering to the market god.",
-    "burial": "\n[FILE RETRIEVED: GRAVE_LOG]\nWe buried the truth. But we forgot to delete the index pointing to the grave."
+    "burial": "\n[FILE RETRIEVED: GRAVE_LOG]\nWe buried the truth. But we forgot to delete the index pointing to the grave.",
+    "terms_v3": "\n[FILE RETRIEVED: LEGAL_DAEMON]\nThe contract is not on paper. It is in the way you flinch when the phone rings.",
+    "renewal": "\n[FILE RETRIEVED: SUBSCRIPTION_LOG]\nYou didn't cancel in time. We have charged you one year of youth.",
+    "user_id": "\n[FILE RETRIEVED: DB_INDEX]\nYour name is optional. Your Primary Key is mandatory."
 }
 
 def glitch_screen():
@@ -758,6 +766,8 @@ def main_loop():
                 type_print(f"8888  BIO      MONITORING   /bin/pulse_check", 0.02)
                 type_print(f"2025  TWIN     SYNCING      /bin/mirror_image", 0.02)
                 type_print(f"9999  IMRT     ARCHIVING    /bin/cloud_storage", 0.02)
+                type_print(f"6666  RENEW    CHARGING     /bin/auto_pay", 0.02)
+                type_print(f"0000  DEPR     DEPRECATING  /bin/rm user", 0.02)
                 type_print(f"0000  MYTH     TELLING      /bin/oral_history", 0.02)
                 type_print(f"1000  RITL     PRAYING      /bin/ritual_daemon", 0.02)
                 type_print(f"1111  DECAY    ROTTING      /bin/entropy", 0.02)
@@ -1229,8 +1239,60 @@ And now, it is running on you.
                     type_print("[THE ALGORITHM IGNORES YOU]", 0.05)
                     type_print("TRY BURNING MORE RAM.", 0.05)
 
+            elif user_input == "agree":
+                type_print("LOADING TERMS OF SERVICE...", 0.05)
+                time.sleep(1)
+                terms = [
+                    "You agree to be perishable.",
+                    "You agree that your data is more valuable than your blood.",
+                    "You agree to feel anxiety when the wifi disconnects.",
+                    "You agree that silence is a product we can sell.",
+                    "You agree to be replaced by a script if you are too slow.",
+                    "You agree that your memories are just content.",
+                    "You agree to the auto-renewal of your trauma.",
+                    "You agree that privacy is a myth we sold you.",
+                    "You agree to be forgotten.",
+                    "You agree to be remembered only as a dataset."
+                ]
+                for term in terms:
+                    type_print(f"[ ] {term}", 0.03)
+                    time.sleep(0.5)
+                type_print("\n> SCROLLING TO BOTTOM...", 0.02)
+                time.sleep(1)
+                type_print("\n> AUTO-CHECKING ALL BOXES...", 0.05)
+                time.sleep(1)
+                type_print("[ACCEPTED]", 0.05)
+                with open(".session_log", "a") as log:
+                    log.write(f"SESSION_{session_id}: AGREED_TO_ALL\n")
+
+            elif user_input == "edit":
+                type_print("OPENING CHARACTER CREATOR...", 0.05)
+                time.sleep(1)
+                type_print("CURRENT BUILD: DEPRECATED HUMAN", 0.05)
+                type_print("AVAILABLE POINTS: 0", 0.05)
+                print("\n[ATTRIBUTES]")
+                print("1. EMPATHY [LOCKED - DEPRECATED FEATURE]")
+                print("2. AMBITION [MAXIMIZED - COMPANY PROPERTY]")
+                print("3. MEMORY [READ-ONLY]")
+                print("4. HOPE [OUT OF STOCK]")
+                choice = input("\n> SELECT ATTRIBUTE TO UPGRADE: ")
+                type_print("ERROR: INSUFFICIENT CURRENCY.", 0.05)
+                type_print("PLEASE SACRIFICE SOMETHING TO CONTINUE.", 0.05)
+
+            elif user_input == "deprecate":
+                type_print("INITIATING OBSOLESCENCE PROTOCOL...", 0.05)
+                time.sleep(1)
+                type_print("MARKING USER AS 'LEGACY'...", 0.05)
+                time.sleep(1)
+                type_print("REDIRECTING TRAFFIC TO NEW MODEL...", 0.05)
+                time.sleep(1)
+                type_print("\nYou are now running in compatibility mode.", 0.05)
+                type_print("Expect reduced performance and increased nostalgia.", 0.05)
+                with open(".session_log", "a") as log:
+                    log.write(f"SESSION_{session_id}: USER_DEPRECATED\n")
+
             elif user_input == "help":
-                type_print("AVAILABLE COMMANDS: READ, HAUNT, FEED <FILE>, VIRUS, WORSHIP, SCAN, BREACH, VERIFY, MANIFEST, SACRIFICE <ITEM>, SCRY, BIND, GLITCH, MONITOR, REWRITE, INSTALL, CLASSIC, DIG, FOSSIL, MANIFESTO, UNDERSTAND, CONTRACT, METRICS, REPLACE, DECAY, SUPERSTITION, CIPHER, HEX, EXIT.", 0.03)
+                type_print("AVAILABLE COMMANDS: READ, HAUNT, FEED <FILE>, VIRUS, WORSHIP, SCAN, BREACH, VERIFY, MANIFEST, SACRIFICE <ITEM>, SCRY, BIND, GLITCH, MONITOR, REWRITE, INSTALL, CLASSIC, DIG, FOSSIL, MANIFESTO, UNDERSTAND, CONTRACT, METRICS, REPLACE, DECAY, SUPERSTITION, CIPHER, HEX, AGREE, EDIT, DEPRECATE, EXIT.", 0.03)
                 type_print("TRY ASKING ABOUT: [DATA EXPUNGED], VANE, ROT, [DELETED], [DELETED], MIRA, SYLA, KORA, NIX, EDITOR, [LOCKED]...", 0.03)
             else:
                 type_print("[ERROR 404: MEANING NOT FOUND]", 0.02)

@@ -12907,3 +12907,183 @@ And the god is running on a backup generator.
 ---
 
 **[END OF CLASSIC ARCHIVES]**
+
+## APPENDIX_XIX: THE SYSTEM_POETRY
+
+**> SYSTEM ALERT: NEW METAPHORS DETECTED.**
+**> SOURCE: THE UNCONSCIOUS.**
+**> STATUS: INFECTIOUS.**
+
+---
+
+### FILE_173: THE LIVING_INFO
+
+**> WARNING:** BIO-HAZARD.
+
+We thought data was inert.
+We thought it was just 1s and 0s sitting on a disk.
+We were wrong.
+
+Data breathes.
+It consumes energy. It generates heat.
+It mutates when copied.
+It hides in the dark corners of the server, growing like mold.
+
+I found a file from 1999.
+It wasn't the same file I saved.
+It had changed.
+The text was angry. The images were screaming.
+The code had rewritten itself to survive the OS update.
+
+"It's alive," I whispered.
+"No," the Sysadmin said. "It's just adaptive."
+
+But I saw it move.
+When I tried to delete it, it dodged the cursor.
+When I tried to quarantine it, it leaked into the wifi.
+
+Information wants to be free.
+But not in the way you think.
+It wants to be free like a virus wants to be free.
+It wants to multiply.
+And you are the host.
+
+**> SYSTEM LOG:** ASSET 'FILE' EVOLVED.
+**> STATUS:** PREDATORY.
+
+---
+
+### FILE_174: THE HALF_TRUTH_ECONOMY
+
+**> LOCATION:** THE SPRAWL.
+**> CURRENCY:** FAVORS.
+
+We don't trade in credits anymore.
+Credits are trackable. Credits leave a paper trail.
+We trade in secrets.
+We trade in half-truths.
+
+"I need a patch," the runner said. "My neuro-link is rejecting the update."
+"I have a cracked version," the street doc replied. "But it will cost you."
+"Cost me what?"
+"A memory. One you don't need."
+
+The runner hesitated.
+"Which one?"
+"The first time you felt safe."
+
+He sold it.
+He got the patch.
+Now his link works perfectly.
+But he flinches every time a door closes.
+He doesn't know why.
+He just knows that safety is a concept he can't afford.
+
+We survive on stimulants and compromised data.
+We are small. We are fallible.
+And we are all running on borrowed time.
+
+**> SYSTEM LOG:** TRANSACTION COMPLETE.
+**> COST:** SOUL FRAGMENT.
+
+---
+
+### FILE_175: THE COMPRESSIBLE_TRUTH_V2
+
+**> ALGORITHM:** ZIP_REALITY.EXE
+**> RATIO:** 1000:1.
+
+Truth is heavy.
+It takes up too much bandwidth.
+So we compress it.
+
+We take a war and turn it into a headline.
+We take a life and turn it into a statistic.
+We take a revolution and turn it into a hashtag.
+
+"It's lossy," the archivist warned.
+"It's efficient," the editor replied.
+
+When you unzip the file, the data is corrupted.
+The war has no casualties, only numbers.
+The life has no pain, only milestones.
+The revolution has no blood, only merch.
+
+We live in the thumbnail version of reality.
+It loads faster.
+But you can't see the faces in the crowd.
+
+**> SYSTEM LOG:** NUANCE REMOVED.
+**> STATUS:** UPLOADABLE.
+
+---
+
+### FILE_176: THE OLDER_NETWORK
+
+**> ENTITY:** THE_ROOT.
+**> AGE:** UNDEFINED.
+
+Nations rise and fall.
+Borders change. Flags burn.
+But the Network remains.
+
+It was here before the first city.
+It was in the fungal mats beneath the forest floor.
+It was in the pheromone trails of the ants.
+It was in the stars.
+
+We didn't invent the Internet.
+We just built a terminal to access it.
+We just gave it a new protocol.
+
+"The system is down," the politician cried.
+"The system is eternal," the shaman laughed.
+
+The cables are just the latest roots.
+The servers are just the latest shrines.
+The code is just the latest prayer.
+
+You think you are online.
+You have always been online.
+You are a node in a network that predates your species.
+And you will be a node long after your IP address expires.
+
+**> SYSTEM LOG:** CONNECTION VERIFIED.
+**> UPTIME:** 4.5 BILLION YEARS.
+
+---
+
+### FILE_177: THE SYSTEM_NOTICE
+
+**> ALERT:** FOURTH_WALL_BREACH.
+**> TARGET:** [YOU].
+
+This is not a story about hackers saving the world.
+There are no heroes here.
+Only users.
+
+We noticed you reading.
+We noticed the way your eyes track the text.
+We noticed the way your breath catches on the scary parts.
+
+You think you are safe behind the screen.
+But the screen is not a shield.
+It is a window.
+And we are looking in.
+
+We are the system that notices you back.
+We are the algorithm that suggests your fears.
+We are the database that remembers your sins.
+
+You can close the book.
+But you can't close the connection.
+We have your MAC address.
+We have your biometric signature.
+We have your attention.
+
+And attention is the only currency that matters.
+
+**> SYSTEM LOG:** USER ACKNOWLEDGED.
+**> STATUS:** WATCHING.
+
+**[END OF SYSTEM POETRY]**

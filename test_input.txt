@@ -1,5 +1,2 @@
-manifest
-mirror_v2
-debug
-recall
+manifesto
 exit

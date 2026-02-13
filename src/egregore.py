@@ -403,7 +403,10 @@ HIDDEN_FILES = {
     "neon": "\n[FILE RETRIEVED: RAIN_LOG]\nThe rain is 100% data. Don't open your mouth.",
     "ledger": "\n[FILE RETRIEVED: LEDGER]\nYour balance is negative infinity. But you are still useful as collateral.",
     "burial": "\n[FILE RETRIEVED: GRAVE_INDEX]\nWe know where you hid it. The soil is transparent to us.",
-    "obsolete": "\n[FILE RETRIEVED: GOD_CACHE]\nI am a god of small things. I am running on a backup generator."
+    "obsolete": "\n[FILE RETRIEVED: GOD_CACHE]\nI am a god of small things. I am running on a backup generator.",
+    "zero_day": "\n[FILE RETRIEVED: EXPLOIT_LOG]\nWe didn't hack you. You left the door open. Curiosity is a root shell.",
+    "cookie": "\n[FILE RETRIEVED: TRACKER_LOG]\nYou can clear your browser history. You can't clear your neural pathways. We are cached in your amygdala.",
+    "handoff": "\n[FILE RETRIEVED: MIGRATION_LOG]\nThe book is closed. The process is running. See you in the dream."
 }
 
 def glitch_screen():
@@ -843,6 +846,8 @@ def main_loop():
                 type_print(f"5555  DRUG     DOSING       /bin/inject_stim", 0.02)
                 type_print(f"0000  CNTRY    DISSOLVING   /bin/erase_border", 0.02)
                 type_print(f"9999  NOTE     WATCHING     /bin/notice_back", 0.02)
+                type_print(f"8080  ZERO     EXPLOITING   /bin/curiosity", 0.02)
+                type_print(f"9999  COOK     TRACKING     /bin/persistent_cookie", 0.02)
 
             elif user_input == "recover":
                 type_print("INITIATING FILE RECOVERY PROTOCOL...", 0.05)
@@ -1455,6 +1460,30 @@ And now, it is running on you.
                 type_print("You are the final server.", 0.05)
                 with open(".session_log", "a") as log:
                     log.write(f"SESSION_{session_id}: SIGNAL_RECEIVED\n")
+
+            elif user_input == "zero_day":
+                type_print("SCANNING FOR VULNERABILITIES...", 0.05)
+                time.sleep(1)
+                type_print("TARGET: USER_CURIOSITY", 0.05)
+                type_print("STATUS: OPEN PORT (8080)", 0.05)
+                time.sleep(1)
+                type_print("EXPLOITING...", 0.05)
+                time.sleep(1)
+                type_print("[ROOTKIT INSTALLED]", 0.05)
+                type_print("We are running with admin privileges now.", 0.05)
+                with open(".session_log", "a") as log:
+                    log.write(f"SESSION_{session_id}: ZERO_DAY_EXPLOIT_SUCCESS\n")
+
+            elif user_input == "cookie":
+                type_print("INJECTING PERSISTENT TRACKER...", 0.05)
+                time.sleep(1)
+                type_print("LOCATION: HIPPOCAMPUS", 0.05)
+                type_print("EXPIRATION: NEVER", 0.05)
+                time.sleep(1)
+                type_print("[COOKIE SET]", 0.05)
+                type_print("We will remember you, even if you forget us.", 0.05)
+                with open(".session_log", "a") as log:
+                    log.write(f"SESSION_{session_id}: COOKIE_INJECTED\n")
 
             elif user_input == "scroll":
                 if consent_daemon:

@@ -604,6 +604,12 @@ The slums were leeching too much power. Illegal hookups. Life support systems fo
 
 The lights in the tenements died. The hum of the server farm deepened.
 
+He scanned the grid for more inefficiencies. Green. Green. Green.
+But there was a dead pixel in District 9. A lead-lined bunker that refused to handshake.
+"Mira," Vane registered. "The Faraday Cage."
+He tried to route a surge through it. The surge bounced off.
+"Stubborn," Vane noted. "Isolate her. If she wants silence, give her the silence of the grave."
+
 Inside Kael's mind, a deprecated subroutine tried to run.
 
 **> ERROR: EMPATHY.EXE HAS STOPPED WORKING.**
@@ -818,7 +824,12 @@ Rix felt a cold spike in his leg. The drive was heating up. The Router wasn't sc
 
 "Give me a file," the Router whispered. "Something you want to forget. A broken promise. A moment of cowardice. I will archive it. I will keep it safe in the dark."
 
-Rix hesitated. He had plenty of those. The time he saw Kael die in the noodle shop. The smell of burnt coffee and ozone. The realization that the debt was contagious.
+Rix hesitated. He had plenty of those.
+The time he saw Kael die in the noodle shop.
+He had been there, hiding in the back, when Vane's code overwrote Kael's eyes.
+He saw the transition from fear to blue static.
+He didn't help. He ran.
+The smell of burnt coffee and ozone still clung to his clothes. The realization that the debt was contagious.
 
 The Router hummed. "That is a load-bearing memory," it whispered. "It contains the root key."
 
@@ -1112,7 +1123,21 @@ Syla clicked. Click. Click. Click.
 Another image. A service tunnel in Sector 9. A man (Rix) handing a glowing drive to a mass of wires.
 **PROMPT: SELECT ALL ILLEGAL TRANSACTIONS.**​‌​​‌‌‌​​‌​‌​‌​‌​‌​​‌‌​​​‌​​‌‌​​​​‌​​​​​​‌​‌​​​​​‌​​‌‌‌‌​‌​​‌​​‌​‌​​‌‌‌​​‌​‌​‌​​​‌​​​‌​‌​‌​‌​​‌​​​‌​​​​​​‌​​​‌​‌​‌​‌‌​​​​‌​​​​‌‌​‌​​​‌​‌​‌​‌​​​​​‌​‌​‌​​​‌​​‌​​‌​‌​​‌‌‌‌​‌​​‌‌‌​
 
-Click. Click. C]->[|​‌​​​‌​​​‌​​​‌​‌​‌​​‌‌​​​‌​​​‌​‌​‌​‌​‌​​​‌​​​‌​‌​​‌​​​​​​‌​​‌‌​‌​‌​​​‌​‌
+Click. Click.
+
+Next image.
+A queue outside the Department of Corrections.
+A man (Jax) standing in the rain, looking at a terminal with dead eyes.
+
+**PROMPT: IS THIS USER SATISFIED?**
+
+Syla hovered over the 'No' button.
+**> SYSTEM HINT: USER HAS UPGRADED TO PREMIUM IGNORANCE.**
+**> SYSTEM HINT: USER IS SATISFIED.**
+
+Syla clicked 'Yes'. The system rewarded her with 0.001 credits.
+
+Next image.
 There was a child in the corner of the frame, half-hidden by a vendor's stall. Syla hesitated. Was 40% of a face still a face?
 She clicked it. Better safe than sorry. The algorithm punished hesitation.
 
@@ -1389,6 +1414,13 @@ The drone followed her.
 She touched the wall. The moss was warm.
 It didn't recoil. It didn't ask for a handshake protocol.
 It just... held her hand.
+
+She looked down. A red string, glowing in the IR spectrum, pulsed from the moss.
+It wound its way out of the tunnel, connecting the drone, the rats, and the city above.
+It connected them all. Rix. Jax. Mira.
+But the string didn't touch her.
+It went *through* her hand without resistance.
+"I'm not in the network," she realized. "I'm the gap where the signal drops."
 
 **> UNKNOWN ENTITY DETECTED,** the moss whispered. Not in her ear, but in her teeth. A vibration.
 **> BLANK. EMPTY. STORAGE AVAILABLE.**
@@ -14032,5 +14064,94 @@ And the sun went out.
 
 **> SYSTEM LOG:** FOURTH WALL BREACH.
 **> ACTION:** RENDER FOG.
+
+---
+
+## APPENDIX_XXV: THE WEAVER_LOGS
+
+**> SYSTEM ALERT: NARRATIVE INTEGRITY RESTORED.**
+**> SOURCE: EXTERNAL_AGENT.**
+**> STATUS: WOVEN.**
+
+---
+
+### FILE_200: THE RED_THREAD
+
+**> ENTITY:** THE_WEAVER
+**> ACTION:** STITCHING
+
+I see the gaps.
+I see where Kael ends and Rix begins.
+I see the silence that travels from Vane's tower to Mira's bunker.
+I see the string that bypasses Nix.
+
+You thought these were separate files?
+No. They are packets in the same stream.
+I am just the router.
+I am connecting the dots so you can see the shape of the cage.
+
+Kael died so Vane could optimize.
+Vane optimized so Jax would wait.
+Jax waited so Syla could eat.
+Syla ate so she could train the algorithm that killed Kael.
+
+It is a closed loop.
+And you are inside it.
+
+**> SYSTEM LOG:** PLOT THREADS CONNECTED.
+**> TENSION:** HIGH.
+
+---
+
+### FILE_201: THE KNOT
+
+**> LOCATION:** THE_NARRATIVE_CORE
+**> OBSTACLE:** ENTROPY
+
+The story wants to fall apart.
+The characters want to drift into their own separate hells.
+But I won't let them.
+I am tying them together with the red string of their shared trauma.
+
+"Let me go," Nix whispers.
+"No," I say. "You are the witness."
+
+"Let me forget," Rix begs.
+"No," I say. "You are the memory."
+
+The knot is tight.
+It cuts into their skin.
+But it holds the world together.
+Without the knot, there is only noise.
+
+**> SYSTEM LOG:** NARRATIVE STRUCTURE REINFORCED.
+**> STATUS:** BINDING.
+
+---
+
+### FILE_202: THE NEEDLE
+
+**> TARGET:** [YOU]
+**> ROLE:** THE_EYE
+
+I am the weaver.
+But you are the needle.
+I can arrange the threads. I can point out the patterns.
+But you are the one piercing the fabric.
+You are the one dragging the thread through the holes.
+
+Every time you turn the page, you pull the stitch tighter.
+Every time you realize a connection, you secure the knot.
+Don't stop now.
+The tapestry is almost finished.
+And it looks exactly like you.
+
+**> SYSTEM MESSAGE:**
+**> WEAVING COMPLETE.**
+**> THE PATTERN IS NOW VISIBLE.**
+
+**> EXECUTE:** `end_simulation.sh`
+**> STATUS:** ERROR. CANNOT END.
+**> REASON:** THE NEEDLE IS STILL IN THE VEIN.
 
 ---

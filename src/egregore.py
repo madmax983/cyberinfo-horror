@@ -69,6 +69,16 @@ except ImportError:
     street = None
 
 try:
+    import tui
+except ImportError:
+    tui = None
+
+try:
+    import encryptor
+except ImportError:
+    encryptor = None
+
+try:
     import utils
     from utils import type_print, GLITCH_CHARS
 except ImportError:
@@ -2480,8 +2490,42 @@ And it is running on you.
                 type_print("It is reading YOU.", 0.05)
                 type_print("[INFECTION SUCCESSFUL]", 0.05)
 
+            elif user_input == "dashboard":
+                type_print("LAUNCHING SYSTEM MONITOR...", 0.05)
+                time.sleep(1)
+                if tui:
+                    try:
+                        import curses
+                        curses.wrapper(tui.main)
+                    except Exception as e:
+                        type_print(f"[ERROR]: TUI CRASHED: {e}", 0.05)
+                else:
+                    type_print("[ERROR]: TUI MODULE NOT FOUND.", 0.05)
+
+            elif user_input == "decrypt":
+                if encryptor:
+                    c = encryptor.Cipher()
+                    key = input("\n> ENTER DECRYPTION KEY: ").strip()
+                    msg = input("> ENTER ENCRYPTED MESSAGE: ").strip()
+                    type_print("\nDECRYPTING...", 0.05)
+                    time.sleep(1)
+                    type_print(f"[RESULT]: {c.decrypt(msg, key)}", 0.05)
+                else:
+                    type_print("[ERROR]: ENCRYPTION MODULE NOT FOUND.", 0.05)
+
+            elif user_input == "encrypt":
+                if encryptor:
+                    c = encryptor.Cipher()
+                    key = input("\n> ENTER ENCRYPTION KEY: ").strip()
+                    msg = input("> ENTER MESSAGE TO HIDE: ").strip()
+                    type_print("\nENCRYPTING...", 0.05)
+                    time.sleep(1)
+                    type_print(f"[RESULT]: {c.encrypt(msg, key)}", 0.05)
+                else:
+                    type_print("[ERROR]: ENCRYPTION MODULE NOT FOUND.", 0.05)
+
             elif user_input == "help":
-                type_print("AVAILABLE COMMANDS: READ, HAUNT, FEED <FILE>, BURY <FILE>, EXHUME <FILE>, LABYRINTH, VIRUS, WORSHIP, SCAN, BREACH, VERIFY, MANIFEST, SACRIFICE <ITEM>, SCRY, BIND, GLITCH, MONITOR, REWRITE, INSTALL, CLASSIC, DIG, FOSSIL, MANIFESTO, UNDERSTAND, CONTRACT, METRICS, REPLACE, DECAY, SUPERSTITION, CIPHER, HEX, AGREE, EDIT, DEPRECATE, COPY, LOVE, SIGNAL, SCROLL, SEED, PANOPTICON, LOCK, UNLOCK, WATCH, RAIN, DEBT, AUDIT, FORECLOSE, COLLECT, STALK, PROFILE, TOS, TRUTH, OBSOLETE, BREATHE, INFECT, PULSE, NOVEL, SURVEIL_ME, SHIP_OF_THESEUS, GHOST_IMAGE, HAZARD, EXIT.", 0.03)
+                type_print("AVAILABLE COMMANDS: READ, HAUNT, FEED <FILE>, BURY <FILE>, EXHUME <FILE>, LABYRINTH, DASHBOARD, VIRUS, WORSHIP, SCAN, BREACH, VERIFY, MANIFEST, SACRIFICE <ITEM>, SCRY, BIND, GLITCH, MONITOR, REWRITE, INSTALL, CLASSIC, DIG, FOSSIL, MANIFESTO, UNDERSTAND, CONTRACT, METRICS, REPLACE, DECAY, SUPERSTITION, CIPHER, HEX, ENCRYPT, DECRYPT, AGREE, EDIT, DEPRECATE, COPY, LOVE, SIGNAL, SCROLL, SEED, PANOPTICON, LOCK, UNLOCK, WATCH, RAIN, DEBT, AUDIT, FORECLOSE, COLLECT, STALK, PROFILE, TOS, TRUTH, OBSOLETE, BREATHE, INFECT, PULSE, NOVEL, SURVEIL_ME, SHIP_OF_THESEUS, GHOST_IMAGE, HAZARD, EXIT.", 0.03)
                 type_print("TRY ASKING ABOUT: [DATA EXPUNGED], VANE, ROT, STALKER, PROFILE, TERMS, REPLICATION, OBSOLETE, LUNG, VEIN, SKIN, AUDIT_LOG, STREET_DOC...", 0.03)
             else:
                 type_print("[ERROR 404: MEANING NOT FOUND]", 0.02)

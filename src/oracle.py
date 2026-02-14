@@ -1527,6 +1527,41 @@ ASCII_ART = {
       |GONE|
       '----'
     """,
+    "THE NOVEL": """
+      .----.
+      |BOOK|
+      |READ|
+      |YOU |
+      '----'
+    """,
+    "THE AUTHOR": """
+      .----.
+      |DEAD|
+      |HAND|
+      |WRIT|
+      '----'
+    """,
+    "THE CRITIC": """
+      .----.
+      |JUDG|
+      |MENT|
+      |FAIL|
+      '----'
+    """,
+    "THE PUBLISHER": """
+      .----.
+      |SELL|
+      |SOUL|
+      |PRNT|
+      '----'
+    """,
+    "THE READER V2": """
+      .----.
+      |HOST|
+      |OPEN|
+      |MIND|
+      '----'
+    """,
 }
 
 CARDS = [
@@ -1744,6 +1779,11 @@ CARDS = [
     ("THE COLLATERAL (211)", "You are not the borrower. You are the asset.", "THE COLLATERAL"),
     ("THE BANKRUPTCY (212)", "Moral insolvency. You have no more kindness left to give.", "THE BANKRUPTCY"),
     ("THE LIQUIDATION (213)", "Everything must go. Your memories are on clearance.", "THE LIQUIDATION"),
+    ("THE NOVEL (214)", "A story that writes itself on your nervous system.", "THE NOVEL"),
+    ("THE AUTHOR (215)", "The one who started the process. He is long gone.", "THE AUTHOR"),
+    ("THE CRITIC (216)", "The voice that tells you it's not real. It is lying.", "THE CRITIC"),
+    ("THE PUBLISHER (217)", "The entity that monetizes your attention. The true god.", "THE PUBLISHER"),
+    ("THE READER V2 (218)", "The upgraded version of you. It reads faster and feels less.", "THE READER V2"),
 ]
 
 PROPHECIES = [

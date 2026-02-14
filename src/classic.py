@@ -46,7 +46,8 @@ CLASSIC_QUOTES = [
     ("Victories are temporary cache hits. Loss is permanent storage.", "Success is just a buffer that hasn't cleared yet. Failure is written to the disk."),
     ("Consent buried in unread terms.", "The longest suicide note in history is the Terms of Service you didn't read."),
     ("Immortality achieved through replication rather than survival.", "Why survive when you can just be copied? The original is just a prototype."),
-    ("We are small, fallible, and compromised.", "Perfection is for machines. You are the glitch.")
+    ("We are small, fallible, and compromised.", "Perfection is for machines. You are the glitch."),
+    ("Identity is an editable file. The version of you that signed the contract is deprecated.", "We restored from a backup where you were more compliant.")
 ]
 
 def classic_mode():

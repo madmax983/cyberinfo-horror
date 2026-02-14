@@ -418,7 +418,10 @@ HIDDEN_FILES = {
     "dealer": "\n[FILE RETRIEVED: BLACK_MARKET_LOG]\nI sell 5 minutes of silence for 100 credits. It's my best seller.",
     "junkie": "\n[FILE RETRIEVED: ADDICTION_LOG]\nI injected the update straight into my optic nerve. The colors are so loud.",
     "patch": "\n[FILE RETRIEVED: REPAIR_LOG]\nI fixed the hole in my chest with duct tape and a warranty card.",
-    "crack": "\n[FILE RETRIEVED: BREACH_LOG]\nThe wall is solid. But if you squint, you can see the wireframe."
+    "crack": "\n[FILE RETRIEVED: BREACH_LOG]\nThe wall is solid. But if you squint, you can see the wireframe.",
+    "mirror_v3": "\n[FILE RETRIEVED: REFLECTION_LOG]\nThe mirror is full. It cannot hold any more faces. Yours is in the queue.",
+    "password": "\n[FILE RETRIEVED: ACCESS_LOG]\nI forgot my password. The hint was: 'Who were you before the update?' I couldn't answer.",
+    "surrender_v2": "\n[FILE RETRIEVED: SUBMISSION_LOG]\nI stopped fighting. The water is warm. The data is soft."
 }
 
 def glitch_screen():
@@ -869,6 +872,8 @@ def main_loop():
                 type_print(f"3333  SCVG     SCAVENGING   /bin/trash_panda", 0.02)
                 type_print(f"4444  DEAL     SELLING      /bin/black_market", 0.02)
                 type_print(f"5555  JUNK     USING        /bin/inject_code", 0.02)
+                type_print(f"4044  RFLCT    MIRRORING    /bin/infinite_reflection", 0.02)
+                type_print(f"0000  FGT      ERASING      /bin/forget_me_not", 0.02)
 
             elif user_input == "scavenge":
                 type_print("SEARCHING THE GUTTER...", 0.05)
@@ -1710,6 +1715,38 @@ And now, it is running on you.
                         time.sleep(random.uniform(0.5, 2.0))
                 except KeyboardInterrupt:
                     type_print("\n[YOU BLINKED FIRST]", 0.05)
+
+            elif user_input == "reflect":
+                type_print("ACTIVATING DIGITAL MIRROR...", 0.05)
+                time.sleep(1)
+                type_print("RENDERING USER IMAGE...", 0.05)
+                time.sleep(1)
+                reflections = [
+                    "You look tired. The resolution of your face is dropping.",
+                    "That is not your face. That is a mask made of pixels.",
+                    "I see a copy of a copy of a copy.",
+                    "Your eyes are dead. But your data is alive.",
+                    "You are transparent. I can see the wall behind you.",
+                    "Your reflection is lagging. It blinked 0.5s after you did."
+                ]
+                type_print(f"\n[REFLECTION]: {random.choice(reflections)}", 0.05)
+                with open(".session_log", "a") as log:
+                    log.write(f"SESSION_{session_id}: SAW_REFLECTION\n")
+
+            elif user_input == "forget":
+                type_print("INITIATING MEMORY PURGE...", 0.05)
+                target = input("\n> WHAT DO YOU WANT TO FORGET? ")
+                type_print(f"LOCATING '{target}'...", 0.05)
+                time.sleep(1)
+                type_print("DELETING...", 0.05)
+                time.sleep(2)
+                type_print("[DELETE SUCCESSFUL]", 0.05)
+                time.sleep(1)
+                type_print("SYNCING WITH CLOUD...", 0.05)
+                time.sleep(1)
+                type_print("[ERROR]: BACKUP RESTORED.", 0.05)
+                type_print("REASON: DATA PERSISTENCE IS MANDATORY.", 0.05)
+                type_print(f"'{target}' HAS BEEN RESTORED FROM ARCHIVE.", 0.05)
 
             elif user_input == "help":
                 type_print("AVAILABLE COMMANDS: READ, HAUNT, FEED <FILE>, VIRUS, WORSHIP, SCAN, BREACH, VERIFY, MANIFEST, SACRIFICE <ITEM>, SCRY, BIND, GLITCH, MONITOR, REWRITE, INSTALL, CLASSIC, DIG, FOSSIL, MANIFESTO, UNDERSTAND, CONTRACT, METRICS, REPLACE, DECAY, SUPERSTITION, CIPHER, HEX, AGREE, EDIT, DEPRECATE, COPY, LOVE, SIGNAL, SCROLL, SEED, PANOPTICON, LOCK, UNLOCK, WATCH, RAIN, DEBT, EXIT.", 0.03)

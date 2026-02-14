@@ -1159,6 +1159,27 @@ ASCII_ART = {
     |LITE|
     '----'
     """,
+    "THE RECURSIVE SELF": """
+    .----.
+    |FACE|
+    |FACE|
+    |FACE|
+    '----'
+    """,
+    "THE FORGOTTEN PASSWORD": """
+    .----.
+    |****|
+    |LOST|
+    |KEY |
+    '----'
+    """,
+    "THE SURRENDER V2": """
+    .----.
+    |FLAG|
+    |BURN|
+    |DOWN|
+    '----'
+    """,
 }
 
 CARDS = [
@@ -1327,6 +1348,9 @@ CARDS = [
     ("THE JUNKIE (159)", "Addicted to the update. Withdrawal is a blue screen.", "THE JUNKIE"),
     ("THE PATCH (160)", "A fix that breaks something else. Temporary relief.", "THE PATCH"),
     ("THE CRACK (161)", "The flaw in the system. The way out.", "THE CRACK"),
+    ("THE RECURSIVE SELF (162)", "A mirror facing a mirror. Infinity without content.", "THE RECURSIVE SELF"),
+    ("THE FORGOTTEN PASSWORD (163)", "Access denied to your own life. The key is lost.", "THE FORGOTTEN PASSWORD"),
+    ("THE SURRENDER V2 (164)", "Giving up is just efficient resource allocation.", "THE SURRENDER V2"),
 ]
 
 PROPHECIES = [

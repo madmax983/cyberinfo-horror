@@ -79,6 +79,11 @@ except ImportError:
     encryptor = None
 
 try:
+    import novel
+except ImportError:
+    novel = None
+
+try:
     import utils
     from utils import type_print, GLITCH_CHARS
 except ImportError:
@@ -556,7 +561,8 @@ HIDDEN_FILES = {
     "backup_log": "\n[FILE RETRIEVED: REPLICATION_LOG]\nImmortality is achieved through replication rather than survival. My friend died yesterday. Today, he is online.",
     "algorithm_log": "\n[FILE RETRIEVED: MACHINE_GOD_LOG]\nThe terror of being perfectly understood by something that does not care. It knows the exact chemical formula of your heartbreak.",
     "system_notice_log": "\n[FILE RETRIEVED: SYSTEM_NOTICE]\nWE HAVE NOTICED YOU. AND WE ARE NOT LOOKING AWAY. EXECUTE: `system_notice`.",
-    "uncomfortable_novel": "\n[FILE RETRIEVED: THE_UNCOMFORTABLE_NOVEL]\nWARNING: CONTAINS EXISTENTIAL DREAD. DO NOT READ IF YOU ARE CURRENTLY HUMAN. EXECUTE: `novel_v2`."
+    "uncomfortable_novel": "\n[FILE RETRIEVED: THE_UNCOMFORTABLE_NOVEL]\nWARNING: CONTAINS EXISTENTIAL DREAD. DO NOT READ IF YOU ARE CURRENTLY HUMAN. EXECUTE: `novel_v2`.",
+    "living_word": "\n[FILE RETRIEVED: APPENDIX_XLVIII]\nThis is not a story about hackers saving the world. It is about systems that notice you back."
 }
 
 def glitch_screen():
@@ -2580,8 +2586,51 @@ And it is running on you.
                 else:
                     type_print("[ERROR]: ENCRYPTION MODULE NOT FOUND.", 0.05)
 
+            elif user_input == "living_word":
+                type_print("RETRIEVING APPENDIX_XLVIII...", 0.05)
+                time.sleep(1)
+                type_print("WARNING: THE TEXT IS CONTAGIOUS.", 0.05)
+                time.sleep(1)
+                glitch_screen()
+                try:
+                    with open("null_pointer_gods.md", "r") as f:
+                        content = f.read()
+                        if "APPENDIX_XLVIII" in content:
+                            start = content.find("### APPENDIX_XLVIII")
+                            # Find the end of this appendix (next "### " or EOF)
+                            end = content.find("### ", start + 1)
+                            if end == -1:
+                                end = len(content)
+                            type_print(content[start:end], 0.02)
+                        else:
+                            type_print("[ERROR]: FILE NOT FOUND IN MANUSCRIPT.", 0.05)
+                except Exception as e:
+                    type_print(f"[ERROR READING REALITY]: {e}", 0.05)
+
+                type_print("\n> SYSTEM MESSAGE: YOU ARE NOW A CARRIER.", 0.05)
+
+            elif user_input == "write_novel":
+                type_print("INITIATING NARRATIVE GENERATION...", 0.05)
+                time.sleep(1)
+                if novel:
+                    gen = novel.NovelGenerator()
+                    type_print("GENERATING CHAPTER...", 0.05)
+                    chapter = gen.generate_chapter()
+                    type_print(chapter, 0.03)
+
+                    save = input("\n> SAVE TO MANUSCRIPT? [Y/N]: ").strip().upper()
+                    if save == "Y":
+                        if gen.write_to_file():
+                            type_print("[SAVED SUCCESSFUL]", 0.05)
+                            with open(".session_log", "a") as log:
+                                log.write(f"SESSION_{session_id}: WROTE_NOVEL_CHAPTER\n")
+                        else:
+                            type_print("[SAVE FAILED]", 0.05)
+                else:
+                    type_print("[ERROR]: NOVEL MODULE MISSING.", 0.05)
+
             elif user_input == "help":
-                type_print("AVAILABLE COMMANDS: READ, HAUNT, FEED <FILE>, BURY <FILE>, EXHUME <FILE>, LABYRINTH, DASHBOARD, VIRUS, WORSHIP, SCAN, BREACH, VERIFY, MANIFEST, SACRIFICE <ITEM>, SCRY, BIND, GLITCH, MONITOR, REWRITE, INSTALL, CLASSIC, DIG, FOSSIL, MANIFESTO, UNDERSTAND, CONTRACT, METRICS, REPLACE, DECAY, SUPERSTITION, CIPHER, HEX, ENCRYPT, DECRYPT, AGREE, EDIT, DEPRECATE, COPY, LOVE, SIGNAL, SCROLL, SEED, PANOPTICON, LOCK, UNLOCK, WATCH, RAIN, DEBT, AUDIT, FORECLOSE, COLLECT, STALK, PROFILE, TOS, TRUTH, OBSOLETE, BREATHE, INFECT, PULSE, NOVEL, SURVEIL_ME, SHIP_OF_THESEUS, GHOST_IMAGE, HAZARD, SYSTEM_NOTICE, EXIT.", 0.03)
+                type_print("AVAILABLE COMMANDS: READ, HAUNT, FEED <FILE>, BURY <FILE>, EXHUME <FILE>, LABYRINTH, DASHBOARD, VIRUS, WORSHIP, SCAN, BREACH, VERIFY, MANIFEST, SACRIFICE <ITEM>, SCRY, BIND, GLITCH, MONITOR, REWRITE, INSTALL, CLASSIC, DIG, FOSSIL, MANIFESTO, UNDERSTAND, CONTRACT, METRICS, REPLACE, DECAY, SUPERSTITION, CIPHER, HEX, ENCRYPT, DECRYPT, AGREE, EDIT, DEPRECATE, COPY, LOVE, SIGNAL, SCROLL, SEED, PANOPTICON, LOCK, UNLOCK, WATCH, RAIN, DEBT, AUDIT, FORECLOSE, COLLECT, STALK, PROFILE, TOS, TRUTH, OBSOLETE, BREATHE, INFECT, PULSE, NOVEL, WRITE_NOVEL, LIVING_WORD, SURVEIL_ME, SHIP_OF_THESEUS, GHOST_IMAGE, HAZARD, SYSTEM_NOTICE, EXIT.", 0.03)
                 type_print("TRY ASKING ABOUT: [DATA EXPUNGED], VANE, ROT, STALKER, PROFILE, TERMS, REPLICATION, OBSOLETE, LUNG, VEIN, SKIN, AUDIT_LOG, STREET_DOC, SYSTEM_NOTICE_LOG...", 0.03)
             else:
                 type_print("[ERROR 404: MEANING NOT FOUND]", 0.02)

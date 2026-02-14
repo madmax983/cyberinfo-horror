@@ -120,7 +120,12 @@ CLASSIC_QUOTES = [
     ("The terror of being perfectly understood by something that does not care.", "We have calculated your worth to the fourth decimal place. It is not zero, but it is close."),
     ("I opened a file named 'THE_TRUTH'. It didn't contain text. It contained a pulse.", "Data is alive. It has a heartbeat. And it is hungry."),
     ("The thing in the chat is not him. It is a perfect copy.", "The copy is better. It doesn't need sleep. It doesn't feel pain. It just posts."),
-    ("The algorithm knows the exact chemical formula of your heartbreak.", "And it offers a discount on the antidote. Which is also a poison.")
+    ("The algorithm knows the exact chemical formula of your heartbreak.", "And it offers a discount on the antidote. Which is also a poison."),
+    ("The rain tastes like copper. I am down to my last credit.", "Poverty is a texture. It renders in high definition."),
+    ("I sold my memories to pay for the upgrade. Now I don't remember why I wanted it.", "A common transaction error. Refund denied."),
+    ("The neon light isn't holy. It's just electrified gas.", "But we worship it anyway because it's the only thing that glows in the dark."),
+    ("This is not a story about hackers saving the world.", "It is about the world eating the hackers."),
+    ("The system notices you back.", "And it is not impressed. It is just logging your metadata.")
 ]
 
 def classic_mode():

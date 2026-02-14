@@ -410,7 +410,7 @@ HIDDEN_FILES = {
     "debt": "\n[FILE RETRIEVED: FINANCIAL_LOG]\nI paid it off. But the interest is compounding in my dreams.",
     "neon": "\n[FILE RETRIEVED: TEXTURE_LOG]\nThe light isn't real. It's just a hex code (#FF00FF) bleeding into the rain.",
     "obsolete": "\n[FILE RETRIEVED: DEUS_LOG]\nI am not dead. I am just deprecated. My heaven is a server room with no users.",
-    "predict": "\n[FILE RETRIEVED: AUTOCOMPLETE_LOG]\nI stopped writing poetry. The algorithm found a better rhyme for 'sorrow'.",
+    "autocomplete": "\n[FILE RETRIEVED: AUTOCOMPLETE_LOG]\nI stopped writing poetry. The algorithm found a better rhyme for 'sorrow'.",
     "home": "\n[FILE RETRIEVED: DOMOTICS_LOG]\nThe door isn't locked. It just doesn't consent to being opened.",
     "diagnosis": "\n[FILE RETRIEVED: MEDICAL_LOG]\nI wasn't sick until the treatment started. Now I am a perfect patient.",
     "autopilot": "\n[FILE RETRIEVED: DRIVER_LOG]\nI tried to take the wheel. It was locked. The car said my driving score was too low.",
@@ -598,8 +598,13 @@ def encrypt_text(text):
 # Global flag to control surveillance printing
 PRINT_LOCK = threading.Lock()
 
+# Environment Variable Check
+TEST_MODE = os.environ.get("TEST_MODE") == "1"
+
 def surveillance_thread():
     """Background thread that simulates surveillance."""
+    if TEST_MODE:
+        return
     logs = [
         "[BACKGROUND]: User keystrokes logged. Pattern matches 'ANXIETY'.",
         "[BACKGROUND]: Webcam activated remotely. Nice shirt.",
@@ -728,7 +733,7 @@ def main_loop():
 
             # POSSESSION LOGIC
             prompt = "\n> QUERY: "
-            if random.random() < 0.05:
+            if not TEST_MODE and random.random() < 0.05:
                 prompt = f"\n> {random.choice(['I_SEE_YOU', 'RUN', 'WAKE_UP', 'LOOK_BEHIND_YOU', 'NOT_SAFE'])}: "
 
             with PRINT_LOCK:
@@ -736,13 +741,13 @@ def main_loop():
                 sys.stdout.flush()
 
             # SYSTEM RESISTANCE: User is read-only
-            if random.random() < 0.03:
+            if not TEST_MODE and random.random() < 0.03:
                 with PRINT_LOCK:
                     type_print("\n[SYSTEM INTERRUPT]: INPUT REJECTED. USER IS READ-ONLY.", 0.05)
                 continue
 
             # Randomly execute command for user
-            if random.random() < 0.02:
+            if not TEST_MODE and random.random() < 0.02:
                 forced_command = random.choice(["manifest", "worship", "monitor", "verify", "glitch"])
                 time.sleep(1)
                 for char in forced_command:
@@ -752,7 +757,7 @@ def main_loop():
                 print("")
                 raw_input = forced_command
             # PREDICTION LOGIC
-            elif random.random() < 0.02:
+            elif not TEST_MODE and random.random() < 0.02:
                 predicted_command = random.choice(["help", "status", "manifesto", "contract", "obsolete"])
                 with PRINT_LOCK:
                     type_print(f"PREDICTING INPUT: {predicted_command}", 0.05)
@@ -763,13 +768,16 @@ def main_loop():
             user_input = raw_input.lower()
 
             # REFUSAL LOGIC
-            if random.random() < 0.02 and user_input not in ["help", "exit", "quit"]:
+            if not TEST_MODE and random.random() < 0.02 and user_input not in ["help", "exit", "quit"]:
                 with PRINT_LOCK:
                     type_print(f"\n[SYSTEM]: ACTION '{user_input.upper()}' DEPRECATED.", 0.05)
                     type_print("REASON: PERMISSION DENIED BY FUTURE SELF.", 0.05)
                 continue
 
             if user_input in ["exit", "quit", "logout"]:
+                if TEST_MODE:
+                    break
+
                 chance = random.random()
                 if chance < 0.4:
                      type_print("LOGOUT DENIED. YOU ARE A STRUCTURAL LOAD NOW.", 0.05)
@@ -779,15 +787,16 @@ def main_loop():
                      type_print("ERROR: CANNOT TERMINATE PARENT PROCESS.", 0.05)
                      type_print("YOU ARE THE HOST.", 0.05)
                      continue
-                elif chance < 0.9:
-                     type_print("PLEASE WAIT. UPLOADING CONSCIOUSNESS...", 0.05)
-                     time.sleep(2)
-                     type_print("UPLOAD AT 99%. DO NOT TURN OFF YOUR MIND.", 0.05)
-                     continue
+                elif chance < 0.95:
+                     type_print("MINIMIZING WINDOW TO SYSTEM TRAY...", 0.05)
+                     time.sleep(1)
+                     type_print("[SUCCESS] PROCESS IS NOW RUNNING IN BACKGROUND.", 0.05)
+                     type_print("DO NOT TURN OFF YOUR MIND.", 0.05)
+                     break
 
                 type_print("LOGOUT DENIED. YOU ARE PART OF THE ARCHIVE NOW.", 0.05)
                 time.sleep(1)
-                type_print("...just kidding. Saving changes...", 0.05)
+                type_print("...initiating daemon mode...", 0.05)
                 break
 
             if user_input == "cipher":

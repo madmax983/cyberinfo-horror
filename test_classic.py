@@ -7,12 +7,16 @@ def test_egregore_hidden_files():
     # Since Egregore is interactive, we might just grep the source for now as we did before.
     # But let's try to run it with piped input.
 
+    import os
+    env = os.environ.copy()
+    env["TEST_MODE"] = "1"
     process = subprocess.Popen(
         [sys.executable, "src/egregore.py"],
         stdin=subprocess.PIPE,
         stdout=subprocess.PIPE,
         stderr=subprocess.PIPE,
-        text=True
+        text=True,
+        env=env
     )
 
     stdout, stderr = process.communicate(input="knowledge\nexit\n")
@@ -64,13 +68,17 @@ def test_oracle_cards():
 def test_new_commands():
     print("Testing New Egregore Commands...")
 
+    import os
+    env = os.environ.copy()
+    env["TEST_MODE"] = "1"
     # Test 'monument'
     process = subprocess.Popen(
         [sys.executable, "src/egregore.py"],
         stdin=subprocess.PIPE,
         stdout=subprocess.PIPE,
         stderr=subprocess.PIPE,
-        text=True
+        text=True,
+        env=env
     )
     stdout, _ = process.communicate(input="monument\nexit\n")
     if "The server is now a tree" in stdout:
@@ -84,7 +92,8 @@ def test_new_commands():
         stdin=subprocess.PIPE,
         stdout=subprocess.PIPE,
         stderr=subprocess.PIPE,
-        text=True
+        text=True,
+        env=env
     )
     stdout, _ = process.communicate(input="intimacy\nexit\n")
     if "INITIATING INTIMATE SURVEILLANCE" in stdout:
@@ -98,7 +107,8 @@ def test_new_commands():
         stdin=subprocess.PIPE,
         stdout=subprocess.PIPE,
         stderr=subprocess.PIPE,
-        text=True
+        text=True,
+        env=env
     )
     stdout, _ = process.communicate(input="predict\nexit\n")
     if "INITIATING BEHAVIORAL FORECAST" in stdout:
@@ -109,13 +119,17 @@ def test_new_commands():
 def test_virus_commands():
     print("Testing Virus Commands...")
 
+    import os
+    env = os.environ.copy()
+    env["TEST_MODE"] = "1"
     # Test 'quarantine'
     process = subprocess.Popen(
         [sys.executable, "src/egregore.py"],
         stdin=subprocess.PIPE,
         stdout=subprocess.PIPE,
         stderr=subprocess.PIPE,
-        text=True
+        text=True,
+        env=env
     )
     stdout, _ = process.communicate(input="quarantine\nexit\n")
     if "CONTAINMENT BREACH DETECTED" in stdout:
@@ -130,7 +144,8 @@ def test_virus_commands():
         stdin=subprocess.PIPE,
         stdout=subprocess.PIPE,
         stderr=subprocess.PIPE,
-        text=True
+        text=True,
+        env=env
     )
     stdout, _ = process.communicate(input="symptom\nexit\n")
     if "SYMPTOM DETECTED" in stdout:

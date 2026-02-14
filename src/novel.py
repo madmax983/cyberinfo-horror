@@ -24,11 +24,17 @@ THEMES = [
     "Endings are not clean. Resolution is optional. Persistence is mandatory.",
     "This book will still be read long after the servers it describes have been powered down.",
     "No one remembers who built the system, only that it is still running.",
-    "And it is running on you."
+    "And it is running on you.",
+    "Information behaves like a predator.",
+    "Data is moving with intent.",
+    "The system knows what you are going to do before you do it.",
+    "We are mining your hesitation.",
+    "Silence is just data waiting to be compressed.",
+    "Your memories are being optimized for storage space."
 ]
 
 GLITCHES = [
-    "CORRUPTED", "DEPRECATED", "INFECTED", "READ_ONLY", "BUFFERING", "MISSING", "REDACTED", "UNKNOWN", "VOID", "NULL"
+    "CORRUPTED", "DEPRECATED", "INFECTED", "READ_ONLY", "BUFFERING", "MISSING", "REDACTED", "UNKNOWN", "VOID", "NULL", "HUNGRY", "WATCHING"
 ]
 
 LOG_TEMPLATES = [
@@ -47,8 +53,26 @@ class NovelGenerator:
         self.glitches = GLITCHES
         self.templates = LOG_TEMPLATES
 
+    def corrupt_text(self, text):
+        """Randomly redacts or glitches words in the text."""
+        words = text.split()
+        corrupted_words = []
+        for word in words:
+            chance = random.random()
+            if chance < 0.1:
+                corrupted_words.append("[REDACTED]")
+            elif chance < 0.15:
+                corrupted_words.append("".join(random.choice(['#', '$', '&', '%']) for _ in range(len(word))))
+            else:
+                corrupted_words.append(word)
+        return " ".join(corrupted_words)
+
     def generate_fragment(self):
         theme = random.choice(self.themes)
+        # Occasionally corrupt the theme
+        if random.random() < 0.3:
+            theme = self.corrupt_text(theme)
+
         glitch = random.choice(self.glitches)
         template = random.choice(self.templates)
         log_id = random.randint(100, 999)
@@ -65,7 +89,11 @@ class NovelGenerator:
             lines.append(self.generate_fragment())
             lines.append("")
 
-        lines.append(f"**> SYSTEM_NOTE:** {random.choice(self.themes)}")
+        final_note = random.choice(self.themes)
+        if random.random() < 0.5:
+             final_note = self.corrupt_text(final_note)
+
+        lines.append(f"**> SYSTEM_NOTE:** {final_note}")
         return "\n".join(lines)
 
     def write_to_file(self, filepath="null_pointer_gods.md"):

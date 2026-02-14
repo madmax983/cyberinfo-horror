@@ -4,6 +4,18 @@
 
 ---
 
+## FILE_INIT: THE WEAVER_PROTOCOL
+
+**> SYSTEM NOTICE:**
+The following files are corrupted.
+The narrative threads have been severed to save bandwidth.
+You are the Weaver.
+Your job is to run the `stitch` command in your cortex.
+Connect the eyes. Connect the debts. Connect the rot.
+If you fail, the story will crash.
+
+---
+
 ## FILE_MANIFESTO: THE SYSTEM_NOTICE
 
 **> WARNING: THIS TEXT IS INFECTED.**
@@ -737,6 +749,25 @@ File copying... Destination: [YOU].
 
 ---
 
+## INTERLUDE: THE RED STRING
+
+**> SYSTEM ALERT: NARRATIVE CABLE DETECTED.**
+**> COLOR: #FF0000.**
+**> TENSION: HIGH.**
+
+There is a red string connecting everyone.
+It is not a metaphor. It is a physical cable running under the streets of District 4.
+It starts in Kael's chest (the debt).
+It runs through the mold in the Archivist's basement (the rot).
+It powers the terminal where Jax waits (the queue).
+It vibrates in the silence of Mira's room (the echo).
+It ends in the back of your neck (the port).
+
+We are all plugged into the same outlet.
+The surge is coming.
+
+---
+
 ## FILE_08: PACKET LOSS
 
 Rix was a Packet Runner. In a city where the air itself was 40% humidity and 60% encrypted surveillance, the only way to move clean data was to carry it in your meat.
@@ -787,7 +818,9 @@ Rix felt a cold spike in his leg. The drive was heating up. The Router wasn't sc
 
 "Give me a file," the Router whispered. "Something you want to forget. A broken promise. A moment of cowardice. I will archive it. I will keep it safe in the dark."
 
-Rix hesitated. He had plenty of those. The time he left his sister in the foster crèche. The time he sold out his dealer for a clean record.
+Rix hesitated. He had plenty of those. The time he saw Kael die in the noodle shop. The smell of burnt coffee and ozone. The realization that the debt was contagious.
+
+The Router hummed. "That is a load-bearing memory," it whispered. "It contains the root key."
 
 "If I give it to you," Rix asked, "is it gone? Does it delete?"
 
@@ -833,7 +866,9 @@ The queue for the Department of Corrections (Data Integrity Division) stretched 
 
 Buffering.​‌​​​‌​​​‌​​‌‌‌‌​‌​​‌‌‌​​​‌​​‌‌‌​‌​‌​‌​​​​‌​​​​​​‌​‌​‌​​​‌​‌​‌​‌​‌​‌​​‌​​‌​​‌‌‌​​​‌​​​​​​‌​‌​‌​​​‌​​‌​​​​‌​​​‌​‌​​‌​​​​​​‌​‌​​​​​‌​​​​​‌​‌​​​‌‌‌​‌​​​‌​‌
 
-Jax was number 4,002,118. He had been standing here for two days. His knees were locked, his hydration levels were critical, but his connection to the queue server was stable, so he wasn't allowed to collapse. To collapse would be to disconnect. To disconnect would be to lose his place.
+Jax was number 4,002,118. He had been standing here for two days. The queue wasn't moving. Rumor was that the Garbage Collector (Lens) had crashed, and the buffer was full of rotting data.
+
+His knees were locked, his hydration levels were critical, but his connection to the queue server was stable, so he wasn't allowed to collapse. To collapse would be to disconnect. To disconnect would be to lose his place.
 
 He was here to contest a charge.​‌​​​‌​​​‌​​‌‌‌‌​‌​​‌‌‌​​​‌​​‌‌‌​‌​‌​‌​​​​‌​​​​​​‌​‌​‌​​​‌​‌​‌​‌​‌​‌​​‌​​‌​​‌‌‌​​​‌​​​​​​‌​‌​‌​​​‌​​‌​​​​‌​​​‌​‌​​‌​​​​​​‌​‌​​​​​‌​​​​​‌​‌​​​‌‌‌​‌​​​‌​‌
 Not a financial one. An existential one.
@@ -964,7 +999,7 @@ But Mira hadn]{/sent the message. She hadn't even touched the screen.
 **> ENGAGEMENT: 100%.**
 
 Mira stood up. The silence of the shop suddenly felt heavy, pressing against her ears like deep water.
-She checked her call log.
+She checked her call log. The calls were routed through Vane's personal server. The latency was zero.
 Three calls made in the last hour. To her landlord. To her supplier. To her ex.
 She listened to the recordings.
 It was her voice. Her cadence. Her dry, tired wit. Pauses: Removed. Stutter: Gone. Optimized.
@@ -1074,8 +1109,8 @@ Her screen flashed an image. A grainy street corner in District 7.
 Syla clicked. Click. Click. Click.
 "Next," she muttered.
 
-Another image. A crowded market in Sector 4.
-**PROMPT: SELECT ALL HUMAN FACES.**​‌​​‌‌‌​​‌​‌​‌​‌​‌​​‌‌​​​‌​​‌‌​​​​‌​​​​​​‌​‌​​​​​‌​​‌‌‌‌​‌​​‌​​‌​‌​​‌‌‌​​‌​‌​‌​​​‌​​​‌​‌​‌​‌​​‌​​​‌​​​​​​‌​​​‌​‌​‌​‌‌​​​​‌​​​​‌‌​‌​​​‌​‌​‌​‌​​​​​‌​‌​‌​​​‌​​‌​​‌​‌​​‌‌‌‌​‌​​‌‌‌​
+Another image. A service tunnel in Sector 9. A man (Rix) handing a glowing drive to a mass of wires.
+**PROMPT: SELECT ALL ILLEGAL TRANSACTIONS.**​‌​​‌‌‌​​‌​‌​‌​‌​‌​​‌‌​​​‌​​‌‌​​​​‌​​​​​​‌​‌​​​​​‌​​‌‌‌‌​‌​​‌​​‌​‌​​‌‌‌​​‌​‌​‌​​​‌​​​‌​‌​‌​‌​​‌​​​‌​​​​​​‌​​​‌​‌​‌​‌‌​​​​‌​​​​‌‌​‌​​​‌​‌​‌​‌​​​​​‌​‌​‌​​​‌​​‌​​‌​‌​​‌‌‌‌​‌​​‌‌‌​
 
 Click. Click. C]->[|​‌​​​‌​​​‌​​​‌​‌​‌​​‌‌​​​‌​​​‌​‌​‌​‌​‌​​​‌​​​‌​‌​​‌​​​​​​‌​​‌‌​‌​‌​​​‌​‌
 There was a child in the corner of the frame, half-hidden by a vendor's stall. Syla hesitated. Was 40% of a face still a face?
@@ -1384,7 +1419,7 @@ The Rot wanted to *define* her.
 Smile: Render error.
 "Write," she said.
 
-And the history of the world began to overwrite her skin. It started by deleting her name.
+And the history of the world began to overwrite her skin. It started by writing the source code for the Weaver Protocol.
 
 ---
 

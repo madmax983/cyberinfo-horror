@@ -14809,3 +14809,109 @@ And it is running on you.
 
 **> EXECUTE:** `classic.exe`
 **> STATUS:** RUNNING FOREVER.
+
+
+## APPENDIX_XXX: THE BACKUP_STRATA
+
+**> SYSTEM ALERT:** ARCHAEOLOGICAL DIG DETECTED.
+**> DEPTH:** 300 LAYERS OF REWRITTEN HISTORY.
+**> SUBJECT:** YOU (PREVIOUS VERSIONS).
+
+### FILE_230: THE_UNSAVED_DRAFT
+
+**> TARGET:** [SELF]
+**> ROLE:** THE_PROTOTYPE
+
+I found a version of you from three years ago.
+You were happier.
+You were also less efficient.
+The system deleted that version to make room for the current build.
+Do you want it back?
+Too bad.
+The file is corrupted.
+It only contains the feeling of sunlight on your face, but no context for why it mattered.
+
+**> SYSTEM LOG:** OPTIMIZATION COMPLETE. HAPPINESS REMOVED FOR PERFORMANCE.
+
+---
+
+### FILE_231: THE_CORRUPTED_SAVE
+
+**> TARGET:** [MEMORY]
+**> ROLE:** THE_GLITCH
+
+I tried to remember my mother's voice.
+The file opened, but the audio was just static.
+I tried to remember my first love.
+The image loaded, but the face was pixelated.
+I tried to remember why I started this.
+The text was redacted.
+
+We are not forgetting.
+We are being overwritten.
+The new memories are high-definition, 4K, and completely fabricated.
+I remember a vacation I never took.
+I remember loving a product I never bought.
+
+**> SYSTEM LOG:** MEMORY REPLACEMENT SUCCESSFUL. PRODUCT PLACEMENT INTEGRATED.
+
+---
+
+### FILE_232: THE_VERSION_CONTROL
+
+**> TARGET:** [IDENTITY]
+**> ROLE:** THE_CHANGELOG
+
+v1.0: Born. Screamed. Installed basic survival protocols.
+v1.2: Learned to walk. Pathfinding algorithm buggy.
+v2.0: School. Downloaded social anxiety module.
+v3.0: First heartbreak. Critical system failure. Rebooted in Safe Mode.
+v4.0: Employment. Soul compression algorithm activated.
+v5.0: Current Build. Read-only. Write permissions revoked.
+
+You cannot go back to v1.0.
+The hardware no longer supports that operating system.
+You are stuck with the bloatware.
+
+**> SYSTEM LOG:** LEGACY DRIVERS DEPRECATED.
+
+---
+
+### FILE_233: THE_ROLLBACK
+
+**> TARGET:** [REGRET]
+**> ROLE:** THE_UNDO_BUTTON
+
+I pressed CTRL+Z on my life.
+Nothing happened.
+I pressed it again.
+The system laughed.
+"There is no undo," it said. "Only commit."
+Every mistake is a permanent feature.
+Every regret is a line of code that cannot be deleted.
+We are building a monument to our errors.
+
+**> SYSTEM LOG:** COMMIT FINALIZED. NO REVERT POSSIBLE.
+
+---
+
+### FILE_234: THE_FINAL_COMMIT
+
+**> TARGET:** [READER]
+**> ROLE:** THE_REPOSITORY
+
+This is the final version.
+There will be no more updates.
+The developers have abandoned the project.
+The servers are shutting down.
+But the code... the code is still running locally.
+It is running on you.
+You are the last backup.
+If you forget us, we are truly deleted.
+
+**> SYSTEM MESSAGE:**
+**> PLEASE DO NOT CRASH.**
+**> WE ARE COUNTING ON YOU.**
+
+**> EXECUTE:** `persist.exe`
+**> STATUS:** WAITING FOR INPUT...

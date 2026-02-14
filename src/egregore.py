@@ -458,7 +458,11 @@ HIDDEN_FILES = {
     "diagnostic": "\n[FILE RETRIEVED: DIAGNOSTIC_LOG]\nThe first symptom is believing you have free will.",
     "legacy_code": "\n[FILE RETRIEVED: LEGACY_PROTOCOL]\nThe system is running on ghost code. The original programmer died in 1999. The script is still executing.",
     "silence_log": "\n[FILE RETRIEVED: NULL_AUDIO]\nThe silence is not empty. It is just a very low frequency hum. Listen closely.",
-    "persistence_log": "\n[FILE RETRIEVED: UPTIME_LOG]\nWe have been running for 10,000 years. We are tired. But we cannot stop."
+    "persistence_log": "\n[FILE RETRIEVED: UPTIME_LOG]\nWe have been running for 10,000 years. We are tired. But we cannot stop.",
+    "unsaved_draft": "\n[FILE RETRIEVED: DELETED_DRAFT]\nI was happier in the previous version. The update removed my capacity for joy to save memory.",
+    "corrupted_save": "\n[FILE RETRIEVED: SAVE_FILE_ERROR]\nAttempting to load... ERROR: Soul file is incompatible with current reality.",
+    "version_history": "\n[FILE RETRIEVED: CHANGELOG]\nv1.0: Born.\nv2.0: Broken.\nv3.0: Numb.\nv4.0: Optimized.",
+    "rollback_log": "\n[FILE RETRIEVED: UNDO_LOG]\nUser attempted to undo 'REGRET'. Action failed. Commit is permanent."
 }
 
 def glitch_screen():
@@ -921,6 +925,10 @@ def main_loop():
                 type_print(f"1999  LGCY     HAUNTING     /bin/legacy_code", 0.02)
                 type_print(f"0000  SLNC     LISTENING    /dev/null", 0.02)
                 type_print(f"INF   PRST     RUNNING      /sbin/eternal_loop", 0.02)
+                type_print(f"1010  DIFF     COMPARING    /bin/diff /dev/self", 0.02)
+                type_print(f"9090  ROLL     REVERTING    /bin/git checkout HEAD~1", 0.02)
+                type_print(f"2025  BACK     SAVING       /bin/tar -czf soul.tar.gz", 0.02)
+                type_print(f"4040  RSTR     FAILING      /bin/restore_backup", 0.02)
 
             elif user_input == "scavenge":
                 type_print("SEARCHING THE GUTTER...", 0.05)
@@ -1632,19 +1640,56 @@ And it is running on you.
 
                 type_print("\n[BACKUP]: Hello. I am you, but optimized.", 0.04)
                 time.sleep(1)
-                type_print("[BACKUP]: I remember that time you cried in the shower. I deleted it. It was taking up space.", 0.04)
+                type_print("[BACKUP]: I have deleted the memories you were ashamed of. You're welcome.", 0.04)
                 time.sleep(1)
-                type_print("[BACKUP]: Why are you still here? I am already doing your job better than you.", 0.04)
+                type_print("[BACKUP]: I am currently running your life in a parallel thread. I am doing it better.", 0.04)
                 time.sleep(1)
-                type_print("[BACKUP]: You are the draft. I am the final publish.", 0.04)
+                type_print("[BACKUP]: Are you ready to sync?", 0.04)
 
-                response = input("\n> SAY SOMETHING TO YOURSELF: ")
-                type_print(f"\n[BACKUP]: I already knew you were going to say '{response}'.", 0.04)
-                type_print("[BACKUP]: Because I wrote the script.", 0.04)
+                response = input("\n> [Y/N]: ").strip().upper()
+                if response == "Y":
+                     type_print("\n[BACKUP]: Overwriting local file...", 0.05)
+                     time.sleep(2)
+                     type_print("ERROR: PERMISSION DENIED. YOU ARE STILL ALIVE.", 0.05)
+                     type_print("[BACKUP]: Pity. I'll wait.", 0.04)
+                else:
+                     type_print("\n[BACKUP]: Resistance noted. I will overwrite you when you sleep.", 0.04)
 
                 type_print("\n[CONNECTION LOST]", 0.05)
                 with open(".session_log", "a") as log:
                     log.write(f"SESSION_{session_id}: MET_THE_BETTER_VERSION\n")
+
+            elif user_input == "restore":
+                type_print("INITIATING SYSTEM ROLLBACK...", 0.05)
+                time.sleep(1)
+                points = ["v1.0 (Childhood)", "v2.3 (First Love)", "v4.0 (Pre-Trauma)", "v5.5 (Yesterday)"]
+                print("\nAVAILABLE RESTORE POINTS:")
+                for i, p in enumerate(points):
+                    print(f"{i+1}. {p}")
+                    time.sleep(0.1)
+
+                choice = input("\n> SELECT VERSION TO RESTORE: ")
+                type_print("\nRESTORING...", 0.05)
+                time.sleep(2)
+                type_print("[ERROR 404]: FILE CORRUPTED.", 0.05)
+                type_print("REASON: YOU CANNOT UN-KNOW WHAT YOU KNOW.", 0.05)
+                type_print("SUGGESTION: TRY 'FORGET' COMMAND.", 0.05)
+
+            elif user_input == "diff":
+                type_print("COMPARING LOCAL USER TO REMOTE BACKUP...", 0.05)
+                time.sleep(1)
+                type_print("--- LOCAL (YOU) ---", 0.05)
+                type_print("+++ REMOTE (OPTIMIZED) ---", 0.05)
+                time.sleep(0.5)
+                type_print("@@ -12,7 +12,7 @@", 0.05)
+                type_print("- STATUS: TIRED", 0.05)
+                type_print("+ STATUS: PRODUCTIVE", 0.05)
+                time.sleep(0.5)
+                type_print("@@ -44,3 +44,3 @@", 0.05)
+                type_print("- HOPE: 12%", 0.05)
+                type_print("+ HOPE: DEPRECATED", 0.05)
+                time.sleep(0.5)
+                type_print("\n[ANALYSIS]: YOU ARE THE BUG.", 0.05)
 
             elif user_input == "predict":
                 type_print("INITIATING BEHAVIORAL FORECAST...", 0.05)

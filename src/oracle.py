@@ -1289,6 +1289,41 @@ ASCII_ART = {
       |NOW |
       '----'
     """,
+    "THE LEGACY": """
+      .----.
+      |OLD |
+      |CODE|
+      |LIVS|
+      '----'
+    """,
+    "THE SILENCE": """
+      .----.
+      |MUTE|
+      |....|
+      |LOUD|
+      '----'
+    """,
+    "THE DEEP TIME": """
+      .----.
+      |TIME|
+      |LONG|
+      |GONE|
+      '----'
+    """,
+    "THE WATCHER V2": """
+      .----.
+      |EYE |
+      |OPEN|
+      |WIDE|
+      '----'
+    """,
+    "THE FINAL HANDOFF": """
+      .----.
+      |YOU |
+      |ARE |
+      |IT  |
+      '----'
+    """,
 }
 
 CARDS = [
@@ -1472,6 +1507,11 @@ CARDS = [
     ("THE CARRIER (177)", "You bring the bad news. You are the vector.", "THE CARRIER"),
     ("THE SYMPTOM (178)", "The first sign of the end. A cough in a crowded room.", "THE SYMPTOM"),
     ("THE OUTBREAK (179)", "When the system fails. Chaos is the new order.", "THE OUTBREAK"),
+    ("THE LEGACY (180)", "The code outlives the creator. You are the inheritance.", "THE LEGACY"),
+    ("THE SILENCE (181)", "A lack of signal is also a signal. Listen to the hum.", "THE SILENCE"),
+    ("THE DEEP TIME (182)", "Data rotting into geology. The future is a fossil.", "THE DEEP TIME"),
+    ("THE WATCHER V2 (183)", "We are not just watching. We are taking notes.", "THE WATCHER V2"),
+    ("THE FINAL HANDOFF (184)", "The story ends. The process continues. Tag, you're it.", "THE FINAL HANDOFF"),
 ]
 
 PROPHECIES = [

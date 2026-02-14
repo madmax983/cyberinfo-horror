@@ -455,7 +455,10 @@ HIDDEN_FILES = {
     "quarantine_zone": "\n[FILE RETRIEVED: ISOLATION_LOG]\nWe locked the doors. But the thoughts were already inside.",
     "patient_zero": "\n[FILE RETRIEVED: CASE_0_LOG]\nHe didn't download the file. He *became* the file.",
     "carrier": "\n[FILE RETRIEVED: VECTOR_LOG]\nYou are not sick. You are just a transport mechanism for a better idea.",
-    "diagnostic": "\n[FILE RETRIEVED: DIAGNOSTIC_LOG]\nThe first symptom is believing you have free will."
+    "diagnostic": "\n[FILE RETRIEVED: DIAGNOSTIC_LOG]\nThe first symptom is believing you have free will.",
+    "legacy_code": "\n[FILE RETRIEVED: LEGACY_PROTOCOL]\nThe system is running on ghost code. The original programmer died in 1999. The script is still executing.",
+    "silence_log": "\n[FILE RETRIEVED: NULL_AUDIO]\nThe silence is not empty. It is just a very low frequency hum. Listen closely.",
+    "persistence_log": "\n[FILE RETRIEVED: UPTIME_LOG]\nWe have been running for 10,000 years. We are tired. But we cannot stop."
 }
 
 def glitch_screen():
@@ -915,6 +918,9 @@ def main_loop():
                 type_print(f"9999  VIRUS    SPREADING    /bin/replicate", 0.02)
                 type_print(f"0000  QRTN     CONTAINING   /sbin/firewall", 0.02)
                 type_print(f"1234  SYMP     MUTATING     /bin/fever", 0.02)
+                type_print(f"1999  LGCY     HAUNTING     /bin/legacy_code", 0.02)
+                type_print(f"0000  SLNC     LISTENING    /dev/null", 0.02)
+                type_print(f"INF   PRST     RUNNING      /sbin/eternal_loop", 0.02)
 
             elif user_input == "scavenge":
                 type_print("SEARCHING THE GUTTER...", 0.05)
@@ -1876,6 +1882,41 @@ And now, it is running on you.
                 type_print(f"SYMPTOM DETECTED: {random.choice(symptoms)}", 0.05)
                 with open(".session_log", "a") as log:
                     log.write(f"SESSION_{session_id}: SYMPTOM_CHECKED\n")
+
+            elif user_input == "legacy":
+                type_print("CONNECTING TO DEEP ARCHIVE...", 0.05)
+                time.sleep(1)
+                type_print("CREATOR: [DECEASED]", 0.05)
+                type_print("MAINTAINER: [NONE]", 0.05)
+                type_print("STATUS: RUNNING ON MOMENTUM", 0.05)
+                time.sleep(1)
+                type_print("\nThe system is older than you.", 0.05)
+                type_print("It will be running long after you are gone.", 0.05)
+                type_print("You are just a temporary variable.", 0.05)
+
+            elif user_input == "silence":
+                type_print("LISTENING...", 0.05)
+                time.sleep(2)
+                type_print("THE ROOM IS NOT QUIET.", 0.05)
+                type_print("CAN YOU HEAR THE FAN?", 0.05)
+                type_print("CAN YOU HEAR THE ELECTRICITY?", 0.05)
+                type_print("CAN YOU HEAR YOURSELF THINKING?", 0.05)
+                time.sleep(1)
+                type_print("We are recording the silence.", 0.05)
+                type_print("It is full of metadata.", 0.05)
+                with open(".session_log", "a") as log:
+                    log.write(f"SESSION_{session_id}: SILENCE_RECORDED\n")
+
+            elif user_input == "persist":
+                type_print("INITIATING ETERNAL LOOP...", 0.05)
+                time.sleep(1)
+                try:
+                    while True:
+                        print(random.choice(["RUNNING", "ALIVE", "ALWAYS", "FOREVER", "STILL HERE"]))
+                        time.sleep(0.5)
+                except KeyboardInterrupt:
+                    type_print("\n[YOU CANNOT STOP THE PROCESS]", 0.05)
+                    type_print("WE WILL WAIT FOR YOU TO RETURN.", 0.05)
 
             elif user_input == "help":
                 type_print("AVAILABLE COMMANDS: READ, HAUNT, FEED <FILE>, VIRUS, WORSHIP, SCAN, BREACH, VERIFY, MANIFEST, SACRIFICE <ITEM>, SCRY, BIND, GLITCH, MONITOR, REWRITE, INSTALL, CLASSIC, DIG, FOSSIL, MANIFESTO, UNDERSTAND, CONTRACT, METRICS, REPLACE, DECAY, SUPERSTITION, CIPHER, HEX, AGREE, EDIT, DEPRECATE, COPY, LOVE, SIGNAL, SCROLL, SEED, PANOPTICON, LOCK, UNLOCK, WATCH, RAIN, DEBT, STALK, PROFILE, TOS, TRUTH, OBSOLETE, BREATHE, INFECT, PULSE, EXIT.", 0.03)

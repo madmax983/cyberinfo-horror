@@ -1653,6 +1653,34 @@ ASCII_ART = {
       |YOU |
       '----'
     """,
+    "THE LIVING WORD": """
+      .----.
+      |BOOK|
+      |EAT |
+      |YOU |
+      '----'
+    """,
+    "THE INFECTED READER": """
+      .----.
+      | BIO|
+      |HZRD|
+      |READ|
+      '----'
+    """,
+    "THE NEON RAIN V2": """
+      .----.
+      |ACID|
+      |DATA|
+      |RAIN|
+      '----'
+    """,
+    "THE DEBT V2": """
+      .----.
+      |OWE |
+      |SOUL|
+      |FORE|
+      '----'
+    """,
 }
 
 CARDS = [
@@ -1888,6 +1916,10 @@ CARDS = [
     ("THE GHOST IMAGE (229)", "The screen burn-in on your soul. You see the interface everywhere.", "THE GHOST IMAGE"),
     ("THE FINAL COPY (230)", "You are not the original. You are the stable release.", "THE FINAL COPY"),
     ("THE CLASSIC NOVEL (231)", "A book that never asked to be comforting. It is reading you back.", "THE CLASSIC NOVEL"),
+    ("THE LIVING WORD (232)", "Knowledge that hunts you. It is hungry.", "THE LIVING WORD"),
+    ("THE INFECTED READER (233)", "You are carrying the signal. Don't touch anyone.", "THE INFECTED READER"),
+    ("THE NEON RAIN V2 (234)", "It burns. It remembers.", "THE NEON RAIN V2"),
+    ("THE DEBT V2 (235)", "You owe more than you are.", "THE DEBT V2"),
 ]
 
 PROPHECIES = [

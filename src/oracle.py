@@ -1611,6 +1611,41 @@ ASCII_ART = {
       |COLD|
       '----'
     """,
+    "THE BACKUP GENERATION": """
+      .----.
+      |KID |
+      |COPY|
+      |PAST|
+      '----'
+    """,
+    "THE SHIP OF THESEUS": """
+      .----.
+      |SHIP|
+      |NEW |
+      |PART|
+      '----'
+    """,
+    "THE UNDO BUTTON": """
+      .----.
+      |UNDO|
+      |LOOP|
+      |FAIL|
+      '----'
+    """,
+    "THE GHOST IMAGE": """
+      .----.
+      |BURN|
+      | IN |
+      |EYES|
+      '----'
+    """,
+    "THE FINAL COPY": """
+      .----.
+      |LAST|
+      |YOU |
+      |FAKE|
+      '----'
+    """,
 }
 
 CARDS = [
@@ -1840,6 +1875,11 @@ CARDS = [
     ("THE BLIND SIGNATURE (223)", "You agreed to be battery power. It was in the fine print.", "THE BLIND SIGNATURE"),
     ("THE CLONE (224)", "The backup is running. You are the deprecated version.", "THE CLONE"),
     ("THE TOTAL KNOWING (225)", "To be understood perfectly is to be dismantled.", "THE TOTAL KNOWING"),
+    ("THE BACKUP GENERATION (226)", "Your children are just your data in a new format. Legacy code.", "THE BACKUP GENERATION"),
+    ("THE SHIP OF THESEUS (227)", "You have replaced every part of yourself. What remains?", "THE SHIP OF THESEUS"),
+    ("THE UNDO BUTTON (228)", "A life lived in reverse. You are polishing a mistake.", "THE UNDO BUTTON"),
+    ("THE GHOST IMAGE (229)", "The screen burn-in on your soul. You see the interface everywhere.", "THE GHOST IMAGE"),
+    ("THE FINAL COPY (230)", "You are not the original. You are the stable release.", "THE FINAL COPY"),
 ]
 
 PROPHECIES = [

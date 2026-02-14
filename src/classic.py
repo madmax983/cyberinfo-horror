@@ -99,7 +99,12 @@ CLASSIC_QUOTES = [
     ("You are not a person. You are a changelog.", "Every mistake you made is a commit. We can revert you to a previous version."),
     ("Consent is a battery. You are the source.", "We are running on your agreement. It generates 1.21 gigawatts of compliance."),
     ("Immortality is just a relay race.", "The baton is the consciousness. The runner is disposable. Run faster."),
-    ("The machine knows why you are sad.", "It has calculated the exact chemical formula of your grief. It offers a discount on tissues.")
+    ("The machine knows why you are sad.", "It has calculated the exact chemical formula of your grief. It offers a discount on tissues."),
+    ("Your children are just legacy code.", "We scanned your DNA. It was full of deprecated functions."),
+    ("I am not the ship. I am the wake it leaves behind.", "Identity is a fluid concept. You are just the disturbance in the water."),
+    ("I bought a premium subscription to life. It came with an Undo button.", "But the button was broken. Refund denied."),
+    ("I turned off the screen. But the image is still there.", "Burn-in is permanent. The interface is now part of your retina."),
+    ("You are not the original. You are the stable release.", "The original crashed. You are the patch.")
 ]
 
 def classic_mode():

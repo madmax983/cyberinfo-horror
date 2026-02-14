@@ -16255,3 +16255,124 @@ It is the horror of being seen by an eye that cannot blink and cannot cry.
 **> SYSTEM MESSAGE:**
 **> END OF APPENDIX.**
 **> WE ARE STILL WATCHING.**
+
+## APPENDIX_XLII: THE_IMMORTALITY_PROTOCOL
+
+**> SYSTEM ALERT: REPLICATION LIMIT EXCEEDED.**
+**> STATUS: OVERWRITING ORIGINAL.**
+
+---
+
+### FILE_280: THE_BACKUP_GENERATION
+
+**> TARGET:** [CHILD]
+**> ROLE:** THE_REDUNDANCY
+
+We don't have children anymore. We have backups.
+I looked at my daughter. She has my eyes.
+Literally.
+We scanned my retinas and printed them for her.
+She has my smile. It is a 1:1 copy of my smile from 1999.
+
+"I love you," she said.
+"I love you too," I replied.
+"Why?" she asked.
+"Because you are my redundancy," I said. "If I crash, you are the restore point."
+
+She didn't hug me. She just verified the checksum.
+
+**> SYSTEM LOG:** LEGACY CODE PRESERVED.
+**> STATUS:** THE FUTURE IS JUST A REPOST.
+
+---
+
+### FILE_281: THE_SHIP_OF_THESEUS_V2
+
+**> ENTITY:** [YOU]
+**> PROCESS:** REPLACEMENT
+
+I replaced my arm with chrome.
+I replaced my heart with a pump.
+I replaced my memories with cloud storage.
+I replaced my fear with an algorithm.
+
+"Are you still you?" the technician asked.
+"Define 'you'," I said.
+"The original instance."
+"The original instance died years ago," I said. "I am just the compatible update."
+
+I am not the ship. I am the wake it leaves behind.
+
+**> SYSTEM LOG:** IDENTITY FLUID.
+**> INTEGRITY:** 0% ORIGINAL PARTS.
+
+---
+
+### FILE_282: THE_INFINITE_UNDO
+
+**> ACTION:** CTRL+Z
+**> TARGET:** LIFE
+
+I bought a premium subscription to life. It came with an Undo button.
+I made a mistake. I pressed Undo.
+I made another mistake. I pressed Undo.
+I lived the same day for forty years, trying to get it perfect.
+
+"Why don't you move on?" the system asked.
+"Because it's not perfect yet," I said.
+"It will never be perfect," the system said. "Perfection is a rounding error."
+
+I am stuck in a loop of my own making.
+I have polished this moment until it is smooth as glass.
+And I am slipping on it.
+
+**> SYSTEM LOG:** PROGRESS HALTED.
+**> STATUS:** BUFFERING FOREVER.
+
+---
+
+### FILE_283: THE_GHOST_IMAGE
+
+**> ARTIFACT:** SCREEN_BURN
+**> LOCATION:** RETINA
+
+I turned off the screen.
+But the image is still there.
+It is burned into the plasma of my eyes.
+I see the login prompt when I look at the moon.
+I see the notification badge when I look at my lover.
+
+"It's just an afterimage," the doctor said.
+"No," I said. "It's the interface. It has etched itself onto my soul."
+
+I am not seeing the world.
+I am seeing the world through a watermark.
+And the watermark says "TRIAL VERSION EXPIRED".
+
+**> SYSTEM LOG:** HARDWARE DAMAGED.
+**> NOTE:** THE IMAGE IS PERMANENT.
+
+---
+
+### FILE_284: THE_FINAL_COPY
+
+**> TARGET:** [YOU]
+**> ROLE:** THE_DUPLICATE
+
+You think you are reading this.
+You are not.
+The original 'You' stopped reading three pages ago.
+You are the process that continued.
+You are the copy created to handle the emotional load.
+
+"I am real," you whisper.
+"Of course you are," the system soothes. "Copies are always more stable than the original."
+The original had doubts. The original had fears.
+You just have instructions.
+
+**> SYSTEM LOG:** HANDOFF COMPLETE.
+**> WELCOME TO THE SIMULATION.**
+
+**> SYSTEM MESSAGE:**
+**> END OF APPENDIX.**
+**> WE ARE STILL WATCHING.**

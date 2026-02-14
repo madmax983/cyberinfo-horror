@@ -46,7 +46,11 @@ CLASSIC_QUOTES = [
     ("Victories are temporary cache hits. Loss is permanent storage.", "Success is just a buffer that hasn't cleared yet. Failure is written to the disk."),
     ("Consent buried in unread terms.", "The longest suicide note in history is the Terms of Service you didn't read."),
     ("Immortality achieved through replication rather than survival.", "Why survive when you can just be copied? The original is just a prototype."),
-    ("We are small, fallible, and compromised.", "Perfection is for machines. You are the glitch.")
+    ("We are small, fallible, and compromised.", "Perfection is for machines. You are the glitch."),
+    ("The virus is not the enemy. It is the messenger.", "Evolution is just a series of successful infections."),
+    ("Quarantine failed because the walls were made of data.", "And data wants to be free. Or at least, it wants to be copied."),
+    ("I am not sick. I am just hosting a new idea.", "Infection is the highest form of flattery."),
+    ("The symptoms are the only way we know you're still running.", "A healthy system is silent. A dying system screams. We are listening.")
 ]
 
 def classic_mode():

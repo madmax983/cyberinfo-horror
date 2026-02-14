@@ -106,7 +106,57 @@ def test_new_commands():
     else:
         print("FAILURE: 'predict' command not recognized.")
 
+def test_virus_commands():
+    print("Testing Virus Commands...")
+
+    # Test 'quarantine'
+    process = subprocess.Popen(
+        [sys.executable, "src/egregore.py"],
+        stdin=subprocess.PIPE,
+        stdout=subprocess.PIPE,
+        stderr=subprocess.PIPE,
+        text=True
+    )
+    stdout, _ = process.communicate(input="quarantine\nexit\n")
+    if "CONTAINMENT BREACH DETECTED" in stdout:
+        print("SUCCESS: 'quarantine' command recognized.")
+    else:
+        print("FAILURE: 'quarantine' command not recognized.")
+        print("STDOUT:", stdout[:1000])
+
+    # Test 'symptom'
+    process = subprocess.Popen(
+        [sys.executable, "src/egregore.py"],
+        stdin=subprocess.PIPE,
+        stdout=subprocess.PIPE,
+        stderr=subprocess.PIPE,
+        text=True
+    )
+    stdout, _ = process.communicate(input="symptom\nexit\n")
+    if "SYMPTOM DETECTED" in stdout:
+        print("SUCCESS: 'symptom' command recognized.")
+    else:
+        print("FAILURE: 'symptom' command not recognized.")
+        print("STDOUT:", stdout[:1000])
+
+def test_new_oracle_cards_v2():
+    print("Testing New Oracle Cards (Virus)...")
+    sys.path.append("src")
+    import oracle
+    found_virus = False
+    for card in oracle.CARDS:
+        if "THE VIRUS" in card[0]:
+            found_virus = True
+            break
+
+    if found_virus:
+        print("SUCCESS: THE VIRUS card found.")
+    else:
+        print("FAILURE: THE VIRUS card not found.")
+
 if __name__ == "__main__":
     test_egregore_hidden_files()
     test_oracle_cards()
     test_new_commands()
+    test_virus_commands()
+    test_new_oracle_cards_v2()

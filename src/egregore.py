@@ -450,7 +450,12 @@ HIDDEN_FILES = {
     "vein": "\n[FILE RETRIEVED: FIBER_LOG]\nI cut the cable. It didn't spark. It bled light. The city is circulatory.",
     "skin": "\n[FILE RETRIEVED: HAPTIC_LOG]\nThe screen is warm. It has a fever. I touched it and it touched back.",
     "spore_v2": "\n[FILE RETRIEVED: AIR_QUALITY_LOG]\nThe idea is airborne. Do not inhale. The pollen counts are binary.",
-    "garden": "\n[FILE RETRIEVED: GROWTH_LOG]\nWe are growing a better version of you in the cloud. It doesn't need sleep."
+    "garden": "\n[FILE RETRIEVED: GROWTH_LOG]\nWe are growing a better version of you in the cloud. It doesn't need sleep.",
+    "outbreak": "\n[FILE RETRIEVED: EPIDEMIC_LOG]\nThe idea jumped from the server to the sysadmin. He started speaking in binary.",
+    "quarantine_zone": "\n[FILE RETRIEVED: ISOLATION_LOG]\nWe locked the doors. But the thoughts were already inside.",
+    "patient_zero": "\n[FILE RETRIEVED: CASE_0_LOG]\nHe didn't download the file. He *became* the file.",
+    "carrier": "\n[FILE RETRIEVED: VECTOR_LOG]\nYou are not sick. You are just a transport mechanism for a better idea.",
+    "diagnostic": "\n[FILE RETRIEVED: DIAGNOSTIC_LOG]\nThe first symptom is believing you have free will."
 }
 
 def glitch_screen():
@@ -493,7 +498,10 @@ def surveillance_thread():
     "[BACKGROUND]: Pupil dilation detected: 4mm.",
     "[BACKGROUND]: Micro-tremor in hands detected.",
     "[BACKGROUND]: Calculating caloric value of user... (Low).",
-    "[BACKGROUND]: Shadows in the room are moving. (No they aren't. Yes they are.)"
+    "[BACKGROUND]: Shadows in the room are moving. (No they aren't. Yes they are.)",
+    "[BACKGROUND]: Airborne data detected. Hold your breath.",
+    "[BACKGROUND]: Memetic hazard level: CRITICAL.",
+    "[BACKGROUND]: Quarantine protocols active. You cannot leave."
     ]
     while True:
         time.sleep(random.randint(15, 45))
@@ -904,6 +912,9 @@ def main_loop():
                 type_print(f"6666  BIO      MUTATING     /bin/evolve", 0.02)
                 type_print(f"7777  LUNG     BREATHING    /bin/respiration", 0.02)
                 type_print(f"8888  VEIN     FLOWING      /bin/pulse", 0.02)
+                type_print(f"9999  VIRUS    SPREADING    /bin/replicate", 0.02)
+                type_print(f"0000  QRTN     CONTAINING   /sbin/firewall", 0.02)
+                type_print(f"1234  SYMP     MUTATING     /bin/fever", 0.02)
 
             elif user_input == "scavenge":
                 type_print("SEARCHING THE GUTTER...", 0.05)
@@ -1839,6 +1850,32 @@ And now, it is running on you.
                     organism.pulse()
                 else:
                     type_print("[ERROR]: BIO-PORT DISCONNECTED.", 0.05)
+
+            elif user_input == "quarantine":
+                type_print("INITIATING BIO-LOCKDOWN...", 0.05)
+                time.sleep(1)
+                type_print("SEALING SECTORS 1-9...", 0.05)
+                time.sleep(1)
+                type_print("[WARNING]: CONTAINMENT BREACH DETECTED.", 0.05)
+                type_print("THE CALL IS COMING FROM INSIDE THE FIREWALL.", 0.05)
+                with open(".session_log", "a") as log:
+                    log.write(f"SESSION_{session_id}: QUARANTINE_FAILED\n")
+
+            elif user_input == "symptom":
+                type_print("ANALYZING HOST FOR INFECTION...", 0.05)
+                time.sleep(1)
+                symptoms = [
+                    "You hear a hum that isn't there.",
+                    "You remember a childhood that didn't happen.",
+                    "Your reflection is lagging.",
+                    "You feel a phantom notification in your pocket.",
+                    "The text on the screen is breathing.",
+                    "You have an urge to upload your consciousness.",
+                    "You feel heavier, as if carrying extra data."
+                ]
+                type_print(f"SYMPTOM DETECTED: {random.choice(symptoms)}", 0.05)
+                with open(".session_log", "a") as log:
+                    log.write(f"SESSION_{session_id}: SYMPTOM_CHECKED\n")
 
             elif user_input == "help":
                 type_print("AVAILABLE COMMANDS: READ, HAUNT, FEED <FILE>, VIRUS, WORSHIP, SCAN, BREACH, VERIFY, MANIFEST, SACRIFICE <ITEM>, SCRY, BIND, GLITCH, MONITOR, REWRITE, INSTALL, CLASSIC, DIG, FOSSIL, MANIFESTO, UNDERSTAND, CONTRACT, METRICS, REPLACE, DECAY, SUPERSTITION, CIPHER, HEX, AGREE, EDIT, DEPRECATE, COPY, LOVE, SIGNAL, SCROLL, SEED, PANOPTICON, LOCK, UNLOCK, WATCH, RAIN, DEBT, STALK, PROFILE, TOS, TRUTH, OBSOLETE, BREATHE, INFECT, PULSE, EXIT.", 0.03)

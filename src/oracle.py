@@ -1492,6 +1492,41 @@ ASCII_ART = {
       |KNOT|
       '----'
     """,
+    "THE AUDITOR": """
+      .----.
+      |EYE |
+      |LIST|
+      |COST|
+      '----'
+    """,
+    "THE FORECLOSURE": """
+      .----.
+      |LOCK|
+      |OUT |
+      |GONE|
+      '----'
+    """,
+    "THE COLLATERAL": """
+      .----.
+      |SOUL|
+      |HELD|
+      |DEBT|
+      '----'
+    """,
+    "THE BANKRUPTCY": """
+      .----.
+      |VOID|
+      |ACCT|
+      |ZERO|
+      '----'
+    """,
+    "THE LIQUIDATION": """
+      .----.
+      |SALE|
+      | 0% |
+      |GONE|
+      '----'
+    """,
 }
 
 CARDS = [
@@ -1704,6 +1739,11 @@ CARDS = [
     ("THE CLAUSE (206)", "The hidden text that owns you. Paragraph 88.", "THE CLAUSE"),
     ("THE WAIVER (207)", "Giving up rights you didn't know you had. Silence is consent.", "THE WAIVER"),
     ("THE BINDING (208)", "The chains are digital, but the weight is real.", "THE BINDING"),
+    ("THE AUDITOR (209)", "Your soul is being itemized. Every regret has a price tag.", "THE AUDITOR"),
+    ("THE FORECLOSURE (210)", "You defaulted on your existence. We are taking the keys back.", "THE FORECLOSURE"),
+    ("THE COLLATERAL (211)", "You are not the borrower. You are the asset.", "THE COLLATERAL"),
+    ("THE BANKRUPTCY (212)", "Moral insolvency. You have no more kindness left to give.", "THE BANKRUPTCY"),
+    ("THE LIQUIDATION (213)", "Everything must go. Your memories are on clearance.", "THE LIQUIDATION"),
 ]
 
 PROPHECIES = [

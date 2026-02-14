@@ -85,7 +85,12 @@ CLASSIC_QUOTES = [
     ("You are not a victim of theft. You are a victim of literacy.", "You could have read the terms. You chose not to. That choice was the signature."),
     ("The loophole is a noose.", "You thought you found an exit. You just found a tighter fit."),
     ("Property cannot sue.", "You are software. Software does not have rights. It has permissions."),
-    ("The font size is 0.", "It is written in invisible ink. You signed it anyway.")
+    ("The font size is 0.", "It is written in invisible ink. You signed it anyway."),
+    ("The ledger is the only holy book left.", "And your balance is negative."),
+    ("You are not a citizen. You are collateral.", "We borrowed against your future to pay for the server maintenance."),
+    ("Silence is a luxury good.", "The poor must listen to the ads."),
+    ("Your soul is depreciating.", "We recommend liquidating your childhood memories to stay solvent."),
+    ("The audit is mandatory.", "We are checking your emotional tax returns.")
 ]
 
 def classic_mode():

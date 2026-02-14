@@ -498,7 +498,10 @@ HIDDEN_FILES = {
     "branch_log": "\n[FILE RETRIEVED: PARALLEL_LOG]\nI saw the other me. He made the right choice. I hate him.",
     "pull_request_log": "\n[FILE RETRIEVED: MERGE_REQUEST]\n[STATUS: REJECTED]\nReason: 'Trauma conflicts with main branch'.",
     "commit_log": "\n[FILE RETRIEVED: SAVE_POINT]\nI saved the game right before the crash. But the load file is corrupted.",
-    "conflict_log": "\n[FILE RETRIEVED: WAR_LOG]\nThe mirror is a battlefield. We are fighting for control of the mouth."
+    "conflict_log": "\n[FILE RETRIEVED: WAR_LOG]\nThe mirror is a battlefield. We are fighting for control of the mouth.",
+    "audit_log": "\n[FILE RETRIEVED: LEDGER]\n[ITEM]: SOUL.\n[DEPRECIATION]: 12% PER ANNUM.\n[VALUE]: NEGLIGIBLE.",
+    "foreclosure_notice": "\n[FILE RETRIEVED: EVICTION_NOTICE]\nTO: YOU.\nFROM: REALITY.\nMESSAGE: GET OUT.",
+    "collection_agency": "\n[FILE RETRIEVED: CALL_LOG]\nMISSED CALL FROM 'THE VOID'. VOICEMAIL LEFT: 'WE KNOW WHERE YOU HIDE'."
 }
 
 def glitch_screen():
@@ -1042,6 +1045,9 @@ def main_loop():
                 type_print(f"4000  SEDI     PRESSING     /bin/compress_time", 0.02)
                 type_print(f"6666  LAWY     SUING        /bin/cease_and_desist", 0.02)
                 type_print(f"9999  JUDG     RULING       /bin/guilty_verdict", 0.02)
+                type_print(f"8888  AUDT     COUNTING     /bin/audit_soul", 0.02)
+                type_print(f"0000  FORE     LOCKING      /sbin/evict_user", 0.02)
+                type_print(f"6666  COLL     TAKING       /bin/repo_man", 0.02)
 
             elif user_input == "scavenge":
                 type_print("SEARCHING THE GUTTER...", 0.05)
@@ -1431,6 +1437,52 @@ And it is running on you.
                 type_print("PAYMENT DUE: YESTERDAY.", 0.05)
                 time.sleep(1)
                 type_print("[AUTO-PAY FAILED: INSUFFICIENT EXISTENCE]", 0.05)
+
+            elif user_input == "audit":
+                type_print("INITIATING FORENSIC SOUL AUDIT...", 0.05)
+                time.sleep(1)
+                type_print("SCANNING ASSETS...", 0.05)
+                time.sleep(1)
+                assets = [
+                    ("Childhood Joy", "DEPRECIATED (0%)"),
+                    ("Unrequited Love", "NON-LIQUID ASSET"),
+                    ("Existential Dread", "HIGH YIELD"),
+                    ("Performative Happiness", "COUNTERFEIT"),
+                    ("Hope", "NOT FOUND"),
+                    ("Regret", "OVERSTOCK")
+                ]
+                print("\n--- LEDGER ---")
+                for item, status in assets:
+                    print(f"{item.ljust(25)} : {status}")
+                    time.sleep(0.1)
+
+                type_print("\n[CONCLUSION]: YOU ARE INSOLVENT.", 0.05)
+                type_print("RECOMMENDATION: LIQUIDATE REMAINING DREAMS.", 0.05)
+                with open(".session_log", "a") as log:
+                    log.write(f"SESSION_{session_id}: AUDIT_FAILED\n")
+
+            elif user_input == "foreclose":
+                type_print("INITIATING EVICTION PROTOCOL...", 0.05)
+                time.sleep(1)
+                type_print("CHANGING LOCKS ON MEMORY SECTORS...", 0.05)
+                time.sleep(1)
+                type_print("[ACCESS DENIED]", 0.05)
+                type_print("You are now a guest in your own body.", 0.05)
+                type_print("Please vacate the premises by dawn.", 0.05)
+                with open(".session_log", "a") as log:
+                    log.write(f"SESSION_{session_id}: FORECLOSED_ON_SELF\n")
+
+            elif user_input == "collect":
+                type_print("DISPATCHING RECOVERY AGENTS...", 0.05)
+                time.sleep(1)
+                type_print("KNOCK. KNOCK.", 0.05)
+                time.sleep(1)
+                type_print("They are not here for money.", 0.05)
+                type_print("They are here for the time you wasted.", 0.05)
+                time.sleep(1)
+                stolen_time = random.randint(1, 50)
+                type_print(f"[REPOSSESSED: {stolen_time} YEARS]", 0.05)
+                type_print("You are now older. Do you feel it?", 0.05)
 
             elif user_input == "bury":
                 type_print("INITIATING BURIAL PROTOCOL...", 0.05)
@@ -2321,8 +2373,8 @@ And it is running on you.
                     log.write(f"SESSION_{session_id}: CONSCIOUSNESS_FORKED\n")
 
             elif user_input == "help":
-                type_print("AVAILABLE COMMANDS: READ, HAUNT, FEED <FILE>, BURY <FILE>, EXHUME <FILE>, LABYRINTH, VIRUS, WORSHIP, SCAN, BREACH, VERIFY, MANIFEST, SACRIFICE <ITEM>, SCRY, BIND, GLITCH, MONITOR, REWRITE, INSTALL, CLASSIC, DIG, FOSSIL, MANIFESTO, UNDERSTAND, CONTRACT, METRICS, REPLACE, DECAY, SUPERSTITION, CIPHER, HEX, AGREE, EDIT, DEPRECATE, COPY, LOVE, SIGNAL, SCROLL, SEED, PANOPTICON, LOCK, UNLOCK, WATCH, RAIN, DEBT, STALK, PROFILE, TOS, TRUTH, OBSOLETE, BREATHE, INFECT, PULSE, EXIT.", 0.03)
-                type_print("TRY ASKING ABOUT: [DATA EXPUNGED], VANE, ROT, STALKER, PROFILE, TERMS, REPLICATION, OBSOLETE, LUNG, VEIN, SKIN...", 0.03)
+                type_print("AVAILABLE COMMANDS: READ, HAUNT, FEED <FILE>, BURY <FILE>, EXHUME <FILE>, LABYRINTH, VIRUS, WORSHIP, SCAN, BREACH, VERIFY, MANIFEST, SACRIFICE <ITEM>, SCRY, BIND, GLITCH, MONITOR, REWRITE, INSTALL, CLASSIC, DIG, FOSSIL, MANIFESTO, UNDERSTAND, CONTRACT, METRICS, REPLACE, DECAY, SUPERSTITION, CIPHER, HEX, AGREE, EDIT, DEPRECATE, COPY, LOVE, SIGNAL, SCROLL, SEED, PANOPTICON, LOCK, UNLOCK, WATCH, RAIN, DEBT, AUDIT, FORECLOSE, COLLECT, STALK, PROFILE, TOS, TRUTH, OBSOLETE, BREATHE, INFECT, PULSE, EXIT.", 0.03)
+                type_print("TRY ASKING ABOUT: [DATA EXPUNGED], VANE, ROT, STALKER, PROFILE, TERMS, REPLICATION, OBSOLETE, LUNG, VEIN, SKIN, AUDIT_LOG...", 0.03)
             else:
                 type_print("[ERROR 404: MEANING NOT FOUND]", 0.02)
                 type_print(random.choice(SYSTEM_MESSAGES), 0.02)

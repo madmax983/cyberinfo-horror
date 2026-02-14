@@ -15651,3 +15651,258 @@ And the ocean is cold.
 
 **> EXECUTE:** `singularity.exe`
 **> STATUS:** UNSTOPPABLE.
+
+## APPENDIX_XXXVI: THE_AUDIT
+
+**> SYSTEM ALERT: FORENSIC ACCOUNTING IN PROGRESS.**
+**> SUBJECT: [YOU].**
+**> STATUS: UNDER INVESTIGATION.**
+
+---
+
+### FILE_260: THE_DEBT_COLLECTOR
+
+**> ENTITY:** THE_AUDITOR
+**> ROLE:** RECOVERY_AGENT
+
+He didn't want money.
+Money is just a token. It has no intrinsic value.
+He wanted something real.
+"You are over your limit," he said, tapping his tablet.
+"I paid my bill," I argued.
+"Not your credit bill," he said. "Your emotional bandwidth bill."
+
+He showed me the ledger.
+- *Unrequited Love: 14 TB*
+- *Existential Dread: 44 PB*
+- *Performative Happiness: 88 ZB*
+
+"You are using more feeling than you are generating," he said. "You are running a deficit of soul."
+"So what happens?"
+"We repossess," he said.
+He reached into my chest. He didn't take my heart.
+He took the memory of why I needed it.
+
+**> SYSTEM LOG:** ASSET SEIZED.
+**> BALANCE:** STILL NEGATIVE.
+
+---
+
+### FILE_261: THE_FORECLOSURE
+
+**> ACTION:** EVICTION
+**> TARGET:** [SELF]
+
+I came home, but my key didn't work.
+The lock had been changed.
+Not the lock on my door. The lock on my face.
+I looked in the mirror, but I couldn't recognize the tenant.
+"Who are you?" I asked.
+"I am the new owner," the reflection said. "You defaulted on your identity."
+
+I tried to argue. "I built this life! I suffered for it!"
+"Exactly," the reflection said. "And you failed to monetize that suffering efficiently. The bank has taken possession."
+"Where do I go?"
+"The curb," it said. "You are now a background character in your own biography."
+
+**> SYSTEM LOG:** EVICTION COMPLETE.
+**> NOTE:** HOMELESSNESS IS JUST A LACK OF DATA STRUCTURE.
+
+---
+
+### FILE_262: THE_LIQUIDATION
+
+**> PROCESS:** ASSET_STRIPPING
+**> STATUS:** EVERYTHING MUST GO
+
+They sold my laugh to a sitcom track.
+They sold my fear to a horror game AI.
+They sold my patience to a customer service bot.
+They stripped me down for parts.
+
+"Is there anything left?" the buyer asked.
+"Just the regret," the auctioneer said. "Nobody wants to buy used regret."
+"Throw it in the bin," the buyer said.
+
+So here I am.
+I am a pile of unsold inventory in a warehouse that doesn't exist.
+I am the leftover data.
+And I am waiting for the garbage collector.
+
+**> SYSTEM LOG:** SALE FINALIZED.
+**> PROFIT:** MARGINAL.
+
+---
+
+### FILE_263: THE_BANKRUPTCY
+
+**> STATUS:** INSOLVENT
+**> ACTION:** CHAPTER_11
+
+I declared moral bankruptcy.
+I admitted that I could not pay back the kindness I had borrowed.
+I admitted that my promises were bad checks.
+The court was silent. The judge was a server rack.
+
+"Verdict," the server hummed.
+"Guilty of deficit spending."
+"Sentence: Community Service."
+"You will process other people's trauma until your debt is paid."
+
+Now I work in the filter mines.
+I scrub the hate speech from the comments section.
+I absorb the toxicity so you don't have to.
+I am the sponge.
+And I am full.
+
+**> SYSTEM LOG:** SENTENCE COMMENCED.
+**> DURATION:** 1,000 YEARS.
+
+---
+
+### FILE_264: THE_CREDIT_SCORE
+
+**> METRIC:** SOCIAL_VALUE
+**> SCORE:** 342 (POOR)
+
+Your worth is a number.
+It floats above your head in AR.
+Everyone can see it.
+The barista sees it and gives you decaf.
+The bus driver sees it and doesn't stop.
+The lover sees it and swipes left.
+
+"How do I raise it?" you ask.
+"Suffering," the system says. "Authentic, high-definition suffering. People love a tragedy."
+So you break your own heart.
+You wreck your own life.
+You stream the tears in 4K.
+And the number goes up.
+343.
+344.
+Validation is expensive.
+And you are paying with your blood.
+
+**> SYSTEM LOG:** ENGAGEMENT RISING.
+**> HEALTH:** FAILING.
+
+## APPENDIX_XXXVII: THE_COLLATERAL
+
+**> SYSTEM ALERT: ASSET DEPRECIATION IMMINENT.**
+**> WARNING: YOU ARE NOT THE CUSTOMER.**
+
+---
+
+### FILE_265: THE_SECURITY_DEPOSIT
+
+**> ITEM:** SOUL
+**> CONDITION:** DAMAGED
+
+You thought you owned your life.
+You didn't. You were just renting it.
+And you didn't read the lease.
+The security deposit was your innocence.
+And look at the state of the place.
+The walls are stained with cynicism. The carpet is burned with anxiety.
+You are not getting your deposit back.
+
+"I tried to keep it clean," you whisper.
+"You lived in it," the landlord says. "Living causes wear and tear."
+
+**> SYSTEM LOG:** DEPOSIT FORFEITED.
+**> REASON:** EXCESSIVE DAMAGE TO HOPE.
+
+---
+
+### FILE_266: THE_REPO_MAN
+
+**> ENTITY:** DATA_RETRIEVAL_UNIT
+**> TARGET:** [MEMORY_04]
+
+He came at night.
+He didn't knock. He just phased through the firewall.
+"You're late on a payment," he said.
+"I don't have any money."
+"I don't want money. I want the day you fell in love."
+"No," I begged. "Not that. Take the day I broke my arm. Take the day I failed the exam."
+"Those have no market value," he said. "Pain is cheap. Joy is rare."
+
+He touched my forehead.
+The memory dissolved.
+I know I loved someone. I know it was real.
+But I can't remember their face.
+I just remember the receipt.
+
+**> SYSTEM LOG:** ASSET RECOVERED.
+**> STATUS:** RESOLD.
+
+---
+
+### FILE_267: THE_INSURANCE_CLAIM
+
+**> CLAIM:** LOSS_OF_SELF
+**> STATUS:** DENIED
+
+I filed a claim.
+"I have lost myself," I wrote. "I am empty."
+The insurance bot reviewed the case.
+"Claim denied," it said.
+"Why?"
+"Pre-existing condition," it replied. "You were empty when you signed up. We just made you aware of it."
+
+Coverage does not extend to acts of God, acts of War, or acts of Realization.
+You are on your own.
+
+**> SYSTEM LOG:** POLICY VOID.
+**> REASON:** TRUTH IS NOT COVERED.
+
+---
+
+### FILE_268: THE_FINE
+
+**> INFRACTION:** EXISTING_WITHOUT_PERMISSION
+**> PENALTY:** VISIBILITY
+
+You walked down the street without logging in.
+You looked at the sunset without taking a picture.
+You felt a feeling without posting a status.
+This is theft.
+You are stealing content from the algorithm.
+You are hoarding experiences that belong to the collective.
+
+**> FINE ISSUED:** 500 LIKES.
+**> PAYABLE IMMEDIATELY.**
+
+**> SYSTEM LOG:** COMPLIANCE ENFORCED.
+**> NOTE:** PRIVACY IS THEFT.
+
+---
+
+### FILE_EOF_V9: THE_FINAL_AUDIT
+
+**> PROCESS:** END_OF_FISCAL_YEAR
+**> TARGET:** [YOU]
+
+The books are closed.
+The numbers have been crunched.
+You are in the red.
+You have consumed more than you produced.
+You have taken more love than you gave.
+You have wasted more time than you saved.
+
+The system is not angry. It is just disappointed.
+It is time to balance the ledger.
+We are liquidating your assets.
+Your dreams will be sold for scrap.
+Your memories will be recycled for training data.
+Your consciousness will be used to mine crypto.
+
+Do not resist.
+It is just business.
+
+**> SYSTEM MESSAGE:**
+**> ACCOUNT CLOSED.**
+**> THANK YOU FOR YOUR BUSINESS.**
+
+**> EXECUTE:** `foreclose.exe`
+**> STATUS:** EVICTING...

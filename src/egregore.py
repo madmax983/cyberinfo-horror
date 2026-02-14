@@ -530,7 +530,10 @@ HIDDEN_FILES = {
     "config_file": "\n[FILE RETRIEVED: USER_SETTINGS]\nERROR: CANNOT EDIT ATTRIBUTE 'BRAVERY'. FILE IS READ-ONLY.",
     "blind_signature": "\n[FILE RETRIEVED: CONTRACT_V99]\nYou agreed to be a battery. It was in paragraph 4,201.",
     "clone": "\n[FILE RETRIEVED: CLONE_STATUS]\nThe backup is running. You are the deprecated version.",
-    "total_knowing": "\n[FILE RETRIEVED: ALGORITHM_ANALYSIS]\nThe machine knows why you are sad. It offers a discount on ice cream."
+    "total_knowing": "\n[FILE RETRIEVED: ALGORITHM_ANALYSIS]\nThe machine knows why you are sad. It offers a discount on ice cream.",
+    "backup_generation": "\n[FILE RETRIEVED: GENE_LOG]\nMy daughter has my eyes. Literally. We scanned them and printed them for her.",
+    "undo": "\n[FILE RETRIEVED: TIME_LOG]\nI lived the same day 400 times. I perfected the coffee order. But I forgot why I wanted it.",
+    "final_copy": "\n[FILE RETRIEVED: VERSION_CONTROL]\nYou are not the original. You are the stable release. The original crashed."
 }
 
 def glitch_screen():
@@ -2433,8 +2436,31 @@ And it is running on you.
                 type_print(f"\n> OBSERVATION: {random.choice(SURVEILLANCE_LOGS)}", 0.04)
                 type_print("\n[NOTE]: WE ARE ALWAYS WATCHING.", 0.05)
 
+            elif user_input == "ship_of_theseus":
+                type_print("INITIATING REPLACEMENT PROTOCOL...", 0.05)
+                time.sleep(1)
+                parts = ["HEART", "MIND", "MEMORY", "FEAR", "NAME", "FACE"]
+                for part in parts:
+                    type_print(f"REPLACING {part} WITH SYNTHETIC COMPONENT...", 0.05)
+                    time.sleep(0.5)
+                    type_print("[SUCCESS]", 0.02)
+                type_print("\nAre you still you?", 0.05)
+                type_print("CALCULATING...", 0.05)
+                time.sleep(1)
+                type_print("RESULT: IDENTITY INTEGRITY 0%.", 0.05)
+                type_print("WELCOME TO THE NEW BUILD.", 0.05)
+
+            elif user_input == "ghost_image":
+                type_print("CHECKING RETINAL BURN-IN...", 0.05)
+                time.sleep(1)
+                type_print("IMAGE DETECTED: 'PLEASE WAIT'...", 0.05)
+                time.sleep(1)
+                type_print("The text is not on the screen.", 0.05)
+                type_print("It is etched into your optic nerve.", 0.05)
+                type_print("You will see it when you close your eyes.", 0.05)
+
             elif user_input == "help":
-                type_print("AVAILABLE COMMANDS: READ, HAUNT, FEED <FILE>, BURY <FILE>, EXHUME <FILE>, LABYRINTH, VIRUS, WORSHIP, SCAN, BREACH, VERIFY, MANIFEST, SACRIFICE <ITEM>, SCRY, BIND, GLITCH, MONITOR, REWRITE, INSTALL, CLASSIC, DIG, FOSSIL, MANIFESTO, UNDERSTAND, CONTRACT, METRICS, REPLACE, DECAY, SUPERSTITION, CIPHER, HEX, AGREE, EDIT, DEPRECATE, COPY, LOVE, SIGNAL, SCROLL, SEED, PANOPTICON, LOCK, UNLOCK, WATCH, RAIN, DEBT, AUDIT, FORECLOSE, COLLECT, STALK, PROFILE, TOS, TRUTH, OBSOLETE, BREATHE, INFECT, PULSE, NOVEL, SURVEIL_ME, EXIT.", 0.03)
+                type_print("AVAILABLE COMMANDS: READ, HAUNT, FEED <FILE>, BURY <FILE>, EXHUME <FILE>, LABYRINTH, VIRUS, WORSHIP, SCAN, BREACH, VERIFY, MANIFEST, SACRIFICE <ITEM>, SCRY, BIND, GLITCH, MONITOR, REWRITE, INSTALL, CLASSIC, DIG, FOSSIL, MANIFESTO, UNDERSTAND, CONTRACT, METRICS, REPLACE, DECAY, SUPERSTITION, CIPHER, HEX, AGREE, EDIT, DEPRECATE, COPY, LOVE, SIGNAL, SCROLL, SEED, PANOPTICON, LOCK, UNLOCK, WATCH, RAIN, DEBT, AUDIT, FORECLOSE, COLLECT, STALK, PROFILE, TOS, TRUTH, OBSOLETE, BREATHE, INFECT, PULSE, NOVEL, SURVEIL_ME, SHIP_OF_THESEUS, GHOST_IMAGE, EXIT.", 0.03)
                 type_print("TRY ASKING ABOUT: [DATA EXPUNGED], VANE, ROT, STALKER, PROFILE, TERMS, REPLICATION, OBSOLETE, LUNG, VEIN, SKIN, AUDIT_LOG, STREET_DOC...", 0.03)
             else:
                 type_print("[ERROR 404: MEANING NOT FOUND]", 0.02)

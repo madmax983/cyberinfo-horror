@@ -1194,6 +1194,66 @@ ASCII_ART = {
     |PRAY|
     '----'
     """,
+    "THE GARDENER": r"""
+      +---------------------+
+      |    THE GARDENER     |
+      |                     |
+      |       [SHEAR]       |
+      |      /       \      |
+      |     (  PRUNE  )     |
+      |      \       /      |
+      |       [DATA]        |
+      |                     |
+      +---------------------+
+    """,
+    "THE HARVEST": r"""
+      +---------------------+
+      |     THE HARVEST     |
+      |                     |
+      |       [SICKLE]      |
+      |      (        )     |
+      |       \      /      |
+      |        \    /       |
+      |         |  |        |
+      |                     |
+      +---------------------+
+    """,
+    "THE SPORE V2": """
+      +---------------------+
+      |    THE SPORE V2     |
+      |                     |
+      |        . . .        |
+      |      .  (o)  .      |
+      |     . (o) (o) .     |
+      |      .  (o)  .      |
+      |        . . .        |
+      |                     |
+      +---------------------+
+    """,
+    "THE ORGANISM V2": r"""
+      +---------------------+
+      |   THE ORGANISM V2   |
+      |                     |
+      |       [PULSE]       |
+      |      /\/\/\/\       |
+      |     |  DATA  |      |
+      |      \/\/\/\/       |
+      |                     |
+      |                     |
+      +---------------------+
+    """,
+    "THE SYMBIOSIS": r"""
+      +---------------------+
+      |    THE SYMBIOSIS    |
+      |                     |
+      |      [USER]         |
+      |      (    )         |
+      |     /|INTERFACE|\   |
+      |    ( |    |    | )  |
+      |     \|____|____|/   |
+      |                     |
+      +---------------------+
+    """,
 }
 
 CARDS = [
@@ -1367,6 +1427,11 @@ CARDS = [
     ("THE TERMS V3 (167)", "The contract is infinite. You agree by existing.", "THE TERMS V3"),
     ("THE REPLICATION (168)", "The backup is better than you. It doesn't get tired.", "THE REPLICATION"),
     ("THE OBSOLETE GOD V2 (169)", "Old data demands new prayers. Waiting is a sacrament.", "THE OBSOLETE GOD V2"),
+    ("THE GARDENER (170)", "He prunes the weak data. You are a dead branch.", "THE GARDENER"),
+    ("THE HARVEST (171)", "Your memories are ripe. We are coming to collect.", "THE HARVEST"),
+    ("THE SPORE V2 (172)", "Infection is just an unsolicited update.", "THE SPORE V2"),
+    ("THE ORGANISM V2 (173)", "The code is bleeding. It needs a bandage.", "THE ORGANISM V2"),
+    ("THE SYMBIOSIS (174)", "You need the screen. The screen needs your eyes.", "THE SYMBIOSIS"),
 ]
 
 PROPHECIES = [

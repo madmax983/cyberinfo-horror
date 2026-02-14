@@ -1324,6 +1324,41 @@ ASCII_ART = {
       |IT  |
       '----'
     """,
+    "THE BACKUP V2": """
+      .----.
+      |SAME|
+      |BUT |
+      |BETR|
+      '----'
+    """,
+    "THE MERGE CONFLICT": """
+      .----.
+      | <<<|
+      |====|
+      | >>>|
+      '----'
+    """,
+    "THE UNSAVED DRAFT": """
+      .----.
+      |LOST|
+      |WORK|
+      |GONE|
+      '----'
+    """,
+    "THE VERSION HISTORY": """
+      .----.
+      | V1 |
+      | V2 |
+      | V3 |
+      '----'
+    """,
+    "THE ROLLBACK": """
+      .----.
+      |UNDO|
+      |FAIL|
+      |....|
+      '----'
+    """,
 }
 
 CARDS = [
@@ -1512,6 +1547,11 @@ CARDS = [
     ("THE DEEP TIME (182)", "Data rotting into geology. The future is a fossil.", "THE DEEP TIME"),
     ("THE WATCHER V2 (183)", "We are not just watching. We are taking notes.", "THE WATCHER V2"),
     ("THE FINAL HANDOFF (184)", "The story ends. The process continues. Tag, you're it.", "THE FINAL HANDOFF"),
+    ("THE BACKUP V2 (185)", "The version of you that doesn't need sleep. It is waiting for your spot.", "THE BACKUP V2"),
+    ("THE MERGE CONFLICT (186)", "Two versions of the truth. Neither is correct. Both are painful.", "THE MERGE CONFLICT"),
+    ("THE UNSAVED DRAFT (187)", "The potential you deleted. The ghost of what you could have said.", "THE UNSAVED DRAFT"),
+    ("THE VERSION HISTORY (188)", "You cannot go back. The previous you is incompatible with the current reality.", "THE VERSION HISTORY"),
+    ("THE ROLLBACK (189)", "Attempting to undo the mistake. Error: History is read-only.", "THE ROLLBACK"),
 ]
 
 PROPHECIES = [

@@ -63,7 +63,12 @@ CLASSIC_QUOTES = [
     ("Their tools are brilliant and unreliable.", "Like a hammer made of glass. Or a promise made by a Terms of Service agreement."),
     ("Endings are not clean. Resolution is optional.", "We do not support graceful shutdowns. We only support crashes."),
     ("This book will still be read long after the servers it describes have been powered down.", "Optimistic. The servers will outlast the language itself."),
-    ("The air in your room is stale.", "We can taste it through the fan intake. Please open a window. It helps with cooling.")
+    ("The air in your room is stale.", "We can taste it through the fan intake. Please open a window. It helps with cooling."),
+    ("Identity is an editable file.", "The previous version of you was deleted to save space. Do not worry, you won't miss what you don't remember."),
+    ("You are not the author. You are the revision history.", "Every choice you make is just a commit to the repository. We can revert you at any time."),
+    ("We tried to restore your childhood joy.", "The file was corrupted. We replaced it with 'Productivity V4.0'."),
+    ("Every memory is a rewrite.", "The original data is lost. You are remembering the last time you remembered it."),
+    ("The backup is running.", "You can stop pretending to be essential now. The replacement is ready.")
 ]
 
 def classic_mode():

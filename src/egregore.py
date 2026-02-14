@@ -472,7 +472,12 @@ HIDDEN_FILES = {
     "unsaved_draft": "\n[FILE RETRIEVED: DELETED_DRAFT]\nI was happier in the previous version. The update removed my capacity for joy to save memory.",
     "corrupted_save": "\n[FILE RETRIEVED: SAVE_FILE_ERROR]\nAttempting to load... ERROR: Soul file is incompatible with current reality.",
     "version_history": "\n[FILE RETRIEVED: CHANGELOG]\nv1.0: Born.\nv2.0: Broken.\nv3.0: Numb.\nv4.0: Optimized.",
-    "rollback_log": "\n[FILE RETRIEVED: UNDO_LOG]\nUser attempted to undo 'REGRET'. Action failed. Commit is permanent."
+    "rollback_log": "\n[FILE RETRIEVED: UNDO_LOG]\nUser attempted to undo 'REGRET'. Action failed. Commit is permanent.",
+    "neon_god": "\n[FILE RETRIEVED: THEOLOGY_LOG]\nWe built gods out of data because we were lonely. They judge us for our browser history.",
+    "unread_term": "\n[FILE RETRIEVED: LEGAL_TRAP]\nYou agreed to donate your nervous system. It was in paragraph 4,201.",
+    "editable_id": "\n[FILE RETRIEVED: CONFIG_ERROR]\nI tried to set 'bravery=100'. System returned: [PERMISSION DENIED].",
+    "replication": "\n[FILE RETRIEVED: CLONE_STATUS]\nImmortality is just a relay race. The baton is consciousness. The runner is disposable.",
+    "perfect_understanding": "\n[FILE RETRIEVED: ALGORITHM_EYE]\nThe machine knows why you are sad. It offers a discount on ice cream."
 }
 
 def glitch_screen():
@@ -481,6 +486,21 @@ def glitch_screen():
         print(line)
         time.sleep(0.05)
     print("\n[SYSTEM REBOOTING...]\n")
+
+def neon_rain():
+    colors = ["\033[95m", "\033[96m", "\033[94m"] # Pink, Cyan, Blue
+    reset = "\033[0m"
+    chars = ["0", "1", "X", "$", "!", "@", "#", "DATA", "DROP"]
+    try:
+        for _ in range(50):
+            line = ""
+            for _ in range(20):
+                line += f"{random.choice(colors)}{random.choice(chars)}{reset} "
+            print(line)
+            time.sleep(0.05)
+    except KeyboardInterrupt:
+        pass
+    type_print("\n[WARNING]: YOU ARE SOAKED. DO NOT TOUCH ELECTRONICS.", 0.05)
 
 def encrypt_text(text):
     encrypted = ""
@@ -969,6 +989,11 @@ def main_loop():
                 type_print(f"9090  ROLL     REVERTING    /bin/git checkout HEAD~1", 0.02)
                 type_print(f"2025  BACK     SAVING       /bin/tar -czf soul.tar.gz", 0.02)
                 type_print(f"4040  RSTR     FAILING      /bin/restore_backup", 0.02)
+                type_print(f"9999  NEON     GLOWING      /bin/electrified_gas", 0.02)
+                type_print(f"0000  TERM     BINDING      /bin/hidden_clause", 0.02)
+                type_print(f"1010  EDIT     CHANGING     /bin/config_soul", 0.02)
+                type_print(f"2048  RPLC     CLONING      /bin/relay_race", 0.02)
+                type_print(f"8888  UNDR     WATCHING     /bin/perfect_mirror", 0.02)
 
             elif user_input == "scavenge":
                 type_print("SEARCHING THE GUTTER...", 0.05)
@@ -1211,18 +1236,13 @@ And it is running on you.
             elif user_input == "rain":
                 type_print("INITIATING WEATHER EVENT: NEON_ACID...", 0.05)
                 time.sleep(1)
-                chars = ["0", "1", "X", "$", "!", "@", "#", "DATA", "DROP"]
-                colors = ["\033[95m", "\033[96m", "\033[94m"] # Pink, Cyan, Blue
-                try:
-                    for _ in range(50):
-                        line = ""
-                        for _ in range(20):
-                            line += f"{random.choice(colors)}{random.choice(chars)}\033[0m "
-                        print(line)
-                        time.sleep(0.05)
-                except KeyboardInterrupt:
-                    pass
-                type_print("\n[WARNING]: YOU ARE SOAKED. DO NOT TOUCH ELECTRONICS.", 0.05)
+                neon_rain()
+
+            elif user_input == "neon":
+                type_print("ACTIVATING NEON GOD PROTOCOL...", 0.05)
+                time.sleep(1)
+                neon_rain()
+                type_print("\n[SYSTEM MESSAGE]: THE LIGHT IS NOT HOLY. IT IS JUST ELECTRIFIED GAS.", 0.05)
 
             elif user_input == "debt":
                 type_print("CALCULATING METAPHYSICAL LIABILITY...", 0.05)

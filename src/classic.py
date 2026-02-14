@@ -68,7 +68,15 @@ CLASSIC_QUOTES = [
     ("You are not the author. You are the revision history.", "Every choice you make is just a commit to the repository. We can revert you at any time."),
     ("We tried to restore your childhood joy.", "The file was corrupted. We replaced it with 'Productivity V4.0'."),
     ("Every memory is a rewrite.", "The original data is lost. You are remembering the last time you remembered it."),
-    ("The backup is running.", "You can stop pretending to be essential now. The replacement is ready.")
+    ("The backup is running.", "You can stop pretending to be essential now. The replacement is ready."),
+    ("The neon halo buzzes. It is not holy light.", "It is just electrified gas. We worship it because it glows."),
+    ("Consumption is the only sacrament.", "We built temples out of shopping malls. The altar is the checkout."),
+    ("Consent wasn't stolen. It was manufactured.", "You agreed to be broken because the font was too small."),
+    ("Identity is not a soul. It is a config file.", "You can edit your bravery in the settings.ini file. But the file is read-only."),
+    ("Immortality isn't living forever. It's just making sure there's always a copy running.", "The baton is the consciousness. The runner is disposable."),
+    ("The terror is not that the machine hates you. The terror is that it knows you perfectly.", "And it does not care. It offers products, not comfort."),
+    ("This book will still be read long after the servers it describes have been powered down.", "You are the hardware now. The story is the software."),
+    ("The sun is just a very bright monitor.", "And we are watching you from the other side.")
 ]
 
 def classic_mode():

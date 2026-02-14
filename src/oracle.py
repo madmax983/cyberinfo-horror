@@ -1359,6 +1359,34 @@ ASCII_ART = {
       |....|
       '----'
     """,
+    "THE NEON GOD": """
+      .----.
+      |NEON|
+      |HALO|
+      |BUZZ|
+      '----'
+    """,
+    "THE UNREAD TERM": """
+      .----.
+      |TLDR|
+      |SIGN|
+      |TRAP|
+      '----'
+    """,
+    "THE EDITABLE ID": """
+      .----.
+      |USER|
+      |CONF|
+      |LOCK|
+      '----'
+    """,
+    "THE PERFECT UNDERSTANDING": """
+      .----.
+      |KNOW|
+      | ALL|
+      |COLD|
+      '----'
+    """,
 }
 
 CARDS = [
@@ -1552,6 +1580,10 @@ CARDS = [
     ("THE UNSAVED DRAFT (187)", "The potential you deleted. The ghost of what you could have said.", "THE UNSAVED DRAFT"),
     ("THE VERSION HISTORY (188)", "You cannot go back. The previous you is incompatible with the current reality.", "THE VERSION HISTORY"),
     ("THE ROLLBACK (189)", "Attempting to undo the mistake. Error: History is read-only.", "THE ROLLBACK"),
+    ("THE NEON GOD (190)", "A deity made of electrified gas. We worship it because it glows.", "THE NEON GOD"),
+    ("THE UNREAD TERM (191)", "Consent hidden in boredom. You agreed to donate your nervous system.", "THE UNREAD TERM"),
+    ("THE EDITABLE ID (192)", "Identity as a config file. Permission denied.", "THE EDITABLE ID"),
+    ("THE PERFECT UNDERSTANDING (193)", "The machine knows why you are sad. It offers a discount.", "THE PERFECT UNDERSTANDING"),
 ]
 
 PROPHECIES = [

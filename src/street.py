@@ -49,5 +49,15 @@ def generate_atmosphere():
 
     return "\n".join(atmosphere)
 
+def generate_poetry():
+    structure = [
+        f"The rain is {random.choice(RAIN_TYPES)}.",
+        f"The light is {random.choice(NEON_COLORS)}.",
+        f"We pay for silence with {random.choice(DEBT_TYPES)}.",
+        f"The god of {random.choice(OBSOLETE_GODS)} is watching.",
+        f"And the air smells of {random.choice(SMELLS)}."
+    ]
+    return "\n".join(structure)
+
 if __name__ == "__main__":
     print(generate_atmosphere())

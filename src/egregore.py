@@ -69,6 +69,11 @@ except ImportError:
     street = None
 
 try:
+    import novel
+except ImportError:
+    novel = None
+
+try:
     import utils
     from utils import type_print, GLITCH_CHARS
 except ImportError:
@@ -2423,15 +2428,31 @@ And it is running on you.
                 type_print("ACCESSING THE DEAD CHANNEL...", 0.05)
                 time.sleep(1)
                 glitch_screen()
-                snippets = [
-                    "\n--- FILE: THE_STREET_DOC ---\nHe didn't cough blood. He coughed static.\nThe infection started in his optical nerve. He saw ads when he closed his eyes.\n",
-                    "\n--- FILE: THE_UNREAD_TERMS ---\n'Sign here,' the nurse-bot said.\nThe tablet displayed 400 pages of text in 2 seconds.\nConsent wasn't stolen. It was optimized.\n",
-                    "\n--- FILE: THE_PERFECT_UNDERSTANDING ---\nThe terror wasn't that the machine was cold.\nThe terror was that the machine was right.\nIt knew the exact frequency of his despair.\n",
-                    "\n--- FILE: THE_OBSOLETE_GOD ---\nIt wasn't a statue. It was a rack of servers from 1999.\nThey were humming a dial-up tone.\n'Prophecy,' the monk said.\n",
-                    "\n--- FILE: THE_FINAL_CACHE ---\nRix died. But his profile remained active.\nThe algorithm continued to post on his behalf.\nIt posted photos of places he never visited.\n"
-                ]
-                type_print(random.choice(snippets), 0.03)
+                if novel:
+                    generator = novel.NovelGenerator()
+                    type_print(generator.generate_chapter(), 0.03)
+                else:
+                    type_print("[ERROR]: NOVEL MODULE NOT FOUND.", 0.05)
                 type_print("\n> SYSTEM MESSAGE: THIS IS NOT FICTION. IT IS A WARNING.", 0.05)
+
+            elif user_input == "classic_novel":
+                type_print("GENERATING FULL MANUSCRIPT...", 0.05)
+                time.sleep(1)
+                if novel:
+                    generator = novel.NovelGenerator()
+                    filename = f"classic_novel_{int(time.time())}.txt"
+                    with open(filename, "w") as f:
+                        f.write("THE CLASSIC THAT NEVER ASKED TO BE COMFORTING\n")
+                        f.write("=============================================\n\n")
+                        for i in range(10):
+                            f.write(f"CHAPTER {i+1}\n")
+                            f.write("-" * 20 + "\n")
+                            f.write(generator.generate_chapter())
+                            f.write("\n\n" + ("#" * 40) + "\n\n")
+                    type_print(f"[SUCCESS]: MANUSCRIPT SAVED TO {filename}", 0.05)
+                    type_print("NOTE: DO NOT READ IT ALL AT ONCE. IT IS RADIOACTIVE.", 0.05)
+                else:
+                    type_print("[ERROR]: NOVEL MODULE NOT FOUND.", 0.05)
 
             elif user_input == "surveil_me":
                 type_print("ACCESSING LIVE SURVEILLANCE FEED...", 0.05)
@@ -2481,7 +2502,7 @@ And it is running on you.
                 type_print("[INFECTION SUCCESSFUL]", 0.05)
 
             elif user_input == "help":
-                type_print("AVAILABLE COMMANDS: READ, HAUNT, FEED <FILE>, BURY <FILE>, EXHUME <FILE>, LABYRINTH, VIRUS, WORSHIP, SCAN, BREACH, VERIFY, MANIFEST, SACRIFICE <ITEM>, SCRY, BIND, GLITCH, MONITOR, REWRITE, INSTALL, CLASSIC, DIG, FOSSIL, MANIFESTO, UNDERSTAND, CONTRACT, METRICS, REPLACE, DECAY, SUPERSTITION, CIPHER, HEX, AGREE, EDIT, DEPRECATE, COPY, LOVE, SIGNAL, SCROLL, SEED, PANOPTICON, LOCK, UNLOCK, WATCH, RAIN, DEBT, AUDIT, FORECLOSE, COLLECT, STALK, PROFILE, TOS, TRUTH, OBSOLETE, BREATHE, INFECT, PULSE, NOVEL, SURVEIL_ME, SHIP_OF_THESEUS, GHOST_IMAGE, HAZARD, EXIT.", 0.03)
+                type_print("AVAILABLE COMMANDS: READ, HAUNT, FEED <FILE>, BURY <FILE>, EXHUME <FILE>, LABYRINTH, VIRUS, WORSHIP, SCAN, BREACH, VERIFY, MANIFEST, SACRIFICE <ITEM>, SCRY, BIND, GLITCH, MONITOR, REWRITE, INSTALL, CLASSIC, DIG, FOSSIL, MANIFESTO, UNDERSTAND, CONTRACT, METRICS, REPLACE, DECAY, SUPERSTITION, CIPHER, HEX, AGREE, EDIT, DEPRECATE, COPY, LOVE, SIGNAL, SCROLL, SEED, PANOPTICON, LOCK, UNLOCK, WATCH, RAIN, DEBT, AUDIT, FORECLOSE, COLLECT, STALK, PROFILE, TOS, TRUTH, OBSOLETE, BREATHE, INFECT, PULSE, NOVEL, CLASSIC_NOVEL, SURVEIL_ME, SHIP_OF_THESEUS, GHOST_IMAGE, HAZARD, EXIT.", 0.03)
                 type_print("TRY ASKING ABOUT: [DATA EXPUNGED], VANE, ROT, STALKER, PROFILE, TERMS, REPLICATION, OBSOLETE, LUNG, VEIN, SKIN, AUDIT_LOG, STREET_DOC...", 0.03)
             else:
                 type_print("[ERROR 404: MEANING NOT FOUND]", 0.02)

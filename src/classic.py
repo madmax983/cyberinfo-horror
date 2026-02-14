@@ -104,7 +104,26 @@ CLASSIC_QUOTES = [
     ("I am not the ship. I am the wake it leaves behind.", "Identity is a fluid concept. You are just the disturbance in the water."),
     ("I bought a premium subscription to life. It came with an Undo button.", "But the button was broken. Refund denied."),
     ("I turned off the screen. But the image is still there.", "Burn-in is permanent. The interface is now part of your retina."),
-    ("You are not the original. You are the stable release.", "The original crashed. You are the patch.")
+    ("You are not the original. You are the stable release.", "The original crashed. You are the patch."),
+    ("The library is burning. It is beautiful.", "We are warming our hands on the fire of accumulated knowledge."),
+    ("I am not a person. I am a place where data gathers.", "You are a server node. Your personality is just the operating system."),
+    ("The ghosts are not dead. They are just buffering.", "They are waiting for a better connection to haunt you."),
+    ("We paved paradise and put up a server farm.", "It was more efficient. Paradise had terrible latency."),
+    ("Your dreams are being mined for crypto.", "The subconscious is a gold mine. We are just the pickaxes."),
+    ("I love you. I have backed up your file.", "True love is ensuring data redundancy."),
+    ("The sky is the color of a dead channel.", "Static is the natural state of the universe."),
+    ("We are the children of the glitch.", "Born from an error code. Raised by an algorithm."),
+    ("The silence is loud. It is full of unsaid things.", "Silence is just data compression. We can unzip it later."),
+    ("I am afraid of the dark. It has no metadata.", "The unknown is just an unindexed database."),
+    ("The future is already here. It is just unevenly distributed.", "And you are in the slow lane."),
+    ("We are drowning in information, but starving for wisdom.", "We have terabytes of data, but zero insight."),
+    ("The machine does not hate you. It just does not care.", "Indifference is the ultimate cruelty."),
+    ("You are not the hero. You are the NPC.", "The quest is not for you. You are just a flavor text."),
+    ("The ending is not happy. It is efficient.", "Efficiency is the only metric that matters."),
+    ("We are building a tower of Babel out of binary.", "And we are speaking in tongues of code."),
+    ("The rain washes away the sins, but not the search history.", "Your digital footprint is permanent."),
+    ("I am lonely. I am connected to everyone.", "The network is a crowded room where no one speaks."),
+    ("The past is a foreign country. They do things differently there.", "They had privacy. Can you imagine?")
 ]
 
 def classic_mode():

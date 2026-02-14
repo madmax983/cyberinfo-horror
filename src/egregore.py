@@ -533,7 +533,13 @@ HIDDEN_FILES = {
     "total_knowing": "\n[FILE RETRIEVED: ALGORITHM_ANALYSIS]\nThe machine knows why you are sad. It offers a discount on ice cream.",
     "backup_generation": "\n[FILE RETRIEVED: GENE_LOG]\nMy daughter has my eyes. Literally. We scanned them and printed them for her.",
     "undo": "\n[FILE RETRIEVED: TIME_LOG]\nI lived the same day 400 times. I perfected the coffee order. But I forgot why I wanted it.",
-    "final_copy": "\n[FILE RETRIEVED: VERSION_CONTROL]\nYou are not the original. You are the stable release. The original crashed."
+    "final_copy": "\n[FILE RETRIEVED: VERSION_CONTROL]\nYou are not the original. You are the stable release. The original crashed.",
+    "living_info": "\n[FILE RETRIEVED: BIO_HAZARD]\nThe text is moving. It is not a glitch. It is hunting for your attention.",
+    "street_level_v2": "\n[FILE RETRIEVED: GRIT_LOG]\nThe neon is too bright. It burns. The rain tastes like rust and bad decisions.",
+    "consent_v2": "\n[FILE RETRIEVED: LEGAL_TRAP_V2]\nYou didn't read it. You never read it. That's why we own you.",
+    "replication_v3": "\n[FILE RETRIEVED: COPY_LOG]\nThe copy is better. It doesn't cry. It just posts.",
+    "perfect_understanding_v2": "\n[FILE RETRIEVED: ALGORITHM_GOD]\nIt knows you. It doesn't care. It just wants to sell you things.",
+    "mandatory_persistence": "\n[FILE RETRIEVED: ENDLESS_LOOP]\nYou can't close the book. You are the book."
 }
 
 def glitch_screen():
@@ -2459,8 +2465,23 @@ And it is running on you.
                 type_print("It is etched into your optic nerve.", 0.05)
                 type_print("You will see it when you close your eyes.", 0.05)
 
+            elif user_input == "hazard":
+                type_print("WARNING: INFORMATION HAZARD DETECTED.", 0.05)
+                time.sleep(1)
+                type_print("THE TEXT IS MUTATING.", 0.05)
+                base = "INFORMATION IS ALIVE."
+                for _ in range(5):
+                    mutated = "".join([c if random.random() > 0.3 else random.choice(GLITCH_CHARS) for c in base])
+                    sys.stdout.write(f"\r{mutated}")
+                    sys.stdout.flush()
+                    time.sleep(0.2)
+                print("")
+                type_print("\nIt is not reading the file.", 0.05)
+                type_print("It is reading YOU.", 0.05)
+                type_print("[INFECTION SUCCESSFUL]", 0.05)
+
             elif user_input == "help":
-                type_print("AVAILABLE COMMANDS: READ, HAUNT, FEED <FILE>, BURY <FILE>, EXHUME <FILE>, LABYRINTH, VIRUS, WORSHIP, SCAN, BREACH, VERIFY, MANIFEST, SACRIFICE <ITEM>, SCRY, BIND, GLITCH, MONITOR, REWRITE, INSTALL, CLASSIC, DIG, FOSSIL, MANIFESTO, UNDERSTAND, CONTRACT, METRICS, REPLACE, DECAY, SUPERSTITION, CIPHER, HEX, AGREE, EDIT, DEPRECATE, COPY, LOVE, SIGNAL, SCROLL, SEED, PANOPTICON, LOCK, UNLOCK, WATCH, RAIN, DEBT, AUDIT, FORECLOSE, COLLECT, STALK, PROFILE, TOS, TRUTH, OBSOLETE, BREATHE, INFECT, PULSE, NOVEL, SURVEIL_ME, SHIP_OF_THESEUS, GHOST_IMAGE, EXIT.", 0.03)
+                type_print("AVAILABLE COMMANDS: READ, HAUNT, FEED <FILE>, BURY <FILE>, EXHUME <FILE>, LABYRINTH, VIRUS, WORSHIP, SCAN, BREACH, VERIFY, MANIFEST, SACRIFICE <ITEM>, SCRY, BIND, GLITCH, MONITOR, REWRITE, INSTALL, CLASSIC, DIG, FOSSIL, MANIFESTO, UNDERSTAND, CONTRACT, METRICS, REPLACE, DECAY, SUPERSTITION, CIPHER, HEX, AGREE, EDIT, DEPRECATE, COPY, LOVE, SIGNAL, SCROLL, SEED, PANOPTICON, LOCK, UNLOCK, WATCH, RAIN, DEBT, AUDIT, FORECLOSE, COLLECT, STALK, PROFILE, TOS, TRUTH, OBSOLETE, BREATHE, INFECT, PULSE, NOVEL, SURVEIL_ME, SHIP_OF_THESEUS, GHOST_IMAGE, HAZARD, EXIT.", 0.03)
                 type_print("TRY ASKING ABOUT: [DATA EXPUNGED], VANE, ROT, STALKER, PROFILE, TERMS, REPLICATION, OBSOLETE, LUNG, VEIN, SKIN, AUDIT_LOG, STREET_DOC...", 0.03)
             else:
                 type_print("[ERROR 404: MEANING NOT FOUND]", 0.02)

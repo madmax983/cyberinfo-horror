@@ -1,0 +1,3 @@
+hazard
+living_info
+exit

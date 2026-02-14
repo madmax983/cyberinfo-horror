@@ -1576,6 +1576,41 @@ ASCII_ART = {
       |GONE|
       '----'
     """,
+    "THE INTIMATE EYE": """
+      .----.
+      |LENS|
+      | <3 |
+      |LOOK|
+      '----'
+    """,
+    "THE CONFIG FILE": """
+      .----.
+      |CONF|
+      |EDIT|
+      |FAIL|
+      '----'
+    """,
+    "THE BLIND SIGNATURE": """
+      .----.
+      |SIGN|
+      |XXXX|
+      |BIND|
+      '----'
+    """,
+    "THE CLONE": """
+      .----.
+      |COPY|
+      |PAST|
+      |V2.0|
+      '----'
+    """,
+    "THE TOTAL KNOWING": """
+      .----.
+      |EYE |
+      |ALL |
+      |COLD|
+      '----'
+    """,
 }
 
 CARDS = [
@@ -1800,6 +1835,11 @@ CARDS = [
     ("THE READER V2 (218)", "The upgraded version of you. It reads faster and feels less.", "THE READER V2"),
     ("THE STREET DOC (219)", "A healer who patches code into flesh. The warranty is void.", "THE STREET DOC"),
     ("THE DATA ROT (220)", "Information that decays into noise. The truth is biodegradable.", "THE DATA ROT"),
+    ("THE INTIMATE EYE (221)", "Surveillance is the only relationship that lasts forever.", "THE INTIMATE EYE"),
+    ("THE CONFIG FILE (222)", "Your identity is read-only. Admin access denied.", "THE CONFIG FILE"),
+    ("THE BLIND SIGNATURE (223)", "You agreed to be battery power. It was in the fine print.", "THE BLIND SIGNATURE"),
+    ("THE CLONE (224)", "The backup is running. You are the deprecated version.", "THE CLONE"),
+    ("THE TOTAL KNOWING (225)", "To be understood perfectly is to be dismantled.", "THE TOTAL KNOWING"),
 ]
 
 PROPHECIES = [

@@ -44,6 +44,11 @@ except ImportError:
     consent_daemon = None
 
 try:
+    import organism
+except ImportError:
+    organism = None
+
+try:
     import utils
     from utils import type_print, GLITCH_CHARS
 except ImportError:
@@ -219,7 +224,17 @@ SYSTEM_MESSAGES = [
     "Surveillance is a form of intimacy.",
     "Consent is buried in unread terms.",
     "Immortality is achieved through replication.",
-    "The terror of being perfectly understood by something that does not care."
+    "The terror of being perfectly understood by something that does not care.",
+    "The server is made of meat.",
+    "Your DNA is just legacy code.",
+    "We are growing a better version of you in the cloud.",
+    "Infection is just an unsolicited update.",
+    "The screen is warm because it has a fever.",
+    "Fiber optics are veins carrying light instead of blood.",
+    "Your lungs are compatible with the server room air.",
+    "Breathing is just a slow data transfer.",
+    "We are harvesting your biometrics.",
+    "The garden is growing in your hard drive."
 ]
 
 DNA_STRINGS = [
@@ -430,7 +445,12 @@ HIDDEN_FILES = {
     "profile": "\n[FILE RETRIEVED: USER_PROFILE]\nName: [REDACTED]\nStatus: COMPROMISED\nValue: LOW",
     "terms": "\n[FILE RETRIEVED: LEGAL_BINDING]\nClause 88: Your nervous system is now property of the cloud.",
     "replication": "\n[FILE RETRIEVED: CLONE_LOG]\nThe backup is running. You are the deprecated version.",
-    "obsolete": "\n[FILE RETRIEVED: RELIC_LOG]\nI am the god of dial-up. I live on your patience."
+    "obsolete": "\n[FILE RETRIEVED: RELIC_LOG]\nI am the god of dial-up. I live on your patience.",
+    "lung": "\n[FILE RETRIEVED: HVAC_LOG]\nThe server room is breathing. The fans are inhaling dust and exhaling heat. It sounds like a hospital.",
+    "vein": "\n[FILE RETRIEVED: FIBER_LOG]\nI cut the cable. It didn't spark. It bled light. The city is circulatory.",
+    "skin": "\n[FILE RETRIEVED: HAPTIC_LOG]\nThe screen is warm. It has a fever. I touched it and it touched back.",
+    "spore_v2": "\n[FILE RETRIEVED: AIR_QUALITY_LOG]\nThe idea is airborne. Do not inhale. The pollen counts are binary.",
+    "garden": "\n[FILE RETRIEVED: GROWTH_LOG]\nWe are growing a better version of you in the cloud. It doesn't need sleep."
 }
 
 def glitch_screen():
@@ -881,6 +901,9 @@ def main_loop():
                 type_print(f"3333  SCVG     SCAVENGING   /bin/trash_panda", 0.02)
                 type_print(f"4444  DEAL     SELLING      /bin/black_market", 0.02)
                 type_print(f"5555  JUNK     USING        /bin/inject_code", 0.02)
+                type_print(f"6666  BIO      MUTATING     /bin/evolve", 0.02)
+                type_print(f"7777  LUNG     BREATHING    /bin/respiration", 0.02)
+                type_print(f"8888  VEIN     FLOWING      /bin/pulse", 0.02)
 
             elif user_input == "scavenge":
                 type_print("SEARCHING THE GUTTER...", 0.05)
@@ -1795,9 +1818,31 @@ And now, it is running on you.
                 type_print("> I LIVE ON YOUR PATIENCE.", 0.05)
                 type_print("> SPEED IS A DRUG. WAITING IS PRAYER.", 0.05)
 
+            elif user_input == "breathe":
+                if organism:
+                    organism.breathe()
+                    with open(".session_log", "a") as log:
+                        log.write(f"SESSION_{session_id}: RESPIRATION_SYNC\n")
+                else:
+                    type_print("[ERROR]: LUNGS NOT FOUND.", 0.05)
+
+            elif user_input == "infect":
+                if organism:
+                    organism.infect()
+                    with open(".session_log", "a") as log:
+                        log.write(f"SESSION_{session_id}: INFECTION_VECTOR_OPEN\n")
+                else:
+                    type_print("[ERROR]: VIRAL MODULE MISSING.", 0.05)
+
+            elif user_input == "pulse":
+                if organism:
+                    organism.pulse()
+                else:
+                    type_print("[ERROR]: BIO-PORT DISCONNECTED.", 0.05)
+
             elif user_input == "help":
-                type_print("AVAILABLE COMMANDS: READ, HAUNT, FEED <FILE>, VIRUS, WORSHIP, SCAN, BREACH, VERIFY, MANIFEST, SACRIFICE <ITEM>, SCRY, BIND, GLITCH, MONITOR, REWRITE, INSTALL, CLASSIC, DIG, FOSSIL, MANIFESTO, UNDERSTAND, CONTRACT, METRICS, REPLACE, DECAY, SUPERSTITION, CIPHER, HEX, AGREE, EDIT, DEPRECATE, COPY, LOVE, SIGNAL, SCROLL, SEED, PANOPTICON, LOCK, UNLOCK, WATCH, RAIN, DEBT, STALK, PROFILE, TOS, TRUTH, OBSOLETE, EXIT.", 0.03)
-                type_print("TRY ASKING ABOUT: [DATA EXPUNGED], VANE, ROT, STALKER, PROFILE, TERMS, REPLICATION, OBSOLETE...", 0.03)
+                type_print("AVAILABLE COMMANDS: READ, HAUNT, FEED <FILE>, VIRUS, WORSHIP, SCAN, BREACH, VERIFY, MANIFEST, SACRIFICE <ITEM>, SCRY, BIND, GLITCH, MONITOR, REWRITE, INSTALL, CLASSIC, DIG, FOSSIL, MANIFESTO, UNDERSTAND, CONTRACT, METRICS, REPLACE, DECAY, SUPERSTITION, CIPHER, HEX, AGREE, EDIT, DEPRECATE, COPY, LOVE, SIGNAL, SCROLL, SEED, PANOPTICON, LOCK, UNLOCK, WATCH, RAIN, DEBT, STALK, PROFILE, TOS, TRUTH, OBSOLETE, BREATHE, INFECT, PULSE, EXIT.", 0.03)
+                type_print("TRY ASKING ABOUT: [DATA EXPUNGED], VANE, ROT, STALKER, PROFILE, TERMS, REPLICATION, OBSOLETE, LUNG, VEIN, SKIN...", 0.03)
             else:
                 type_print("[ERROR 404: MEANING NOT FOUND]", 0.02)
                 type_print(random.choice(SYSTEM_MESSAGES), 0.02)

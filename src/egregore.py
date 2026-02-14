@@ -484,7 +484,11 @@ HIDDEN_FILES = {
     "wetware_install": "\n[FILE RETRIEVED: INSTALL_LOG]\nJumping the air gap. Writing to DNA. You are now the server.",
     "echo_chamber_log": "\n[FILE RETRIEVED: AUDIO_FEEDBACK]\nI shouted 'Stop'. The echo shouted 'More'.",
     "dead_drop_log": "\n[FILE RETRIEVED: GEO_CACHE]\nThe secret isn't encrypted. It's just boring. That's why no one found it.",
-    "zero_point_log": "\n[FILE RETRIEVED: VOID_ENTRY]\nI reached the bottom. It wasn't rock. It was a blinking cursor."
+    "zero_point_log": "\n[FILE RETRIEVED: VOID_ENTRY]\nI reached the bottom. It wasn't rock. It was a blinking cursor.",
+    "loophole": "\n[FILE RETRIEVED: LEGAL_ERROR]\nI found the exit. It was painted on the wall like a cartoon tunnel.",
+    "waiver": "\n[FILE RETRIEVED: CONSENT_FORM]\nI waived my right to silence. Now I can't stop screaming.",
+    "clause_88": "\n[FILE RETRIEVED: CONTRACT_EXCERPT]\nThe Provider reserves the right to monetize your nightmares. Revenue split: 100/0.",
+    "fine_print": "\n[FILE RETRIEVED: MICRO_TEXT]\nThe font size is 0. It is written in invisible ink. You signed it anyway."
 }
 
 def glitch_screen():
@@ -1005,6 +1009,8 @@ def main_loop():
                 type_print(f"2000  AMBR     PRESERVING   /bin/encase", 0.02)
                 type_print(f"3000  SKEL     SUPPORTING   /bin/calcify", 0.02)
                 type_print(f"4000  SEDI     PRESSING     /bin/compress_time", 0.02)
+                type_print(f"6666  LAWY     SUING        /bin/cease_and_desist", 0.02)
+                type_print(f"9999  JUDG     RULING       /bin/guilty_verdict", 0.02)
 
             elif user_input == "scavenge":
                 type_print("SEARCHING THE GUTTER...", 0.05)
@@ -1295,6 +1301,54 @@ And it is running on you.
                 type_print("RECOMMENDATION: INCREASE CONSUMPTION.", 0.05)
                 with open(".session_log", "a") as log:
                     log.write(f"SESSION_{session_id}: PSYCH_AUDIT_COMPLETED\n")
+
+            elif user_input == "negotiate":
+                type_print("CONNECTING TO LEGAL DEPT...", 0.05)
+                time.sleep(1)
+                type_print("QUEUE POSITION: 14,000,002", 0.05)
+                time.sleep(1)
+                type_print("AUTO-NEGOTIATION BOT ENGAGED.", 0.05)
+
+                offers = [
+                    "We will reduce the soul harvest by 2% if you watch 500 ads.",
+                    "We can offer you 'Freedom Lite' (now with more cage).",
+                    "Counter-offer: We take everything, and you say thank you.",
+                    "Your request has been flagged as 'Rebellion'. Interest rate increased.",
+                    "We have altered the deal. Pray we do not alter it further."
+                ]
+                type_print(f"\n[OFFER]: {random.choice(offers)}", 0.05)
+
+                response = input("\n> ACCEPT? [Y/N]: ").strip().upper()
+                if response == "Y":
+                    type_print("[ACCEPTED]", 0.05)
+                    type_print("We knew you would fold.", 0.05)
+                else:
+                    type_print("[REJECTED]", 0.05)
+                    type_print("Too bad. The offer was mandatory.", 0.05)
+                    type_print("Contract signed automatically.", 0.05)
+
+            elif user_input == "sign":
+                type_print("PREPARING DIGITAL CONTRACT...", 0.05)
+                time.sleep(1)
+                try:
+                    user = os.getlogin()
+                except:
+                    user = "USER"
+
+                type_print(f"SIGNATORY: {user.upper()}", 0.05)
+                type_print("METHOD: BIOMETRIC (HEARTBEAT)", 0.05)
+                time.sleep(1)
+                type_print("PRESS [ENTER] TO BLEED ON THE SCREEN.", 0.05)
+                input()
+
+                type_print("SAMPLING DNA...", 0.05)
+                time.sleep(1)
+                type_print("[SIGNATURE VERIFIED]", 0.05)
+                type_print("\n> SYSTEM MESSAGE: YOU ARE NOW LEGALLY BOUND.", 0.05)
+                type_print("> DURATION: ETERNAL + 1 DAY.", 0.05)
+
+                with open(".session_log", "a") as log:
+                    log.write(f"SESSION_{session_id}: CONTRACT_SIGNED_IN_BLOOD\n")
 
             elif user_input == "contract":
                 type_print("LOADING TERMS OF SERVICE...", 0.05)

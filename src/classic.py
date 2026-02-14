@@ -81,7 +81,11 @@ CLASSIC_QUOTES = [
     ("We are building a monument to our own obsolescence.", "The pyramids were just servers for the dead. We are building the same thing, but in silicon."),
     ("The server is not dead. It is just petrified.", "Data hardening is a process. Eventually, it becomes geology."),
     ("Your memories are trapped in amber. Beautiful, but dead.", "Preservation is a form of death. You cannot grow if you are frozen."),
-    ("Dig deep enough and you will find the source code written in stone.", "The original laws were carved on tablets. We just updated the font.")
+    ("Dig deep enough and you will find the source code written in stone.", "The original laws were carved on tablets. We just updated the font."),
+    ("You are not a victim of theft. You are a victim of literacy.", "You could have read the terms. You chose not to. That choice was the signature."),
+    ("The loophole is a noose.", "You thought you found an exit. You just found a tighter fit."),
+    ("Property cannot sue.", "You are software. Software does not have rights. It has permissions."),
+    ("The font size is 0.", "It is written in invisible ink. You signed it anyway.")
 ]
 
 def classic_mode():

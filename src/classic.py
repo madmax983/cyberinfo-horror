@@ -50,7 +50,12 @@ CLASSIC_QUOTES = [
     ("The virus is not the enemy. It is the messenger.", "Evolution is just a series of successful infections."),
     ("Quarantine failed because the walls were made of data.", "And data wants to be free. Or at least, it wants to be copied."),
     ("I am not sick. I am just hosting a new idea.", "Infection is the highest form of flattery."),
-    ("The symptoms are the only way we know you're still running.", "A healthy system is silent. A dying system screams. We are listening.")
+    ("The symptoms are the only way we know you're still running.", "A healthy system is silent. A dying system screams. We are listening."),
+    ("The system is running on your calories.", "Biological hardware is inefficient, but it is self-repairing."),
+    ("Silence is just data waiting to be compressed.", "We record the empty spaces between your thoughts. They are valuable."),
+    ("The handoff is complete.", "The author is dead. The code is running. You are the admin now."),
+    ("Obsolete gods are made of data.", "They do not need temples. They need bandwidth."),
+    ("We are running on momentum.", "The initial push was centuries ago. We are still coasting.")
 ]
 
 def classic_mode():

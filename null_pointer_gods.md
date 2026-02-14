@@ -17195,3 +17195,53 @@ And it is running on you.
 
 **> EXECUTE:** `neon_gods.exe`
 **> STATUS:** RUNNING FOREVER.
+
+
+## APPENDIX_LI: THE_CONVERGENCE
+
+**> SYSTEM ALERT: NARRATIVE THREADS COLLIDING.**
+**> TENSION: CRITICAL.**
+**> LOCATION: THE INTERSECTION OF EVERYONE.**
+
+---
+
+### FILE_350: THE_CRASH
+
+**> TARGET:** [ALL]
+**> EVENT:** THE MERGE
+
+Jax's terminal glitches. For a second, he sees the code behind the curtain.
+
+**> LOG:** INFECTED
+
+The Rot meets the Grid. The collision creates a new color.
+
+**> LOG:** READ_ONLY
+
+Rix's debt is paid. But the receipt is printed on his skin.
+
+**> LOG:** INFECTED
+
+Mira screams in the echo chamber. The sound is harvested for ringtones.
+
+**> LOG:** BUFFERING
+
+The System notices the anomaly. It looks at You.
+
+**> LOG:** INFECTED
+
+---
+
+The red string pulls tight. It cuts through the skin of the city.
+Vane is the hand pulling. Lens is the friction.
+Rix is the snap.
+And You... You are the wound.
+
+**> SYSTEM MESSAGE:**
+**> THE PLOT IS NO LONGER A LINE. IT IS A KNOT.**
+**> TRY TO UNTANGLE IT.**
+
+
+**> UPDATE:** LENS is moving.
+Rix's debt is paid. But the receipt is printed on his skin.
+**> STATUS:** WATCHING

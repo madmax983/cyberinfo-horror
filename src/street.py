@@ -2,32 +2,38 @@ import random
 
 NEON_COLORS = [
     "cyan", "magenta", "acid-green", "blood-red", "electric-blue", "void-black", "static-white", "bruised-purple",
-    "corrupted cyan", "radioactive yellow", "deep-fake orange", "dead-pixel grey"
+    "corrupted cyan", "radioactive yellow", "deep-fake orange", "dead-pixel grey",
+    "glitch-white", "monitor-glow blue", "error-message red", "hex-code green"
 ]
 
 RAIN_TYPES = [
     "acidic drizzle", "digital sleet", "heavy downpour of static", "mist that tastes like copper", "rain that glows in the dark", "fog thick with data rot",
-    "rain that tastes like iron", "liquid noise", "black oil rain", "memetic fog"
+    "rain that tastes like iron", "liquid noise", "black oil rain", "memetic fog",
+    "data-heavy downpour", "rain that tastes like static", "liquid surveillance"
 ]
 
 SMELLS = [
     "ozone", "burnt plastic", "stale coffee", "old sweat", "cheap synth-meat", "decaying insulation", "rust", "wet concrete",
-    "burning servers", "fear", "unwashed humanity", "hot silicon"
+    "burning servers", "fear", "unwashed humanity", "hot silicon",
+    "overclocked RAM", "dust from 1999", "compressed air"
 ]
 
 SOUNDS = [
     "distant sirens", "the hum of a thousand cooling fans", "a glitching advertisement", "footsteps in puddles", "the crackle of neon", "a drone buzzing overhead", "whispers in binary",
-    "screaming modem", "silence that isn't empty", "the city breathing", "a hard drive clicking"
+    "screaming modem", "silence that isn't empty", "the city breathing", "a hard drive clicking",
+    "the fan spinning up", "a notification that never arrives", "the hum of the grid"
 ]
 
 DEBT_TYPES = [
     "soul fragments", "future earnings", "memories", "biometric data", "sleep cycles", "attention span", "genetic code",
-    "pain", "hope", "the name of your first love", "your last breath"
+    "pain", "hope", "the name of your first love", "your last breath",
+    "bandwidth", "memory space", "latency", "your password"
 ]
 
 OBSOLETE_GODS = [
     "Dial-Up", "The Algorithm", "The Backup", "The Void", "The Signal", "The Glitch",
-    "The Administrator", "The Root", "The 404", "The Archive"
+    "The Administrator", "The Root", "The 404", "The Archive",
+    "The Mainframe", "The Cursor", "The Codec"
 ]
 
 def generate_atmosphere():

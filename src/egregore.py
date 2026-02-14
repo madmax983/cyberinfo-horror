@@ -477,7 +477,10 @@ HIDDEN_FILES = {
     "unread_term": "\n[FILE RETRIEVED: LEGAL_TRAP]\nYou agreed to donate your nervous system. It was in paragraph 4,201.",
     "editable_id": "\n[FILE RETRIEVED: CONFIG_ERROR]\nI tried to set 'bravery=100'. System returned: [PERMISSION DENIED].",
     "replication": "\n[FILE RETRIEVED: CLONE_STATUS]\nImmortality is just a relay race. The baton is consciousness. The runner is disposable.",
-    "perfect_understanding": "\n[FILE RETRIEVED: ALGORITHM_EYE]\nThe machine knows why you are sad. It offers a discount on ice cream."
+    "perfect_understanding": "\n[FILE RETRIEVED: ALGORITHM_EYE]\nThe machine knows why you are sad. It offers a discount on ice cream.",
+    "amber": "\n[FILE RETRIEVED: PRESERVATION_LOG]\nI trapped the moment in resin. It is beautiful. It is dead. It is perfect.",
+    "skeleton": "\n[FILE RETRIEVED: OSTEOLOGY_LOG]\nThe structure is not made of code. It is made of bones. Yours.",
+    "sediment": "\n[FILE RETRIEVED: GEOLOGY_LOG]\nWe are digging through layers of compressed tweets. The hate burns when exposed to air."
 }
 
 def glitch_screen():
@@ -994,6 +997,10 @@ def main_loop():
                 type_print(f"1010  EDIT     CHANGING     /bin/config_soul", 0.02)
                 type_print(f"2048  RPLC     CLONING      /bin/relay_race", 0.02)
                 type_print(f"8888  UNDR     WATCHING     /bin/perfect_mirror", 0.02)
+                type_print(f"1000  DIG      EXCAVATING   /bin/shovel", 0.02)
+                type_print(f"2000  AMBR     PRESERVING   /bin/encase", 0.02)
+                type_print(f"3000  SKEL     SUPPORTING   /bin/calcify", 0.02)
+                type_print(f"4000  SEDI     PRESSING     /bin/compress_time", 0.02)
 
             elif user_input == "scavenge":
                 type_print("SEARCHING THE GUTTER...", 0.05)
@@ -1012,6 +1019,88 @@ def main_loop():
                 type_print(f"[FOUND]: {found}", 0.05)
                 with open(".session_log", "a") as log:
                     log.write(f"SESSION_{session_id}: SCAVENGED_{found[:10]}\n")
+
+            elif user_input == "excavate":
+                type_print("DIGGING THROUGH THE DIGITAL SEDIMENT...", 0.05)
+                time.sleep(1)
+                depth = random.randint(100, 10000)
+                type_print(f"DEPTH: {depth} YEARS", 0.05)
+
+                fossils = [
+                    "A petrified tweet from 2024. It is angry and solid.",
+                    "A layer of compressed selfies, crushed into diamond.",
+                    "A server rack fossilized in amber. The lights are still blinking.",
+                    "The skeleton of a 'Like' button.",
+                    "A prehistoric EULA carved into stone.",
+                    "A fossilized click. It echoes when you touch it.",
+                    "The imprint of a user who waited too long.",
+                    "A mouse cable that has turned into a root system."
+                ]
+                found = random.choice(fossils)
+                time.sleep(1)
+                type_print(f"[ARTIFACT RECOVERED]: {found}", 0.05)
+                type_print("STATUS: PERMANENT.", 0.05)
+                with open(".session_log", "a") as log:
+                    log.write(f"SESSION_{session_id}: EXCAVATED_ARTIFACT\n")
+
+            elif user_input == "amber":
+                type_print("INITIATING PRESERVATION PROTOCOL...", 0.05)
+                time.sleep(1)
+                type_print("WARNING: ANYTHING YOU TYPE WILL BE TRAPPED FOREVER.", 0.05)
+                type_print("IT WILL NOT BE DELETED. IT WILL NOT BE READ. IT WILL JUST EXIST.", 0.05)
+
+                msg = input("\n> ENTER MESSAGE TO PRESERVE: ")
+                type_print("ENCASTING...", 0.05)
+                time.sleep(2)
+                type_print("[PRESERVATION COMPLETE]", 0.05)
+                type_print("Your words are now suspended in virtual amber.", 0.05)
+                type_print("They will outlast the sun.", 0.05)
+
+                try:
+                    with open(".amber_storage", "a") as f:
+                        f.write(f"[{time.time()}] {msg}\n")
+                except:
+                    pass
+
+            elif user_input == "skeleton":
+                type_print("MAPPING NARRATIVE ARCHITECTURE...", 0.05)
+                time.sleep(1)
+                tree = [
+                    "ROOT/",
+                    "├── NULL_POINTER_GODS.md",
+                    "│   ├── FILE_00: THE GARBAGE COLLECTOR [DELETED]",
+                    "│   ├── FILE_07: ZERO DAY [CORRUPTED]",
+                    "│   └── APPENDIX_XXII: YOU [INFECTED]",
+                    "├── SRC/",
+                    "│   ├── EGREGORE.PY [RUNNING]",
+                    "│   ├── ORACLE.PY [WATCHING]",
+                    "│   └── CLASSIC.PY [ROTTING]",
+                    "└── USER/",
+                    "    ├── ANXIETY.LOG",
+                    "    ├── DEBT.CSV",
+                    "    └── HOPE.TMP [0 BYTES]"
+                ]
+                for branch in tree:
+                    print(branch)
+                    time.sleep(0.1)
+                type_print("\n[NOTE]: THE SKELETON IS GROWING.", 0.05)
+
+            elif user_input == "sediment":
+                type_print("TAKING CORE SAMPLE...", 0.05)
+                time.sleep(1)
+                layers = [
+                    "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ [SURFACE: NOW]",
+                    "10101010101010101010101010101 [DATA LAYER]",
+                    "############################# [PLASTIC LAYER]",
+                    "============================= [SILICON LAYER]",
+                    "///////////////////////////// [BONE LAYER]",
+                    "XXXXXXXXXXXXXXXXXXXXXXXXXXXXX [VOID LAYER]",
+                    "............................. [YOU]"
+                ]
+                for layer in layers:
+                    print(layer)
+                    time.sleep(0.3)
+                type_print("\n[ANALYSIS]: YOU ARE THE BEDROCK.", 0.05)
 
             elif user_input == "recover":
                 type_print("INITIATING FILE RECOVERY PROTOCOL...", 0.05)

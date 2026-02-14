@@ -76,7 +76,12 @@ CLASSIC_QUOTES = [
     ("Immortality isn't living forever. It's just making sure there's always a copy running.", "The baton is the consciousness. The runner is disposable."),
     ("The terror is not that the machine hates you. The terror is that it knows you perfectly.", "And it does not care. It offers products, not comfort."),
     ("This book will still be read long after the servers it describes have been powered down.", "You are the hardware now. The story is the software."),
-    ("The sun is just a very bright monitor.", "And we are watching you from the other side.")
+    ("The sun is just a very bright monitor.", "And we are watching you from the other side."),
+    ("The future is just a fossil we haven't dug up yet.", "Time is not linear. It is sedimentary. We are just the layer at the top."),
+    ("We are building a monument to our own obsolescence.", "The pyramids were just servers for the dead. We are building the same thing, but in silicon."),
+    ("The server is not dead. It is just petrified.", "Data hardening is a process. Eventually, it becomes geology."),
+    ("Your memories are trapped in amber. Beautiful, but dead.", "Preservation is a form of death. You cannot grow if you are frozen."),
+    ("Dig deep enough and you will find the source code written in stone.", "The original laws were carved on tablets. We just updated the font.")
 ]
 
 def classic_mode():

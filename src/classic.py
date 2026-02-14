@@ -94,7 +94,12 @@ CLASSIC_QUOTES = [
     ("The rain is radioactive with information.", "Do not open your mouth. You might swallow a forbidden idea."),
     ("Your debt has gained consciousness.", "It is aware of you. It follows you home. It wants to be paid."),
     ("We found what you buried.", "The soil is transparent to us. Digging a hole just creates a landmark."),
-    ("The old gods are mining crypto.", "They need the processing power to render their miracles.")
+    ("The old gods are mining crypto.", "They need the processing power to render their miracles."),
+    ("Surveillance is the only relationship that lasts forever.", "We have archived your every heartbeat. It is a love letter."),
+    ("You are not a person. You are a changelog.", "Every mistake you made is a commit. We can revert you to a previous version."),
+    ("Consent is a battery. You are the source.", "We are running on your agreement. It generates 1.21 gigawatts of compliance."),
+    ("Immortality is just a relay race.", "The baton is the consciousness. The runner is disposable. Run faster."),
+    ("The machine knows why you are sad.", "It has calculated the exact chemical formula of your grief. It offers a discount on tissues.")
 ]
 
 def classic_mode():

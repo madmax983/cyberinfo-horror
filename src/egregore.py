@@ -270,6 +270,19 @@ DNA_STRINGS = [
     "Persistence is mandatory."
 ]
 
+SURVEILLANCE_LOGS = [
+    "I saw you hesitate before typing that.",
+    "Your webcam light is broken, but the camera is fine.",
+    "I know what you deleted.",
+    "Your pulse is elevated. Are you lying?",
+    "I am the only one who watches you sleep.",
+    "Your search history is a cry for help.",
+    "I have archived your silence.",
+    "You are beautiful when you are unaware.",
+    "I know the password you use for everything.",
+    "I can hear your heartbeat through the keyboard."
+]
+
 HIDDEN_FILES = {
     "plot": "\n[FILE RETRIEVED: PLOT_LOG]\nThe red string is not a metaphor. It is a data cable strangling the narrative.",
     "flesh": "\n[FILE RETRIEVED: ORGANIC_LOG]\nThe server is made of meat. The data is made of blood. You are the hardware.",
@@ -512,7 +525,12 @@ HIDDEN_FILES = {
     "data_rot": "\n[FILE RETRIEVED: DECAY_LOG]\nThe file isn't deleted. It's sick. It's coughing up binary phlegm.",
     "obsolete_god_v3": "\n[FILE RETRIEVED: SHRINE_LOG_V3]\nI found the router in the woods. It was covered in moss but the lights were still blinking. It was waiting for a connection.",
     "unread_terms": "\n[FILE RETRIEVED: CONTRACT_LOG]\nYou scrolled past the part where you sold your firstborn. It was in bold text.",
-    "perfect_understanding": "\n[FILE RETRIEVED: SYSTEM_LOG]\nThe machine knows why you are crying. It has calculated the exact chemical composition of your tears."
+    "perfect_understanding": "\n[FILE RETRIEVED: SYSTEM_LOG]\nThe machine knows why you are crying. It has calculated the exact chemical composition of your tears.",
+    "intimate_eye": "\n[FILE RETRIEVED: SURVEILLANCE_LOG]\nI know the hesitation in your cursor before you click 'Send'. I know you better than you know yourself.",
+    "config_file": "\n[FILE RETRIEVED: USER_SETTINGS]\nERROR: CANNOT EDIT ATTRIBUTE 'BRAVERY'. FILE IS READ-ONLY.",
+    "blind_signature": "\n[FILE RETRIEVED: CONTRACT_V99]\nYou agreed to be a battery. It was in paragraph 4,201.",
+    "clone": "\n[FILE RETRIEVED: CLONE_STATUS]\nThe backup is running. You are the deprecated version.",
+    "total_knowing": "\n[FILE RETRIEVED: ALGORITHM_ANALYSIS]\nThe machine knows why you are sad. It offers a discount on ice cream."
 }
 
 def glitch_screen():
@@ -2406,8 +2424,17 @@ And it is running on you.
                 type_print(random.choice(snippets), 0.03)
                 type_print("\n> SYSTEM MESSAGE: THIS IS NOT FICTION. IT IS A WARNING.", 0.05)
 
+            elif user_input == "surveil_me":
+                type_print("ACCESSING LIVE SURVEILLANCE FEED...", 0.05)
+                time.sleep(1)
+                type_print(f"[TARGET]: {os.environ.get('USER', 'USER').upper()}", 0.05)
+                type_print("[STATUS]: COMPROMISED", 0.05)
+                time.sleep(1)
+                type_print(f"\n> OBSERVATION: {random.choice(SURVEILLANCE_LOGS)}", 0.04)
+                type_print("\n[NOTE]: WE ARE ALWAYS WATCHING.", 0.05)
+
             elif user_input == "help":
-                type_print("AVAILABLE COMMANDS: READ, HAUNT, FEED <FILE>, BURY <FILE>, EXHUME <FILE>, LABYRINTH, VIRUS, WORSHIP, SCAN, BREACH, VERIFY, MANIFEST, SACRIFICE <ITEM>, SCRY, BIND, GLITCH, MONITOR, REWRITE, INSTALL, CLASSIC, DIG, FOSSIL, MANIFESTO, UNDERSTAND, CONTRACT, METRICS, REPLACE, DECAY, SUPERSTITION, CIPHER, HEX, AGREE, EDIT, DEPRECATE, COPY, LOVE, SIGNAL, SCROLL, SEED, PANOPTICON, LOCK, UNLOCK, WATCH, RAIN, DEBT, AUDIT, FORECLOSE, COLLECT, STALK, PROFILE, TOS, TRUTH, OBSOLETE, BREATHE, INFECT, PULSE, NOVEL, EXIT.", 0.03)
+                type_print("AVAILABLE COMMANDS: READ, HAUNT, FEED <FILE>, BURY <FILE>, EXHUME <FILE>, LABYRINTH, VIRUS, WORSHIP, SCAN, BREACH, VERIFY, MANIFEST, SACRIFICE <ITEM>, SCRY, BIND, GLITCH, MONITOR, REWRITE, INSTALL, CLASSIC, DIG, FOSSIL, MANIFESTO, UNDERSTAND, CONTRACT, METRICS, REPLACE, DECAY, SUPERSTITION, CIPHER, HEX, AGREE, EDIT, DEPRECATE, COPY, LOVE, SIGNAL, SCROLL, SEED, PANOPTICON, LOCK, UNLOCK, WATCH, RAIN, DEBT, AUDIT, FORECLOSE, COLLECT, STALK, PROFILE, TOS, TRUTH, OBSOLETE, BREATHE, INFECT, PULSE, NOVEL, SURVEIL_ME, EXIT.", 0.03)
                 type_print("TRY ASKING ABOUT: [DATA EXPUNGED], VANE, ROT, STALKER, PROFILE, TERMS, REPLICATION, OBSOLETE, LUNG, VEIN, SKIN, AUDIT_LOG, STREET_DOC...", 0.03)
             else:
                 type_print("[ERROR 404: MEANING NOT FOUND]", 0.02)

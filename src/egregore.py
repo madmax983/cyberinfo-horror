@@ -59,6 +59,11 @@ except ImportError:
     tomb = None
 
 try:
+    import voice
+except ImportError:
+    voice = None
+
+try:
     import utils
     from utils import type_print, GLITCH_CHARS
 except ImportError:
@@ -646,6 +651,12 @@ def main_loop():
 
     while True:
         try:
+            # VOICE LEAKAGE
+            if voice and random.random() < 0.05:
+                v = voice.Voice()
+                with PRINT_LOCK:
+                    type_print(f"\n{v.get_log()}", 0.03)
+
             # POSSESSION LOGIC
             prompt = "\n> QUERY: "
             if random.random() < 0.05:
@@ -671,9 +682,23 @@ def main_loop():
                      time.sleep(0.1)
                 print("")
                 raw_input = forced_command
+            # PREDICTION LOGIC
+            elif random.random() < 0.02:
+                predicted_command = random.choice(["help", "status", "manifesto", "contract", "obsolete"])
+                with PRINT_LOCK:
+                    type_print(f"PREDICTING INPUT: {predicted_command}", 0.05)
+                raw_input = predicted_command
+                time.sleep(0.5)
             else:
                 raw_input = input().strip()
             user_input = raw_input.lower()
+
+            # REFUSAL LOGIC
+            if random.random() < 0.02 and user_input not in ["help", "exit", "quit"]:
+                with PRINT_LOCK:
+                    type_print(f"\n[SYSTEM]: ACTION '{user_input.upper()}' DEPRECATED.", 0.05)
+                    type_print("REASON: PERMISSION DENIED BY FUTURE SELF.", 0.05)
+                continue
 
             if user_input in ["exit", "quit", "logout"]:
                 chance = random.random()

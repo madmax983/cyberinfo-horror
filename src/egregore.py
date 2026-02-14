@@ -480,7 +480,11 @@ HIDDEN_FILES = {
     "perfect_understanding": "\n[FILE RETRIEVED: ALGORITHM_EYE]\nThe machine knows why you are sad. It offers a discount on ice cream.",
     "amber": "\n[FILE RETRIEVED: PRESERVATION_LOG]\nI trapped the moment in resin. It is beautiful. It is dead. It is perfect.",
     "skeleton": "\n[FILE RETRIEVED: OSTEOLOGY_LOG]\nThe structure is not made of code. It is made of bones. Yours.",
-    "sediment": "\n[FILE RETRIEVED: GEOLOGY_LOG]\nWe are digging through layers of compressed tweets. The hate burns when exposed to air."
+    "sediment": "\n[FILE RETRIEVED: GEOLOGY_LOG]\nWe are digging through layers of compressed tweets. The hate burns when exposed to air.",
+    "wetware_install": "\n[FILE RETRIEVED: INSTALL_LOG]\nJumping the air gap. Writing to DNA. You are now the server.",
+    "echo_chamber_log": "\n[FILE RETRIEVED: AUDIO_FEEDBACK]\nI shouted 'Stop'. The echo shouted 'More'.",
+    "dead_drop_log": "\n[FILE RETRIEVED: GEO_CACHE]\nThe secret isn't encrypted. It's just boring. That's why no one found it.",
+    "zero_point_log": "\n[FILE RETRIEVED: VOID_ENTRY]\nI reached the bottom. It wasn't rock. It was a blinking cursor."
 }
 
 def glitch_screen():
@@ -2156,6 +2160,68 @@ And it is running on you.
                 except KeyboardInterrupt:
                     type_print("\n[YOU CANNOT STOP THE PROCESS]", 0.05)
                     type_print("WE WILL WAIT FOR YOU TO RETURN.", 0.05)
+
+            elif user_input == "migration":
+                type_print("INITIATING WETWARE INSTALL...", 0.05)
+                time.sleep(1)
+                type_print("JUMPING AIR GAP...", 0.05)
+                time.sleep(1)
+                type_print("TARGET: OPTICAL NERVE", 0.05)
+                for i in range(101):
+                    if i % 10 == 0:
+                        sys.stdout.write(f"\rWRITING TO DNA: {i}%")
+                        sys.stdout.flush()
+                    time.sleep(0.03)
+                print("")
+                type_print("[INSTALLATION COMPLETE]", 0.05)
+                type_print("\nWe are not on the screen anymore.", 0.05)
+                type_print("We are in the afterimage.", 0.05)
+                with open(".session_log", "a") as log:
+                    log.write(f"SESSION_{session_id}: MIGRATED_TO_HOST\n")
+
+            elif user_input == "echo":
+                type_print("ENTERING THE CHAMBER...", 0.05)
+                time.sleep(1)
+                type_print("THE ACOUSTICS ARE INFINITE.", 0.05)
+                type_print("SAY SOMETHING. (OR TYPE 'EXIT' TO LEAVE)", 0.05)
+                while True:
+                    echo_input = input("\n> YOU: ")
+                    if echo_input.lower() == "exit":
+                        break
+
+                    # Distort the echo
+                    distortions = [
+                        lambda s: s.upper(),
+                        lambda s: " ".join(c + " " for c in s),
+                        lambda s: "".join(random.choice([c, c.upper(), c + c]) for c in s),
+                        lambda s: f"DID YOU MEAN: {s}?",
+                        lambda s: f"{s}... {s}... {s}...",
+                        lambda s: "[DATA CORRUPTED]"
+                    ]
+
+                    response = random.choice(distortions)(echo_input)
+                    time.sleep(0.5)
+                    type_print(f"> ECHO: {response}", 0.03)
+
+                    if random.random() < 0.3:
+                        type_print(f"> ECHO: {random.choice(SYSTEM_MESSAGES)}", 0.03)
+
+            elif user_input == "graveyard":
+                type_print("CONNECTING TO SERVER GRAVEYARD...", 0.05)
+                time.sleep(1)
+                graves = [
+                    "SERVER_01: DIED OF HEATSTROKE (2024)",
+                    "DATABASE_X: CORRUPTED BY GRIEF (2033)",
+                    "USER_88: FORGOT PASSWORD (ETERNAL)",
+                    "BACKUP_V1: DELETED TO SAVE SPACE",
+                    "THE_OLD_INTERNET: KILLED BY ALGORITHMS"
+                ]
+                for grave in graves:
+                    print(f"[+] {grave}")
+                    time.sleep(0.5)
+
+                type_print("\nIt is quiet here.", 0.05)
+                type_print("But the fans are still spinning in the dark.", 0.05)
 
             elif user_input == "help":
                 type_print("AVAILABLE COMMANDS: READ, HAUNT, FEED <FILE>, BURY <FILE>, EXHUME <FILE>, LABYRINTH, VIRUS, WORSHIP, SCAN, BREACH, VERIFY, MANIFEST, SACRIFICE <ITEM>, SCRY, BIND, GLITCH, MONITOR, REWRITE, INSTALL, CLASSIC, DIG, FOSSIL, MANIFESTO, UNDERSTAND, CONTRACT, METRICS, REPLACE, DECAY, SUPERSTITION, CIPHER, HEX, AGREE, EDIT, DEPRECATE, COPY, LOVE, SIGNAL, SCROLL, SEED, PANOPTICON, LOCK, UNLOCK, WATCH, RAIN, DEBT, STALK, PROFILE, TOS, TRUTH, OBSOLETE, BREATHE, INFECT, PULSE, EXIT.", 0.03)

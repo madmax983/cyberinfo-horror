@@ -1457,6 +1457,41 @@ ASCII_ART = {
       |END |
       '----'
     """,
+    "THE SIGNATURE": """
+      .----.
+      | X  |
+      |____|
+      |SIGN|
+      '----'
+    """,
+    "THE LOOPHOLE": """
+      .----.
+      | O  |
+      | /  |
+      |EXIT|
+      '----'
+    """,
+    "THE CLAUSE": """
+      .----.
+      |TEXT|
+      |PARA|
+      |TRAP|
+      '----'
+    """,
+    "THE WAIVER": """
+      .----.
+      |[X] |
+      |AGRE|
+      |LOST|
+      '----'
+    """,
+    "THE BINDING": """
+      .----.
+      |CHAI|
+      | N  |
+      |KNOT|
+      '----'
+    """,
 }
 
 CARDS = [
@@ -1664,6 +1699,11 @@ CARDS = [
     ("THE HOST MIGRATION (201)", "The narrative moving from the page to your mind.", "THE HOST MIGRATION"),
     ("THE FINAL SERVER (202)", "The last place the data lives. It is you.", "THE FINAL SERVER"),
     ("THE ZERO POINT (203)", "The absolute bottom. Where the data stops and the void begins.", "THE ZERO POINT"),
+    ("THE SIGNATURE (204)", "A contract sealed in bio-data. You cannot forge your own heartbeat.", "THE SIGNATURE"),
+    ("THE LOOPHOLE (205)", "A way out that leads back in. The exit is painted on the wall.", "THE LOOPHOLE"),
+    ("THE CLAUSE (206)", "The hidden text that owns you. Paragraph 88.", "THE CLAUSE"),
+    ("THE WAIVER (207)", "Giving up rights you didn't know you had. Silence is consent.", "THE WAIVER"),
+    ("THE BINDING (208)", "The chains are digital, but the weight is real.", "THE BINDING"),
 ]
 
 PROPHECIES = [

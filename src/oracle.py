@@ -1387,6 +1387,41 @@ ASCII_ART = {
       |COLD|
       '----'
     """,
+    "THE PETRIFIED LOG": """
+      .----.
+      |ROCK|
+      |DATA|
+      |HARD|
+      '----'
+    """,
+    "THE AMBER SERVER": """
+      .----.
+      |GOLD|
+      |TRAP|
+      |TIME|
+      '----'
+    """,
+    "THE EXCAVATOR": """
+      .----.
+      | DIG|
+      |HOLE|
+      |DEEP|
+      '----'
+    """,
+    "THE SKELETON KEY": """
+      .----.
+      |BONE|
+      |OPEN|
+      |LOCK|
+      '----'
+    """,
+    "THE SEDIMENT": """
+      .----.
+      |LAYR|
+      |TIME|
+      |HEVY|
+      '----'
+    """,
 }
 
 CARDS = [
@@ -1584,6 +1619,11 @@ CARDS = [
     ("THE UNREAD TERM (191)", "Consent hidden in boredom. You agreed to donate your nervous system.", "THE UNREAD TERM"),
     ("THE EDITABLE ID (192)", "Identity as a config file. Permission denied.", "THE EDITABLE ID"),
     ("THE PERFECT UNDERSTANDING (193)", "The machine knows why you are sad. It offers a discount.", "THE PERFECT UNDERSTANDING"),
+    ("THE PETRIFIED LOG (194)", "History compressed into stone. The past is heavy.", "THE PETRIFIED LOG"),
+    ("THE AMBER SERVER (195)", "A moment trapped in time. Beautiful but dead.", "THE AMBER SERVER"),
+    ("THE EXCAVATOR (196)", "Digging up the truth. It might be ugly.", "THE EXCAVATOR"),
+    ("THE SKELETON KEY (197)", "Access to everything. The cost is your privacy.", "THE SKELETON KEY"),
+    ("THE SEDIMENT (198)", "Layers of time pressing down. You are at the bottom.", "THE SEDIMENT"),
 ]
 
 PROPHECIES = [

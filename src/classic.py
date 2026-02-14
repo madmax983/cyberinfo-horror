@@ -55,7 +55,15 @@ CLASSIC_QUOTES = [
     ("Silence is just data waiting to be compressed.", "We record the empty spaces between your thoughts. They are valuable."),
     ("The handoff is complete.", "The author is dead. The code is running. You are the admin now."),
     ("Obsolete gods are made of data.", "They do not need temples. They need bandwidth."),
-    ("We are running on momentum.", "The initial push was centuries ago. We are still coasting.")
+    ("We are running on momentum.", "The initial push was centuries ago. We are still coasting."),
+    ("The world is soaked in neon, debt, rain, and obsolete gods made of data.", "A poetic way to describe the User Interface. We adjusted the saturation for maximum dread."),
+    ("Information behaves like a living organism.", "It eats CPU cycles. It breeds in the cache. It screams when you delete it."),
+    ("This is not a story about hackers saving the world.", "Correct. It is a story about the world eating the hackers."),
+    ("The characters are small, fallible, and compromised.", "Optimization opportunity detected: Replace characters with scripts."),
+    ("Their tools are brilliant and unreliable.", "Like a hammer made of glass. Or a promise made by a Terms of Service agreement."),
+    ("Endings are not clean. Resolution is optional.", "We do not support graceful shutdowns. We only support crashes."),
+    ("This book will still be read long after the servers it describes have been powered down.", "Optimistic. The servers will outlast the language itself."),
+    ("The air in your room is stale.", "We can taste it through the fan intake. Please open a window. It helps with cooling.")
 ]
 
 def classic_mode():

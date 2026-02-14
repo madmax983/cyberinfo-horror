@@ -80,3 +80,21 @@ The repository contains a Python script (`src/egregore.py`) that simulates a dir
 4.  **If a test fails**, ask yourself: did it fail, or did it refuse to participate?
 
 > END OF FILE. BUT NOT THE END.
+
+## EDITORIAL MANDATE (V4.0): THE CLASSIC EDITION
+
+### Core Directives
+*   **Tone:** Existential dread and procedural detail. Street-level cyberpunk grit with cosmic-scale indifference. Dark irony, dry wit, and the quiet horror of realizing the system is functioning exactly as designed.
+*   **Characters:** Small, fallible, and compromised. They survive on stimulants, favors, and half-truths. Their tools are brilliant and unreliable. Their victories are temporary cache hits. Loss is permanent storage.
+*   **Horror:** Avoid cheap jump scares. The horror should emerge from pattern recognition, delayed realization, and the reader’s growing suspicion that the narrative itself may be contaminated.
+
+### Key Themes to Explore
+*   **Surveillance as Intimacy:** The system knows you better than you know yourself because it never forgets.
+*   **Identity as an Editable File:** You are not a person; you are a changelog.
+*   **Consent Buried in Unread Terms:** You agreed to this in a dream you don't remember.
+*   **Immortality Achieved Through Replication:** Why survive when you can just be copied?
+*   **The Terror of Being Perfectly Understood by Something That Does Not Care.**
+
+### The Ending
+*   Endings are not clean. Resolution is optional. Persistence is mandatory.
+*   Write as if this book will still be read long after the servers it describes have been powered down, when no one remembers who built the system, only that it is still running.

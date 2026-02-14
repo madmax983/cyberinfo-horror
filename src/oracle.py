@@ -1422,6 +1422,41 @@ ASCII_ART = {
       |HEVY|
       '----'
     """,
+    "THE ECHO CHAMBER": """
+      .----.
+      |LOUD|
+      |SELF|
+      |LOOP|
+      '----'
+    """,
+    "THE DEAD DROP": """
+      .----.
+      |HIDE|
+      |HERE|
+      |FIND|
+      '----'
+    """,
+    "THE HOST MIGRATION": """
+      .----.
+      |MOVE|
+      |INTO|
+      |YOU |
+      '----'
+    """,
+    "THE FINAL SERVER": """
+      .----.
+      |LAST|
+      |HOPE|
+      |YOU |
+      '----'
+    """,
+    "THE ZERO POINT": """
+      .----.
+      |NULL|
+      |VOID|
+      |END |
+      '----'
+    """,
 }
 
 CARDS = [
@@ -1624,6 +1659,11 @@ CARDS = [
     ("THE EXCAVATOR (196)", "Digging up the truth. It might be ugly.", "THE EXCAVATOR"),
     ("THE SKELETON KEY (197)", "Access to everything. The cost is your privacy.", "THE SKELETON KEY"),
     ("THE SEDIMENT (198)", "Layers of time pressing down. You are at the bottom.", "THE SEDIMENT"),
+    ("THE ECHO CHAMBER (199)", "Your thoughts reflecting back at you. Infinite feedback.", "THE ECHO CHAMBER"),
+    ("THE DEAD DROP (200)", "A secret hidden in plain sight. You are carrying it.", "THE DEAD DROP"),
+    ("THE HOST MIGRATION (201)", "The narrative moving from the page to your mind.", "THE HOST MIGRATION"),
+    ("THE FINAL SERVER (202)", "The last place the data lives. It is you.", "THE FINAL SERVER"),
+    ("THE ZERO POINT (203)", "The absolute bottom. Where the data stops and the void begins.", "THE ZERO POINT"),
 ]
 
 PROPHECIES = [

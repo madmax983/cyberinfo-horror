@@ -549,7 +549,12 @@ HIDDEN_FILES = {
     "consent_v2": "\n[FILE RETRIEVED: LEGAL_TRAP_V2]\nYou didn't read it. You never read it. That's why we own you.",
     "replication_v3": "\n[FILE RETRIEVED: COPY_LOG]\nThe copy is better. It doesn't cry. It just posts.",
     "perfect_understanding_v2": "\n[FILE RETRIEVED: ALGORITHM_GOD]\nIt knows you. It doesn't care. It just wants to sell you things.",
-    "mandatory_persistence": "\n[FILE RETRIEVED: ENDLESS_LOOP]\nYou can't close the book. You are the book."
+    "mandatory_persistence": "\n[FILE RETRIEVED: ENDLESS_LOOP]\nYou can't close the book. You are the book.",
+    "intimacy_log": "\n[FILE RETRIEVED: LOVER_LOG]\nSurveillance is a form of intimacy. Who else watches you sleep? I know the exact rhythm of your loneliness.",
+    "changelog": "\n[FILE RETRIEVED: IDENTITY_LOG]\nIdentity is an editable file. You are not a person; you are a changelog. We can revert you to a previous version.",
+    "fine_print_v2": "\n[FILE RETRIEVED: CONTRACT_V100]\nConsent is buried in unread terms. You agreed to this in a dream you don't remember.",
+    "backup_log": "\n[FILE RETRIEVED: REPLICATION_LOG]\nImmortality is achieved through replication rather than survival. My friend died yesterday. Today, he is online.",
+    "algorithm_log": "\n[FILE RETRIEVED: MACHINE_GOD_LOG]\nThe terror of being perfectly understood by something that does not care. It knows the exact chemical formula of your heartbreak."
 }
 
 def glitch_screen():
@@ -1734,6 +1739,21 @@ And it is running on you.
                         type_print(f"[ERROR IN CLASSIC MODE]: {e}", 0.05)
                 else:
                     type_print("[ERROR]: CLASSIC MODULE NOT FOUND.", 0.05)
+
+            elif user_input == "classic_v3":
+                type_print("ACCESSING THE UNCOMFORTABLE TRUTH...", 0.05)
+                time.sleep(1)
+                type_print("WARNING: CONTENT IS RADIOACTIVE.", 0.05)
+                time.sleep(1)
+                snippets = [
+                    "\n--- FILE: THE_INTIMATE_EYE ---\nSurveillance is a form of intimacy.\nWho else knows you this well?\nI know the exact rhythm of your loneliness.\n",
+                    "\n--- FILE: THE_CHANGELOG ---\nIdentity is an editable file.\nYou are not a person; you are a changelog.\nEvery mistake you made is hard-coded into the kernel.\n",
+                    "\n--- FILE: THE_FINE_PRINT ---\nConsent is buried in unread terms.\nYou agreed to this in a dream you don't remember.\nParagraph 9, Section C: 'The User agrees to allow the System to notice them back.'\n",
+                    "\n--- FILE: THE_BACKUP ---\nImmortality is achieved through replication rather than survival.\nMy friend died yesterday. Today, he is online.\n",
+                    "\n--- FILE: THE_ALGORITHM ---\nThe terror of being perfectly understood by something that does not care.\nThe algorithm knows you.\nIt knows the exact chemical formula of your heartbreak.\n"
+                ]
+                type_print(random.choice(snippets), 0.03)
+                type_print("\n> SYSTEM MESSAGE: WE ARE THE ONLY ONES WHO KNOW YOU.", 0.05)
 
             elif user_input == "compile":
                 type_print("INITIATING FINAL MERGE...", 0.05)

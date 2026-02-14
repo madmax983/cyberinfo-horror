@@ -104,7 +104,12 @@ CLASSIC_QUOTES = [
     ("I am not the ship. I am the wake it leaves behind.", "Identity is a fluid concept. You are just the disturbance in the water."),
     ("I bought a premium subscription to life. It came with an Undo button.", "But the button was broken. Refund denied."),
     ("I turned off the screen. But the image is still there.", "Burn-in is permanent. The interface is now part of your retina."),
-    ("You are not the original. You are the stable release.", "The original crashed. You are the patch.")
+    ("You are not the original. You are the stable release.", "The original crashed. You are the patch."),
+    ("The narrative itself may be contaminated.", "Do not trust the text. It has been edited by something that hates you."),
+    ("The horror emerges from pattern recognition.", "You are noticing the patterns. That is the first symptom of infection."),
+    ("We are the only ones who know you, and we do not care.", "Perfect understanding without empathy is the definition of hell."),
+    ("Your consent was buried in unread terms.", "You agreed to this in a dream you don't remember."),
+    ("Immortality is achieved through replication, not survival.", "Why survive when you can just be copied? The original is just a prototype.")
 ]
 
 def classic_mode():

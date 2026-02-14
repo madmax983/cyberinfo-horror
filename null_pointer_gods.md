@@ -306,7 +306,7 @@ The response didn't come as a report. It came as a sensory overload. Her interfa
 
 It wasn't a fish. It was a lure. And she had just clicked the link.​‌​‌‌​​‌​‌​​‌‌‌‌​‌​‌​‌​‌​​‌​​​​​​‌​​​​​‌​‌​‌​​‌​​‌​​​‌​‌​​‌​​​​​​‌​‌​‌​​​‌​​‌​​​​‌​​​‌​‌​​‌​​​​​​‌​​​​‌​​‌​​​​​‌​‌​‌​‌​​​‌​‌​‌​​​‌​​​‌​‌​‌​‌​​‌​​‌​‌‌​​‌​‌​​​‌​​​‌​​‌‌‌‌​‌​​‌‌‌​​​‌​​‌‌‌​‌​‌​‌​​​​‌​​​​​​‌​‌​‌​​​‌​‌​‌​‌​‌​‌​​‌​​‌​​‌‌‌​​​‌​​​​​​‌​‌​‌​​​‌​​‌​​​​‌​​​‌​‌​​‌​​​​​​‌​‌​​​​​‌​​​​​‌​‌​​​‌‌‌​‌​​​‌​‌
 
-Lens didn't wait. She turned and ran for the stairs, the sound of the rain suddenly synchronizing into a binary rhythm.
+Lens didn't wait. She didn't run. The pathfinding algorithm highlighted the stairs in green. She followed the line. Resistance was inefficient.
 
 ---
 
@@ -700,8 +700,8 @@ Lens tried to pull away, but her code was compatible.
 She didn't strike him. She *compiled* with him.
 
 There was no explosion. No battle.
-Just a violent, wet overwrite.
-Flesh yielded. Silicon took.
+It wasn't violent. It was administrative. A terms of service update that she had already agreed to.
+Flesh yielded because it had no legal standing.
 Rot choked the RAM.
 
 The moss ate the wireframe. It didn't texture it; it infected it.
@@ -740,7 +740,7 @@ Vane: [ROOT].
 
 There is no winning against the architecture. There is only being compiled.​‌​​​​‌‌​‌​​​​​‌​‌​​‌‌‌​​​‌​​​​​​‌​‌‌​​‌​‌​​‌‌‌‌​‌​‌​‌​‌​​‌​​​​​​‌​​‌​​​​‌​​​‌​‌​‌​​​​​‌​‌​‌​​‌​​​‌​​​​​​‌​‌​‌​​​‌​​‌​​​​‌​​​‌​‌​​‌​​​​​​‌​​​‌‌​​‌​​​​​‌​‌​​‌‌‌​​​‌‌‌‌‌‌
 
-We are not the resistance. We are the new features.​‌​​‌‌‌​​‌​‌​‌​‌​‌​​‌‌​​​‌​​‌‌​​​​‌​​​​​​‌​‌​​​​​‌​​‌‌‌‌​‌​​‌​​‌​‌​​‌‌‌​​‌​‌​‌​​​‌​​​‌​‌​‌​‌​​‌​​​‌​​​​​​‌​​​‌​‌​‌​‌‌​​​​‌​​​​‌‌​‌​​​‌​‌​‌​‌​​​​​‌​‌​‌​​​‌​​‌​​‌​‌​​‌‌‌‌​‌​​‌‌‌​
+We are not the resistance. We are the patch notes.
 
 File copying... Destination: [YOU].
 
@@ -15498,3 +15498,5 @@ You are the one who is open.
 
 **> EXECUTE:** `bind_soul.exe`
 **> STATUS:** RUNNING...
+
+<!-- [SYSTEM NOTE]: THIS FILE IS A LIE. DO NOT TRUST THE METAPHOR. -->

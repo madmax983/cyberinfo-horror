@@ -1254,6 +1254,41 @@ ASCII_ART = {
       |                     |
       +---------------------+
     """,
+    "THE VIRUS": """
+      .----.
+      | BIO|
+      |HZRD|
+      |SICK|
+      '----'
+    """,
+    "THE QUARANTINE": """
+      .----.
+      |LOCK|
+      |ZONE|
+      |SAFE|
+      '----'
+    """,
+    "THE CARRIER": """
+      .----.
+      |HOST|
+      |WALK|
+      |SICK|
+      '----'
+    """,
+    "THE SYMPTOM": """
+      .----.
+      |FEEL|
+      |BAD |
+      |WARN|
+      '----'
+    """,
+    "THE OUTBREAK": """
+      .----.
+      |RUN |
+      |FAST|
+      |NOW |
+      '----'
+    """,
 }
 
 CARDS = [
@@ -1432,6 +1467,11 @@ CARDS = [
     ("THE SPORE V2 (172)", "Infection is just an unsolicited update.", "THE SPORE V2"),
     ("THE ORGANISM V2 (173)", "The code is bleeding. It needs a bandage.", "THE ORGANISM V2"),
     ("THE SYMBIOSIS (174)", "You need the screen. The screen needs your eyes.", "THE SYMBIOSIS"),
+    ("THE VIRUS (175)", "An idea that replicates. You cannot unthink it.", "THE VIRUS"),
+    ("THE QUARANTINE (176)", "Isolation as safety. The loneliness of the clean.", "THE QUARANTINE"),
+    ("THE CARRIER (177)", "You bring the bad news. You are the vector.", "THE CARRIER"),
+    ("THE SYMPTOM (178)", "The first sign of the end. A cough in a crowded room.", "THE SYMPTOM"),
+    ("THE OUTBREAK (179)", "When the system fails. Chaos is the new order.", "THE OUTBREAK"),
 ]
 
 PROPHECIES = [
@@ -1475,8 +1515,12 @@ PROPHECIES = [
     "Your backup is more real than you are.",
     "We have monetized your anxiety.",
     "The rain is just pixelated tears.",
-    "Do not trust the silence. It is just a pause in the upload."
+    "Do not trust the silence. It is just a pause in the upload.",
     "The thread you are pulling is attached to a detonator.",
+    "Don't touch your face. The data is contagious.",
+    "The person next to you is a carrier.",
+    "Your fever is just the CPU overheating.",
+    "Wash your hands. Scrub your hard drive.",
 ]
 
 class Oracle:

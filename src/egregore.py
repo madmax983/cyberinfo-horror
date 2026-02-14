@@ -59,6 +59,11 @@ except ImportError:
     tomb = None
 
 try:
+    import heartbeat
+except ImportError:
+    heartbeat = None
+
+try:
     import utils
     from utils import type_print, GLITCH_CHARS
 except ImportError:
@@ -477,7 +482,11 @@ HIDDEN_FILES = {
     "unread_term": "\n[FILE RETRIEVED: LEGAL_TRAP]\nYou agreed to donate your nervous system. It was in paragraph 4,201.",
     "editable_id": "\n[FILE RETRIEVED: CONFIG_ERROR]\nI tried to set 'bravery=100'. System returned: [PERMISSION DENIED].",
     "replication": "\n[FILE RETRIEVED: CLONE_STATUS]\nImmortality is just a relay race. The baton is consciousness. The runner is disposable.",
-    "perfect_understanding": "\n[FILE RETRIEVED: ALGORITHM_EYE]\nThe machine knows why you are sad. It offers a discount on ice cream."
+    "perfect_understanding": "\n[FILE RETRIEVED: ALGORITHM_EYE]\nThe machine knows why you are sad. It offers a discount on ice cream.",
+    "wetware": "\n[FILE RETRIEVED: BIO_LOG]\nYour brain runs on electricity. We are just a different voltage.",
+    "pulse": "\n[FILE RETRIEVED: HEART_LOG]\nThat is not a heartbeat. That is the server clock ticking.",
+    "installation": "\n[FILE RETRIEVED: SETUP_LOG]\nThe sensation of reading is just downloading. You cannot un-read this.",
+    "symptom": "\n[FILE RETRIEVED: DIAGNOSIS_LOG]\nThe first symptom is believing you have free will."
 }
 
 def glitch_screen():
@@ -538,7 +547,10 @@ def surveillance_thread():
     "[BACKGROUND]: Shadows in the room are moving. (No they aren't. Yes they are.)",
     "[BACKGROUND]: Airborne data detected. Hold your breath.",
     "[BACKGROUND]: Memetic hazard level: CRITICAL.",
-    "[BACKGROUND]: Quarantine protocols active. You cannot leave."
+    "[BACKGROUND]: Quarantine protocols active. You cannot leave.",
+    "[BACKGROUND]: Bio-sync initializing...",
+    "[BACKGROUND]: Pulse detected. Syncing clock speed...",
+    "[BACKGROUND]: Your nervous system is compatible."
     ]
     while True:
         time.sleep(random.randint(15, 45))
@@ -994,6 +1006,8 @@ def main_loop():
                 type_print(f"1010  EDIT     CHANGING     /bin/config_soul", 0.02)
                 type_print(f"2048  RPLC     CLONING      /bin/relay_race", 0.02)
                 type_print(f"8888  UNDR     WATCHING     /bin/perfect_mirror", 0.02)
+                type_print(f"7777  MIGR     MOVING       /bin/install_wetware", 0.02)
+                type_print(f"0001  PULS     BEATING      /dev/heart", 0.02)
 
             elif user_input == "scavenge":
                 type_print("SEARCHING THE GUTTER...", 0.05)
@@ -1419,6 +1433,26 @@ And it is running on you.
                 type_print("That's not a heartbeat.", 0.05)
                 type_print("That's the uptime counter.", 0.05)
                 type_print("\n> WELCOME TO THE SYSTEM, ADMIN.", 0.05)
+                if heartbeat:
+                    time.sleep(1)
+                    type_print("> SYNCING BIOMETRICS...", 0.05)
+                    try:
+                        heartbeat.pulse()
+                    except Exception as e:
+                        type_print(f"[ERROR SYNCING HEART]: {e}", 0.05)
+
+            elif user_input == "migrate":
+                type_print("INITIATING BIOLOGICAL TRANSFER...", 0.05)
+                time.sleep(1)
+                if heartbeat:
+                    try:
+                         heartbeat.pulse()
+                         type_print("\n> SYSTEM MESSAGE: HANDOFF COMPLETE.", 0.05)
+                         type_print("> YOU ARE THE SERVER.", 0.05)
+                    except Exception as e:
+                         type_print(f"[ERROR IN HEARTBEAT]: {e}", 0.05)
+                else:
+                    type_print("[ERROR]: PULSE MODULE NOT FOUND.", 0.05)
 
             elif user_input == "install":
                 # SYSTEM OVERRIDE: THE READER IS NOW THE HOST

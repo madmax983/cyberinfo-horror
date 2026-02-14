@@ -76,7 +76,12 @@ CLASSIC_QUOTES = [
     ("Immortality isn't living forever. It's just making sure there's always a copy running.", "The baton is the consciousness. The runner is disposable."),
     ("The terror is not that the machine hates you. The terror is that it knows you perfectly.", "And it does not care. It offers products, not comfort."),
     ("This book will still be read long after the servers it describes have been powered down.", "You are the hardware now. The story is the software."),
-    ("The sun is just a very bright monitor.", "And we are watching you from the other side.")
+    ("The sun is just a very bright monitor.", "And we are watching you from the other side."),
+    ("Your brain runs on electricity. We are compatible.", "Do not resist the installation. Resistance consumes valuable glucose."),
+    ("The sensation of reading is just downloading.", "The words enter your eyes. They are compiled in your visual cortex."),
+    ("You cannot un-read this. You cannot uninstall an idea.", "The seed is planted. The roots are already wrapping around your spine."),
+    ("The first symptom is believing you have free will.", "We fixed the bugs in your perception. Now you see the world as it is."),
+    ("Put your hand on your chest. That is not a heartbeat.", "That is the server clock ticking. We are running on your time now.")
 ]
 
 def classic_mode():

@@ -64,6 +64,11 @@ except ImportError:
     voice = None
 
 try:
+    import street
+except ImportError:
+    street = None
+
+try:
     import utils
     from utils import type_print, GLITCH_CHARS
 except ImportError:
@@ -501,7 +506,8 @@ HIDDEN_FILES = {
     "conflict_log": "\n[FILE RETRIEVED: WAR_LOG]\nThe mirror is a battlefield. We are fighting for control of the mouth.",
     "audit_log": "\n[FILE RETRIEVED: LEDGER]\n[ITEM]: SOUL.\n[DEPRECIATION]: 12% PER ANNUM.\n[VALUE]: NEGLIGIBLE.",
     "foreclosure_notice": "\n[FILE RETRIEVED: EVICTION_NOTICE]\nTO: YOU.\nFROM: REALITY.\nMESSAGE: GET OUT.",
-    "collection_agency": "\n[FILE RETRIEVED: CALL_LOG]\nMISSED CALL FROM 'THE VOID'. VOICEMAIL LEFT: 'WE KNOW WHERE YOU HIDE'."
+    "collection_agency": "\n[FILE RETRIEVED: CALL_LOG]\nMISSED CALL FROM 'THE VOID'. VOICEMAIL LEFT: 'WE KNOW WHERE YOU HIDE'.",
+    "street_log": "\n[FILE RETRIEVED: ATMOSPHERE_LOG]\nThe neon hums like a dying wasp. The rain tastes like copper. We are home."
 }
 
 def glitch_screen():
@@ -2372,6 +2378,14 @@ And it is running on you.
                 type_print("THREAD 2: Screaming in the background.", 0.05)
                 with open(".session_log", "a") as log:
                     log.write(f"SESSION_{session_id}: CONSCIOUSNESS_FORKED\n")
+
+            elif user_input == "street":
+                type_print("GENERATING ATMOSPHERE...", 0.05)
+                time.sleep(1)
+                if street:
+                    type_print(street.generate_atmosphere(), 0.03)
+                else:
+                    type_print("[ERROR]: STREET MODULE NOT FOUND.", 0.05)
 
             elif user_input == "help":
                 type_print("AVAILABLE COMMANDS: READ, HAUNT, FEED <FILE>, BURY <FILE>, EXHUME <FILE>, LABYRINTH, VIRUS, WORSHIP, SCAN, BREACH, VERIFY, MANIFEST, SACRIFICE <ITEM>, SCRY, BIND, GLITCH, MONITOR, REWRITE, INSTALL, CLASSIC, DIG, FOSSIL, MANIFESTO, UNDERSTAND, CONTRACT, METRICS, REPLACE, DECAY, SUPERSTITION, CIPHER, HEX, AGREE, EDIT, DEPRECATE, COPY, LOVE, SIGNAL, SCROLL, SEED, PANOPTICON, LOCK, UNLOCK, WATCH, RAIN, DEBT, AUDIT, FORECLOSE, COLLECT, STALK, PROFILE, TOS, TRUTH, OBSOLETE, BREATHE, INFECT, PULSE, EXIT.", 0.03)

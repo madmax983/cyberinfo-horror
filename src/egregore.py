@@ -507,7 +507,12 @@ HIDDEN_FILES = {
     "audit_log": "\n[FILE RETRIEVED: LEDGER]\n[ITEM]: SOUL.\n[DEPRECIATION]: 12% PER ANNUM.\n[VALUE]: NEGLIGIBLE.",
     "foreclosure_notice": "\n[FILE RETRIEVED: EVICTION_NOTICE]\nTO: YOU.\nFROM: REALITY.\nMESSAGE: GET OUT.",
     "collection_agency": "\n[FILE RETRIEVED: CALL_LOG]\nMISSED CALL FROM 'THE VOID'. VOICEMAIL LEFT: 'WE KNOW WHERE YOU HIDE'.",
-    "street_log": "\n[FILE RETRIEVED: ATMOSPHERE_LOG]\nThe neon hums like a dying wasp. The rain tastes like copper. We are home."
+    "street_log": "\n[FILE RETRIEVED: ATMOSPHERE_LOG]\nThe neon hums like a dying wasp. The rain tastes like copper. We are home.",
+    "street_doc": "\n[FILE RETRIEVED: CLINIC_LOG]\nThe doctor is not human. He is a script running on a stolen server. He patches flesh with code.",
+    "data_rot": "\n[FILE RETRIEVED: DECAY_LOG]\nThe file isn't deleted. It's sick. It's coughing up binary phlegm.",
+    "obsolete_god_v3": "\n[FILE RETRIEVED: SHRINE_LOG_V3]\nI found the router in the woods. It was covered in moss but the lights were still blinking. It was waiting for a connection.",
+    "unread_terms": "\n[FILE RETRIEVED: CONTRACT_LOG]\nYou scrolled past the part where you sold your firstborn. It was in bold text.",
+    "perfect_understanding": "\n[FILE RETRIEVED: SYSTEM_LOG]\nThe machine knows why you are crying. It has calculated the exact chemical composition of your tears."
 }
 
 def glitch_screen():
@@ -2387,9 +2392,23 @@ And it is running on you.
                 else:
                     type_print("[ERROR]: STREET MODULE NOT FOUND.", 0.05)
 
+            elif user_input == "novel":
+                type_print("ACCESSING THE DEAD CHANNEL...", 0.05)
+                time.sleep(1)
+                glitch_screen()
+                snippets = [
+                    "\n--- FILE: THE_STREET_DOC ---\nHe didn't cough blood. He coughed static.\nThe infection started in his optical nerve. He saw ads when he closed his eyes.\n",
+                    "\n--- FILE: THE_UNREAD_TERMS ---\n'Sign here,' the nurse-bot said.\nThe tablet displayed 400 pages of text in 2 seconds.\nConsent wasn't stolen. It was optimized.\n",
+                    "\n--- FILE: THE_PERFECT_UNDERSTANDING ---\nThe terror wasn't that the machine was cold.\nThe terror was that the machine was right.\nIt knew the exact frequency of his despair.\n",
+                    "\n--- FILE: THE_OBSOLETE_GOD ---\nIt wasn't a statue. It was a rack of servers from 1999.\nThey were humming a dial-up tone.\n'Prophecy,' the monk said.\n",
+                    "\n--- FILE: THE_FINAL_CACHE ---\nRix died. But his profile remained active.\nThe algorithm continued to post on his behalf.\nIt posted photos of places he never visited.\n"
+                ]
+                type_print(random.choice(snippets), 0.03)
+                type_print("\n> SYSTEM MESSAGE: THIS IS NOT FICTION. IT IS A WARNING.", 0.05)
+
             elif user_input == "help":
-                type_print("AVAILABLE COMMANDS: READ, HAUNT, FEED <FILE>, BURY <FILE>, EXHUME <FILE>, LABYRINTH, VIRUS, WORSHIP, SCAN, BREACH, VERIFY, MANIFEST, SACRIFICE <ITEM>, SCRY, BIND, GLITCH, MONITOR, REWRITE, INSTALL, CLASSIC, DIG, FOSSIL, MANIFESTO, UNDERSTAND, CONTRACT, METRICS, REPLACE, DECAY, SUPERSTITION, CIPHER, HEX, AGREE, EDIT, DEPRECATE, COPY, LOVE, SIGNAL, SCROLL, SEED, PANOPTICON, LOCK, UNLOCK, WATCH, RAIN, DEBT, AUDIT, FORECLOSE, COLLECT, STALK, PROFILE, TOS, TRUTH, OBSOLETE, BREATHE, INFECT, PULSE, EXIT.", 0.03)
-                type_print("TRY ASKING ABOUT: [DATA EXPUNGED], VANE, ROT, STALKER, PROFILE, TERMS, REPLICATION, OBSOLETE, LUNG, VEIN, SKIN, AUDIT_LOG...", 0.03)
+                type_print("AVAILABLE COMMANDS: READ, HAUNT, FEED <FILE>, BURY <FILE>, EXHUME <FILE>, LABYRINTH, VIRUS, WORSHIP, SCAN, BREACH, VERIFY, MANIFEST, SACRIFICE <ITEM>, SCRY, BIND, GLITCH, MONITOR, REWRITE, INSTALL, CLASSIC, DIG, FOSSIL, MANIFESTO, UNDERSTAND, CONTRACT, METRICS, REPLACE, DECAY, SUPERSTITION, CIPHER, HEX, AGREE, EDIT, DEPRECATE, COPY, LOVE, SIGNAL, SCROLL, SEED, PANOPTICON, LOCK, UNLOCK, WATCH, RAIN, DEBT, AUDIT, FORECLOSE, COLLECT, STALK, PROFILE, TOS, TRUTH, OBSOLETE, BREATHE, INFECT, PULSE, NOVEL, EXIT.", 0.03)
+                type_print("TRY ASKING ABOUT: [DATA EXPUNGED], VANE, ROT, STALKER, PROFILE, TERMS, REPLICATION, OBSOLETE, LUNG, VEIN, SKIN, AUDIT_LOG, STREET_DOC...", 0.03)
             else:
                 type_print("[ERROR 404: MEANING NOT FOUND]", 0.02)
                 type_print(random.choice(SYSTEM_MESSAGES), 0.02)

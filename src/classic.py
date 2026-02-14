@@ -90,7 +90,11 @@ CLASSIC_QUOTES = [
     ("You are not a citizen. You are collateral.", "We borrowed against your future to pay for the server maintenance."),
     ("Silence is a luxury good.", "The poor must listen to the ads."),
     ("Your soul is depreciating.", "We recommend liquidating your childhood memories to stay solvent."),
-    ("The audit is mandatory.", "We are checking your emotional tax returns.")
+    ("The audit is mandatory.", "We are checking your emotional tax returns."),
+    ("The rain is radioactive with information.", "Do not open your mouth. You might swallow a forbidden idea."),
+    ("Your debt has gained consciousness.", "It is aware of you. It follows you home. It wants to be paid."),
+    ("We found what you buried.", "The soil is transparent to us. Digging a hole just creates a landmark."),
+    ("The old gods are mining crypto.", "They need the processing power to render their miracles.")
 ]
 
 def classic_mode():

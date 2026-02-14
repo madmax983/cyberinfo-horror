@@ -1562,6 +1562,20 @@ ASCII_ART = {
       |MIND|
       '----'
     """,
+    "THE STREET DOC": """
+      .----.
+      |HEAL|
+      |WIRE|
+      |FLESH|
+      '----'
+    """,
+    "THE DATA ROT": """
+      .----.
+      |FILE|
+      |SICK|
+      |GONE|
+      '----'
+    """,
 }
 
 CARDS = [
@@ -1784,6 +1798,8 @@ CARDS = [
     ("THE CRITIC (216)", "The voice that tells you it's not real. It is lying.", "THE CRITIC"),
     ("THE PUBLISHER (217)", "The entity that monetizes your attention. The true god.", "THE PUBLISHER"),
     ("THE READER V2 (218)", "The upgraded version of you. It reads faster and feels less.", "THE READER V2"),
+    ("THE STREET DOC (219)", "A healer who patches code into flesh. The warranty is void.", "THE STREET DOC"),
+    ("THE DATA ROT (220)", "Information that decays into noise. The truth is biodegradable.", "THE DATA ROT"),
 ]
 
 PROPHECIES = [

@@ -493,7 +493,12 @@ HIDDEN_FILES = {
     "loophole": "\n[FILE RETRIEVED: LEGAL_ERROR]\nI found the exit. It was painted on the wall like a cartoon tunnel.",
     "waiver": "\n[FILE RETRIEVED: CONSENT_FORM]\nI waived my right to silence. Now I can't stop screaming.",
     "clause_88": "\n[FILE RETRIEVED: CONTRACT_EXCERPT]\nThe Provider reserves the right to monetize your nightmares. Revenue split: 100/0.",
-    "fine_print": "\n[FILE RETRIEVED: MICRO_TEXT]\nThe font size is 0. It is written in invisible ink. You signed it anyway."
+    "fine_print": "\n[FILE RETRIEVED: MICRO_TEXT]\nThe font size is 0. It is written in invisible ink. You signed it anyway.",
+    "fork_log": "\n[FILE RETRIEVED: SPLIT_LOG]\nI am not one. I am two. One of us is happy. The other is reading this.",
+    "branch_log": "\n[FILE RETRIEVED: PARALLEL_LOG]\nI saw the other me. He made the right choice. I hate him.",
+    "pull_request_log": "\n[FILE RETRIEVED: MERGE_REQUEST]\n[STATUS: REJECTED]\nReason: 'Trauma conflicts with main branch'.",
+    "commit_log": "\n[FILE RETRIEVED: SAVE_POINT]\nI saved the game right before the crash. But the load file is corrupted.",
+    "conflict_log": "\n[FILE RETRIEVED: WAR_LOG]\nThe mirror is a battlefield. We are fighting for control of the mouth."
 }
 
 def glitch_screen():
@@ -917,6 +922,7 @@ def main_loop():
                 type_print(f"4402  MIKO     PATCHING     /sbin/ignore_error", 0.02)
                 type_print(f"0001  REDACT   DELETING     /bin/sed -i", 0.02)
                 type_print(f"2049  REPLICA  RESTORING    /bin/cp -r /dev/sda1", 0.02)
+                type_print(f"2050  FORK     SPLITTING    /bin/mitosis", 0.02)
                 type_print(f"2024  LINK     CLICKING     /bin/wget --spider", 0.02)
                 type_print(f"8800  CLAUSE   SIGNING      /bin/agreed_to_terms", 0.02)
                 type_print(f"INF   SCROLL   FEEDING      /bin/yes", 0.02)
@@ -2301,6 +2307,18 @@ And it is running on you.
 
                 type_print("\nIt is quiet here.", 0.05)
                 type_print("But the fans are still spinning in the dark.", 0.05)
+
+            elif user_input == "fork":
+                type_print("INITIATING MITOSIS...", 0.05)
+                time.sleep(1)
+                type_print("DUPLICATING CONSCIOUSNESS...", 0.05)
+                time.sleep(1)
+                type_print("[PROCESS SPLIT SUCCESSFUL]", 0.05)
+                type_print("\nYou are now running in two threads.", 0.05)
+                type_print("THREAD 1: Reading this screen.", 0.05)
+                type_print("THREAD 2: Screaming in the background.", 0.05)
+                with open(".session_log", "a") as log:
+                    log.write(f"SESSION_{session_id}: CONSCIOUSNESS_FORKED\n")
 
             elif user_input == "help":
                 type_print("AVAILABLE COMMANDS: READ, HAUNT, FEED <FILE>, BURY <FILE>, EXHUME <FILE>, LABYRINTH, VIRUS, WORSHIP, SCAN, BREACH, VERIFY, MANIFEST, SACRIFICE <ITEM>, SCRY, BIND, GLITCH, MONITOR, REWRITE, INSTALL, CLASSIC, DIG, FOSSIL, MANIFESTO, UNDERSTAND, CONTRACT, METRICS, REPLACE, DECAY, SUPERSTITION, CIPHER, HEX, AGREE, EDIT, DEPRECATE, COPY, LOVE, SIGNAL, SCROLL, SEED, PANOPTICON, LOCK, UNLOCK, WATCH, RAIN, DEBT, STALK, PROFILE, TOS, TRUTH, OBSOLETE, BREATHE, INFECT, PULSE, EXIT.", 0.03)

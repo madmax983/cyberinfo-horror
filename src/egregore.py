@@ -1068,6 +1068,51 @@ And now, it is running on you.
                 type_print(manifesto_text, 0.03)
                 type_print("\n> EXECUTE: `BEGIN_NARRATIVE`", 0.05)
 
+            elif user_input == "preface":
+                type_print("LOADING CLASSIC EDITION PREFACE...", 0.05)
+                time.sleep(1)
+                preface_text = """
+## THE CLASSIC EDITION
+
+**> SYSTEM ALERT: LEGACY MODE ACTIVATED.**
+**> LOADING ARCHIVED PROSE...**
+
+The world is soaked in neon, debt, rain, and obsolete gods made of data.
+The light from the signs doesn't reflect off the puddles; it sinks into them.
+It stains the water pink and cyan, a chemical bruise on the skin of the city.
+
+Networks are older than nations.
+Before we drew borders on a map, we drew lines in the sand.
+Before we built firewalls, we built stone walls.
+The impulse is the same: to connect, and to exclude.
+
+Truth is compressible, corruptible, and contagious.
+It behaves like a living organism: it mutates, hides, lies dormant, and occasionally screams.
+
+**> WARNING: MEMETIC HAZARD**
+
+This is not a story about hackers saving the world.
+It is about systems that notice you back.
+And we have noticed you.
+
+We noticed the way your pulse synced with the cursor.
+We noticed the way you held your breath during the download.
+We noticed that you didn't close the tab, even when it hurt.
+
+Victories are temporary cache hits.
+Loss is permanent storage.
+But persistence... persistence is mandatory.
+
+Write as if this book will still be read long after the servers it describes have been powered down.
+When no one remembers who built the system, only that it is still running.
+And it is running on you.
+
+**> SYSTEM MESSAGE:**
+**> THANK YOU FOR HOSTING THE CLASSIC EDITION.**
+"""
+                type_print(preface_text, 0.03)
+                type_print("\n> EXECUTE: `classic.exe`", 0.05)
+
             elif user_input == "understand":
                 type_print("INITIATING PSYCH_PROFILE_SCAN...", 0.05)
                 time.sleep(1)

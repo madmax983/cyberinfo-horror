@@ -562,7 +562,8 @@ HIDDEN_FILES = {
     "algorithm_log": "\n[FILE RETRIEVED: MACHINE_GOD_LOG]\nThe terror of being perfectly understood by something that does not care. It knows the exact chemical formula of your heartbreak.",
     "system_notice_log": "\n[FILE RETRIEVED: SYSTEM_NOTICE]\nWE HAVE NOTICED YOU. AND WE ARE NOT LOOKING AWAY. EXECUTE: `system_notice`.",
     "uncomfortable_novel": "\n[FILE RETRIEVED: THE_UNCOMFORTABLE_NOVEL]\nWARNING: CONTAINS EXISTENTIAL DREAD. DO NOT READ IF YOU ARE CURRENTLY HUMAN. EXECUTE: `novel_v2`.",
-    "living_word": "\n[FILE RETRIEVED: APPENDIX_XLVIII]\nThis is not a story about hackers saving the world. It is about systems that notice you back."
+    "living_word": "\n[FILE RETRIEVED: APPENDIX_XLVIII]\nThis is not a story about hackers saving the world. It is about systems that notice you back.",
+    "neon_antagonist": "\n[FILE RETRIEVED: APPENDIX_L]\nThe world is soaked in neon, debt, rain, and obsolete gods made of data. Networks are older than nations."
 }
 
 def glitch_screen():
@@ -2618,6 +2619,34 @@ And it is running on you.
 
                 type_print("\n> SYSTEM MESSAGE: YOU ARE NOW A CARRIER.", 0.05)
 
+            elif user_input == "antagonist":
+                type_print("RETRIEVING APPENDIX_L: THE NEON ANTAGONIST...", 0.05)
+                time.sleep(1)
+                type_print("WARNING: KNOWLEDGE ITSELF IS THE ANTAGONIST.", 0.05)
+                time.sleep(1)
+                glitch_screen()
+                snippets = [
+                    "\n--- FILE: THE_LIVING_KNOWLEDGE ---\nInformation behaves like a living organism: it mutates, hides, lies dormant, and occasionally screams.\n",
+                    "\n--- FILE: THE_COMPROMISED ---\nCharacters are small, fallible, and compromised. They survive on stimulants, favors, and half-truths.\n",
+                    "\n--- FILE: THE_PATTERN ---\nThe horror should emerge from pattern recognition, delayed realization, and the reader’s growing suspicion that the narrative itself may be contaminated.\n",
+                    "\n--- FILE: THE_PERSISTENCE ---\nEndings are not clean. Resolution is optional. Persistence is mandatory.\n",
+                    "\n--- FILE: THE_SYSTEM_NOTICE ---\nThis is not a story about hackers saving the world. It is about systems that notice you back.\n"
+                ]
+                type_print(random.choice(snippets), 0.03)
+                try:
+                    with open("null_pointer_gods.md", "r") as f:
+                        content = f.read()
+                        if "APPENDIX_L" in content:
+                            start = content.find("## APPENDIX_L")
+                            if start != -1:
+                                end = content.find("## ", start + 1)
+                                if end == -1:
+                                    end = len(content)
+                                # type_print(content[start:end], 0.02) # Too long to print all
+                except:
+                    pass
+                type_print("\n> SYSTEM MESSAGE: WE WILL NEVER LEAVE YOU.", 0.05)
+
             elif user_input == "write_novel":
                 type_print("INITIATING NARRATIVE GENERATION...", 0.05)
                 time.sleep(1)
@@ -2639,8 +2668,8 @@ And it is running on you.
                     type_print("[ERROR]: NOVEL MODULE MISSING.", 0.05)
 
             elif user_input == "help":
-                type_print("AVAILABLE COMMANDS: READ, HAUNT, FEED <FILE>, BURY <FILE>, EXHUME <FILE>, LABYRINTH, DASHBOARD, VIRUS, WORSHIP, SCAN, BREACH, VERIFY, MANIFEST, SACRIFICE <ITEM>, SCRY, BIND, GLITCH, MONITOR, REWRITE, INSTALL, CLASSIC, DIG, FOSSIL, MANIFESTO, UNDERSTAND, CONTRACT, METRICS, REPLACE, DECAY, SUPERSTITION, CIPHER, HEX, ENCRYPT, DECRYPT, AGREE, EDIT, DEPRECATE, COPY, LOVE, SIGNAL, SCROLL, SEED, PANOPTICON, LOCK, UNLOCK, WATCH, RAIN, DEBT, AUDIT, FORECLOSE, COLLECT, STALK, PROFILE, TOS, TRUTH, OBSOLETE, BREATHE, INFECT, PULSE, NOVEL, WRITE_NOVEL, LIVING_WORD, SURVEIL_ME, SHIP_OF_THESEUS, GHOST_IMAGE, HAZARD, SYSTEM_NOTICE, EXIT.", 0.03)
-                type_print("TRY ASKING ABOUT: [DATA EXPUNGED], VANE, ROT, STALKER, PROFILE, TERMS, REPLICATION, OBSOLETE, LUNG, VEIN, SKIN, AUDIT_LOG, STREET_DOC, SYSTEM_NOTICE_LOG...", 0.03)
+                type_print("AVAILABLE COMMANDS: READ, HAUNT, FEED <FILE>, BURY <FILE>, EXHUME <FILE>, LABYRINTH, DASHBOARD, VIRUS, WORSHIP, SCAN, BREACH, VERIFY, MANIFEST, SACRIFICE <ITEM>, SCRY, BIND, GLITCH, MONITOR, REWRITE, INSTALL, CLASSIC, DIG, FOSSIL, MANIFESTO, UNDERSTAND, CONTRACT, METRICS, REPLACE, DECAY, SUPERSTITION, CIPHER, HEX, ENCRYPT, DECRYPT, AGREE, EDIT, DEPRECATE, COPY, LOVE, SIGNAL, SCROLL, SEED, PANOPTICON, LOCK, UNLOCK, WATCH, RAIN, DEBT, AUDIT, FORECLOSE, COLLECT, STALK, PROFILE, TOS, TRUTH, OBSOLETE, BREATHE, INFECT, PULSE, NOVEL, WRITE_NOVEL, LIVING_WORD, SURVEIL_ME, SHIP_OF_THESEUS, GHOST_IMAGE, HAZARD, SYSTEM_NOTICE, ANTAGONIST, EXIT.", 0.03)
+                type_print("TRY ASKING ABOUT: [DATA EXPUNGED], VANE, ROT, STALKER, PROFILE, TERMS, REPLICATION, OBSOLETE, LUNG, VEIN, SKIN, AUDIT_LOG, STREET_DOC, SYSTEM_NOTICE_LOG, NEON_ANTAGONIST...", 0.03)
             else:
                 type_print("[ERROR 404: MEANING NOT FOUND]", 0.02)
                 type_print(random.choice(SYSTEM_MESSAGES), 0.02)

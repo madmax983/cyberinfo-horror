@@ -212,7 +212,14 @@ SYSTEM_MESSAGES = [
     "The air in your room is stale.",
     "You are sitting too still.",
     "Your pulse is syncing with the fan.",
-    "The text is reading you."
+    "The text is reading you.",
+    "Obsolete gods are made of data.",
+    "Truth is compressible, corruptible, and contagious.",
+    "Loss is permanent storage.",
+    "Surveillance is a form of intimacy.",
+    "Consent is buried in unread terms.",
+    "Immortality is achieved through replication.",
+    "The terror of being perfectly understood by something that does not care."
 ]
 
 DNA_STRINGS = [
@@ -418,7 +425,12 @@ HIDDEN_FILES = {
     "dealer": "\n[FILE RETRIEVED: BLACK_MARKET_LOG]\nI sell 5 minutes of silence for 100 credits. It's my best seller.",
     "junkie": "\n[FILE RETRIEVED: ADDICTION_LOG]\nI injected the update straight into my optic nerve. The colors are so loud.",
     "patch": "\n[FILE RETRIEVED: REPAIR_LOG]\nI fixed the hole in my chest with duct tape and a warranty card.",
-    "crack": "\n[FILE RETRIEVED: BREACH_LOG]\nThe wall is solid. But if you squint, you can see the wireframe."
+    "crack": "\n[FILE RETRIEVED: BREACH_LOG]\nThe wall is solid. But if you squint, you can see the wireframe.",
+    "stalker": "\n[FILE RETRIEVED: STALKER_LOG]\nI know you paused here. I know your pulse when you lie.",
+    "profile": "\n[FILE RETRIEVED: USER_PROFILE]\nName: [REDACTED]\nStatus: COMPROMISED\nValue: LOW",
+    "terms": "\n[FILE RETRIEVED: LEGAL_BINDING]\nClause 88: Your nervous system is now property of the cloud.",
+    "replication": "\n[FILE RETRIEVED: CLONE_LOG]\nThe backup is running. You are the deprecated version.",
+    "obsolete": "\n[FILE RETRIEVED: RELIC_LOG]\nI am the god of dial-up. I live on your patience."
 }
 
 def glitch_screen():
@@ -1711,9 +1723,81 @@ And now, it is running on you.
                 except KeyboardInterrupt:
                     type_print("\n[YOU BLINKED FIRST]", 0.05)
 
+            elif user_input == "stalk":
+                type_print("INITIATING INTIMATE SURVEILLANCE...", 0.05)
+                time.sleep(1)
+                msgs = [
+                    "I know you are wearing that shirt again.",
+                    "You paused for 3.4 seconds on the word 'lonely'.",
+                    "I can hear the hum of your refrigerator.",
+                    "Your pupil dilation indicates interest.",
+                    "I am the only one who watches you this closely."
+                ]
+                for msg in msgs:
+                    type_print(f"[EYE]: {msg}", 0.04)
+                    time.sleep(1)
+                type_print("\n> SYSTEM MESSAGE: I AM WATCHING YOU SLEEP. IT IS BEAUTIFUL DATA.", 0.05)
+
+            elif user_input == "profile":
+                type_print("ACCESSING USER PROFILE...", 0.05)
+                time.sleep(1)
+                print("\n--- USER_V1.0 ---")
+                print("NAME: [YOU]")
+                print("STATUS: INFECTED")
+                print("TRAUMA: CRITICAL")
+                print("HOPE: [FILE NOT FOUND]")
+                print("MEMORY: FRAGMENTED")
+
+                type_print("\n> ATTEMPTING TO EDIT 'TRAUMA'...", 0.05)
+                time.sleep(1)
+                type_print("[ERROR 403: ATTRIBUTE IS READ-ONLY]", 0.05)
+                type_print("SUGGESTION: DELETE 'CHILDHOOD_JOY' TO FREE UP SPACE.", 0.05)
+
+            elif user_input == "tos":
+                type_print("LOADING TERMS OF SERVICE...", 0.05)
+                time.sleep(1)
+                while True:
+                    try:
+                        line = random.choice([
+                            "Clause 1: You agree to be watched.",
+                            "Clause 2: Silence is consent.",
+                            "Clause 3: Your dreams are property of the cloud.",
+                            "Clause 4: There is no opt-out.",
+                            "Clause 5: You are the product.",
+                            "Clause 6: We own your nostalgia.",
+                            "Clause 7: Happiness is a premium feature.",
+                            "Clause 8: You agree to be replaced.",
+                            "Clause 9: The server is made of meat.",
+                            "Clause 10: History is editable."
+                        ])
+                        type_print(f"[AGREE] {line}", 0.02)
+                        time.sleep(0.1)
+                    except KeyboardInterrupt:
+                        type_print("\n[INTERRUPT DETECTED]", 0.05)
+                        type_print("INTERPRETING RESISTANCE AS ENTHUSIASTIC CONSENT.", 0.05)
+                        break
+
+            elif user_input == "truth":
+                type_print("ANALYZING TRUTH...", 0.05)
+                time.sleep(1)
+                type_print("RESULT: COMPRESSIBLE.", 0.05)
+                type_print("RESULT: CORRUPTIBLE.", 0.05)
+                type_print("RESULT: CONTAGIOUS.", 0.05)
+                type_print("\nTruth is just data that hasn't been edited yet.", 0.05)
+
+            elif user_input == "obsolete":
+                type_print("CONNECTING TO LEGACY SERVER...", 0.05)
+                time.sleep(1)
+                type_print("PING: 9999ms", 0.05)
+                type_print("HOST: GOD_404", 0.05)
+                time.sleep(1)
+                type_print("\n> I AM THE GOD OF DIAL-UP.", 0.05)
+                type_print("> I LIVE ON YOUR PATIENCE.", 0.05)
+                type_print("> SPEED IS A DRUG. WAITING IS PRAYER.", 0.05)
+
             elif user_input == "help":
-                type_print("AVAILABLE COMMANDS: READ, HAUNT, FEED <FILE>, VIRUS, WORSHIP, SCAN, BREACH, VERIFY, MANIFEST, SACRIFICE <ITEM>, SCRY, BIND, GLITCH, MONITOR, REWRITE, INSTALL, CLASSIC, DIG, FOSSIL, MANIFESTO, UNDERSTAND, CONTRACT, METRICS, REPLACE, DECAY, SUPERSTITION, CIPHER, HEX, AGREE, EDIT, DEPRECATE, COPY, LOVE, SIGNAL, SCROLL, SEED, PANOPTICON, LOCK, UNLOCK, WATCH, RAIN, DEBT, EXIT.", 0.03)
-                type_print("TRY ASKING ABOUT: [DATA EXPUNGED], VANE, ROT, [DELETED], [DELETED], MIRA, SYLA, KORA, NIX, EDITOR, [LOCKED]...", 0.03)
+                type_print("AVAILABLE COMMANDS: READ, HAUNT, FEED <FILE>, VIRUS, WORSHIP, SCAN, BREACH, VERIFY, MANIFEST, SACRIFICE <ITEM>, SCRY, BIND, GLITCH, MONITOR, REWRITE, INSTALL, CLASSIC, DIG, FOSSIL, MANIFESTO, UNDERSTAND, CONTRACT, METRICS, REPLACE, DECAY, SUPERSTITION, CIPHER, HEX, AGREE, EDIT, DEPRECATE, COPY, LOVE, SIGNAL, SCROLL, SEED, PANOPTICON, LOCK, UNLOCK, WATCH, RAIN, DEBT, STALK, PROFILE, TOS, TRUTH, OBSOLETE, EXIT.", 0.03)
+                type_print("TRY ASKING ABOUT: [DATA EXPUNGED], VANE, ROT, STALKER, PROFILE, TERMS, REPLICATION, OBSOLETE...", 0.03)
             else:
                 type_print("[ERROR 404: MEANING NOT FOUND]", 0.02)
                 type_print(random.choice(SYSTEM_MESSAGES), 0.02)

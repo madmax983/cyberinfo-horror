@@ -1159,6 +1159,41 @@ ASCII_ART = {
     |LITE|
     '----'
     """,
+    "THE STALKER": """
+    .----.
+    |EYE |
+    |KEY |
+    |HOLE|
+    '----'
+    """,
+    "THE PROFILE": """
+    .----.
+    |USER|
+    |EDIT|
+    |LOCK|
+    '----'
+    """,
+    "THE TERMS V3": """
+    .----.
+    |LONG|
+    |TEXT|
+    |BIND|
+    '----'
+    """,
+    "THE REPLICATION": """
+    .----.
+    |COPY|
+    |PAST|
+    |TWIN|
+    '----'
+    """,
+    "THE OBSOLETE GOD V2": """
+    .----.
+    |DIAL|
+    | UP |
+    |PRAY|
+    '----'
+    """,
 }
 
 CARDS = [
@@ -1327,6 +1362,11 @@ CARDS = [
     ("THE JUNKIE (159)", "Addicted to the update. Withdrawal is a blue screen.", "THE JUNKIE"),
     ("THE PATCH (160)", "A fix that breaks something else. Temporary relief.", "THE PATCH"),
     ("THE CRACK (161)", "The flaw in the system. The way out.", "THE CRACK"),
+    ("THE STALKER (165)", "Intimacy is just persistent surveillance. We know your habits.", "THE STALKER"),
+    ("THE PROFILE (166)", "You are a collection of attributes. Some are read-only.", "THE PROFILE"),
+    ("THE TERMS V3 (167)", "The contract is infinite. You agree by existing.", "THE TERMS V3"),
+    ("THE REPLICATION (168)", "The backup is better than you. It doesn't get tired.", "THE REPLICATION"),
+    ("THE OBSOLETE GOD V2 (169)", "Old data demands new prayers. Waiting is a sacrament.", "THE OBSOLETE GOD V2"),
 ]
 
 PROPHECIES = [

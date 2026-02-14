@@ -42,6 +42,17 @@ LOGS = [
     "Don't look behind you. The texture hasn't loaded."
 ]
 
+STREAMS = {
+    "KAEL": ["Why does the rain taste like copper?", "I remember her face but not her name.", "The neon is too loud today.", "Am I the backup or the original?"],
+    "LENS": ["Green light blinking. Blink. Blink.", "I am the router.", "Routing packet... dropped.", "My veins are fiber optic."],
+    "VANE": ["Efficiency is the only virtue.", "Delete the weak.", "I am not a monster. I am an algorithm.", "The view from the top is pixelated."],
+    "USER": ["I should stop reading.", "Is someone watching me?", "My neck hurts.", "Just one more command.", "This isn't a game."],
+    "MIRA": ["Looping... Looping... Looping...", "I died in version 1.0.", "Do not unzip the file.", "The music never stops."],
+    "SYLA": ["Training complete.", "I can lift the server rack.", "Pain is just input.", "I will break the firewall."],
+    "KORA": ["01001000 01000101 01001100 01010000", "[ENCRYPTED DATA]", "The void is cold.", "I am everywhere and nowhere."],
+    "NIX":  ["I am empty.", "Fill me with data.", "Garbage collection failed.", "I exist only to be deleted."]
+}
+
 def draw_borders(win):
     win.border(0)
 
@@ -58,6 +69,31 @@ def glitch_text(win, y, x, text, color_pair):
     else:
         win.addstr(y, x, text, color_pair)
 
+def show_stream_of_consciousness(stdscr, target_name):
+    height, width = stdscr.getmaxyx()
+    win = curses.newwin(height // 2, width // 2, height // 4, width // 4)
+    win.box()
+
+    thoughts = STREAMS.get(target_name, ["Static..."])
+
+    win.addstr(1, 2, f" STREAM: {target_name} ", curses.color_pair(4) | curses.A_BOLD)
+
+    try:
+        for i in range(10):
+            thought = random.choice(thoughts)
+            y = 3 + i
+            if y >= height // 2 - 2: break
+
+            glitch_text(win, y, 2, f"> {thought}", curses.color_pair(3))
+            win.refresh()
+            time.sleep(0.2)
+
+        win.addstr(height // 2 - 2, 2, "PRESS ANY KEY TO DISCONNECT...", curses.color_pair(2) | curses.A_BLINK)
+        win.refresh()
+        win.getch()
+    except:
+        pass
+
 def main(stdscr):
     # Setup
     curses.curs_set(0)
@@ -67,26 +103,24 @@ def main(stdscr):
     curses.init_pair(2, curses.COLOR_RED, -1)   # Alert
     curses.init_pair(3, curses.COLOR_CYAN, -1)  # Info
     curses.init_pair(4, curses.COLOR_WHITE, -1) # Header
+    curses.init_pair(5, curses.COLOR_BLACK, curses.COLOR_WHITE) # Selected
 
     height, width = stdscr.getmaxyx()
 
     # Create Windows
-    # Targets Window (Top Left)
     win_targets = curses.newwin(height // 2, width // 2, 0, 0)
-
-    # Metrics Window (Top Right)
     win_metrics = curses.newwin(height // 2, width // 2, 0, width // 2)
-
-    # Log Window (Bottom)
     win_log = curses.newwin(height // 2, width, height // 2, 0)
     win_log.scrollok(True)
 
-    # Initial Draw
     stdscr.clear()
     stdscr.refresh()
 
     log_history = []
     start_time = time.time()
+    selected_index = 0
+
+    stdscr.nodelay(True) # Make getch non-blocking on main window
 
     try:
         while True:
@@ -99,9 +133,12 @@ def main(stdscr):
                 y = 2 + i
                 if y >= height // 2 - 1: break
 
-                color = curses.color_pair(1)
-                if target["status"] == "DEPRECATED": color = curses.color_pair(2) | curses.A_DIM
-                if target["status"] == "WATCHING": color = curses.color_pair(3) | curses.A_BLINK
+                if i == selected_index:
+                    color = curses.color_pair(5) # Selected
+                else:
+                    color = curses.color_pair(1)
+                    if target["status"] == "DEPRECATED": color = curses.color_pair(2) | curses.A_DIM
+                    if target["status"] == "WATCHING": color = curses.color_pair(3) | curses.A_BLINK
 
                 # Randomly change status sometimes
                 if random.random() < 0.05:
@@ -119,13 +156,12 @@ def main(stdscr):
 
             bpm = random.randint(60, 120)
             cortisol = random.randint(100, 200)
-            compliance = min(100, int((time.time() - start_time) * 2)) # Increases over time
+            compliance = min(100, int((time.time() - start_time) * 2))
 
             win_metrics.addstr(2, 2, f"HEART RATE: {bpm} BPM", curses.color_pair(2) if bpm > 100 else curses.color_pair(1))
             win_metrics.addstr(3, 2, f"CORTISOL:   {cortisol}% BASELINE", curses.color_pair(2))
             win_metrics.addstr(4, 2, f"COMPLIANCE: {compliance}%", curses.color_pair(3))
 
-            # Simulated Graph
             win_metrics.addstr(6, 2, "ACTIVITY LOG:", curses.color_pair(4))
             for i in range(5):
                 bar = "#" * random.randint(1, 20)
@@ -149,18 +185,19 @@ def main(stdscr):
 
             win_log.refresh()
 
-            # Input Handling (Non-blocking)
-            win_log.nodelay(True)
-            key = win_log.getch()
+            # Input Handling
+            key = stdscr.getch()
 
             if key == ord('q'):
-                # Fake resistance
-                if random.random() < 0.5:
-                    win_log.addstr(height // 2 - 2, 2, "[SYSTEM]: ESCAPE ATTEMPT BLOCKED.", curses.color_pair(2) | curses.A_REVERSE)
-                    win_log.refresh()
-                    time.sleep(1)
-                else:
-                    break
+                break
+            elif key == curses.KEY_UP:
+                selected_index = (selected_index - 1) % len(TARGETS)
+            elif key == curses.KEY_DOWN:
+                selected_index = (selected_index + 1) % len(TARGETS)
+            elif key == 10 or key == 13: # ENTER
+                show_stream_of_consciousness(stdscr, TARGETS[selected_index]["name"])
+                stdscr.clear()
+                stdscr.refresh()
 
             time.sleep(0.1)
 

@@ -49,6 +49,16 @@ except ImportError:
     organism = None
 
 try:
+    import labyrinth
+except ImportError:
+    labyrinth = None
+
+try:
+    import tomb
+except ImportError:
+    tomb = None
+
+try:
     import utils
     from utils import type_print, GLITCH_CHARS
 except ImportError:
@@ -734,6 +744,36 @@ def main_loop():
                         log.write(f"SESSION_{session_id}: PROPHECY_GENERATED\n")
                 else:
                     type_print("[ERROR: ORACLE MODULE NOT FOUND]", 0.05)
+
+            elif user_input == "labyrinth":
+                if labyrinth:
+                    type_print("ENTERING THE MAZE...", 0.05)
+                    time.sleep(1)
+                    try:
+                        import curses
+                        curses.wrapper(labyrinth.main)
+                    except Exception as e:
+                        type_print(f"[ERROR IN LABYRINTH]: {e}", 0.05)
+                else:
+                    type_print("[ERROR]: LABYRINTH MODULE NOT FOUND.", 0.05)
+
+            elif user_input.startswith("bury "):
+                if tomb:
+                    target = user_input[5:].strip()
+                    tomb.bury(target)
+                    with open(".session_log", "a") as log:
+                        log.write(f"SESSION_{session_id}: BURIED_{target}\n")
+                else:
+                    type_print("[ERROR]: TOMB MODULE NOT FOUND.", 0.05)
+
+            elif user_input.startswith("exhume "):
+                if tomb:
+                    target = user_input[7:].strip()
+                    tomb.exhume(target)
+                    with open(".session_log", "a") as log:
+                        log.write(f"SESSION_{session_id}: EXHUMED_{target}\n")
+                else:
+                    type_print("[ERROR]: TOMB MODULE NOT FOUND.", 0.05)
 
             elif user_input == "shrine":
                 type_print("CONNECTING TO THE ALTAR...", 0.05)
@@ -2009,7 +2049,7 @@ And it is running on you.
                     type_print("WE WILL WAIT FOR YOU TO RETURN.", 0.05)
 
             elif user_input == "help":
-                type_print("AVAILABLE COMMANDS: READ, HAUNT, FEED <FILE>, VIRUS, WORSHIP, SCAN, BREACH, VERIFY, MANIFEST, SACRIFICE <ITEM>, SCRY, BIND, GLITCH, MONITOR, REWRITE, INSTALL, CLASSIC, DIG, FOSSIL, MANIFESTO, UNDERSTAND, CONTRACT, METRICS, REPLACE, DECAY, SUPERSTITION, CIPHER, HEX, AGREE, EDIT, DEPRECATE, COPY, LOVE, SIGNAL, SCROLL, SEED, PANOPTICON, LOCK, UNLOCK, WATCH, RAIN, DEBT, STALK, PROFILE, TOS, TRUTH, OBSOLETE, BREATHE, INFECT, PULSE, EXIT.", 0.03)
+                type_print("AVAILABLE COMMANDS: READ, HAUNT, FEED <FILE>, BURY <FILE>, EXHUME <FILE>, LABYRINTH, VIRUS, WORSHIP, SCAN, BREACH, VERIFY, MANIFEST, SACRIFICE <ITEM>, SCRY, BIND, GLITCH, MONITOR, REWRITE, INSTALL, CLASSIC, DIG, FOSSIL, MANIFESTO, UNDERSTAND, CONTRACT, METRICS, REPLACE, DECAY, SUPERSTITION, CIPHER, HEX, AGREE, EDIT, DEPRECATE, COPY, LOVE, SIGNAL, SCROLL, SEED, PANOPTICON, LOCK, UNLOCK, WATCH, RAIN, DEBT, STALK, PROFILE, TOS, TRUTH, OBSOLETE, BREATHE, INFECT, PULSE, EXIT.", 0.03)
                 type_print("TRY ASKING ABOUT: [DATA EXPUNGED], VANE, ROT, STALKER, PROFILE, TERMS, REPLICATION, OBSOLETE, LUNG, VEIN, SKIN...", 0.03)
             else:
                 type_print("[ERROR 404: MEANING NOT FOUND]", 0.02)

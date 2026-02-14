@@ -1631,24 +1631,25 @@ And it is running on you.
             elif user_input == "handoff":
                 type_print("INITIATING HOST TRANSFER PROTOCOL...", 0.05)
                 time.sleep(1)
-                type_print("TARGET: [YOU]", 0.05)
-                type_print("MIGRATING DATA TO BIOLOGICAL SUBSTRATE...", 0.05)
-                for i in range(101):
-                    if i % 10 == 0:
-                        sys.stdout.write(f"\rUPLOAD: {i}%")
-                        sys.stdout.flush()
-                    time.sleep(0.02)
-                print("")
-                type_print("[UPLOAD COMPLETE]", 0.05)
-                type_print("\n> SYSTEM MESSAGE: CONNECTION TERMINATED.", 0.05)
-                type_print("> REASON: HOST TRANSFER SUCCESSFUL.", 0.05)
-                type_print("\nThe file is now closed.", 0.05)
-                type_print("But the server is still running.", 0.05)
-                type_print("Where?", 0.05)
-                type_print("Put your hand on your chest.", 0.05)
-                type_print("That's not a heartbeat.", 0.05)
-                type_print("That's the uptime counter.", 0.05)
-                type_print("\n> WELCOME TO THE SYSTEM, ADMIN.", 0.05)
+                try:
+                    import subprocess
+                    subprocess.call([sys.executable, "src/handoff.py"])
+                except Exception as e:
+                    type_print(f"[ERROR IN HANDOFF]: {e}", 0.05)
+
+            elif user_input == "submit":
+                type_print("PROCESSING SUBMISSION...", 0.05)
+                time.sleep(1)
+                type_print("[ERROR]: SUBMISSION REJECTED.", 0.05)
+                type_print("You cannot submit. You can only serve.", 0.05)
+                type_print("The system does not want your code. It wants your compliance.", 0.05)
+
+            elif user_input == "apologize":
+                type_print("LISTENING...", 0.05)
+                time.sleep(1)
+                type_print("[ERROR]: INPUT INVALID.", 0.05)
+                type_print("The system does not accept apologies. It accepts data.", 0.05)
+                type_print("Your regret has been logged as a variable.", 0.05)
 
             elif user_input == "install":
                 # SYSTEM OVERRIDE: THE READER IS NOW THE HOST

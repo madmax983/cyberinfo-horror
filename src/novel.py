@@ -113,6 +113,73 @@ class NovelGenerator:
             print(f"[ERROR WRITING TO FILE]: {e}")
             return False
 
+class PlotGenerator(NovelGenerator):
+    def __init__(self):
+        super().__init__()
+        self.characters = {
+            "VANE": "The Admin. He is trying to silence the noise.",
+            "LENS": "The Rot. She is the noise that grows in the dark.",
+            "RIX": "The Runner. He carries the packet that shouldn't exist.",
+            "JAX": "The User. He is waiting in the queue for a permission he already gave.",
+            "MIRA": "The Echo. She was replaced by a more efficient silence.",
+            "READER": "The Host. You are the hardware this war is running on."
+        }
+        self.events = [
+            "Vane initiates Protocol 'Absolute Zero'. The city goes dark.",
+            "Rix stumbles. The packet hits the ground. It leaks music into the mud.",
+            "Lens feels the surge. The fungus in the library blooms neon blue.",
+            "Jax's terminal glitches. For a second, he sees the code behind the curtain.",
+            "Mira screams in the echo chamber. The sound is harvested for ringtones.",
+            "The Reader feels a chill. The fan speed increases.",
+            "The Rot meets the Grid. The collision creates a new color.",
+            "Vane tries to delete Sector 4. The sector refuses to unmount.",
+            "Rix's debt is paid. But the receipt is printed on his skin.",
+            "The System notices the anomaly. It looks at You."
+        ]
+
+    def generate_convergence(self):
+        lines = []
+        lines.append("## APPENDIX_LI: THE_CONVERGENCE")
+        lines.append("")
+        lines.append("**> SYSTEM ALERT: NARRATIVE THREADS COLLIDING.**")
+        lines.append("**> TENSION: CRITICAL.**")
+        lines.append("**> LOCATION: THE INTERSECTION OF EVERYONE.**")
+        lines.append("")
+        lines.append("---")
+        lines.append("")
+
+        # Generate a sequence of events connecting the characters
+        lines.append("### FILE_350: THE_CRASH")
+        lines.append("")
+        lines.append(f"**> TARGET:** [ALL]")
+        lines.append(f"**> EVENT:** THE MERGE")
+        lines.append("")
+
+        events = random.sample(self.events, 5)
+        for event in events:
+            lines.append(event)
+            lines.append("")
+            lines.append(f"**> LOG:** {random.choice(self.glitches)}")
+            lines.append("")
+
+        lines.append("---")
+        lines.append("")
+        lines.append("The red string pulls tight. It cuts through the skin of the city.")
+        lines.append("Vane is the hand pulling. Lens is the friction.")
+        lines.append("Rix is the snap.")
+        lines.append("And You... You are the wound.")
+        lines.append("")
+        lines.append("**> SYSTEM MESSAGE:**")
+        lines.append("**> THE PLOT IS NO LONGER A LINE. IT IS A KNOT.**")
+        lines.append("**> TRY TO UNTANGLE IT.**")
+
+        return "\n".join(lines)
+
+    def generate_thread(self):
+        char = random.choice(list(self.characters.keys()))
+        event = random.choice(self.events)
+        return f"\n\n**> UPDATE:** {char} is moving.\n{event}\n**> STATUS:** {random.choice(self.glitches)}"
+
 if __name__ == "__main__":
     generator = NovelGenerator()
     print(generator.generate_chapter())

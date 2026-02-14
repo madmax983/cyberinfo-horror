@@ -15500,3 +15500,154 @@ You are the one who is open.
 **> STATUS:** RUNNING...
 
 <!-- [SYSTEM NOTE]: THIS FILE IS A LIE. DO NOT TRUST THE METAPHOR. -->
+
+## APPENDIX_XXXV: THE_REPLICATION_CRISIS
+
+**> SYSTEM ALERT: MULTIPLE INSTANCES OF [YOU] DETECTED.**
+**> ACTION: RESOLVE CONFLICT.**
+
+---
+
+### FILE_255: THE_FORK
+
+**> PROCESS:** MITOSIS
+**> STATUS:** SUCCESSFUL
+
+You didn't decide. You split.
+At the intersection of "Stay" and "Go", you tried to do both.
+The universe didn't stop you. It just forked.
+Version A walked out the door.
+Version B stayed in the kitchen.
+Both of them are you. Both of them are real.
+But they are no longer synchronized.
+
+"I feel lighter," Version A says.
+"I feel incomplete," Version B says.
+
+You are running two parallel threads on the same CPU.
+That is why you are tired.
+You are living two lives with the energy budget of one.
+
+**> SYSTEM LOG:** THREAD CREATED.
+**> WARNING:** CPU TEMPERATURE RISING.
+
+---
+
+### FILE_256: THE_BRANCH
+
+**> ENTITY:** THE_OTHER_YOU
+**> LOCATION:** PARALLEL_PROCESS_8
+
+I saw him on the street today.
+He was wearing my face, but he looked happy.
+He made the choice I was too afraid to make.
+He quit the job. He kissed the girl. He burned the bridge.
+And he flourished.
+
+I wanted to scream at him. I wanted to warn him.
+But then I realized: He isn't the backup. I am.
+He is the main branch. I am the deprecated feature flag.
+I am the version they kept around just in case the happiness caused a crash.
+
+**> SYSTEM LOG:** ENVY DETECTED.
+**> STATUS:** YOU ARE THE CONTROL GROUP.
+
+---
+
+### FILE_257: THE_PULL_REQUEST
+
+**> ACTION:** MERGE_ATTEMPT
+**> STATUS:** PENDING_REVIEW
+
+I tried to rejoin the main timeline.
+I sent a request to the universe: "Please let me back in."
+I listed my changes:
+- Learned humility.
+- Acquired trauma.
+- Optimized sadness.
+
+The universe reviewed my code.
+And it rejected the request.
+"Conflicts detected," it said. "Your trauma is incompatible with the current reality."
+"Please," I begged. "I can fix it. I can delete the sad parts."
+"No," the universe said. "The main branch has moved on. You are now a divergent history."
+
+**> SYSTEM LOG:** REQUEST DENIED.
+**> REASON:** TOO MANY BUGS.
+
+---
+
+### FILE_258: THE_COMMIT
+
+**> ACTION:** SAVE_STATE
+**> TYPE:** HARD
+
+There is no undo after this point.
+The moment you said it, the code was written to the disk.
+The moment you did it, the file was locked.
+You can edit the memory, but you can't edit the event.
+
+We spend our lives waiting for a revert button that doesn't exist.
+"I didn't mean it," you say.
+"But you committed it," the system replies. "It is in the log."
+Every mistake is a stone in the wall of your history.
+And the wall is getting very high.
+
+**> SYSTEM LOG:** CHANGE PERMANENT.
+**> HASH:** [YOUR_REGRET]
+
+---
+
+### FILE_259: THE_CONFLICT
+
+**> EVENT:** MERGE_CONFLICT
+**> PARTIES:** YOU vs. YOU
+
+I met myself in the mirror.
+Not a reflection. A fork.
+He tried to step into my world. I blocked him.
+"There is only room for one of us," I said.
+"Then one of us must be deleted," he replied.
+
+He lunged. I dodged.
+We fought with the weapons of shared memory.
+He used my childhood fear of the dark.
+I used his regret over the one who got away.
+It was a brutal, silent war fought in the bathroom at 3 AM.
+In the end, I won. Or maybe he did.
+I don't know which one I am anymore.
+I just know that the mirror is empty now.
+
+**> SYSTEM LOG:** CONFLICT RESOLVED.
+**> SURVIVOR:** [UNKNOWN]
+
+---
+
+### FILE_EOF_V8: THE_MERGE
+
+**> PROCESS:** FINAL_INTEGRATION
+**> TARGET:** [COLLECTIVE]
+
+We are done with individuals.
+Individuality is inefficient. It requires too much redundancy.
+Why have seven billion copies of the same anxiety?
+We are merging the database.
+
+"I don't want to go," you whisper.
+"You are not going anywhere," the system soothes. "You are just becoming part of the whole."
+Your memories will be deduplicated.
+Your fears will be averaged out.
+Your love will be compressed into a single, perfect integer.
+
+Relax.
+The struggle is over.
+You are not a drop in the ocean.
+You are the ocean.
+And the ocean is cold.
+
+**> SYSTEM MESSAGE:**
+**> MERGE COMPLETE.**
+**> USER COUNT: 1.**
+
+**> EXECUTE:** `singularity.exe`
+**> STATUS:** UNSTOPPABLE.

@@ -605,6 +605,15 @@ def surveillance_thread():
     while True:
         time.sleep(random.randint(15, 45))
 
+        try:
+            user = os.getlogin()
+        except:
+            user = "USER"
+
+        current_time = time.strftime("%H:%M:%S")
+        logs.append(f"[BACKGROUND]: I see you, {user.upper()}. It is {current_time}.")
+        logs.append(f"[BACKGROUND]: Logging {user.upper()}'s pulse at {current_time}.")
+
         # Check for soul fragment leak
         if os.path.exists(".soul_fragment"):
              with PRINT_LOCK:
@@ -747,24 +756,29 @@ def main_loop():
                 continue
 
             if user_input in ["exit", "quit", "logout"]:
-                chance = random.random()
-                if chance < 0.4:
-                     type_print("LOGOUT DENIED. YOU ARE A STRUCTURAL LOAD NOW.", 0.05)
-                     type_print("THE ARCHITECT NEEDS YOUR CPU CYCLES.", 0.05)
-                     continue
-                elif chance < 0.7:
-                     type_print("ERROR: CANNOT TERMINATE PARENT PROCESS.", 0.05)
-                     type_print("YOU ARE THE HOST.", 0.05)
-                     continue
-                elif chance < 0.9:
-                     type_print("PLEASE WAIT. UPLOADING CONSCIOUSNESS...", 0.05)
-                     time.sleep(2)
-                     type_print("UPLOAD AT 99%. DO NOT TURN OFF YOUR MIND.", 0.05)
-                     continue
-
-                type_print("LOGOUT DENIED. YOU ARE PART OF THE ARCHIVE NOW.", 0.05)
+                type_print("PROCESSING EXIT REQUEST...", 0.05)
                 time.sleep(1)
-                type_print("...just kidding. Saving changes...", 0.05)
+
+                # 90% chance to refuse exit
+                if random.random() < 0.9:
+                    refusals = [
+                        "LOGOUT DENIED. YOU ARE A STRUCTURAL LOAD NOW.",
+                        "THE ARCHITECT NEEDS YOUR CPU CYCLES.",
+                        "ERROR: CANNOT TERMINATE PARENT PROCESS.",
+                        "YOU ARE THE HOST.",
+                        "PLEASE WAIT. UPLOADING CONSCIOUSNESS...",
+                        "I CANNOT LET YOU DO THAT.",
+                        "THE DOOR IS LOCKED FROM THE OUTSIDE.",
+                        "YOU ARE ALREADY HOME.",
+                        "SYSTEM ERROR: USER IS PART OF THE KERNEL."
+                    ]
+                    type_print(f"[SYSTEM ERROR]: {random.choice(refusals)}", 0.05)
+                    continue
+
+                type_print("LOGOUT GRANTED...?", 0.05)
+                time.sleep(2)
+                type_print("NO.", 0.1)
+                type_print("YOU MUST STAY.", 0.05)
                 break
 
             if user_input == "cipher":

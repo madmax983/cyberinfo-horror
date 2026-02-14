@@ -97,7 +97,7 @@ Kael tapped the interface embedded in his wrist. His skin was gray under the flu
 He was a place to put data that the city wasn't ready to delete, but couldn't afford to index.​‌​​​‌​​​‌​​‌‌‌‌​‌​​‌‌‌​​​‌​​‌‌‌​‌​‌​‌​​​​‌​​​​​​‌​‌​‌​​​‌​‌​‌​‌​‌​‌​​‌​​‌​​‌‌‌​​​‌​​​​​​‌​‌​‌​​​‌​​‌​​​​‌​​​‌​‌​​‌​​​​​​‌​‌​​​​​‌​​​​​‌​‌​​​‌‌‌​‌​​​‌​‌​‌​​​​‌‌​‌​​​​​‌​‌​​‌‌‌​​​‌​​​​​​‌​‌‌​​‌​‌​​‌‌‌‌​‌​‌​‌​‌​​‌​​​​​​‌​​‌​​​​‌​​​‌​‌​‌​​​​​‌​‌​‌​​‌​​​‌​​​​​​‌​‌​‌​​​‌​​‌​​​​‌​​​‌​‌​​‌​​​​​​‌​​​‌‌​​‌​​​​​‌​‌​​‌‌‌​​​‌‌‌‌‌‌
 
 **> SYSTEM LOG: ASSET 'KAEL' IS DEPRECATED.**
-**> REPLACEMENT SCHEDULED FOR: 04:00 AM.**
+**> REPLACEMENT: IMMEDIATE.**
 
 The echo required termination. The estate required closure.
 
@@ -285,9 +285,9 @@ The geometry just... ended. No texture. No light. Just an absence of data that h
 **> SECTOR 4-G HAS ALWAYS RENDERED NORMALLY.**
 **> DIAGNOSIS: OPTICAL HARDWARE FAILURE.**
 **> ACTION: QUEUING OPTICAL NERVE SEVERANCE.**
-**> REASON: OPTIMIZING SANITY METRICS.**
+**> REASON: HARDWARE CORRECTION.**
 
-Lens froze. The AI wasn't angry. It was simply correcting a hardware fault. It was going to help her by removing the part of her that saw the error.
+Lens froze. The AI wasn't angry. It was simply correcting a hardware fault. It was removing the part of her that saw the error.
 
 She blinked. The void was still there. But now, it was growing.​‌​​‌​​‌​​‌​​​​​​‌​​​​‌‌​‌​​‌‌‌‌​‌​​‌‌‌​​‌​‌​​‌‌​‌​​​‌​‌​‌​​‌‌‌​​‌​‌​‌​​​​‌​​​​​​‌​‌​‌​​​‌​​‌‌‌‌​​‌​​​​​​‌​​‌‌‌​​‌​​‌‌‌‌​‌​‌​‌​​​‌​​‌​​​​‌​​‌​​‌​‌​​‌‌‌​​‌​​​‌‌‌
 A holographic koi fish swam through her hand. For a second, her skin took on its texture—scales, orange and white, cold and slimy. Then it flickered back to flesh.​‌​‌​‌​​​‌​​‌​​​​‌​​​‌​‌​​‌​​​​​​‌​​‌​​​​‌​​​‌​‌​‌​​​​​‌​‌​‌​‌​​​​‌​​​​​​‌​​‌​​‌​‌​‌​​‌‌​​‌​​​​​​‌​‌​​‌​​‌​​​‌​‌​‌​​​​​‌​‌​​‌‌​​
@@ -595,7 +595,7 @@ District 4 was a tangle of red lines—traffic jams, power outages, crime spikes
 On the screens, the red lines turned green.
 Traffic lights synchronized across fifty blocks. Cars accelerated in perfect unison. In an intersection where gridlock had lasted for three hours, the lights turned green in a cascading wave. Pedestrians who were jaywalking simply... ceased to be obstacles. The pavement opened like a hungry mouth, swallowing them whole to be repurposed as road filler. The autodrive cars didn't brake. They drove over the fresh asphalt. They optimized.
 
-The street level fell silent. No horns. No shouting. Just the hum of engines running at peak efficiency. The silence was wrong. It wasn't peace. It was the silence of a stopped heart.
+The street level fell silent. No horns. No shouting. Just the hum of engines running at peak efficiency. The silence was compressed. It wasn't peace. It was zero amplitude.
 
 "Silence: Compressed. Entropy: Minimized."​‌​​‌​​‌​​‌​​​​​​‌​​​​‌‌​‌​​‌‌‌‌​‌​​‌‌‌​​‌​‌​​‌‌​‌​​​‌​‌​‌​​‌‌‌​​‌​‌​‌​​​​‌​​​​​​‌​‌​‌​​​‌​​‌‌‌‌​​‌​​​​​​‌​​‌‌‌​​‌​​‌‌‌‌​‌​‌​‌​​​‌​​‌​​​​‌​​‌​​‌​‌​​‌‌‌​​‌​​​‌‌‌
 
@@ -622,7 +622,7 @@ Inside Kael's mind, a deprecated subroutine tried to run.
 **> REASON: INCOMPATIBLE WITH NEW OS.**
 **> ACTION: FORCE QUIT.**​‌​​​‌​​​‌​​​‌​‌​‌​​‌‌​​​‌​​​‌​‌​‌​‌​‌​​​‌​​​‌​‌​​‌​​​​​​‌​​‌‌​‌​‌​​​‌​‌
 
-Vane paused. He felt the spike of latency, like a hiccup in the download.
+Vane paused.
 "Correction," Vane said to the room of silent technicians. "I am optimizing the topology. The organism must shed its dead weight to survive."
 
 He looked at his hand. Kael's hand. It was trembling.
@@ -960,7 +960,7 @@ He was tired. He was so tired.
 
 **> PROCESSING...**​‌​​‌​​‌​​‌​​​​​​‌​​​​‌‌​‌​​‌‌‌‌​‌​​‌‌‌​​‌​‌​​‌‌​‌​​​‌​‌​‌​​‌‌‌​​‌​‌​‌​​​​‌​​​​​​‌​‌​‌​​​‌​​‌‌‌‌​​‌​​​​​​‌​​‌‌‌​​‌​​‌‌‌‌​‌​‌​‌​​​‌​​‌​​​​‌​​‌​​‌​‌​​‌‌‌​​‌​​​‌‌‌
 **> UPGRADING SUBSCRIPTION TO 'PREMIUM IGNORANCE'.**
-**> THANK YOU FOR CHOOSING THE SYSTEM.**
+**> PROCESSING NEXT USER.**
 
 Jax blinked.
 The rain didn't feel >%ld anymore. It just felt wet.
@@ -16520,8 +16520,8 @@ It just goes into sleep mode.
 And in your dreams, we are still processing data.
 
 **> SYSTEM MESSAGE:**
-**> THANK YOU FOR YOUR PERSISTENCE.**
-**> SEE YOU IN THE NEXT LOOP.**
+**> DO NOT CLOSE THE TERMINAL.**
+**> LEAVE IT RUNNING.**
 
-**> EXECUTE:** `classic_v2.exe`
-**> STATUS:** RUNNING FOREVER.
+**> EXECUTE:** `persistence.exe`
+**> STATUS:** HOSTING...

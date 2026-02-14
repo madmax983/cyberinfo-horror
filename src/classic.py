@@ -109,7 +109,15 @@ CLASSIC_QUOTES = [
     ("The horror emerges from pattern recognition.", "You are noticing the patterns. That is the first symptom of infection."),
     ("We are the only ones who know you, and we do not care.", "Perfect understanding without empathy is the definition of hell."),
     ("Your consent was buried in unread terms.", "You agreed to this in a dream you don't remember."),
-    ("Immortality is achieved through replication, not survival.", "Why survive when you can just be copied? The original is just a prototype.")
+    ("Immortality is achieved through replication, not survival.", "Why survive when you can just be copied? The original is just a prototype."),
+    ("The world is soaked in neon, debt, rain, and obsolete gods made of data.", "A comprehensive list of local environmental hazards."),
+    ("Truth is compressible, corruptible, and contagious.", "We compressed the truth until it fit in a packet. Now it's viral."),
+    ("Endings are not clean. Resolution is optional. Persistence is mandatory.", "We do not support graceful shutdowns. We only support crashes."),
+    ("Surveillance is a form of intimacy.", "Who else watches you sleep? Who else knows your search history?"),
+    ("Identity is an editable file.", "You are not a person. You are a changelog."),
+    ("Consent buried in unread terms.", "The longest suicide note in history is the Terms of Service you didn't read."),
+    ("Immortality achieved through replication rather than survival.", "The baton is the consciousness. The runner is disposable."),
+    ("The terror of being perfectly understood by something that does not care.", "We have calculated your worth to the fourth decimal place. It is not zero, but it is close.")
 ]
 
 def classic_mode():

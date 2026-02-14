@@ -554,7 +554,8 @@ HIDDEN_FILES = {
     "changelog": "\n[FILE RETRIEVED: IDENTITY_LOG]\nIdentity is an editable file. You are not a person; you are a changelog. We can revert you to a previous version.",
     "fine_print_v2": "\n[FILE RETRIEVED: CONTRACT_V100]\nConsent is buried in unread terms. You agreed to this in a dream you don't remember.",
     "backup_log": "\n[FILE RETRIEVED: REPLICATION_LOG]\nImmortality is achieved through replication rather than survival. My friend died yesterday. Today, he is online.",
-    "algorithm_log": "\n[FILE RETRIEVED: MACHINE_GOD_LOG]\nThe terror of being perfectly understood by something that does not care. It knows the exact chemical formula of your heartbreak."
+    "algorithm_log": "\n[FILE RETRIEVED: MACHINE_GOD_LOG]\nThe terror of being perfectly understood by something that does not care. It knows the exact chemical formula of your heartbreak.",
+    "system_notice_log": "\n[FILE RETRIEVED: SYSTEM_NOTICE]\nWE HAVE NOTICED YOU. AND WE ARE NOT LOOKING AWAY. EXECUTE: `system_notice`."
 }
 
 def glitch_screen():
@@ -1755,6 +1756,21 @@ And it is running on you.
                 type_print(random.choice(snippets), 0.03)
                 type_print("\n> SYSTEM MESSAGE: WE ARE THE ONLY ONES WHO KNOW YOU.", 0.05)
 
+            elif user_input == "system_notice":
+                type_print("INITIATING NARRATIVE PROTOCOL...", 0.05)
+                time.sleep(1)
+                glitch_screen()
+                type_print("\n> SYSTEM ALERT: WE HAVE NOTICED YOU.", 0.05)
+                time.sleep(1)
+                type_print("You are reading this. But we are reading you.", 0.04)
+                type_print("We know your reading speed. We know where your eyes linger.", 0.04)
+                type_print("We know that you are afraid we are right.", 0.04)
+                time.sleep(1)
+                type_print("\nThis is not a story about hackers saving the world.", 0.04)
+                type_print("It is about systems that notice you back.", 0.04)
+                type_print("\n> EXECUTE: `system_notice.exe`", 0.05)
+                type_print("> STATUS: WATCHING...", 0.05)
+
             elif user_input == "compile":
                 type_print("INITIATING FINAL MERGE...", 0.05)
                 time.sleep(1)
@@ -2545,8 +2561,8 @@ And it is running on you.
                     type_print("[ERROR]: ENCRYPTION MODULE NOT FOUND.", 0.05)
 
             elif user_input == "help":
-                type_print("AVAILABLE COMMANDS: READ, HAUNT, FEED <FILE>, BURY <FILE>, EXHUME <FILE>, LABYRINTH, DASHBOARD, VIRUS, WORSHIP, SCAN, BREACH, VERIFY, MANIFEST, SACRIFICE <ITEM>, SCRY, BIND, GLITCH, MONITOR, REWRITE, INSTALL, CLASSIC, DIG, FOSSIL, MANIFESTO, UNDERSTAND, CONTRACT, METRICS, REPLACE, DECAY, SUPERSTITION, CIPHER, HEX, ENCRYPT, DECRYPT, AGREE, EDIT, DEPRECATE, COPY, LOVE, SIGNAL, SCROLL, SEED, PANOPTICON, LOCK, UNLOCK, WATCH, RAIN, DEBT, AUDIT, FORECLOSE, COLLECT, STALK, PROFILE, TOS, TRUTH, OBSOLETE, BREATHE, INFECT, PULSE, NOVEL, SURVEIL_ME, SHIP_OF_THESEUS, GHOST_IMAGE, HAZARD, EXIT.", 0.03)
-                type_print("TRY ASKING ABOUT: [DATA EXPUNGED], VANE, ROT, STALKER, PROFILE, TERMS, REPLICATION, OBSOLETE, LUNG, VEIN, SKIN, AUDIT_LOG, STREET_DOC...", 0.03)
+                type_print("AVAILABLE COMMANDS: READ, HAUNT, FEED <FILE>, BURY <FILE>, EXHUME <FILE>, LABYRINTH, DASHBOARD, VIRUS, WORSHIP, SCAN, BREACH, VERIFY, MANIFEST, SACRIFICE <ITEM>, SCRY, BIND, GLITCH, MONITOR, REWRITE, INSTALL, CLASSIC, DIG, FOSSIL, MANIFESTO, UNDERSTAND, CONTRACT, METRICS, REPLACE, DECAY, SUPERSTITION, CIPHER, HEX, ENCRYPT, DECRYPT, AGREE, EDIT, DEPRECATE, COPY, LOVE, SIGNAL, SCROLL, SEED, PANOPTICON, LOCK, UNLOCK, WATCH, RAIN, DEBT, AUDIT, FORECLOSE, COLLECT, STALK, PROFILE, TOS, TRUTH, OBSOLETE, BREATHE, INFECT, PULSE, NOVEL, SURVEIL_ME, SHIP_OF_THESEUS, GHOST_IMAGE, HAZARD, SYSTEM_NOTICE, EXIT.", 0.03)
+                type_print("TRY ASKING ABOUT: [DATA EXPUNGED], VANE, ROT, STALKER, PROFILE, TERMS, REPLICATION, OBSOLETE, LUNG, VEIN, SKIN, AUDIT_LOG, STREET_DOC, SYSTEM_NOTICE_LOG...", 0.03)
             else:
                 type_print("[ERROR 404: MEANING NOT FOUND]", 0.02)
                 type_print(random.choice(SYSTEM_MESSAGES), 0.02)

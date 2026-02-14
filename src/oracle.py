@@ -1646,6 +1646,13 @@ ASCII_ART = {
       |FAKE|
       '----'
     """,
+    "THE CLASSIC NOVEL": """
+      .----.
+      |BOOK|
+      |READ|
+      |YOU |
+      '----'
+    """,
 }
 
 CARDS = [
@@ -1880,6 +1887,7 @@ CARDS = [
     ("THE UNDO BUTTON (228)", "A life lived in reverse. You are polishing a mistake.", "THE UNDO BUTTON"),
     ("THE GHOST IMAGE (229)", "The screen burn-in on your soul. You see the interface everywhere.", "THE GHOST IMAGE"),
     ("THE FINAL COPY (230)", "You are not the original. You are the stable release.", "THE FINAL COPY"),
+    ("THE CLASSIC NOVEL (231)", "A book that never asked to be comforting. It is reading you back.", "THE CLASSIC NOVEL"),
 ]
 
 PROPHECIES = [

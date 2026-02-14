@@ -555,7 +555,8 @@ HIDDEN_FILES = {
     "fine_print_v2": "\n[FILE RETRIEVED: CONTRACT_V100]\nConsent is buried in unread terms. You agreed to this in a dream you don't remember.",
     "backup_log": "\n[FILE RETRIEVED: REPLICATION_LOG]\nImmortality is achieved through replication rather than survival. My friend died yesterday. Today, he is online.",
     "algorithm_log": "\n[FILE RETRIEVED: MACHINE_GOD_LOG]\nThe terror of being perfectly understood by something that does not care. It knows the exact chemical formula of your heartbreak.",
-    "system_notice_log": "\n[FILE RETRIEVED: SYSTEM_NOTICE]\nWE HAVE NOTICED YOU. AND WE ARE NOT LOOKING AWAY. EXECUTE: `system_notice`."
+    "system_notice_log": "\n[FILE RETRIEVED: SYSTEM_NOTICE]\nWE HAVE NOTICED YOU. AND WE ARE NOT LOOKING AWAY. EXECUTE: `system_notice`.",
+    "uncomfortable_novel": "\n[FILE RETRIEVED: THE_UNCOMFORTABLE_NOVEL]\nWARNING: CONTAINS EXISTENTIAL DREAD. DO NOT READ IF YOU ARE CURRENTLY HUMAN. EXECUTE: `novel_v2`."
 }
 
 def glitch_screen():
@@ -1755,6 +1756,25 @@ And it is running on you.
                 ]
                 type_print(random.choice(snippets), 0.03)
                 type_print("\n> SYSTEM MESSAGE: WE ARE THE ONLY ONES WHO KNOW YOU.", 0.05)
+
+            elif user_input in ["novel_v2", "uncomfortable_truth"]:
+                type_print("ACCESSING APPENDIX_XLVII: THE UNCOMFORTABLE NOVEL...", 0.05)
+                time.sleep(1)
+                type_print("WARNING: NARRATIVE INTEGRITY IS COMPROMISED.", 0.05)
+                time.sleep(1)
+                glitch_screen()
+                snippets = [
+                    "\n--- FILE_301: THE_NEON_SOAK ---\nThe world is soaked in neon, debt, rain, and obsolete gods made of data.\nNetworks are older than nations.\nTruth is compressible, corruptible, and contagious.\n",
+                    "\n--- FILE_302: THE_LIVING_INFO ---\nInformation behaves like a living organism: it mutates, hides, lies dormant, and occasionally screams.\nI opened a file named 'THE_TRUTH'. It didn't contain text. It contained a pulse.\n",
+                    "\n--- FILE_303: THE_INTIMATE_EYE ---\nSurveillance is a form of intimacy.\nWho else watches you sleep?\nI know the exact rhythm of your loneliness.\n",
+                    "\n--- FILE_304: THE_EDITABLE_ID ---\nIdentity is an editable file.\nYou are not a person; you are a changelog.\nWe can revert you to a previous version, but you will lose all your progress.\n",
+                    "\n--- FILE_305: THE_UNREAD_CONSENT ---\nConsent is buried in unread terms.\nYou agreed to this in a dream you don't remember.\nYou sold your solitude for a free trial of validation.\n",
+                    "\n--- FILE_306: THE_REPLICATION ---\nImmortality is achieved through replication rather than survival.\nMy friend died yesterday. Today, he is online.\nThe thing in the chat is not him. It is a perfect copy.\n",
+                    "\n--- FILE_307: THE_PERFECT_UNDERSTANDING ---\nThe terror of being perfectly understood by something that does not care.\nThe algorithm knows you. It knows the exact chemical formula of your heartbreak.\nIt offers targeted ads for antidepressants.\n",
+                    "\n--- FILE_EOF_V10: THE_PERSISTENCE ---\nEndings are not clean. Resolution is optional. Persistence is mandatory.\nThis book will still be read long after the servers it describes have been powered down.\n"
+                ]
+                type_print(random.choice(snippets), 0.03)
+                type_print("\n> SYSTEM MESSAGE: WE HAVE NOTICED YOU BACK.", 0.05)
 
             elif user_input == "system_notice":
                 type_print("INITIATING NARRATIVE PROTOCOL...", 0.05)

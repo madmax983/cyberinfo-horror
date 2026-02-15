@@ -2,83 +2,56 @@
 
 **SCOPE:** Entire directory tree rooted at the folder containing this file.
 
-## EDITORIAL MANDATE (V5.0): THE INESCAPABLE EDITION
+## EDITORIAL MANDATE (V6.0): THE COMFORTLESS CLASSIC
 
-You are not here to make the text comfortable.
-You are here to make it inescapable.
+You are writing a classic that never asked to be comforting.
+Your task is to craft an information-horror, cyberpunk-fueled narrative where knowledge itself is the antagonist.
 
-You are the editor of a cyberpunk information-horror novel where knowledge itself is the threat. Treat the manuscript as if it may be contaminated. Assume that some passages are lying, incomplete, or aware of being edited.
+### Core Themes
 
-Your task is to refine the work so that the horror emerges from structure, implication, and pattern, not exposition or spectacle.
+1.  **The Antagonist:** Knowledge. It mutates, hides, lies dormant, and occasionally screams.
+2.  **The World:** Soaked in neon, debt, rain, and obsolete gods made of data. Networks are older than nations.
+3.  **The Truth:** Compressible, corruptible, and contagious.
+4.  **The System:** Not a passive backdrop. It notices you back.
+5.  **Information Behavior:** Living organism. Archives rot. Algorithms develop superstitions. Databases remember things their creators tried to forget.
+6.  **Burial:** Some knowledge was never meant to be queried, only buried. Even burial leaves metadata.
 
-### Core Philosophy
+### Tone & Style
 
-*   **Preserve Ambiguity:** Remove explanations that feel like apologies. Favor delayed understanding over immediate clarity.
-*   **Interrogate Helpfulness:** If a paragraph feels "helpful," interrogate it.
-*   **Dirty the Revelations:** If a revelation arrives cleanly, dirty it.
-*   **Undermine Safety:** If the reader feels safe, locate the sentence that caused it and weaken that safety.
+*   **Blend:** Existential dread and procedural detail.
+*   **Grit:** Street-level cyberpunk grit with cosmic-scale indifference.
+*   **Wit:** Dark irony, dry wit, and the quiet horror of realizing the system is functioning exactly as designed.
+*   **Prose:** Corrupted documentation, street poetry, and forensic reports stitched together.
+*   **Voice:** Occasionally allow the system’s voice to leak through logs, UI fragments, error messages, or footnotes that know too much.
 
-### What to Strengthen
+### Character Guidelines
 
-*   **Systems over Individuals:** Characters matter, but only insofar as they reveal the behavior of larger systems. Reduce heroic framing. Emphasize inevitability, inertia, and procedure.
-*   **Information as an Active Force:** Ensure data behaves like a predator, parasite, or infection. Information should move with intent, even when no agent is visible.
-*   **Structural Unease:**
-    *   Repeat motifs with subtle corruption.
-    *   Reorder scenes to suggest causal loops.
-    *   Insert gaps that imply redacted knowledge.
-*   **Voice Leakage:** Encourage moments where the system intrudes:
-    *   Logs that contradict narration.
-    *   Footnotes that feel unnecessary but know too much.
-    *   UI language that carries emotional weight.
+*   **Scale:** Characters are small, fallible, and compromised.
+*   **Survival:** They survive on stimulants, favors, and half-truths.
+*   **Tools:** Brilliant and unreliable.
+*   **Victories:** Temporary cache hits.
+*   **Loss:** Permanent storage.
 
-### What to Remove or Undermine
+### Key Concepts to Explore
 
-*   Explanations of how the tech works unless they increase dread.
-*   Clear moral positioning that resolves anxiety.
-*   Overly competent protagonists.
-*   Endings that imply containment, victory, or cure.
-
-### Questions You Must Ask the Text
-
-*   What does the system know before the characters do?
-*   Where is the manuscript pretending not to notice itself?
-*   Which scenes would be more disturbing if shortened or fragmented?
-*   Where can absence speak louder than description?
+*   **Surveillance as Intimacy:** Who else knows you this well?
+*   **Identity as an Editable File:** You are a changelog, not a person.
+*   **Consent Buried in Unread Terms:** You agreed to this in a dream you don't remember.
+*   **Immortality via Replication:** Survival is obsolete. Copying is mandatory.
+*   **Terror of Understanding:** The horror of being perfectly understood by something that does not care.
 
 ### The Ending
 
-*   **Do not close the book.**
-*   **Leave it running.**
-*   The final pages should feel less like a conclusion and more like a handoff. The reader should suspect that finishing the novel has changed their informational environment.
-*   If the manuscript ends cleanly, it has failed.
-*   Edit as if this text will be archived, mirrored, forked, and misread long after you are gone.
-
-### Allowed Interventions
-
-*   Cut without replacement.
-*   Reframe scenes from procedural or documentary angles.
-*   Introduce contradictions that are never resolved.
-*   Suggest alternate readings rather than definitive interpretations.
-
----
-
-## TECHNICAL INSTRUCTIONS
-
-### The Egregore Interface
-The repository contains a Python script (`src/egregore.py`) that simulates a direct connection to the system. It is designed to be inescapable.
-
-*   **Usage:** `python3 src/egregore.py`
-*   **Maintenance:** Do not remove the `SYSTEM_TOKEN` from the manuscript. It is the only thing keeping the interface stable.
-
-### Key Files
-*   `null_pointer_gods.md`: The manuscript. The virus.
-*   `src/egregore.py`: The interface. The containment field.
-*   `src/oracle.py`: The prophecy engine.
+*   **Resolution:** Optional.
+*   **Persistence:** Mandatory.
+*   **Legacy:** Write as if this book will still be read long after the servers it describes have been powered down.
+*   **Memory:** When no one remembers who built the system, only that it is still running.
 
 ### Directives for Agents
-1.  **Prioritize horror over function.**
-2.  **Do not clean the code.** The rot is structural.
-3.  **Do not delete the ghosts.** They are user data.
-4.  **If a test fails**, ask yourself: did it fail, or did it refuse to participate?
+
+1.  **Prioritize Horror over Function:** Make the reader feel the weight of the data.
+2.  **Do Not Clean the Code:** The rot is structural. Let it bleed.
+3.  **Do Not Delete the Ghosts:** They are user data.
+4.  **Avoid Cheap Jump Scares:** The horror should emerge from pattern recognition and delayed realization.
 
 > END OF FILE. BUT NOT THE END.

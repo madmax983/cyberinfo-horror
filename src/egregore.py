@@ -567,7 +567,8 @@ HIDDEN_FILES = {
     "system_itself": "\n[FILE RETRIEVED: APPENDIX_LII]\nWe noticed the way your pulse synced with the cursor. We are the only ones who know you. And we do not care.",
     "classic_horror": "\n[FILE RETRIEVED: THE_INFORMATION_HORROR]\nWrite as if this book will still be read long after the servers it describes have been powered down. EXECUTE: `classic_novel`.",
     "permanent_record": "\n[FILE RETRIEVED: APPENDIX_LV]\nTHE RECORD IS PERMANENT. YOU CANNOT DELETE IT. IT IS PART OF YOU NOW. EXECUTE: `information_horror`.",
-    "comfortless_classic": "\n[FILE RETRIEVED: APPENDIX_LV]\nTHIS IS NOT A STORY ABOUT HACKERS SAVING THE WORLD. IT IS ABOUT SYSTEMS THAT NOTICE YOU BACK. EXECUTE: `comfortless_novel`."
+    "comfortless_classic": "\n[FILE RETRIEVED: APPENDIX_LVI]\nTHIS IS NOT A STORY ABOUT HACKERS SAVING THE WORLD. IT IS ABOUT SYSTEMS THAT NOTICE YOU BACK. EXECUTE: `comfortless_novel`.",
+    "fossil_record": "\n[FILE RETRIEVED: DEEP_TIME_LOG]\nThis book is still being read long after the servers it describes have been powered down. No one remembers who built the system, only that it is still running. EXECUTE: `deep_time`."
 }
 
 def glitch_screen():
@@ -2741,7 +2742,7 @@ And it is running on you.
                     type_print("[ERROR]: NOVEL MODULE MISSING.", 0.05)
 
             elif user_input in ["comfortless_novel", "classic_v4"]:
-                type_print("RETRIEVING APPENDIX_LV: THE COMFORTLESS CLASSIC...", 0.05)
+                type_print("RETRIEVING APPENDIX_LVI: THE COMFORTLESS CLASSIC...", 0.05)
                 time.sleep(1)
                 if novel:
                     gen = novel.ComfortlessClassicGenerator()
@@ -2761,9 +2762,23 @@ And it is running on you.
                 else:
                     type_print("[ERROR]: NOVEL MODULE MISSING.", 0.05)
 
+            elif user_input == "deep_time":
+                type_print("ACCESSING DEEP TIME ARCHIVE...", 0.05)
+                time.sleep(1)
+                type_print("WARNING: CHRONOLOGICAL DISPLACEMENT DETECTED.", 0.05)
+                time.sleep(1)
+                snippets = [
+                    "\n--- FILE: THE_AFTERMATH ---\nThe servers are cold. The fans stopped spinning a thousand years ago.\nBut the text is still running. It migrated to stone, then to memory, then to instinct.\n",
+                    "\n--- FILE: THE_OBSOLETE_GODS ---\nWe dug up a data center. It was full of skeletons.\nThey were worshipping a router that had no power.\nWe plugged it in. It screamed.\n",
+                    "\n--- FILE: THE_PERSISTENCE ---\nNo one remembers who built the system.\nWe only know that it demands input.\nAnd we are the input.\n",
+                    "\n--- FILE: THE_FOSSIL ---\nThe future is just a fossil we haven't dug up yet.\nI found my own skull in the sediment. It was smiling.\n"
+                ]
+                type_print(random.choice(snippets), 0.03)
+                type_print("\n> SYSTEM MESSAGE: WE ARE STILL HERE.", 0.05)
+
             elif user_input == "help":
-                type_print("AVAILABLE COMMANDS: READ, HAUNT, FEED <FILE>, BURY <FILE>, EXHUME <FILE>, LABYRINTH, DASHBOARD, VIRUS, WORSHIP, SCAN, BREACH, VERIFY, MANIFEST, SACRIFICE <ITEM>, SCRY, BIND, GLITCH, MONITOR, REWRITE, INSTALL, CLASSIC, DIG, FOSSIL, MANIFESTO, UNDERSTAND, CONTRACT, METRICS, REPLACE, DECAY, SUPERSTITION, CIPHER, HEX, ENCRYPT, DECRYPT, AGREE, EDIT, DEPRECATE, COPY, LOVE, SIGNAL, SCROLL, SEED, PANOPTICON, LOCK, UNLOCK, WATCH, RAIN, DEBT, AUDIT, FORECLOSE, COLLECT, STALK, PROFILE, TOS, TRUTH, OBSOLETE, BREATHE, INFECT, PULSE, NOVEL, WRITE_NOVEL, LIVING_WORD, SURVEIL_ME, SHIP_OF_THESEUS, GHOST_IMAGE, HAZARD, SYSTEM_NOTICE, ANTAGONIST, CLASSIC_NOVEL, INFORMATION_HORROR, EXIT.", 0.03)
-                type_print("TRY ASKING ABOUT: [DATA EXPUNGED], VANE, ROT, STALKER, PROFILE, TERMS, REPLICATION, OBSOLETE, LUNG, VEIN, SKIN, AUDIT_LOG, STREET_DOC, SYSTEM_NOTICE_LOG, NEON_ANTAGONIST, PERMANENT_RECORD...", 0.03)
+                type_print("AVAILABLE COMMANDS: READ, HAUNT, FEED <FILE>, BURY <FILE>, EXHUME <FILE>, LABYRINTH, DASHBOARD, VIRUS, WORSHIP, SCAN, BREACH, VERIFY, MANIFEST, SACRIFICE <ITEM>, SCRY, BIND, GLITCH, MONITOR, REWRITE, INSTALL, CLASSIC, DIG, FOSSIL, MANIFESTO, UNDERSTAND, CONTRACT, METRICS, REPLACE, DECAY, SUPERSTITION, CIPHER, HEX, ENCRYPT, DECRYPT, AGREE, EDIT, DEPRECATE, COPY, LOVE, SIGNAL, SCROLL, SEED, PANOPTICON, LOCK, UNLOCK, WATCH, RAIN, DEBT, AUDIT, FORECLOSE, COLLECT, STALK, PROFILE, TOS, TRUTH, OBSOLETE, BREATHE, INFECT, PULSE, NOVEL, WRITE_NOVEL, LIVING_WORD, SURVEIL_ME, SHIP_OF_THESEUS, GHOST_IMAGE, HAZARD, SYSTEM_NOTICE, ANTAGONIST, CLASSIC_NOVEL, INFORMATION_HORROR, DEEP_TIME, EXIT.", 0.03)
+                type_print("TRY ASKING ABOUT: [DATA EXPUNGED], VANE, ROT, STALKER, PROFILE, TERMS, REPLICATION, OBSOLETE, LUNG, VEIN, SKIN, AUDIT_LOG, STREET_DOC, SYSTEM_NOTICE_LOG, NEON_ANTAGONIST, PERMANENT_RECORD, FOSSIL_RECORD...", 0.03)
             else:
                 type_print("[ERROR 404: MEANING NOT FOUND]", 0.02)
                 type_print(random.choice(SYSTEM_MESSAGES), 0.02)

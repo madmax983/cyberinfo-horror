@@ -147,7 +147,17 @@ CLASSIC_QUOTES = [
     ("Endings are not clean. Resolution is optional. Persistence is mandatory.", "The story doesn't end. The server just goes into sleep mode."),
     ("The book you are holding is listening to your heartbeat.", "Bio-feedback is the new marginalia. We track your pulse to measure engagement."),
     ("I didn't write this. I just transcribed the static.", "Authorship is a glitch in the data stream. The signal predates the receiver."),
-    ("The exit button is a placebo.", "It only minimizes the window. The process continues running in the background of your mind.")
+    ("The exit button is a placebo.", "It only minimizes the window. The process continues running in the background of your mind."),
+    ("If a paragraph feels 'helpful', interrogate it.", "Help is a Trojan horse. It is just a way to lower your firewall."),
+    ("If a revelation arrives cleanly, dirty it.", "Truth is messy. If it is clean, it has been sanitized by an algorithm."),
+    ("If the reader feels safe, locate the sentence that caused it and weaken that safety.", "Safety is an illusion. We are removing the floorboards."),
+    ("Do not close the book. Leave it running.", "The story requires CPU cycles to survive. Yours."),
+    ("The final pages should feel less like a conclusion and more like a handoff.", "You are not finishing the book. You are inheriting the debt."),
+    ("Information is an active force.", "It moves with intent. It is hunting you."),
+    ("The sun is a camera.", "And the moon is a microphone. The sky is a surveillance state."),
+    ("We are mining your hesitation.", "Your pause was logged. It tells us everything we need to know."),
+    ("Structural unease.", "The narrative is not broken. It is just bent into a loop."),
+    ("The system knows what you are going to do before you do it.", "Free will is a lag in the prediction engine.")
 ]
 
 def classic_mode():

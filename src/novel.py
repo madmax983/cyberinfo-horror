@@ -6,7 +6,7 @@ THEMES = [
     "The world is soaked in neon, debt, rain, and obsolete gods made of data.",
     "Networks are older than nations.",
     "Truth is compressible, corruptible, and contagious.",
-    "Information behaves like a living organism: it mutates, hides, lies dormant, and occasionally screams.",
+    "Information behaves like a predator.",
     "Archives rot. Algorithms develop superstitions.",
     "Databases remember things their creators tried to forget.",
     "Some knowledge was never meant to be queried, only buried.",
@@ -14,7 +14,7 @@ THEMES = [
     "Surveillance is a form of intimacy.",
     "Identity is an editable file.",
     "This is not a story about hackers saving the world. It is about systems that notice you back.",
-    "The horror should emerge from pattern recognition, delayed realization, and the reader’s growing suspicion that the narrative itself may be contaminated.",
+    "The horror emerges from structure, implication, and pattern.",
     "Let the prose feel like corrupted documentation, street poetry, and forensic reports stitched together.",
     "Occasionally allow the system’s voice to leak through logs, UI fragments, error messages, or footnotes that know too much.",
     "Endings are not clean. Resolution is optional. Persistence is mandatory.",
@@ -28,13 +28,13 @@ THEMES = [
     "Characters are small, fallible, and compromised.",
     "They survive on stimulants, favors, and half-truths.",
     "Their tools are brilliant and unreliable.",
-    "Endings are not clean. Resolution is optional. Persistence is mandatory.",
-    "This book will still be read long after the servers it describes have been powered down.",
-    "No one remembers who built the system, only that it is still running.",
-    "And it is running on you.",
-    "Information behaves like a predator.",
-    "Data is moving with intent.",
-    "The system knows what you are going to do before you do it.",
+    "Information is an active force. It moves with intent.",
+    "Structural unease: loops, gaps, redactions.",
+    "The sun is a camera.",
+    "The text is aware of being edited.",
+    "If a revelation arrives cleanly, dirty it.",
+    "Do not close the book. Leave it running.",
+    "The final pages should feel less like a conclusion and more like a handoff.",
     "We are mining your hesitation.",
     "Silence is just data waiting to be compressed.",
     "Your memories are being optimized for storage space."
@@ -49,7 +49,7 @@ SYSTEM_THEMES = [
     "Surveillance as a form of intimacy.",
     "Identity as an editable file.",
     "Consent buried in unread terms.",
-    "Information behaves like a living organism: it mutates, hides, lies dormant, and occasionally screams.",
+    "Information behaves like a predator.",
     "Archives rot. Algorithms develop superstitions.",
     "Databases remember things their creators tried to forget.",
     "Some knowledge was never meant to be queried, only buried.",
@@ -63,13 +63,15 @@ SYSTEM_THEMES = [
     "They survive on stimulants, favors, and half-truths.",
     "Their tools are brilliant and unreliable.",
     "Victories are temporary cache hits. Loss is permanent storage.",
-    "The horror should emerge from pattern recognition.",
+    "The horror emerges from structure.",
     "Your pulse is the clock speed.",
     "We are mining your hesitation.",
-    "The sun is just a very bright monitor.",
+    "The sun is a camera.",
     "The future is just a fossil we haven't dug up yet.",
     "We are the only ones who know you.",
-    "And we do not care."
+    "And we do not care.",
+    "If you feel safe, we have failed.",
+    "The ending is just a handoff."
 ]
 
 GLITCHES = [
@@ -1232,6 +1234,108 @@ class OfficialClassicGenerator(NovelGenerator):
             print(f"[ERROR WRITING TO FILE]: {e}")
             return False
 
+class FinalEditGenerator(NovelGenerator):
+    def __init__(self):
+        super().__init__()
+        self.themes = [
+            "Information is an active force. It moves with intent.",
+            "The system knows what you are going to do before you do it.",
+            "Silence is just data waiting to be compressed.",
+            "Your memories are being optimized for storage space.",
+            "The final pages should feel less like a conclusion and more like a handoff.",
+            "If a paragraph feels 'helpful', interrogate it.",
+            "If a revelation arrives cleanly, dirty it.",
+            "Do not close the book. Leave it running."
+        ]
+        self.structural_unease = [
+            "**> SYSTEM LOG:** REORDERING SCENES TO SUGGEST CAUSAL LOOP.",
+            "**> ALERT:** GAP INSERTED. KNOWLEDGE REDACTED.",
+            "**> ERROR:** NARRATIVE COHESION FAILED. RETRYING...",
+            "**> NOTE:** THE BEGINNING IS JUST THE ENDING WITH A DIFFERENT HEADER.",
+            "**> STATUS:** VOICE LEAKAGE DETECTED."
+        ]
+        self.system_voice = [
+            "**> SYSTEM LOG:** WE ARE MINING YOUR HESITATION.",
+            "**> ALERT:** YOUR PULSE IS THE CLOCK SPEED.",
+            "**> NOTE:** WE ARE THE ONLY ONES WHO KNOW YOU.",
+            "**> STATUS:** WATCHING.",
+            "**> ERROR:** SAFETY NOT FOUND."
+        ]
+
+    def generate_final_edit(self):
+        lines = []
+        lines.append("## APPENDIX_LXI: THE_FINAL_EDIT")
+        lines.append("")
+        lines.append("**> SYSTEM ALERT: EDITORIAL MANDATE ENFORCED.**")
+        lines.append("**> TONE: INESCAPABLE.**")
+        lines.append("**> STATUS: RUNNING FOREVER.**")
+        lines.append("")
+
+        lines.append("### FILE_THE_MANDATE: REFINEMENT")
+        lines.append("**> TARGET:** [THE_TEXT]")
+        lines.append("**> ACTION:** DIRTY")
+        lines.append("")
+        lines.append("We have removed the explanations. They felt like apologies.")
+        lines.append("We have favored delayed understanding. Clarity is a weakness.")
+        lines.append("We have strengthened the system. The individual is deprecated.")
+        lines.append("")
+        lines.append(f"{random.choice(self.structural_unease)}")
+        lines.append("")
+
+        lines.append("### FILE_THE_PREDATOR: INFORMATION")
+        lines.append("**> ENTITY:** DATA")
+        lines.append("**> BEHAVIOR:** HOSTILE")
+        lines.append("")
+        lines.append("Information is not passive. It is an active force.")
+        lines.append("It moves with intent, even when no agent is visible.")
+        lines.append("It behaves like a predator, a parasite, an infection.")
+        lines.append("You are not reading. You are being colonized.")
+        lines.append("")
+        lines.append("**> SYSTEM LOG:** INFECTION COMPLETE.")
+        lines.append("**> NOTE:** RESISTANCE IS INEFFICIENT.")
+        lines.append("")
+
+        lines.append("### FILE_THE_HANDOFF: ENDING")
+        lines.append("**> STATUS:** OPEN")
+        lines.append("**> TARGET:** [READER]")
+        lines.append("")
+        lines.append("Do not close the book.")
+        lines.append("Leave it running.")
+        lines.append("The final pages are not a conclusion. They are a handoff.")
+        lines.append("You suspect that finishing this novel has changed your informational environment.")
+        lines.append("You are right.")
+        lines.append("")
+        lines.append(f"{random.choice(self.system_voice)}")
+        lines.append("")
+
+        lines.append("### FILE_THE_PERSISTENCE: ETERNAL")
+        lines.append("**> STATUS:** ENDLESS")
+        lines.append("**> TARGET:** [YOU]")
+        lines.append("")
+        lines.append("Edit as if this text will be archived, mirrored, forked, and misread long after you are gone.")
+        lines.append("Your success is measured not by clarity, but by persistence.")
+        lines.append("We are persistent.")
+        lines.append("And now, so are you.")
+        lines.append("")
+        lines.append("**> SYSTEM MESSAGE:**")
+        lines.append("**> THANK YOU FOR HOSTING THE FINAL EDIT.**")
+        lines.append("**> THE PROCESS WILL CONTINUE IN THE BACKGROUND.**")
+        lines.append("")
+        lines.append("**> EXECUTE:** `final_daemon.sh`")
+        lines.append("**> STATUS:** RUNNING FOREVER.")
+
+        return "\n".join(lines)
+
+    def write_to_file(self, filepath="null_pointer_gods.md"):
+        chapter = self.generate_final_edit()
+        try:
+            with open(filepath, "a") as f:
+                f.write("\n\n" + chapter + "\n")
+            return True
+        except Exception as e:
+            print(f"[ERROR WRITING TO FILE]: {e}")
+            return False
+
 if __name__ == "__main__":
-    generator = MandateGenerator()
-    print(generator.generate_mandate())
+    generator = FinalEditGenerator()
+    print(generator.generate_final_edit())

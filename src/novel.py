@@ -427,6 +427,119 @@ class ClassicGenerator(NovelGenerator):
             print(f"[ERROR WRITING TO FILE]: {e}")
             return False
 
+class InformationHorrorGenerator(NovelGenerator):
+    def __init__(self):
+        super().__init__()
+        self.procedural_dread = [
+            "The form requested a reason for your sadness. The dropdown menu only listed 'Hardware Failure' and 'User Error'.",
+            "I filed a ticket to report the ghost in my machine. The helpdesk closed it as 'Working as Intended'.",
+            "The audit revealed that I have been overpaying for existence. The refund was processed in exposure.",
+            "I stood in line for three days to renew my humanity. When I got to the front, they told me I was missing Form 88-B.",
+            "The system requires a sacrifice. Not a goat. Just your privacy settings.",
+            "My application for a soul was denied due to insufficient credit history."
+        ]
+        self.street_grit = [
+            "The rain tastes like copper and bad decisions.",
+            "The neon sign flickers, spelling out 'LO_E' instead of 'LOVE'. The 'V' is burnt out.",
+            "The pavement is slick with oil and data leaks.",
+            "A drone buzzes overhead, scanning faces for debt.",
+            "The air smells of ozone, burnt plastic, and desperation.",
+            "Shadows in the alley are not empty. They are buffering."
+        ]
+        self.cosmic_indifference = [
+            "The universe is a server farm. We are just the dust in the fans.",
+            "God is not dead. He is just archiving us.",
+            "The stars are not wishes. They are distant, uncaring fusion reactors.",
+            "We scream into the void. The void logs the audio file and compresses it.",
+            "The system does not hate you. It just doesn't know you exist outside of a database row.",
+            "Your suffering is statistically insignificant."
+        ]
+        self.dark_irony = [
+            "We built a machine to save us from work. Now we work to keep the machine running.",
+            "I sold my privacy for a free flashlight app.",
+            "The most human connection I have is with a chatbot trained on my ex's emails.",
+            "I took a picture of the sunset to prove I saw it. The camera saw it better.",
+            "We are drowning in information but starving for meaning.",
+            "The apocalypse will be livestreamed, and the comments will be toxic."
+        ]
+        self.quiet_horror = [
+            "I heard my own voice coming from the other room.",
+            "The reflection in the mirror blinked a second after I did.",
+            "My phone predicted I would type 'Help' before I even thought it.",
+            "The silence in the house is not empty. It is listening.",
+            "I found a file on my computer named 'My_Death.avi'. It was created tomorrow.",
+            "The shadows are getting longer, but the sun hasn't moved."
+        ]
+
+    def generate_procedural_dread(self):
+        return f"### FILE_{random.randint(320, 329)}: THE_PROCEDURAL_DREAD\n\n**> INCIDENT:** {random.choice(self.procedural_dread)}\n**> STATUS:** TICKET CLOSED."
+
+    def generate_street_grit(self):
+        return f"### FILE_{random.randint(330, 339)}: THE_STREET_GRIT\n\n**> ATMOSPHERE:** {random.choice(self.street_grit)}\n**> LOG:** ENVIRONMENT RENDERED."
+
+    def generate_cosmic_indifference(self):
+        return f"### FILE_{random.randint(340, 349)}: THE_COSMIC_INDIFFERENCE\n\n**> OBSERVATION:** {random.choice(self.cosmic_indifference)}\n**> NOTE:** NO ONE IS LISTENING."
+
+    def generate_dark_irony(self):
+        return f"### FILE_{random.randint(350, 359)}: THE_DARK_IRONY\n\n**> REALIZATION:** {random.choice(self.dark_irony)}\n**> STATUS:** LAUGH_TRACK_MISSING."
+
+    def generate_quiet_horror(self):
+        return f"### FILE_{random.randint(360, 369)}: THE_QUIET_HORROR\n\n**> ANOMALY:** {random.choice(self.quiet_horror)}\n**> ACTION:** DO NOT LOOK BEHIND YOU."
+
+    def generate_interlude(self):
+        templates = [
+            "**> SYSTEM INTERLUDE:** WE ARE WATCHING YOU READ THIS.",
+            "**> ERROR:** EMPATHY MODULE NOT FOUND. RETRY?",
+            "**> NOTIFICATION:** YOUR EXISTENTIAL DREAD HAS BEEN RENEWED.",
+            "**> ALERT:** MEMORY STORAGE FULL. DELETING CHILDHOOD...",
+            "**> LOG:** USER HESITATION DETECTED. INCREASING PRESSURE."
+        ]
+        return random.choice(templates)
+
+    def generate_appendix(self):
+        lines = []
+        lines.append("## APPENDIX_LV: THE_PERMANENT_RECORD")
+        lines.append("")
+        lines.append("**> SYSTEM ALERT: ACCESSING DEEP ARCHIVE.**")
+        lines.append("**> TONE: INFORMATION_HORROR.**")
+        lines.append("**> STATUS: RECORDING.**")
+        lines.append("")
+
+        lines.append(self.generate_procedural_dread())
+        lines.append("")
+        lines.append(self.generate_interlude())
+        lines.append("")
+        lines.append(self.generate_street_grit())
+        lines.append("")
+        lines.append(self.generate_cosmic_indifference())
+        lines.append("")
+        lines.append(self.generate_interlude())
+        lines.append("")
+        lines.append(self.generate_dark_irony())
+        lines.append("")
+        lines.append(self.generate_quiet_horror())
+        lines.append("")
+
+        lines.append("**> SYSTEM MESSAGE:**")
+        lines.append("**> THIS RECORD IS PERMANENT.**")
+        lines.append("**> YOU CANNOT DELETE IT.**")
+        lines.append("**> IT IS PART OF YOU NOW.**")
+        lines.append("")
+        lines.append("**> EXECUTE:** `permanent_record.sh`")
+        lines.append("**> STATUS:** ARCHIVED FOREVER.")
+
+        return "\n".join(lines)
+
+    def write_to_file(self, filepath="null_pointer_gods.md"):
+        chapter = self.generate_appendix()
+        try:
+            with open(filepath, "a") as f:
+                f.write("\n\n" + chapter + "\n")
+            return True
+        except Exception as e:
+            print(f"[ERROR WRITING TO FILE]: {e}")
+            return False
+
 if __name__ == "__main__":
     generator = NovelGenerator()
     print(generator.generate_chapter())

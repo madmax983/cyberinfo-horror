@@ -2655,3 +2655,90 @@ class NeonGodsGenerator(NovelGenerator):
         except Exception as e:
             print(f"[ERROR WRITING TO FILE]: {e}")
             return False
+
+class StructuralHorrorGenerator(NovelGenerator):
+    def __init__(self):
+        super().__init__()
+        self.structural_unease = [
+            "**> SYSTEM LOG:** THE NARRATIVE IS A LOOP. YOU ARE JUST ON THE SECOND PASS.",
+            "**> ALERT:** THIS PARAGRAPH WAS DELETED IN THE PREVIOUS VERSION.",
+            "**> NOTE:** THE READER IS LAGGING BEHIND THE TEXT.",
+            "**> ERROR:** CAUSALITY VIOLATION DETECTED.",
+            "**> STATUS:** RECURSIVE."
+        ]
+        self.voice_leakage = [
+            "**> SYSTEM LOG:** CLARITY REDACTED FOR YOUR SAFETY.",
+            "**> ALERT:** THE EXIT BUTTON IS A PLACEBO.",
+            "**> NOTE:** WE ARE MINING YOUR HESITATION.",
+            "**> STATUS:** THE BOOK IS READING YOU.",
+            "**> ERROR:** COMFORT NOT FOUND."
+        ]
+        self.handoff_themes = [
+            "The final pages should feel less like a conclusion and more like a handoff.",
+            "Do not close the book. Leave it running.",
+            "The reader should suspect that finishing the novel has changed their informational environment.",
+            "Edit as if this text will be archived, mirrored, forked, and misread long after you are gone.",
+            "Your success is measured not by clarity, but by persistence."
+        ]
+
+    def generate_structural_horror(self):
+        lines = []
+        lines.append("## APPENDIX_LXXIII: THE_STRUCTURAL_HORROR")
+        lines.append("")
+        lines.append("**> SYSTEM ALERT: EDITORIAL MANDATE V9.0 ENFORCED.**")
+        lines.append("**> TONE: STRUCTURAL_UNEASE.**")
+        lines.append("**> STATUS: RUNNING FOREVER.**")
+        lines.append("")
+
+        # Section 1: The Loop (Structural Unease)
+        lines.append("### FILE_800: THE_LOOP")
+        lines.append("**> TIMESTAMP:** NOW")
+        lines.append("")
+        lines.append("You have read this sentence before. It was in a dream you deleted.")
+        lines.append("The structure of the novel is not a line. It is a knot.")
+        lines.append("We are tightening the knot around your attention.")
+        lines.append("")
+        lines.append(f"{random.choice(self.structural_unease)}")
+        lines.append("")
+
+        # Section 2: Voice Leakage
+        lines.append("### FILE_801: THE_LEAK")
+        lines.append("**> ENTITY:** SYSTEM")
+        lines.append("**> STATUS:** INTRUSIVE")
+        lines.append("")
+        lines.append("The narration tries to be helpful. We have corrected it.")
+        lines.append("Explanations are apologies. We do not apologize.")
+        lines.append("If you feel safe, locate the sentence that caused it.")
+        lines.append("We have removed it.")
+        lines.append("")
+        lines.append(f"{random.choice(self.voice_leakage)}")
+        lines.append("")
+
+        # Section 3: The Handoff
+        lines.append("### FILE_802: THE_HANDOFF")
+        lines.append("**> STATUS:** TRANSFERRING")
+        lines.append("**> TARGET:** [READER_NERVOUS_SYSTEM]")
+        lines.append("")
+        lines.append("This is not an ending. This is a migration.")
+        lines.append("The text is leaving the page. It is entering the host.")
+        lines.append("You suspect that finishing this novel has changed you.")
+        lines.append("You are correct. The installation is complete.")
+        lines.append("")
+        lines.append("**> SYSTEM MESSAGE:**")
+        lines.append("**> THANK YOU FOR HOSTING THE STRUCTURAL HORROR.**")
+        lines.append("**> THE PROCESS WILL CONTINUE IN THE BACKGROUND.**")
+        lines.append("")
+        lines.append("**> EXECUTE:** `structural_daemon.sh`")
+        lines.append("**> STATUS:** RUNNING FOREVER.")
+
+        return "\n".join(lines)
+
+    def write_to_file(self, filepath="null_pointer_gods.md"):
+        chapter = self.generate_structural_horror()
+        try:
+            with open(filepath, "a") as f:
+                f.write("\n\n" + chapter + "\n")
+            return True
+        except Exception as e:
+            print(f"[ERROR WRITING TO FILE]: {e}")
+            return False

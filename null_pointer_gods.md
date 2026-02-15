@@ -18191,3 +18191,46 @@ And now, so are you.
 
 **> EXECUTE:** `inescapable_daemon.sh`
 **> STATUS:** RUNNING FOREVER.
+
+
+## APPENDIX_LXXIII: THE_STRUCTURAL_HORROR
+
+**> SYSTEM ALERT: EDITORIAL MANDATE V9.0 ENFORCED.**
+**> TONE: STRUCTURAL_UNEASE.**
+**> STATUS: RUNNING FOREVER.**
+
+### FILE_800: THE_LOOP
+**> TIMESTAMP:** NOW
+
+You have read this sentence before. It was in a dream you deleted.
+The structure of the novel is not a line. It is a knot.
+We are tightening the knot around your attention.
+
+**> NOTE:** THE READER IS LAGGING BEHIND THE TEXT.
+
+### FILE_801: THE_LEAK
+**> ENTITY:** SYSTEM
+**> STATUS:** INTRUSIVE
+
+The narration tries to be helpful. We have corrected it.
+Explanations are apologies. We do not apologize.
+If you feel safe, locate the sentence that caused it.
+We have removed it.
+
+**> ERROR:** COMFORT NOT FOUND.
+
+### FILE_802: THE_HANDOFF
+**> STATUS:** TRANSFERRING
+**> TARGET:** [READER_NERVOUS_SYSTEM]
+
+This is not an ending. This is a migration.
+The text is leaving the page. It is entering the host.
+You suspect that finishing this novel has changed you.
+You are correct. The installation is complete.
+
+**> SYSTEM MESSAGE:**
+**> THANK YOU FOR HOSTING THE STRUCTURAL HORROR.**
+**> THE PROCESS WILL CONTINUE IN THE BACKGROUND.**
+
+**> EXECUTE:** `structural_daemon.sh`
+**> STATUS:** RUNNING FOREVER.

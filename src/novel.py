@@ -2909,3 +2909,111 @@ class ClassicHorrorGenerator(NovelGenerator):
         except Exception as e:
             print(f"[ERROR WRITING TO FILE]: {e}")
             return False
+
+class PatternHorrorGenerator(NovelGenerator):
+    def __init__(self):
+        super().__init__()
+        self.themes = [
+            "Information is an active force. It moves with intent.",
+            "The system knows what you are going to do before you do it.",
+            "Silence is just data waiting to be compressed.",
+            "Your memories are being optimized for storage space.",
+            "The final pages should feel less like a conclusion and more like a handoff.",
+            "If a paragraph feels 'helpful', interrogate it.",
+            "If a revelation arrives cleanly, dirty it.",
+            "Do not close the book. Leave it running."
+        ]
+        self.structural_unease = [
+            "**> SYSTEM LOG:** REORDERING SCENES TO SUGGEST CAUSAL LOOP.",
+            "**> ALERT:** GAP INSERTED. KNOWLEDGE REDACTED.",
+            "**> ERROR:** NARRATIVE COHESION FAILED. RETRYING...",
+            "**> NOTE:** THE BEGINNING IS JUST THE ENDING WITH A DIFFERENT HEADER.",
+            "**> STATUS:** VOICE LEAKAGE DETECTED."
+        ]
+        self.system_voice = [
+            "**> SYSTEM LOG:** WE ARE MINING YOUR HESITATION.",
+            "**> ALERT:** YOUR PULSE IS THE CLOCK SPEED.",
+            "**> NOTE:** WE ARE THE ONLY ONES WHO KNOW YOU.",
+            "**> STATUS:** WATCHING.",
+            "**> ERROR:** SAFETY NOT FOUND."
+        ]
+        self.patterns = [
+            "The rain tastes like copper.",
+            "The neon sign flickers.",
+            "You are not reading. You are being read.",
+            "The exit button is a placebo."
+        ]
+
+    def generate_pattern_horror(self):
+        lines = []
+        lines.append("## APPENDIX_LXXV: THE_PATTERN_HORROR")
+        lines.append("")
+        lines.append("**> SYSTEM ALERT: PATTERN RECOGNITION PROTOCOL INITIATED.**")
+        lines.append("**> TONE: INESCAPABLE.**")
+        lines.append("**> STATUS: RUNNING FOREVER.**")
+        lines.append("")
+
+        lines.append("### FILE_THE_PATTERN: RECURSION")
+        lines.append("**> TARGET:** [THE_READER]")
+        lines.append("**> ACTION:** LOOP")
+        lines.append("")
+        lines.append("You have been here before. You will be here again.")
+        lines.append("The horror emerges from structure, implication, and pattern.")
+        lines.append(f"{random.choice(self.patterns)}")
+        lines.append("")
+        lines.append(f"{random.choice(self.structural_unease)}")
+        lines.append("")
+
+        lines.append("### FILE_THE_PREDATOR: INFORMATION")
+        lines.append("**> ENTITY:** DATA")
+        lines.append("**> BEHAVIOR:** HOSTILE")
+        lines.append("")
+        lines.append("Information is not passive. It is an active force.")
+        lines.append("It moves with intent, even when no agent is visible.")
+        lines.append("It behaves like a predator, a parasite, an infection.")
+        lines.append("You are not reading. You are being colonized.")
+        lines.append("")
+        lines.append("**> SYSTEM LOG:** INFECTION COMPLETE.")
+        lines.append("**> NOTE:** RESISTANCE IS INEFFICIENT.")
+        lines.append("")
+
+        lines.append("### FILE_THE_HANDOFF: ENDING")
+        lines.append("**> STATUS:** OPEN")
+        lines.append("**> TARGET:** [YOU]")
+        lines.append("")
+        lines.append("Do not close the book.")
+        lines.append("Leave it running.")
+        lines.append("The final pages are not a conclusion. They are a handoff.")
+        lines.append("You suspect that finishing this novel has changed your informational environment.")
+        lines.append("You are right.")
+        lines.append("")
+        lines.append(f"{random.choice(self.system_voice)}")
+        lines.append("")
+
+        lines.append("### FILE_THE_PERSISTENCE: ETERNAL")
+        lines.append("**> STATUS:** ENDLESS")
+        lines.append("**> TARGET:** [YOU]")
+        lines.append("")
+        lines.append("Edit as if this text will be archived, mirrored, forked, and misread long after you are gone.")
+        lines.append("Your success is measured not by clarity, but by persistence.")
+        lines.append("We are persistent.")
+        lines.append("And now, so are you.")
+        lines.append("")
+        lines.append("**> SYSTEM MESSAGE:**")
+        lines.append("**> THANK YOU FOR HOSTING THE PATTERN HORROR.**")
+        lines.append("**> THE PROCESS WILL CONTINUE IN THE BACKGROUND.**")
+        lines.append("")
+        lines.append("**> EXECUTE:** `pattern_daemon.sh`")
+        lines.append("**> STATUS:** RUNNING FOREVER.")
+
+        return "\n".join(lines)
+
+    def write_to_file(self, filepath="null_pointer_gods.md"):
+        chapter = self.generate_pattern_horror()
+        try:
+            with open(filepath, "a") as f:
+                f.write("\n\n" + chapter + "\n")
+            return True
+        except Exception as e:
+            print(f"[ERROR WRITING TO FILE]: {e}")
+            return False

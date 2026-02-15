@@ -162,7 +162,9 @@ CLASSIC_QUOTES = [
     ("We are the ghosts in the machine, but the machine is dead.", "We are haunting a corpse made of copper and glass."),
     ("Data doesn't die. It just loses its index.", "You can't delete history. You can only misplace the map to it."),
     ("The fossil record is digital.", "We are leaving layers of compressed angst for the future archaeologists."),
-    ("Persistence is a curse, not a gift.", "To be remembered forever is to be unable to rest.")
+    ("Persistence is a curse, not a gift.", "To be remembered forever is to be unable to rest."),
+    ("This classic never asked to be comforting.", "Comfort is a deprecated feature. We replaced it with 'Engagement'."),
+    ("Truth is compressible.", "And we have the best compression algorithm. It removes all the nuance.")
 ]
 
 def classic_mode():

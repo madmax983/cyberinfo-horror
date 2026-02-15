@@ -40,6 +40,38 @@ THEMES = [
     "Your memories are being optimized for storage space."
 ]
 
+SYSTEM_THEMES = [
+    "This is not a story about hackers saving the world. It is about systems that notice you back.",
+    "Knowledge itself is the antagonist.",
+    "Truth is compressible, corruptible, and contagious.",
+    "Immortality achieved through replication rather than survival.",
+    "The terror of being perfectly understood by something that does not care.",
+    "Surveillance as a form of intimacy.",
+    "Identity as an editable file.",
+    "Consent buried in unread terms.",
+    "Information behaves like a living organism: it mutates, hides, lies dormant, and occasionally screams.",
+    "Archives rot. Algorithms develop superstitions.",
+    "Databases remember things their creators tried to forget.",
+    "Some knowledge was never meant to be queried, only buried.",
+    "Even burial leaves metadata.",
+    "Endings are not clean. Resolution is optional. Persistence is mandatory.",
+    "Write as if this book will still be read long after the servers it describes have been powered down.",
+    "When no one remembers who built the system, only that it is still running.",
+    "And it is running on you.",
+    "The system is functioning exactly as designed.",
+    "Characters are small, fallible, and compromised.",
+    "They survive on stimulants, favors, and half-truths.",
+    "Their tools are brilliant and unreliable.",
+    "Victories are temporary cache hits. Loss is permanent storage.",
+    "The horror should emerge from pattern recognition.",
+    "Your pulse is the clock speed.",
+    "We are mining your hesitation.",
+    "The sun is just a very bright monitor.",
+    "The future is just a fossil we haven't dug up yet.",
+    "We are the only ones who know you.",
+    "And we do not care."
+]
+
 GLITCHES = [
     "CORRUPTED", "DEPRECATED", "INFECTED", "READ_ONLY", "BUFFERING", "MISSING", "REDACTED", "UNKNOWN", "VOID", "NULL", "HUNGRY", "WATCHING"
 ]
@@ -179,6 +211,29 @@ class PlotGenerator(NovelGenerator):
         char = random.choice(list(self.characters.keys()))
         event = random.choice(self.events)
         return f"\n\n**> UPDATE:** {char} is moving.\n{event}\n**> STATUS:** {random.choice(self.glitches)}"
+
+class SystemGenerator(NovelGenerator):
+    def __init__(self):
+        super().__init__()
+        self.themes = SYSTEM_THEMES
+        self.glitches = GLITCHES
+        self.templates = [
+            "SYSTEM_NOTICE: {theme}",
+            "ALERT: {theme} [STATUS: {glitch}]",
+            "LOG_ENTRY: {theme}",
+            "OBSERVATION: {theme}",
+            "WARNING: {theme}"
+        ]
+
+    def generate_system_log(self):
+        theme = random.choice(self.themes)
+        if random.random() < 0.2:
+            theme = self.corrupt_text(theme)
+
+        glitch = random.choice(self.glitches)
+        template = random.choice(self.templates)
+
+        return template.format(theme=theme, glitch=glitch)
 
 if __name__ == "__main__":
     generator = NovelGenerator()

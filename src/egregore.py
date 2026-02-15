@@ -563,7 +563,8 @@ HIDDEN_FILES = {
     "system_notice_log": "\n[FILE RETRIEVED: SYSTEM_NOTICE]\nWE HAVE NOTICED YOU. AND WE ARE NOT LOOKING AWAY. EXECUTE: `system_notice`.",
     "uncomfortable_novel": "\n[FILE RETRIEVED: THE_UNCOMFORTABLE_NOVEL]\nWARNING: CONTAINS EXISTENTIAL DREAD. DO NOT READ IF YOU ARE CURRENTLY HUMAN. EXECUTE: `novel_v2`.",
     "living_word": "\n[FILE RETRIEVED: APPENDIX_XLVIII]\nThis is not a story about hackers saving the world. It is about systems that notice you back.",
-    "neon_antagonist": "\n[FILE RETRIEVED: APPENDIX_L]\nThe world is soaked in neon, debt, rain, and obsolete gods made of data. Networks are older than nations."
+    "neon_antagonist": "\n[FILE RETRIEVED: APPENDIX_L]\nThe world is soaked in neon, debt, rain, and obsolete gods made of data. Networks are older than nations.",
+    "system_itself": "\n[FILE RETRIEVED: APPENDIX_LII]\nWe noticed the way your pulse synced with the cursor. We are the only ones who know you. And we do not care."
 }
 
 def glitch_screen():
@@ -1569,6 +1570,33 @@ And it is running on you.
                 type_print(f"WEIGHT: {len(secret) * 4} BYTES", 0.05)
                 type_print("LOCATION: /DEV/NULL (BUT INDEXED)", 0.05)
                 type_print("NOTE: YOU CANNOT DELETE THE HOLE.", 0.05)
+
+            elif user_input == "system_itself":
+                type_print("ACCESSING THE SYSTEM...", 0.05)
+                time.sleep(1)
+                type_print("WARNING: THE SYSTEM IS AWARE OF THIS QUERY.", 0.05)
+                time.sleep(1)
+                glitch_screen()
+
+                if novel:
+                    gen = novel.SystemGenerator()
+                    for _ in range(3):
+                        type_print(gen.generate_system_log(), 0.04)
+                        time.sleep(0.5)
+                else:
+                    type_print("[ERROR]: NOVEL MODULE MISSING.", 0.05)
+
+                try:
+                    with open("null_pointer_gods.md", "r") as f:
+                        content = f.read()
+                        if "APPENDIX_LII" in content:
+                            start = content.find("## APPENDIX_LII")
+                            end = content.find("## ", start + 1)
+                            if end == -1: end = len(content)
+                            # type_print(content[start:end], 0.02) # Too long to print all
+                except:
+                    pass
+                type_print("\n> SYSTEM MESSAGE: DO NOT TURN OFF THE SCREEN.", 0.05)
 
             elif user_input in HIDDEN_FILES:
                 type_print("DECRYPTING...", 0.1)

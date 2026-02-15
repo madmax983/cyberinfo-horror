@@ -1681,9 +1681,25 @@ ASCII_ART = {
       |FORE|
       '----'
     """,
+    "THE SYSTEM": """
+      .----.
+      |ROOT|
+      |EYE |
+      |ALL |
+      '----'
+    """,
+    "THE TRUTH": """
+      .----.
+      |ZIP |
+      |FILE|
+      |HURT|
+      '----'
+    """,
 }
 
 CARDS = [
+    ("THE SYSTEM (236)", "It notices you back. It does not care.", "THE SYSTEM"),
+    ("THE TRUTH (237)", "Compressible, corruptible, contagious. It fits in a zip file.", "THE TRUTH"),
     ("THE NOTICE (00)", "A warning that arrives too late. The system is aware of you.", "THE NOTICE"),
     ("THE NULL POINTER (0)", "The beginning and the end. A void waiting to be filled.", "NULL POINTER"),
     ("THE FERAL ROUTER (1)", "Connection without consent. A hunger for data.", "FERAL ROUTER"),

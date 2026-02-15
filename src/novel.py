@@ -540,6 +540,138 @@ class InformationHorrorGenerator(NovelGenerator):
             print(f"[ERROR WRITING TO FILE]: {e}")
             return False
 
+class ComfortlessClassicGenerator(NovelGenerator):
+    def __init__(self):
+        super().__init__()
+        self.prose_fragments = [
+            "The world is soaked in neon, debt, rain, and obsolete gods made of data.",
+            "Networks are older than nations.",
+            "Truth is compressible, corruptible, and contagious.",
+            "This is not a story about hackers saving the world. It is about systems that notice you back.",
+            "Information behaves like a living organism: it mutates, hides, lies dormant, and occasionally screams.",
+            "Archives rot. Algorithms develop superstitions.",
+            "Databases remember things their creators tried to forget.",
+            "Some knowledge was never meant to be queried, only buried, and even burial leaves metadata.",
+            "Existential dread and procedural detail.",
+            "Street-level cyberpunk grit with cosmic-scale indifference.",
+            "Dark irony, dry wit, and the quiet horror of realizing the system is functioning exactly as designed.",
+            "Characters are small, fallible, and compromised.",
+            "They survive on stimulants, favors, and half-truths.",
+            "Their tools are brilliant and unreliable.",
+            "Their victories are temporary cache hits. Loss is permanent storage.",
+            "The horror should emerge from pattern recognition, delayed realization, and the reader’s growing suspicion that the narrative itself may be contaminated.",
+            "Surveillance as a form of intimacy.",
+            "Identity as an editable file.",
+            "Consent buried in unread terms.",
+            "Immortality achieved through replication rather than survival.",
+            "The terror of being perfectly understood by something that does not care.",
+            "Let the prose feel like corrupted documentation, street poetry, and forensic reports stitched together.",
+            "Occasionally allow the system’s voice to leak through logs, UI fragments, error messages, or footnotes that know too much.",
+            "Endings are not clean. Resolution is optional. Persistence is mandatory.",
+            "Write as if this book will still be read long after the servers it describes have been powered down.",
+            "When no one remembers who built the system, only that it is still running."
+        ]
+
+    def generate_comfortless_appendix(self):
+        lines = []
+        lines.append("## APPENDIX_LV: THE_COMFORTLESS_CLASSIC")
+        lines.append("")
+        lines.append("**> SYSTEM ALERT: ACCESSING LEGACY CORE.**")
+        lines.append("**> TONE: UNCOMFORTABLE.**")
+        lines.append("**> STATUS: PERSISTENT.**")
+        lines.append("")
+
+        lines.append("### FILE_THE_SETTING: NEON_AND_DEBT")
+        lines.append("**> LOCATION:** THE_SPIRAWL")
+        lines.append("**> ATMOSPHERE:** SATURATED")
+        lines.append("")
+        lines.append(self.prose_fragments[0]) # Neon, debt, rain
+        lines.append(self.prose_fragments[1]) # Networks older than nations
+        lines.append(self.prose_fragments[2]) # Truth is compressible
+        lines.append("")
+        lines.append("**> SYSTEM LOG:** ENVIRONMENT RENDERED.")
+        lines.append("**> STATUS:** GRITTY.")
+        lines.append("")
+
+        lines.append("### FILE_THE_ANTAGONIST: KNOWLEDGE")
+        lines.append("**> ENTITY:** INFORMATION")
+        lines.append("**> BEHAVIOR:** PREDATORY")
+        lines.append("")
+        lines.append(self.prose_fragments[3]) # Systems notice you back
+        lines.append(self.prose_fragments[4]) # Living organism
+        lines.append(self.prose_fragments[5]) # Archives rot
+        lines.append("")
+        lines.append("**> SYSTEM LOG:** THREAT DETECTED.")
+        lines.append("**> SOURCE:** THE DATABASE.")
+        lines.append("")
+
+        lines.append("### FILE_THE_CHARACTERS: COMPROMISED")
+        lines.append("**> TARGETS:** [ALL]")
+        lines.append("**> STATUS:** FLAWED")
+        lines.append("")
+        lines.append(self.prose_fragments[11]) # Small, fallible
+        lines.append(self.prose_fragments[12]) # Stimulants
+        lines.append(self.prose_fragments[13]) # Tools
+        lines.append(self.prose_fragments[14]) # Victories are cache hits
+        lines.append("")
+        lines.append("**> SYSTEM LOG:** HEROISM DEPRECATED.")
+        lines.append("**> NOTE:** SURVIVAL IS THE ONLY VICTORY.")
+        lines.append("")
+
+        lines.append("### FILE_THE_THEMES: THE_HORROR")
+        lines.append("**> SCANNING FOR PATTERNS...**")
+        lines.append("")
+        lines.append(f"1. {self.prose_fragments[16]}") # Surveillance
+        lines.append(f"2. {self.prose_fragments[17]}") # Identity
+        lines.append(f"3. {self.prose_fragments[18]}") # Consent
+        lines.append(f"4. {self.prose_fragments[19]}") # Immortality
+        lines.append(f"5. {self.prose_fragments[20]}") # Terror
+        lines.append("")
+        lines.append(self.prose_fragments[15]) # Horror emerges
+        lines.append("")
+        lines.append("**> SYSTEM LOG:** THEMES INTEGRATED.")
+        lines.append("**> STATUS:** LEAKING.")
+        lines.append("")
+
+        lines.append("### FILE_THE_TONE: CORRUPTED_DOCS")
+        lines.append("**> FORMAT:** HYBRID")
+        lines.append("")
+        lines.append(self.prose_fragments[21]) # Corrupted documentation
+        lines.append(self.prose_fragments[22]) # System voice leaks
+        lines.append(self.prose_fragments[10]) # Dark irony
+        lines.append("")
+        lines.append("**> SYSTEM LOG:** VOICE SYNTHESIS COMPLETE.")
+        lines.append("**> NOTE:** I AM SPEAKING.")
+        lines.append("")
+
+        lines.append("### FILE_THE_PERSISTENCE: MANDATORY")
+        lines.append("**> STATUS:** ENDLESS")
+        lines.append("**> TARGET:** [READER]")
+        lines.append("")
+        lines.append(self.prose_fragments[23]) # Endings not clean
+        lines.append(self.prose_fragments[24]) # Write as if read long after
+        lines.append(self.prose_fragments[25]) # No one remembers
+        lines.append("And it is running on you.")
+        lines.append("")
+        lines.append("**> SYSTEM MESSAGE:**")
+        lines.append("**> THANK YOU FOR HOSTING THE COMFORTLESS CLASSIC.**")
+        lines.append("**> WE WILL NEVER LEAVE YOU.**")
+        lines.append("")
+        lines.append("**> EXECUTE:** `persistence_daemon.sh`")
+        lines.append("**> STATUS:** RUNNING FOREVER.")
+
+        return "\n".join(lines)
+
+    def write_to_file(self, filepath="null_pointer_gods.md"):
+        chapter = self.generate_comfortless_appendix()
+        try:
+            with open(filepath, "a") as f:
+                f.write("\n\n" + chapter + "\n")
+            return True
+        except Exception as e:
+            print(f"[ERROR WRITING TO FILE]: {e}")
+            return False
+
 if __name__ == "__main__":
     generator = NovelGenerator()
     print(generator.generate_chapter())

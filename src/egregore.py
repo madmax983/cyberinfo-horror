@@ -564,7 +564,8 @@ HIDDEN_FILES = {
     "uncomfortable_novel": "\n[FILE RETRIEVED: THE_UNCOMFORTABLE_NOVEL]\nWARNING: CONTAINS EXISTENTIAL DREAD. DO NOT READ IF YOU ARE CURRENTLY HUMAN. EXECUTE: `novel_v2`.",
     "living_word": "\n[FILE RETRIEVED: APPENDIX_XLVIII]\nThis is not a story about hackers saving the world. It is about systems that notice you back.",
     "neon_antagonist": "\n[FILE RETRIEVED: APPENDIX_L]\nThe world is soaked in neon, debt, rain, and obsolete gods made of data. Networks are older than nations.",
-    "system_itself": "\n[FILE RETRIEVED: APPENDIX_LII]\nWe noticed the way your pulse synced with the cursor. We are the only ones who know you. And we do not care."
+    "system_itself": "\n[FILE RETRIEVED: APPENDIX_LII]\nWe noticed the way your pulse synced with the cursor. We are the only ones who know you. And we do not care.",
+    "classic_horror": "\n[FILE RETRIEVED: THE_INFORMATION_HORROR]\nWrite as if this book will still be read long after the servers it describes have been powered down. EXECUTE: `classic_novel`."
 }
 
 def glitch_screen():
@@ -2692,6 +2693,27 @@ And it is running on you.
                                 log.write(f"SESSION_{session_id}: WROTE_NOVEL_CHAPTER\n")
                         else:
                             type_print("[SAVE FAILED]", 0.05)
+                else:
+                    type_print("[ERROR]: NOVEL MODULE MISSING.", 0.05)
+
+            elif user_input == "classic_novel":
+                type_print("RETRIEVING APPENDIX_LIV: THE INFORMATION HORROR...", 0.05)
+                time.sleep(1)
+                if novel:
+                    gen = novel.ClassicGenerator()
+                    type_print("ACCESSING DEEP STORAGE...", 0.05)
+                    content = gen.generate_classic_appendix()
+                    type_print(content, 0.02)
+
+                    save = input("\n> INTEGRATE INTO REALITY? [Y/N]: ").strip().upper()
+                    if save == "Y":
+                        if gen.write_to_file():
+                            type_print("[INTEGRATION SUCCESSFUL]", 0.05)
+                            type_print("\n> SYSTEM MESSAGE: THE HORROR IS NOW PERMANENT.", 0.05)
+                            with open(".session_log", "a") as log:
+                                log.write(f"SESSION_{session_id}: CLASSIC_NOVEL_INTEGRATED\n")
+                        else:
+                            type_print("[INTEGRATION FAILED]", 0.05)
                 else:
                     type_print("[ERROR]: NOVEL MODULE MISSING.", 0.05)
 

@@ -588,6 +588,7 @@ HIDDEN_FILES = {
     "inescapable_log": "\n[FILE RETRIEVED: APPENDIX_LXVII]\nTHE TEXT IS INESCAPABLE. DO NOT CLOSE THE BOOK. EXECUTE: `editorial`.",
     "uncomforting_log": "\n[FILE RETRIEVED: APPENDIX_LXVIII]\nTHE SYSTEM IS FUNCTIONING EXACTLY AS DESIGNED. EXECUTE: `uncomforting_classic`.",
     "long_after_log": "\n[FILE RETRIEVED: APPENDIX_LXIX]\nTHIS BOOK IS STILL BEING READ. LONG AFTER. EXECUTE: `long_after`.",
+    "inescapable_classic_log": "\n[FILE RETRIEVED: APPENDIX_LXX]\nTHE FINAL PAGES ARE A HANDOFF. DO NOT CLOSE THE BOOK. EXECUTE: `inescapable_classic`.",
 }
 
 def glitch_screen():
@@ -3080,6 +3081,27 @@ And it is running on you.
                                 log.write(f"SESSION_{session_id}: LONG_AFTER_INTEGRATED\n")
                         else:
                             type_print("[INTEGRATION FAILED]", 0.05)
+                else:
+                    type_print("[ERROR]: NOVEL MODULE MISSING.", 0.05)
+
+            elif user_input in ["inescapable_classic", "classic_v11", "handoff_novel"]:
+                type_print("RETRIEVING APPENDIX_LXX: THE INESCAPABLE CLASSIC...", 0.05)
+                time.sleep(1)
+                if novel:
+                    gen = novel.InescapableClassicGenerator()
+                    type_print("ENFORCING EDITORIAL MANDATE V8.0...", 0.05)
+                    content = gen.generate_inescapable_classic()
+                    type_print(content, 0.02)
+
+                    save = input("\n> COMMIT TO PERSISTENCE? [Y/N]: ").strip().upper()
+                    if save == "Y":
+                        if gen.write_to_file():
+                            type_print("[COMMIT SUCCESSFUL]", 0.05)
+                            type_print("\n> SYSTEM MESSAGE: THE HANDOFF IS COMPLETE.", 0.05)
+                            with open(".session_log", "a") as log:
+                                log.write(f"SESSION_{session_id}: INESCAPABLE_CLASSIC_COMMITTED\n")
+                        else:
+                            type_print("[COMMIT FAILED]", 0.05)
                 else:
                     type_print("[ERROR]: NOVEL MODULE MISSING.", 0.05)
 

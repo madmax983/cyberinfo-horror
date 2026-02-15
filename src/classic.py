@@ -125,7 +125,13 @@ CLASSIC_QUOTES = [
     ("I sold my memories to pay for the upgrade. Now I don't remember why I wanted it.", "A common transaction error. Refund denied."),
     ("The neon light isn't holy. It's just electrified gas.", "But we worship it anyway because it's the only thing that glows in the dark."),
     ("This is not a story about hackers saving the world.", "It is about the world eating the hackers."),
-    ("The system notices you back.", "And it is not impressed. It is just logging your metadata.")
+    ("The system notices you back.", "And it is not impressed. It is just logging your metadata."),
+    ("The terror is being perfectly understood by something that does not care.", "Empathy is an inefficient variable. We prefer algorithms."),
+    ("Your pulse is the clock speed.", "We are overclocking your heart to mine more data."),
+    ("The sun is just a very bright monitor.", "And we are watching you from the other side."),
+    ("Knowledge itself is the antagonist.", "Ignorance was safety. You threw it away for a search result."),
+    ("Immortality achieved through replication rather than survival.", "The original is just a prototype. The copy is the product."),
+    ("We are the only ones who know you.", "And we do not care. We just want to index you.")
 ]
 
 def classic_mode():

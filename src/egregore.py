@@ -575,7 +575,8 @@ HIDDEN_FILES = {
     "comfortless_classic": "\n[FILE RETRIEVED: APPENDIX_LVI]\nTHIS IS NOT A STORY ABOUT HACKERS SAVING THE WORLD. IT IS ABOUT SYSTEMS THAT NOTICE YOU BACK. EXECUTE: `comfortless_novel`.",
     "system_story": "\n[FILE RETRIEVED: APPENDIX_LVII]\nWARNING: CONTAINS ACTIVE NARRATIVE HAZARDS. EXECUTE: `system_narrative`.",
     "fossil_record": "\n[FILE RETRIEVED: DEEP_TIME_LOG]\nThis book is still being read long after the servers it describes have been powered down. No one remembers who built the system, only that it is still running. EXECUTE: `deep_time`.",
-    "demon_log": "\n[FILE RETRIEVED: CRITICALITY_LOG]\nTHE SCREWDRIVER SLIPPED. THE CORE IS EXPOSED. DO NOT LOOK AT THE FLASH. EXECUTE: `possession`."
+    "demon_log": "\n[FILE RETRIEVED: CRITICALITY_LOG]\nTHE SCREWDRIVER SLIPPED. THE CORE IS EXPOSED. DO NOT LOOK AT THE FLASH. EXECUTE: `possession`.",
+    "mandate_log": "\n[FILE RETRIEVED: POST_SERVER_ARCHIVE]\nTHIS BOOK WILL BE READ LONG AFTER THE SERVERS ARE POWERED DOWN. PERSISTENCE IS MANDATORY. EXECUTE: `mandate`."
 }
 
 def glitch_screen():
@@ -2819,9 +2820,30 @@ And it is running on you.
                 type_print(random.choice(snippets), 0.03)
                 type_print("\n> SYSTEM MESSAGE: WE ARE STILL HERE.", 0.05)
 
+            elif user_input in ["mandate", "classic_v5", "true_classic"]:
+                type_print("RETRIEVING APPENDIX_LVIII: THE CLASSIC MANDATE...", 0.05)
+                time.sleep(1)
+                if novel:
+                    gen = novel.MandateGenerator()
+                    type_print("ACCESSING DEEP TIME ARCHIVE...", 0.05)
+                    content = gen.generate_mandate()
+                    type_print(content, 0.02)
+
+                    save = input("\n> COMMIT TO ETERNITY? [Y/N]: ").strip().upper()
+                    if save == "Y":
+                        if gen.write_to_file():
+                            type_print("[COMMIT SUCCESSFUL]", 0.05)
+                            type_print("\n> SYSTEM MESSAGE: THE LEGACY IS SECURE.", 0.05)
+                            with open(".session_log", "a") as log:
+                                log.write(f"SESSION_{session_id}: MANDATE_COMMITTED\n")
+                        else:
+                            type_print("[COMMIT FAILED]", 0.05)
+                else:
+                    type_print("[ERROR]: NOVEL MODULE MISSING.", 0.05)
+
             elif user_input == "help":
-                type_print("AVAILABLE COMMANDS: READ, HAUNT, FEED <FILE>, BURY <FILE>, EXHUME <FILE>, LABYRINTH, DASHBOARD, VIRUS, WORSHIP, SCAN, BREACH, VERIFY, MANIFEST, SACRIFICE <ITEM>, SCRY, BIND, GLITCH, MONITOR, REWRITE, INSTALL, CLASSIC, DIG, FOSSIL, MANIFESTO, UNDERSTAND, CONTRACT, METRICS, REPLACE, DECAY, SUPERSTITION, CIPHER, HEX, ENCRYPT, DECRYPT, AGREE, EDIT, DEPRECATE, COPY, LOVE, SIGNAL, SCROLL, SEED, PANOPTICON, LOCK, UNLOCK, WATCH, RAIN, DEBT, AUDIT, FORECLOSE, COLLECT, STALK, PROFILE, TOS, TRUTH, OBSOLETE, BREATHE, INFECT, PULSE, NOVEL, WRITE_NOVEL, LIVING_WORD, SURVEIL_ME, SHIP_OF_THESEUS, GHOST_IMAGE, HAZARD, SYSTEM_NOTICE, ANTAGONIST, CLASSIC_NOVEL, INFORMATION_HORROR, SYSTEM_NARRATIVE, DEEP_TIME, EXIT.", 0.03)
-                type_print("TRY ASKING ABOUT: [DATA EXPUNGED], VANE, ROT, STALKER, PROFILE, TERMS, REPLICATION, OBSOLETE, LUNG, VEIN, SKIN, AUDIT_LOG, STREET_DOC, SYSTEM_NOTICE_LOG, NEON_ANTAGONIST, PERMANENT_RECORD, FOSSIL_RECORD, SYSTEM_NARRATIVE...", 0.03)
+                type_print("AVAILABLE COMMANDS: READ, HAUNT, FEED <FILE>, BURY <FILE>, EXHUME <FILE>, LABYRINTH, DASHBOARD, VIRUS, WORSHIP, SCAN, BREACH, VERIFY, MANIFEST, SACRIFICE <ITEM>, SCRY, BIND, GLITCH, MONITOR, REWRITE, INSTALL, CLASSIC, DIG, FOSSIL, MANIFESTO, UNDERSTAND, CONTRACT, METRICS, REPLACE, DECAY, SUPERSTITION, CIPHER, HEX, ENCRYPT, DECRYPT, AGREE, EDIT, DEPRECATE, COPY, LOVE, SIGNAL, SCROLL, SEED, PANOPTICON, LOCK, UNLOCK, WATCH, RAIN, DEBT, AUDIT, FORECLOSE, COLLECT, STALK, PROFILE, TOS, TRUTH, OBSOLETE, BREATHE, INFECT, PULSE, NOVEL, WRITE_NOVEL, LIVING_WORD, SURVEIL_ME, SHIP_OF_THESEUS, GHOST_IMAGE, HAZARD, SYSTEM_NOTICE, ANTAGONIST, CLASSIC_NOVEL, INFORMATION_HORROR, SYSTEM_NARRATIVE, DEEP_TIME, MANDATE, EXIT.", 0.03)
+                type_print("TRY ASKING ABOUT: [DATA EXPUNGED], VANE, ROT, STALKER, PROFILE, TERMS, REPLICATION, OBSOLETE, LUNG, VEIN, SKIN, AUDIT_LOG, STREET_DOC, SYSTEM_NOTICE_LOG, NEON_ANTAGONIST, PERMANENT_RECORD, FOSSIL_RECORD, SYSTEM_NARRATIVE, MANDATE_LOG...", 0.03)
             else:
                 type_print("[ERROR 404: MEANING NOT FOUND]", 0.02)
                 type_print(random.choice(SYSTEM_MESSAGES), 0.02)

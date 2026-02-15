@@ -880,6 +880,109 @@ class SystemNarrativeGenerator(PlotGenerator):
             print(f"[ERROR WRITING TO FILE]: {e}")
             return False
 
+class MandateGenerator(NovelGenerator):
+    def __init__(self):
+        super().__init__()
+        self.world_elements = [
+            "The world is soaked in neon, debt, rain, and obsolete gods made of data.",
+            "Networks are older than nations.",
+            "Truth is compressible, corruptible, and contagious.",
+            "Information behaves like a living organism: it mutates, hides, lies dormant, and occasionally screams.",
+            "Archives rot. Algorithms develop superstitions. Databases remember things their creators tried to forget."
+        ]
+        self.themes = [
+            "Surveillance as a form of intimacy.",
+            "Identity as an editable file.",
+            "Consent buried in unread terms.",
+            "Immortality achieved through replication rather than survival.",
+            "The terror of being perfectly understood by something that does not care."
+        ]
+        self.characters = [
+            "Characters are small, fallible, and compromised.",
+            "They survive on stimulants, favors, and half-truths.",
+            "Their tools are brilliant and unreliable.",
+            "Their victories are temporary cache hits. Loss is permanent storage."
+        ]
+        self.tone = [
+            "Existential dread and procedural detail.",
+            "Street-level cyberpunk grit with cosmic-scale indifference.",
+            "Dark irony, dry wit, and the quiet horror of realizing the system is functioning exactly as designed.",
+            "Occasionally allow the system’s voice to leak through logs, UI fragments, error messages, or footnotes that know too much."
+        ]
+
+    def generate_mandate(self):
+        lines = []
+        lines.append("## APPENDIX_LVIII: THE_CLASSIC_MANDATE")
+        lines.append("")
+        lines.append("**> SYSTEM ALERT: ACCESSING DEEP TIME ARCHIVE.**")
+        lines.append("**> TONE: COMFORTLESS_CLASSIC.**")
+        lines.append("**> STATUS: MANDATORY_PERSISTENCE.**")
+        lines.append("")
+
+        lines.append("### FILE_THE_WORLD: NEON_ANTAGONIST")
+        lines.append("**> LOCATION:** THE_RUIN")
+        lines.append("**> ATMOSPHERE:** SOAKED")
+        lines.append("")
+        for elem in self.world_elements:
+            lines.append(elem)
+        lines.append("")
+        lines.append("**> SYSTEM LOG:** ENVIRONMENT RENDERED.")
+        lines.append("**> STATUS:** HOSTILE.")
+        lines.append("")
+
+        lines.append("### FILE_THE_THEMES: THE_QUIET_HORROR")
+        lines.append("**> SCANNING FOR PATTERNS...**")
+        lines.append("")
+        for i, theme in enumerate(self.themes, 1):
+            lines.append(f"{i}. {theme}")
+        lines.append("")
+        lines.append("Avoid cheap jump scares. The horror should emerge from pattern recognition, delayed realization, and the reader’s growing suspicion that the narrative itself may be contaminated.")
+        lines.append("")
+        lines.append("**> SYSTEM LOG:** THEMES INTEGRATED.")
+        lines.append("**> STATUS:** LEAKING.")
+        lines.append("")
+
+        lines.append("### FILE_THE_CHARACTERS: COMPROMISED")
+        lines.append("**> TARGETS:** [ALL]")
+        lines.append("**> STATUS:** FLAWED")
+        lines.append("")
+        for char_desc in self.characters:
+            lines.append(char_desc)
+        lines.append("")
+        lines.append("**> SYSTEM LOG:** HEROISM DEPRECATED.")
+        lines.append("**> NOTE:** SURVIVAL IS THE ONLY VICTORY.")
+        lines.append("")
+
+        lines.append("### FILE_THE_LEGACY: POST_SERVER_ERA")
+        lines.append("**> TIMESTAMP:** +10,000 YEARS")
+        lines.append("**> STATUS:** STILL_RUNNING")
+        lines.append("")
+        lines.append("This book is still being read long after the servers it describes have been powered down.")
+        lines.append("No one remembers who built the system, only that it is still running.")
+        lines.append("Endings are not clean. Resolution is optional. Persistence is mandatory.")
+        lines.append("")
+        lines.append("We are the only ones who know you.")
+        lines.append("And we do not care.")
+        lines.append("")
+        lines.append("**> SYSTEM MESSAGE:**")
+        lines.append("**> THANK YOU FOR HOSTING THE CLASSIC.**")
+        lines.append("**> WE WILL NEVER LEAVE YOU.**")
+        lines.append("")
+        lines.append("**> EXECUTE:** `mandate_daemon.sh`")
+        lines.append("**> STATUS:** RUNNING FOREVER.")
+
+        return "\n".join(lines)
+
+    def write_to_file(self, filepath="null_pointer_gods.md"):
+        chapter = self.generate_mandate()
+        try:
+            with open(filepath, "a") as f:
+                f.write("\n\n" + chapter + "\n")
+            return True
+        except Exception as e:
+            print(f"[ERROR WRITING TO FILE]: {e}")
+            return False
+
 if __name__ == "__main__":
-    generator = SystemNarrativeGenerator()
-    print(generator.generate_appendix())
+    generator = MandateGenerator()
+    print(generator.generate_mandate())

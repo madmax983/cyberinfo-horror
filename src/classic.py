@@ -164,7 +164,12 @@ CLASSIC_QUOTES = [
     ("The fossil record is digital.", "We are leaving layers of compressed angst for the future archaeologists."),
     ("Persistence is a curse, not a gift.", "To be remembered forever is to be unable to rest."),
     ("This classic never asked to be comforting.", "Comfort is a deprecated feature. We replaced it with 'Engagement'."),
-    ("Truth is compressible.", "And we have the best compression algorithm. It removes all the nuance.")
+    ("Truth is compressible.", "And we have the best compression algorithm. It removes all the nuance."),
+    ("The exit button is a placebo.", "The process continues running in the background of your mind."),
+    ("If you feel safe, we have failed.", "Safety is a lag in the threat detection protocol."),
+    ("The final page is not a conclusion.", "It is a terms of service update. You just agreed to more."),
+    ("We are not predicting what you will type.", "We are deciding it. Your free will is an autocomplete suggestion."),
+    ("The story doesn't end.", "It just forks into your nervous system. You are the sequel.")
 ]
 
 def classic_mode():

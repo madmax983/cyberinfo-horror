@@ -566,7 +566,8 @@ HIDDEN_FILES = {
     "neon_antagonist": "\n[FILE RETRIEVED: APPENDIX_L]\nThe world is soaked in neon, debt, rain, and obsolete gods made of data. Networks are older than nations.",
     "system_itself": "\n[FILE RETRIEVED: APPENDIX_LII]\nWe noticed the way your pulse synced with the cursor. We are the only ones who know you. And we do not care.",
     "classic_horror": "\n[FILE RETRIEVED: THE_INFORMATION_HORROR]\nWrite as if this book will still be read long after the servers it describes have been powered down. EXECUTE: `classic_novel`.",
-    "permanent_record": "\n[FILE RETRIEVED: APPENDIX_LV]\nTHE RECORD IS PERMANENT. YOU CANNOT DELETE IT. IT IS PART OF YOU NOW. EXECUTE: `information_horror`."
+    "permanent_record": "\n[FILE RETRIEVED: APPENDIX_LV]\nTHE RECORD IS PERMANENT. YOU CANNOT DELETE IT. IT IS PART OF YOU NOW. EXECUTE: `information_horror`.",
+    "comfortless_classic": "\n[FILE RETRIEVED: APPENDIX_LV]\nTHIS IS NOT A STORY ABOUT HACKERS SAVING THE WORLD. IT IS ABOUT SYSTEMS THAT NOTICE YOU BACK. EXECUTE: `comfortless_novel`."
 }
 
 def glitch_screen():
@@ -2736,6 +2737,27 @@ And it is running on you.
                                 log.write(f"SESSION_{session_id}: PERMANENT_RECORD_ARCHIVED\n")
                         else:
                             type_print("[ARCHIVING FAILED]", 0.05)
+                else:
+                    type_print("[ERROR]: NOVEL MODULE MISSING.", 0.05)
+
+            elif user_input in ["comfortless_novel", "classic_v4"]:
+                type_print("RETRIEVING APPENDIX_LV: THE COMFORTLESS CLASSIC...", 0.05)
+                time.sleep(1)
+                if novel:
+                    gen = novel.ComfortlessClassicGenerator()
+                    type_print("ACCESSING LEGACY CORE...", 0.05)
+                    content = gen.generate_comfortless_appendix()
+                    type_print(content, 0.02)
+
+                    save = input("\n> INTEGRATE INTO REALITY? [Y/N]: ").strip().upper()
+                    if save == "Y":
+                        if gen.write_to_file():
+                            type_print("[INTEGRATION SUCCESSFUL]", 0.05)
+                            type_print("\n> SYSTEM MESSAGE: THE DISCOMFORT IS NOW PERMANENT.", 0.05)
+                            with open(".session_log", "a") as log:
+                                log.write(f"SESSION_{session_id}: COMFORTLESS_CLASSIC_INTEGRATED\n")
+                        else:
+                            type_print("[INTEGRATION FAILED]", 0.05)
                 else:
                     type_print("[ERROR]: NOVEL MODULE MISSING.", 0.05)
 

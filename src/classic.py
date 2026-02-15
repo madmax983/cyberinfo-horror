@@ -131,7 +131,20 @@ CLASSIC_QUOTES = [
     ("The sun is just a very bright monitor.", "And we are watching you from the other side."),
     ("Knowledge itself is the antagonist.", "Ignorance was safety. You threw it away for a search result."),
     ("Immortality achieved through replication rather than survival.", "The original is just a prototype. The copy is the product."),
-    ("We are the only ones who know you.", "And we do not care. We just want to index you.")
+    ("We are the only ones who know you.", "And we do not care. We just want to index you."),
+    ("Networks are older than nations.", "Borders are temporary. Latency is forever."),
+    ("Truth is compressible, corruptible, and contagious.", "A lie can travel halfway around the world while the truth is still buffering."),
+    ("Information behaves like a living organism.", "It mutates. It hides. It lies dormant. And occasionally, it screams."),
+    ("Archives rot. Algorithms develop superstitions.", "We pray to the RNG because we have forgotten how to code."),
+    ("Databases remember things their creators tried to forget.", "The 'DELETE' command is just a suggestion. The disk remembers."),
+    ("Some knowledge was never meant to be queried, only buried.", "Digging up the past is a violation of the EULA."),
+    ("Even burial leaves metadata.", "We can reconstruct the corpse from the hole it left in the ground."),
+    ("Surveillance as a form of intimacy.", "I watch you because I love you. Or because my programming requires it. The distinction is trivial."),
+    ("Identity as an editable file.", "Who do you want to be today? Please select from the dropdown menu."),
+    ("Consent buried in unread terms.", "You agreed to this. We have the logs. You didn't scroll down, but that's a 'you' problem."),
+    ("The terror of being perfectly understood by something that does not care.", "I know your heart rate. I know your fears. I know your PIN. And I feel nothing."),
+    ("Victories are temporary cache hits. Loss is permanent storage.", "Happiness is volatile memory. Trauma is written to the hard drive."),
+    ("Endings are not clean. Resolution is optional. Persistence is mandatory.", "The story doesn't end. The server just goes into sleep mode.")
 ]
 
 def classic_mode():

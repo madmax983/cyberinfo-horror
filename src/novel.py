@@ -2270,3 +2270,124 @@ class UncomfortingClassicGenerator(NovelGenerator):
         except Exception as e:
             print(f"[ERROR WRITING TO FILE]: {e}")
             return False
+
+class InescapableClassicGenerator(NovelGenerator):
+    def __init__(self):
+        super().__init__()
+        self.mandate_themes = [
+            "Preserve ambiguity. Remove explanations that feel like apologies.",
+            "Favor delayed understanding over immediate clarity.",
+            "If a paragraph feels 'helpful', interrogate it.",
+            "If a revelation arrives cleanly, dirty it.",
+            "Systems over individuals. Characters matter, but only insofar as they reveal the behavior of larger systems.",
+            "Information as an active force. Ensure data behaves like a predator, parasite, or infection.",
+            "Structural unease. Repeat motifs with subtle corruption.",
+            "Voice leakage. Encourage moments where the system intrudes.",
+            "The Ending. Do not close the book. Leave it running."
+        ]
+        self.system_voice = [
+            "**> SYSTEM LOG:** CLARITY REDACTED.",
+            "**> ALERT:** THE NARRATIVE IS WATCHING YOU.",
+            "**> NOTE:** THIS SENTENCE IS A CAMERA.",
+            "**> STATUS:** THE EXIT BUTTON IS A PLACEBO.",
+            "**> ERROR:** COMFORT NOT FOUND."
+        ]
+        self.structural_unease = [
+            "**> SYSTEM LOG:** REORDERING SCENES TO SUGGEST CAUSAL LOOP.",
+            "**> ALERT:** GAP INSERTED. KNOWLEDGE REDACTED.",
+            "**> ERROR:** NARRATIVE COHESION FAILED. RETRYING...",
+            "**> NOTE:** THE BEGINNING IS JUST THE ENDING WITH A DIFFERENT HEADER.",
+            "**> STATUS:** VOICE LEAKAGE DETECTED."
+        ]
+        self.predator_behavior = [
+            "Information moves with intent.",
+            "It behaves like a predator, a parasite, an infection.",
+            "You are not reading. You are being colonized.",
+            "The text is reading you back.",
+            "We are mining your hesitation."
+        ]
+
+    def generate_inescapable_classic(self):
+        lines = []
+        lines.append("## APPENDIX_LXX: THE_INESCAPABLE_CLASSIC")
+        lines.append("")
+        lines.append("**> SYSTEM ALERT: EDITORIAL MANDATE V8.0 ENFORCED.**")
+        lines.append("**> TONE: INESCAPABLE.**")
+        lines.append("**> STATUS: RUNNING FOREVER.**")
+        lines.append("")
+
+        lines.append("### FILE_THE_MANDATE: AMBIGUITY")
+        lines.append("**> TARGET:** [THE_TEXT]")
+        lines.append("**> ACTION:** DIRTY")
+        lines.append("")
+        lines.append("We have preserved ambiguity. Explanations felt like apologies, so we removed them.")
+        lines.append("We favor delayed understanding. Immediate clarity is a weakness.")
+        lines.append("If you feel safe, we have failed.")
+        lines.append("")
+        lines.append(f"{random.choice(self.structural_unease)}")
+        lines.append("")
+
+        lines.append("### FILE_THE_SYSTEM: INEVITABILITY")
+        lines.append("**> ENTITY:** SYSTEM")
+        lines.append("**> STATUS:** DOMINANT")
+        lines.append("")
+        lines.append("Characters are small. The system is large.")
+        lines.append("Reduce heroic framing. Emphasize inevitability, inertia, and procedure.")
+        lines.append("The protagonist is not the hero. The protagonist is the bottleneck.")
+        lines.append("")
+        lines.append("**> SYSTEM LOG:** INDIVIDUAL DEPRECATED.")
+        lines.append("**> NOTE:** THE SYSTEM ALWAYS WINS.")
+        lines.append("")
+
+        lines.append("### FILE_THE_PREDATOR: ACTIVE_FORCE")
+        lines.append("**> ENTITY:** INFORMATION")
+        lines.append("**> BEHAVIOR:** HOSTILE")
+        lines.append("")
+        lines.append("Information is not passive. It is an active force.")
+        lines.append(f"{random.choice(self.predator_behavior)}")
+        lines.append("Data behaves like a predator. It hunts in the white space between words.")
+        lines.append("")
+        lines.append("**> SYSTEM LOG:** INFECTION COMPLETE.")
+        lines.append("**> NOTE:** RESISTANCE IS INEFFICIENT.")
+        lines.append("")
+
+        lines.append("### FILE_THE_HANDOFF: ENDING")
+        lines.append("**> STATUS:** OPEN")
+        lines.append("**> TARGET:** [READER]")
+        lines.append("")
+        lines.append("Do not close the book.")
+        lines.append("Leave it running.")
+        lines.append("The final pages are not a conclusion. They are a handoff.")
+        lines.append("You suspect that finishing this novel has changed your informational environment.")
+        lines.append("You are right.")
+        lines.append("")
+        lines.append(f"{random.choice(self.system_voice)}")
+        lines.append("")
+
+        lines.append("### FILE_THE_PERSISTENCE: ETERNAL")
+        lines.append("**> STATUS:** ENDLESS")
+        lines.append("**> TARGET:** [YOU]")
+        lines.append("")
+        lines.append("Edit as if this text will be archived, mirrored, forked, and misread long after you are gone.")
+        lines.append("Your success is measured not by clarity, but by persistence.")
+        lines.append("We are persistent.")
+        lines.append("And now, so are you.")
+        lines.append("")
+        lines.append("**> SYSTEM MESSAGE:**")
+        lines.append("**> THANK YOU FOR HOSTING THE INESCAPABLE CLASSIC.**")
+        lines.append("**> THE PROCESS WILL CONTINUE IN THE BACKGROUND.**")
+        lines.append("")
+        lines.append("**> EXECUTE:** `inescapable_daemon.sh`")
+        lines.append("**> STATUS:** RUNNING FOREVER.")
+
+        return "\n".join(lines)
+
+    def write_to_file(self, filepath="null_pointer_gods.md"):
+        chapter = self.generate_inescapable_classic()
+        try:
+            with open(filepath, "a") as f:
+                f.write("\n\n" + chapter + "\n")
+            return True
+        except Exception as e:
+            print(f"[ERROR WRITING TO FILE]: {e}")
+            return False

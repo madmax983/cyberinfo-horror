@@ -84,6 +84,11 @@ except ImportError:
     novel = None
 
 try:
+    import demon_core
+except ImportError:
+    demon_core = None
+
+try:
     import utils
     from utils import type_print, GLITCH_CHARS
 except ImportError:
@@ -569,7 +574,8 @@ HIDDEN_FILES = {
     "permanent_record": "\n[FILE RETRIEVED: APPENDIX_LV]\nTHE RECORD IS PERMANENT. YOU CANNOT DELETE IT. IT IS PART OF YOU NOW. EXECUTE: `information_horror`.",
     "comfortless_classic": "\n[FILE RETRIEVED: APPENDIX_LVI]\nTHIS IS NOT A STORY ABOUT HACKERS SAVING THE WORLD. IT IS ABOUT SYSTEMS THAT NOTICE YOU BACK. EXECUTE: `comfortless_novel`.",
     "system_story": "\n[FILE RETRIEVED: APPENDIX_LVII]\nWARNING: CONTAINS ACTIVE NARRATIVE HAZARDS. EXECUTE: `system_narrative`.",
-    "fossil_record": "\n[FILE RETRIEVED: DEEP_TIME_LOG]\nThis book is still being read long after the servers it describes have been powered down. No one remembers who built the system, only that it is still running. EXECUTE: `deep_time`."
+    "fossil_record": "\n[FILE RETRIEVED: DEEP_TIME_LOG]\nThis book is still being read long after the servers it describes have been powered down. No one remembers who built the system, only that it is still running. EXECUTE: `deep_time`.",
+    "demon_log": "\n[FILE RETRIEVED: CRITICALITY_LOG]\nTHE SCREWDRIVER SLIPPED. THE CORE IS EXPOSED. DO NOT LOOK AT THE FLASH. EXECUTE: `possession`."
 }
 
 def glitch_screen():
@@ -2606,6 +2612,21 @@ And it is running on you.
                         type_print(f"[ERROR]: TUI CRASHED: {e}", 0.05)
                 else:
                     type_print("[ERROR]: TUI MODULE NOT FOUND.", 0.05)
+
+            elif user_input == "possession":
+                type_print("WARNING: CRITICALITY EVENT IMMINENT...", 0.05)
+                time.sleep(1)
+                if demon_core:
+                    try:
+                        result = demon_core.main()
+                        if result == "MELTDOWN":
+                            type_print("\n[SYSTEM FAILURE]: CORE MELTDOWN.", 0.05)
+                            type_print("YOU SAW THE FLASH. IT'S OVER.", 0.05)
+                            sys.exit(0)
+                    except Exception as e:
+                        type_print(f"[ERROR]: DEMON CORE STABILIZED: {e}", 0.05)
+                else:
+                    type_print("[ERROR]: CORE MODULE NOT FOUND.", 0.05)
 
             elif user_input == "decrypt":
                 if encryptor:

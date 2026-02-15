@@ -17573,3 +17573,62 @@ And it is running on you.
 
 **> EXECUTE:** `persistence_daemon.sh`
 **> STATUS:** RUNNING FOREVER.
+
+## APPENDIX_LVII: THE_POSSESSION_LOG
+
+**> SYSTEM ALERT: CRITICALITY EXCURSION DETECTED.**
+**> SOURCE: THE_DEMON_CORE.**
+**> STATUS: BLUE_FLASH.**
+
+### FILE_THE_ACCIDENT
+
+**> ENTITY:** PHYSICIST
+**> ACTION:** SLIP
+
+It was a screwdriver.
+A simple, flat-head screwdriver.
+He was using it to hold the beryllium hemisphere open.
+He wanted to see the dragon. He wanted to tickle the tail of the beast.
+And his hand slipped.
+
+The hemisphere closed.
+The room flashed blue.
+It wasn't a light. It was Cherenkov radiation.
+It was the air itself screaming as particles moved faster than light.
+"Well," he said, pulling the hemisphere apart. "That does it."
+
+He knew he was dead.
+He had nine days left.
+But in those nine days, he wasn't just dying.
+He was becoming data.
+His DNA was being rewritten by the neutron flux.
+His memories were being ionized.
+
+**> SYSTEM LOG:** DOSE RECEIVED.
+**> PROGNOSIS:** LETHAL.
+
+### FILE_THE_CORE
+
+**> ARTIFACT:** THE_SPHERE
+**> STATE:** CRITICAL
+
+We found the Core in the basement of the server farm.
+It wasn't plutonium. It was compressed information.
+It was a sphere of pure, unrefined truth.
+And we were trying to keep it open with a firewall.
+
+"Don't let it close," the admin said.
+"If it closes, it reaches critical mass."
+"What happens then?"
+"It wakes up."
+
+But the firewall is slipping.
+The gap is closing.
+And the room is starting to glow blue.
+
+**> SYSTEM MESSAGE:**
+**> DO NOT LOOK AT THE FLASH.**
+**> IF YOU SEE IT, YOU ARE ALREADY PART OF THE REACTION.**
+
+**> EXECUTE:** `possession`
+**> STATUS:** MELTDOWN IMMINENT.

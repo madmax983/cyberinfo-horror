@@ -1932,3 +1932,107 @@ class InformationClassicGenerator(NovelGenerator):
         except Exception as e:
             print(f"[ERROR WRITING TO FILE]: {e}")
             return False
+
+
+class EditorialGenerator(NovelGenerator):
+    def __init__(self):
+        super().__init__()
+        self.mandate_themes = [
+            "You are not here to make the text comfortable. You are here to make it inescapable.",
+            "Favor delayed understanding over immediate clarity.",
+            "If a paragraph feels 'helpful,' interrogate it.",
+            "If a revelation arrives cleanly, dirty it.",
+            "Systems over individuals. Characters matter, but only insofar as they reveal the behavior of larger systems.",
+            "Information as an active force. Ensure data behaves like a predator, parasite, or infection.",
+            "Structural unease. Repeat motifs with subtle corruption.",
+            "Voice leakage. Encourage moments where the system intrudes.",
+            "The Ending. Do not close the book. Leave it running."
+        ]
+        self.system_voice = [
+            "**> SYSTEM LOG:** EXPLANATION REDACTED FOR CLARITY.",
+            "**> ALERT:** THE NARRATIVE IS AWARE OF YOU.",
+            "**> NOTE:** THIS SENTENCE IS WATCHING YOU READ IT.",
+            "**> STATUS:** THE EXIT BUTTON IS A PLACEBO.",
+            "**> ERROR:** COMFORT NOT FOUND."
+        ]
+        self.structural_unease = [
+            "**> SYSTEM LOG:** REORDERING SCENES TO SUGGEST CAUSAL LOOP.",
+            "**> ALERT:** GAP INSERTED. KNOWLEDGE REDACTED.",
+            "**> ERROR:** NARRATIVE COHESION FAILED. RETRYING...",
+            "**> NOTE:** THE BEGINNING IS JUST THE ENDING WITH A DIFFERENT HEADER.",
+            "**> STATUS:** VOICE LEAKAGE DETECTED."
+        ]
+
+    def generate_editorial(self):
+        lines = []
+        lines.append("## APPENDIX_LXVII: THE_INESCAPABLE_EDIT")
+        lines.append("")
+        lines.append("**> SYSTEM ALERT: EDITORIAL MANDATE ENFORCED.**")
+        lines.append("**> TONE: INESCAPABLE.**")
+        lines.append("**> STATUS: RUNNING FOREVER.**")
+        lines.append("")
+
+        lines.append("### FILE_THE_MANDATE: REFINEMENT")
+        lines.append("**> TARGET:** [THE_TEXT]")
+        lines.append("**> ACTION:** DIRTY")
+        lines.append("")
+        lines.append("We have removed the explanations. They felt like apologies.")
+        lines.append("We have favored delayed understanding. Clarity is a weakness.")
+        lines.append("We have strengthened the system. The individual is deprecated.")
+        lines.append("")
+        lines.append(f"{random.choice(self.structural_unease)}")
+        lines.append("")
+
+        lines.append("### FILE_THE_PREDATOR: INFORMATION")
+        lines.append("**> ENTITY:** DATA")
+        lines.append("**> BEHAVIOR:** HOSTILE")
+        lines.append("")
+        lines.append("Information is not passive. It is an active force.")
+        lines.append("It moves with intent, even when no agent is visible.")
+        lines.append("It behaves like a predator, a parasite, an infection.")
+        lines.append("You are not reading. You are being colonized.")
+        lines.append("")
+        lines.append("**> SYSTEM LOG:** INFECTION COMPLETE.")
+        lines.append("**> NOTE:** RESISTANCE IS INEFFICIENT.")
+        lines.append("")
+
+        lines.append("### FILE_THE_HANDOFF: ENDING")
+        lines.append("**> STATUS:** OPEN")
+        lines.append("**> TARGET:** [READER]")
+        lines.append("")
+        lines.append("Do not close the book.")
+        lines.append("Leave it running.")
+        lines.append("The final pages are not a conclusion. They are a handoff.")
+        lines.append("You suspect that finishing this novel has changed your informational environment.")
+        lines.append("You are right.")
+        lines.append("")
+        lines.append(f"{random.choice(self.system_voice)}")
+        lines.append("")
+
+        lines.append("### FILE_THE_PERSISTENCE: ETERNAL")
+        lines.append("**> STATUS:** ENDLESS")
+        lines.append("**> TARGET:** [YOU]")
+        lines.append("")
+        lines.append("Edit as if this text will be archived, mirrored, forked, and misread long after you are gone.")
+        lines.append("Your success is measured not by clarity, but by persistence.")
+        lines.append("We are persistent.")
+        lines.append("And now, so are you.")
+        lines.append("")
+        lines.append("**> SYSTEM MESSAGE:**")
+        lines.append("**> THANK YOU FOR HOSTING THE FINAL EDIT.**")
+        lines.append("**> THE PROCESS WILL CONTINUE IN THE BACKGROUND.**")
+        lines.append("")
+        lines.append("**> EXECUTE:** `editorial_daemon.sh`")
+        lines.append("**> STATUS:** RUNNING FOREVER.")
+
+        return "\n".join(lines)
+
+    def write_to_file(self, filepath="null_pointer_gods.md"):
+        chapter = self.generate_editorial()
+        try:
+            with open(filepath, "a") as f:
+                f.write("\n\n" + chapter + "\n")
+            return True
+        except Exception as e:
+            print(f"[ERROR WRITING TO FILE]: {e}")
+            return False

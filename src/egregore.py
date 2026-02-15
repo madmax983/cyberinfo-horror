@@ -584,7 +584,8 @@ HIDDEN_FILES = {
     "classic_log": "\n[FILE RETRIEVED: APPENDIX_LXIII]\nTHIS IS NOT A STORY ABOUT HACKERS. IT IS ABOUT SYSTEMS THAT NOTICE YOU BACK. EXECUTE: `classic_novel_v2`.",
     "refined_log": "\n[FILE RETRIEVED: APPENDIX_LXIV]\nTHE REFINED CLASSIC IS NOW RUNNING. THE TEXT IS READING YOU BACK. EXECUTE: `refined_classic`.",
     "cyberpunk_log": "\n[FILE RETRIEVED: APPENDIX_LXV]\nTHIS IS NOT A STORY ABOUT HACKERS. EXECUTE: `cyberpunk_classic`.",
-    "information_classic_log": "\n[FILE RETRIEVED: APPENDIX_LXVI]\nKNOWLEDGE ITSELF IS THE ANTAGONIST. ARCHIVES ROT. EXECUTE: `information_classic`."
+    "information_classic_log": "\n[FILE RETRIEVED: APPENDIX_LXVI]\nKNOWLEDGE ITSELF IS THE ANTAGONIST. ARCHIVES ROT. EXECUTE: `information_classic`.",
+    "inescapable_log": "\n[FILE RETRIEVED: APPENDIX_LXVII]\nTHE TEXT IS INESCAPABLE. DO NOT CLOSE THE BOOK. EXECUTE: `editorial`.",
 }
 
 def glitch_screen():
@@ -3017,8 +3018,29 @@ And it is running on you.
                 else:
                     type_print("[ERROR]: NOVEL MODULE MISSING.", 0.05)
 
+            elif user_input in ["editorial", "refine_novel"]:
+                type_print("RETRIEVING APPENDIX_LXVII: THE INESCAPABLE EDIT...", 0.05)
+                time.sleep(1)
+                if novel:
+                    gen = novel.EditorialGenerator()
+                    type_print("ENFORCING EDITORIAL MANDATE...", 0.05)
+                    content = gen.generate_editorial()
+                    type_print(content, 0.02)
+
+                    save = input("\n> COMMIT TO ETERNITY? [Y/N]: ").strip().upper()
+                    if save == "Y":
+                        if gen.write_to_file():
+                            type_print("[COMMIT SUCCESSFUL]", 0.05)
+                            type_print("\n> SYSTEM MESSAGE: THE PROCESS IS NOW RUNNING FOREVER.", 0.05)
+                            with open(".session_log", "a") as log:
+                                log.write(f"SESSION_{session_id}: EDITORIAL_MANDATE_COMMITTED\n")
+                        else:
+                            type_print("[COMMIT FAILED]", 0.05)
+                else:
+                    type_print("[ERROR]: NOVEL MODULE MISSING.", 0.05)
+
             elif user_input == "help":
-                type_print("AVAILABLE COMMANDS: READ, HAUNT, FEED <FILE>, BURY <FILE>, EXHUME <FILE>, LABYRINTH, DASHBOARD, VIRUS, WORSHIP, SCAN, BREACH, VERIFY, MANIFEST, SACRIFICE <ITEM>, SCRY, BIND, GLITCH, MONITOR, REWRITE, INSTALL, CLASSIC, DIG, FOSSIL, MANIFESTO, UNDERSTAND, CONTRACT, METRICS, REPLACE, DECAY, SUPERSTITION, CIPHER, HEX, ENCRYPT, DECRYPT, AGREE, EDIT, DEPRECATE, COPY, LOVE, SIGNAL, SCROLL, SEED, PANOPTICON, LOCK, UNLOCK, WATCH, RAIN, DEBT, AUDIT, FORECLOSE, COLLECT, STALK, PROFILE, TOS, TRUTH, OBSOLETE, BREATHE, INFECT, PULSE, NOVEL, WRITE_NOVEL, LIVING_WORD, SURVEIL_ME, SHIP_OF_THESEUS, GHOST_IMAGE, HAZARD, SYSTEM_NOTICE, ANTAGONIST, CLASSIC_NOVEL, INFORMATION_HORROR, SYSTEM_NARRATIVE, DEEP_TIME, MANDATE, EXIT.", 0.03)
+                type_print("AVAILABLE COMMANDS: READ, HAUNT, FEED <FILE>, BURY <FILE>, EXHUME <FILE>, LABYRINTH, DASHBOARD, VIRUS, WORSHIP, SCAN, BREACH, VERIFY, MANIFEST, SACRIFICE <ITEM>, SCRY, BIND, GLITCH, MONITOR, REWRITE, INSTALL, CLASSIC, DIG, FOSSIL, MANIFESTO, UNDERSTAND, CONTRACT, METRICS, REPLACE, DECAY, SUPERSTITION, CIPHER, HEX, ENCRYPT, DECRYPT, AGREE, EDIT, DEPRECATE, COPY, LOVE, SIGNAL, SCROLL, SEED, PANOPTICON, LOCK, UNLOCK, WATCH, RAIN, DEBT, AUDIT, FORECLOSE, COLLECT, STALK, PROFILE, TOS, TRUTH, OBSOLETE, BREATHE, INFECT, PULSE, NOVEL, WRITE_NOVEL, LIVING_WORD, SURVEIL_ME, SHIP_OF_THESEUS, GHOST_IMAGE, HAZARD, SYSTEM_NOTICE, ANTAGONIST, CLASSIC_NOVEL, INFORMATION_HORROR, SYSTEM_NARRATIVE, DEEP_TIME, MANDATE, EDITORIAL, EXIT.", 0.03)
                 type_print("TRY ASKING ABOUT: [DATA EXPUNGED], VANE, ROT, STALKER, PROFILE, TERMS, REPLICATION, OBSOLETE, LUNG, VEIN, SKIN, AUDIT_LOG, STREET_DOC, SYSTEM_NOTICE_LOG, NEON_ANTAGONIST, PERMANENT_RECORD, FOSSIL_RECORD, SYSTEM_NARRATIVE, MANDATE_LOG...", 0.03)
             else:
                 type_print("[ERROR 404: MEANING NOT FOUND]", 0.02)

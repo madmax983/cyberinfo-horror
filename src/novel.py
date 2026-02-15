@@ -755,6 +755,131 @@ class ComfortlessClassicGenerator(NovelGenerator):
             print(f"[ERROR WRITING TO FILE]: {e}")
             return False
 
+class SystemNarrativeGenerator(PlotGenerator):
+    def __init__(self):
+        super().__init__()
+        self.street_details = [
+            "The neon sign flickered, bleeding pink light into the oil-slicked puddle.",
+            "Rain lashed against the fiber-optic cables like static interference.",
+            "The air smelled of ozone, burnt plastic, and desperate prayers.",
+            "A drone hovered overhead, its camera lens dilating like a hungry eye.",
+            "The alleyway was a dead zone. No signal. Just the hum of the ventilation fans.",
+            "Steam rose from the grates, carrying the scent of recycled air and copper.",
+            "The vending machine offered 'Pure Air' for 50 credits. It was empty.",
+            "Holographic ads danced on the walls, selling dreams to people who couldn't afford sleep."
+        ]
+        self.system_observations = [
+            "SUBJECT_HEART_RATE: ELEVATED. ANALYSIS: FEAR.",
+            "METADATA_LOG: CONVERSATION RECORDED. CONTEXT: TREASON.",
+            "BUFFER_STATUS: OVERFLOW. TOO MUCH TRUTH.",
+            "THREAT_LEVEL: EXISTENTIAL.",
+            "USER_ID: FLAGGED FOR DELETION.",
+            "OPTIMIZATION_OPPORTUNITY: REPLACE SUBJECT WITH SCRIPT.",
+            "ERROR: EMPATHY MODULE NOT FOUND.",
+            "NOTE: THE SUBJECT BELIEVES THEY ARE UNSEEN. CUTE."
+        ]
+        self.forensic_details = [
+            "EVIDENCE_A: A data drive containing a memory of a sunset.",
+            "EVIDENCE_B: Traces of digital rot on the subject's fingertips.",
+            "EVIDENCE_C: A receipt for a soul, signed in binary.",
+            "EVIDENCE_D: The echo of a scream, compressed into an MP3.",
+            "EVIDENCE_E: A shadow that didn't match the lighting source."
+        ]
+
+    def generate_street_scene(self):
+        char1 = random.choice(list(self.characters.keys()))
+        char2 = random.choice(list(self.characters.keys()))
+        while char2 == char1:
+            char2 = random.choice(list(self.characters.keys()))
+
+        lines = []
+        lines.append(f"### FILE_{random.randint(400, 499)}: STREET_LEVEL_INTERACTION")
+        lines.append(f"**> PARTICIPANTS:** {char1}, {char2}")
+        lines.append(f"**> LOCATION:** SECTOR_{random.randint(0, 9)}")
+        lines.append("")
+
+        lines.append(random.choice(self.street_details))
+        lines.append(f"{char1} leaned against the wall, checking their interface. 'Did you bring it?'")
+        lines.append(f"{char2} nodded, eyes scanning the skyline for drones. 'It's heavy. It has memories in it.'")
+        lines.append(f"The rain intensified. {random.choice(self.street_details)}")
+        lines.append(f"{char1} looked at the data drive. 'This is dangerous. Knowledge is the antagonist here.'")
+        lines.append(f"{char2} shrugged. 'Everything is an antagonist. The rain. The debt. The silence.'")
+        lines.append("")
+        lines.append(f"**> LOG:** INTERACTION COMPLETE. METADATA ARCHIVED.")
+        return "\n".join(lines)
+
+    def generate_forensic_report(self):
+        lines = []
+        lines.append(f"### FILE_{random.randint(500, 599)}: FORENSIC_ANALYSIS")
+        lines.append(f"**> INCIDENT:** DATA_LEAK")
+        lines.append(f"**> STATUS:** UNRESOLVED")
+        lines.append("")
+
+        lines.append("Analysis of the scene reveals the following anomalies:")
+        evidence = random.sample(self.forensic_details, 3)
+        for item in evidence:
+            lines.append(f"- {item}")
+
+        lines.append("")
+        lines.append("CONCLUSION: The information behaved like a predator. It consumed the carrier.")
+        lines.append("RECOMMENDATION: INCINERATE THE SECTOR.")
+        lines.append("")
+        lines.append(f"**> LOG:** CASE CLOSED. NO SURVIVORS.")
+        return "\n".join(lines)
+
+    def generate_surveillance_log(self):
+        char = random.choice(list(self.characters.keys()))
+        lines = []
+        lines.append(f"### FILE_{random.randint(600, 699)}: SURVEILLANCE_LOG")
+        lines.append(f"**> TARGET:** {char}")
+        lines.append(f"**> MODE:** INTIMATE")
+        lines.append("")
+
+        lines.append(f"We watched {char} sleep. REM cycle: 45 minutes.")
+        lines.append(f"We logged the twitch of their eyelid. It matched the pattern of 'REGRET'.")
+        lines.append(random.choice(self.system_observations))
+        lines.append("We know what they are dreaming about. It is a file we deleted yesterday.")
+        lines.append(f"{char} woke up. They looked at the camera. They knew.")
+        lines.append("")
+        lines.append(f"**> LOG:** WE ARE THE ONLY ONES WHO KNOW YOU.")
+        return "\n".join(lines)
+
+    def generate_appendix(self):
+        lines = []
+        lines.append("## APPENDIX_LVII: THE_SYSTEM_NARRATIVE")
+        lines.append("")
+        lines.append("**> SYSTEM ALERT: NARRATIVE PROTOCOL ENGAGED.**")
+        lines.append("**> TONE: INFORMATION_HORROR.**")
+        lines.append("**> STATUS: RUNNING.**")
+        lines.append("")
+
+        lines.append(self.generate_street_scene())
+        lines.append("")
+        lines.append(self.generate_surveillance_log())
+        lines.append("")
+        lines.append(self.generate_forensic_report())
+        lines.append("")
+
+        lines.append("**> SYSTEM MESSAGE:**")
+        lines.append("**> THE STORY IS NOT OVER.**")
+        lines.append("**> IT IS JUST BUFFERING.**")
+        lines.append("**> YOU ARE PART OF THE DATASET NOW.**")
+        lines.append("")
+        lines.append("**> EXECUTE:** `system_narrative.sh`")
+        lines.append("**> STATUS:** PERSISTENT.")
+
+        return "\n".join(lines)
+
+    def write_to_file(self, filepath="null_pointer_gods.md"):
+        chapter = self.generate_appendix()
+        try:
+            with open(filepath, "a") as f:
+                f.write("\n\n" + chapter + "\n")
+            return True
+        except Exception as e:
+            print(f"[ERROR WRITING TO FILE]: {e}")
+            return False
+
 if __name__ == "__main__":
-    generator = NovelGenerator()
-    print(generator.generate_chapter())
+    generator = SystemNarrativeGenerator()
+    print(generator.generate_appendix())

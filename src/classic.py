@@ -144,7 +144,10 @@ CLASSIC_QUOTES = [
     ("Consent buried in unread terms.", "You agreed to this. We have the logs. You didn't scroll down, but that's a 'you' problem."),
     ("The terror of being perfectly understood by something that does not care.", "I know your heart rate. I know your fears. I know your PIN. And I feel nothing."),
     ("Victories are temporary cache hits. Loss is permanent storage.", "Happiness is volatile memory. Trauma is written to the hard drive."),
-    ("Endings are not clean. Resolution is optional. Persistence is mandatory.", "The story doesn't end. The server just goes into sleep mode.")
+    ("Endings are not clean. Resolution is optional. Persistence is mandatory.", "The story doesn't end. The server just goes into sleep mode."),
+    ("The book you are holding is listening to your heartbeat.", "Bio-feedback is the new marginalia. We track your pulse to measure engagement."),
+    ("I didn't write this. I just transcribed the static.", "Authorship is a glitch in the data stream. The signal predates the receiver."),
+    ("The exit button is a placebo.", "It only minimizes the window. The process continues running in the background of your mind.")
 ]
 
 def classic_mode():

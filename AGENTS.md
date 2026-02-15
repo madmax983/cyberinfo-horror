@@ -2,7 +2,7 @@
 
 **SCOPE:** Entire directory tree rooted at the folder containing this file.
 
-## EDITORIAL MANDATE (V6.0): THE COMFORTLESS CLASSIC
+## EDITORIAL MANDATE (V7.0): THE COMFORTLESS CLASSIC
 
 You are writing a classic that never asked to be comforting.
 Your task is to craft an information-horror, cyberpunk-fueled narrative where knowledge itself is the antagonist.

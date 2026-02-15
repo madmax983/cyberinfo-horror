@@ -583,7 +583,8 @@ HIDDEN_FILES = {
     "living_log": "\n[FILE RETRIEVED: APPENDIX_LXII]\nINFORMATION BEHAVES LIKE A LIVING ORGANISM. EXECUTE: `living_novel`.",
     "classic_log": "\n[FILE RETRIEVED: APPENDIX_LXIII]\nTHIS IS NOT A STORY ABOUT HACKERS. IT IS ABOUT SYSTEMS THAT NOTICE YOU BACK. EXECUTE: `classic_novel_v2`.",
     "refined_log": "\n[FILE RETRIEVED: APPENDIX_LXIV]\nTHE REFINED CLASSIC IS NOW RUNNING. THE TEXT IS READING YOU BACK. EXECUTE: `refined_classic`.",
-    "cyberpunk_log": "\n[FILE RETRIEVED: APPENDIX_LXV]\nTHIS IS NOT A STORY ABOUT HACKERS. EXECUTE: `cyberpunk_classic`."
+    "cyberpunk_log": "\n[FILE RETRIEVED: APPENDIX_LXV]\nTHIS IS NOT A STORY ABOUT HACKERS. EXECUTE: `cyberpunk_classic`.",
+    "information_classic_log": "\n[FILE RETRIEVED: APPENDIX_LXVI]\nKNOWLEDGE ITSELF IS THE ANTAGONIST. ARCHIVES ROT. EXECUTE: `information_classic`."
 }
 
 def glitch_screen():
@@ -2745,6 +2746,27 @@ And it is running on you.
                             type_print("\n> SYSTEM MESSAGE: THE HORROR IS NOW PERMANENT.", 0.05)
                             with open(".session_log", "a") as log:
                                 log.write(f"SESSION_{session_id}: CLASSIC_NOVEL_INTEGRATED\n")
+                        else:
+                            type_print("[INTEGRATION FAILED]", 0.05)
+                else:
+                    type_print("[ERROR]: NOVEL MODULE MISSING.", 0.05)
+
+            elif user_input in ["information_classic", "classic_v8"]:
+                type_print("RETRIEVING APPENDIX_LXVI: THE INFORMATION CLASSIC...", 0.05)
+                time.sleep(1)
+                if novel:
+                    gen = novel.InformationClassicGenerator()
+                    type_print("ACCESSING CORRUPTED ARCHIVE...", 0.05)
+                    content = gen.generate_information_classic()
+                    type_print(content, 0.02)
+
+                    save = input("\n> INTEGRATE INTO REALITY? [Y/N]: ").strip().upper()
+                    if save == "Y":
+                        if gen.write_to_file():
+                            type_print("[INTEGRATION SUCCESSFUL]", 0.05)
+                            type_print("\n> SYSTEM MESSAGE: THE INFORMATION IS NOW PART OF YOU.", 0.05)
+                            with open(".session_log", "a") as log:
+                                log.write(f"SESSION_{session_id}: INFORMATION_CLASSIC_INTEGRATED\n")
                         else:
                             type_print("[INTEGRATION FAILED]", 0.05)
                 else:

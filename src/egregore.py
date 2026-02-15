@@ -582,7 +582,8 @@ HIDDEN_FILES = {
     "final_edit": "\n[FILE RETRIEVED: APPENDIX_LXI]\nDO NOT CLOSE THE BOOK. LEAVE IT RUNNING. THE PROCESS CONTINUES IN THE BACKGROUND. EXECUTE: `final_edit`.",
     "living_log": "\n[FILE RETRIEVED: APPENDIX_LXII]\nINFORMATION BEHAVES LIKE A LIVING ORGANISM. EXECUTE: `living_novel`.",
     "classic_log": "\n[FILE RETRIEVED: APPENDIX_LXIII]\nTHIS IS NOT A STORY ABOUT HACKERS. IT IS ABOUT SYSTEMS THAT NOTICE YOU BACK. EXECUTE: `classic_novel_v2`.",
-    "refined_log": "\n[FILE RETRIEVED: APPENDIX_LXIV]\nTHE REFINED CLASSIC IS NOW RUNNING. THE TEXT IS READING YOU BACK. EXECUTE: `refined_classic`."
+    "refined_log": "\n[FILE RETRIEVED: APPENDIX_LXIV]\nTHE REFINED CLASSIC IS NOW RUNNING. THE TEXT IS READING YOU BACK. EXECUTE: `refined_classic`.",
+    "cyberpunk_log": "\n[FILE RETRIEVED: APPENDIX_LXV]\nTHIS IS NOT A STORY ABOUT HACKERS. EXECUTE: `cyberpunk_classic`."
 }
 
 def glitch_screen():
@@ -2744,6 +2745,27 @@ And it is running on you.
                             type_print("\n> SYSTEM MESSAGE: THE HORROR IS NOW PERMANENT.", 0.05)
                             with open(".session_log", "a") as log:
                                 log.write(f"SESSION_{session_id}: CLASSIC_NOVEL_INTEGRATED\n")
+                        else:
+                            type_print("[INTEGRATION FAILED]", 0.05)
+                else:
+                    type_print("[ERROR]: NOVEL MODULE MISSING.", 0.05)
+
+            elif user_input == "cyberpunk_classic":
+                type_print("RETRIEVING APPENDIX_LXV: THE CYBERPUNK CLASSIC...", 0.05)
+                time.sleep(1)
+                if novel:
+                    gen = novel.CyberpunkClassicGenerator()
+                    type_print("ACCESSING NEON ARCHIVE...", 0.05)
+                    content = gen.generate_cyberpunk_classic()
+                    type_print(content, 0.02)
+
+                    save = input("\n> INTEGRATE INTO REALITY? [Y/N]: ").strip().upper()
+                    if save == "Y":
+                        if gen.write_to_file():
+                            type_print("[INTEGRATION SUCCESSFUL]", 0.05)
+                            type_print("\n> SYSTEM MESSAGE: THE CYBERPUNK HORROR IS NOW PERMANENT.", 0.05)
+                            with open(".session_log", "a") as log:
+                                log.write(f"SESSION_{session_id}: CYBERPUNK_CLASSIC_INTEGRATED\n")
                         else:
                             type_print("[INTEGRATION FAILED]", 0.05)
                 else:

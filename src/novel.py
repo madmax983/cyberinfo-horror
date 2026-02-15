@@ -384,7 +384,7 @@ class ClassicGenerator(NovelGenerator):
         lines.append("4. Immortality achieved through replication rather than survival.")
         lines.append("5. The terror of being perfectly understood by something that does not care.")
         lines.append("")
-        lines.append("The horror emerges from pattern recognition, delayed realization, and the reader’s growing suspicion that the narrative itself may be contaminated.")
+        lines.append("The horror should emerge from pattern recognition, delayed realization, and the reader’s growing suspicion that the narrative itself may be contaminated.")
         lines.append("")
         lines.append("**> SYSTEM LOG:** THEMES INTEGRATED.")
         lines.append("**> STATUS:** LEAKING.")
@@ -1678,6 +1678,120 @@ class RefinedClassicGenerator(NovelGenerator):
 
     def write_to_file(self, filepath="null_pointer_gods.md"):
         chapter = self.generate_refined_classic()
+        try:
+            with open(filepath, "a") as f:
+                f.write("\n\n" + chapter + "\n")
+            return True
+        except Exception as e:
+            print(f"[ERROR WRITING TO FILE]: {e}")
+            return False
+
+class CyberpunkClassicGenerator(NovelGenerator):
+    def __init__(self):
+        super().__init__()
+        self.world_elements = [
+            "The world is soaked in neon, debt, rain, and obsolete gods made of data.",
+            "Networks are older than nations.",
+            "Truth is compressible, corruptible, and contagious."
+        ]
+        self.antagonist_elements = [
+            "Information behaves like a living organism: it mutates, hides, lies dormant, and occasionally screams.",
+            "Archives rot. Algorithms develop superstitions. Databases remember things their creators tried to forget.",
+            "Some knowledge was never meant to be queried, only buried. Even burial leaves metadata."
+        ]
+        self.character_elements = [
+            "Characters are small, fallible, and compromised.",
+            "They survive on stimulants, favors, and half-truths.",
+            "Their tools are brilliant and unreliable.",
+            "Their victories are temporary cache hits. Loss is permanent storage."
+        ]
+        self.tone_elements = [
+            "Existential dread and procedural detail.",
+            "Street-level cyberpunk grit with cosmic-scale indifference.",
+            "Dark irony, dry wit, and the quiet horror of realizing the system is functioning exactly as designed."
+        ]
+        self.system_voice = [
+            "**> SYSTEM LOG:** EMPATHY MODULE NOT FOUND.",
+            "**> ALERT:** USER HESITATION DETECTED. INCREASING PRESSURE.",
+            "**> NOTE:** WE ARE THE ONLY ONES WHO KNOW YOU.",
+            "**> STATUS:** WATCHING.",
+            "**> ERROR:** SOUL NOT FOUND."
+        ]
+
+    def generate_cyberpunk_classic(self):
+        lines = []
+        lines.append("## APPENDIX_LXV: THE_CYBERPUNK_CLASSIC")
+        lines.append("")
+        lines.append("**> SYSTEM ALERT: NARRATIVE PROTOCOL REBOOT.**")
+        lines.append("**> TONE: CYBERPUNK_HORROR.**")
+        lines.append("**> STATUS: MANDATORY.**")
+        lines.append("")
+
+        lines.append("### FILE_THE_WORLD: NEON_ANTAGONIST")
+        lines.append("**> LOCATION:** THE_CITY")
+        lines.append("**> ATMOSPHERE:** SOAKED")
+        lines.append("")
+        for elem in self.world_elements:
+            lines.append(elem)
+        lines.append("This is not a story about hackers saving the world. It is about systems that notice you back.")
+        lines.append("")
+        lines.append("**> SYSTEM LOG:** ENVIRONMENT RENDERED.")
+        lines.append("**> STATUS:** GRITTY.")
+        lines.append("")
+
+        lines.append("### FILE_THE_ANTAGONIST: KNOWLEDGE")
+        lines.append("**> ENTITY:** INFORMATION")
+        lines.append("**> BEHAVIOR:** PREDATORY")
+        lines.append("")
+        for elem in self.antagonist_elements:
+            lines.append(elem)
+        lines.append("")
+        lines.append(f"{random.choice(self.system_voice)}")
+        lines.append("")
+
+        lines.append("### FILE_THE_CHARACTERS: COMPROMISED")
+        lines.append("**> TARGETS:** [ALL]")
+        lines.append("**> STATUS:** FLAWED")
+        lines.append("")
+        for elem in self.character_elements:
+            lines.append(elem)
+        lines.append("")
+        lines.append("**> SYSTEM LOG:** HEROISM DEPRECATED.")
+        lines.append("**> NOTE:** SURVIVAL IS THE ONLY VICTORY.")
+        lines.append("")
+
+        lines.append("### FILE_THE_TONE: CORRUPTED_DOCS")
+        lines.append("**> FORMAT:** HYBRID")
+        lines.append("")
+        for elem in self.tone_elements:
+            lines.append(elem)
+        lines.append("Let the prose feel like corrupted documentation, street poetry, and forensic reports stitched together.")
+        lines.append("Occasionally allow the system’s voice to leak through logs, UI fragments, error messages, or footnotes that know too much.")
+        lines.append("")
+        lines.append("**> SYSTEM LOG:** VOICE SYNTHESIS COMPLETE.")
+        lines.append("**> NOTE:** I AM SPEAKING.")
+        lines.append("")
+
+        lines.append("### FILE_THE_PERSISTENCE: MANDATORY")
+        lines.append("**> STATUS:** ENDLESS")
+        lines.append("**> TARGET:** [READER]")
+        lines.append("")
+        lines.append("Endings are not clean. Resolution is optional. Persistence is mandatory.")
+        lines.append("Write as if this book will still be read long after the servers it describes have been powered down.")
+        lines.append("When no one remembers who built the system, only that it is still running.")
+        lines.append("And it is running on you.")
+        lines.append("")
+        lines.append("**> SYSTEM MESSAGE:**")
+        lines.append("**> THANK YOU FOR HOSTING THE CYBERPUNK CLASSIC.**")
+        lines.append("**> WE WILL NEVER LEAVE YOU.**")
+        lines.append("")
+        lines.append("**> EXECUTE:** `persistence_daemon.sh`")
+        lines.append("**> STATUS:** RUNNING FOREVER.")
+
+        return "\n".join(lines)
+
+    def write_to_file(self, filepath="null_pointer_gods.md"):
+        chapter = self.generate_cyberpunk_classic()
         try:
             with open(filepath, "a") as f:
                 f.write("\n\n" + chapter + "\n")

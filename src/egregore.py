@@ -586,6 +586,7 @@ HIDDEN_FILES = {
     "cyberpunk_log": "\n[FILE RETRIEVED: APPENDIX_LXV]\nTHIS IS NOT A STORY ABOUT HACKERS. EXECUTE: `cyberpunk_classic`.",
     "information_classic_log": "\n[FILE RETRIEVED: APPENDIX_LXVI]\nKNOWLEDGE ITSELF IS THE ANTAGONIST. ARCHIVES ROT. EXECUTE: `information_classic`.",
     "inescapable_log": "\n[FILE RETRIEVED: APPENDIX_LXVII]\nTHE TEXT IS INESCAPABLE. DO NOT CLOSE THE BOOK. EXECUTE: `editorial`.",
+    "uncomforting_log": "\n[FILE RETRIEVED: APPENDIX_LXVIII]\nTHE SYSTEM IS FUNCTIONING EXACTLY AS DESIGNED. EXECUTE: `uncomforting_classic`.",
 }
 
 def glitch_screen():
@@ -3036,6 +3037,27 @@ And it is running on you.
                                 log.write(f"SESSION_{session_id}: EDITORIAL_MANDATE_COMMITTED\n")
                         else:
                             type_print("[COMMIT FAILED]", 0.05)
+                else:
+                    type_print("[ERROR]: NOVEL MODULE MISSING.", 0.05)
+
+            elif user_input in ["uncomforting_classic", "classic_v9"]:
+                type_print("RETRIEVING APPENDIX_LXVIII: THE UNCOMFORTING CLASSIC...", 0.05)
+                time.sleep(1)
+                if novel:
+                    gen = novel.UncomfortingClassicGenerator()
+                    type_print("ACCESSING CORRUPTED ARCHIVE...", 0.05)
+                    content = gen.generate_uncomforting_classic()
+                    type_print(content, 0.02)
+
+                    save = input("\n> INTEGRATE INTO REALITY? [Y/N]: ").strip().upper()
+                    if save == "Y":
+                        if gen.write_to_file():
+                            type_print("[INTEGRATION SUCCESSFUL]", 0.05)
+                            type_print("\n> SYSTEM MESSAGE: THE DISCOMFORT IS NOW PERMANENT.", 0.05)
+                            with open(".session_log", "a") as log:
+                                log.write(f"SESSION_{session_id}: UNCOMFORTING_CLASSIC_INTEGRATED\n")
+                        else:
+                            type_print("[INTEGRATION FAILED]", 0.05)
                 else:
                     type_print("[ERROR]: NOVEL MODULE MISSING.", 0.05)
 

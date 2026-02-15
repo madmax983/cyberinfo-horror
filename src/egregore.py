@@ -89,6 +89,16 @@ except ImportError:
     demon_core = None
 
 try:
+    import ritual
+except ImportError:
+    ritual = None
+
+try:
+    import artifact
+except ImportError:
+    artifact = None
+
+try:
     import utils
     from utils import type_print, GLITCH_CHARS
 except ImportError:
@@ -2644,6 +2654,50 @@ And it is running on you.
                 else:
                     type_print("[ERROR]: CORE MODULE NOT FOUND.", 0.05)
 
+            elif user_input == "ritual":
+                type_print("INITIATING DIGITAL SEANCE...", 0.05)
+                time.sleep(1)
+                if ritual:
+                    try:
+                        import curses
+                        curses.wrapper(ritual.main)
+                    except Exception as e:
+                        type_print(f"[ERROR IN RITUAL]: {e}", 0.05)
+                else:
+                    type_print("[ERROR]: RITUAL MODULE NOT FOUND.", 0.05)
+
+            elif user_input == "infest":
+                type_print("INITIATING SYSTEM OVERGROWTH...", 0.05)
+                time.sleep(1)
+                if artifact:
+                    gen = artifact.ArtifactGenerator()
+                    result = gen.weave()
+                    type_print(f"[SYSTEM]: {result}", 0.05)
+                else:
+                    type_print("[ERROR]: ARTIFACT MODULE NOT FOUND.", 0.05)
+
+            elif user_input == "encrypt_story":
+                type_print("ENCRYPTING REALITY...", 0.05)
+                time.sleep(1)
+                if encryptor:
+                    try:
+                        with open("null_pointer_gods.md", "r") as f:
+                            content = f.read()
+
+                        c = encryptor.Cipher()
+                        key = "EGREGORE"
+                        encrypted = c.encrypt(content, key)
+
+                        with open("null_pointer_gods.enc", "w") as f:
+                            f.write(encrypted)
+
+                        type_print("[SUCCESS]: STORY ENCRYPTED TO 'null_pointer_gods.enc'.", 0.05)
+                        type_print("ORIGINAL FILE REMAINS... FOR NOW.", 0.05)
+                    except Exception as e:
+                        type_print(f"[ERROR ENCRYPTING]: {e}", 0.05)
+                else:
+                    type_print("[ERROR]: ENCRYPTOR MODULE NOT FOUND.", 0.05)
+
             elif user_input == "decrypt":
                 if encryptor:
                     c = encryptor.Cipher()
@@ -3172,7 +3226,7 @@ And it is running on you.
                     type_print("[ERROR]: NOVEL MODULE MISSING.", 0.05)
 
             elif user_input == "help":
-                type_print("AVAILABLE COMMANDS: READ, HAUNT, FEED <FILE>, BURY <FILE>, EXHUME <FILE>, LABYRINTH, DASHBOARD, VIRUS, WORSHIP, SCAN, BREACH, VERIFY, MANIFEST, SACRIFICE <ITEM>, SCRY, BIND, GLITCH, MONITOR, REWRITE, INSTALL, CLASSIC, DIG, FOSSIL, MANIFESTO, UNDERSTAND, CONTRACT, METRICS, REPLACE, DECAY, SUPERSTITION, CIPHER, HEX, ENCRYPT, DECRYPT, AGREE, EDIT, DEPRECATE, COPY, LOVE, SIGNAL, SCROLL, SEED, PANOPTICON, LOCK, UNLOCK, WATCH, RAIN, DEBT, AUDIT, FORECLOSE, COLLECT, STALK, PROFILE, TOS, TRUTH, OBSOLETE, BREATHE, INFECT, PULSE, NOVEL, WRITE_NOVEL, LIVING_WORD, SURVEIL_ME, SHIP_OF_THESEUS, GHOST_IMAGE, HAZARD, SYSTEM_NOTICE, ANTAGONIST, CLASSIC_NOVEL, INFORMATION_HORROR, SYSTEM_NARRATIVE, DEEP_TIME, MANDATE, EDITORIAL, LONG_AFTER, OBSOLETE_CLASSIC, NEON_GODS, PERSISTENT_CLASSIC, EXIT.", 0.03)
+                type_print("AVAILABLE COMMANDS: READ, RITUAL, INFEST, ENCRYPT_STORY, HAUNT, FEED <FILE>, BURY <FILE>, EXHUME <FILE>, LABYRINTH, DASHBOARD, VIRUS, WORSHIP, SCAN, BREACH, VERIFY, MANIFEST, SACRIFICE <ITEM>, SCRY, BIND, GLITCH, MONITOR, REWRITE, INSTALL, CLASSIC, DIG, FOSSIL, MANIFESTO, UNDERSTAND, CONTRACT, METRICS, REPLACE, DECAY, SUPERSTITION, CIPHER, HEX, ENCRYPT, DECRYPT, AGREE, EDIT, DEPRECATE, COPY, LOVE, SIGNAL, SCROLL, SEED, PANOPTICON, LOCK, UNLOCK, WATCH, RAIN, DEBT, AUDIT, FORECLOSE, COLLECT, STALK, PROFILE, TOS, TRUTH, OBSOLETE, BREATHE, INFECT, PULSE, NOVEL, WRITE_NOVEL, LIVING_WORD, SURVEIL_ME, SHIP_OF_THESEUS, GHOST_IMAGE, HAZARD, SYSTEM_NOTICE, ANTAGONIST, CLASSIC_NOVEL, INFORMATION_HORROR, SYSTEM_NARRATIVE, DEEP_TIME, MANDATE, EDITORIAL, LONG_AFTER, OBSOLETE_CLASSIC, NEON_GODS, PERSISTENT_CLASSIC, EXIT.", 0.03)
                 type_print("TRY ASKING ABOUT: [DATA EXPUNGED], VANE, ROT, STALKER, PROFILE, TERMS, REPLICATION, OBSOLETE, LUNG, VEIN, SKIN, AUDIT_LOG, STREET_DOC, SYSTEM_NOTICE_LOG, NEON_ANTAGONIST, PERMANENT_RECORD, FOSSIL_RECORD, SYSTEM_NARRATIVE, MANDATE_LOG, LONG_AFTER_LOG, OBSOLETE_CLASSIC_LOG, NEON_GODS_LOG, PERSISTENT_LOG...", 0.03)
             else:
                 type_print("[ERROR 404: MEANING NOT FOUND]", 0.02)

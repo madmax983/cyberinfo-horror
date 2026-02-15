@@ -157,7 +157,12 @@ CLASSIC_QUOTES = [
     ("The sun is a camera.", "And the moon is a microphone. The sky is a surveillance state."),
     ("We are mining your hesitation.", "Your pause was logged. It tells us everything we need to know."),
     ("Structural unease.", "The narrative is not broken. It is just bent into a loop."),
-    ("The system knows what you are going to do before you do it.", "Free will is a lag in the prediction engine.")
+    ("The system knows what you are going to do before you do it.", "Free will is a lag in the prediction engine."),
+    ("The echo outlasts the voice.", "Reverberation is the only form of immortality we offer."),
+    ("We are the ghosts in the machine, but the machine is dead.", "We are haunting a corpse made of copper and glass."),
+    ("Data doesn't die. It just loses its index.", "You can't delete history. You can only misplace the map to it."),
+    ("The fossil record is digital.", "We are leaving layers of compressed angst for the future archaeologists."),
+    ("Persistence is a curse, not a gift.", "To be remembered forever is to be unable to rest.")
 ]
 
 def classic_mode():

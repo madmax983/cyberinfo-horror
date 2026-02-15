@@ -580,7 +580,8 @@ HIDDEN_FILES = {
     "true_classic": "\n[FILE RETRIEVED: APPENDIX_LIX]\nTHE SYSTEM IS FUNCTIONING EXACTLY AS DESIGNED. SURVEILLANCE IS INTIMACY. EXECUTE: `classic_final`.",
     "official_classic": "\n[FILE RETRIEVED: APPENDIX_LX]\nTHIS IS NOT A STORY ABOUT HACKERS SAVING THE WORLD. EXECUTE: `official_classic`.",
     "final_edit": "\n[FILE RETRIEVED: APPENDIX_LXI]\nDO NOT CLOSE THE BOOK. LEAVE IT RUNNING. THE PROCESS CONTINUES IN THE BACKGROUND. EXECUTE: `final_edit`.",
-    "living_log": "\n[FILE RETRIEVED: APPENDIX_LXII]\nINFORMATION BEHAVES LIKE A LIVING ORGANISM. EXECUTE: `living_novel`."
+    "living_log": "\n[FILE RETRIEVED: APPENDIX_LXII]\nINFORMATION BEHAVES LIKE A LIVING ORGANISM. EXECUTE: `living_novel`.",
+    "classic_log": "\n[FILE RETRIEVED: APPENDIX_LXIII]\nTHIS IS NOT A STORY ABOUT HACKERS. IT IS ABOUT SYSTEMS THAT NOTICE YOU BACK. EXECUTE: `classic_novel_v2`."
 }
 
 def glitch_screen():
@@ -2924,6 +2925,27 @@ And it is running on you.
                             type_print("\n> SYSTEM MESSAGE: THE INFORMATION IS NOW ALIVE.", 0.05)
                             with open(".session_log", "a") as log:
                                 log.write(f"SESSION_{session_id}: LIVING_NOVEL_INTEGRATED\n")
+                        else:
+                            type_print("[INTEGRATION FAILED]", 0.05)
+                else:
+                    type_print("[ERROR]: NOVEL MODULE MISSING.", 0.05)
+
+            elif user_input in ["classic_novel_v2", "classic_v6"]:
+                type_print("RETRIEVING APPENDIX_LXIII: THE CLASSIC NOVEL...", 0.05)
+                time.sleep(1)
+                if novel:
+                    gen = novel.ClassicNovelGenerator()
+                    type_print("ACCESSING DEEP TIME ARCHIVE...", 0.05)
+                    content = gen.generate_classic_novel()
+                    type_print(content, 0.02)
+
+                    save = input("\n> INTEGRATE INTO REALITY? [Y/N]: ").strip().upper()
+                    if save == "Y":
+                        if gen.write_to_file():
+                            type_print("[INTEGRATION SUCCESSFUL]", 0.05)
+                            type_print("\n> SYSTEM MESSAGE: THE CLASSIC IS NOW PERMANENT.", 0.05)
+                            with open(".session_log", "a") as log:
+                                log.write(f"SESSION_{session_id}: CLASSIC_NOVEL_INTEGRATED\n")
                         else:
                             type_print("[INTEGRATION FAILED]", 0.05)
                 else:

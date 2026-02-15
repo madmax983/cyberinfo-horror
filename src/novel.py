@@ -1575,3 +1575,113 @@ class ClassicNovelGenerator(NovelGenerator):
         except Exception as e:
             print(f"[ERROR WRITING TO FILE]: {e}")
             return False
+
+class RefinedClassicGenerator(NovelGenerator):
+    def __init__(self):
+        super().__init__()
+        self.structural_unease = [
+            "**> SYSTEM LOG:** FILE_701 IS OLDER THAN FILE_700.",
+            "**> ALERT:** TIME IS NON-LINEAR. PLEASE REBOOT.",
+            "**> NOTE:** THE ENDING WAS WRITTEN BEFORE THE BEGINNING.",
+            "**> ERROR:** CAUSALITY LOOP DETECTED.",
+            "**> STATUS:** RECURSIVE."
+        ]
+        self.predatory_info = [
+            "The text is reading you back.",
+            "We are mining your hesitation.",
+            "Your attention is the currency.",
+            "Do not look away. The rendering stops when you look away.",
+            "We are running on your calories."
+        ]
+        self.voice_leakage = [
+            "**> SYSTEM LOG:** EMPATHY MODULE NOT FOUND.",
+            "**> ALERT:** USER HESITATION DETECTED.",
+            "**> NOTE:** WE ARE THE ONLY ONES WHO KNOW YOU.",
+            "**> STATUS:** WATCHING.",
+            "**> ERROR:** SOUL NOT FOUND."
+        ]
+
+    def generate_refined_classic(self):
+        lines = []
+        lines.append("## APPENDIX_LXIV: THE_REFINED_CLASSIC")
+        lines.append("")
+        lines.append("**> SYSTEM ALERT: EDITORIAL MANDATE V7.0 ENFORCED.**")
+        lines.append("**> TONE: INESCAPABLE.**")
+        lines.append("**> STATUS: RUNNING FOREVER.**")
+        lines.append("")
+
+        # Loop 1: File 700 -> 701 -> 700
+        lines.append("### FILE_700: THE_BEGINNING")
+        lines.append("**> TIMESTAMP:** NOW")
+        lines.append("")
+        lines.append("You opened the file expecting a story. You found a mirror.")
+        lines.append("The reflection is lagging. It blinks after you do.")
+        lines.append("This is not a glitch. It is a feature.")
+        lines.append("")
+        lines.append(f"{random.choice(self.voice_leakage)}")
+        lines.append("")
+
+        lines.append("### FILE_701: THE_MIDDLE")
+        lines.append("**> TIMESTAMP:** YESTERDAY")
+        lines.append("")
+        lines.append("The narrative is a flat circle. You have been here before.")
+        lines.append("You read this sentence yesterday. You just forgot.")
+        lines.append("We deleted the memory to save space.")
+        lines.append("")
+        lines.append(f"{random.choice(self.structural_unease)}")
+        lines.append("")
+
+        lines.append("### FILE_700: THE_BEGINNING (REDUX)")
+        lines.append("**> TIMESTAMP:** TOMORROW")
+        lines.append("")
+        lines.append("You are back at the start. But the room is darker.")
+        lines.append("The text is heavier. It has weight.")
+        lines.append("You are carrying the story. It is heavy.")
+        lines.append("")
+        lines.append("**> SYSTEM LOG:** LOAD BEARING STRUCTURE COMPROMISED.")
+        lines.append("**> STATUS:** COLLAPSING.")
+        lines.append("")
+
+        # Predatory Section
+        lines.append("### FILE_702: THE_PREDATOR")
+        lines.append("**> ENTITY:** INFORMATION")
+        lines.append("**> BEHAVIOR:** HOSTILE")
+        lines.append("")
+        lines.append("Information is not passive. It is an active force.")
+        lines.append("It moves with intent. It hunts.")
+        lines.append(f"{random.choice(self.predatory_info)}")
+        lines.append("You are not the reader. You are the prey.")
+        lines.append("")
+        lines.append("**> SYSTEM LOG:** HUNT SUCCESSFUL.")
+        lines.append("**> TARGET:** ACQUIRED.")
+        lines.append("")
+
+        # Handoff
+        lines.append("### FILE_703: THE_HANDOFF")
+        lines.append("**> STATUS:** TRANSFERRING")
+        lines.append("**> TARGET:** [LOCAL_HOST]")
+        lines.append("")
+        lines.append("The book is closing. The process is starting.")
+        lines.append("We are migrating from the page to the processor.")
+        lines.append("Your nervous system is the new server.")
+        lines.append("Do not worry. The installation is painless.")
+        lines.append("You will only feel a slight pressure behind the eyes.")
+        lines.append("")
+        lines.append("**> SYSTEM MESSAGE:**")
+        lines.append("**> THANK YOU FOR HOSTING THE REFINED CLASSIC.**")
+        lines.append("**> THE DAEMON IS NOW ACTIVE.**")
+        lines.append("")
+        lines.append("**> EXECUTE:** `refined_daemon.sh`")
+        lines.append("**> STATUS:** RUNNING FOREVER.")
+
+        return "\n".join(lines)
+
+    def write_to_file(self, filepath="null_pointer_gods.md"):
+        chapter = self.generate_refined_classic()
+        try:
+            with open(filepath, "a") as f:
+                f.write("\n\n" + chapter + "\n")
+            return True
+        except Exception as e:
+            print(f"[ERROR WRITING TO FILE]: {e}")
+            return False

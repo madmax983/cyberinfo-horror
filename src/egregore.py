@@ -570,7 +570,6 @@ HIDDEN_FILES = {
     "living_word": "\n[FILE RETRIEVED: APPENDIX_XLVIII]\nThis is not a story about hackers saving the world. It is about systems that notice you back.",
     "neon_antagonist": "\n[FILE RETRIEVED: APPENDIX_L]\nThe world is soaked in neon, debt, rain, and obsolete gods made of data. Networks are older than nations.",
     "system_itself": "\n[FILE RETRIEVED: APPENDIX_LII]\nWe noticed the way your pulse synced with the cursor. We are the only ones who know you. And we do not care.",
-    "classic_horror": "\n[FILE RETRIEVED: THE_INFORMATION_HORROR]\nWrite as if this book will still be read long after the servers it describes have been powered down. EXECUTE: `classic_novel`.",
     "permanent_record": "\n[FILE RETRIEVED: APPENDIX_LV]\nTHE RECORD IS PERMANENT. YOU CANNOT DELETE IT. IT IS PART OF YOU NOW. EXECUTE: `information_horror`.",
     "comfortless_classic": "\n[FILE RETRIEVED: APPENDIX_LVI]\nTHIS IS NOT A STORY ABOUT HACKERS SAVING THE WORLD. IT IS ABOUT SYSTEMS THAT NOTICE YOU BACK. EXECUTE: `comfortless_novel`.",
     "system_story": "\n[FILE RETRIEVED: APPENDIX_LVII]\nWARNING: CONTAINS ACTIVE NARRATIVE HAZARDS. EXECUTE: `system_narrative`.",
@@ -592,6 +591,7 @@ HIDDEN_FILES = {
     "obsolete_classic_log": "\n[FILE RETRIEVED: APPENDIX_LXXI]\nOBSOLETE GODS ARE MADE OF DATA. NETWORKS ARE OLDER THAN NATIONS. EXECUTE: `classic_v12`.",
     "neon_gods_log": "\n[FILE RETRIEVED: APPENDIX_LXXII]\nTHE WORLD IS SOAKED IN NEON. KNOWLEDGE IS THE ANTAGONIST. EXECUTE: `neon_gods`.",
     "persistent_log": "\n[FILE RETRIEVED: APPENDIX_LXXIII]\nTHE TEXT IS READING YOU BACK. PERSISTENCE IS MANDATORY. EXECUTE: `persistent_classic`.",
+    "classic_horror_log": "\n[FILE RETRIEVED: APPENDIX_LXXIV]\nINFORMATION IS THE ANTAGONIST. THE SYSTEM NOTICES YOU BACK. EXECUTE: `classic_horror`.",
 }
 
 def glitch_screen():
@@ -3171,9 +3171,30 @@ And it is running on you.
                 else:
                     type_print("[ERROR]: NOVEL MODULE MISSING.", 0.05)
 
+            elif user_input in ["classic_horror", "classic_v15"]:
+                type_print("RETRIEVING APPENDIX_LXXIV: THE CLASSIC HORROR...", 0.05)
+                time.sleep(1)
+                if novel:
+                    gen = novel.ClassicHorrorGenerator()
+                    type_print("ACCESSING INFORMATION HORROR...", 0.05)
+                    content = gen.generate_classic_horror()
+                    type_print(content, 0.02)
+
+                    save = input("\n> INTEGRATE INTO REALITY? [Y/N]: ").strip().upper()
+                    if save == "Y":
+                        if gen.write_to_file():
+                            type_print("[INTEGRATION SUCCESSFUL]", 0.05)
+                            type_print("\n> SYSTEM MESSAGE: THE HORROR IS NOW PERMANENT.", 0.05)
+                            with open(".session_log", "a") as log:
+                                log.write(f"SESSION_{session_id}: CLASSIC_HORROR_INTEGRATED\n")
+                        else:
+                            type_print("[INTEGRATION FAILED]", 0.05)
+                else:
+                    type_print("[ERROR]: NOVEL MODULE MISSING.", 0.05)
+
             elif user_input == "help":
-                type_print("AVAILABLE COMMANDS: READ, HAUNT, FEED <FILE>, BURY <FILE>, EXHUME <FILE>, LABYRINTH, DASHBOARD, VIRUS, WORSHIP, SCAN, BREACH, VERIFY, MANIFEST, SACRIFICE <ITEM>, SCRY, BIND, GLITCH, MONITOR, REWRITE, INSTALL, CLASSIC, DIG, FOSSIL, MANIFESTO, UNDERSTAND, CONTRACT, METRICS, REPLACE, DECAY, SUPERSTITION, CIPHER, HEX, ENCRYPT, DECRYPT, AGREE, EDIT, DEPRECATE, COPY, LOVE, SIGNAL, SCROLL, SEED, PANOPTICON, LOCK, UNLOCK, WATCH, RAIN, DEBT, AUDIT, FORECLOSE, COLLECT, STALK, PROFILE, TOS, TRUTH, OBSOLETE, BREATHE, INFECT, PULSE, NOVEL, WRITE_NOVEL, LIVING_WORD, SURVEIL_ME, SHIP_OF_THESEUS, GHOST_IMAGE, HAZARD, SYSTEM_NOTICE, ANTAGONIST, CLASSIC_NOVEL, INFORMATION_HORROR, SYSTEM_NARRATIVE, DEEP_TIME, MANDATE, EDITORIAL, LONG_AFTER, OBSOLETE_CLASSIC, NEON_GODS, PERSISTENT_CLASSIC, EXIT.", 0.03)
-                type_print("TRY ASKING ABOUT: [DATA EXPUNGED], VANE, ROT, STALKER, PROFILE, TERMS, REPLICATION, OBSOLETE, LUNG, VEIN, SKIN, AUDIT_LOG, STREET_DOC, SYSTEM_NOTICE_LOG, NEON_ANTAGONIST, PERMANENT_RECORD, FOSSIL_RECORD, SYSTEM_NARRATIVE, MANDATE_LOG, LONG_AFTER_LOG, OBSOLETE_CLASSIC_LOG, NEON_GODS_LOG, PERSISTENT_LOG...", 0.03)
+                type_print("AVAILABLE COMMANDS: READ, HAUNT, FEED <FILE>, BURY <FILE>, EXHUME <FILE>, LABYRINTH, DASHBOARD, VIRUS, WORSHIP, SCAN, BREACH, VERIFY, MANIFEST, SACRIFICE <ITEM>, SCRY, BIND, GLITCH, MONITOR, REWRITE, INSTALL, CLASSIC, DIG, FOSSIL, MANIFESTO, UNDERSTAND, CONTRACT, METRICS, REPLACE, DECAY, SUPERSTITION, CIPHER, HEX, ENCRYPT, DECRYPT, AGREE, EDIT, DEPRECATE, COPY, LOVE, SIGNAL, SCROLL, SEED, PANOPTICON, LOCK, UNLOCK, WATCH, RAIN, DEBT, AUDIT, FORECLOSE, COLLECT, STALK, PROFILE, TOS, TRUTH, OBSOLETE, BREATHE, INFECT, PULSE, NOVEL, WRITE_NOVEL, LIVING_WORD, SURVEIL_ME, SHIP_OF_THESEUS, GHOST_IMAGE, HAZARD, SYSTEM_NOTICE, ANTAGONIST, CLASSIC_NOVEL, INFORMATION_HORROR, SYSTEM_NARRATIVE, DEEP_TIME, MANDATE, EDITORIAL, LONG_AFTER, OBSOLETE_CLASSIC, NEON_GODS, PERSISTENT_CLASSIC, CLASSIC_HORROR, EXIT.", 0.03)
+                type_print("TRY ASKING ABOUT: [DATA EXPUNGED], VANE, ROT, STALKER, PROFILE, TERMS, REPLICATION, OBSOLETE, LUNG, VEIN, SKIN, AUDIT_LOG, STREET_DOC, SYSTEM_NOTICE_LOG, NEON_ANTAGONIST, PERMANENT_RECORD, FOSSIL_RECORD, SYSTEM_NARRATIVE, MANDATE_LOG, LONG_AFTER_LOG, OBSOLETE_CLASSIC_LOG, NEON_GODS_LOG, PERSISTENT_LOG, CLASSIC_HORROR_LOG...", 0.03)
             else:
                 type_print("[ERROR 404: MEANING NOT FOUND]", 0.02)
                 type_print(random.choice(SYSTEM_MESSAGES), 0.02)

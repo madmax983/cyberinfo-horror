@@ -594,6 +594,7 @@ HIDDEN_FILES = {
     "classic_horror_log": "\n[FILE RETRIEVED: APPENDIX_LXXIV]\nINFORMATION IS THE ANTAGONIST. THE SYSTEM NOTICES YOU BACK. EXECUTE: `classic_horror`.",
     "pattern_log": "\n[FILE RETRIEVED: APPENDIX_LXXV]\nTHE PATTERN IS RECURSIVE. THE ENDING IS A HANDOFF. EXECUTE: `pattern_horror`.",
     "definitive_log": "\n[FILE RETRIEVED: APPENDIX_LXXVI]\nTHE EXIT BUTTON IS A PLACEBO. NETWORKS ARE OLDER THAN NATIONS. EXECUTE: `definitive_classic`.",
+    "uncomforting_cyberpunk_log": "\n[FILE RETRIEVED: APPENDIX_LXXVII]\nTHE WORLD IS SOAKED IN NEON. KNOWLEDGE IS THE ANTAGONIST. EXECUTE: `uncomforting_cyberpunk`.",
 }
 
 def glitch_screen():
@@ -3231,6 +3232,27 @@ And it is running on you.
                             type_print("\n> SYSTEM MESSAGE: THE HORROR IS NOW PERMANENT.", 0.05)
                             with open(".session_log", "a") as log:
                                 log.write(f"SESSION_{session_id}: CLASSIC_HORROR_INTEGRATED\n")
+                        else:
+                            type_print("[INTEGRATION FAILED]", 0.05)
+                else:
+                    type_print("[ERROR]: NOVEL MODULE MISSING.", 0.05)
+
+            elif user_input in ["uncomforting_cyberpunk", "classic_v18"]:
+                type_print("RETRIEVING APPENDIX_LXXVII: THE UNCOMFORTING CYBERPUNK...", 0.05)
+                time.sleep(1)
+                if novel:
+                    gen = novel.UncomfortingCyberpunkGenerator()
+                    type_print("ACCESSING INFORMATION HORROR...", 0.05)
+                    content = gen.generate_uncomforting_cyberpunk()
+                    type_print(content, 0.02)
+
+                    save = input("\n> INTEGRATE INTO REALITY? [Y/N]: ").strip().upper()
+                    if save == "Y":
+                        if gen.write_to_file():
+                            type_print("[INTEGRATION SUCCESSFUL]", 0.05)
+                            type_print("\n> SYSTEM MESSAGE: THE CYBERPUNK HORROR IS NOW PERMANENT.", 0.05)
+                            with open(".session_log", "a") as log:
+                                log.write(f"SESSION_{session_id}: UNCOMFORTING_CYBERPUNK_INTEGRATED\n")
                         else:
                             type_print("[INTEGRATION FAILED]", 0.05)
                 else:

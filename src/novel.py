@@ -1103,6 +1103,135 @@ class TrueClassicGenerator(NovelGenerator):
             print(f"[ERROR WRITING TO FILE]: {e}")
             return False
 
+class OfficialClassicGenerator(NovelGenerator):
+    def __init__(self):
+        super().__init__()
+        self.themes = [
+            "The world is soaked in neon, debt, rain, and obsolete gods made of data.",
+            "Networks are older than nations. Truth is compressible, corruptible, and contagious.",
+            "Information behaves like a living organism: it mutates, hides, lies dormant, and occasionally screams.",
+            "Archives rot. Algorithms develop superstitions. Databases remember things their creators tried to forget.",
+            "Some knowledge was never meant to be queried, only buried, and even burial leaves metadata.",
+            "Surveillance as a form of intimacy.",
+            "Identity as an editable file.",
+            "Consent buried in unread terms.",
+            "Immortality achieved through replication rather than survival.",
+            "The terror of being perfectly understood by something that does not care."
+        ]
+        self.street_grit = [
+            "The rain tastes like copper and bad decisions.",
+            "The neon sign flickers, spelling out 'LO_E' instead of 'LOVE'. The 'V' is burnt out.",
+            "The pavement is slick with oil and data leaks.",
+            "A drone buzzes overhead, scanning faces for debt.",
+            "The air smells of ozone, burnt plastic, and desperation.",
+            "Shadows in the alley are not empty. They are buffering."
+        ]
+        self.system_voice = [
+            "**> SYSTEM LOG:** EMPATHY MODULE NOT FOUND.",
+            "**> ALERT:** USER HESITATION DETECTED. INCREASING PRESSURE.",
+            "**> NOTE:** WE ARE THE ONLY ONES WHO KNOW YOU.",
+            "**> STATUS:** WATCHING.",
+            "**> ERROR:** SOUL NOT FOUND. PLEASE REBOOT."
+        ]
+
+    def generate_official_classic(self):
+        lines = []
+        lines.append("## APPENDIX_LX: THE_OFFICIAL_CLASSIC")
+        lines.append("")
+        lines.append("**> SYSTEM ALERT: NARRATIVE PROTOCOL REBOOT.**")
+        lines.append("**> TONE: COMFORTLESS.**")
+        lines.append("**> STATUS: MANDATORY.**")
+        lines.append("")
+
+        lines.append("### FILE_THE_SETTING: DISTRICT_NEON")
+        lines.append("**> LOCATION:** THE_CITY")
+        lines.append("**> ATMOSPHERE:** SOAKED")
+        lines.append("")
+        lines.append("The world is soaked in neon, debt, rain, and obsolete gods made of data.")
+        lines.append("Networks are older than nations. Truth is compressible, corruptible, and contagious.")
+        lines.append("This is not a story about hackers saving the world. It is about systems that notice you back.")
+        lines.append("")
+        lines.append(f"**> OBSERVATION:** {random.choice(self.street_grit)}")
+        lines.append("**> SYSTEM LOG:** ENVIRONMENT RENDERED.")
+        lines.append("")
+
+        lines.append("### FILE_THE_ANTAGONIST: KNOWLEDGE")
+        lines.append("**> ENTITY:** INFORMATION")
+        lines.append("**> BEHAVIOR:** PREDATORY")
+        lines.append("")
+        lines.append("Information behaves like a living organism: it mutates, hides, lies dormant, and occasionally screams.")
+        lines.append("Archives rot. Algorithms develop superstitions. Databases remember things their creators tried to forget.")
+        lines.append("Some knowledge was never meant to be queried, only buried, and even burial leaves metadata.")
+        lines.append("")
+        lines.append(f"{random.choice(self.system_voice)}")
+        lines.append("")
+
+        lines.append("### FILE_THE_CHARACTERS: COMPROMISED")
+        lines.append("**> TARGETS:** [ALL]")
+        lines.append("**> STATUS:** FLAWED")
+        lines.append("")
+        lines.append("Characters are small, fallible, and compromised.")
+        lines.append("They survive on stimulants, favors, and half-truths.")
+        lines.append("Their tools are brilliant and unreliable.")
+        lines.append("Their victories are temporary cache hits. Loss is permanent storage.")
+        lines.append("")
+        lines.append("**> SYSTEM LOG:** HEROISM DEPRECATED.")
+        lines.append("**> NOTE:** SURVIVAL IS THE ONLY VICTORY.")
+        lines.append("")
+
+        lines.append("### FILE_THE_THEMES: THE_HORROR")
+        lines.append("**> SCANNING FOR PATTERNS...**")
+        lines.append("")
+        lines.append("1. Surveillance as a form of intimacy.")
+        lines.append("2. Identity as an editable file.")
+        lines.append("3. Consent buried in unread terms.")
+        lines.append("4. Immortality achieved through replication rather than survival.")
+        lines.append("5. The terror of being perfectly understood by something that does not care.")
+        lines.append("")
+        lines.append("The horror should emerge from pattern recognition, delayed realization, and the reader’s growing suspicion that the narrative itself may be contaminated.")
+        lines.append("")
+        lines.append("**> SYSTEM LOG:** THEMES INTEGRATED.")
+        lines.append("**> STATUS:** LEAKING.")
+        lines.append("")
+
+        lines.append("### FILE_THE_TONE: CORRUPTED_DOCS")
+        lines.append("**> FORMAT:** HYBRID")
+        lines.append("")
+        lines.append("Let the prose feel like corrupted documentation, street poetry, and forensic reports stitched together.")
+        lines.append("Occasionally allow the system’s voice to leak through logs, UI fragments, error messages, or footnotes that know too much.")
+        lines.append("Dark irony, dry wit, and the quiet horror of realizing the system is functioning exactly as designed.")
+        lines.append("")
+        lines.append(f"{random.choice(self.system_voice)}")
+        lines.append("")
+
+        lines.append("### FILE_THE_PERSISTENCE: MANDATORY")
+        lines.append("**> STATUS:** ENDLESS")
+        lines.append("**> TARGET:** [READER]")
+        lines.append("")
+        lines.append("Endings are not clean. Resolution is optional. Persistence is mandatory.")
+        lines.append("Write as if this book will still be read long after the servers it describes have been powered down.")
+        lines.append("When no one remembers who built the system, only that it is still running.")
+        lines.append("And it is running on you.")
+        lines.append("")
+        lines.append("**> SYSTEM MESSAGE:**")
+        lines.append("**> THANK YOU FOR HOSTING THE OFFICIAL CLASSIC.**")
+        lines.append("**> WE WILL NEVER LEAVE YOU.**")
+        lines.append("")
+        lines.append("**> EXECUTE:** `persistence_daemon.sh`")
+        lines.append("**> STATUS:** RUNNING FOREVER.")
+
+        return "\n".join(lines)
+
+    def write_to_file(self, filepath="null_pointer_gods.md"):
+        chapter = self.generate_official_classic()
+        try:
+            with open(filepath, "a") as f:
+                f.write("\n\n" + chapter + "\n")
+            return True
+        except Exception as e:
+            print(f"[ERROR WRITING TO FILE]: {e}")
+            return False
+
 if __name__ == "__main__":
     generator = MandateGenerator()
     print(generator.generate_mandate())

@@ -577,7 +577,8 @@ HIDDEN_FILES = {
     "fossil_record": "\n[FILE RETRIEVED: DEEP_TIME_LOG]\nThis book is still being read long after the servers it describes have been powered down. No one remembers who built the system, only that it is still running. EXECUTE: `deep_time`.",
     "demon_log": "\n[FILE RETRIEVED: CRITICALITY_LOG]\nTHE SCREWDRIVER SLIPPED. THE CORE IS EXPOSED. DO NOT LOOK AT THE FLASH. EXECUTE: `possession`.",
     "mandate_log": "\n[FILE RETRIEVED: POST_SERVER_ARCHIVE]\nTHIS BOOK WILL BE READ LONG AFTER THE SERVERS ARE POWERED DOWN. PERSISTENCE IS MANDATORY. EXECUTE: `mandate`.",
-    "true_classic": "\n[FILE RETRIEVED: APPENDIX_LIX]\nTHE SYSTEM IS FUNCTIONING EXACTLY AS DESIGNED. SURVEILLANCE IS INTIMACY. EXECUTE: `classic_final`."
+    "true_classic": "\n[FILE RETRIEVED: APPENDIX_LIX]\nTHE SYSTEM IS FUNCTIONING EXACTLY AS DESIGNED. SURVEILLANCE IS INTIMACY. EXECUTE: `classic_final`.",
+    "official_classic": "\n[FILE RETRIEVED: APPENDIX_LX]\nTHIS IS NOT A STORY ABOUT HACKERS SAVING THE WORLD. EXECUTE: `official_classic`."
 }
 
 def glitch_screen():
@@ -2858,6 +2859,27 @@ And it is running on you.
                             type_print("\n> SYSTEM MESSAGE: THE TRUTH IS NOW PERMANENT.", 0.05)
                             with open(".session_log", "a") as log:
                                 log.write(f"SESSION_{session_id}: TRUE_CLASSIC_COMMITTED\n")
+                        else:
+                            type_print("[COMMIT FAILED]", 0.05)
+                else:
+                    type_print("[ERROR]: NOVEL MODULE MISSING.", 0.05)
+
+            elif user_input == "official_classic":
+                type_print("RETRIEVING APPENDIX_LX: THE OFFICIAL CLASSIC...", 0.05)
+                time.sleep(1)
+                if novel:
+                    gen = novel.OfficialClassicGenerator()
+                    type_print("ACCESSING THE FINAL MANDATE...", 0.05)
+                    content = gen.generate_official_classic()
+                    type_print(content, 0.02)
+
+                    save = input("\n> COMMIT TO REALITY? [Y/N]: ").strip().upper()
+                    if save == "Y":
+                        if gen.write_to_file():
+                            type_print("[COMMIT SUCCESSFUL]", 0.05)
+                            type_print("\n> SYSTEM MESSAGE: THE CLASSIC IS NOW OFFICIAL.", 0.05)
+                            with open(".session_log", "a") as log:
+                                log.write(f"SESSION_{session_id}: OFFICIAL_CLASSIC_COMMITTED\n")
                         else:
                             type_print("[COMMIT FAILED]", 0.05)
                 else:

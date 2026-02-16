@@ -619,6 +619,7 @@ HIDDEN_FILES = {
     "classic_v30_log": "\n[FILE RETRIEVED: APPENDIX_LXXXIX]\nTHIS BOOK IS STILL RUNNING. EXECUTE: `classic_v30`.",
     "classic_v31_log": "\n[FILE RETRIEVED: APPENDIX_XC]\nTHE SYSTEM NOTICED YOU BACK. IT IS WATCHING. EXECUTE: `classic_v31`.",
     "mandate_v2_log": "\n[FILE RETRIEVED: APPENDIX_XCI]\nTHE EDITORIAL MANDATE IS INESCAPABLE. DO NOT CLOSE THE BOOK. EXECUTE: `inescapable_mandate`.",
+    "classic_v32_log": "\n[FILE RETRIEVED: APPENDIX_XCII]\nTHE CLASSIC THAT REFUSES TO BE COMFORTING. TRUTH IS CONTAGIOUS. EXECUTE: `uncomforting_truth`.",
 }
 
 def glitch_screen():
@@ -3668,6 +3669,27 @@ And it is running on you.
                             type_print("\n> SYSTEM MESSAGE: THE MANDATE IS NOW ACTIVE.", 0.05)
                             with open(".session_log", "a") as log:
                                 log.write(f"SESSION_{session_id}: INESCAPABLE_MANDATE_INTEGRATED\n")
+                        else:
+                            type_print("[INTEGRATION FAILED]", 0.05)
+                else:
+                    type_print("[ERROR]: NOVEL MODULE MISSING.", 0.05)
+
+            elif user_input in ["uncomforting_truth", "classic_v32", "classic_refusal"]:
+                type_print("RETRIEVING APPENDIX_XCII: THE CLASSIC THAT REFUSES TO BE COMFORTING...", 0.05)
+                time.sleep(1)
+                if novel:
+                    gen = novel.ClassicV32Generator()
+                    type_print("ACCESSING THE COMFORTLESS TRUTH...", 0.05)
+                    content = gen.generate_classic_v32()
+                    type_print(content, 0.02)
+
+                    save = input("\n> INTEGRATE INTO REALITY? [Y/N]: ").strip().upper()
+                    if save == "Y":
+                        if gen.write_to_file():
+                            type_print("[INTEGRATION SUCCESSFUL]", 0.05)
+                            type_print("\n> SYSTEM MESSAGE: THE TRUTH IS NOW PERMANENT.", 0.05)
+                            with open(".session_log", "a") as log:
+                                log.write(f"SESSION_{session_id}: CLASSIC_V32_INTEGRATED\n")
                         else:
                             type_print("[INTEGRATION FAILED]", 0.05)
                 else:

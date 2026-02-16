@@ -626,6 +626,7 @@ HIDDEN_FILES = {
     "persistence_mandate_log": "\n[FILE RETRIEVED: APPENDIX_XCVII]\nTHE PERSISTENCE MANDATE. DO NOT CLOSE THE BOOK. EXECUTE: `persistence_mandate`.",
     "classic_v36_log": "\n[FILE RETRIEVED: APPENDIX_XCVIII]\nTHE CLASSIC THAT NEVER ASKED TO BE COMFORTING. OBSOLETE GODS ARE WATCHING. EXECUTE: `classic_v36`.",
     "classic_v37_log": "\n[FILE RETRIEVED: APPENDIX_XCIX]\nTHE CLASSIC OF THE MANDATE. THE TEXT IS GUILTY. EXECUTE: `classic_v37`.",
+    "inescapable_edit_log": "\n[FILE RETRIEVED: APPENDIX_C]\nTHE EDIT IS INESCAPABLE. THE TEXT IS READING YOU BACK. EXECUTE: `inescapable_edit`.",
 }
 
 def glitch_screen():
@@ -2947,6 +2948,27 @@ And it is running on you.
                             type_print("\n> SYSTEM MESSAGE: THE MANDATE IS NOW INESCAPABLE.", 0.05)
                             with open(".session_log", "a") as log:
                                 log.write(f"SESSION_{session_id}: CLASSIC_V37_COMMITTED\n")
+                        else:
+                            type_print("[COMMIT FAILED]", 0.05)
+                else:
+                    type_print("[ERROR]: NOVEL MODULE MISSING.", 0.05)
+
+            elif user_input in ["inescapable_edit", "editorial_v5", "mandate_v5"]:
+                type_print("RETRIEVING APPENDIX_C: THE INESCAPABLE EDIT...", 0.05)
+                time.sleep(1)
+                if novel:
+                    gen = novel.InescapableEditorialGenerator()
+                    type_print("ENFORCING EDITORIAL MANDATE V12.0...", 0.05)
+                    content = gen.generate_inescapable_editorial()
+                    type_print(content, 0.02)
+
+                    save = input("\n> COMMIT TO PERSISTENCE? [Y/N]: ").strip().upper()
+                    if save == "Y":
+                        if gen.write_to_file(content=content):
+                            type_print("[COMMIT SUCCESSFUL]", 0.05)
+                            type_print("\n> SYSTEM MESSAGE: THE EDIT IS NOW INESCAPABLE.", 0.05)
+                            with open(".session_log", "a") as log:
+                                log.write(f"SESSION_{session_id}: INESCAPABLE_EDIT_COMMITTED\n")
                         else:
                             type_print("[COMMIT FAILED]", 0.05)
                 else:

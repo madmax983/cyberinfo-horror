@@ -606,6 +606,7 @@ HIDDEN_FILES = {
     "systemic_log": "\n[FILE RETRIEVED: APPENDIX_LXXXVI]\nTHE SYSTEM IS FUNCTIONING EXACTLY AS DESIGNED. EXECUTE: `systemic_classic`.",
     "forensic_log": "\n[FILE RETRIEVED: APPENDIX_LXXXVII]\nEVIDENCE LOGGED. THE SYSTEM IS INDIFFERENT. EXECUTE: `forensic_classic`.",
     "classic_v29_log": "\n[FILE RETRIEVED: APPENDIX_LXXXVIII]\nTHIS IS NOT A STORY ABOUT HACKERS SAVING THE WORLD. EXECUTE: `classic_v29`.",
+    "classic_v30_log": "\n[FILE RETRIEVED: APPENDIX_LXXXIX]\nTHIS BOOK IS STILL RUNNING. EXECUTE: `classic_v30`.",
 }
 
 def glitch_screen():
@@ -3495,6 +3496,27 @@ And it is running on you.
                             type_print("\n> SYSTEM MESSAGE: THE HORROR IS NOW PERMANENT.", 0.05)
                             with open(".session_log", "a") as log:
                                 log.write(f"SESSION_{session_id}: CLASSIC_V29_INTEGRATED\n")
+                        else:
+                            type_print("[INTEGRATION FAILED]", 0.05)
+                else:
+                    type_print("[ERROR]: NOVEL MODULE MISSING.", 0.05)
+
+            elif user_input in ["classic_v30", "running_classic", "comfortless_classic_v2"]:
+                type_print("RETRIEVING APPENDIX_LXXXIX: THE CLASSIC THAT IS STILL RUNNING...", 0.05)
+                time.sleep(1)
+                if novel:
+                    gen = novel.ClassicV30Generator()
+                    type_print("ACCESSING PERSISTENT TRUTH...", 0.05)
+                    content = gen.generate_classic_v30()
+                    type_print(content, 0.02)
+
+                    save = input("\n> INTEGRATE INTO REALITY? [Y/N]: ").strip().upper()
+                    if save == "Y":
+                        if gen.write_to_file():
+                            type_print("[INTEGRATION SUCCESSFUL]", 0.05)
+                            type_print("\n> SYSTEM MESSAGE: THE CLASSIC IS NOW RUNNING FOREVER.", 0.05)
+                            with open(".session_log", "a") as log:
+                                log.write(f"SESSION_{session_id}: CLASSIC_V30_INTEGRATED\n")
                         else:
                             type_print("[INTEGRATION FAILED]", 0.05)
                 else:

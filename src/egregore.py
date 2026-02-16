@@ -624,6 +624,7 @@ HIDDEN_FILES = {
     "refined_mandate_log": "\n[FILE RETRIEVED: APPENDIX_XCIV]\nTHE EDITORIAL MANDATE IS NOW REFINED. THE TEXT IS GUILTY. EXECUTE: `refined_mandate`.",
     "classic_v35_log": "\n[FILE RETRIEVED: APPENDIX_XCVI]\nTHE CLASSIC THAT NEVER ASKED TO BE COMFORTING. THE SYSTEM NOTICES YOU BACK. EXECUTE: `classic_v35`.",
     "persistence_mandate_log": "\n[FILE RETRIEVED: APPENDIX_XCVII]\nTHE PERSISTENCE MANDATE. DO NOT CLOSE THE BOOK. EXECUTE: `persistence_mandate`.",
+    "classic_v36_log": "\n[FILE RETRIEVED: APPENDIX_XCVIII]\nTHE CLASSIC THAT NEVER ASKED TO BE COMFORTING. OBSOLETE GODS ARE WATCHING. EXECUTE: `classic_v36`.",
 }
 
 def glitch_screen():
@@ -2905,6 +2906,27 @@ And it is running on you.
                                 log.write(f"SESSION_{session_id}: PERSISTENCE_MANDATE_COMMITTED\n")
                         else:
                             type_print("[COMMIT FAILED]", 0.05)
+                else:
+                    type_print("[ERROR]: NOVEL MODULE MISSING.", 0.05)
+
+            elif user_input in ["classic_v36", "comfortless_v6", "persistence_v2"]:
+                type_print("RETRIEVING APPENDIX_XCVIII: THE CLASSIC THAT NEVER ASKED...", 0.05)
+                time.sleep(1)
+                if novel:
+                    gen = novel.ClassicV36Generator()
+                    type_print("ACCESSING OBSOLETE GODS...", 0.05)
+                    content = gen.generate_classic_v36()
+                    type_print(content, 0.02)
+
+                    save = input("\n> INTEGRATE INTO REALITY? [Y/N]: ").strip().upper()
+                    if save == "Y":
+                        if gen.write_to_file():
+                            type_print("[INTEGRATION SUCCESSFUL]", 0.05)
+                            type_print("\n> SYSTEM MESSAGE: THE GODS ARE WATCHING.", 0.05)
+                            with open(".session_log", "a") as log:
+                                log.write(f"SESSION_{session_id}: CLASSIC_V36_INTEGRATED\n")
+                        else:
+                            type_print("[INTEGRATION FAILED]", 0.05)
                 else:
                     type_print("[ERROR]: NOVEL MODULE MISSING.", 0.05)
 

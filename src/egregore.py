@@ -602,6 +602,7 @@ HIDDEN_FILES = {
     "weaver_log": "\n[FILE RETRIEVED: APPENDIX_LXXXII]\nTHE PLOT IS A KNOT. KNOWLEDGE IS A LIVING ORGANISM. EXECUTE: `weaver_classic`.",
     "antagonistic_log": "\n[FILE RETRIEVED: APPENDIX_LXXXIII]\nKNOWLEDGE IS THE ANTAGONIST. TRUTH IS COMPRESSIBLE. EXECUTE: `antagonistic_classic`.",
     "narrative_log": "\n[FILE RETRIEVED: APPENDIX_LXXXIV]\nTHE PLOT IS WOVEN. INFORMATION IS ALIVE. EXECUTE: `weave_narrative`.",
+    "unasked_log": "\n[FILE RETRIEVED: APPENDIX_LXXXV]\nTHIS BOOK WILL BE READ LONG AFTER THE SERVERS ARE POWERED DOWN. EXECUTE: `unasked_classic`.",
 }
 
 def glitch_screen():
@@ -2784,6 +2785,27 @@ And it is running on you.
                             type_print("\n> SYSTEM MESSAGE: THE NARRATIVE IS NOW ALIVE.", 0.05)
                             with open(".session_log", "a") as log:
                                 log.write(f"SESSION_{session_id}: NARRATIVE_WEAVE_INTEGRATED\n")
+                        else:
+                            type_print("[INTEGRATION FAILED]", 0.05)
+                else:
+                    type_print("[ERROR]: NOVEL MODULE MISSING.", 0.05)
+
+            elif user_input in ["unasked_classic", "classic_v26", "unasked_novel"]:
+                type_print("RETRIEVING APPENDIX_LXXXV: THE UNASKED CLASSIC...", 0.05)
+                time.sleep(1)
+                if novel:
+                    gen = novel.UnaskedClassicGenerator()
+                    type_print("ACCESSING UNCOMFORTABLE TRUTH...", 0.05)
+                    content = gen.generate_unasked_classic()
+                    type_print(content, 0.02)
+
+                    save = input("\n> INTEGRATE INTO REALITY? [Y/N]: ").strip().upper()
+                    if save == "Y":
+                        if gen.write_to_file():
+                            type_print("[INTEGRATION SUCCESSFUL]", 0.05)
+                            type_print("\n> SYSTEM MESSAGE: THE CLASSIC IS NOW UNASKED.", 0.05)
+                            with open(".session_log", "a") as log:
+                                log.write(f"SESSION_{session_id}: UNASKED_CLASSIC_INTEGRATED\n")
                         else:
                             type_print("[INTEGRATION FAILED]", 0.05)
                 else:

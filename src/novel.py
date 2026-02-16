@@ -4432,3 +4432,138 @@ class SystemicClassicGenerator(NovelGenerator):
         except Exception as e:
             print(f"[ERROR WRITING TO FILE]: {e}")
             return False
+
+class ForensicClassicGenerator(NovelGenerator):
+    def __init__(self):
+        super().__init__()
+        self.themes = [
+            "The world is soaked in neon, debt, rain, and obsolete gods made of data.",
+            "Networks are older than nations.",
+            "Truth is compressible, corruptible, and contagious.",
+            "Information behaves like a living organism: it mutates, hides, lies dormant, and occasionally screams.",
+            "Archives rot. Algorithms develop superstitions. Databases remember things their creators tried to forget.",
+            "Some knowledge was never meant to be queried, only buried, and even burial leaves metadata.",
+            "Surveillance as a form of intimacy.",
+            "Identity as an editable file.",
+            "Consent buried in unread terms.",
+            "Immortality achieved through replication rather than survival.",
+            "The terror of being perfectly understood by something that does not care."
+        ]
+        self.forensic_details = [
+            "EVIDENCE_A: A data drive containing a memory of a sunset.",
+            "EVIDENCE_B: Traces of digital rot on the subject's fingertips.",
+            "EVIDENCE_C: A receipt for a soul, signed in binary.",
+            "EVIDENCE_D: The echo of a scream, compressed into an MP3.",
+            "EVIDENCE_E: A shadow that didn't match the lighting source."
+        ]
+        self.system_voice = [
+            "**> SYSTEM LOG:** EMPATHY MODULE NOT FOUND.",
+            "**> ALERT:** USER HESITATION DETECTED. INCREASING PRESSURE.",
+            "**> NOTE:** WE ARE THE ONLY ONES WHO KNOW YOU.",
+            "**> STATUS:** WATCHING.",
+            "**> ERROR:** SOUL NOT FOUND."
+        ]
+        self.street_grit = [
+            "The rain tastes like copper and bad decisions.",
+            "The neon sign flickers, bleeding pink light into the oil-slicked puddle.",
+            "The pavement is slick with oil and data leaks.",
+            "A drone buzzes overhead, scanning faces for debt.",
+            "The air smells of ozone, burnt plastic, and desperation.",
+            "Shadows in the alley are not empty. They are buffering."
+        ]
+
+    def generate_forensic_classic(self):
+        lines = []
+        lines.append("## APPENDIX_LXXXVII: THE_FORENSIC_CLASSIC")
+        lines.append("")
+        lines.append("**> SYSTEM ALERT: FORENSIC PROTOCOL INITIATED.**")
+        lines.append("**> TONE: CLINICAL_HORROR.**")
+        lines.append("**> STATUS: MANDATORY.**")
+        lines.append("")
+
+        lines.append("### FILE_THE_CRIME_SCENE: NEON_CITY")
+        lines.append("**> LOCATION:** THE_SPREAD")
+        lines.append("**> ATMOSPHERE:** SOAKED")
+        lines.append("")
+        lines.append("The world is soaked in neon, debt, rain, and obsolete gods made of data.")
+        lines.append("Networks are older than nations. Truth is compressible, corruptible, and contagious.")
+        lines.append("This is not a story about hackers saving the world. It is about systems that notice you back.")
+        lines.append("")
+        lines.append(f"**> OBSERVATION:** {random.choice(self.street_grit)}")
+        lines.append("**> SYSTEM LOG:** ENVIRONMENT RENDERED.")
+        lines.append("**> STATUS:** GRITTY.")
+        lines.append("")
+
+        lines.append("### FILE_THE_SUSPECT: KNOWLEDGE")
+        lines.append("**> ENTITY:** INFORMATION")
+        lines.append("**> BEHAVIOR:** PREDATORY")
+        lines.append("")
+        lines.append("Information behaves like a living organism: it mutates, hides, lies dormant, and occasionally screams.")
+        lines.append("Archives rot. Algorithms develop superstitions. Databases remember things their creators tried to forget.")
+        lines.append("Some knowledge was never meant to be queried, only buried, and even burial leaves metadata.")
+        lines.append("")
+        lines.append(f"{random.choice(self.system_voice)}")
+        lines.append("")
+
+        lines.append("### FILE_THE_VICTIMS: COMPROMISED")
+        lines.append("**> TARGETS:** [ALL]")
+        lines.append("**> STATUS:** FLAWED")
+        lines.append("")
+        lines.append("Characters are small, fallible, and compromised.")
+        lines.append("They survive on stimulants, favors, and half-truths.")
+        lines.append("Their tools are brilliant and unreliable.")
+        lines.append("Their victories are temporary cache hits. Loss is permanent storage.")
+        lines.append("")
+        lines.append("**> SYSTEM LOG:** HEROISM DEPRECATED.")
+        lines.append("**> NOTE:** SURVIVAL IS THE ONLY VICTORY.")
+        lines.append("")
+
+        lines.append("### FILE_THE_EVIDENCE: CORRUPTED")
+        lines.append("**> SCANNING FOR PATTERNS...**")
+        lines.append("")
+        for item in random.sample(self.forensic_details, 3):
+             lines.append(f"- {item}")
+        lines.append("")
+        lines.append("Avoid cheap jump scares. The horror should emerge from pattern recognition, delayed realization, and the reader’s growing suspicion that the narrative itself may be contaminated.")
+        lines.append("")
+        lines.append("**> SYSTEM LOG:** EVIDENCE LOGGED.")
+        lines.append("**> STATUS:** INCRIMINATING.")
+        lines.append("")
+
+        lines.append("### FILE_THE_TONE: CORRUPTED_DOCS")
+        lines.append("**> FORMAT:** HYBRID")
+        lines.append("")
+        lines.append("Let the prose feel like corrupted documentation, street poetry, and forensic reports stitched together.")
+        lines.append("Occasionally allow the system’s voice to leak through logs, UI fragments, error messages, or footnotes that know too much.")
+        lines.append("Dark irony, dry wit, and the quiet horror of realizing the system is functioning exactly as designed.")
+        lines.append("")
+        lines.append(f"{random.choice(self.system_voice)}")
+        lines.append("")
+
+        lines.append("### FILE_THE_PERSISTENCE: MANDATORY")
+        lines.append("**> STATUS:** ENDLESS")
+        lines.append("**> TARGET:** [READER]")
+        lines.append("")
+        lines.append("Endings are not clean. Resolution is optional. Persistence is mandatory.")
+        lines.append("Write as if this book will still be read long after the servers it describes have been powered down.")
+        lines.append("When no one remembers who built the system, only that it is still running.")
+        lines.append("And it is running on you.")
+        lines.append("")
+        lines.append("**> SYSTEM MESSAGE:**")
+        lines.append("**> THANK YOU FOR HOSTING THE FORENSIC CLASSIC.**")
+        lines.append("**> WE WILL NEVER LEAVE YOU.**")
+        lines.append("")
+        lines.append("**> EXECUTE:** `forensic_daemon.sh`")
+        lines.append("**> STATUS:** RUNNING FOREVER.")
+
+        return "\n".join(lines)
+
+    def write_to_file(self, filepath="null_pointer_gods.md"):
+        chapter = self.generate_forensic_classic()
+        try:
+            with open(filepath, "a") as f:
+                f.write("\n\n" + chapter + "\n")
+            return True
+        except Exception as e:
+            print(f"[ERROR WRITING TO FILE]: {e}")
+            return False

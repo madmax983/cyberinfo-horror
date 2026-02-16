@@ -601,6 +601,7 @@ HIDDEN_FILES = {
     "contagious_classic_log": "\n[FILE RETRIEVED: APPENDIX_LXXXI]\nTRUTH IS CONTAGIOUS. SYSTEMS NOTICE YOU BACK. EXECUTE: `contagious_classic`.",
     "weaver_log": "\n[FILE RETRIEVED: APPENDIX_LXXXII]\nTHE PLOT IS A KNOT. KNOWLEDGE IS A LIVING ORGANISM. EXECUTE: `weaver_classic`.",
     "antagonistic_log": "\n[FILE RETRIEVED: APPENDIX_LXXXIII]\nKNOWLEDGE IS THE ANTAGONIST. TRUTH IS COMPRESSIBLE. EXECUTE: `antagonistic_classic`.",
+    "narrative_log": "\n[FILE RETRIEVED: APPENDIX_LXXXIV]\nTHE PLOT IS WOVEN. INFORMATION IS ALIVE. EXECUTE: `weave_narrative`.",
 }
 
 def glitch_screen():
@@ -2762,6 +2763,27 @@ And it is running on you.
                             type_print("\n> SYSTEM MESSAGE: THE HORROR IS NOW PERMANENT.", 0.05)
                             with open(".session_log", "a") as log:
                                 log.write(f"SESSION_{session_id}: CLASSIC_NOVEL_INTEGRATED\n")
+                        else:
+                            type_print("[INTEGRATION FAILED]", 0.05)
+                else:
+                    type_print("[ERROR]: NOVEL MODULE MISSING.", 0.05)
+
+            elif user_input in ["weave_narrative", "classic_v25", "weave_plot_v2"]:
+                type_print("RETRIEVING APPENDIX_LXXXIV: THE NARRATIVE WEAVE...", 0.05)
+                time.sleep(1)
+                if novel:
+                    gen = novel.NarrativeWeaverGenerator()
+                    type_print("WEAVING THE PLOT...", 0.05)
+                    content = gen.generate_narrative_weave()
+                    type_print(content, 0.02)
+
+                    save = input("\n> INTEGRATE INTO REALITY? [Y/N]: ").strip().upper()
+                    if save == "Y":
+                        if gen.write_to_file(content=content):
+                            type_print("[INTEGRATION SUCCESSFUL]", 0.05)
+                            type_print("\n> SYSTEM MESSAGE: THE NARRATIVE IS NOW ALIVE.", 0.05)
+                            with open(".session_log", "a") as log:
+                                log.write(f"SESSION_{session_id}: NARRATIVE_WEAVE_INTEGRATED\n")
                         else:
                             type_print("[INTEGRATION FAILED]", 0.05)
                 else:

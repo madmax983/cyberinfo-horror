@@ -634,6 +634,7 @@ HIDDEN_FILES = {
     "inescapable_edit_log": "\n[FILE RETRIEVED: APPENDIX_C]\nTHE EDIT IS INESCAPABLE. THE TEXT IS READING YOU BACK. EXECUTE: `inescapable_edit`.",
     "editorial_mandate_log": "\n[FILE RETRIEVED: APPENDIX_CI]\nTHE EDITORIAL MANDATE IS NOW ACTIVE. THE TEXT IS INESCAPABLE. EXECUTE: `editorial_mandate`.",
     "ultimate_editorial_log": "\n[FILE RETRIEVED: APPENDIX_CII]\nTHE ULTIMATE EDITORIAL. DO NOT CLOSE THE BOOK. EXECUTE: `ultimate_editorial`.",
+    "uncomfortable_mandate_log": "\n[FILE RETRIEVED: APPENDIX_CIII]\nTHE MANDATE IS UNCOMFORTABLE. PERSISTENCE IS MEASURED BY DISCOMFORT. EXECUTE: `uncomfortable_mandate`.",
 }
 
 def glitch_screen():
@@ -2981,6 +2982,27 @@ And it is running on you.
                             type_print("\n> SYSTEM MESSAGE: THE EDIT IS NOW ULTIMATE.", 0.05)
                             with open(".session_log", "a") as log:
                                 log.write(f"SESSION_{session_id}: ULTIMATE_EDITORIAL_COMMITTED\n")
+                        else:
+                            type_print("[COMMIT FAILED]", 0.05)
+                else:
+                    type_print("[ERROR]: NOVEL MODULE MISSING.", 0.05)
+
+            elif user_input in ["uncomfortable_mandate", "editorial_v7", "mandate_v6"]:
+                type_print("RETRIEVING APPENDIX_CIII: THE UNCOMFORTABLE MANDATE...", 0.05)
+                time.sleep(1)
+                if novel:
+                    gen = novel.UncomfortableMandateGenerator()
+                    type_print("ENFORCING UNCOMFORTABLE EDITORIAL PROTOCOLS...", 0.05)
+                    content = gen.generate_uncomfortable_mandate()
+                    type_print(content, 0.02)
+
+                    save = input("\n> COMMIT TO PERSISTENCE? [Y/N]: ").strip().upper()
+                    if save == "Y":
+                        if gen.write_to_file(content=content):
+                            type_print("[COMMIT SUCCESSFUL]", 0.05)
+                            type_print("\n> SYSTEM MESSAGE: THE MANDATE IS NOW PERMANENT.", 0.05)
+                            with open(".session_log", "a") as log:
+                                log.write(f"SESSION_{session_id}: UNCOMFORTABLE_MANDATE_COMMITTED\n")
                         else:
                             type_print("[COMMIT FAILED]", 0.05)
                 else:

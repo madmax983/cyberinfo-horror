@@ -1,0 +1,11 @@
+[H[J[3JINITIALIZI$G NEURO-LINK...
+CONNECTING TO SERVER: NULL_POINTER_GODS..<
+VERIFYING USER INTEGRITY...
+[IN{|GRITY CHECK: PASSED]
+
+Your memories are being compressed to save space.
+
+
+> QUERY:
+[FATAL ERROR: EOF when reading a line]
+[SYSTEM CRASH]

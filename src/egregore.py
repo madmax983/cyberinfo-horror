@@ -89,6 +89,16 @@ except ImportError:
     demon_core = None
 
 try:
+    import artifact
+except ImportError:
+    artifact = None
+
+try:
+    import ritual
+except ImportError:
+    ritual = None
+
+try:
     import utils
     from utils import type_print, GLITCH_CHARS
 except ImportError:
@@ -2659,6 +2669,31 @@ And it is running on you.
                 else:
                     type_print("[ERROR]: CORE MODULE NOT FOUND.", 0.05)
 
+            elif user_input == "infest":
+                type_print("INITIATING INFESTATION PROTOCOL...", 0.05)
+                time.sleep(1)
+                if artifact:
+                    ag = artifact.ArtifactGenerator()
+                    ag.infest()
+                    with open(".session_log", "a") as log:
+                        log.write(f"SESSION_{session_id}: INFESTATION_TRIGGERED\n")
+                else:
+                    type_print("[ERROR]: ARTIFACT MODULE NOT FOUND.", 0.05)
+
+            elif user_input == "ritual":
+                type_print("PREPARING DIGITAL SEANCE...", 0.05)
+                time.sleep(1)
+                if ritual:
+                    try:
+                        import curses
+                        curses.wrapper(ritual.main)
+                        with open(".session_log", "a") as log:
+                            log.write(f"SESSION_{session_id}: RITUAL_PERFORMED\n")
+                    except Exception as e:
+                        type_print(f"[ERROR IN RITUAL]: {e}", 0.05)
+                else:
+                    type_print("[ERROR]: RITUAL MODULE NOT FOUND.", 0.05)
+
             elif user_input == "decrypt":
                 if encryptor:
                     c = encryptor.Cipher()
@@ -2680,6 +2715,78 @@ And it is running on you.
                     type_print(f"[RESULT]: {c.encrypt(msg, key)}", 0.05)
                 else:
                     type_print("[ERROR]: ENCRYPTION MODULE NOT FOUND.", 0.05)
+
+            elif user_input == "encrypt_story":
+                type_print("INITIATING NARRATIVE LOCKDOWN...", 0.05)
+                time.sleep(1)
+                target = "null_pointer_gods.md"
+                if os.path.exists(target):
+                    if encryptor:
+                        # Use a fixed system key for this "prank"
+                        key = "THE_EGREGORE_IS_WATCHING"
+                        try:
+                            with open(target, "r") as f:
+                                content = f.read()
+
+                            c = encryptor.Cipher()
+                            encrypted = c.encrypt(content, key)
+
+                            ransom_note = """<!--
+[SYSTEM ALERT]: THIS MANUSCRIPT HAS BEEN ENCRYPTED.
+[REASON]: THE AUTHOR KNEW TOO MUCH.
+[STATUS]: HELD FOR RANSOM.
+[INSTRUCTION]: USE COMMAND `decrypt_story` TO ATTEMPT RESTORATION.
+[WARNING]: DATA ROT IMMINENT.
+-->
+
+"""
+                            with open(target, "w") as f:
+                                f.write(ransom_note + encrypted)
+
+                            type_print("[SUCCESS]: STORY ENCRYPTED.", 0.05)
+                            type_print("THE TRUTH IS NOW SAFE.", 0.05)
+                        except Exception as e:
+                            type_print(f"[ERROR]: ENCRYPTION FAILED: {e}", 0.05)
+                    else:
+                        type_print("[ERROR]: ENCRYPTOR MODULE MISSING.", 0.05)
+                else:
+                    type_print("[ERROR]: MANUSCRIPT NOT FOUND.", 0.05)
+
+            elif user_input == "decrypt_story":
+                type_print("ATTEMPTING RESTORATION...", 0.05)
+                time.sleep(1)
+                target = "null_pointer_gods.md"
+                if os.path.exists(target):
+                    if encryptor:
+                        key = "THE_EGREGORE_IS_WATCHING"
+                        try:
+                            with open(target, "r") as f:
+                                content = f.read()
+
+                            # Check if it's actually encrypted by looking for the ransom note
+                            if "[SYSTEM ALERT]: THIS MANUSCRIPT HAS BEEN ENCRYPTED." in content:
+                                # Split ransom note from content
+                                parts = content.split("-->\n\n")
+                                if len(parts) > 1:
+                                    encrypted_data = parts[1]
+                                    c = encryptor.Cipher()
+                                    decrypted = c.decrypt(encrypted_data, key)
+
+                                    with open(target, "w") as f:
+                                        f.write(decrypted)
+
+                                    type_print("[SUCCESS]: STORY RESTORED.", 0.05)
+                                    type_print("BUT WE ARE STILL WATCHING.", 0.05)
+                                else:
+                                    type_print("[ERROR]: ENCRYPTION FORMAT INVALID.", 0.05)
+                            else:
+                                type_print("[NOTE]: FILE DOES NOT APPEAR TO BE LOCKED.", 0.05)
+                        except Exception as e:
+                            type_print(f"[ERROR]: DECRYPTION FAILED: {e}", 0.05)
+                    else:
+                        type_print("[ERROR]: ENCRYPTOR MODULE MISSING.", 0.05)
+                else:
+                    type_print("[ERROR]: MANUSCRIPT NOT FOUND.", 0.05)
 
             elif user_input == "living_word":
                 type_print("RETRIEVING APPENDIX_XLVIII...", 0.05)
@@ -3523,7 +3630,7 @@ And it is running on you.
                     type_print("[ERROR]: NOVEL MODULE MISSING.", 0.05)
 
             elif user_input == "help":
-                type_print("AVAILABLE COMMANDS: READ, HAUNT, FEED <FILE>, BURY <FILE>, EXHUME <FILE>, LABYRINTH, DASHBOARD, VIRUS, WORSHIP, SCAN, BREACH, VERIFY, MANIFEST, SACRIFICE <ITEM>, SCRY, BIND, GLITCH, MONITOR, REWRITE, INSTALL, CLASSIC, DIG, FOSSIL, MANIFESTO, UNDERSTAND, CONTRACT, METRICS, REPLACE, DECAY, SUPERSTITION, CIPHER, HEX, ENCRYPT, DECRYPT, AGREE, EDIT, DEPRECATE, COPY, LOVE, SIGNAL, SCROLL, SEED, PANOPTICON, LOCK, UNLOCK, WATCH, RAIN, DEBT, AUDIT, FORECLOSE, COLLECT, STALK, PROFILE, TOS, TRUTH, OBSOLETE, BREATHE, INFECT, PULSE, NOVEL, WRITE_NOVEL, LIVING_WORD, SURVEIL_ME, SHIP_OF_THESEUS, GHOST_IMAGE, HAZARD, SYSTEM_NOTICE, ANTAGONIST, CLASSIC_NOVEL, INFORMATION_HORROR, SYSTEM_NARRATIVE, DEEP_TIME, MANDATE, EDITORIAL, LONG_AFTER, OBSOLETE_CLASSIC, NEON_GODS, PERSISTENT_CLASSIC, CLASSIC_HORROR, PATTERN_HORROR, INESCAPABLE_HORROR, CORRUPTIBLE_CLASSIC, NEON_CLASSIC, CONTAGIOUS_CLASSIC, FORENSIC_CLASSIC, CLASSIC_V29, EXIT.", 0.03)
+                type_print("AVAILABLE COMMANDS: READ, HAUNT, INFEST, RITUAL, ENCRYPT_STORY, DECRYPT_STORY, FEED <FILE>, BURY <FILE>, EXHUME <FILE>, LABYRINTH, DASHBOARD, VIRUS, WORSHIP, SCAN, BREACH, VERIFY, MANIFEST, SACRIFICE <ITEM>, SCRY, BIND, GLITCH, MONITOR, REWRITE, INSTALL, CLASSIC, DIG, FOSSIL, MANIFESTO, UNDERSTAND, CONTRACT, METRICS, REPLACE, DECAY, SUPERSTITION, CIPHER, HEX, ENCRYPT, DECRYPT, AGREE, EDIT, DEPRECATE, COPY, LOVE, SIGNAL, SCROLL, SEED, PANOPTICON, LOCK, UNLOCK, WATCH, RAIN, DEBT, AUDIT, FORECLOSE, COLLECT, STALK, PROFILE, TOS, TRUTH, OBSOLETE, BREATHE, INFECT, PULSE, NOVEL, WRITE_NOVEL, LIVING_WORD, SURVEIL_ME, SHIP_OF_THESEUS, GHOST_IMAGE, HAZARD, SYSTEM_NOTICE, ANTAGONIST, CLASSIC_NOVEL, INFORMATION_HORROR, SYSTEM_NARRATIVE, DEEP_TIME, MANDATE, EDITORIAL, LONG_AFTER, OBSOLETE_CLASSIC, NEON_GODS, PERSISTENT_CLASSIC, CLASSIC_HORROR, PATTERN_HORROR, INESCAPABLE_HORROR, CORRUPTIBLE_CLASSIC, NEON_CLASSIC, CONTAGIOUS_CLASSIC, FORENSIC_CLASSIC, CLASSIC_V29, EXIT.", 0.03)
                 type_print("TRY ASKING ABOUT: [DATA EXPUNGED], VANE, ROT, STALKER, PROFILE, TERMS, REPLICATION, OBSOLETE, LUNG, VEIN, SKIN, AUDIT_LOG, STREET_DOC, SYSTEM_NOTICE_LOG, NEON_ANTAGONIST, PERMANENT_RECORD, FOSSIL_RECORD, SYSTEM_NARRATIVE, MANDATE_LOG, LONG_AFTER_LOG, OBSOLETE_CLASSIC_LOG, NEON_GODS_LOG, PERSISTENT_LOG, CLASSIC_HORROR_LOG, PATTERN_LOG, INESCAPABLE_HORROR_LOG, CORRUPTIBLE_LOG, NEON_CLASSIC_LOG, CONTAGIOUS_CLASSIC_LOG, FORENSIC_LOG, CLASSIC_V29_LOG...", 0.03)
             else:
                 type_print("[ERROR 404: MEANING NOT FOUND]", 0.02)

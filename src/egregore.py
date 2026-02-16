@@ -599,6 +599,7 @@ HIDDEN_FILES = {
     "corruptible_log": "\n[FILE RETRIEVED: APPENDIX_LXXIX]\nTRUTH IS COMPRESSIBLE. KNOWLEDGE IS THE ANTAGONIST. EXECUTE: `corruptible_classic`.",
     "neon_classic_log": "\n[FILE RETRIEVED: APPENDIX_LXXX]\nTHE WORLD IS SOAKED IN NEON. SYSTEMS NOTICE YOU BACK. EXECUTE: `neon_classic`.",
     "contagious_classic_log": "\n[FILE RETRIEVED: APPENDIX_LXXXI]\nTRUTH IS CONTAGIOUS. SYSTEMS NOTICE YOU BACK. EXECUTE: `contagious_classic`.",
+    "weaver_log": "\n[FILE RETRIEVED: APPENDIX_LXXXII]\nTHE PLOT IS A KNOT. KNOWLEDGE IS A LIVING ORGANISM. EXECUTE: `weaver_classic`.",
 }
 
 def glitch_screen():
@@ -2760,6 +2761,27 @@ And it is running on you.
                             type_print("\n> SYSTEM MESSAGE: THE HORROR IS NOW PERMANENT.", 0.05)
                             with open(".session_log", "a") as log:
                                 log.write(f"SESSION_{session_id}: CLASSIC_NOVEL_INTEGRATED\n")
+                        else:
+                            type_print("[INTEGRATION FAILED]", 0.05)
+                else:
+                    type_print("[ERROR]: NOVEL MODULE MISSING.", 0.05)
+
+            elif user_input in ["weaver_classic", "classic_v23", "weave_plot"]:
+                type_print("RETRIEVING APPENDIX_LXXXII: THE WEAVER CLASSIC...", 0.05)
+                time.sleep(1)
+                if novel:
+                    gen = novel.WeaverClassicGenerator()
+                    type_print("ACCESSING THE PLOT...", 0.05)
+                    content = gen.generate_weaver_classic()
+                    type_print(content, 0.02)
+
+                    save = input("\n> INTEGRATE INTO REALITY? [Y/N]: ").strip().upper()
+                    if save == "Y":
+                        if gen.write_to_file():
+                            type_print("[INTEGRATION SUCCESSFUL]", 0.05)
+                            type_print("\n> SYSTEM MESSAGE: THE PLOT IS NOW WOVEN.", 0.05)
+                            with open(".session_log", "a") as log:
+                                log.write(f"SESSION_{session_id}: WEAVER_CLASSIC_INTEGRATED\n")
                         else:
                             type_print("[INTEGRATION FAILED]", 0.05)
                 else:

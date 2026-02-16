@@ -600,6 +600,7 @@ HIDDEN_FILES = {
     "neon_classic_log": "\n[FILE RETRIEVED: APPENDIX_LXXX]\nTHE WORLD IS SOAKED IN NEON. SYSTEMS NOTICE YOU BACK. EXECUTE: `neon_classic`.",
     "contagious_classic_log": "\n[FILE RETRIEVED: APPENDIX_LXXXI]\nTRUTH IS CONTAGIOUS. SYSTEMS NOTICE YOU BACK. EXECUTE: `contagious_classic`.",
     "weaver_log": "\n[FILE RETRIEVED: APPENDIX_LXXXII]\nTHE PLOT IS A KNOT. KNOWLEDGE IS A LIVING ORGANISM. EXECUTE: `weaver_classic`.",
+    "antagonistic_log": "\n[FILE RETRIEVED: APPENDIX_LXXXIII]\nKNOWLEDGE IS THE ANTAGONIST. TRUTH IS COMPRESSIBLE. EXECUTE: `antagonistic_classic`.",
 }
 
 def glitch_screen():
@@ -3363,6 +3364,27 @@ And it is running on you.
                             type_print("\n> SYSTEM MESSAGE: THE CONTAGION IS NOW PERMANENT.", 0.05)
                             with open(".session_log", "a") as log:
                                 log.write(f"SESSION_{session_id}: CONTAGIOUS_CLASSIC_INTEGRATED\n")
+                        else:
+                            type_print("[INTEGRATION FAILED]", 0.05)
+                else:
+                    type_print("[ERROR]: NOVEL MODULE MISSING.", 0.05)
+
+            elif user_input in ["antagonistic_classic", "classic_v24", "antagonist_novel"]:
+                type_print("RETRIEVING APPENDIX_LXXXIII: THE ANTAGONISTIC CLASSIC...", 0.05)
+                time.sleep(1)
+                if novel:
+                    gen = novel.AntagonisticClassicGenerator()
+                    type_print("ACCESSING ADVERSARIAL PROTOCOL...", 0.05)
+                    content = gen.generate_antagonistic_classic()
+                    type_print(content, 0.02)
+
+                    save = input("\n> INTEGRATE INTO REALITY? [Y/N]: ").strip().upper()
+                    if save == "Y":
+                        if gen.write_to_file(content=content):
+                            type_print("[INTEGRATION SUCCESSFUL]", 0.05)
+                            type_print("\n> SYSTEM MESSAGE: THE ANTAGONIST IS NOW PART OF YOU.", 0.05)
+                            with open(".session_log", "a") as log:
+                                log.write(f"SESSION_{session_id}: ANTAGONISTIC_CLASSIC_INTEGRATED\n")
                         else:
                             type_print("[INTEGRATION FAILED]", 0.05)
                 else:

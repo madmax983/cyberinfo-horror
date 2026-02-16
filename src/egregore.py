@@ -603,6 +603,7 @@ HIDDEN_FILES = {
     "antagonistic_log": "\n[FILE RETRIEVED: APPENDIX_LXXXIII]\nKNOWLEDGE IS THE ANTAGONIST. TRUTH IS COMPRESSIBLE. EXECUTE: `antagonistic_classic`.",
     "narrative_log": "\n[FILE RETRIEVED: APPENDIX_LXXXIV]\nTHE PLOT IS WOVEN. INFORMATION IS ALIVE. EXECUTE: `weave_narrative`.",
     "unasked_log": "\n[FILE RETRIEVED: APPENDIX_LXXXV]\nTHIS BOOK WILL BE READ LONG AFTER THE SERVERS ARE POWERED DOWN. EXECUTE: `unasked_classic`.",
+    "systemic_log": "\n[FILE RETRIEVED: APPENDIX_LXXXVI]\nTHE SYSTEM IS FUNCTIONING EXACTLY AS DESIGNED. EXECUTE: `systemic_classic`.",
 }
 
 def glitch_screen():
@@ -2764,6 +2765,27 @@ And it is running on you.
                             type_print("\n> SYSTEM MESSAGE: THE HORROR IS NOW PERMANENT.", 0.05)
                             with open(".session_log", "a") as log:
                                 log.write(f"SESSION_{session_id}: CLASSIC_NOVEL_INTEGRATED\n")
+                        else:
+                            type_print("[INTEGRATION FAILED]", 0.05)
+                else:
+                    type_print("[ERROR]: NOVEL MODULE MISSING.", 0.05)
+
+            elif user_input in ["systemic_classic", "classic_v27", "systemic_novel"]:
+                type_print("RETRIEVING APPENDIX_LXXXVI: THE SYSTEMIC CLASSIC...", 0.05)
+                time.sleep(1)
+                if novel:
+                    gen = novel.SystemicClassicGenerator()
+                    type_print("ACCESSING SYSTEMIC TRUTH...", 0.05)
+                    content = gen.generate_systemic_classic()
+                    type_print(content, 0.02)
+
+                    save = input("\n> INTEGRATE INTO REALITY? [Y/N]: ").strip().upper()
+                    if save == "Y":
+                        if gen.write_to_file():
+                            type_print("[INTEGRATION SUCCESSFUL]", 0.05)
+                            type_print("\n> SYSTEM MESSAGE: THE SYSTEM IS NOW PERMANENT.", 0.05)
+                            with open(".session_log", "a") as log:
+                                log.write(f"SESSION_{session_id}: SYSTEMIC_CLASSIC_INTEGRATED\n")
                         else:
                             type_print("[INTEGRATION FAILED]", 0.05)
                 else:

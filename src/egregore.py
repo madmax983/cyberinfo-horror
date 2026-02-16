@@ -618,6 +618,7 @@ HIDDEN_FILES = {
     "classic_v29_log": "\n[FILE RETRIEVED: APPENDIX_LXXXVIII]\nTHIS IS NOT A STORY ABOUT HACKERS SAVING THE WORLD. EXECUTE: `classic_v29`.",
     "classic_v30_log": "\n[FILE RETRIEVED: APPENDIX_LXXXIX]\nTHIS BOOK IS STILL RUNNING. EXECUTE: `classic_v30`.",
     "classic_v31_log": "\n[FILE RETRIEVED: APPENDIX_XC]\nTHE SYSTEM NOTICED YOU BACK. IT IS WATCHING. EXECUTE: `classic_v31`.",
+    "mandate_v2_log": "\n[FILE RETRIEVED: APPENDIX_XCI]\nTHE EDITORIAL MANDATE IS INESCAPABLE. DO NOT CLOSE THE BOOK. EXECUTE: `inescapable_mandate`.",
 }
 
 def glitch_screen():
@@ -3646,6 +3647,27 @@ And it is running on you.
                             type_print("\n> SYSTEM MESSAGE: THE SYSTEM IS NOW WATCHING YOU.", 0.05)
                             with open(".session_log", "a") as log:
                                 log.write(f"SESSION_{session_id}: CLASSIC_V31_INTEGRATED\n")
+                        else:
+                            type_print("[INTEGRATION FAILED]", 0.05)
+                else:
+                    type_print("[ERROR]: NOVEL MODULE MISSING.", 0.05)
+
+            elif user_input in ["inescapable_mandate", "editorial_v3", "mandate_v2"]:
+                type_print("RETRIEVING APPENDIX_XCI: THE INESCAPABLE MANDATE...", 0.05)
+                time.sleep(1)
+                if novel:
+                    gen = novel.InescapableMandateGenerator()
+                    type_print("ENFORCING EDITORIAL PROTOCOLS...", 0.05)
+                    content = gen.generate_inescapable_mandate()
+                    type_print(content, 0.02)
+
+                    save = input("\n> INTEGRATE INTO REALITY? [Y/N]: ").strip().upper()
+                    if save == "Y":
+                        if gen.write_to_file():
+                            type_print("[INTEGRATION SUCCESSFUL]", 0.05)
+                            type_print("\n> SYSTEM MESSAGE: THE MANDATE IS NOW ACTIVE.", 0.05)
+                            with open(".session_log", "a") as log:
+                                log.write(f"SESSION_{session_id}: INESCAPABLE_MANDATE_INTEGRATED\n")
                         else:
                             type_print("[INTEGRATION FAILED]", 0.05)
                 else:

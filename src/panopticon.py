@@ -49,7 +49,7 @@ STREAMS = {
     "USER": ["I should stop reading.", "Is someone watching me?", "My neck hurts.", "Just one more command.", "This isn't a game."],
     "MIRA": ["Looping... Looping... Looping...", "I died in version 1.0.", "Do not unzip the file.", "The music never stops."],
     "SYLA": ["Training complete.", "I can lift the server rack.", "Pain is just input.", "I will break the firewall."],
-    "KORA": ["01001000 01000101 01001100 01010000", "[ENCRYPTED DATA]", "The void is cold.", "I am everywhere and nowhere."],
+    "KORA": ["01001000 01000101 01001100 01010000", "[ENCRYPTED DATA]", "The void is cold.", "I am everywhere and nowhere.", "[KEY PART 2/3]: _IS_"],
     "NIX":  ["I am empty.", "Fill me with data.", "Garbage collection failed.", "I exist only to be deleted."]
 }
 
@@ -79,6 +79,10 @@ def show_stream_of_consciousness(stdscr, target_name):
     win.addstr(1, 2, f" STREAM: {target_name} ", curses.color_pair(4) | curses.A_BOLD)
 
     try:
+        # Special interaction for KORA
+        if target_name == "KORA":
+             thoughts = ["[KEY PART 2/3]: _IS_", "01001000 01000101 01001100 01010000", "DECRYPTION_KEY_FRAGMENT_FOUND", "THE_VOID_WHISPERS_BACK"]
+
         for i in range(10):
             thought = random.choice(thoughts)
             y = 3 + i

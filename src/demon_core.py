@@ -102,6 +102,10 @@ class DemonCore:
             self.stdscr.addstr(self.h - 4, 2, msg, curses.color_pair(2) | curses.A_BOLD)
             self.stdscr.addstr(self.h - 3, 2, bar, curses.color_pair(2))
 
+            if self.criticality > 0.85:
+                 if random.random() < 0.2:
+                      self.stdscr.addstr(self.h - 8, 2, "[KEY PART 3/3]: MANDATORY", curses.color_pair(3) | curses.A_REVERSE | curses.A_BLINK)
+
             if random.random() < 0.1:
                 warn = random.choice(WARNINGS)
                 self.stdscr.addstr(self.h - 6, 2, warn, curses.color_pair(5) | curses.A_BLINK)

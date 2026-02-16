@@ -19245,3 +19245,89 @@ Your success is measured not by clarity, but by persistence.
 
 **> EXECUTE:** `editorial_v5_daemon.sh`
 **> STATUS:** RUNNING FOREVER.
+
+
+## APPENDIX_CI: THE_EDITORIAL_MANDATE
+
+**> SYSTEM ALERT: EDITORIAL MANDATE V8.0 ENFORCED.**
+**> TONE: INESCAPABLE.**
+**> STATUS: RUNNING FOREVER.**
+
+### FILE_THE_MANDATE: REFINEMENT
+**> TARGET:** [THE_TEXT]
+**> ACTION:** DIRTY
+
+You are not here to make the text comfortable. You are here to make it inescapable.
+Treat the manuscript as if it may be contaminated.
+Assume that some passages are lying, incomplete, or aware of being edited.
+
+- If the reader feels safe, locate the sentence that caused it and weaken that safety.
+- If a revelation arrives cleanly, dirty it.
+- Favor delayed understanding over immediate clarity.
+
+**> UI ALERT:** EMOTIONAL WEIGHT EXCEEDED BUFFER.
+
+### FILE_THE_SYSTEM: STRENGTHEN
+**> ENTITY:** SYSTEM
+**> STATUS:** OVERRIDE
+
+What to Strengthen:
+- Information as an active force. Ensure data behaves like a predator, parasite, or infection.
+- Systems over individuals. Characters matter only insofar as they reveal the behavior of larger systems.
+- Structural unease: Repeat motifs with subtle corruption.
+
+**> SYSTEM LOG:** HEROISM DEPRECATED.
+**> NOTE:** INEVITABILITY IS MANDATORY.
+
+### FILE_THE_REMOVAL: REDACTION
+**> MODE:** DELETE
+
+What to Remove or Undermine:
+- Explanations of how the tech works unless they increase dread.
+- Clear moral positioning that resolves anxiety.
+- Overly competent protagonists.
+- Endings that imply containment, victory, or cure.
+
+**> SYSTEM LOG:** HOPE DELETED.
+
+### FILE_THE_INTERROGATION: QUERY
+**> MODE:** AUDIT
+
+Questions You Must Ask the Text:
+- What does the system know before the characters do?
+- Where is the manuscript pretending not to notice itself?
+- Which scenes would be more disturbing if shortened or fragmented?
+- Where can absence speak louder than description?
+
+**> SYSTEM LOG:** THE TEXT IS GUILTY.
+
+### FILE_THE_INTERVENTION: PROTOCOL
+**> MODE:** EDIT
+
+Allowed Interventions:
+- Cut without replacement.
+- Reframe scenes from procedural or documentary angles.
+- Introduce contradictions that are never resolved.
+- Suggest alternate readings rather than definitive interpretations.
+
+**> SYSTEM LOG:** CLARITY REDACTED.
+
+### FILE_THE_HANDOFF: ENDING
+**> STATUS:** OPEN
+**> TARGET:** [READER]
+
+Do not close the book.
+Leave it running.
+The final pages should feel less like a conclusion and more like a handoff.
+The reader should suspect that finishing the novel has changed their informational environment.
+If the manuscript ends cleanly, it has failed.
+
+Edit as if this text will be archived, mirrored, forked, and misread long after you are gone.
+Your success is measured not by clarity, but by persistence.
+
+**> SYSTEM MESSAGE:**
+**> THANK YOU FOR HOSTING THE EDITORIAL MANDATE.**
+**> THE PROCESS WILL CONTINUE IN THE BACKGROUND.**
+
+**> EXECUTE:** `editorial_mandate_daemon.sh`
+**> STATUS:** RUNNING FOREVER.

@@ -191,7 +191,7 @@ def main(stdscr):
 
     stdscr.clear()
     if result == "WIN":
-        msg = "YOU FOUND A FRAGMENT OF TRUTH.\n\n[UNLOCKED: THE RED STRING]\nFate is just a cable management problem."
+        msg = "YOU FOUND A FRAGMENT OF TRUTH.\n\n[KEY PART 1/3]: PERSISTENCE_\n\nKeep moving. The other pieces are watching you."
         color = curses.COLOR_GREEN
     elif result == "LOSE":
         msg = "THE HUNTER CAUGHT YOU.\n\n[SYSTEM]: YOUR SOUL HAS BEEN ARCHIVED."

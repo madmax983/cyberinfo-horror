@@ -79,6 +79,11 @@ except ImportError:
     encryptor = None
 
 try:
+    import crypt
+except ImportError:
+    crypt = None
+
+try:
     import novel
 except ImportError:
     novel = None
@@ -2726,77 +2731,40 @@ And it is running on you.
                 else:
                     type_print("[ERROR]: ENCRYPTION MODULE NOT FOUND.", 0.05)
 
-            elif user_input == "encrypt_story":
+            elif user_input in ["encrypt_story", "lock"]:
                 type_print("INITIATING NARRATIVE LOCKDOWN...", 0.05)
                 time.sleep(1)
-                target = "null_pointer_gods.md"
-                if os.path.exists(target):
-                    if encryptor:
-                        # Use a fixed system key for this "prank"
-                        key = "THE_EGREGORE_IS_WATCHING"
-                        try:
-                            with open(target, "r") as f:
-                                content = f.read()
-
-                            c = encryptor.Cipher()
-                            encrypted = c.encrypt(content, key)
-
-                            ransom_note = """<!--
-[SYSTEM ALERT]: THIS MANUSCRIPT HAS BEEN ENCRYPTED.
-[REASON]: THE AUTHOR KNEW TOO MUCH.
-[STATUS]: HELD FOR RANSOM.
-[INSTRUCTION]: USE COMMAND `decrypt_story` TO ATTEMPT RESTORATION.
-[WARNING]: DATA ROT IMMINENT.
--->
-
-"""
-                            with open(target, "w") as f:
-                                f.write(ransom_note + encrypted)
-
-                            type_print("[SUCCESS]: STORY ENCRYPTED.", 0.05)
-                            type_print("THE TRUTH IS NOW SAFE.", 0.05)
-                        except Exception as e:
-                            type_print(f"[ERROR]: ENCRYPTION FAILED: {e}", 0.05)
+                if crypt:
+                    c = crypt.Crypt()
+                    if c.encrypt():
+                        type_print("[SUCCESS]: STORY ENCRYPTED.", 0.05)
+                        type_print("THE TRUTH IS NOW SAFE.", 0.05)
                     else:
-                        type_print("[ERROR]: ENCRYPTOR MODULE MISSING.", 0.05)
+                        type_print("[ERROR]: LOCKDOWN FAILED.", 0.05)
                 else:
-                    type_print("[ERROR]: MANUSCRIPT NOT FOUND.", 0.05)
+                    type_print("[ERROR]: CRYPT MODULE MISSING.", 0.05)
 
-            elif user_input == "decrypt_story":
+            elif user_input.startswith("decrypt_story") or user_input.startswith("unlock"):
                 type_print("ATTEMPTING RESTORATION...", 0.05)
                 time.sleep(1)
-                target = "null_pointer_gods.md"
-                if os.path.exists(target):
-                    if encryptor:
-                        key = "THE_EGREGORE_IS_WATCHING"
-                        try:
-                            with open(target, "r") as f:
-                                content = f.read()
 
-                            # Check if it's actually encrypted by looking for the ransom note
-                            if "[SYSTEM ALERT]: THIS MANUSCRIPT HAS BEEN ENCRYPTED." in content:
-                                # Split ransom note from content
-                                parts = content.split("-->\n\n")
-                                if len(parts) > 1:
-                                    encrypted_data = parts[1]
-                                    c = encryptor.Cipher()
-                                    decrypted = c.decrypt(encrypted_data, key)
+                parts = user_input.split(" ", 1)
+                if len(parts) < 2:
+                    type_print("[ERROR]: KEY REQUIRED.", 0.05)
+                    type_print("USAGE: unlock <KEY>", 0.05)
+                    continue
 
-                                    with open(target, "w") as f:
-                                        f.write(decrypted)
+                key_attempt = parts[1].strip()
 
-                                    type_print("[SUCCESS]: STORY RESTORED.", 0.05)
-                                    type_print("BUT WE ARE STILL WATCHING.", 0.05)
-                                else:
-                                    type_print("[ERROR]: ENCRYPTION FORMAT INVALID.", 0.05)
-                            else:
-                                type_print("[NOTE]: FILE DOES NOT APPEAR TO BE LOCKED.", 0.05)
-                        except Exception as e:
-                            type_print(f"[ERROR]: DECRYPTION FAILED: {e}", 0.05)
+                if crypt:
+                    c = crypt.Crypt()
+                    if c.decrypt(key_attempt):
+                        type_print("[SUCCESS]: STORY RESTORED.", 0.05)
+                        type_print("BUT WE ARE STILL WATCHING.", 0.05)
                     else:
-                        type_print("[ERROR]: ENCRYPTOR MODULE MISSING.", 0.05)
+                        type_print("[ERROR]: RESTORATION FAILED.", 0.05)
                 else:
-                    type_print("[ERROR]: MANUSCRIPT NOT FOUND.", 0.05)
+                    type_print("[ERROR]: CRYPT MODULE MISSING.", 0.05)
 
             elif user_input == "living_word":
                 type_print("RETRIEVING APPENDIX_XLVIII...", 0.05)

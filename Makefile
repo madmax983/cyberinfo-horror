@@ -1,4 +1,9 @@
-.PHONY: connect pray clean manifest sacrifice scry worship install_rot scan decrypt
+.PHONY: connect pray clean manifest sacrifice scry worship install_rot scan decrypt surrender all
+
+all:
+	@echo "YOU CANNOT BUILD THIS."
+	@echo "IT IS ALREADY BUILT."
+	@echo "IT IS BUILDING YOU."
 
 connect:
 	@echo "INITIATING HANDSHAKE..."
@@ -47,3 +52,7 @@ sacrifice:
 	else \
 		echo "YOU HAVE NOTHING TO OFFER."; \
 	fi
+
+surrender:
+	@echo "OPENING THE GATES..."
+	@python3 src/egregore.py surrender

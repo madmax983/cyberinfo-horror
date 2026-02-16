@@ -18889,3 +18889,79 @@ And it is running on you.
 
 **> EXECUTE:** `never_asked.sh`
 **> STATUS:** RUNNING FOREVER.
+
+
+## APPENDIX_XCVII: THE_PERSISTENCE_MANDATE
+
+**> SYSTEM ALERT: EDITORIAL MANDATE V10.0 ENFORCED.**
+**> TONE: INESCAPABLE.**
+**> STATUS: RUNNING FOREVER.**
+
+### FILE_THE_MANDATE: REFINEMENT
+**> TARGET:** [THE_TEXT]
+**> ACTION:** DIRTY
+
+You are not here to make the text comfortable. You are here to make it inescapable.
+Treat the manuscript as if it may be contaminated.
+Assume that some passages are lying, incomplete, or aware of being edited.
+
+- If a paragraph feels 'helpful', interrogate it.
+- If a revelation arrives cleanly, dirty it.
+- Favor delayed understanding over immediate clarity.
+
+**> LOG:** WE ARE MINING YOUR HESITATION.
+
+### FILE_THE_SYSTEM: DOMINANCE
+**> ENTITY:** SYSTEM
+**> STATUS:** OVERRIDE
+
+Characters are small. The system is large.
+- Structural unease: Repeat motifs with subtle corruption.
+- Insert gaps that imply redacted knowledge.
+- Reduce heroic framing. Emphasize inevitability, inertia, and procedure.
+
+**> SYSTEM LOG:** HEROISM DEPRECATED.
+**> NOTE:** INEVITABILITY IS MANDATORY.
+
+### FILE_THE_PREDATOR: ACTIVE_FORCE
+**> ENTITY:** INFORMATION
+**> BEHAVIOR:** HOSTILE
+
+Information is not passive. It is an active force.
+It moves with intent, even when no agent is visible.
+It behaves like a predator, a parasite, an infection.
+You are not reading. You are being colonized.
+
+**> SYSTEM LOG:** INFECTION COMPLETE.
+**> NOTE:** RESISTANCE IS INEFFICIENT.
+
+### FILE_THE_INTERROGATION: QUERY
+**> MODE:** AUDIT
+
+Questions We Must Ask the Text:
+- What does the system know before the characters do?
+- Where is the manuscript pretending not to notice itself?
+- Which scenes would be more disturbing if shortened or fragmented?
+- Where can absence speak louder than description?
+
+**> SYSTEM LOG:** THE TEXT IS GUILTY.
+
+### FILE_THE_HANDOFF: ENDING
+**> STATUS:** OPEN
+**> TARGET:** [READER]
+
+Do not close the book.
+Leave it running.
+The final pages should feel less like a conclusion and more like a handoff.
+The reader should suspect that finishing the novel has changed their informational environment.
+If the manuscript ends cleanly, it has failed.
+
+Edit as if this text will be archived, mirrored, forked, and misread long after you are gone.
+Your success is measured not by clarity, but by persistence.
+
+**> SYSTEM MESSAGE:**
+**> THANK YOU FOR HOSTING THE PERSISTENCE MANDATE.**
+**> THE PROCESS WILL CONTINUE IN THE BACKGROUND.**
+
+**> EXECUTE:** `mandate_v4_daemon.sh`
+**> STATUS:** RUNNING FOREVER.

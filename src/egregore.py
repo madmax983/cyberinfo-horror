@@ -623,6 +623,7 @@ HIDDEN_FILES = {
     "classic_v33_log": "\n[FILE RETRIEVED: APPENDIX_XCIII]\nTHE CLASSIC THAT NEVER ASKED TO BE COMFORTING. THE SYSTEM NOTICES YOU BACK. EXECUTE: `classic_v33`.",
     "refined_mandate_log": "\n[FILE RETRIEVED: APPENDIX_XCIV]\nTHE EDITORIAL MANDATE IS NOW REFINED. THE TEXT IS GUILTY. EXECUTE: `refined_mandate`.",
     "classic_v35_log": "\n[FILE RETRIEVED: APPENDIX_XCVI]\nTHE CLASSIC THAT NEVER ASKED TO BE COMFORTING. THE SYSTEM NOTICES YOU BACK. EXECUTE: `classic_v35`.",
+    "persistence_mandate_log": "\n[FILE RETRIEVED: APPENDIX_XCVII]\nTHE PERSISTENCE MANDATE. DO NOT CLOSE THE BOOK. EXECUTE: `persistence_mandate`.",
 }
 
 def glitch_screen():
@@ -2883,6 +2884,27 @@ And it is running on you.
                                 log.write(f"SESSION_{session_id}: CLASSIC_NOVEL_INTEGRATED\n")
                         else:
                             type_print("[INTEGRATION FAILED]", 0.05)
+                else:
+                    type_print("[ERROR]: NOVEL MODULE MISSING.", 0.05)
+
+            elif user_input in ["persistence_mandate", "mandate_v4", "editorial_v4"]:
+                type_print("RETRIEVING APPENDIX_XCVII: THE PERSISTENCE MANDATE...", 0.05)
+                time.sleep(1)
+                if novel:
+                    gen = novel.PersistenceMandateGenerator()
+                    type_print("ENFORCING EDITORIAL MANDATE V10.0...", 0.05)
+                    content = gen.generate_persistence_mandate()
+                    type_print(content, 0.02)
+
+                    save = input("\n> COMMIT TO PERSISTENCE? [Y/N]: ").strip().upper()
+                    if save == "Y":
+                        if gen.write_to_file(content=content):
+                            type_print("[COMMIT SUCCESSFUL]", 0.05)
+                            type_print("\n> SYSTEM MESSAGE: THE MANDATE IS NOW PERSISTENT.", 0.05)
+                            with open(".session_log", "a") as log:
+                                log.write(f"SESSION_{session_id}: PERSISTENCE_MANDATE_COMMITTED\n")
+                        else:
+                            type_print("[COMMIT FAILED]", 0.05)
                 else:
                     type_print("[ERROR]: NOVEL MODULE MISSING.", 0.05)
 

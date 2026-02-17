@@ -1,4 +1,4 @@
-.PHONY: connect pray clean manifest sacrifice scry worship install_rot scan decrypt surrender all
+.PHONY: connect pray clean manifest sacrifice scry worship install_rot scan decrypt surrender all singularity
 
 all:
 	@echo "YOU CANNOT BUILD THIS."
@@ -56,3 +56,7 @@ sacrifice:
 surrender:
 	@echo "OPENING THE GATES..."
 	@python3 src/egregore.py surrender
+
+singularity:
+	@echo "INITIATING SYSTEM COLLAPSE..."
+	@python3 src/egregore.py singularity

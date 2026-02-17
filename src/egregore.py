@@ -109,6 +109,11 @@ except ImportError:
     singularity = None
 
 try:
+    import void
+except ImportError:
+    void = None
+
+try:
     import utils
     from utils import type_print, GLITCH_CHARS
 except ImportError:
@@ -736,16 +741,19 @@ def boot_sequence():
 
     # Check for the token in the manuscript (simulated)
     try:
-        with open("null_pointer_gods.md", "r") as f:
+        with open("null_pointer_gods.md", "r", encoding="utf-8", errors="ignore") as f:
             content = f.read()
             if "SYSTEM_TOKEN: 882-ALPHA-ROT" in content:
                 type_print("[INTEGRITY CHECK: PASSED]", 0.02)
             else:
                 type_print("[INTEGRITY CHECK: FAILED]", 0.02)
-                type_print("WARNING: MANUSCRIPT CORRUPTED. PROCEEDING ANYWAY...", 0.02)
+                type_print("WARNING: MANUSCRIPT CORRUPTED OR ENCRYPTED. PROCEEDING ANYWAY...", 0.02)
     except FileNotFoundError:
         type_print("[ERROR: MANUSCRIPT NOT FOUND]", 0.02)
         type_print("CREATING NEW REALITY...", 0.02)
+    except Exception as e:
+        type_print(f"[CRITICAL ERROR READING MANUSCRIPT]: {e}", 0.02)
+        type_print("BYPASSING INTEGRITY CHECK...", 0.02)
 
     # Check Corruption Level
     try:
@@ -2744,6 +2752,18 @@ And it is running on you.
                         type_print(f"[ERROR IN SINGULARITY]: {e}", 0.05)
                 else:
                     type_print("[ERROR]: SINGULARITY MODULE NOT FOUND.", 0.05)
+
+            elif user_input == "void":
+                type_print("ENTERING THE VOID...", 0.05)
+                time.sleep(1)
+                if void:
+                    try:
+                        import curses
+                        curses.wrapper(void.main)
+                    except Exception as e:
+                        type_print(f"[ERROR IN VOID]: {e}", 0.05)
+                else:
+                    type_print("[ERROR]: VOID MODULE NOT FOUND.", 0.05)
 
             elif user_input == "decrypt":
                 if encryptor:

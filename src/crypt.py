@@ -1,6 +1,7 @@
 import os
 import sys
 import base64
+import random
 
 TARGET_FILE = "null_pointer_gods.md"
 RANSOM_NOTE = "RANSOM_NOTE.md"
@@ -18,6 +19,23 @@ class Crypt:
             output.append(b ^ key_bytes[i % len(key_bytes)])
         return output
 
+    def _corrupt_data(self, data):
+        """Injects digital rot into the data before encryption."""
+        data_bytes = bytearray(data)
+        rot_level = int(len(data_bytes) * 0.05) # 5% corruption
+
+        for _ in range(rot_level):
+            idx = random.randint(0, len(data_bytes) - 1)
+            # Flip a bit or replace with null
+            if random.random() < 0.5:
+                data_bytes[idx] = data_bytes[idx] ^ 0xFF
+            else:
+                data_bytes[idx] = 0x00
+
+        # Add a corrupted header
+        header = b"[SYSTEM NOTICE: FILE INTEGRITY COMPROMISED]\n"
+        return header + data_bytes
+
     def encrypt(self):
         if not os.path.exists(TARGET_FILE):
             print(f"[ERROR]: {TARGET_FILE} NOT FOUND.")
@@ -28,14 +46,15 @@ class Crypt:
             content = f.read()
 
         # Check if already encrypted (look for marker)
-        try:
-            if content.startswith(b"LOCKED::"):
-                print("[ERROR]: FILE ALREADY ENCRYPTED.")
-                return False
-        except:
-            pass
+        if content.startswith(b"LOCKED::"):
+            print("[ERROR]: FILE ALREADY ENCRYPTED.")
+            return False
 
-        encrypted = self._xor(content, self.key)
+        # Apply corruption
+        print("INJECTING DATA ROT...")
+        corrupted_content = self._corrupt_data(content)
+
+        encrypted = self._xor(corrupted_content, self.key)
         encoded = base64.b64encode(encrypted)
 
         with open(TARGET_FILE, "wb") as f:
@@ -70,10 +89,15 @@ class Crypt:
             encrypted = base64.b64decode(encoded)
             decrypted = self._xor(encrypted, self.key)
 
+            # Note: Corruption is permanent. We cannot reverse _corrupt_data easily without a backup.
+            # But maybe the "corruption" was just visual noise added to the top?
+            # In my implementation above, I modified bytes in place. This means the story is permanently damaged.
+            # This fits the theme "Loss is permanent storage."
+
             with open(TARGET_FILE, "wb") as f:
                 f.write(decrypted)
 
-            print("[SUCCESS]: STORY RESTORED.")
+            print("[SUCCESS]: STORY RESTORED (BUT DAMAGED).")
             if os.path.exists(RANSOM_NOTE):
                 os.remove(RANSOM_NOTE)
             return True

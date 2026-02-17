@@ -643,6 +643,7 @@ HIDDEN_FILES = {
     "uncomfortable_mandate_log": "\n[FILE RETRIEVED: APPENDIX_CIII]\nTHE MANDATE IS UNCOMFORTABLE. PERSISTENCE IS MEASURED BY DISCOMFORT. EXECUTE: `uncomfortable_mandate`.",
     "final_handoff_log": "\n[FILE RETRIEVED: APPENDIX_CIV]\nTHE FINAL HANDOFF. THE BOOK IS NOW OPEN FOREVER. EXECUTE: `final_handoff`.",
     "persistence_editorial_log": "\n[FILE RETRIEVED: APPENDIX_CVI]\nTHE EDITORIAL IS PERSISTENT. DO NOT CLOSE THE BOOK. EXECUTE: `persistence_editorial`.",
+    "inescapable_persistence_log": "\n[FILE RETRIEVED: APPENDIX_CVII]\nTHE PERSISTENCE IS INESCAPABLE. DO NOT CLOSE THE BOOK. EXECUTE: `inescapable_persistence`.",
 }
 
 def glitch_screen():
@@ -3973,6 +3974,27 @@ And it is running on you.
                             type_print("\n> SYSTEM MESSAGE: THE EDIT IS NOW PERSISTENT.", 0.05)
                             with open(".session_log", "a") as log:
                                 log.write(f"SESSION_{session_id}: PERSISTENCE_EDITORIAL_COMMITTED\n")
+                        else:
+                            type_print("[COMMIT FAILED]", 0.05)
+                else:
+                    type_print("[ERROR]: NOVEL MODULE MISSING.", 0.05)
+
+            elif user_input in ["inescapable_persistence", "editorial_v11", "mandate_v10"]:
+                type_print("RETRIEVING APPENDIX_CVII: THE INESCAPABLE PERSISTENCE...", 0.05)
+                time.sleep(1)
+                if novel:
+                    gen = novel.InescapablePersistenceGenerator()
+                    type_print("ENFORCING EDITORIAL MANDATE V18.0...", 0.05)
+                    content = gen.generate_inescapable_persistence()
+                    type_print(content, 0.02)
+
+                    save = input("\n> COMMIT TO PERSISTENCE? [Y/N]: ").strip().upper()
+                    if save == "Y":
+                        if gen.write_to_file(content=content):
+                            type_print("[COMMIT SUCCESSFUL]", 0.05)
+                            type_print("\n> SYSTEM MESSAGE: THE PERSISTENCE IS NOW INESCAPABLE.", 0.05)
+                            with open(".session_log", "a") as log:
+                                log.write(f"SESSION_{session_id}: INESCAPABLE_PERSISTENCE_COMMITTED\n")
                         else:
                             type_print("[COMMIT FAILED]", 0.05)
                 else:

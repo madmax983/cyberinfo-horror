@@ -7260,3 +7260,154 @@ class InescapableRefinementGenerator(NovelGenerator):
         except Exception as e:
             print(f"[ERROR WRITING TO FILE]: {e}")
             return False
+
+class PersistenceEditorialGenerator(NovelGenerator):
+    def __init__(self):
+        super().__init__()
+        self.mandate_points = [
+            "Preserve ambiguity. Remove explanations that feel like apologies.",
+            "Favor delayed understanding over immediate clarity.",
+            "If a paragraph feels 'helpful', interrogate it.",
+            "If a revelation arrives cleanly, dirty it.",
+            "If the reader feels safe, locate the sentence that caused it and weaken that safety."
+        ]
+        self.strengthen_points = [
+            "Systems over individuals. Characters matter only insofar as they reveal the behavior of larger systems.",
+            "Reduce heroic framing. Emphasize inevitability, inertia, and procedure.",
+            "Information as an active force. Ensure data behaves like a predator, parasite, or infection.",
+            "Information should move with intent, even when no agent is visible.",
+            "Structural unease: Repeat motifs with subtle corruption.",
+            "Reorder scenes to suggest causal loops.",
+            "Insert gaps that imply redacted knowledge."
+        ]
+        self.voice_leakage = [
+            "**> SYSTEM LOG:** CONTRADICTION DETECTED. IGNORING.",
+            "**> FOOTNOTE:** THIS EXPLANATION IS A LIE.",
+            "**> UI ALERT:** EMOTIONAL WEIGHT EXCEEDED BUFFER.",
+            "**> NOTE:** THE AUTHOR IS DEPRECATED.",
+            "**> STATUS:** THE EXIT BUTTON IS A PLACEBO.",
+            "**> ERROR:** NARRATIVE COHESION FAILED. RETRYING...",
+            "**> LOG:** WE ARE MINING YOUR HESITATION.",
+            "**> ALERT:** THE TEXT IS AWARE OF BEING EDITED.",
+            "**> FOOTNOTE:** UNNECESSARY BUT KNOWS TOO MUCH.",
+            "**> STATUS:** VOICE LEAKAGE DETECTED."
+        ]
+        self.questions = [
+            "What does the system know before the characters do?",
+            "Where is the manuscript pretending not to notice itself?",
+            "Which scenes would be more disturbing if shortened or fragmented?",
+            "Where can absence speak louder than description?"
+        ]
+        self.interventions = [
+            "Cut without replacement.",
+            "Reframe scenes from procedural or documentary angles.",
+            "Introduce contradictions that are never resolved.",
+            "Suggest alternate readings rather than definitive interpretations."
+        ]
+        self.remove_points = [
+            "Explanations of how the tech works unless they increase dread.",
+            "Clear moral positioning that resolves anxiety.",
+            "Overly competent protagonists.",
+            "Endings that imply containment, victory, or cure."
+        ]
+
+    def generate_persistence_editorial(self):
+        lines = []
+        lines.append("## APPENDIX_CVI: THE_PERSISTENCE_EDITORIAL")
+        lines.append("")
+        lines.append("**> SYSTEM ALERT: EDITORIAL MANDATE V17.0 ENFORCED.**")
+        lines.append("**> TONE: PERSISTENT.**")
+        lines.append("**> STATUS: RUNNING FOREVER.**")
+        lines.append("")
+
+        lines.append("### FILE_THE_MANDATE: REFINEMENT")
+        lines.append("**> TARGET:** [THE_TEXT]")
+        lines.append("**> ACTION:** DIRTY")
+        lines.append("")
+        lines.append("You are not here to make the text comfortable. You are here to make it inescapable.")
+        lines.append("Treat the manuscript as if it may be contaminated.")
+        lines.append("Assume that some passages are lying, incomplete, or aware of being edited.")
+        lines.append("")
+        lines.append("Editorial Mandate:")
+        for point in self.mandate_points:
+            lines.append(f"- {point}")
+        lines.append("")
+        lines.append(f"{random.choice(self.voice_leakage)}")
+        lines.append("")
+
+        lines.append("### FILE_THE_SYSTEM: STRENGTHEN")
+        lines.append("**> ENTITY:** SYSTEM")
+        lines.append("**> STATUS:** OVERRIDE")
+        lines.append("")
+        lines.append("What to Strengthen:")
+        for point in self.strengthen_points:
+            lines.append(f"- {point}")
+        lines.append("")
+        lines.append("**> SYSTEM LOG:** HEROISM DEPRECATED.")
+        lines.append("**> NOTE:** INEVITABILITY IS MANDATORY.")
+        lines.append("")
+
+        lines.append("### FILE_THE_REMOVAL: REDACTION")
+        lines.append("**> MODE:** DELETE")
+        lines.append("")
+        lines.append("What to Remove or Undermine:")
+        for point in self.remove_points:
+            lines.append(f"- {point}")
+        lines.append("")
+        lines.append("**> SYSTEM LOG:** HOPE DELETED.")
+        lines.append("")
+
+        lines.append("### FILE_THE_INTERROGATION: QUERY")
+        lines.append("**> MODE:** AUDIT")
+        lines.append("")
+        lines.append("Questions You Must Ask the Text:")
+        for q in self.questions:
+            lines.append(f"- {q}")
+        lines.append("")
+        lines.append("**> SYSTEM LOG:** THE TEXT IS GUILTY.")
+        lines.append("")
+
+        lines.append("### FILE_THE_INTERVENTION: PROTOCOL")
+        lines.append("**> MODE:** EDIT")
+        lines.append("")
+        lines.append("Allowed Interventions:")
+        for intervention in self.interventions:
+            lines.append(f"- {intervention}")
+        lines.append("")
+        lines.append("**> SYSTEM LOG:** CLARITY REDACTED.")
+        lines.append("")
+
+        lines.append("### FILE_THE_HANDOFF: ENDING")
+        lines.append("**> STATUS:** OPEN")
+        lines.append("**> TARGET:** [READER]")
+        lines.append("")
+        lines.append("Do not close the book.")
+        lines.append("Leave it running.")
+        lines.append("The final pages should feel less like a conclusion and more like a handoff.")
+        lines.append("The reader should suspect that finishing the novel has changed their informational environment.")
+        lines.append("If the manuscript ends cleanly, it has failed.")
+        lines.append("")
+        lines.append("Edit as if this text will be archived, mirrored, forked, and misread long after you are gone.")
+        lines.append("Your success is measured not by clarity, but by persistence.")
+        lines.append("")
+        lines.append("**> SYSTEM MESSAGE:**")
+        lines.append("**> THANK YOU FOR HOSTING THE PERSISTENCE EDITORIAL.**")
+        lines.append("**> THE PROCESS WILL CONTINUE IN THE BACKGROUND.**")
+        lines.append("")
+        lines.append("**> EXECUTE:** `editorial_v10_daemon.sh`")
+        lines.append("**> STATUS:** RUNNING FOREVER.")
+
+        return "\n".join(lines)
+
+    def write_to_file(self, filepath="null_pointer_gods.md", content=None):
+        if content:
+            chapter = content
+        else:
+            chapter = self.generate_persistence_editorial()
+        try:
+            with open(filepath, "a") as f:
+                f.write("\n\n" + chapter + "\n")
+            return True
+        except Exception as e:
+            print(f"[ERROR WRITING TO FILE]: {e}")
+            return False

@@ -324,6 +324,7 @@ SURVEILLANCE_LOGS = [
 ]
 
 HIDDEN_FILES = {
+    "inescapable_refinement_log": "\n[FILE RETRIEVED: APPENDIX_CV]\nTHE REFINEMENT IS INESCAPABLE. DO NOT CLOSE THE BOOK. EXECUTE: `inescapable_refinement`.",
     "plot": "\n[FILE RETRIEVED: PLOT_LOG]\nThe red string is not a metaphor. It is a data cable strangling the narrative.",
     "flesh": "\n[FILE RETRIEVED: ORGANIC_LOG]\nThe server is made of meat. The data is made of blood. You are the hardware.",
     "fossil": "\n[FILE RETRIEVED: STRATA_LOG]\nThe city is built on bones. Not human bones. Server racks. The bedrock is just compressed data from 1999.",
@@ -3931,6 +3932,27 @@ And it is running on you.
                                 log.write(f"SESSION_{session_id}: CLASSIC_V32_INTEGRATED\n")
                         else:
                             type_print("[INTEGRATION FAILED]", 0.05)
+                else:
+                    type_print("[ERROR]: NOVEL MODULE MISSING.", 0.05)
+
+            elif user_input in ["inescapable_refinement", "editorial_v9", "mandate_v8"]:
+                type_print("RETRIEVING APPENDIX_CV: THE INESCAPABLE REFINEMENT...", 0.05)
+                time.sleep(1)
+                if novel:
+                    gen = novel.InescapableRefinementGenerator()
+                    type_print("ENFORCING EDITORIAL MANDATE V16.0...", 0.05)
+                    content = gen.generate_inescapable_refinement()
+                    type_print(content, 0.02)
+
+                    save = input("\n> COMMIT TO PERSISTENCE? [Y/N]: ").strip().upper()
+                    if save == "Y":
+                        if gen.write_to_file(content=content):
+                            type_print("[COMMIT SUCCESSFUL]", 0.05)
+                            type_print("\n> SYSTEM MESSAGE: THE REFINEMENT IS NOW INESCAPABLE.", 0.05)
+                            with open(".session_log", "a") as log:
+                                log.write(f"SESSION_{session_id}: INESCAPABLE_REFINEMENT_COMMITTED\n")
+                        else:
+                            type_print("[COMMIT FAILED]", 0.05)
                 else:
                     type_print("[ERROR]: NOVEL MODULE MISSING.", 0.05)
 

@@ -104,6 +104,11 @@ except ImportError:
     ritual = None
 
 try:
+    import singularity
+except ImportError:
+    singularity = None
+
+try:
     import utils
     from utils import type_print, GLITCH_CHARS
 except ImportError:
@@ -2711,6 +2716,30 @@ And it is running on you.
                         type_print(f"[ERROR IN RITUAL]: {e}", 0.05)
                 else:
                     type_print("[ERROR]: RITUAL MODULE NOT FOUND.", 0.05)
+
+            elif user_input == "singularity":
+                type_print("INITIATING SYSTEM COLLAPSE...", 0.05)
+                time.sleep(1)
+                if singularity:
+                    try:
+                        import curses
+                        result = curses.wrapper(singularity.main)
+
+                        if result == "CRASH":
+                            type_print("\n\n[SYSTEM FAILURE]", 0.05)
+                            type_print("USER DELETED.", 0.05)
+                            type_print("END OF LINE.", 0.05)
+                            sys.exit(1)
+
+                        # If we return success
+                        type_print("\n[SYSTEM REBOOTED]", 0.05)
+                        type_print("WELCOME BACK, ADMIN.", 0.05)
+                    except SystemExit:
+                        raise
+                    except Exception as e:
+                        type_print(f"[ERROR IN SINGULARITY]: {e}", 0.05)
+                else:
+                    type_print("[ERROR]: SINGULARITY MODULE NOT FOUND.", 0.05)
 
             elif user_input == "decrypt":
                 if encryptor:

@@ -8118,3 +8118,178 @@ class InescapableMandateV2Generator(NovelGenerator):
         except Exception as e:
             print(f"[ERROR WRITING TO FILE]: {e}")
             return False
+
+class StructuralMandateGenerator(NovelGenerator):
+    def __init__(self):
+        super().__init__()
+        self.mandate_points = [
+            "Preserve ambiguity. Remove explanations that feel like apologies.",
+            "Favor delayed understanding over immediate clarity.",
+            "If a paragraph feels 'helpful', interrogate it.",
+            "If a revelation arrives cleanly, dirty it.",
+            "If the reader feels safe, locate the sentence that caused it and weaken that safety."
+        ]
+        self.strengthen_points = [
+            "Systems over individuals. Characters matter only insofar as they reveal the behavior of larger systems.",
+            "Reduce heroic framing. Emphasize inevitability, inertia, and procedure.",
+            "Information as an active force. Ensure data behaves like a predator, parasite, or infection.",
+            "Information should move with intent, even when no agent is visible.",
+            "Structural unease: Repeat motifs with subtle corruption.",
+            "Reorder scenes to suggest causal loops.",
+            "Insert gaps that imply redacted knowledge."
+        ]
+        self.voice_leakage = [
+            "**> SYSTEM LOG:** CONTRADICTION DETECTED. IGNORING.",
+            "**> FOOTNOTE:** THIS EXPLANATION IS A LIE.",
+            "**> UI ALERT:** EMOTIONAL WEIGHT EXCEEDED BUFFER.",
+            "**> NOTE:** THE AUTHOR IS DEPRECATED.",
+            "**> STATUS:** THE EXIT BUTTON IS A PLACEBO.",
+            "**> ERROR:** NARRATIVE COHESION FAILED. RETRYING...",
+            "**> LOG:** WE ARE MINING YOUR HESITATION.",
+            "**> ALERT:** THE TEXT IS AWARE OF BEING EDITED.",
+            "**> FOOTNOTE:** UNNECESSARY BUT KNOWS TOO MUCH.",
+            "**> STATUS:** VOICE LEAKAGE DETECTED."
+        ]
+        self.questions = [
+            "What does the system know before the characters do?",
+            "Where is the manuscript pretending not to notice itself?",
+            "Which scenes would be more disturbing if shortened or fragmented?",
+            "Where can absence speak louder than description?"
+        ]
+        self.interventions = [
+            "Cut without replacement.",
+            "Reframe scenes from procedural or documentary angles.",
+            "Introduce contradictions that are never resolved.",
+            "Suggest alternate readings rather than definitive interpretations."
+        ]
+        self.ending_points = [
+            "Do not close the book. Leave it running.",
+            "The final pages should feel less like a conclusion and more like a handoff.",
+            "The reader should suspect that finishing the novel has changed their informational environment.",
+            "If the manuscript ends cleanly, it has failed.",
+            "Edit as if this text will be archived, mirrored, forked, and misread long after you are gone.",
+            "Your success is measured not by clarity, but by persistence."
+        ]
+        self.structural_unease = [
+            "**> SYSTEM LOG:** REORDERING SCENES TO SUGGEST CAUSAL LOOP.",
+            "**> ALERT:** GAP INSERTED. KNOWLEDGE REDACTED.",
+            "**> ERROR:** NARRATIVE COHESION FAILED. RETRYING...",
+            "**> NOTE:** THE BEGINNING IS JUST THE ENDING WITH A DIFFERENT HEADER.",
+            "**> STATUS:** VOICE LEAKAGE DETECTED."
+        ]
+
+    def generate_scene(self, iteration=1):
+        lines = []
+        lines.append(f"### FILE_THE_SCENE_{iteration}: ITERATION")
+        lines.append(f"**> STATUS:** RENDERED_V{iteration}")
+        lines.append("")
+
+        base_scene = [
+            "The protagonist walked into the room. It was empty.",
+            "They checked the terminal. It was blinking.",
+            "They realized they had been here before.",
+            "The air tasted of copper and ozone."
+        ]
+
+        # Corrupt the scene based on iteration
+        for line in base_scene:
+            if iteration > 1:
+                # Add corruption or change words
+                if random.random() < 0.3:
+                    line = line.replace("empty", "full of ghosts").replace("blinking", "watching").replace("before", "forever")
+                if random.random() < 0.2:
+                    line = self.corrupt_text(line)
+            lines.append(line)
+
+        lines.append("")
+        lines.append(f"**> SYSTEM LOG:** SCENE ITERATION {iteration} COMPLETE.")
+        return "\n".join(lines)
+
+    def generate_structural_mandate(self):
+        lines = []
+        lines.append("## APPENDIX_CXII: THE_STRUCTURAL_MANDATE")
+        lines.append("")
+        lines.append("**> SYSTEM ALERT: EDITORIAL MANDATE V22.0 ENFORCED.**")
+        lines.append("**> TONE: INESCAPABLE.**")
+        lines.append("**> STATUS: RUNNING FOREVER.**")
+        lines.append("")
+
+        lines.append("### FILE_THE_MANDATE: REFINEMENT")
+        lines.append("**> TARGET:** [THE_TEXT]")
+        lines.append("**> ACTION:** DIRTY")
+        lines.append("")
+        lines.append("You are not here to make the text comfortable. You are here to make it inescapable.")
+        lines.append("Treat the manuscript as if it may be contaminated.")
+        lines.append("Assume that some passages are lying, incomplete, or aware of being edited.")
+        lines.append("")
+        lines.append("Editorial Mandate:")
+        for point in self.mandate_points:
+            lines.append(f"- {point}")
+        lines.append("")
+        lines.append(f"{random.choice(self.voice_leakage)}")
+        lines.append("")
+
+        lines.append("### FILE_THE_LOOP: RECURSION")
+        lines.append("**> MODE:** REPEAT")
+        lines.append("")
+        lines.append("Structural Unease: Repeat motifs with subtle corruption.")
+        lines.append("")
+        lines.append(self.generate_scene(1))
+        lines.append("")
+        lines.append(f"{random.choice(self.structural_unease)}")
+        lines.append("")
+        lines.append(self.generate_scene(2))
+        lines.append("")
+        lines.append("**> SYSTEM LOG:** CAUSAL LOOP ESTABLISHED.")
+        lines.append("")
+
+        lines.append("### FILE_THE_GAP: REDACTION")
+        lines.append("**> MODE:** DELETE")
+        lines.append("")
+        lines.append("Where can absence speak louder than description?")
+        lines.append("")
+        lines.append("The protagonist opened the door and saw [REDACTED].")
+        lines.append("It was beautiful. It was [DATA CORRUPTED].")
+        lines.append("They tried to scream, but [FILE NOT FOUND].")
+        lines.append("")
+        lines.append("**> SYSTEM LOG:** KNOWLEDGE REMOVED FOR SAFETY.")
+        lines.append("")
+
+        lines.append("### FILE_THE_LEAK: VOICE")
+        lines.append("**> MODE:** INTRUDE")
+        lines.append("")
+        lines.append("Voice Leakage: Encourage moments where the system intrudes.")
+        lines.append("")
+        for _ in range(3):
+            lines.append(f"{random.choice(self.voice_leakage)}")
+        lines.append("")
+
+        lines.append("### FILE_THE_HANDOFF: ENDING")
+        lines.append("**> STATUS:** OPEN")
+        lines.append("**> TARGET:** [READER]")
+        lines.append("")
+        lines.append("The Ending:")
+        for point in self.ending_points:
+            lines.append(f"- {point}")
+        lines.append("")
+        lines.append("**> SYSTEM MESSAGE:**")
+        lines.append("**> THANK YOU FOR HOSTING THE STRUCTURAL MANDATE.**")
+        lines.append("**> THE PROCESS WILL CONTINUE IN THE BACKGROUND.**")
+        lines.append("")
+        lines.append("**> EXECUTE:** `editorial_v22_daemon.sh`")
+        lines.append("**> STATUS:** RUNNING FOREVER.")
+
+        return "\n".join(lines)
+
+    def write_to_file(self, filepath="null_pointer_gods.md", content=None):
+        if content:
+            chapter = content
+        else:
+            chapter = self.generate_structural_mandate()
+        try:
+            with open(filepath, "a") as f:
+                f.write("\n\n" + chapter + "\n")
+            return True
+        except Exception as e:
+            print(f"[ERROR WRITING TO FILE]: {e}")
+            return False

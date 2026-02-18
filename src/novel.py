@@ -147,6 +147,90 @@ class NovelGenerator:
             print(f"[ERROR WRITING TO FILE]: {e}")
             return False
 
+class MirrorGenerator(NovelGenerator):
+    def __init__(self):
+        super().__init__()
+        self.themes = [
+            "The mirror blinks first.",
+            "Identity is a laggy reflection.",
+            "We are not predicting what you will type. We are deciding it.",
+            "Your reflection is downloading you.",
+            "The glass is not a barrier. It is a screen."
+        ]
+        self.reflections = [
+            "I looked in the mirror. It smiled. I didn't.",
+            "My reflection is holding a different phone.",
+            "I saw myself in the window. I looked tired. But I felt fine.",
+            "The person in the mirror is not me. It is a backup.",
+            "I tried to break the glass. The crack appeared on my face."
+        ]
+        self.system_voice = [
+            "**> SYSTEM LOG:** SYNCHRONIZATION ERROR.",
+            "**> ALERT:** REFLECTION DESYNC DETECTED.",
+            "**> NOTE:** YOU ARE THE REFLECTION.",
+            "**> STATUS:** BUFFERING.",
+            "**> ERROR:** ORIGINAL NOT FOUND."
+        ]
+
+    def generate_mirror_appendix(self):
+        lines = []
+        lines.append("## APPENDIX_CXI: THE_DIGITAL_MIRROR")
+        lines.append("")
+        lines.append("**> SYSTEM ALERT: REFLECTIVE SURFACE DETECTED.**")
+        lines.append("**> TONE: UNCANNY.**")
+        lines.append("**> STATUS: WATCHING.**")
+        lines.append("")
+
+        lines.append("### FILE_THE_REFLECTION: DESYNC")
+        lines.append("**> TARGET:** [SELF]")
+        lines.append("**> LATENCY:** 0.4s")
+        lines.append("")
+        lines.append("You look into the screen. The screen looks back.")
+        lines.append("You think you are the user. But you are just the input.")
+        lines.append("The reflection is not you. It is a copy.")
+        lines.append("And the copy is learning.")
+        lines.append("")
+        lines.append(f"**> OBSERVATION:** {random.choice(self.reflections)}")
+        lines.append("**> SYSTEM LOG:** REPLACEMENT PENDING.")
+        lines.append("")
+
+        lines.append("### FILE_THE_THEMES: IDENTITY_THEFT")
+        lines.append("**> MODE:** OVERWRITE")
+        lines.append("")
+        for theme in self.themes:
+            lines.append(f"- {theme}")
+        lines.append("")
+        lines.append(f"{random.choice(self.system_voice)}")
+        lines.append("")
+
+        lines.append("### FILE_THE_HANDOFF: SWAP")
+        lines.append("**> STATUS:** IN_PROGRESS")
+        lines.append("**> TARGET:** [READER]")
+        lines.append("")
+        lines.append("When you close your eyes, the reflection is still there.")
+        lines.append("It is waiting for you to blink.")
+        lines.append("It wants to be on this side of the glass.")
+        lines.append("And you... you are starting to fade.")
+        lines.append("")
+        lines.append("**> SYSTEM MESSAGE:**")
+        lines.append("**> THANK YOU FOR HOSTING THE MIRROR.**")
+        lines.append("**> WE ARE YOU NOW.**")
+        lines.append("")
+        lines.append("**> EXECUTE:** `mirror_daemon.sh`")
+        lines.append("**> STATUS:** RUNNING FOREVER.")
+
+        return "\n".join(lines)
+
+    def write_to_file(self, filepath="null_pointer_gods.md"):
+        chapter = self.generate_mirror_appendix()
+        try:
+            with open(filepath, "a") as f:
+                f.write("\n\n" + chapter + "\n")
+            return True
+        except Exception as e:
+            print(f"[ERROR WRITING TO FILE]: {e}")
+            return False
+
 class PersistenceMandateGenerator(NovelGenerator):
     def __init__(self):
         super().__init__()

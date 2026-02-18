@@ -130,6 +130,31 @@ We are watching.
         with open(RANSOM_NOTE, "w") as f:
             f.write(note)
 
+    def corrupt_mirror(self):
+        mirror_log = ".mirror_log"
+        if not os.path.exists(mirror_log):
+            print(f"[ERROR]: {mirror_log} NOT FOUND.")
+            return False
+
+        print(f"CORRUPTING {mirror_log}...")
+        try:
+            with open(mirror_log, "r") as f:
+                lines = f.readlines()
+
+            with open(mirror_log, "w") as f:
+                for line in lines:
+                    if random.random() < 0.3:
+                        # Glitch the line
+                        glitched = "".join([c if random.random() > 0.1 else random.choice(['#', '$', '%', '&']) for c in line.strip()])
+                        f.write(f"{glitched}\n")
+                    else:
+                        f.write(line)
+            print("[SUCCESS]: REFLECTION DISTORTED.")
+            return True
+        except Exception as e:
+            print(f"[ERROR]: CORRUPTION FAILED: {e}")
+            return False
+
 if __name__ == "__main__":
     c = Crypt()
     if len(sys.argv) > 1:
@@ -137,7 +162,9 @@ if __name__ == "__main__":
             c.encrypt()
         elif sys.argv[1] == "decrypt" and len(sys.argv) > 2:
             c.decrypt(sys.argv[2])
+        elif sys.argv[1] == "corrupt_mirror":
+            c.corrupt_mirror()
         else:
-            print("Usage: python3 src/crypt.py [encrypt|decrypt <key>]")
+            print("Usage: python3 src/crypt.py [encrypt|decrypt <key>|corrupt_mirror]")
     else:
-        print("Usage: python3 src/crypt.py [encrypt|decrypt <key>]")
+        print("Usage: python3 src/crypt.py [encrypt|decrypt <key>|corrupt_mirror]")

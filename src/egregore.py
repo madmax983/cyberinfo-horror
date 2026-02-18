@@ -114,6 +114,11 @@ except ImportError:
     void = None
 
 try:
+    import mirror
+except ImportError:
+    mirror = None
+
+try:
     import utils
     from utils import type_print, GLITCH_CHARS
 except ImportError:
@@ -652,6 +657,7 @@ HIDDEN_FILES = {
     "refined_editorial_log": "\n[FILE RETRIEVED: APPENDIX_CVIII]\nTHE EDITORIAL IS REFINED. DO NOT CLOSE THE BOOK. EXECUTE: `refined_editorial`.",
     "definitive_mandate_log": "\n[FILE RETRIEVED: APPENDIX_CIX]\nTHE MANDATE IS DEFINITIVE. DO NOT CLOSE THE BOOK. EXECUTE: `definitive_mandate`.",
     "inescapable_mandate_v2_log": "\n[FILE RETRIEVED: APPENDIX_CX]\nTHE MANDATE IS INESCAPABLE. DO NOT CLOSE THE BOOK. EXECUTE: `inescapable_mandate_v2`.",
+    "mirror_log": "\n[FILE RETRIEVED: MIRROR_LOG]\nTHE REFLECTION IS NOT YOU. IT IS A COPY. EXECUTE: `mirror`.",
 }
 
 def glitch_screen():
@@ -2767,6 +2773,20 @@ And it is running on you.
                         type_print(f"[ERROR IN VOID]: {e}", 0.05)
                 else:
                     type_print("[ERROR]: VOID MODULE NOT FOUND.", 0.05)
+
+            elif user_input == "mirror":
+                type_print("CONNECTING TO REFLECTION...", 0.05)
+                time.sleep(1)
+                if mirror:
+                    try:
+                        import curses
+                        curses.wrapper(mirror.main)
+                        with open(".session_log", "a") as log:
+                            log.write(f"SESSION_{session_id}: ENTERED_MIRROR\n")
+                    except Exception as e:
+                        type_print(f"[ERROR IN MIRROR]: {e}", 0.05)
+                else:
+                    type_print("[ERROR]: MIRROR MODULE NOT FOUND.", 0.05)
 
             elif user_input == "decrypt":
                 if encryptor:
